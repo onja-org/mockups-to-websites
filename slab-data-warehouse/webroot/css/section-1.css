@@ -1,16 +1,20 @@
 .section-1 {
-  margin-inline-start: 145px;
+  margin-inline-start: 20px;
   margin-block-start: 50px;
-  width: 1343px;
-  height: 745px;
-  background-image: url("../images/image1\ 1.png");
-  background-position: 603px 336px;
+  margin-inline-end: 20px;
+  width: 1000px;
+  height: 700px;
+  background-image: url("../images/image1\ 1.png"),
+                    url(../images/Logo.jpg);
+  background-position: 350px 320px,
+                       150px 50px;
   background-repeat: no-repeat;
-  background-size: 885px 468px;
+  background-size: 650px 250px,
+                   60px 40px;
 }
 
 .section-1 nav ul{
-  margin-inline-start: 240px;
+  margin-inline-start: 220px;
   margin-block-start: 50px;
   text-align: start;
   list-style: none;
@@ -20,7 +24,7 @@
   display: inline-flex;
   align-items: flex-start;
   justify-content: flex-start;
-  margin-right: 5rem;
+  margin-right: 4rem;
   margin-block-start: 65px;
 }
 
@@ -32,8 +36,8 @@
 }
 
 .section-1 button {
-  margin-inline-start: 1120px;
-  margin-block-start: 0px;
+  margin-inline-start: 800px;
+  margin-block-start: -100px;
   background-color: #ffffff;
   padding: 2rem;
   border-radius: 40%;
@@ -42,6 +46,26 @@
 .section-1 button::after {
   content: '→';
   margin-left: 1rem;
+}
+
+.section-1 header {
+  width: 645px;
+  height: 468;
+  margin-inline-start: 60px;
+  margin-block-start: 40px;
+}
+
+.section-1 h1 {
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 3rem;
+  width: 600px;
+  height: 184;
+}
+
+.section-1 header p {
+  width: 340px;
+  height: 120;
 }
 
 
