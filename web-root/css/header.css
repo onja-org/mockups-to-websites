@@ -1,0 +1,48 @@
+header {
+  position: relative;
+}
+
+header h1 {
+  display: block;
+  width: 266px;
+  height: 54px;
+  color: white;
+  text-transform: uppercase;
+  position: absolute;
+  top: 95px;
+  left: 100px;
+
+}
+
+header {
+  background-color: black;
+}
+
+header svg {
+  width: 120px;
+  height: 21px;
+}
+
+.head {
+  display: flex;
+  flex-direction: row;
+}
+
+.head ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 546px;
+  height: 20px;
+}
+
+.head nav li {
+  list-style: none;
+}
+
+.head nav a {
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+  font-family: 'Courier New', Courier, monospace;
+}
