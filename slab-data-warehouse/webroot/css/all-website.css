@@ -1,0 +1,21 @@
+
+html {
+  background-color: #E5E5E5;
+}
+body {
+  background:linear-gradient(180deg, #F6FAFD 0%, #FFFFFF 19.4%);
+  position: relative;
+   width: 1600px;
+   height: 4500px;
+
+}
+
+.feature {
+  position: absolute;
+  width: 1137.28px;
+  height: 1026px;
+  left: 220px;
+  top: 1613px;
+
+}
+

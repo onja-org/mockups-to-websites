@@ -1,0 +1,27 @@
+
+.link > nav {
+  position: absolute;
+  width: 368.18px;
+  height: 30px;
+  left: 268.38px;
+  top: 185px;
+}
+.link > nav ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+
+.link > nav a {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1rem;
+  color: black;
+  text-decoration: none;
+}
+
+nav li {
+  margin-inline-end: 1rem;
+}
