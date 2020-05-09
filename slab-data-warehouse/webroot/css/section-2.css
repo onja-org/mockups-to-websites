@@ -1,0 +1,27 @@
+.section-2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: flex-start;
+  width: 900px;
+  height: 500px;
+  margin-inline-start: 150px;
+  background-image: url(../images/image2.png);
+  background-position: -30px -5px;
+  background-repeat: no-repeat;
+  background-size: -95px 500px;
+  background-color: lightpink;
+}
+
+.section-2 * {
+  margin-inline-start: 230px;
+  width: 400px;
+  height: 300px;
+  margin-inline-end: 250px;
+  margin-block-start: 5rem;
+}
+
+.section-2 p {
+  margin-block-start: -250px;
+}
+
