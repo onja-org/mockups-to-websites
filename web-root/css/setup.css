@@ -1,8 +1,17 @@
 body {
   background-color: black;
+  margin-inline-start: 100px;
 }
 
-section {
+/* main {
   display: grid;
   grid-template-columns: 2fr 1fr;
+} */
+
+section > h2 {
+  color: #ffffff;
+}
+
+section > h2 ~ p {
+  color: #ffffff;
 }
