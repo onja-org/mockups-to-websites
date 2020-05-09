@@ -1,16 +1,19 @@
 header {
   position: relative;
+  width: 753px;
+  height: 194px;
 }
 
 header h1 {
   display: block;
   width: 266px;
   height: 54px;
-  color: white;
+  color: #FC7756;
   text-transform: uppercase;
   position: absolute;
   top: 95px;
-  left: 100px;
+  margin: 0;
+  font-weight: bold;
 
 }
 
@@ -21,6 +24,7 @@ header {
 header svg {
   width: 120px;
   height: 21px;
+  margin-inline-start: -100px;
 }
 
 .head {
@@ -34,6 +38,8 @@ header svg {
   justify-content: space-around;
   width: 546px;
   height: 20px;
+  margin: 0;
+  margin-block-start:15px;
 }
 
 .head nav li {
@@ -45,4 +51,5 @@ header svg {
   color: white;
   text-transform: uppercase;
   font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
 }
