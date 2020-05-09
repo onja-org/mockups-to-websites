@@ -1,0 +1,21 @@
+section:nth-of-type(2) {
+  position: absolute;
+  width: 806px;
+  height: 898px;
+  left: 62px;
+  top: 374px;
+}
+
+ section:nth-of-type(2) table > thead {
+  border-bottom: 2px solid #ffffff;
+ }
+
+section:nth-of-type(2) table > thead > tr > th {
+  text-transform: uppercase;
+  padding-inline-start: 2.5rem;
+  padding-inline-start: -1rem;
+
+}
+section:nth-of-type(2) table > thead > tr > th:nth-of-type() {
+
+}
