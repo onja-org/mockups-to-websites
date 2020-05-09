@@ -53,3 +53,22 @@ header svg {
   font-family: 'Courier New', Courier, monospace;
   font-weight: bold;
 }
+
+.button {
+  display: flex;
+  flex-direction: row;
+}
+
+.button {
+  position: absolute;
+  background-color: black;
+  left: 932px;
+  top: 143px;
+}
+
+.my_profile {
+  position: absolute;
+  top: 10px;
+  left: 1222px;
+  word-wrap: break-word;
+}
