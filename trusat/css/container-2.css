@@ -59,4 +59,7 @@ opacity: 0.5;
  tbody [headers="header_object"] {
  text-transform: uppercase;
  }
- 
+ tr {
+   height: 3rem;
+   border-style: double;
+ }
