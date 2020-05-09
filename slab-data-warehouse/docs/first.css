@@ -1,0 +1,47 @@
+header {
+  width: 1120px;
+  height: 60px;
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+
+header div:first-of-type {
+  background-color: rgb(159, 110, 236);
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+
+}
+header div:last-of-type {
+  background-color: rgb(245, 125, 199);
+  width: 20px;
+  height: 35px;
+  border-radius: 40%;
+  margin: 2rem;
+  margin-top: -2rem;
+}
+
+.link > li{
+  text-align: center;
+  margin-left: 5rem;
+  display: inline;
+  }
+
+  ul.link{
+    margin-right: 15px;
+    position: 90% 10%;
+    margin-top: -3rem;
+  }
+
+  body > header a{
+    text-align: center;
+    text-decoration: none;
+    color: black;
+  }
+
+  header > button{
+    background-color: white;
+
+
+  }
+

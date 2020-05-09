@@ -1,0 +1,50 @@
+section:nth-of-type(3){
+  text-align: center;
+  display: grid;
+}
+
+section:nth-of-type(3) div.feature{
+ grid-template-columns: 388px 394px;
+ grid-template-rows:539.28px 550.28px ;
+ grid-gap: 50px;
+}
+
+section:nth-of-type(3) div div.search {
+  background-color: rgba(139, 248, 234, 0.644) ;
+  width: 531.29px;
+  height: 388px;
+  border-radius: 10%;
+  background-image: url(image3.png);
+  background-repeat: no-repeat;
+
+}
+section:nth-of-type(3) div div.hours{
+  background-color: gainsboro;
+  width: 544.28px;
+  height: 394.56px;
+  border-radius: 10%;
+  background-image: url(image4.png);
+  background-repeat: no-repeat;
+  grid-column: 2;
+  display: grid;
+  grid-row: 1;
+
+}
+
+section:nth-of-type(3) div div.print{
+  background-color:  rgba(233, 188, 223, 0.678);
+  width: 550.28px;
+  height: 358px ;
+  border-radius: 10%;
+  background-image: url(image5.png);
+  background-repeat: no-repeat;
+}
+
+section:nth-of-type(3) div div.security{
+  background-color:  rgba(139, 217, 236, 0.39);
+  width: 539.28px;
+  height: 364px ;
+  border-radius: 10%;
+  background-image: url(image6.png);
+  background-repeat: no-repeat;
+}

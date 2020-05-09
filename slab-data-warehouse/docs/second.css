@@ -1,0 +1,11 @@
+main section:nth-child(1){
+  background-image: url(image1.png);
+  background-repeat: no-repeat;
+  background-size: 20rem;
+  width: 1248px;
+  height: 630px;
+
+}
+main section:nth-child(1) p {
+  float: left;
+}
