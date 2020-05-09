@@ -1,0 +1,27 @@
+body nav li > a {
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+main nav {
+  border-block-end: solid 1px hsla(0, 100%, 100%, 0.4);
+}
+
+main nav li > a {
+  color: #FFFFFF;
+  opacity: 0.5;
+  line-height: 24px;
+  font-weight: normal;
+  padding-left: 2rem;
+}
+
+li {
+  display: inline-block;
+  letter-spacing: 0.05em;
+}
+main nav li:nth-of-type(1) > a {
+  color: #FFFFFF;
+  opacity: 1;
+}

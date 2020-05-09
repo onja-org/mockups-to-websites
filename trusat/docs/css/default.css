@@ -1,0 +1,44 @@
+body {
+  font-family: montserrat;
+  background-color: #081122;
+  display: grid;
+}
+
+ul {
+  list-style: none;
+}
+
+h2 {
+  color: #FFFFFF;
+  border-block-end: solid 1px hsla(0, 100%, 100%, 0.4);
+  font-weight: normal;
+}
+
+nav + h2 {
+  font-weight: normal;
+}
+p {
+  color: #FFFFFF;
+  opacity: 0.5;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+th {
+  color: #FFFFFF;
+  opacity: 0.5;
+  font-weight: normal;
+  border-block-end: solid 1px hsla(0, 100%, 100%, 0.4);
+}
+
+main td {
+  border-block-end: 1px solid #113051;
+}
+
+tr {
+  color: #FFFFFF;
+}
+
+main {
+  margin: 2rem;
+}

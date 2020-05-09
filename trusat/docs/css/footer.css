@@ -1,0 +1,31 @@
+section:nth-of-type(1) a {
+  color: #EC7E5F;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+section:nth-of-type(2) tr:nth-of-type(2) td {
+  color: #FFFFFF;
+  opacity: 0.5;
+}
+section:nth-of-type(3) td {
+  border-block-end: 1px solid #113051;
+}
+
+section:last-of-type td {
+  border-block-end: 1px solid #113051;
+}
+
+button {
+  width: 143px;
+  height: 30px;
+  background-color: transparent;
+  border-radius: 4px;
+  border: 1px solid hsla(0, 100%, 100%, 0.4);
+  color: #FFFFFF;
+  font-size: 12px;
+}
+
+footer {
+  margin: 2rem;
+}

@@ -1,0 +1,9 @@
+h1 {
+  font-size: 40px;
+  color: #FC7756;
+  text-transform: uppercase;
+}
+
+body > header {
+  margin: 1rem;
+}
