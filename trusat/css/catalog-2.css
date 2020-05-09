@@ -1,0 +1,62 @@
+.container-2 {
+  margin-block-start: -1.5rem;
+}
+.container-2 .text p {
+font-size: 16px;
+line-height: 22px;
+
+}
+.container-2 h1 {
+border-bottom: 1px solid #FFFFFF;
+opacity: 0.5;
+}
+ .container-2 .text a {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  text-decoration-line: underline;
+  color: #EC7E5F;
+ }
+
+ .container-2 nav,
+ p {
+   opacity: 0.5;
+ }
+
+ .about-cat ul {
+  display: flex;
+  flex-direction: row;
+  margin-inline-start: -2.5rem;
+
+ }
+
+ .about-cat ul a{
+   position: relative;
+   top: -7rem;
+   border-width: 0.2px;
+   border-style: dotted;
+   text-decoration: none;
+   color: #FFFFFF;
+   opacity: 0.5;
+   font-size: 12px;
+   line-height: 125%;
+   margin-inline-end: 1rem;
+   padding: 16pxrem;
+ }
+ table {
+  color: #FFFFFF;
+  opacity: 0.5;
+ }
+
+  .table thead tr {
+   text-transform: uppercase;
+   width: 753px;
+   border-bottom: solid;
+   color: #FFFFFF;
+   opacity: 0.5;
+ }
+
+ tbody [headers="header_object"] {
+ text-transform: uppercase;
+ }
+ 

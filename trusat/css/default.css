@@ -1,0 +1,52 @@
+:root {
+  --width-doc: 1338px;
+  --height-doc: 1299px;
+}
+body {
+width: var(--width-doc);
+height: var(--height-doc);
+background: #081122;
+}
+/*
+body {
+  display: grid;
+  grid-template-columns:100px 753px 293px;
+  grid-template-areas:  blank header header
+                        section section section
+                        section section section;
+}
+header {
+  grid-area: header;
+}
+
+.container-1 {
+  grid-area: section;
+}
+.container-2 {
+  grid-area: section;
+}
+*/
+
+main {
+  display: grid;
+  grid-template-columns:753px 293px;
+  margin-inline-start: 100px;
+  margin-inline-end: 106px;
+  gap: 100px;
+}
+
+li {
+  list-style: none;
+}
+
+p,
+li,
+h1 {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-style: normal;
+  color: #FFFFFF;
+}
+
+h1 {
+text-transform: uppercase;
+}

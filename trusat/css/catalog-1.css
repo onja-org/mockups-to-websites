@@ -1,0 +1,72 @@
+
+body > header > h1 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 49px;
+  letter-spacing: 0.05em;
+  color: #FC7756;
+  margin-block-start: 5rem;
+  margin-inline-start: 100px;
+
+}
+
+body > header nav li{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+.pages nav {
+  display: flex;
+  flex-direction: row;
+  font-weight: normal;
+  border-bottom: 1px solid #FFFFFF;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  opacity: 0.5;
+
+}
+.pages > nav li:not(:first-of-type) {
+margin-inline-start: 2rem;
+}
+.pages nav li:first-of-type {
+  font-weight: bold;
+  opacity: 1;
+
+}
+
+.text p:first-of-type {
+font-weight: 300;
+font-size: 24px;
+line-height: 29px;
+}
+
+.text p:last-of-type {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+body > header {
+  display: grid;
+  grid-template-columns: 266px 298px;
+  column-gap: 2rem;
+}
+
+header > nav ul {
+  list-style: none;
+  display: grid;
+  grid-template-columns:123px 183px 175px 185px;
+
+}
+
+ 
