@@ -1,3 +1,67 @@
-main > header nav ul {
+
+body main  header nav ul {
   display: grid;
+  grid-template-columns: repeat( 6, 145px);
+  column-gap: 15px;
+  row-gap: 30px;
+  border-bottom: gray 1px solid;
+  padding: 0;
 }
+body main header nav h3  a {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+main header nav li:nth-of-type(2),
+main header nav li:nth-of-type(3),
+main header nav li:nth-of-type(4),
+main header nav li:nth-of-type(5) {
+  padding-block-start: 1.25rem;
+
+}
+
+body main header nav li > a {
+  text-decoration: none;
+}
+
+main header nav > ul li {
+  list-style: none;
+}
+main header nav li > a {
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+letter-spacing: 0.05em;
+text-transform: uppercase;
+color: #FFFFFF;
+opacity: 0.5;
+}
+main div p:nth-of-type(1) {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  color: #FFFFFF;
+  width: 753px;
+  height: 61px;
+}
+main div p:nth-of-type(2) {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  color: #FFFFFF;
+  opacity: 0.5;
+  width: 755px;
+  height: 38px;
+}
+
+
+
+

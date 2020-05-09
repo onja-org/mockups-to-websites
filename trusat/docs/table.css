@@ -1,0 +1,15 @@
+main table {
+  color: #ffffff;
+}
+#header_object {
+ width: 293px;
+}
+
+#header_origin,
+#purpose {
+  width: 242px;
+}
+#seen,
+#confidence {
+  width: 272px;
+}

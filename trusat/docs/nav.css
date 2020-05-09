@@ -16,7 +16,7 @@ margin-inline-end: 1rem;
 justify-content: space-between;
 }
 
-body > header > nav a {
+body > header  nav a {
 text-transform: uppercase;
 font-weight: bold;
 font-size: 1.25rem;
