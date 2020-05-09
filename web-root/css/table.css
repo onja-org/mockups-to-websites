@@ -1,0 +1,17 @@
+table thead,
+table tbody > tr > td:first-of-type {
+  text-transform: uppercase;
+  font-weight: bolder;
+  margin: 0;
+}
+#object {
+  padding-inline-start: -10px;
+  /* display: table-cell; */
+}
+
+table tr th,
+table tr td {
+  border-bottom: solid gray 1px;
+  padding-block-start: 1rem;
+  padding-block-end: 1rem;
+}
