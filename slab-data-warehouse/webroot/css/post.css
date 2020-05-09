@@ -1,0 +1,16 @@
+section:nth-of-type(1) p {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 18px;
+  width: 380px;
+  height: 100px;
+ padding-inline-start: 240px;
+}
+section:nth-of-type(1) h1 {
+  font-family: sans-serif;
+  font-size: 60px;
+  width: 645px;
+  height: 120px;
+  padding-inline-start: 240px;
+  padding-inline-end: 50px;
+
+}

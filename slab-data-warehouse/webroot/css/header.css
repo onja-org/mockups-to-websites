@@ -1,0 +1,13 @@
+body {
+  background-color: rgba(0, 0, 150, 0.2);
+}
+section:nth-of-type(1) {
+  background-image: url("../images/image1\ 1.svg");
+
+  background-repeat: no-repeat;
+  background-size: 600px;
+  background-position: right;
+  background-origin: padding-box;
+
+
+}
