@@ -1,0 +1,9 @@
+.catalog > h2 {
+  color: coral;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 49px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  margin-inline-start: 7rem;
+}

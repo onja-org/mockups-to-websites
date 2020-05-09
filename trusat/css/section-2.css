@@ -1,9 +1,21 @@
-section:nth-of-type(2) {
-  position: absolute;
+section:nth-of-type(2) > table {
+  display: table;
   width: 806px;
   height: 898px;
-  left: 62px;
-  top: 374px;
+  counter-reset: row-num;
+}
+
+section:nth-of-type(2) table > tr {
+  counter-increment: row-num;
+}
+
+section:nth-of-type(2) table > tr > td::before {
+  content: counter(row-num);
+}
+
+section:nth-of-type(2) table > tr > td > svg {
+  width: 50px;
+  height: 50px;
 }
 
  section:nth-of-type(2) table > thead {
@@ -18,4 +30,4 @@ section:nth-of-type(2) table > thead > tr > th {
 }
 section:nth-of-type(2) table > thead > tr > th:nth-of-type() {
 
-}
+} */
