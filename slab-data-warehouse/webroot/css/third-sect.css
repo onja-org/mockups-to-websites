@@ -1,0 +1,103 @@
+section:nth-of-type(3) {
+  width: 890px;
+  height: 600px;
+}
+section:nth-of-type(3) h3 {
+  position: absolute;
+  width: 405px;
+  height: 50px;
+  left: 500px;
+  padding-top: 500px;
+  font-family: Helvetica;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 56px;
+  color: #212353;
+}
+
+section:nth-of-type(3) header > h3 ~ p {
+  position: absolute;
+  width: 480px;
+  height: 50px;
+  padding-left: 350px;
+  padding-top: 600px;
+  font-family: Avenir;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 29px;
+  text-align: center;
+  color: #4B5D68;
+}
+ section:nth-of-type(3) div {
+  display: grid;
+  grid-template-columns: repeat(2, 145px);
+  grid-template-rows: repeat(2, 145px);
+}
+ section:nth-of-type(3) div #example-1 {
+  position: absolute;
+  width: 442px;
+  height: 258px;
+  left: 200px;
+  top: 1540px;
+  opacity: 0.5;
+  background: #68C9BA;
+  border-radius: 50px;
+ }
+ section:nth-of-type(3) div #example-1 img {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  left: -80px;
+}
+ section:nth-of-type(3) div #example-2 {
+  position: absolute;
+  width: 442px;
+  height: 258px;
+  margin-inline-start: 12rem;
+  left: 600px;
+  top: 1540px;
+  opacity: 0.5;
+  background: #4B5D68;
+  border-radius: 50px;
+ }
+ section:nth-of-type(3) div #example-2 img {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  left: -80px;
+}
+
+ section:nth-of-type(3) div #example-3 {
+  position: absolute;
+  width: 442px;
+  height: 258px;
+  left: 200px;
+  top: 1880px;
+  opacity: 0.5;
+  background: #F063B8;;
+  border-radius: 50px;
+ }
+ section:nth-of-type(3) div #example-3 img {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  left: -80px;
+}
+ section:nth-of-type(3) div #example-4 {
+  position: absolute;
+  width: 442px;
+  height: 258px;
+  margin-inline-start: 12rem;
+  left: 600px;
+  top: 1880px;
+  opacity: 0.5;
+  background: #2D9CDB;
+  border-radius: 50px;
+ }
+ section:nth-of-type(3) div #example-4 img {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  left: -80px;
+}
+
