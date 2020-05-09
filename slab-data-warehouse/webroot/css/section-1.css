@@ -1,0 +1,47 @@
+.section-1 {
+  margin-inline-start: 145px;
+  margin-block-start: 50px;
+  width: 1343px;
+  height: 745px;
+  background-image: url("../images/image1\ 1.png");
+  background-position: 603px 336px;
+  background-repeat: no-repeat;
+  background-size: 885px 468px;
+}
+
+.section-1 nav ul{
+  margin-inline-start: 240px;
+  margin-block-start: 50px;
+  text-align: start;
+  list-style: none;
+}
+
+.section-1 nav li {
+  display: inline-flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin-right: 5rem;
+  margin-block-start: 65px;
+}
+
+.section-1 nav li a {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1rem;
+  text-decoration: none;
+}
+
+.section-1 button {
+  margin-inline-start: 1120px;
+  margin-block-start: 0px;
+  background-color: #ffffff;
+  padding: 2rem;
+  border-radius: 40%;
+}
+
+.section-1 button::after {
+  content: '→';
+  margin-left: 1rem;
+}
+
+
