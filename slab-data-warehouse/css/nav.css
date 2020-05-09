@@ -1,0 +1,19 @@
+header > nav {
+    line-height: 1rem;
+  }
+  
+  header > nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+header > nav a {
+    font-size: 1rem;
+  }
+
+nav ul li {
+    margin-inline-end: 1rem;
+  }
