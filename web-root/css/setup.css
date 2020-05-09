@@ -1,17 +1,26 @@
+html * {
+  color: #ffffff;
+}
 body {
   background-color: black;
   margin-inline-start: 100px;
 }
 
-/* main {
+main {
   display: grid;
   grid-template-columns: 2fr 1fr;
-} */
+  grid-column-gap: calc(935px - 753px);
+  column-gap: calc(935px - 753px);
+}
 
 section > h2 {
   color: #ffffff;
 }
 
 section > h2 ~ p {
+  color: #ffffff;
+}
+
+table {
   color: #ffffff;
 }

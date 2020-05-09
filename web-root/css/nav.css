@@ -1,5 +1,5 @@
 
-main > nav ul {
+section > nav ul {
   display: flex;
   flex-direction: row;
   width: 753px;
@@ -9,38 +9,20 @@ main > nav ul {
   margin-block-end: 1rem;
 }
 
-main > nav ul li {
+section > nav ul li {
   list-style: none;
 }
 
-main > nav ul li a {
+section > nav ul li a {
   text-decoration: none;
   text-transform: uppercase;
   color: #ffffff;
 }
 
-main > nav li:first-of-type {
+section > nav li:first-of-type {
   font-weight: bold;
 }
 
-main > nav {
+section > nav {
   border-bottom: solid gray 1px;
-}
-
-main .navigation ul {
-  display: flex;
-  flex-direction: row;
-  width: 753px;
-  justify-content: space-between;
-}
-
-main .navigation ul li {
-  list-style: none;
-  margin: 0;
-}
-
-main .navigation ul li a {
-  text-decoration: none;
-  color: #ffffff;
-  text-transform: uppercase;
 }
