@@ -1,0 +1,44 @@
+main > section:nth-of-type(1) > header h2 {
+  text-transform: uppercase;
+  color: #FC7756;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 49px;
+  letter-spacing: 0.05em;
+  height: 59px;
+}
+main > section:nth-of-type(1) > header {
+  display: flex;
+  padding-left: 4rem;
+}
+
+
+main > section:nth-of-type(1) > .borders > ul {
+display: flex;
+margin: 0;
+}
+
+main > section:nth-of-type(1) > .borders > ul > li {
+  text-decoration: none;
+  list-style: none;
+  border: 1px solid #49536B;
+  box-sizing: border-box;
+  border-radius: 4px;
+  margin-left: 1rem;
+}
+main > section:nth-of-type(1) > .borders > ul > li a {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+main > section:nth-of-type(1) > .borders {
+padding-left: 44rem;
+display: flex;
+margin-top: -68px;
+flex-direction: row-reverse;
+
+}
