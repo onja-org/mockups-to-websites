@@ -1,0 +1,45 @@
+:root {
+  --padding-unit: 2rem;
+}
+
+
+header nav > ul {
+  display: flex;
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+}
+
+ header nav > ul li {
+  padding: 2rem;
+}
+
+header a {
+  font-family: serif;
+  font-size: calc(var(--padding-unit) / 2);
+}
+
+header nav li:first-of-type a {
+  color: #000;
+}
+
+header nav a {
+  color: rgba(0, 0, 0, 0.6);
+}
+
+
+header div a {
+  padding-inline-start: var(--padding-unit);
+  padding-inline-end: var(--padding-unit);
+  padding-block-start: calc(var(--padding-unit) / 2);
+  padding-block-end: calc(var(--padding-unit) / 2);
+  background-color: #fff;
+  border-radius: 30px;
+  color: #000;
+}
+
+header div {
+  padding-block-start: 3rem;
+}

@@ -1,0 +1,32 @@
+:root {
+  --section-width: 1000px;
+  --section-height: 350px;
+  --padding: calc(var(--section-height));
+}
+
+section {
+  padding-inline-start: 6.25rem;
+}
+
+section:first-of-type {
+  background-image: url("../images/data_storage.svg");
+  background-repeat: no-repeat;
+  background-position: right;
+   background-size: calc(var(--section-height) * 2);
+  width: var(--section-width);
+  height: calc(var(--section-height) *1.5);
+}
+
+section:nth-of-type(2) {
+  background-image: url(../images/data-storage-bank.svg);
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: var(--section-height);
+
+  padding-inline-start: calc(var(--padding) / 3);
+  padding-inline-end: calc(var(--padding) / 3);
+  padding-block-start: calc(var(--padding) / 3);
+  padding-block-end: calc(var(--padding) / 3);
+  background-color: rgba(240, 99, 184, 0.15);
+  border-radius: 50px;
+}
