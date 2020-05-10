@@ -1,0 +1,29 @@
+header ul {
+  text-align: center;
+}
+
+header ul li {
+  display: inline-block;
+  list-style: none;
+  font-family: sans-serif;
+  margin-left: 1rem;
+}
+
+header ul li:nth-of-type(1) {
+  font-weight: bolder;
+}
+
+header ul li:last-of-type {
+  margin-left: 10rem;
+  background-color: white;
+  padding: 1rem;
+  border-radius: 2rem;
+  font-weight: bolder;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-size: larger;
+}
+
