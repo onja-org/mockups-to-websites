@@ -1,5 +1,4 @@
 section:nth-of-type(2) {
-  position: absolute;
   width: 890px;
   height: 500px;
   left: 140px;
@@ -8,7 +7,7 @@ section:nth-of-type(2) {
   border-radius: 50px;
 }
  section:nth-of-type(2) h2 {
-   display: flex;
+  display: flex;
   float: right;
   margin-left: 50px;
   margin-top: 100px;
@@ -32,7 +31,6 @@ section:nth-of-type(2) {
  }
 
  section:nth-of-type(2) img {
-   position: absolute;
    width: 400px;
    height: 500px;
 
