@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+
+nav {
+  text-align: center;
+}
+
+nav > p {
+width: 120px;
+height: 21px;
+left: 25px;
+top: 18px;
+text-transform: uppercase;
+line-height: 1rem;
+font-size: 2rem;
+font-weight: bolder;
+}
+
+header > nav > ul > li {
+display: inline-block;
+text-transform: uppercase;
+font-style: normal;
+font-size: 16px;
+font-weight: bold;
+line-height: 15px;
+list-style-type: none;
+}
+nav > ul > li > a {
+  text-decoration: none;
+  color: white;
+  margin: 16px;
+  left: 409px;
+}
