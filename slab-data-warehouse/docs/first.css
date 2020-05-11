@@ -3,7 +3,9 @@ header {
   height: 60px;
   margin-top: 32px;
   margin-bottom: 32px;
+  margin-left: 5rem;
 }
+
 
 header div:first-of-type {
   background-color: rgb(159, 110, 236);
@@ -41,7 +43,8 @@ header div:last-of-type {
 
   header > button{
     background-color: white;
-
+    float: right;
+    margin-top: -2.5rem;
 
   }
 
