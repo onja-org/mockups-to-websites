@@ -1,3 +1,7 @@
+html {
+  font-family: sans-serif;
+}
+
 html * {
   color: #ffffff;
 }
@@ -23,4 +27,33 @@ section > h2 ~ p {
 
 table {
   color: #ffffff;
+}
+
+p + table {
+  counter-reset: td;
+}
+
+p + table tr > td:nth-of-type(1)::before {
+  counter-increment: td;
+  content: counter(td) url("../images/Group\ 51.svg");
+}
+
+.rectanle {
+  display: block;
+  height: 84px;
+  width: 300px;
+  background-image: url('../images/Rectangle\ 7.svg');
+  background-repeat: no-repeat;
+  margin-block-end: 1rem;
+  margin-block-start: 1rem;
+  border-top: 1px gray solid;
+  border-bottom: 1px gray solid;
+}
+
+.rectanle::after {
+  position: absolute;
+  content: "";
+  border: solid gray 2px;
+  right: 0;
+  top: 30%;
 }
