@@ -1,0 +1,35 @@
+.save-data{
+background-color: lightgray;
+background-image: url(../image/image1\ 1.png);
+ background-repeat: no-repeat;
+ background-position: 333px 250px;;
+ width: 1248px;
+ height: 754px;
+
+}
+.storage{
+ text-decoration: Black Han Sans;
+}
+nav{
+  margin-inline-start: 240px;
+
+}
+nav li{
+  list-style: none;
+
+}
+a:nth-of-type(1){
+text-decoration: none;
+margin-inline-end: 2rem;
+}
+a:nth-of-type(2){
+  text-decoration: none;
+ margin-inline-end: 2rem;
+}
+a:nth-of-type(3){
+  text-decoration: none;
+ margin-inline-end: 2rem;
+}
+a:nth-of-type(4){
+  text-decoration: none;
+}
