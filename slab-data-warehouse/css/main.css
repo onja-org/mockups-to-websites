@@ -1,0 +1,15 @@
+.main {
+}
+
+.part-1 {
+  background-image: url('../images/image1.png');
+  background-repeat: no-repeat;
+  background-size: 600px;
+  background-position: right 65% top 100%;
+}
+
+.main > .part-1 > p {
+  width: 258px;
+  height: 120px;
+  margin-top: 50px;
+}
