@@ -1,7 +1,49 @@
+
 .level-storage {
   position: absolute;
   width: 1117px;
   height: 560px;
   left: 240px;
-  top: 903.18px;
+  top: 850.18px;
+  background: rgba(240, 99, 184, 0.15);
+  border-radius: 50px;
+
+}
+.level-storage1 {
+    background-image: url(../css/image2.png);
+    background-repeat: no-repeat;
+    background-size: 350px 430px;
+    background-position: left 1px top 100px;
+    display: grid;
+    grid-template-columns: repeat(10, 100px 1fr);
+    grid-template-rows: repeat(4, 150px);
+}
+.level-storage1 > h2 {
+  display: grid;
+  grid-column: 8/9;
+  grid-row: 2;
+  width: 475px;
+  height: 100px;
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 130%;
+  align-items: center;
+  color: #212353;
+
+
+}
+.level-storage1 > p{
+  display: grid;
+  grid-column: 8/9;
+  grid-row: 3;
+  width: 474px;
+  height: 170px;
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 160%;
+  color: #4B5D68;
 }

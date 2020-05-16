@@ -1,15 +1,16 @@
 
 .link > nav {
-  position: absolute;
+
   width: 368.18px;
   height: 30px;
-  left: 268.38px;
-  top: 185px;
+  display: grid;
+  grid-column: 4;
 }
 .link > nav ul {
   list-style: none;
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(4, 100px);
+  column-gap: 16px;
 }
 
 
@@ -22,6 +23,4 @@
   text-decoration: none;
 }
 
-nav li {
-  margin-inline-end: 1rem;
-}
+

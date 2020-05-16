@@ -4,9 +4,10 @@ html {
 }
 body {
   background:linear-gradient(180deg, #F6FAFD 0%, #FFFFFF 19.4%);
-  position: relative;
-   width: 1600px;
-   height: 4500px;
+  width: 1600px;
+  height: 4500px;
+  display: grid;
+
 
 }
 
