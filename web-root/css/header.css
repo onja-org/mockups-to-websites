@@ -50,25 +50,40 @@ header svg {
   text-decoration: none;
   color: white;
   text-transform: uppercase;
-  font-family: 'Courier New', Courier, monospace;
   font-weight: bold;
 }
 
 .button {
   display: flex;
+  width: 298px;
   flex-direction: row;
+  justify-content: space-around;
 }
 
 .button {
   position: absolute;
-  background-color: black;
   left: 932px;
-  top: 143px;
+  top: 106px;
+}
+
+.button button {
+  background-color: black;
+  width: 143px;
+  height: 30px;
 }
 
 .my_profile {
   position: absolute;
   top: 10px;
   left: 1222px;
-  word-wrap: break-word;
+  width: 122px;
+  height: 27px;
+  display: flex;
+  flex-direction: row;
+  text-transform: uppercase;
 }
+
+.my_profile::before {
+  content: url(../images/Mask\ Group.svg);
+}
+
