@@ -1,12 +1,36 @@
+header {
+  position: relative;
+  margin-inline-start: 8rem;
+}
+
+header div:nth-of-type(1) {
+  background: rgba(128, 30, 128, 0.651);
+  width: 1rem;
+  height: 1rem;
+  border-radius: 50%;
+  position: absolute;
+  top: 1.5rem;
+}
+
+header div:nth-of-type(2) {
+  background: #F063B8;
+  width: 12px;
+  height: 1.5rem;
+  border-radius: 10px;
+  position: absolute;
+  top: 1rem;
+  left: 20px;
+}
+
 header ul {
-  text-align: center;
+  margin-left: 4rem;
 }
 
 header ul li {
   display: inline-block;
   list-style: none;
   font-family: sans-serif;
-  margin-left: 1rem;
+  margin-left: 2rem;
 }
 
 header ul li:nth-of-type(1) {
@@ -14,7 +38,7 @@ header ul li:nth-of-type(1) {
 }
 
 header ul li:last-of-type {
-  margin-left: 10rem;
+  margin-left: 18rem;
   background-color: white;
   padding: 1rem;
   border-radius: 2rem;
