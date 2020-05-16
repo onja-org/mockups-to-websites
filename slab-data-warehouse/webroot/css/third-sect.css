@@ -1,13 +1,23 @@
-section:nth-of-type(3) {
-  width: 890px;
-  height: 600px;
+:root {
+  --top : 50%;
+  --width: 1000px;
+  --height: 480px;
+  --margin-inline-start: 300px;
+  --margin-block-start: 100px;
+  --image-width: 300px;
+  --image-height: 200px;
+  --padding-inline-start: 100px;
+  --padding-inline-end: 100px;
 }
-section:nth-of-type(3) h3 {
-  position: absolute;
-  width: 405px;
-  height: 50px;
-  left: 500px;
-  padding-top: 500px;
+section:nth-of-type(3) {
+  width: var(--width);
+  height: var(--height);
+  margin-block-start: calc(var(--margin-block-start) * 2);
+}
+
+h3 {
+  margin-block-start: calc(var(--margin-block-start) * (-6));
+  margin-inline-start: calc(var(--margin-inline-start) * 2);
   font-family: Helvetica;
   font-weight: bold;
   font-size: 40px;
@@ -15,84 +25,81 @@ section:nth-of-type(3) h3 {
   color: #212353;
 }
 
-section:nth-of-type(3) header > h3 ~ p {
-  position: absolute;
-  width: 480px;
-  height: 50px;
-  padding-left: 350px;
-  padding-top: 600px;
+h3 ~ p {
+  margin-block-start: calc(var(--margin-block-start) - 50px);
+  margin-inline-start: calc(var(--margin-inline-start) + 80px);
   font-family: Avenir;
   font-weight: 500;
-  font-size: 18px;
+  font-size: 19px;
   line-height: 29px;
   text-align: center;
   color: #4B5D68;
 }
  section:nth-of-type(3) div {
   display: grid;
+  column-gap: 3rem;
   grid-template-columns: repeat(2, 145px);
   grid-template-rows: repeat(2, 145px);
 }
  section:nth-of-type(3) div #example-1 {
-  width: 442px;
-  height: 258px;
-  padding-left: 200px;
-  padding-top: 1540px;
+  width: calc(var(--width) / 3);
+  height: calc(var(--width) / 3);
+  margin-inline-start: var(--margin-inline-start);
+  margin-block-start: calc(var(--margin-block-start) / 2);
   opacity: 0.5;
   background: #68C9BA;
   border-radius: 50px;
  }
  section:nth-of-type(3) div #example-1 img {
-  width: 200px;
-  height: 200px;
-  left: -80px;
+  width: var(--width);
+  height: calc(var(--height) / 2);
+  transform: translate(-50% , 50%);
+  margin-block-start: calc(var(--margin-block-start) * (-2));
 }
  section:nth-of-type(3) div #example-2 {
-  width: 442px;
-  height: 258px;
-  margin-inline-start: 12rem;
-  padding-left: 600px;
-  padding-top: 1540px;
+  width: calc(var(--width) / 3);
+  height: calc(var(--width) / 3);
+  margin-inline-start: calc(var(--margin-inline-start) * 3);
+  margin-block-start: calc(var(--margin-block-start) / 2);
   opacity: 0.5;
   background: #4B5D68;
   border-radius: 50px;
  }
  section:nth-of-type(3) div #example-2 img {
-  width: 200px;
-  height: 200px;
-  padding-left: -80px;
+  width: calc(var(--width) / 4);
+  height: calc(var(--height) / 2);
+  transform: translate(50%, -50%);
+  margin-inline-start: calc(var(--margin-inline-start) * (-1));
 }
 
  section:nth-of-type(3) div #example-3 {
-  width: 442px;
-  height: 258px;
-  padding-left: 200px;
-  padding-top: 1880px;
+  width: calc(var(--width) / 3);
+  height: calc(var(--width) / 3);
+  margin-inline-start: var(--margin-inline-start);
+  margin-block-start: calc(var(--margin-block-start) * 3);
   opacity: 0.5;
   background: #F063B8;;
   border-radius: 50px;
  }
  section:nth-of-type(3) div #example-3 img {
-  position: absolute;
-  width: 42px;
-  height: 58px;
-  padding-left: -80px;
+  width: calc(var(--width) / 4);
+  height: calc(var(--height) / 2);
+  transform: translate(50%, -50%);
+  margin-inline-start: calc(var(--margin-inline-start) * (-1));
 }
  section:nth-of-type(3) div #example-4 {
-  position: absolute;
-  width: 42px;
-  height: 58px;
-  margin-inline-start: 12rem;
-  padding-left: 600px;
-  padding-top: 1880px;
+  width: calc(var(--width) / 3);
+  height: calc(var(--width) / 3);
+  margin-inline-start: calc(var(--margin-inline-start) * 3);
+  margin-block-start: calc(var(--margin-block-start) * 3);
   opacity: 0.5;
   background: #2D9CDB;
   border-radius: 50px;
  }
  section:nth-of-type(3) div #example-4 img {
-  position: absolute;
-  width: 42px;
-  height: 58px;
-  padding-left: -80px;
+  width: calc(var(--width) / 4);
+  height: calc(var(--height) / 2);
+  transform: translate(50%, -50%);
+  margin-inline-start: calc(var(--margin-inline-start) * (-1));
 }
 
