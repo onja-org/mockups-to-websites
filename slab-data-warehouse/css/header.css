@@ -42,10 +42,12 @@
 }
 
 h2 {
-  font-size: 4rem;
+  font-size: 3rem;
   width: 400px;
   height: 180px;
   margin-bottom: 0;
+  font-family: black han sans;
+  font-style: normal;
 }
 
 
