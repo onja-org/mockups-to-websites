@@ -5,7 +5,7 @@
   background-image: url('../images/image1.png');
   background-repeat: no-repeat;
   background-size: 600px;
-  background-position: right 65% top 100%;
+  background-position: right 65% top 70%;
 }
 
 .main > .part-1 > p {
@@ -13,3 +13,20 @@
   height: 120px;
   margin-top: 50px;
 }
+
+.main > .part-1 > p:last-of-type {
+  background-color: purple;
+  width: 150px;
+  height: 56px;
+  line-height: 3;
+  border-radius: 38px;
+}
+
+.main > .part-1 > p:last-of-type a {
+  text-decoration: none;
+  color: white;
+  margin-left: 37px;
+  margin-right: 37px;
+  margin-bottom: 15px;
+}
+
