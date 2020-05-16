@@ -1,27 +1,20 @@
-.figure {
+.text {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin-block-start: 2rem;
-  margin-block-end: 2rem;
-}
-
-.figure_1,
-.figure_2 {
-  display: flex;
-  flex-direction: row;
-}
-
-.figure_1 svg {
-  margin-inline-start: -3rem;
-  width: 37px;
-  height: 38px;
 }
 
 .small {
-  margin-inline-start: -2rem;
   margin-block-start: 1rem;
   text-transform: uppercase;
+}
+
+.small:nth-of-type(1)::before {
+  content: url(../images/Vector.svg);
+}
+
+.small:nth-of-type(2)::before {
+  content: url(../images/Group\ 124.svg);
 }
 
 h3 {
@@ -29,11 +22,6 @@ h3 {
   height: 23px;
   width: 289px;
   padding-block-end: 7px;
-}
-
-.stats .figure_2 svg {
-  width: 41px;
-  height: 30px;
 }
 
 .community span:nth-of-type(1) {
@@ -44,6 +32,13 @@ h3 {
 
 .community small, h3, span:nth-of-type(2) {
   text-transform: uppercase;
+}
+
+.community small {
+  text-align: end;
+  width: 286px;
+  height: 23px;
+  display: block;
 }
 
 section > h2 > a {
