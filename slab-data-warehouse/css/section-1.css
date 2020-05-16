@@ -1,0 +1,42 @@
+header > h1 {
+  width: 645px;
+  height: 184px;
+  left: 240px;
+  font-size: 50px;
+  font-style: normal;
+  font-family:black han sans;
+  display: flex;
+  line-height: normal;
+}
+
+.section-1 p {
+  width: 380px;
+  height: 120px;
+  left: 240px;
+  top: 474px;
+  color: darkblue;
+}
+
+.section-1 > header {
+  background-image: url(../images/image-1-1.png);
+  background-position: 50% 90%;
+  background-repeat: no-repeat;
+  width: 900px;
+  height: 600px;
+  left: 500px;
+  top: 400px;
+  box-sizing: border-box;
+}
+
+.button-link {
+  background-color: purple;
+  color: white;
+  width: 170px;
+  height: 60px; 
+  left: 240px;
+  top: 644px;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 2rem;
+  line-height: 1;
+}
