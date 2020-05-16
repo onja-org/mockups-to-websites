@@ -1,0 +1,13 @@
+th > small::before {
+  content:"";
+  background-image: url("../");
+  display: flex;
+  height: 1.625rem;
+  width: 1.625rem;
+  background-size: contain;
+  position: absolute;
+  top: 50%;
+  left: 0.75rem;
+  margin-top: -0.75rem;
+  background-repeat: no-repeat;
+}

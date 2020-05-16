@@ -48,12 +48,19 @@ main > section:nth-of-type(1) > nav:nth-of-type(2) ul {
   font-style: normal;
   font-weight: bold;
   font-size: 12px;
-
+  padding-left: 0;
+}
+main > section:nth-of-type(1) > nav:nth-of-type(2) small {
+  opacity: 0.5;
 }
 main > section:nth-of-type(1) > nav:nth-of-type(2) > ul li:nth-of-type(1) {
-  margin-left: 2rem;
+  margin-left: 0;
   color: #FFFFFF;
   opacity: 1;
+}
+
+main > section:nth-of-type(1) > nav:nth-of-type(2) {
+  padding-left: 4rem;
 }
 
 main > section:nth-of-type(1) > nav:nth-of-type(2) > ul li {
