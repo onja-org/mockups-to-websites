@@ -1,14 +1,9 @@
 section:nth-of-type(3) {
     display: grid;
-    grid-template-columns: repeat(2, auto);
-    grid-column-gap: 50px;
-    column-gap: 50px;
-    grid-template-rows: repeat(2, auto);
-    grid-row-gap: 145px;
-    row-gap: 145px;
   }
 
 section:nth-of-type(3) article {
+  margin-top: 320px;
 
 }
 
@@ -23,6 +18,7 @@ section:nth-of-type(3) article:nth-of-type(1) {
   background-image: url("../images/image3\ 1.svg");
   background-repeat: no-repeat;
   background-position: -50%;
+  clip-path: border-box;
 }
 
 section:nth-of-type(3) article:nth-of-type(2) {
@@ -48,6 +44,7 @@ section:nth-of-type(3) article:nth-of-type(3) {
   background-image: url("../images/image5\ 1.svg");
   background-repeat: no-repeat;
   background-position: -55%;
+  ba
 }
 
 section:nth-of-type(3) article:nth-of-type(4) {
