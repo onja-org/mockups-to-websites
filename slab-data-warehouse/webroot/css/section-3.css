@@ -1,43 +1,92 @@
 .section-3 {
-  position: relative;
   width: 1000px;
   height: 700px;
   margin-inline-start: 40px;
+  margin-block-start: 2rem;
+  position: relative;
+  flex-wrap: wrap;
+}
+
+.section-3 header {
   text-align: center;
+  margin: 2rem;
+  width: 450px;
+  height: 100px;
+  margin-inline-start: 280px;
+}
+
+.section-3 li h3 {
+  margin-block-start: 3rem;
 }
 
 .section-3 ul {
-  display: inline-grid;
-  grid-template-columns: repeat(2, 400px);
-  column-gap: 15px;
+  display: grid;
+  grid-template-columns: repeat(2, 500px);
+  column-gap: 30px;
   row-gap: 15px;
   list-style: none;
 }
 
-.section-3 li:nth-of-type(1) {
-   background-color: lightsteelblue;
+.section-3 ul li:nth-of-type(1) {
+   background-color: rgba(10, 200, 200, 0.5);
+   padding-inline-start: 10rem;
+   width: 200px;
+   height: 250px;
+   border-radius: 10%;
+   font-size: 0.8rem;
+   margin-inline-start: 5rem;
 }
-.section-3 li:nth-of-type(1)::before {
+.section-3 ul li:nth-of-type(1)::before {
   content: url(../images/image3\ 1.png);
+  position: absolute;
+  margin-inline-start: -15rem;
+  margin-block-start: 3rem;
+}
+.section-3 li:nth-of-type(2) {
+  background-color: rgba(200, 100, 250, 0.5);
+  padding-inline-start: 10rem;
+  width: 200px;
+  height: 250px;
+  border-radius: 10%;
+  font-size: 0.8rem;
 }
 
-.section-3 li:nth-of-type(2) {
-  background-color: royalblue;
-}
-.section-3 li:nth-of-type(2)::before {
- content: url(../images/image4.png);
+.section-3 ul li:nth-of-type(2)::before {
+  content: url(../images/image4.png);
+  position: absolute;
+  margin-inline-start: -15rem;
+  margin-block-start: 3rem;
 }
 
 .section-3 li:nth-of-type(3) {
-  background-color: red;
+  background-color: lightpink;
+  padding-inline-start: 10rem;
+  width: 200px;
+  height: 250px;
+  border-radius: 10%;
+  font-size: 0.8rem;
+  margin-inline-start: 5rem;
 }
-.section-3 li:nth-of-type(3)::before {
- content: url(../images/image5\ 1.png);
+
+.section-3 ul li:nth-of-type(3)::before {
+  content: url(../images/image5\ 1.png);
+  position: absolute;
+  margin-inline-start: -16rem;
+  margin-block-start: 3rem;
 }
 
 .section-3 li:nth-of-type(4) {
-  background-color: green;
+  background-color: #2D9CDB;
+  padding-inline-start: 10rem;
+  width: 200px;
+  height: 250px;
+  border-radius: 10%;
+  font-size: 0.8rem;
 }
-.section-3 li:nth-of-type(4)::before {
- content: url(../images/image6\ 1.png);
+
+.section-3 ul li:nth-of-type(4)::before {
+  content: url(../images/image6\ 1.png);
+  position: absolute;
+  margin-inline-start: -15rem;
+  margin-block-start: 3rem;
 }
