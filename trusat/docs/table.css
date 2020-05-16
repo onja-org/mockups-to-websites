@@ -1,15 +1,91 @@
-main table {
-  color: #ffffff;
-}
-#header_object {
+
+.header_object {
  width: 293px;
 }
 
-#header_origin,
-#purpose {
+.header_origin +
+.purpose {
   width: 242px;
 }
-#seen,
-#confidence {
+.seen,
+.confidence {
   width: 272px;
+}
+
+section:nth-of-type(2) table th {
+  text-align: left;
+  font-family: Proxima Nova;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  line-height: 3rem;
+  color: grey;
+}
+
+section:nth-of-type(2) table > tbody td:nth-of-type(1) {
+  text-transform: uppercase;
+  font-size: 1.25rem;
+}
+section:nth-of-type(2) table > tbody td {
+  color: white;
+}
+section:nth-of-type(3) header h4 {
+  font-family: Proxima Nova;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+color: #FFFFFF;
+}
+section:nth-of-type(3) p a {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  text-decoration-line: underline;
+  color: #EC7E5F;
+
+}
+section:nth-of-type(3) p {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    width: 299px;
+    height: 119px;
+    color: #FFFFFF;
+    opacity: 0.5;
+}
+section:nth-of-type(3) table > thead th {
+  font-family: Proxima Nova;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  }
+  section:nth-of-type(3) table:nth-of-type(1) > tbody td {
+    color: gray;
+  }
+
+section:nth-of-type(3) table:nth-of-type(2) > tbody td:nth-of-type(1) {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 125%;
+  text-transform: uppercase;
+  color: white;
+}
+section:nth-of-type(3) table:nth-of-type(2) tbody td {
+  color: white;
 }

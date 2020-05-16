@@ -1,5 +1,5 @@
 
-body main  header nav ul {
+main section:nth-of-type(1) header nav ul {
   display: grid;
   grid-template-columns: repeat( 6, 145px);
   column-gap: 15px;
@@ -7,7 +7,7 @@ body main  header nav ul {
   border-bottom: gray 1px solid;
   padding: 0;
 }
-body main header nav h3  a {
+main section:nth-of-type(1) header nav h3  a {
   font-family: Montserrat;
   font-style: normal;
   font-weight: bold;
@@ -17,22 +17,17 @@ body main header nav h3  a {
   color: #FFFFFF;
   text-decoration: none;
 }
-main header nav li:nth-of-type(2),
-main header nav li:nth-of-type(3),
-main header nav li:nth-of-type(4),
-main header nav li:nth-of-type(5) {
+section:nth-of-type(1) header nav li:nth-of-type(2),
+section:nth-of-type(1) header nav li:nth-of-type(3),
+section:nth-of-type(1) header nav li:nth-of-type(4),
+section:nth-of-type(1) header nav li:nth-of-type(5) {
   padding-block-start: 1.25rem;
-
 }
 
-body main header nav li > a {
-  text-decoration: none;
-}
-
-main header nav > ul li {
+main:nth-of-type(1) header nav > ul li {
   list-style: none;
 }
-main header nav li > a {
+main section:nth-of-type(1) header nav li > a {
 font-family: Montserrat;
 font-style: normal;
 font-weight: normal;
@@ -61,7 +56,23 @@ main div p:nth-of-type(2) {
   width: 755px;
   height: 38px;
 }
-
-
-
+main nav ul .par {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+  display: flex;
+  align-items: flex-end;
+  text-transform: uppercase;
+}
+main nav ul .num {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 28px;
+  display: flex;
+  align-items: flex-end;
+}
 
