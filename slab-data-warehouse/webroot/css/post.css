@@ -1,16 +1,190 @@
+section:nth-of-type(1) {
+  width: 1248px;
+  height: 754px;
+}
+
 section:nth-of-type(1) p {
+  width: 380px;
+  height: 120px;
+  position: absolute;
+  font-family: 'Times New Roman', Times, serif;
+  line-height: 2rem;
+  font-weight: 500;
+  font-size: 18px;
+  margin-block-start: 393px;
+  padding-inline-start: 240px;
+  padding-inline-end: 868px;
+
+}
+section:nth-of-type(1) h1 {
+  width: 555px;
+  height: 184px;
+  position: absolute;
+  font-family: sans-serif;
+  color: #212353;
+  font-size: 80px;
+  margin-block-end: 380px;
+  padding-inline-start: 240px;
+  padding-inline-end: 715px;
+
+}
+section:nth-of-type(2) h2 {
+  position: absolute;
+  font-family: sans-serif;
+  font-size: 40px;
+  width: 475px;
+  height: 100px;
+  margin-block-start: 125px;
+  padding-inline-start: 550px;
+
+}
+section:nth-of-type(2) p {
+  position: absolute;
   font-family: 'Times New Roman', Times, serif;
   font-size: 18px;
   width: 380px;
   height: 100px;
- padding-inline-start: 240px;
+  margin-block-start: 265px;
+  padding-inline-start: 550px;
+  padding-inline-end: 92px;
 }
-section:nth-of-type(1) h1 {
-  font-family: sans-serif;
-  font-size: 60px;
-  width: 645px;
-  height: 120px;
-  padding-inline-start: 240px;
-  padding-inline-end: 50px;
+section:nth-of-type(3) h2 {
+  width: 405px;
+  height: 52px;
+  font-weight: bold;
+  font-size: 40px;
+  color: #212353;
+  padding-inline-start: 596.29px;
+}
+section:nth-of-type(3) p {
+  width: 584px;
+  height: 58px;
+  text-align: center;
+  font-weight: 500;
+  font-size: 18px;
+  color: #4b5d68;
+  line-height: 2rem;
+  padding-inline-start: 507.29px;
+}
+.container {
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  row-gap: 50px;
+  column-gap: 145px;
+  margin-block-start: 100px;
+  padding-inline-start: 328.29px;
+}
+.container .data {
+  width: 442px;
+  height: 358px;
+  background-image: url("../images/image3\ 1.png");
+  overflow-x: visible;
+  background-repeat: no-repeat;
+  background-position: left;
+  background-color: #68c9ba;
+  border-radius: 50px;
+  transform: skew(-3deg);
+}
+.container .data h3 {
+  width: 200px;
+  height: 50px;
+  font-size: 24px;
+  font-weight: 400;
+  margin-block-start: 49px;
+  padding-inline-start: 172px;
+  padding-inline-end: 70px;
+}
+.container .data p {
+  width: 220px;
+  height: 160px;
+  font-size: 16px;
+  line-height: 1.5rem;
+  margin-block-start: 20px;
+  padding-inline-start: 172px;
+  padding-inline-end: 79px;
+}
 
+.access {
+  width: 442px;
+  height: 358px;
+  background: #9C69E2;
+  border-radius: 50px;
+  background-image: url("../images/image4.png");
+  background-repeat: no-repeat;
+  transform: skew(-3deg);
 }
+.container .access h3 {
+  width: 250px;
+  height: 50px;
+  font-size: 24px;
+  font-weight: 400;
+  margin-block-start: 49px;
+  padding-inline-start: 172px;
+  padding-inline-end: 70px;
+}
+.container .access p {
+  width: 220px;
+  height: 160px;
+  font-size: 16px;
+  line-height: 1.5rem;
+  margin-block-start: 20px;
+  padding-inline-start: 172px;
+  padding-inline-end: 79px;
+}
+
+.print {
+  width: 442px;
+  height: 358px;
+  background: #f063b8;
+  border-radius: 50px;
+  background-image: url("../images/image5\ 1.png");
+  background-repeat: no-repeat;
+  transform: skew(-3deg);
+}
+.container .print h3 {
+  width: 200px;
+  height: 50px;
+  font-size: 24px;
+  font-weight: 400;
+  margin-block-start: 49px;
+  padding-inline-start: 172px;
+  padding-inline-end: 70px;
+}
+.container .print p {
+  width: 220px;
+  height: 160px;
+  font-size: 16px;
+  line-height: 1.5rem;
+  margin-block-start: 20px;
+  padding-inline-start: 172px;
+  padding-inline-end: 79px;
+}
+
+.security_code {
+  width: 442px;
+  height: 358px;
+  background-color: #2d9cdb;
+  border-radius: 50px;
+  background-image: url("../images/image6\ 1.png");
+  background-repeat: no-repeat;
+  transform: skew(-3deg);
+}
+.container .security_code h3 {
+  width: 200px;
+  height: 50px;
+  font-size: 24px;
+  font-weight: 400;
+  margin-block-start: 49px;
+  padding-inline-start: 172px;
+  padding-inline-end: 70px;
+}
+.container .security_code p {
+  width: 220px;
+  height: 160px;
+  font-size: 16px;
+  line-height: 1.5rem;
+  margin-block-start: 20px;
+  padding-inline-start: 172px;
+  padding-inline-end: 79px;
+}
+

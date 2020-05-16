@@ -1,13 +1,23 @@
 body {
-  background-color: rgba(0, 0, 150, 0.2);
+  width: 1600px;
+  height: 4500px;
+  background-color: #e5e5e5;
 }
 section:nth-of-type(1) {
+  width: 170px;
+  height: 60px;
   background-image: url("../images/image1\ 1.svg");
-
   background-repeat: no-repeat;
-  background-size: 600px;
-  background-position: right;
+  background-size: 673px;
+  background-position: left 600px top 194px;
   background-origin: padding-box;
-
+}
+section:nth-of-type(2) {
+  width: 1117px;
+  height: 560px;
+  border-radius: 30px;
+  background-color: pink;
+  background-image: url("../images/image2\ \(2\).png");
+  background-repeat: no-repeat;
 
 }

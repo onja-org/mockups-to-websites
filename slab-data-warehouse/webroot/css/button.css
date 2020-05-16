@@ -1,3 +1,25 @@
-section:nth-of-type(1) button {
+section:nth-of-type(1) nav button:nth-of-type(1) {
+  width: 200px;
+  height: 60px;
+  background-color: #ffff;
+  border-radius: 50px;
+}
+section:nth-of-type(1) button:nth-of-type(1) a {
   text-decoration: none;
+  color: #212353;
+  font-size: 16px;
+  font-weight: 800;
+}
+
+section:nth-of-type(1) button:nth-of-type(2) {
+  width: 170px;
+  height: 60px;
+  background-color: #9c69e2;
+  border-radius: 50px;
+}
+section:nth-of-type(1) button:nth-of-type(2) a {
+  text-decoration: none;
+  color: #ffff;
+  font-size: 18px;
+  font-weight: 800;
 }
