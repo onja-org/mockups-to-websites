@@ -4,8 +4,8 @@
 .part-1 {
   background-image: url('../images/image1.png');
   background-repeat: no-repeat;
-  background-size: 600px;
-  background-position: right 65% top 70%;
+  background-size: 700px;
+  background-position: right 60% top 100%;
 }
 
 .main > .part-1 > p {
@@ -28,5 +28,30 @@
   margin-left: 37px;
   margin-right: 37px;
   margin-bottom: 15px;
+}
+
+/* Part 2 */
+
+.part-2 {
+  background-color: pink;
+  width: 1117px;
+  height: 560px;
+  border-radius: 36px;
+}
+
+.part-2 > h3 {
+  margin-left: 550px;
+  font-family: helvetica;
+  font-style: normal;
+  font-weight: bold;
+}
+
+.part-2 > figure {
+  float: left;
+}
+
+.part-2 > p {
+  margin-block-start: 265px;
+  margin-right: 93px;
 }
 
