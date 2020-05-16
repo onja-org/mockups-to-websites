@@ -1,0 +1,26 @@
+section:nth-of-type(2) > div > ul > li{
+  list-style: none;
+  text-transform: uppercase;
+}
+section:nth-of-type(2) > div > ul {
+  border-block-end: 1px white solid;
+  border-block-end-width: 50%;
+}
+
+section:nth-of-type(2) > div > ul > li a {
+  text-decoration: none;
+  color: #FFFFFF;
+  text-transform: uppercase;
+}
+section:nth-of-type(2) > div > div > ul > li {
+  list-style: none;
+  text-transform: uppercase;
+}
+section:nth-of-type(2) > div > div > ul > li a {
+  text-decoration: none;
+  color: inherit;
+}
+
+section:nth-of-type(2) {
+  display: inline;
+}
