@@ -1,32 +1,51 @@
 :root {
-  --section-width: 1000px;
+  --section-width: 1050px;
   --section-height: 350px;
-  --padding: calc(var(--section-height));
+  --padding: calc(var(--section-height) / 3);
 }
 
 section {
   padding-inline-start: 6.25rem;
+  color: #4B5D68;
 }
 
-section:first-of-type {
+.data-storage {
   background-image: url("../images/data_storage.svg");
   background-repeat: no-repeat;
   background-position: right;
-   background-size: calc(var(--section-height) * 2);
+  background-size: calc(var(--section-height) * 2);
   width: var(--section-width);
   height: calc(var(--section-height) *1.5);
 }
 
-section:nth-of-type(2) {
+.data-storage-bank {
   background-image: url(../images/data-storage-bank.svg);
   background-repeat: no-repeat;
   background-position: left;
   background-size: var(--section-height);
-
-  padding-inline-start: calc(var(--padding) / 3);
-  padding-inline-end: calc(var(--padding) / 3);
-  padding-block-start: calc(var(--padding) / 3);
-  padding-block-end: calc(var(--padding) / 3);
+  padding-inline-start: var(--padding);
+  padding-inline-end: var(--padding);
+  padding-block-start: var(--padding);
+  padding-block-end: var(--padding);
   background-color: rgba(240, 99, 184, 0.15);
   border-radius: 50px;
+  width: 60%;
+  margin-inline-start: 5rem;
+}
+
+.features {
+  width: 60vw;
+  height: 100%;
+}
+
+.testimonials {
+  margin-block-start: 4rem;
+  padding-inline-start: var(--padding);
+  padding-inline-end: var(--padding);
+  padding-block-start: var(--padding);
+  padding-block-end: var(--padding);
+  background-color: #9C69E2;
+  width: 50vw;
+  height: 65vh;
+  border-radius: 2vw;
 }

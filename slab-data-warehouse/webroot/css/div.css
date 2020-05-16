@@ -1,0 +1,100 @@
+.container {
+  width: 30vw;
+  display: grid;
+  grid-template-columns: repeat(2, 30vw);
+  row-gap: 2rem;
+  column-gap: 5rem;
+}
+
+.container div {
+  display: flex;
+  flex-direction: column;
+}
+
+.container p {
+  width: 15vw;
+  font-size: 16px;
+  line-height: 1.2rem;
+}
+
+.container nav {
+  padding-block-start: 4rem;
+}
+
+.print_out nav {
+  padding-block-start: 5rem;
+}
+
+.container > div {
+  background-repeat: no-repeat;
+  background-position: left;
+  border-radius: 10%;
+  background-size: 40%;
+}
+
+.search_data {
+  background-image: url("../images/search-data.svg");
+  padding-inline-start: 6rem;
+  padding-inline-end: 6rem;
+  padding-block-start: 2rem;
+  padding-block-end: 2rem;
+  background-color: rgba(104, 201, 186, 0.1);
+}
+.print_out {
+  background-image: url("../images/print-out.svg");
+  padding-inline-start: 6rem;
+  padding-inline-end: 6rem;
+  padding-block-start: 2rem;
+  padding-block-end: 2rem;
+  background-color: rgba(240, 99, 184, 0.1);
+}
+.hour_access {
+  background-image: url("../images/hours-access.svg");
+  padding-inline-start: 6rem;
+  padding-inline-end: 6rem;
+  padding-block-start: 2rem;
+  padding-block-end: 2rem;
+  background-color: rgba(156, 105, 226, 0.1);
+}
+.security_code {
+  background-image: url("../images/security-code.svg");
+  padding-inline-start: 6rem;
+  padding-inline-end: 6rem;
+  padding-block-start: 2rem;
+  padding-block-end: 2rem;
+  background-color: rgba(45, 156, 219, 0.1);
+}
+
+#testimonial-container {
+  display: grid;
+  grid-template-columns: repeat(3, 38vw);
+  column-gap: 20px;
+}
+
+#testimonial-container > div {
+  padding-inline-start: calc(var(--padding) / 2);
+  padding-inline-end: calc(var(--padding) / 2);
+  padding-block-start: calc(var(--padding) / 2);
+  padding-block-end: calc(var(--padding) / 2);
+  background-color: #fff;
+  border-radius: 1vw;
+  box-shadow: 0px 20px 0px rgba(156, 105, 226, 0.3);
+}
+
+#testimonial-container .john_fang img {
+  float: left;
+  margin-block-start: -4rem;
+}
+
+#testimonial-container .jeny_doe {
+  width: 18vw;
+  background: linear-gradient(270deg,
+    #FFFFFF 9.75%,
+    rgba(255, 255, 255, 0) 100%
+  );
+}
+
+#testimonial-container .william {
+  width: 18vw;
+  overflow: hidden;
+}

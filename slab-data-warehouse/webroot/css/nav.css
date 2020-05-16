@@ -2,3 +2,7 @@
 li {
   list-style: none;
 }
+
+.container  nav, h3, p {
+  padding-inline-start: 7vw;
+}
