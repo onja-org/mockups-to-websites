@@ -4,7 +4,16 @@
   margin-inline-start: 40px;
   margin-block-start: 2rem;
   position: relative;
-  flex-wrap: wrap;
+  background-image: url(../images/image3\ 1.png),
+                    url(../images/image4.png),
+                    url(../images/image5\ 1.png),
+                    url(../images/image6\ 1.png);
+  background-repeat: no-repeat;
+  background-position: 40px 184px,
+                        486px 150px,
+                        40px 430px,
+                        486px 445px;
+  background-size: 200px 200px;
 }
 
 .section-3 header {
@@ -28,7 +37,8 @@
 }
 
 .section-3 ul li:nth-of-type(1) {
-   background-color: rgba(10, 200, 200, 0.5);
+   background-color: #68C9BA;
+   opacity: 0.2;
    padding-inline-start: 10rem;
    width: 200px;
    height: 250px;
@@ -36,14 +46,9 @@
    font-size: 0.8rem;
    margin-inline-start: 5rem;
 }
-.section-3 ul li:nth-of-type(1)::before {
-  content: url(../images/image3\ 1.png);
-  position: absolute;
-  margin-inline-start: -15rem;
-  margin-block-start: 3rem;
-}
 .section-3 li:nth-of-type(2) {
-  background-color: rgba(200, 100, 250, 0.5);
+  background-color: #9C69E2;
+  opacity: 0.2;
   padding-inline-start: 10rem;
   width: 200px;
   height: 250px;
@@ -51,15 +56,10 @@
   font-size: 0.8rem;
 }
 
-.section-3 ul li:nth-of-type(2)::before {
-  content: url(../images/image4.png);
-  position: absolute;
-  margin-inline-start: -15rem;
-  margin-block-start: 3rem;
-}
 
 .section-3 li:nth-of-type(3) {
   background-color: lightpink;
+  opacity: 0.2;
   padding-inline-start: 10rem;
   width: 200px;
   height: 250px;
@@ -68,25 +68,12 @@
   margin-inline-start: 5rem;
 }
 
-.section-3 ul li:nth-of-type(3)::before {
-  content: url(../images/image5\ 1.png);
-  position: absolute;
-  margin-inline-start: -16rem;
-  margin-block-start: 3rem;
-}
-
 .section-3 li:nth-of-type(4) {
   background-color: #2D9CDB;
+  opacity: 0.2;
   padding-inline-start: 10rem;
   width: 200px;
   height: 250px;
   border-radius: 10%;
   font-size: 0.8rem;
-}
-
-.section-3 ul li:nth-of-type(4)::before {
-  content: url(../images/image6\ 1.png);
-  position: absolute;
-  margin-inline-start: -15rem;
-  margin-block-start: 3rem;
 }

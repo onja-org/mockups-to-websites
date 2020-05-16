@@ -1,0 +1,45 @@
+.section-4 {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 900px;
+  height: 400px;
+  background-color: #9C69E2;
+  border-radius: 50px;
+  margin-inline-start: 10rem;
+  background-image: url(../images/2.png),
+                    url(../images/3.png);
+  background-repeat: no-repeat;
+  background-position: 70% 70%, 100% 70%;
+  background-size: 25% 50%, 20% 50%;
+  overflow: visible;
+}
+
+.section-4 header {
+  color: white;
+}
+
+
+.section-4 div {
+  background-color: white;
+  border-radius: 10%;
+  width: 250px;
+  height: 165px;
+  padding-inline-start: 8rem;
+  padding-block-start: 1rem;
+  padding-inline-end: 2rem;
+  margin-block-start: 8.5rem;
+  margin-inline-start: -5rem;
+  padding-block-end: 0.5rem;
+}
+
+.section-4 div::before {
+  content: url(../images/Ellipse\ 76\ \(1\).png);
+  position: absolute;
+  margin-inline-start: -110px;
+}
+
+.section-4 div p {
+  font-size: 0.8rem;
+}

@@ -11,4 +11,5 @@ body {
 width: 1200px;
 height: 4000px;
 background-color: #FFFFFF;
+border: 5px solid black;
 }
