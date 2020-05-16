@@ -10,14 +10,14 @@ section:nth-of-type(2) > table {
   counter-reset: row-num;
 }
 
-section:nth-of-type(2) table > tbody > tr {
+/* section:nth-of-type(2) tbody > tr {
   padding-inline-start: 4rem;
   counter-increment: row-num;
 }
 
-section:nth-of-type(2) table > tr > td::before {
+section:nth-of-type(2) tbody >  tr::before {
   content: counter(row-num);
-}
+} */
 
 section:nth-of-type(2) table > tr > td > svg {
   width: 50px;
