@@ -1,11 +1,17 @@
 section:nth-of-type(2) > table {
   display: table;
-  width: 806px;
+  width: 710px;
   height: 898px;
+  border-collapse: collapse;
+  counter-reset: row-num;
+  margin-block-start: 1rem;
+  margin-inline-start: 3rem;
+  font-size: 0.9rem;
   counter-reset: row-num;
 }
 
-section:nth-of-type(2) table > tr {
+section:nth-of-type(2) table > tbody > tr {
+  padding-inline-start: 4rem;
   counter-increment: row-num;
 }
 
@@ -24,10 +30,50 @@ section:nth-of-type(2) table > tr > td > svg {
 
 section:nth-of-type(2) table > thead > tr > th {
   text-transform: uppercase;
-  padding-inline-start: 2.5rem;
-  padding-inline-start: -1rem;
-
+  padding-inline-start: 7rem;
+  padding-block-start: -2rem;
+  padding-block-end: 1rem;
+  opacity: 0.5;
 }
-section:nth-of-type(2) table > thead > tr > th:nth-of-type() {
 
-} */
+section:nth-of-type(2) table > thead > tr > th:nth-of-type(1) {
+  padding-inline-start: 0;
+}
+
+section:nth-of-type(2) table > thead > tr > th:nth-of-type(2) {
+  padding-inline-start: 7rem;
+}
+
+
+section:nth-of-type(2) table > thead > tr > th:nth-of-type(3) {
+  padding-inline-start: 0.5rem;
+}
+
+section:nth-of-type(2) table > thead > tr > th:nth-of-type(5) {
+  padding-inline-start: 1rem;
+}
+
+section:nth-of-type(2) table > thead + tbody > tr {
+  border-bottom: 1px solid whitesmoke;
+}
+
+section:nth-of-type(2) table > tbody > tr:nth-of-type(10) {
+  border-bottom: 0;
+}
+
+section:nth-of-type(2) table > tbody > tr > td {
+  padding: 1rem 0 1rem 0;
+}
+
+section:nth-of-type(2) table > tbody > tr > .tbd {
+  padding-inline-start: 7rem;
+}
+
+section:nth-of-type(2) table > tbody > tr > td:nth-of-type(2) {
+  padding-inline-start: 1rem;
+}
+
+
+section:nth-of-type(2) table > tbody > tr > td:nth-of-type(3) {
+  padding-inline-start: 3rem;
+}

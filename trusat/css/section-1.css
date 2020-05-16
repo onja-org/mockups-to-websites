@@ -5,7 +5,7 @@
 section:nth-of-type(1) ul {
   display: flex;
   list-style: none;
-  margin-inline-start: 4.5rem;
+  margin-inline-start: 1rem;
 }
 
 section:nth-of-type(1) ul > li {
@@ -23,9 +23,9 @@ section:nth-of-type(1) ul > li {
 }
 
 section:nth-of-type(1) div {
-width: 650px;
+width: 700px;
 height: 2px;
-margin-inline-start: 7rem;
+margin-inline-start: 3.5rem;
 background-color: #FFFFFF;
 }
 
@@ -39,7 +39,7 @@ section:nth-of-type(1) p {
   line-height: 29px;
   color: #FFFFFF;
   opacity: 0.8;
-  margin-inline-start: 7rem;
+  margin-inline-start: 3.5rem;
   margin-block-start: 10px;
   margin-block-end: 10px;
 }
@@ -56,5 +56,5 @@ section:nth-of-type(1) small {
   line-height: 22px;
   color: #FFFFFF;
   opacity: 0.5;
-  margin-inline-start: 7rem;
+  margin-inline-start: 3.5rem;
 }
