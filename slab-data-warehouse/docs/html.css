@@ -1,5 +1,6 @@
 html{
-  width: 1600px;
+  width: 1400px;
+  margin-left: 10rem;
   height: 4500px;
   border: 2px solid grey;
   background-color:linear-gradient(0deg, rgba(107, 200, 243, 0.5) 0%,

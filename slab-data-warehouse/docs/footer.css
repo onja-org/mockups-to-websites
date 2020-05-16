@@ -1,0 +1,81 @@
+footer{
+  height: 1000px;
+}
+footer h1 {
+  width: 405px;
+  height: 52px;
+}
+
+
+
+footer nav > div:first-of-type {
+  background-color: rgb(159, 110, 236);
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+
+}
+footer nav > div:last-of-type {
+  background-color: rgb(245, 125, 199);
+  width: 20px;
+  height: 35px;
+  border-radius: 40%;
+  margin: 2rem;
+  margin-top: -2rem;
+}
+
+footer button {
+  float: right;
+  margin: 2rem;
+  margin-top: -3rem;
+
+}
+
+footer nav ul {
+  text-decoration: none;
+  grid-template-columns: 335px, 166px, 166px, 178px;
+  display: flex;
+
+}
+
+
+footer nav ul li:nth-child(1){
+  grid-column: 1 / 1;
+}
+
+footer nav ul li:nth-child(1) > ul{
+  text-decoration: none;
+  display: grid;
+}
+
+footer > nav > ul > li:nth-child(2){
+  grid-column: 2 / 2;
+
+}
+
+footer nav ul li:nth-child(1) > ul{
+  text-decoration: none;
+  display: grid;
+}
+
+footer nav ul li:nth-child(3){
+  grid-column: 3 / 3;
+}
+
+footer nav ul li:nth-child(4){
+  grid-column: 4 / 4;
+}
+
+footer p:nth-child(1) {
+
+}
+
+footer p:last-of-type{
+  width: 360px;
+  height: 50px;
+}
+
+footer img{
+  float: right;
+  margin-top: -4rem;
+}

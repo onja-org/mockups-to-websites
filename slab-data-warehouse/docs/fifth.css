@@ -1,25 +1,68 @@
 section:nth-of-type(4){
   background-color: rgb(142, 13, 228);
-  width: 1578px;
+  width: 789px;
   height: 709px;
+  border-radius: 10%;
+}
+section:nth-of-type(4) h1{
+  color: white;
+  margin-left: 8rem;
+
+}
+
+section:nth-of-type(4) div.name > div.lax{
+  color: white;
+
+}
+section:nth-of-type(4) div.name a{
+  margin-left: 8rem;
+}
+section:nth-of-type(4) div.name h4{
+  margin-left: 8rem;
+}
+section:nth-of-type(4) div.name p{
+  margin-left: 8rem;
 }
 
 section:nth-of-type(4) div.name{
-
+  display: grid;
+  grid-template-columns: 330px 350px 330px;
+  margin-left: 2rem;
+   grid-gap: 3rem;
+  margin: 2rem;
+  margin-top: 10rem;
 }
 section:nth-of-type(4) div.john{
-  width: 645px;
+  width: 400px;
   height: 330px;
   background-image: url(ellipse2.png);
   background-color: white;
   background-repeat: no-repeat;
   border-radius: 10%;
+  border: solid 2px plum;
+  box-shadow:10px 5px 0px rgb(169, 27, 212)
+
+
 }
 section:nth-of-type(4) div.jeny{
-  width: 420px;
-  height: 350px;
+  width: 350px;
+  height: 330px;
   background-image: url(ellipse1.png);
   background-color: white;
   background-repeat: no-repeat;
   border-radius: 10%;
+  margin-left: 2rem;
+  border: solid 2px plum;
+
+
+}
+
+section:nth-of-type(4) div.william{
+width: 400px;
+height: 330px;
+background-image: url(ellipse3.png);
+background-repeat: no-repeat;
+background-color: white;
+border-radius: 2rem;
+border: solid 2px plum
 }
