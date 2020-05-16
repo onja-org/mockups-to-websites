@@ -4,14 +4,22 @@ table tbody > tr > td:first-of-type {
   font-weight: bolder;
   margin: 0;
 }
-#object {
-  padding-inline-start: -10px;
-  /* display: table-cell; */
+
+table tr th:nth-of-type(1) {
+  padding-inline-end: 7rem;
 }
+table tr th:nth-of-type(2) {
+  padding-inline-start: 3rem;
+}
+
+/*table tr th:nth-of-type(3) {
+  padding-inline-end: 4rem;
+} */
 
 table tr th,
 table tr td {
   border-bottom: solid gray 1px;
-  padding-block-start: 1rem;
-  padding-block-end: 1rem;
+  padding-block-start: .5rem;
+  padding-block-end: .5rem;
+  padding-inline-start: -2rem;
 }
