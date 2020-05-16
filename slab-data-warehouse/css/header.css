@@ -21,21 +21,6 @@ header > nav > ul > li > a{
   margin-left: 40px;
 }
 
-/*header > nav > ul > li:first-child {
-  margin-left: 40px;
-  color: white;
-}
-
-header > nav > ul > li:nth-of-type(2) {
-  margin-left: 40px;
-  color: white;
-}
-
-header > nav > ul > li:nth-of-type(3) {
-  margin-left: 40px;
-  color: white;
-}*/
-
 header > nav > ul > li:last-child{
   color: midnightblue;
   width: 210px;
