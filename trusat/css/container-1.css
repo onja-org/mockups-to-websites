@@ -1,6 +1,6 @@
-
-body > header > h1 {
-  font-family: Montserrat;
+/* this css is only dedicated for the container-1 class and its contents in html document*/
+body > header  h1 {
+  font-family: 'Segoe UI', sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 40px;
@@ -13,7 +13,7 @@ body > header > h1 {
 }
 
 body > header nav li{
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Segoe UI', sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 12px;
@@ -21,7 +21,7 @@ body > header nav li{
   letter-spacing: 0.05em;
   text-transform: uppercase;
 }
-
+/* using flex to make the layout of the lists inside the nav*/
 .pages nav {
   display: flex;
   flex-direction: row;
@@ -35,38 +35,62 @@ body > header nav li{
   opacity: 0.5;
 
 }
-.pages > nav li:not(:first-of-type) {
-margin-inline-start: 2rem;
-}
-.pages nav li:first-of-type {
-  font-weight: bold;
-  opacity: 1;
+  .pages > nav li:not(:first-of-type) {
+  margin-inline-start: 2rem;
+  }
+  .pages nav li:first-of-type {
+    font-weight: bold;
+    opacity: 1;
 
-}
+  }
 
-.text p:first-of-type {
-font-weight: 300;
-font-size: 24px;
-line-height: 29px;
-}
+  .text p:first-of-type {
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 29px;
+  }
 
-.text p:last-of-type {
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 22px;
-}
+  .text p:last-of-type {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+  }
 
-body > header {
-  display: grid;
-  grid-template-columns: 266px 298px;
-  column-gap: 2rem;
-}
+  body > header {
+    display: grid;
+    grid-template-columns: 266px 298px;
+    column-gap: 2rem;
+  }
 
-header > nav ul {
-  list-style: none;
-  display: grid;
-  grid-template-columns:123px 183px 175px 185px;
+  header > nav ul {
+    list-style: none;
+    display: grid;
+    grid-template-columns:123px 183px 175px 185px;
 
-}
+  }
+/* here we make the table's style ===(headache) */
+  table {
+    color: #FFFFFF;
+    opacity: 0.5;
+    border-collapse: collapse;
+  }
 
- 
+  table tr {
+    border-bottom: 2px rgba(255, 255, 255, 0.5) solid;
+    border-bottom-width: 1px;
+  }
+
+  th[scope="col"]{
+    opacity: 0.5;
+  }
+  .table tr th{
+   text-transform: uppercase;
+   color: #FFFFFF;
+ }
+
+ /* Adding the image before the data inside the th*/
+
+ table th[headers="header_object"]::before {
+    content: url(../docs/Vector_3.svg);
+ }
+
