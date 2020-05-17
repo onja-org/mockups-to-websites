@@ -9,69 +9,63 @@ main > section:nth-of-type(1) > header h2 {
   height: 59px;
 }
 main > section:nth-of-type(1) > header {
-  display: flex;
+  display: grid;
   padding-left: 4rem;
 }
 
-
-main > section:nth-of-type(1) > .borders > ul {
-display: flex;
-margin: 0;
-}
-
-main > section:nth-of-type(1) > .borders > ul > li {
-  text-decoration: none;
-  list-style: none;
-  border: 1px solid #49536B;
-  box-sizing: border-box;
-  border-radius: 4px;
-  margin-left: 1rem;
-}
-main > section:nth-of-type(1) > .borders > ul > li a {
-  text-decoration: none;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  color: #FFFFFF;
-}
-
-main > section:nth-of-type(1) > .borders {
-padding-left: 44rem;
-display: flex;
-margin-top: -68px;
-flex-direction: row-reverse;
-
-}
-
-main > section:nth-of-type(1) > nav:nth-of-type(2) ul {
+main > section:nth-of-type(1) > nav ul {
   display: flex;
   font-style: normal;
   font-weight: bold;
   font-size: 12px;
   padding-left: 0;
+  border-bottom: 1px rgb(199, 196, 196) solid;
 }
-main > section:nth-of-type(1) > nav:nth-of-type(2) small {
+main > section:nth-of-type(1) > nav {
+  display: grid;
+
+}
+main > section:nth-of-type(1) > nav p:nth-of-type(2) {
   opacity: 0.5;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
 }
-main > section:nth-of-type(1) > nav:nth-of-type(2) > ul li:nth-of-type(1) {
+main > section:nth-of-type(1) > nav p:nth-of-type(1) {
+font-style: normal;
+font-weight: 300;
+font-size: 24px;
+line-height: 29px;
+}
+
+color: #FFFFFF;
+main > section:nth-of-type(1) > nav > ul li:nth-of-type(1) {
   margin-left: 0;
   color: #FFFFFF;
   opacity: 1;
 }
 
-main > section:nth-of-type(1) > nav:nth-of-type(2) {
+main > section:nth-of-type(1) > nav {
   padding-left: 4rem;
 }
 
-main > section:nth-of-type(1) > nav:nth-of-type(2) > ul li {
+main > section:nth-of-type(1) > nav > ul li {
   opacity: 0.5;
   color: #FFFFFF;
 }
-main > section:nth-of-type(1) > nav:nth-of-type(2) > ul li {
+main > section:nth-of-type(1) > nav > ul li {
   list-style: none;
   margin-left: 5rem;
   text-transform: uppercase;
 }
-main > section:nth-of-type(1) > nav:nth-of-type(2) > ul > li a {
+main > section:nth-of-type(1) > nav > ul > li a {
   text-transform: uppercase;
+}
+
+button {
+  margin-left: 2rem;
+  background-color: inherit;
+  color: #FFFFFF;
+  border: 1px solid rgb(86, 86, 173);
+  border-radius: 4px;
 }

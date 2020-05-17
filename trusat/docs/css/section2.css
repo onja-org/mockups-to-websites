@@ -3,8 +3,9 @@ section:nth-of-type(2) > div > ul > li{
   text-transform: uppercase;
 }
 section:nth-of-type(2) > div > ul {
-  border-block-end: 1px white solid;
-  border-block-end-width: 50%;
+  display: grid;
+  border-bottom: 2px white solid;
+  padding-left: 2rem;
 }
 
 section:nth-of-type(2) > div > ul > li a {
@@ -23,6 +24,64 @@ section:nth-of-type(2) > div > div > ul > li a {
 
 section:nth-of-type(2) {
   display: grid;
-  padding-block-start: 17.5rem;
+  padding-block-start: 22.5rem;
 }
 
+section:nth-of-type(2) th, td {
+  border-bottom: 1px solid rgb(57, 105, 160);
+  padding: 5px 10px;
+}
+section:nth-of-type(2) thead > tr th {
+border-bottom: 1px solid white;
+text-transform: uppercase;
+}
+
+section:nth-of-type(2) > table:nth-of-type(1) > thead > tr > th {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.05em;
+}
+
+section:nth-of-type(2) > table:nth-of-type(1) > tbody > tr > td {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+  }
+  section:nth-of-type(2) > table:nth-of-type(1) > tbody > tr > td > a {
+    font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  text-decoration-line: underline;
+  color: #EC7E5F;
+
+  }
+
+  section:nth-of-type(2) > table:nth-of-type(2) > thead > tr > th {
+    font-style: normal;
+    font-weight: bold;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.05em;
+    }
+    section:nth-of-type(2) > table:nth-of-type(4) > tbody > tr > td b {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 28px;
+    display: flex;
+    align-items: flex-end;
+    color: #EC7E5F;
+    }
+
+section:nth-of-type(2) > div {
+    width: 210px;
+    height: 84px;
+    left: 935px;
+    top: 1043px;
+    background: #EC7E5F;
+}

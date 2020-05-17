@@ -1,6 +1,6 @@
-th > small::before {
+table > tbody > tr:nth-of-type(1) > th::before {
   content:"";
-  background-image: url("../");
+  background-image: url("..");
   display: flex;
   height: 1.625rem;
   width: 1.625rem;
