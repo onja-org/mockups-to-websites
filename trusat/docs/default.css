@@ -7,16 +7,14 @@ html {
   color: #fff;
 }
 body {
-
+  width: 1338px;
+  height: 1299px;
 }
 main {
   display: grid;
-  grid-template-columns: repeat(2, 500px);
-  column-gap: 500px;
+  grid-template-columns: repeat(2, 330px);
+  column-gap: 600px;
   row-gap: 50px;
   grid-column-start: 0;
   align-items: start;
-}
-@media  (max-width: 768px) {
-
 }

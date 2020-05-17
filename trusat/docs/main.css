@@ -7,7 +7,7 @@ h1 {
   font-style: normal;
   font-weight: bold;
   font-size: 40px;
-  line-height: 48px;
+  line-height: 3rem;
   letter-spacing: 0.05em;
   color: #fc7756;
   margin-inline-start: 45px;
@@ -29,7 +29,7 @@ main > header > ul > li:nth-of-type(5) {
   font-style: normal;
   font-weight: bold;
   font-size: 20px;
-  line-height: 24px;
+  line-height: -0rem;
   text-transform: uppercase;
   justify-content: space-between;
   align-content: space-around;
@@ -41,7 +41,7 @@ main > header > ul > li:nth-of-type(1) {
   font-style: normal;
   font-weight: bold;
   font-size: 20px;
-  line-height: 24px;
+  line-height: -0rem;
   text-transform: uppercase;
   justify-content: space-between;
   align-content: space-around;

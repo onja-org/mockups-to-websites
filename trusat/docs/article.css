@@ -2,6 +2,97 @@
 
 article #profile{
 color: white;
-top: 20px;
+top: 50px;
 position: absolute;
+text-decoration: none;
+text-transform: uppercase;
+right: 9px;
 }
+article .profile {
+margin: 0rem 1rem -0.2rem;
+}
+
+button {
+width: 143px;
+height: 30px;
+border: 1px solid #4d4d4d;
+background-color: black;
+margin: 3rem 1.2rem 3rem 0rem;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 125%;
+align-items: center;
+text-align: center;
+color: #FFFFFF;
+}
+
+div > h3 {
+margin-top: -2rem;
+border-block-end: 1px solid #4d4d4d;
+text-transform: uppercase;
+line-height: 3rem;
+}
+
+article > header > div > h3 + p {
+padding: 0rem 2rem 3rem 0rem;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 22px;
+color: #FFFFFF;
+opacity: 0.5;
+}
+
+article > header > div > h3 + p a {
+  color: #EC7E5F;
+}
+
+div p {
+color: #848890;
+display: inline-block;
+}
+div > p.sattelites {
+border: 0.7px solid #081122;
+margin-inline-end: 2rem;
+margin-block-end: 3rem;
+}
+article > header > div > h3.community {
+margin-top: 2rem;
+}
+
+article > header > div.rectangle {
+  display: inline-block;
+}
+
+article > header > div > p.rectangle {
+width: 210px;
+height: 84px;
+background: #EC7E5F;
+margin-top: -3rem;
+border: solid 1px;
+}
+article > header > div > p.rectangle-2 {
+  width: 100px;
+  height: 84px;
+  background: none;
+  margin-top: -3rem;
+  margin-left: -1rem;
+  border: solid 1px;
+  border-left: none;
+  position: absolute;
+  }
+  article > header > div > p.observe {
+    text-transform: uppercase;
+  }
+
+  u {
+  color: #EC7E5F;
+  font-size: 2rem;
+  list-style-type: none;
+}
+
+ p#end {
+    margin-left: 7rem;
+    text-transform: uppercase;
+  }

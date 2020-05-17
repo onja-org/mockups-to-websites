@@ -9,11 +9,16 @@ nav > p {
 width: 120px;
 height: 21px;
 left: 25px;
-top: 18px;
+top: -0rem;
 text-transform: uppercase;
 line-height: 1rem;
 font-size: 2rem;
 font-weight: bolder;
+}
+nav > ul {
+  position: absolute;
+  left: 18.5rem;
+  top: 1.89rem;
 }
 
 header > nav > ul > li {
