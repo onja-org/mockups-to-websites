@@ -14,6 +14,12 @@ body {
   margin-inline-end: 45px;
 }
 main {
+  display: grid;
+  grid-template-columns: repeat(2, 330px);
+  column-gap: 400px;
+  row-gap: 50px;
+  grid-row-start: 0;
+  align-items: start;
 
 }
 

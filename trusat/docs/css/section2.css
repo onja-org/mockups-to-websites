@@ -22,5 +22,7 @@ section:nth-of-type(2) > div > div > ul > li a {
 }
 
 section:nth-of-type(2) {
-  display: inline;
+  display: grid;
+  padding-block-start: 17.5rem;
 }
+
