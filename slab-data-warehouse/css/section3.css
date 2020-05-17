@@ -104,6 +104,6 @@ section:nth-of-type(3) div:nth-of-type(4) {
   overflow: visible;*/
   }
 
-      div a{
+section:nth-of-type(3) div a{
         color: black;
       }

@@ -32,7 +32,7 @@ li:first-of-type {
   font-weight: 800;
 }
 
-header nav button:first-of-type {
+section:first-of-type header nav button:first-of-type {
   width: 20px;
 height: 20px;
 background: #9C69E2;
@@ -40,7 +40,7 @@ border-radius: 20px;
 margin-left: 15rem;
 margin-top:13px;
 }
-header nav button:nth-of-type(2) {
+section:first-of-type header nav button:nth-of-type(2) {
   width: 20px;
 height: 35px;
 background: #F063B8;
