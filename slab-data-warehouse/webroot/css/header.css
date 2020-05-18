@@ -1,3 +1,10 @@
 section:nth-of-type(3) h2 {
-
+  position: absolute;
+  width: 405px;
+  height: 52px;
+  left: 596px;
+  top: 1613px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
 }
