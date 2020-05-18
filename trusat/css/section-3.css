@@ -1,7 +1,9 @@
 section:nth-of-type(3) {
-  position: absolute;
-  left: 65%;
-  top: 2%;
+  /* display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-inline-start: 60%;
+  padding-block-start: -70%; */
 }
 
 section:nth-of-type(3) ul {
