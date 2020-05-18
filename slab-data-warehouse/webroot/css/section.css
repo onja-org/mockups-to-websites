@@ -45,7 +45,7 @@ section {
   padding-block-start: var(--padding);
   padding-block-end: var(--padding);
   background-color: #9C69E2;
-  width: 50vw;
-  height: 65vh;
+  width: 700px;
+  height: 500px;
   border-radius: 2vw;
 }
