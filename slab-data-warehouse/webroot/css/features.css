@@ -1,28 +1,46 @@
 .security{
     position: -15% 50%;
+    display: grid;
+    grid-row: 2/3;
 width: 300px;
 height: 300px;
 background-color: skyblue;
+z-index: 1;
+background-image:  url(../image/image4.png);
+background-repeat: no-repeat;
 }
 
 .print{
+  display: grid;
+ grid-row: 2/4;
     width: 300px;
   height: 300px;
   background-color: wheat;
+  background-image:url(../image/image6\ 1.png) ;
+  background-repeat: no-repeat;
 }
 
 .access{
+  display: grid;
+  grid-row: 1/3;
   width: 300px;
   height: 300px;
   background-color: pink;
-
+background-image: url(../image/image5\ 1.png);
+background-repeat: no-repeat;
 }
 
 .search{
- width: 300px;
- height: 300px;
- background-color: powderblue;
-
+  display: grid;
+  grid-row: 2/1;
+  width: 300px;
+  height: 300px;
+  background-color: powderblue;
+ background-image:  url(../image/image4.png);
+ background-repeat: no-repeat;
+  background-position: -40px 50px;
+ display: flex;
+ float: left;
 }
  .section-3 > p:nth-of-type(2){
   display: inline-block;
@@ -30,17 +48,17 @@ background-color: skyblue;
   margin-inline-end: 108px;
 
 
+
+
+
+
  }
 .section-3 {
-  background-image: url(../image/image3\ 1.png),
-                    url(../image/image4.png),
-                    url(../image/image5\ 1.png),
-                    url(../image/image6\ 1.png)
-                    ;
-  background-repeat: no-repeat;
-  background-position:30% 30%,50% 50%,70% 50%,80% 80% ;
+  margin-left: 150px;
+  width: 908px;
+  height: 700px;
   display: grid;
-  row-gap: 2;
+  grid-row: 2;
+
 
 }
-
