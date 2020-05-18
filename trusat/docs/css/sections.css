@@ -36,9 +36,10 @@ font-style: normal;
 font-weight: 300;
 font-size: 24px;
 line-height: 29px;
+color: #FFFFFF;
 }
 
-color: #FFFFFF;
+
 main > section:nth-of-type(1) > nav > ul li:nth-of-type(1) {
   margin-left: 0;
   color: #FFFFFF;
@@ -62,10 +63,4 @@ main > section:nth-of-type(1) > nav > ul > li a {
   text-transform: uppercase;
 }
 
-button {
-  margin-left: 2rem;
-  background-color: inherit;
-  color: #FFFFFF;
-  border: 1px solid rgb(86, 86, 173);
-  border-radius: 4px;
-}
+
