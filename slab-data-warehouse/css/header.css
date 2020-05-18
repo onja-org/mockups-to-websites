@@ -1,16 +1,16 @@
 /*Set the link inside the header*/
 body > header {
-  display: flex;
+  flex-wrap: wrap;
   position: relative;
   justify-content: space-between;
   z-index: 3;
 }
+
 header > nav > ul >li{
   width: 120px;
   height: 60px;  
   left: 240px; 
   top: 50px;
-
 }
 
 header > nav > ul > li > a{
@@ -33,4 +33,5 @@ header > nav > ul > li:last-child{
   border-radius: 3rem;
   text-align: center;
   line-height: 3;
+  margin-left: 40px;
 }
