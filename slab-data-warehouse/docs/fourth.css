@@ -1,11 +1,20 @@
 section:nth-of-type(3){
   text-align: center;
+  background-image: url(image4.png), url(image3.png), url(image5.png), url(image6.png);
+  background-position:
+                      30% 30%,/* 4 */
+                      -5% 30%,/* 3 */
+                      -10% 80%,/* 5 */
+                      30% 80%; /* 6 */
+  background-repeat: no-repeat;
+  z-index: 1;
 }
 
 section:nth-of-type(3) p {
   width: 450px;
   height: 58px;
   margin-left: 20rem;
+  z-index: 1
 
 }
 section:nth-of-type(3) h3{
@@ -19,7 +28,9 @@ section:nth-of-type(3) div.feature{
  grid-template-rows:264.64px 225.14px ;
  grid-column-gap: 13rem;
  display: grid;
- font-size: 0.8rem
+ font-size: 0.8rem;
+ opacity: 0.2;
+
 
 }
 section:nth-of-type(3) div.feature p{
@@ -29,6 +40,7 @@ section:nth-of-type(3) div.feature p{
   height: 80px;
 
 
+
 }
 
 section:nth-of-type(3) div div.search {
@@ -36,7 +48,6 @@ section:nth-of-type(3) div div.search {
   width: 265.5px;
   height: 194px;
   border-radius: 10%;
-  background-image: url(image3.png);
   background-repeat: no-repeat;
   overflow: visible;
 
@@ -56,7 +67,6 @@ section:nth-of-type(3) div div.hours{
   width: 272.14px;
   height: 197.28px;
   border-radius: 10%;
-  background-image: url(image4.png);
   background-repeat: no-repeat;
   grid-column: 2;
   grid-row: 1;
@@ -72,7 +82,6 @@ section:nth-of-type(3) div div.print{
   width: 275.14px;
   height: 179px ;
   border-radius: 10%;
-  background-image: url(image5.png);
   background-repeat: no-repeat;
   background-position: -90% 30%;
 
@@ -90,7 +99,6 @@ section:nth-of-type(3) div div.security{
   width: 269.64px;
   height: 182px ;
   border-radius: 10%;
-  background-image: url(image6.png);
   background-repeat: no-repeat;
   background-position: -100% 50%;
 }

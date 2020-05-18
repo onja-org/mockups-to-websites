@@ -1,20 +1,40 @@
 footer{
   height: 1000px;
 }
-footer button {
+footer  header button[onclick*="learn-more"]{
+  background-color: rgb(245, 125, 199);
+
+}
+footer header button {
   float: right;
   margin: 2rem;
   margin-top: -3rem;
 
 }
+footer > header > div:first-of-type {
+  background-color: rgb(159, 110, 236);
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+
+}
+footer > header > div:last-of-type {
+  background-color: rgb(245, 125, 199);
+  width: 20px;
+  height: 35px;
+  border-radius: 40%;
+  margin: 2rem;
+  margin-top: -2rem;
+}
+
+
+/*
+
 footer nav {
   margin-top: -2rem;
 }
 
-footer > button[onclick*="learn-more"]{
-  background-color: rgb(245, 125, 199);
 
-}
 
 footer img{
   float: right;

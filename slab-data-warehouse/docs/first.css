@@ -1,9 +1,8 @@
-header {
+header:first-of-type {
   width: 900px;
   height: 60px;
   margin-top: 32px;
   margin-bottom: 32px;
-  margin-left: 8rem;
 }
 
 
@@ -12,6 +11,7 @@ header div:first-of-type {
   width: 20px;
   height: 20px;
   border-radius: 50%;
+  margin-left: 8rem;
 
 }
 header div:last-of-type {
@@ -21,11 +21,12 @@ header div:last-of-type {
   border-radius: 40%;
   margin: 2rem;
   margin-top: -2rem;
+  margin-left: 10rem
 }
 
 .link > li{
   text-align: center;
-  margin-left: 5rem;
+  margin-left: 9rem;
   display: inline;
   }
 
@@ -45,6 +46,7 @@ header div:last-of-type {
     background-color: white;
     float: right;
     margin-top: -2.5rem;
+    margin-right: -4rem;
 
   }
 
