@@ -1,4 +1,22 @@
-header > nav {
+header nav > ul {
+  width: 322px;
+  height: 30px;
+  margin-block-start: 50px;
+  padding-inline-start: 410px;
+
+}
+nav ul > li {
+  display: inline;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 800;
+  text-transform: capitalize;
+  color: #212353;
+  padding-left: 40px;
+}
+
+
+/*header > nav {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   line-height: 1rem;
   font-weight: 800;
