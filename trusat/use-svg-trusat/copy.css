@@ -1,0 +1,229 @@
+/*It is nice to use aside element to add supporting information for a document*/
+
+/*About the default element*/
+@charset "UTF-8";
+html {
+  display: grid;
+  width: 100%;
+  height: 100%;
+  background-color: #081122;
+  color: #fff;
+}
+body {
+  width: 1338px;
+  height: 1299px;
+}
+main {
+  display: grid;
+  grid-template-columns: repeat(2, 330px);
+  column-gap: 600px;
+  row-gap: 50px;
+  grid-column-start: 0;
+  align-items: start;
+}
+
+/*About the headers*/
+
+nav {
+  text-align: center;
+}
+
+nav > p {
+width: 120px;
+height: 21px;
+left: 25px;
+top: -0rem;
+text-transform: uppercase;
+line-height: 1rem;
+font-size: 2rem;
+font-weight: bolder;
+}
+nav > ul {
+  position: absolute;
+  left: 18.5rem;
+  top: 1.89rem;
+}
+
+header > nav > ul > li {
+display: inline-block;
+text-transform: uppercase;
+font-style: normal;
+font-size: 16px;
+font-weight: bold;
+line-height: 15px;
+list-style-type: none;
+}
+nav > ul > li > a {
+  text-decoration: none;
+  color: white;
+  margin: 16px;
+}
+
+/*About the main*/
+
+h1 {
+  width: 26px;
+  height: 59px;
+  text-transform: uppercase;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 3rem;
+  letter-spacing: 0.05em;
+  color: #fc7756;
+  margin-inline-start: 45px;
+  }
+  main header li {
+    border-block-end: 1px solid #4d4d4d;
+}
+
+main > header > ul {
+  display: grid;
+  grid-template-columns: repeat(5, 150px);
+}
+
+main > header > ul > li:nth-of-type(2),
+main > header > ul > li:nth-of-type(3),
+main > header > ul > li:nth-of-type(4),
+main > header > ul > li:nth-of-type(5) {
+  height: 23px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: -0rem;
+  text-transform: uppercase;
+  justify-content: space-between;
+  align-content: space-around;
+  list-style-type: none;
+  opacity: 0.5;
+}
+main > header > ul > li:nth-of-type(1) {
+  height: 23px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: -0rem;
+  text-transform: uppercase;
+  justify-content: space-between;
+  align-content: space-around;
+  list-style-type: none;
+  color: #fff;
+}
+main > header > ul ~ p {
+  margin: 0;
+  margin-inline-start: 44px;
+  width: 753px;
+  height: 61px;
+  left: 100px;
+  top: 253px;
+}
+main > header > ul ~ p:nth-of-type(1) {
+font-style: normal;
+font-weight: 300;
+font-size: 24px;
+line-height: 29px;
+color: #FFFFFF;
+}
+main > header > ul ~ p:nth-of-type(2) {
+  opacity: 0.5;
+}
+
+
+/*About the article*/
+
+article #profile{
+color: white;
+top: 50px;
+position: absolute;
+text-decoration: none;
+text-transform: uppercase;
+right: 9px;
+}
+article .profile {
+margin: 0rem 1rem -0.2rem;
+}
+
+button {
+width: 143px;
+height: 30px;
+border: 1px solid #4d4d4d;
+background-color: black;
+margin: 3rem 1.2rem 3rem 0rem;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 125%;
+align-items: center;
+text-align: center;
+color: #FFFFFF;
+}
+
+div > h3 {
+margin-top: -2rem;
+border-block-end: 1px solid #4d4d4d;
+text-transform: uppercase;
+line-height: 3rem;
+}
+
+article > header > div > h3 + p {
+padding: 0rem 2rem 3rem 0rem;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 22px;
+color: #FFFFFF;
+opacity: 0.5;
+}
+
+article > header > div > h3 + p a {
+  color: #EC7E5F;
+}
+
+div p {
+color: #848890;
+display: inline-block;
+}
+div > p.sattelites {
+border: 0.7px solid #081122;
+margin-inline-end: 2rem;
+margin-block-end: 3rem;
+}
+article > header > div > h3.community {
+margin-top: 2rem;
+}
+
+article > header > div.rectangle {
+  display: inline-block;
+}
+
+article > header > div > p.rectangle {
+width: 210px;
+height: 84px;
+background: #EC7E5F;
+margin-top: -3rem;
+border: solid 1px;
+}
+article > header > div > p.rectangle-2 {
+  width: 100px;
+  height: 84px;
+  background: none;
+  margin-top: -3rem;
+  margin-left: -1rem;
+  border: solid 1px;
+  border-left: none;
+  position: absolute;
+  }
+  article > header > div > p.observe {
+    text-transform: uppercase;
+  }
+
+  u {
+  color: #EC7E5F;
+  font-size: 2rem;
+  list-style-type: none;
+}
+
+ p#end {
+    margin-left: 7rem;
+    text-transform: uppercase;
+  }
