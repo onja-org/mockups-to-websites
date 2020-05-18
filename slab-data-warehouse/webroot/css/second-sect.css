@@ -10,7 +10,7 @@ section:nth-of-type(2) {
   width: var(--width);
   height: var(--height);
   margin-inline-start: calc(var(--margin-inline-start) / 2 + 50px);
-  margin-block-start: calc(var(--margin-block-start) * (-6));
+  margin-block-start: calc(var(--margin-block-start) * (-4));
   top: var(--top);
   background: rgba(240, 99, 184, 0.15);
   border-radius: 50px;

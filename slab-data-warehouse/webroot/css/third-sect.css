@@ -15,8 +15,8 @@ section:nth-of-type(3) {
   margin-block-start: calc(var(--margin-block-start) * 2);
 }
 
-h3 {
-  margin-block-start: calc(var(--margin-block-start) * (-6));
+section:nth-of-type(3) h3 {
+  margin-block-start: calc(var(--margin-block-start) * (-4));
   margin-inline-start: calc(var(--margin-inline-start) * 2);
   font-family: Helvetica;
   font-weight: bold;
@@ -24,9 +24,8 @@ h3 {
   line-height: 56px;
   color: #212353;
 }
-
-h3 ~ p {
-  margin-block-start: calc(var(--margin-block-start) - 50px);
+section:nth-of-type(3) h3 ~ p {
+  margin-block-start: calc(var(--margin-block-start) - 20px);
   margin-inline-start: calc(var(--margin-inline-start) + 80px);
   font-family: Avenir;
   font-weight: 500;
@@ -40,28 +39,48 @@ h3 ~ p {
   column-gap: 3rem;
   grid-template-columns: repeat(2, 145px);
   grid-template-rows: repeat(2, 145px);
-}
- section:nth-of-type(3) div #example-1 {
   width: calc(var(--width) / 3);
   height: calc(var(--width) / 3);
+}
+ section:nth-of-type(3) div #example-1 {
+  background-image: url("../images/image4.svg");
+  background-repeat: no-repeat;
+  transform: translate(50%, 50%);
   margin-inline-start: var(--margin-inline-start);
   margin-block-start: calc(var(--margin-block-start) / 2);
-  opacity: 0.5;
   background: #68C9BA;
   border-radius: 50px;
  }
- section:nth-of-type(3) div #example-1 img {
-  width: var(--width);
-  height: calc(var(--height) / 2);
-  transform: translate(-50% , 50%);
-  margin-block-start: calc(var(--margin-block-start) * (-2));
+section:nth-of-type(3) div #example-2 {
+  background-image: url("../images/image5\ 1.svg");
+  background-repeat: no-repeat;
+  transform: translate(50%, -50%);
+  margin-inline-start: var(--margin-inline-start);
+  margin-block-start: calc(var(--margin-block-start) / 2);
+  background: #68C9BA;
+  border-radius: 50px;
 }
+section:nth-of-type(3) div #example-3 {
+  background-image: url("../images/image6\ 1.svg");
+  background-repeat: no-repeat;
+  transform: translate(-50%, -50%);
+  margin-inline-start: var(--margin-inline-start);
+  margin-block-start: calc(var(--margin-block-start) / 2);
+  background: #68C9BA;
+  border-radius: 50px;
+}
+section:nth-of-type(3) div #example-4 {
+  background-image: url("../images/image3\ 1.svg");
+  background-repeat: no-repeat;
+  transform: translate(50%, 50%);
+  margin-inline-start: var(--margin-inline-start);
+  margin-block-start: calc(var(--margin-block-start) / 3);
+  background: #68C9BA;
+  border-radius: 50px;
+/*
  section:nth-of-type(3) div #example-2 {
-  width: calc(var(--width) / 3);
-  height: calc(var(--width) / 3);
   margin-inline-start: calc(var(--margin-inline-start) * 3);
   margin-block-start: calc(var(--margin-block-start) / 2);
-  opacity: 0.5;
   background: #4B5D68;
   border-radius: 50px;
  }
@@ -73,11 +92,8 @@ h3 ~ p {
 }
 
  section:nth-of-type(3) div #example-3 {
-  width: calc(var(--width) / 3);
-  height: calc(var(--width) / 3);
   margin-inline-start: var(--margin-inline-start);
   margin-block-start: calc(var(--margin-block-start) * 3);
-  opacity: 0.5;
   background: #F063B8;;
   border-radius: 50px;
  }
@@ -88,11 +104,8 @@ h3 ~ p {
   margin-inline-start: calc(var(--margin-inline-start) * (-1));
 }
  section:nth-of-type(3) div #example-4 {
-  width: calc(var(--width) / 3);
-  height: calc(var(--width) / 3);
   margin-inline-start: calc(var(--margin-inline-start) * 3);
   margin-block-start: calc(var(--margin-block-start) * 3);
-  opacity: 0.5;
   background: #2D9CDB;
   border-radius: 50px;
  }
@@ -103,3 +116,12 @@ h3 ~ p {
   margin-inline-start: calc(var(--margin-inline-start) * (-1));
 }
 
+section:nth-of-type(3) div p {
+  width: calc(var(--width) / 5);
+  height: calc(var(--height) / 3);
+  margin-block-start: calc(var(--margin-block-start) / 1);
+  margin-inline-start: calc(var(--margin-inline-start) / 2 * (-0.5));
+  font-family: Avenir;
+  line-height: 20px;
+
+}
