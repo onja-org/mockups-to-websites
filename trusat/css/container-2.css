@@ -99,7 +99,7 @@
     line-height: 115%;
 
   }
-   
+
   .table-observations div:first-of-type li::before {
     content: url(../docs/Vector-1.svg);
   }
@@ -138,4 +138,6 @@
     line-height: 28px;
     color: #EC7E5F;
  }
+
+
 
