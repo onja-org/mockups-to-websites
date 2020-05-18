@@ -1,7 +1,7 @@
 .container {
-  width: 30vw;
+  width: 1000px;
   display: grid;
-  grid-template-columns: repeat(2, 30vw);
+  grid-template-columns: repeat(2, 400px);
   row-gap: 2rem;
   column-gap: 5rem;
 }
@@ -12,7 +12,7 @@
 }
 
 .container p {
-  width: 15vw;
+  width: 200px;
   font-size: 16px;
   line-height: 1.2rem;
 }
@@ -39,6 +39,7 @@
   padding-block-start: 2rem;
   padding-block-end: 2rem;
   background-color: rgba(104, 201, 186, 0.1);
+
 }
 .print_out {
   background-image: url("../images/print-out.svg");
@@ -87,10 +88,9 @@
 }
 
 #testimonial-container .jeny_doe {
-  width: 18vw;
-  background: linear-gradient(270deg,
-    #FFFFFF 9.75%,
-    rgba(255, 255, 255, 0) 100%
+  width: 250px;
+  background: linear-gradient(30deg,
+    rgba(255, 255, 255, 0.2) 50%
   );
 }
 
