@@ -38,5 +38,9 @@ background-color: skyblue;
                     url(../image/image6\ 1.png)
                     ;
   background-repeat: no-repeat;
+  background-position:30% 30%,50% 50%,70% 50%,80% 80% ;
+  display: grid;
+  row-gap: 2;
+
 }
 
