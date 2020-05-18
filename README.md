@@ -21,5 +21,6 @@ Got a mockup you'd like to include in this list of real-world exercises? Please 
 ## List of mockups
 
 1. [TruSat.org](trusat/readme.md)
-1. [Slab's Data-Warehouse](slab-data-warehouse/readme.md)
+1. [Slab's Data Warehouse](slab-data-warehouse/readme.md)
+1. [Chili Lab's Food Delivery App](chili-labs-food-delivery/readme.md)
 
