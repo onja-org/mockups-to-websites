@@ -4,6 +4,7 @@ section:nth-of-type(4) {
   background: #9C69E2;
   border-radius: 50px;
   margin-block-end: 50px;
+  margin-block-start: 100px;
 }
 
 section:nth-of-type(4) {
