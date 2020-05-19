@@ -37,4 +37,9 @@
 .td_1 {
   display: flex;
 }
+section:nth-of-type(2) td {
+  color: white;
+}
+.small_spans {
 
+}

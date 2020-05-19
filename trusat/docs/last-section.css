@@ -40,7 +40,7 @@ section:nth-of-type(3) p {
   color: #FFFFFF;
   opacity: 0.5;
 }
-section:nth-of-type(3) p a {
+#link {
   font-family: Montserrat;
   font-style: normal;
   font-weight: normal;
