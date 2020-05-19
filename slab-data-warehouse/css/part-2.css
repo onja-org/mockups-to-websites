@@ -1,0 +1,22 @@
+.part-2 {
+  background-color: pink;
+  width: 1117px;
+  height: 560px;
+  border-radius: 36px;
+}
+
+.part-2 > h3 {
+  margin-left: 550px;
+  font-family: helvetica;
+  font-style: normal;
+  font-weight: bold;
+}
+
+.part-2 > figure {
+  float: left;
+}
+
+.part-2 > p {
+  margin-block-start: 265px;
+  margin-right: 93px;
+}
