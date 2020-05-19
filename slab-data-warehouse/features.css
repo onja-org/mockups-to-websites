@@ -20,9 +20,6 @@
   padding: 2rem;
 }
 
-.features ol > li.feature h3, p ,nav {
-  margin-inline-start: 6rem;
-}
 
 .features ol > li.feature:nth-last-of-type(1) {
   background-color: rgba(107, 207, 192, 0.2);
