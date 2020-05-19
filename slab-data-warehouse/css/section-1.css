@@ -9,7 +9,7 @@ header > h1 {
   line-height: normal;
 }
 
-.section-1 p {
+.section_1 p {
   width: 380px;
   height: 120px;
   left: 240px;
@@ -17,7 +17,7 @@ header > h1 {
   color: darkblue;
 }
 
-.section-1 > header {
+.section_1 > header {
   background-image: url(../images/image-1-1.png);
   background-position: 50% 90%;
   background-repeat: no-repeat;

@@ -1,4 +1,4 @@
-.section-2 > header {
+.section_2 > header {
   background-image: url(../images/image-2.png);
   width: 477px;
   height: 504px;
@@ -7,14 +7,16 @@
   background-position: 0 100%;
 }
 
-.section-2{
+.section_2{
   background-color: rgba(240, 99, 184, 0.15);
   border-radius: 10%;
-  width: 1120px;
-  height: 560px;
+  margin-left: 72px;
+  margin-right: 92px;
+  margin-top: 125px;
+  margin-bottom: 125px;
 }
 
-.section-2 h2 {
+.section_2 h2 {
   width: 475px;
   height: 100px;
   left: 660px;
@@ -23,7 +25,7 @@
   position: absolute;
 }
 
-.section-2 p {
+.section_2 p {
   width: 475px;
   height: 310px;
   left:670px ;
