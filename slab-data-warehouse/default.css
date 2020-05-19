@@ -1,5 +1,7 @@
 body {
-  position: relative;
-  background-color: rgba(227, 235, 233, 0.589);
-  margin-inline-end: 2rem;
+  background: #E5E5E5
 }
+
+position: relative;
+  margin-inline-end: 2rem;
+  margin-inline-start: 10rem;

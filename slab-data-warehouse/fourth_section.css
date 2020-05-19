@@ -1,27 +1,33 @@
-section#fourth {
-  margin-inline-start: 8rem;
+/* #fourth_section {
+  position: relative;
+}
+
+#fourth_section ol {
   background: #9C69E2;
   border-radius: 50px;
   padding-top : 6rem;
   padding-left : 2rem;
   padding-bottom: 3rem;
-  position: relative;
   display: inline-flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
 }
 
-section#fourth > h2 {
+#fourth_section > h2 {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 2rem;
   color: white;
   position: absolute;
-  top: 1.5rem;
+  top: 1rem;
   left: 4rem;
 }
 
-section#fourth > div:first-of-type {
+#fourth_section  ol h4 {
+  margin-inline-start: 6rem;
+}
+
+#fourth_section > ol > li:first-of-type {
   background-color: white;
   border-radius: 20px;
   width: 30rem;
@@ -32,25 +38,29 @@ section#fourth > div:first-of-type {
   margin: 1rem;
 }
 
-section#fourth > div:nth-of-type(2) {
+#fourth_section > ol > li:nth-of-type(2) {
   background-color: white;
   border-radius: 20px;
   border: 1px solid #9C69E2;
   box-shadow: 0px 20px 0px rgba(156, 105, 226, 0.3);
-  width: 20rem;
+  width: 24rem;
   height: 15rem;
   padding: 1rem;
   margin: 1rem;
 }
 
-section#fourth > div:nth-of-type(3) {
+#fourth_section > ol > li:last-of-type {
   background-color: white;
   border: 1px solid #9C69E2;
   box-shadow: 0px 20px 0px rgba(156, 105, 226, 0.3);
   border-radius: 20px;
-  width: 10rem;
+  width: 20rem;
   height: 15rem;
   padding: 1rem;
   margin: 1rem;
   overflow: hidden;
 }
+
+#fourth_section > ol > li {
+  list-style: none;
+} */

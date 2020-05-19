@@ -1,15 +1,14 @@
-section#second {
+/* #second_section {
   background-image: url(../slab-data-warehouse/images/image2.svg);
   background-repeat: no-repeat;
   background-color: rgb(255, 217, 223);
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   border-radius: 2rem;
-  margin-inline-start: 8rem;
   height: 30rem;
   position: relative;
 }
 
-section#second > h2 {
+#second_section > h2 {
   font-size: 2rem;
   width: 35%;
   position: absolute;
@@ -17,9 +16,9 @@ section#second > h2 {
   left: 35rem;
 }
 
-section#second > p {
+#second_section > p {
   width: 30%;
   position: absolute;
   top: 13rem;
   left: 35rem;
-}
+} */
