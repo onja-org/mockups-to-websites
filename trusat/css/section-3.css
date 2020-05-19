@@ -30,7 +30,7 @@
   padding-inline-start: 0;
 }
 
-section:nth-of-type(3) > ul:nth-of-type(1) > li {
+.three > ul:nth-of-type(1) > li {
   border: 1px solid whitesmoke;
   border-radius: 4px;
   padding: .5rem;
@@ -39,17 +39,17 @@ section:nth-of-type(3) > ul:nth-of-type(1) > li {
   text-align: center;
 }
 
-section:nth-of-type(3) > ul:nth-of-type(1) > li:nth-of-type(2) {
+.three > ul:nth-of-type(1) > li:nth-of-type(2) {
   margin-inline-start: 1rem;
 }
-section:nth-of-type(3) > h3 {
+.three > h3 {
   font-size: 20px;
   line-height: 24px;
   letter-spacing: 0.05em;
   text-transform: uppercase;
 }
 
-section:nth-of-type(3) .border {
+.three .border {
   width: 298px;
   height: 3px;
   background-color: #ffffff;
@@ -57,33 +57,33 @@ section:nth-of-type(3) .border {
   opacity: 0.5;
 }
 
-section:nth-of-type(3) > p {
+.three > p {
   font-size: 16px;
   line-height: 22px;
   opacity: 0.5;
 }
 
-section:nth-of-type(3) > p > a {
+.three > p > a {
   color: #ff0000;
   opacity: 1;
 }
 
-section:nth-of-type(3) > nav > ul {
+.three > nav > ul {
   margin-inline-start: 0;
   font-size: 1.2rem;
   text-transform: uppercase;
   opacity: 0.7;
 }
 
-section:nth-of-type(3) > nav > ul > li > svg {
+.three > nav > ul > li > svg {
   padding-block-end: -2rem;
 }
 
-section:nth-of-type(3) > nav > ul > li:nth-of-type(2) {
+.three > nav > ul > li:nth-of-type(2) {
   margin-inline-start: 3rem;
 }
 
-section:nth-of-type(3) > table {
+.three > table {
   text-transform: uppercase;
   font-size: 12px;
   line-height: 14px;
@@ -91,38 +91,38 @@ section:nth-of-type(3) > table {
   opacity: 0.8;
 }
 
-section:nth-of-type(3) > table > tr {
+.three > table > tr {
   border-bottom: 2px solid gray;
 }
 
-section:nth-of-type(3) tr > td:nth-of-type(2) {
+.three tr > td:nth-of-type(2) {
   padding-inline-start: 5rem;
 }
 
-section:nth-of-type(3) tr > td:nth-of-type(3) {
+.three tr > td:nth-of-type(3) {
   padding-inline-start: 1rem;
 }
 
-section:nth-of-type(3) ul:nth-of-type(2) {
+.three ul:nth-of-type(2) {
   display: inline;
 }
 
-section:nth-of-type(3) ul:nth-of-type(2) > li {
+.three ul:nth-of-type(2) > li {
   padding: .5rem;
   text-transform: uppercase;
 }
 
-section:nth-of-type(3) ul:nth-of-type(2) > li:nth-of-type(1) {
+.three ul:nth-of-type(2) > li:nth-of-type(1) {
   padding-inline-start: 1rem;
   opacity: 0.5;
 }
 
-section:nth-of-type(3) ul:nth-of-type(2) > li:nth-of-type(2):after {
+.three ul:nth-of-type(2) > li:nth-of-type(2):after {
   content: '';
   width: 20px;
 }
 
-section:nth-of-type(3) ul:nth-of-type(2) > li:nth-of-type(3) {
+.three ul:nth-of-type(2) > li:nth-of-type(3) {
   padding-inline-start: 10rem;
   opacity: 0.5;
 }
