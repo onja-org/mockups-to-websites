@@ -13,7 +13,8 @@
   padding-inline-start: 300px;
 }
 
-h2, h3 {
+h2,
+h3 {
   color: #212353;
 }
 
@@ -28,4 +29,14 @@ h2, h3 {
   font-size: 40px;
 }
 
+.container_features h3 {
+  font-family: 'Helvetica', Arial, sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  margin: 0;
+  padding-block-end: 20px;
+  padding-inline-end: 70px;
+  padding-block-start: 49px;
+}
 
