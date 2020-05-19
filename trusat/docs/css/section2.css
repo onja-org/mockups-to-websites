@@ -29,56 +29,6 @@
   left: 10rem;
 }
 
-#second-section th, td {
-  border-bottom: 1px solid rgb(57, 105, 160);
-  padding: 5px 10px;
-}
-#second-section thead > tr th {
-  border-bottom: 1px solid white;
-  text-transform: uppercase;
-}
-
-#second-section > table:nth-of-type(1) > thead > tr > th {
-  font-style: normal;
-  font-weight: bold;
-  font-size: 20px;
-  line-height: 24px;
-  letter-spacing: 0.05em;
-}
-
-#second-section > table:nth-of-type(1) > tbody > tr > td {
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 22px;
-}
-#second-section > table:nth-of-type(1) > tbody > tr > td > a {
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 20px;
-  text-decoration-line: underline;
-  color: #EC7E5F;
-
-}
-
-#second-section > table:nth-of-type(2) > thead > tr > th {
-  font-style: normal;
-  font-weight: bold;
-  font-size: 20px;
-  line-height: 24px;
-  letter-spacing: 0.05em;
-}
-#second-section > table:nth-of-type(4) > tbody > tr > td b {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: 300;
-  font-size: 24px;
-  line-height: 28px;
-  display: flex;
-  align-items: flex-end;
-  color: #EC7E5F;
-}
 
 #second-section > div {
   width: 210px;
