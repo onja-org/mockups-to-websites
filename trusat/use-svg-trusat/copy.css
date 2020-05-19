@@ -13,9 +13,9 @@ body {
   width: 1338px;
   height: 1299px;
 }
-main {
+body {
   display: grid;
-  grid-template-columns: repeat(2, 330px);
+  grid-template-columns: repeat(1, 330px);
   column-gap: 600px;
   row-gap: 50px;
   grid-column-start: 0;
@@ -128,7 +128,6 @@ main > header > ul ~ p:nth-of-type(2) {
   opacity: 0.5;
 }
 
-
 /*About the article*/
 
 article #profile{
@@ -227,3 +226,5 @@ article > header > div > p.rectangle-2 {
     margin-left: 7rem;
     text-transform: uppercase;
   }
+
+/*About the aside*/

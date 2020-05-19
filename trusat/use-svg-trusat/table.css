@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+table {
+  width: 806px;
+  height: 898px;
+  margin-inline-start: 35px;
+}
+
+th {
+text-transform: uppercase;
+text-align: left;
+border-bottom: solid 1px;
+font-size: 13px;
+text-size-adjust: 2rem;
+color: #848890;
+word-spacing: 2rem;
+}
+
+td {
+  border-bottom: 1px solid #848890;
+  text-transform: uppercase;
+}
+
+.first_table {
+width: 293px;
+text-align: center;
+}
+.first_table {
+  counter-reset: td;
+}
+.first_table::before {
+  counter-increment: td;
+  content: counter(td) "";
+}
+
+.second_table_row {
+  width: 242px;
+  text-size-adjust: left;
+  font-size: 1rem;
+  text-transform: capitalize;
+}
