@@ -10,8 +10,8 @@
   background-position: -30px -5px;
   background-repeat: no-repeat;
   background-size: -95px 500px;
-  background-color: lightpink;
-  border-radius: 20%;
+  background-color: rgba(240, 99, 184, 0.15);
+  border-radius: 50px;
 }
 
 .section-2 * {

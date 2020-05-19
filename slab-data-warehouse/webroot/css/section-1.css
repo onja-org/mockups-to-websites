@@ -1,31 +1,41 @@
 .section-1 {
   margin-inline-start: 20px;
   margin-block-start: 50px;
-  margin-inline-end: 20px;
-  width: 1000px;
+  margin-inline-end: 5px;
+  margin-block-end: 50px;
+  width: 1600px;
   height: 700px;
   background-image: url("../images/image1\ 1.png"),
                     url(../images/Logo.jpg);
-  background-position: 350px 320px,
+  background-position: 367px 380px,
                        150px 50px;
   background-repeat: no-repeat;
-  background-size: 650px 250px,
+  background-size: 650px 330px,
                    60px 40px;
 }
 
+.section-1 header {
+  position: relative;
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
 .section-1 nav ul{
-  margin-inline-start: 220px;
-  margin-block-start: 50px;
+  margin-inline-start: 200px;
+  margin-block-start: -26px;
   text-align: start;
   list-style: none;
 }
 
-.section-1 nav li {
+.section-1 header> nav li {
   display: inline-flex;
   align-items: flex-start;
-  justify-content: flex-start;
-  margin-right: 4rem;
-  margin-block-start: 65px;
+  justify-content: space-between;
+  margin-block-start: -10rem;
+  margin-inline-end: 2rem;
 }
 
 .section-1 nav li a {
@@ -36,11 +46,14 @@
 }
 
 .section-1 button {
-  margin-inline-start: 800px;
-  margin-block-start: -100px;
-  background-color: #ffffff;
+  position: absolute;
+  align-items: flex-end;
   padding: 2rem;
-  border-radius: 40%;
+  background-color: #FFFFFF;
+  border-radius: 50px;
+  box-shadow: 0px 5px 5px rgba(75, 93, 104, 0.1);
+  margin-inline-start: 60rem;
+  margin-block-start: -5rem;
 }
 
 .section-1 button::after {
@@ -58,7 +71,7 @@
 .section-1 h1 {
   font-family: sans-serif;
   font-weight: bold;
-  font-size: 3rem;
+  font-size: 4rem;
   width: 600px;
   height: 184;
 }
