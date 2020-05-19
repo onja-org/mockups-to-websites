@@ -6,7 +6,7 @@ html * {
   color: #ffffff;
 }
 body {
-  background-color: black;
+  background-color: rgba(0, 0, 0, 0.9);
   margin-inline-start: 100px;
 }
 
@@ -18,24 +18,17 @@ main {
 }
 
 section > h2 {
-  color: #ffffff;
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 24px;
+  line-height: 29px;
+  font-weight: 300;
 }
 
-section > h2 ~ p {
-  color: #ffffff;
-}
-
-table {
-  color: #ffffff;
-}
-
-p + table {
-  counter-reset: td;
-}
-
-p + table tr > td:nth-of-type(1)::before {
-  counter-increment: td;
-  content: counter(td) url("../images/Group\ 51.svg");
+p {
+  color: rgba(255, 255, 255, 0.5);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
 }
 
 .rectanle {
@@ -56,4 +49,10 @@ p + table tr > td:nth-of-type(1)::before {
   border: solid gray 2px;
   right: 0;
   top: 30%;
+}
+
+.nav_anchor,
+.first_table th,
+p {
+  color: rgba(255, 255, 255, 0.5);
 }

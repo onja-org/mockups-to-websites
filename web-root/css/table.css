@@ -35,13 +35,14 @@ table {
 .first_table {
   height: 900px;
 }
-.second_table {
-  height: 301px;
-  width: 302px;
+
+.second_table td:not(:nth-last-of-type(1)) {
+  padding-inline-end: 3rem;
 }
 
-.second_table td {
-  padding: 0;
+.first_table,
+.second_table {
+  border-collapse: collapse;
 }
 
 .second_table td:nth-of-type(1) {
@@ -64,7 +65,4 @@ table {
 
 .second_table img {
   margin-inline-end: 10px;
-}
-.second_table td:nth-of-type(1) {
-  vertical-align: middle;
 }

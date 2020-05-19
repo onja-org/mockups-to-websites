@@ -48,3 +48,8 @@ section > h2 > a {
 section > h2 ~ p > a {
   color: #ec7e5f;
 }
+.observation {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
