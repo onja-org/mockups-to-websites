@@ -19,14 +19,13 @@
   content: counter(row-num);
 } */
 
-.two table > tr > td > svg {
-  width: 50px;
-  height: 50px;
+.two table > thead + tbody > tr {
+  border-bottom: 1.5px solid hsla(240, 100%, 50%, 0.2);
 }
 
- .two table > thead {
-  border-bottom: 2px solid #ffffff;
- }
+.two table > thead {
+  border-bottom: 2px solid hsla(0, 0%, 100%, 0.6);
+}
 
 .two table > thead > tr > th {
   text-transform: uppercase;
@@ -44,7 +43,6 @@
   padding-inline-start: 7rem;
 }
 
-
 .two table > thead > tr > th:nth-of-type(3) {
   padding-inline-start: 0.5rem;
 }
@@ -53,16 +51,21 @@
   padding-inline-start: 1rem;
 }
 
-.two table > thead + tbody > tr {
-  border-bottom: 1px solid whitesmoke;
-}
-
 .two table > tbody > tr:nth-of-type(10) {
   border-bottom: 0;
 }
 
 .two table > tbody > tr > td {
   padding: 1rem 0 1rem 0;
+}
+
+.two table > tr > td > svg {
+  width: 50px;
+  height: 50px;
+}
+
+.two tbody > tr td:nth-of-type(2) {
+  text-transform: uppercase;
 }
 
 .two table > tbody > tr > .tbd {
