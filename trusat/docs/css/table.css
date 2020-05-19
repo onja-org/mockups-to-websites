@@ -14,3 +14,7 @@ table {
   padding-top: 1rem;
 
 }
+#first-table {
+  position: absolute;
+  height: 100%;
+}
