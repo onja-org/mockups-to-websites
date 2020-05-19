@@ -78,12 +78,19 @@ header svg {
   left: 1222px;
   width: 122px;
   height: 27px;
-  display: flex;
-  flex-direction: row;
   text-transform: uppercase;
 }
 
-.my_profile::before {
-  content: url(../images/Mask\ Group.svg);
+.my_profile {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 130px;
+  line-height: 27px;
+  margin-inline-end: 4px;
 }
 
+.my_profile > a {
+  vertical-align: bottom;
+  text-decoration: none;
+}
