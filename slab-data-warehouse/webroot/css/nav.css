@@ -1,21 +1,27 @@
-
-
-section:nth-of-type(1) nav ul {
+.section_1 nav ul {
   list-style: none;
   padding-inline-start: 410px;
   display: grid;
   grid-template-columns: repeat(4, 53px);
   grid-column-gap: 40px;
   column-gap: 40px;
+}
 
+.section_1 nav {
+  text-align: center;
+}
+
+.section_1 nav li {
+  display: inline-block;
 }
 
 
 
-section:nth-of-type(1) nav a {
+.section_1 nav a {
   text-decoration: none;
   color: black;
   padding-inline-start: 65px;
+  margin-block-start: -40rem;
 }
 
 

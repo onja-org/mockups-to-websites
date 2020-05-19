@@ -1,4 +1,4 @@
-section:nth-of-type(1) {
+.section_1 {
   background-image: url(../images/image1\ 1.svg);
   background-repeat: no-repeat;
   background-size: 885px;
@@ -6,41 +6,33 @@ section:nth-of-type(1) {
   background-origin: padding-box;
 }
 
-section:nth-of-type(1) h1{
-  color: darkblue;
-  font-size: 80px;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  padding-inline-start: 240px;
-  padding-block-start: 240px;
-  padding-inline-end: 715px;
-}
 
-
-section:nth-of-type(1) p {
+.section_1 p {
   width: 380px;
   height: 120px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-size: 18px;
   font-weight: 500;
   padding-inline-start: 240px;
-  padding-block-start: 50px;
+  margin-block-start: 50px;
   padding-inline-end: 980px;
 
 }
 
-section:nth-of-type(2) {
-  position: absolute;
+.section_2 {
   width: 1117px;
   height: 560px;
   left: 240px;
   top: 903px;
-  background-color: pink;
+  background-color: rgba(240, 99, 184, 0.15);
   background-image: url("../images/image2.svg");
   background-repeat: no-repeat;
   border-radius: 50px;
+  margin-left: 240px;
+  margin-top: 99px;
 }
 
-section:nth-of-type(2) h2 {
+.section_2 h2 {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 40px;
   padding-inline-start: 550px;
@@ -49,7 +41,7 @@ section:nth-of-type(2) h2 {
   padding-block-end: 40px;
 }
 
- section:nth-of-type(2) p {
+ .section_2 p {
   width: 474px;
   height: 170px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -58,16 +50,16 @@ section:nth-of-type(2) h2 {
   word-wrap: break-word;
 }
 
-section:nth-of-type(3) div > div {
-  position: absolute;
+.section_3 header p {
   width: 584px;
   height: 58px;
-  left: 507px;
-  top: 1715px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 18px;
-  font-style: normal;
   font-weight: 500;
+  font-style: normal;
+  margin-left: 507px;
+  margin-top: 50px;
 }
+
 
 

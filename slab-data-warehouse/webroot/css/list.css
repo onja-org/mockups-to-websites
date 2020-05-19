@@ -1,0 +1,77 @@
+.feature {
+  position: relative;
+  width: 442px;
+  height: 358px;
+  list-style: none;
+  margin: 2rem;
+  background-color: aliceblue;
+  border-radius: 30px;
+  left: 328px;
+  padding-inline-start: 172px;
+}
+
+.feature h3 {
+  width: 200px;
+  height: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  font-weight: normal;
+  padding-block-start: 49px;
+}
+
+.feature p {
+  width: 220px;
+  height: 160px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 1.6;
+  color: #4B5D68;
+}
+
+.feature .link {
+  width: 87px;
+  height: 26px;
+  color: #212353;
+  font-size: 16px;
+  font-weight: 800;
+  text-decoration: none;
+}
+
+#feature_search_data {
+  background-color: rgba(104, 201, 186, 0.1);
+}
+
+#feature_search_data::before {
+  background-image: url("../images/image3\ 1.svg");
+}
+
+
+
+
+/* .section_3  {
+
+  background-image: url("../images/image3\ 1.svg");
+
+}
+
+.section_3  {
+
+  background-image: url("../images/image4.svg");
+
+}
+
+.section_3 .article_3 {
+
+  background-image: url("../images/image5\ 1.svg");
+
+}
+
+.section_3 .article_4 {
+
+  background-image: url("../images/image6\ 1.svg");
+
+} */
+
+
+

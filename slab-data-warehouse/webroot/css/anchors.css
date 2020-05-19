@@ -1,0 +1,43 @@
+#learn_more a {
+  text-decoration: none;
+  color: white;
+  width: 170px;
+  height: 60px;
+  top: 644px;
+  margin-left: 240px;
+  background-color: blueviolet;
+  border-radius: 50px;
+  padding-inline-start: 32px;
+  padding-inline-end: 32px;
+  padding-block-start: 16px;
+  padding-block-end: 16px;
+  margin-block-start: 50px;
+
+
+}
+
+#request_demo a {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: -40rem;
+  margin-right: 240px;
+  float: right;
+  text-decoration: none;
+  color: black;
+  width: 210px;
+  height: 60px;
+  left: 1150px;
+  top: 50px;
+  border-radius: 50px;
+  background-color: white;
+  padding-block-start: 16px;
+
+}
+
+.section_3 a {
+  text-decoration: none;
+  color: black;
+  width: 87px;
+  height: 26px;
+}
