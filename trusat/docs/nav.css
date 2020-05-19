@@ -1,4 +1,4 @@
- body > header ul {
+ body > header nav ul {
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-end;
@@ -8,7 +8,7 @@
   flex-direction: row;
   margin-block-start: -4rem;
 }
-body > header ul li {
+body > header nav ul li {
 margin-inline-end: 1rem;
 text-transform: uppercase;
 font-weight: bold;

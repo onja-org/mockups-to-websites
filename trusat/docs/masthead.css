@@ -1,14 +1,15 @@
 html {
-    line-height: 1.25;
-    font-family: Montserrat;
     background-color: #333;
 }
 
 body {
-    font-size: 100%;
     margin-block-start: 30px;
     margin-block-end: 20px;
     margin-inline-start: 45px;
     margin-inline-end: 45px;
     max-width: 945px;
+}
+
+:root {
+  --normal-values: normal;
 }

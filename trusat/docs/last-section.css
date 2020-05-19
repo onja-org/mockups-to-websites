@@ -14,10 +14,10 @@ main section:nth-of-type(3) {
   color: #FFFFFF;
   padding-inline-start: 10rem;
 }
-.button {
-  display: inline;
+section:nth-of-type(3) div button {
+  display: flex;
+  flex-direction: column;
   padding-inline-start: 2rem;
-  border: 1px solid gray;
   border-radius: 15%;
   font-family: Montserrat;
   font-style: normal;
@@ -29,4 +29,35 @@ main section:nth-of-type(3) {
   color: #FFFFFF;
 }
 
+section:nth-of-type(3) p {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+  width: 299px;
+  height: 119px;
+  color: #FFFFFF;
+  opacity: 0.5;
+}
+section:nth-of-type(3) p a {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  text-decoration-line: underline;
+  color: #EC7E5F;
+
+}
+section:nth-of-type(3) table thead tr {
+  font-family: Proxima Nova;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+color: #FFFFFF;
+}
 
