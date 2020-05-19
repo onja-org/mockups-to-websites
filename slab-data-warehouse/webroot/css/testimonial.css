@@ -1,0 +1,16 @@
+.testimonials{
+  background-color: #9C69E2;
+  width: 1118px;
+  height: 709px;
+border-radius: 50px;
+background-image: url(../image/testimonial-1.png),
+                 url(../image/testimonial-2.png),
+                 url(../image/testimonial_3.png);
+  background-position: 50% 50%, 60% 60%, 70% 70%;
+
+background-repeat: no-repeat;
+}
+.three-testimonials{
+
+
+}

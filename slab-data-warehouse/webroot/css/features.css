@@ -1,8 +1,31 @@
- .feature-content {
+.section-3{
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-top: 115px;
+
+}
+.section-3 h1{
+   text-align: center;
+   font-size: 40px;
+   margin-bottom: 51px;
+}
+ .feature-advantage {
+   text-align: center;
+   color: rgb(75,93,184,100%);
+   font-size: 18px;
+  vertical-align:top;
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-bottom: 99px;
+ line-height: 40px;
+ }
+
+.feature-content {
    display: grid;
    grid-template-columns: repeat(2,1fr);
-   column-gap: 50px;
+   column-gap: 150px;
    row-gap: 50px;
+
  }
 
  .feature{
@@ -24,7 +47,8 @@
    font-weight: 400;
    color: #212353;
    font-size: 24px;
-   margin-inline-start: 30px;
+   margin-inline-start: 20px;
+
  }
  .feature p:nth-of-type(1){
    color: #485068;
@@ -47,10 +71,11 @@
   width: 245px;
   height: 211px;
   position: absolute;
-  left: -102px;
-  top:50%;
+  left: -147px;
+  top:60%;
   transform: translateY(-50%);
   background-repeat: no-repeat;
+
  }
 
  #feature-security {
@@ -74,13 +99,13 @@
 }
 
 #feature-access::before {
-  background-image:  url(../image/image4.png);
+  background-image:  url(../image/feature_24_hours.png);
 }
 
 #feature-print::before {
-  background-image: url(../image/image5\ 1.png);
+  background-image: url(../image/print_out.png);
 }
 
 #feature-security::before {
-  background-image: url(../image/image6\ 1.png);
+  background-image: url(../image/security_code.png);
 }
