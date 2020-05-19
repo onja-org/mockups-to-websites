@@ -28,9 +28,8 @@ section {
 }
 
 .data-storage-bank {
-  background-image: url(../images/data-storage-bank.svg);
+  position: relative;
   background-repeat: no-repeat;
-  background-position: left;
   background-size: var(--section-height);
   padding-inline-start: var(--padding);
   padding-inline-end: var(--padding);
@@ -38,8 +37,19 @@ section {
   padding-block-end: var(--padding);
   background-color: rgba(240, 99, 184, 0.15);
   border-radius: 50px;
-  width: 60%;
+  width: 900px;
   margin-inline-start: 5rem;
+}
+
+.data-storage-bank::before {
+  position: absolute;
+  content: "";
+  background-image: url("../images/data-storage-bank.svg");
+  width: 477px;
+  height: 477px;
+  top: 50%;
+  transform: translateY(-50%);
+  left: -30px;
 }
 
 .features {
