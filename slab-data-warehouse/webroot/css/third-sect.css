@@ -47,16 +47,19 @@ div ul {
 .feature h4 {
   font-size: 24px;
   font-weight: 400;
-  color: #4B5D68;
+  color: #212353;
   line-height: 50px;
 }
 .feature p {
-  color: #4B5D68;
+  color: #212353;
+  font-size: 16px;
+  li
 }
 .feature a {
   font-weight: 700;
   line-height: 26px;
   text-decoration: none;
+  color: #212353
 }
 #feature_search {
   background-color: rgb(104, 201, 186, 0.1);
@@ -116,4 +119,9 @@ div ul {
   height: 211px;
   transform: translateY(-5%);
 }
-
+.feature a::after {
+  content: "→";
+  font-size: 30px;
+  color: purple;
+  padding-inline-start: 2rem;
+}
