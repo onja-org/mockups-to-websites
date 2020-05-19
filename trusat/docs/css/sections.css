@@ -1,4 +1,4 @@
-main > section:nth-of-type(1) > header h2 {
+#first-section > header h2 {
   text-transform: uppercase;
   color: #FC7756;
   font-style: normal;
@@ -8,12 +8,12 @@ main > section:nth-of-type(1) > header h2 {
   letter-spacing: 0.05em;
   height: 59px;
 }
-main > section:nth-of-type(1) > header {
+#first-section > header {
   display: grid;
   padding-left: 4rem;
 }
 
-main > section:nth-of-type(1) > nav ul {
+#first-section > nav ul {
   display: flex;
   font-size: 12px;
   padding-left: 0;
@@ -24,17 +24,17 @@ main > section:nth-of-type(1) > nav ul {
   line-height: 24px;
   letter-spacing: 0.05em;
 }
-main > section:nth-of-type(1) > nav {
+#first-section > nav {
   display: grid;
 
 }
-main > section:nth-of-type(1) > nav p:nth-of-type(2) {
+#first-section > nav p:nth-of-type(2) {
   opacity: 0.5;
   font-weight: normal;
   font-size: 16px;
   line-height: 22px;
 }
-main > section:nth-of-type(1) > nav p:nth-of-type(1) {
+#first-section > nav p:nth-of-type(1) {
 font-style: normal;
 font-weight: 300;
 font-size: 24px;
@@ -43,26 +43,26 @@ color: #FFFFFF;
 }
 
 
-main > section:nth-of-type(1) > nav > ul li:nth-of-type(1) {
+#first-section > nav > ul li:nth-of-type(1) {
   margin-left: 0;
   color: #FFFFFF;
   opacity: 1;
 }
 
-main > section:nth-of-type(1) > nav {
+#first-section > nav {
   padding-left: 4rem;
 }
 
-main > section:nth-of-type(1) > nav > ul li {
+#first-section > nav > ul li {
   opacity: 0.5;
   color: #FFFFFF;
 }
-main > section:nth-of-type(1) > nav > ul li {
+#first-section > nav > ul li {
   list-style: none;
   margin-left: 5rem;
   text-transform: uppercase;
 }
-main > section:nth-of-type(1) > nav > ul > li a {
+#first-section > nav > ul > li a {
   text-transform: uppercase;
 }
 
