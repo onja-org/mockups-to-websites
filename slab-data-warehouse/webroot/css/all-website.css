@@ -3,11 +3,10 @@ html {
   background-color: #E5E5E5;
 }
 body {
-  background:linear-gradient(180deg, #F6FAFD 0%, #FFFFFF 19.4%);
-  width: 1600px;
-  height: 4500px;
-  display: grid;
-
+    background:linear-gradient(180deg, #F6FAFD 0%, #FFFFFF 19.4%);
+    width: 1600px;
+    height: 4500px;
+    font-family: Arial, Helvetica, sans-serif;
 
 }
 
