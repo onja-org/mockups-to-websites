@@ -15,9 +15,9 @@
   counter-increment: row-num;
 }
 
-.two tbody >  tr::before {
+/* .two tbody >  tr::before {
   content: counter(row-num);
-}
+} */
 
 .two table > tr > td > svg {
   width: 50px;
