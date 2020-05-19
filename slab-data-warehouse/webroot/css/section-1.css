@@ -1,16 +1,16 @@
 .section-1 {
   margin-inline-start: 20px;
-  margin-block-start: 50px;
+  margin-block-start: 20px;
   margin-inline-end: 5px;
   margin-block-end: 50px;
   width: 1600px;
   height: 700px;
   background-image: url("../images/image1\ 1.png"),
                     url(../images/Logo.jpg);
-  background-position: 367px 380px,
-                       150px 50px;
+  background-position: 465px 315px,
+                       150px 15px;
   background-repeat: no-repeat;
-  background-size: 650px 330px,
+  background-size: 655px 370px,
                    60px 40px;
 }
 
@@ -45,15 +45,26 @@
   text-decoration: none;
 }
 
-.section-1 button {
+.section-1 .request_demo {
   position: absolute;
+  width: 210px;
+  height: 60px;
   align-items: flex-end;
-  padding: 2rem;
   background-color: #FFFFFF;
   border-radius: 50px;
   box-shadow: 0px 5px 5px rgba(75, 93, 104, 0.1);
-  margin-inline-start: 60rem;
-  margin-block-start: -5rem;
+  margin-inline-start: 55rem;
+  margin-block-start: -4rem;
+}
+
+.section-1 .learn_more {
+  width: 170px;
+  height: 60px;
+  background-color: #9C69E2;
+  color: #ffffff;
+  border-radius: 50px;
+  margin-block-start: 4rem;
+  margin-inline-end: 279px;
 }
 
 .section-1 button::after {
@@ -65,20 +76,27 @@
   width: 645px;
   height: 468;
   margin-inline-start: 60px;
-  margin-block-start: 40px;
+  margin-block-start: 60px;
 }
 
 .section-1 h1 {
   font-family: sans-serif;
   font-weight: bold;
-  font-size: 4rem;
-  width: 600px;
-  height: 184;
+  font-size: 80px;
+  width: 645px;
+  height: 184px;
+  left: 145px;
+  top: 206px;
+  color: #212353;
+  line-height: 110%;
 }
 
 .section-1 header p {
-  width: 340px;
+  width: 380px;
   height: 120;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 160%;
 }
 
 

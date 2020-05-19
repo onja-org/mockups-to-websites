@@ -1,6 +1,6 @@
 footer {
   display: grid;
-  grid-template-columns: repeat(4, 200px);
+  grid-template-columns: repeat(4, 250px);
   column-gap: 30px;
   row-gap: 15px;
   width: 1600px;
@@ -18,12 +18,13 @@ footer header {
   justify-content: space-between;
   align-items: flex-start;
   flex-wrap: wrap;
-  width: 1000px;
+  width: 1200px;
   margin-block-start: 2rem;
 }
 
 
 footer header > #button ul {
+  position: relative;
   display: inline-flex;
   align-items: flex-end;
   flex-direction: row;
@@ -33,9 +34,10 @@ footer header > #button ul {
 }
 
 footer header > #button li {
-  margin-inline-end: 5rem;
+  margin-inline-end: 2rem;
 }
 footer header > #button .learn {
+  Width: 170px;
   padding: 2rem;
   color: #ffffff;
   background-color: #F063B8;
@@ -48,6 +50,7 @@ footer header > #button .demo::after {
 }
 
 footer header > #button .demo {
+  width: 200px;
   padding: 2rem;
   background-color: #FFFFFF;
   box-shadow: 0px 5px 5px rgba(75, 93, 104, 0.1);
