@@ -18,7 +18,7 @@ footer > header > div:first-of-type {
   border-radius: 50%;
 
 }
-footer > header > div:last-of-type {
+footer > header div:last-of-type {
   background-color: rgb(245, 125, 199);
   width: 20px;
   height: 35px;
@@ -26,7 +26,40 @@ footer > header > div:last-of-type {
   margin: 2rem;
   margin-top: -2rem;
 }
+footer li {
+  list-style: none;
 
+}
+footer nav ul{
+  grid-template-columns: 335px, 100px, 166px, 178px;
+  display: grid;
+}
+footer li a {
+  text-decoration: none;
+  color: black;
+ }
+
+footer nav ul li:nth-child(1) {
+  grid-column: 1 / 1;
+}
+
+footer ul li > li {
+  margin-top: 3rem;
+  display: block;
+}
+footer nav ul li:nth-child(2) {
+  grid-column: 2 / 2;
+  display: grid;
+}
+footer nav ul li:nth-child(3) {
+  grid-column: 3 / 3;
+}
+footer nav ul li:nth-child(4) {
+  grid-column: 4 / 4;
+}
+footer nav ul li a:nth-of-type(1){
+  font-weight: bold;
+}
 
 /*
 
@@ -35,43 +68,24 @@ footer nav {
 }
 
 
-
-footer img{
+ footer img[src*="rect.png"]{
   float: right;
   margin-top: -4rem;
 }
-footer li a {
- text-decoration: none;
- color: black;
-}
-footer li {
-  list-style: none;
-}
 
-footer nav ul{
-  grid-template-columns: 335px, 10px, 166px, 178px;
-  display: grid;
-}
 
-footer nav ul li:nth-child(1) {
-  grid-column: 1 / 1;
-  display: grid;
-}
-footer nav ul li:nth-child(2) {
-  grid-column: 2 / 2;
-}
 
-footer nav ul li:nth-child(3) {
-  grid-column: 3 / 3;
-}
 
-footer nav ul li:nth-child(4) {
-  grid-column: 4 / 4;
-}
 
-footer nav ul li a:nth-of-type(1){
-  font-weight: bold;
-}
+
+
+
+
+
+
+
+
+
 
 
 footer nav ul li a[href*="datawarehouse"]{

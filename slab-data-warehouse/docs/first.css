@@ -11,7 +11,7 @@ header div:first-of-type {
   width: 20px;
   height: 20px;
   border-radius: 50%;
-  margin-left: 8rem;
+
 
 }
 header div:last-of-type {
@@ -21,7 +21,7 @@ header div:last-of-type {
   border-radius: 40%;
   margin: 2rem;
   margin-top: -2rem;
-  margin-left: 10rem
+  margin-left: 2rem
 }
 
 .link > li{

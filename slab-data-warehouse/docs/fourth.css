@@ -2,19 +2,21 @@ section:nth-of-type(3){
   text-align: center;
   background-image: url(image4.png), url(image3.png), url(image5.png), url(image6.png);
   background-position:
-                      30% 30%,/* 4 */
-                      -5% 30%,/* 3 */
-                      -10% 80%,/* 5 */
-                      30% 80%; /* 6 */
+                      40% 30%,/* 4 */
+                      2% 30%,/* 3 */
+                      2% 90%,/* 5 */
+                      45% 90%; /* 6 */
   background-repeat: no-repeat;
-  z-index: 1;
+
 }
 
 section:nth-of-type(3) p {
   width: 450px;
   height: 58px;
   margin-left: 20rem;
-  z-index: 1
+  z-index: 1;
+
+
 
 }
 section:nth-of-type(3) h3{
@@ -26,10 +28,12 @@ section:nth-of-type(3) h3{
 section:nth-of-type(3) div.feature{
  grid-template-columns: 194px 197px;
  grid-template-rows:264.64px 225.14px ;
- grid-column-gap: 13rem;
+ grid-column-gap: 20rem;
  display: grid;
  font-size: 0.8rem;
- opacity: 0.2;
+ opacity: 0.5;
+ margin-left: 4rem;
+ text-align: center;
 
 
 }
@@ -50,6 +54,7 @@ section:nth-of-type(3) div div.search {
   border-radius: 10%;
   background-repeat: no-repeat;
   overflow: visible;
+  margin-left: 3rem;
 
 
 }
@@ -70,7 +75,7 @@ section:nth-of-type(3) div div.hours{
   background-repeat: no-repeat;
   grid-column: 2;
   grid-row: 1;
-
+  margin-left: 3rem;
 }
 section:nth-of-type(3) div div.hours p{
 
@@ -84,6 +89,7 @@ section:nth-of-type(3) div div.print{
   border-radius: 10%;
   background-repeat: no-repeat;
   background-position: -90% 30%;
+  margin-left: 3rem;
 
 
 
@@ -101,6 +107,7 @@ section:nth-of-type(3) div div.security{
   border-radius: 10%;
   background-repeat: no-repeat;
   background-position: -100% 50%;
+  margin-left: 3rem;
 }
 
 section:nth-of-type(3) div div.security p{

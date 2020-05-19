@@ -1,10 +1,7 @@
 html{
   width: 1400px;
-
   height: 4500px;
   border: 2px solid grey;
-  background-color:linear-gradient(0deg, rgba(107, 200, 243, 0.5) 0%,
-                                   rgba(223, 201, 10, 50%) 40%,
-                                   rgba(110, 145, 240, 0.5) 40% )
+
 
 }
