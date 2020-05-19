@@ -12,8 +12,86 @@ main header > p {
   font-weight: 500;
   line-height: 2rem;
 }
+.feature {
+  width: 445px;
+  height: 358px;
+  list-style: none;
+  border-radius: 30px;
+  padding-inline-start: 172px;
+  padding-inline-end: 50px;
+  padding-block-start: 49px;
+  padding-block-end: 39px;
+  margin-block-end: 2rem;
 
+}
+.feature h4 {
+  font-size: 24px;
+  font-weight: 400;
+  color: #212353;
+  margin: 0;
+  line-height: 50px;
+  margin-block-end: 20px;
+}
+.feature header > p {
+  padding-inline-start: 595px;
+}
+.feature p {
+  color: #4b5d68;
+  line-height: 1.6rem;
 
+}
+.feature .more_link {
+  text-decoration: none;
+  margin-block-start: 20px;
+  line-height: 20px;
+}
+.more_link a {
+  color: #212353;
+  font-weight: 700;
+  text-decoration: none;
+}
+.feature ul {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 186px;
+  row-gap: 40px;
+}
+#feature_search_data {
+  background-image: url("../images/bg-search-data.svg");
+  background-repeat: no-repeat;
+  background-position: left 47px top 86px;
+  background-color: rgba(104, 201, 186, 0.1);
+}
+#feature_hours_access {
+  background-color: rgba(156, 105, 226, 0.1);
+}
+#feature_print_out {
+  background-color: rgba(240, 99, 184, 0.1);
+}
+#feature_security_code {
+  background-color: rgba(45, 156, 219, 0.1);
+}
+
+.feature::before {
+  position: absolute;
+  content: "";
+  display: block;
+  width: 230px;
+  height: 201px;
+  background-image: url("https://place hold.it/245*211");
+  left: -102px;
+  transform: translateY(-50%);
+}
+.feature_search_data::before {
+  background-color: url("https://place hold.it/color");
+}
+.testimonials {
+  width: 1118px;
+  height: 709px;
+  background-color: #9C69E2;
+  border-radius: 30px;
+  margin-block-start: 980px;
+}
 /*section:nth-of-type(1) {
   width: 1248px;
   height: 754px;
@@ -43,8 +121,8 @@ section:nth-of-type(1) h1 {
   padding-inline-start: 240px;
   padding-inline-end: 715px;
 
-}
-section:nth-of-type(2) h2 {
+}*/
+.storage_bank h2 {
   position: absolute;
   font-family: sans-serif;
   font-size: 40px;
@@ -54,7 +132,7 @@ section:nth-of-type(2) h2 {
   padding-inline-start: 550px;
 
 }
-section:nth-of-type(2) p {
+.storage_bank p {
   position: absolute;
   font-family: 'Times New Roman', Times, serif;
   font-size: 18px;
@@ -64,7 +142,7 @@ section:nth-of-type(2) p {
   padding-inline-start: 550px;
   padding-inline-end: 92px;
 }
-section:nth-of-type(3) h2 {
+/*section:nth-of-type(3) h2 {
   width: 405px;
   height: 52px;
   font-weight: bold;

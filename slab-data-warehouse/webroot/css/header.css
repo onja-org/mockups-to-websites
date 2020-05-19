@@ -1,14 +1,34 @@
-body  header {
-  width: 1120px;
+body {
+  width: 1600px;
+  height: 4500px;
+  background-color: #e5e5e5;
 }
-main header {
-  width: 1248px;
-  height: 754px;
-  background-image: url("../images/image1\ 1.svg");
+/*body header {
+  width: 1120px;
+  height: 60px;
+  background-image: url("../images/Rectangle\ 33.png"),
+                    url("../images/Rectangle\ 32.png");
+  background-repeat: no-repeat;
+  background-position: left;
+
+}*/
+ main > header {
+  background-image: url("../images/image1\ 1\ \(1\).svg");
   background-repeat: no-repeat;
   background-position: right;
   padding-inline-start: 240px;
 }
+body .feature {
+  font-family: "Avenir", Arial, Helvetica, sans-serif;
+}
+.feature h3 {
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+  color: #212353;
+  padding-inline-start: 595px;
+}
+
 /*section:nth-of-type(1) {
   width: 170px;
   height: 60px;
@@ -17,13 +37,13 @@ main header {
   background-size: 673px;
   background-position: left 600px top 194px;
   background-origin: padding-box;
-}
-section:nth-of-type(2) {
+}*/
+.storage_bank {
   width: 1117px;
   height: 560px;
   border-radius: 30px;
   background-color: pink;
-  background-image: url("../images/image2\ \(2\).png");
+  background-image: url("../images/image2.svg");
   background-repeat: no-repeat;
 
 }

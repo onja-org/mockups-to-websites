@@ -1,22 +1,19 @@
-header nav > ul {
-  width: 322px;
-  height: 30px;
-  margin-block-start: 50px;
-  padding-inline-start: 410px;
-
+/*header nav > ul {
+display: flex;
+text-align: center;
 }
 nav ul > li {
-  display: inline;
+  display: flex;
   text-decoration: none;
   font-size: 16px;
   font-weight: 800;
   text-transform: capitalize;
-  color: #212353;
+  color: #4b5d68;
   padding-left: 40px;
-}
+}*/
 
 
-/*header > nav {
+header > nav {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   line-height: 1rem;
   font-weight: 800;
@@ -27,7 +24,7 @@ nav ul > li {
  }
 
 nav li {
-  display: inline;
+  display: inline-block;
 }
 
 nav > li a {
