@@ -2,8 +2,30 @@ body {
   background-color: black;
   color: white;
   opacity: 0.9;
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: 70%, 1fr;
+  grid-template-areas: "header three"
+                        "catalog three"
+                       "one three"
+                       "two three";
+}
 
+header {
+  grid-area: header;
+}
 
+.catolog {
+  grid-area: catolog;
+}
+
+.one {
+  grid-area: one;
+}
+
+.two {
+  grid-area: two;
+}
+
+.three {
+  grid-area: three;
 }
