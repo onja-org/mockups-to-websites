@@ -1,18 +1,18 @@
-section > p + table thead,
-section > p + table tbody > tr > td:first-of-type {
+.first_table thead,
+.first_table tbody > tr > td:first-of-type {
   text-transform: uppercase;
   font-weight: bolder;
   margin: 0;
 }
 
-section > p + table tr th:nth-of-type(1) {
+.first_table tr th:nth-of-type(1) {
   padding-inline-end: 7rem;
 }
-section > p +table tr th:nth-of-type(2) {
+.first_table tr th:nth-of-type(2) {
   padding-inline-start: 3rem;
 }
 
-section > p + table tr th,
+.first_table tr th,
 table tr td {
   border-bottom: solid gray 1px;
   padding-block-start: .5rem;
@@ -20,28 +20,51 @@ table tr td {
   padding-inline-start: -2rem;
 }
 
-section > p + table tr td:nth-of-type(1) {
-  text-align: center;
-  vertical-align: middle;
+table {
+  color: #ffffff;
 }
 
-section > p + table {
+.first_table {
+  counter-reset: td;
+}
+.first_table td:nth-of-type(1)::before {
+  counter-increment: td;
+  content: counter(td)" ";
+}
+
+.first_table {
   height: 900px;
 }
-div + table {
+.second_table {
   height: 301px;
   width: 302px;
 }
 
-div + table td {
+.second_table td {
   padding: 0;
 }
 
-div + table td:nth-of-type(1)::before {
-  content: url(../images/Group\ 110.svg);
-  content: icon;
+.second_table td:nth-of-type(1) {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
-div + table thead th {
-  text-transform: uppercase;
+
+.first_table td:nth-of-type(1) {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.first_table img {
+  margin-inline-start: 10px;
+  margin-inline-end: 10px;
+}
+
+.second_table img {
+  margin-inline-end: 10px;
+}
+.second_table td:nth-of-type(1) {
+  vertical-align: middle;
 }
