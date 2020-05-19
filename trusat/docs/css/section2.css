@@ -1,42 +1,44 @@
-section:nth-of-type(2) > div > ul > li{
+#second-section > div > ul > li{
   list-style: none;
   text-transform: uppercase;
 }
-section:nth-of-type(2) > div > ul {
+#second-section > div > ul {
   display: grid;
   border-bottom: 2px white solid;
   padding-left: 2rem;
 }
 
-section:nth-of-type(2) > div > ul > li a {
+#second-section > div > ul > li a {
   text-decoration: none;
   color: #FFFFFF;
   text-transform: uppercase;
 }
-section:nth-of-type(2) > div > div > ul > li {
+#second-section > div > div > ul > li {
   list-style: none;
   text-transform: uppercase;
 }
-section:nth-of-type(2) > div > div > ul > li a {
+#second-section > div > div > ul > li a {
   text-decoration: none;
   color: inherit;
 }
 
-section:nth-of-type(2) {
+#second-section {
   display: grid;
-  padding-block-start: 22.5rem;
+  padding-block-start: 19.8rem;
+  position: relative;
+  left: 10rem;
 }
 
-section:nth-of-type(2) th, td {
+#second-section th, td {
   border-bottom: 1px solid rgb(57, 105, 160);
   padding: 5px 10px;
 }
-section:nth-of-type(2) thead > tr th {
-border-bottom: 1px solid white;
-text-transform: uppercase;
+#second-section thead > tr th {
+  border-bottom: 1px solid white;
+  text-transform: uppercase;
 }
 
-section:nth-of-type(2) > table:nth-of-type(1) > thead > tr > th {
+#second-section > table:nth-of-type(1) > thead > tr > th {
   font-style: normal;
   font-weight: bold;
   font-size: 20px;
@@ -44,44 +46,44 @@ section:nth-of-type(2) > table:nth-of-type(1) > thead > tr > th {
   letter-spacing: 0.05em;
 }
 
-section:nth-of-type(2) > table:nth-of-type(1) > tbody > tr > td {
+#second-section > table:nth-of-type(1) > tbody > tr > td {
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
   line-height: 22px;
-  }
-  section:nth-of-type(2) > table:nth-of-type(1) > tbody > tr > td > a {
-    font-style: normal;
+}
+#second-section > table:nth-of-type(1) > tbody > tr > td > a {
+  font-style: normal;
   font-weight: normal;
   font-size: 16px;
   line-height: 20px;
   text-decoration-line: underline;
   color: #EC7E5F;
 
-  }
+}
 
-  section:nth-of-type(2) > table:nth-of-type(2) > thead > tr > th {
-    font-style: normal;
-    font-weight: bold;
+#second-section > table:nth-of-type(2) > thead > tr > th {
+  font-style: normal;
+  font-weight: bold;
   font-size: 20px;
   line-height: 24px;
   letter-spacing: 0.05em;
-    }
-    section:nth-of-type(2) > table:nth-of-type(4) > tbody > tr > td b {
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 300;
-    font-size: 24px;
-    line-height: 28px;
-    display: flex;
-    align-items: flex-end;
-    color: #EC7E5F;
-    }
+}
+#second-section > table:nth-of-type(4) > tbody > tr > td b {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 28px;
+  display: flex;
+  align-items: flex-end;
+  color: #EC7E5F;
+}
 
-section:nth-of-type(2) > div {
-    width: 210px;
-    height: 84px;
-    left: 935px;
-    top: 1043px;
-    background: #EC7E5F;
+#second-section > div {
+  width: 210px;
+  height: 84px;
+  left: 935px;
+  top: 1043px;
+  background: #EC7E5F;
 }
