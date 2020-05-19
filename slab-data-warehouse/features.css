@@ -5,7 +5,7 @@
 }
 
 
-.features ol {
+.features ul {
   display: grid;
   grid-template-columns: repeat(2, 30rem);
   row-gap: 6rem;
@@ -14,34 +14,57 @@
   list-style: none;
 }
 
-.features ol > li.feature {
+.features ul > li.feature {
   border-radius: 20px;
   width: 20rem;
   padding: 2rem;
 }
 
 
-.features ol > li.feature:nth-last-of-type(1) {
+#search_data {
   background-color: rgba(107, 207, 192, 0.2);
+  position: relative;
 }
 
-.features ol > li.feature:nth-last-of-type(2) {
+#search_data::before {
+  position: absolute;
+  width: 10rem;
+  height: 10rem;
+  content: "";
+  background-image: url(../slab-data-warehouse/images/image3\ 1\ \(1\).svg);
+  background-size: 80%;
+  background-repeat: no-repeat;
+  top: 4rem;
+  left: -4rem;
+}
+
+#hours_access {
   background-color: rgba(156, 106, 226, 0.2);
+  position: relative;
 }
 
-.features ol > li.feature:nth-last-of-type(3) {
+#hours_access::before {
+  position: absolute;
+  width: 10rem;
+  height: 10rem;
+  content: "";
+  background-image: url(../slab-data-warehouse/images/image4\ \(1\).svg);
+  background-size: 80%;
+  background-repeat: no-repeat;
+  top: 4rem;
+  left: -4rem;
+}
+
+#print_out {
   background-color: rgba(240, 100, 184, 0.2);
 }
 
-.features ol > li.feature:nth-last-of-type(4) {
+#security_code {
   background-color: rgba(45, 153, 216, 0.2);
 }
 
-/*
 #sectionfeatures > div {
-  background-image: ,
-                    url(../slab-data-warehouse/images/image4\ \(1\).svg),
-                    url(../slab-data-warehouse/images/image5\ 1.svg),
+  background-image:   url(../slab-data-warehouse/images/image5\ 1.svg);
                     url(../slab-data-warehouse/images/image6\ 1.svg);
   background-repeat: no-repeat;
   background-size: 10rem;
