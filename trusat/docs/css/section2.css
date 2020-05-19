@@ -31,9 +31,10 @@
 
 
 #second-section > div {
+  position: absolute;
   width: 210px;
   height: 84px;
-  left: 935px;
-  top: 1043px;
+  left: 66px;
+  top: 1028px;
   background: #EC7E5F;
 }

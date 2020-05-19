@@ -1,13 +1,13 @@
-table > tbody > tr:nth-of-type(1) > th::before {
-  content:"";
-  background-image: url("..");
-  display: flex;
-  height: 1.625rem;
-  width: 1.625rem;
-  background-size: contain;
-  position: absolute;
-  top: 50%;
-  left: 0.75rem;
-  margin-top: -0.75rem;
+#first-table > tbody > .icon-before th::before {
+  content: attr(data-id);
+  background-image: url("../images/icon.svg");
   background-repeat: no-repeat;
+  width: 41px;
+  height: 45px;
+  display: inline-block;
+  color: white;
+  font-size: 10px;
+}
+#first-table > tbody > .icon-before th[data-id] {
+  top: 2rem;
 }

@@ -3,7 +3,7 @@
   border-bottom: 1px solid rgb(57, 105, 160);
   padding: 5px 10px;
 }
-#first-section thead > tr th {
+#first-section > #first-table .table-header th {
   border-bottom: 1px solid white;
   opacity: 0.5;
   text-transform: uppercase;
@@ -16,8 +16,8 @@ table {
 }
 #first-table {
   position: absolute;
-  height: 100%;
-  width: 64.5%;
+  height: 860px;
+  width: 879px;
 }
 
 /*Tables in the second section are meant to be here*/
@@ -31,7 +31,7 @@ table {
   text-transform: uppercase;
 }
 
-#second-section > table:nth-of-type(1) > thead > tr > th {
+#second-section > table:nth-of-type(1) > tr > th {
   font-style: normal;
   font-weight: bold;
   font-size: 20px;
