@@ -10,12 +10,21 @@ section {
 }
 
 .data-storage {
-  background-image: url("../images/data_storage.svg");
   background-repeat: no-repeat;
-  background-position: right;
-  background-size: calc(var(--section-height) * 2);
   width: var(--section-width);
   height: calc(var(--section-height) *1.5);
+  position: relative;
+}
+
+.data-storage::after {
+  position: absolute;
+  content: "";
+  background-image: url("../images/data_storage.svg");
+  width: 885px /*calc(var(--section-height) * 2) */;
+  height: 468px;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 450px;
 }
 
 .data-storage-bank {
@@ -34,8 +43,8 @@ section {
 }
 
 .features {
-  width: 60vw;
-  height: 100%;
+  width: 1000px;
+  height: 900px;
 }
 
 .testimonials {
