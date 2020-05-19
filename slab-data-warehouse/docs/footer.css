@@ -1,77 +1,51 @@
 footer{
-  height: 1000px;
+  height: 800px;
+  margin-top: 5rem;
+  border-top: 1px solid gray;
 }
 footer  header button[onclick*="learn-more"]{
   background-color: rgb(245, 125, 199);
-
-}
-footer header button {
-  float: right;
-  margin: 2rem;
-  margin-top: -3rem;
-
-}
-footer > header > div:first-of-type {
-  background-color: rgb(159, 110, 236);
-  width: 20px;
-  height: 20px;
-  border-radius: 50%;
-
-}
-footer > header div:last-of-type {
-  background-color: rgb(245, 125, 199);
-  width: 20px;
-  height: 35px;
-  border-radius: 40%;
-  margin: 2rem;
-  margin-top: -2rem;
-}
-footer li {
-  list-style: none;
+  display: block;
+  margin-left: 2rem;
 
 }
 footer nav ul{
-  grid-template-columns: 335px, 100px, 166px, 178px;
+  grid-template-columns: 335px 116px 166px 178px;
   display: grid;
+}
+
+ footer ol {
+   padding: 0;
+ }
+
+ footer li {
+  list-style: none;
+
 }
 footer li a {
   text-decoration: none;
   color: black;
  }
 
-footer nav ul li:nth-child(1) {
-  grid-column: 1 / 1;
-}
+ footer header button {
+  float: right;
+  margin: 2rem;
+  border-radius: 20%;
 
-footer ul li > li {
-  margin-top: 3rem;
-  display: block;
 }
-footer nav ul li:nth-child(2) {
-  grid-column: 2 / 2;
-  display: grid;
-}
-footer nav ul li:nth-child(3) {
-  grid-column: 3 / 3;
-}
-footer nav ul li:nth-child(4) {
-  grid-column: 4 / 4;
-}
-footer nav ul li a:nth-of-type(1){
-  font-weight: bold;
-}
-
-/*
-
-footer nav {
-  margin-top: -2rem;
-}
-
-
- footer img[src*="rect.png"]{
+footer img[src*="rec.png"]{
   float: right;
   margin-top: -4rem;
 }
+
+footer ul li a[href*="datawarehouse"][href*="about"][href*="help"][href*="media"]{
+  font-weight: 700;
+
+}
+
+
+
+
 
 
 
