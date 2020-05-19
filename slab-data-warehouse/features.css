@@ -2,8 +2,12 @@
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   margin-bottom: 5rem;
   position: relative;
+  margin-inline-start: 8rem;
 }
 
+.features > h2, .features > p {
+  text-align: center;
+}
 
 .features ul {
   display: grid;
@@ -20,6 +24,9 @@
   padding: 2rem;
 }
 
+.features ul > li.feature > h3, li.feature > p, li.feature > nav {
+  padding-inline-start: 4rem;
+}
 
 #search_data {
   background-color: rgba(107, 207, 192, 0.2);
@@ -34,7 +41,7 @@
   background-image: url(../slab-data-warehouse/images/image3\ 1\ \(1\).svg);
   background-size: 80%;
   background-repeat: no-repeat;
-  top: 4rem;
+  top: 5rem;
   left: -4rem;
 }
 
@@ -51,29 +58,44 @@
   background-image: url(../slab-data-warehouse/images/image4\ \(1\).svg);
   background-size: 80%;
   background-repeat: no-repeat;
-  top: 4rem;
+  top: 5rem;
   left: -4rem;
 }
 
 #print_out {
   background-color: rgba(240, 100, 184, 0.2);
+  position: relative;
+}
+
+#print_out::before {
+  background-image:  url(../slab-data-warehouse/images/image5\ 1.svg);
+  position: absolute;
+  width: 10rem;
+  height: 10rem;
+  content: "";
+  background-size: 80%;
+  background-repeat: no-repeat;
+  top: 5rem;
+  left: -4rem;
 }
 
 #security_code {
   background-color: rgba(45, 153, 216, 0.2);
+  position: relative;
 }
 
-#sectionfeatures > div {
-  background-image:   url(../slab-data-warehouse/images/image5\ 1.svg);
-                    url(../slab-data-warehouse/images/image6\ 1.svg);
+#security_code::before {
+  background-image: url(../slab-data-warehouse/images/image6\ 1.svg);
+  position: absolute;
+  width: 10rem;
+  height: 10rem;
+  content: "";
+  background-size: 80%;
   background-repeat: no-repeat;
-  background-size: 10rem;
-  background-position: top 4rem right 57rem,
-                       top 4rem right 22rem,
-                       top 25rem right 57rem,
-                       top 25rem right 22rem;
-  overflow: visible;
+  top: 5rem;
+  left: -4rem;
 }
+
 
 /* li {
   background-color: var(--cell-color);

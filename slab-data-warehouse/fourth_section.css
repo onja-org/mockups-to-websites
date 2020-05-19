@@ -1,4 +1,4 @@
-/* #fourth_section {
+#fourth_section {
   position: relative;
 }
 
@@ -24,7 +24,7 @@
 }
 
 #fourth_section  ol h4 {
-  margin-inline-start: 6rem;
+  margin-inline-start: 5rem;
 }
 
 #fourth_section > ol > li:first-of-type {
@@ -63,4 +63,4 @@
 
 #fourth_section > ol > li {
   list-style: none;
-} */
+}
