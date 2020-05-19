@@ -11,3 +11,12 @@
 #first-table > tbody > .icon-before th[data-id] {
   top: 2rem;
 }
+
+.table-satname > tbody > tr > th::before {
+  content: "";
+  background-image: url("../images/icon.svg");
+  background-repeat: no-repeat;
+  width: 41px;
+  height: 45px;
+  display: inline-block;
+}

@@ -18,6 +18,7 @@ table {
   position: absolute;
   height: 860px;
   width: 879px;
+  padding-left: 3.5rem;
 }
 
 /*Tables in the second section are meant to be here*/

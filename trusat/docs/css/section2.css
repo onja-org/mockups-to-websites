@@ -24,7 +24,7 @@
 
 #second-section {
   display: grid;
-  padding-block-start: 19.8rem;
+  padding-block-start: 20.8rem;
   position: relative;
   left: 10rem;
 }
@@ -35,6 +35,6 @@
   width: 210px;
   height: 84px;
   left: 66px;
-  top: 1028px;
+  top: 81.9rem;
   background: #EC7E5F;
 }
