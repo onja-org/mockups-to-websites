@@ -1,4 +1,4 @@
-section:nth-of-type(4) {
+#testimonials {
   width: 1118px;
   height: 709px;
   background: #9C69E2;
@@ -7,11 +7,7 @@ section:nth-of-type(4) {
   margin-block-start: 100px;
 }
 
-section:nth-of-type(4) {
-
-}
-
-section:nth-of-type(4) h3 {
+#testimonials h3 {
   width: 405px;
   height: 52px;
   font-family: Helvetica;
@@ -25,25 +21,22 @@ section:nth-of-type(4) h3 {
   padding-inline-start: 93px;
 }
 
-section:nth-of-type(4) main {
-  display: flex;
-}
 
-section:nth-of-type(4) main div {
+#testimonials .test_list li {
   margin-block-start: 50px;
   margin-inline-start: 93px;
   padding-inline-start: 20px;
   padding-block-start: 50px;
 }
 
-section:nth-of-type(4) main div h4,
-section:nth-of-type(4) main div a,
-section:nth-of-type(4) main div p {
+#testimonials h4,
+#testimonials a,
+#testimonials p {
   padding-inline-start: 190px;
 
 }
 
-section:nth-of-type(4) main div h4 {
+#testimonials h4 {
   width: 170px;
   height: 29px;
   font-style: normal;
@@ -54,7 +47,7 @@ section:nth-of-type(4) main div h4 {
   color: #212353;
 }
 
-section:nth-of-type(4) main div a {
+#testimonials .test_list a {
   width: 101px;
   height: 22px;
   font-style: normal;
@@ -65,57 +58,67 @@ section:nth-of-type(4) main div a {
   color: #9C69E2;
 }
 
-section:nth-of-type(4) main div p {
+#testimonials p {
   width: 385px;
-height: 130px;
-font-style: normal;
-font-weight: normal;
-font-size: 18px;
-line-height: 32px;
-color: #4B5D68;
+  height: 130px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 32px;
+  color: #4B5D68;
+  padding-inline-end: 70px;
 }
 
-section:nth-of-type(4) main div:first-of-type {
+#testimonials .test_list li {
   width: 645px;
   height: 330px;
   background: #FFFFFF;
   box-shadow: 0px 20px 0px rgba(156, 105, 226, 0.3);
-  border-radius: 20px;
-  background-image: url(../images/Ellipse\ 76.svg);
-  background-repeat: no-repeat;
-  background-position: 20% 20%;
+  border-radius: 30px;
+  position: relative;
 
 }
 
-
-section:nth-of-type(4) div:first-of-type h4 {
-
+#testimonials .test_list li:not(:first-of-type) {
+  background: linear-gradient(270deg, #FFFFFF 100%, rgba(255, 255, 255, 0) 10%);
+  width: ;
 }
 
-/*section:nth-of-type(4) div:first-of-type h4::before {
+#testimonials img {
+  position: absolute;
+  top: 50px;
+  left: 100px;
+}
+
+#testimonials .test_list {
+display: flex;
+list-style: none;
+}
+
+/*#testimonials div:first-of-type h4::before {
   content: url(../images/Ellipse\ 76.svg);
   padding-top: 50px;
 }
+
+#testimonials li:nth-of-type(2) {
+  width: 400px;
+  height: 330px;
+  background: linear-gradient(270deg, #FFFFFF 9.75%, rgba(255, 255, 255, 0) 100%);
+  border: 1px solid #9C69E2;
+  box-sizing: border-box;
+  border-radius: 20px;
+}
+
+#testimonials li:nth-of-type(3) {
+  width: 400px;
+  height: 330px;
+  background: linear-gradient(270deg, #FFFFFF 9.75%, rgba(255, 255, 255, 0) 100%);
+  border: 1px solid #9C69E2;
+  box-sizing: border-box;
+  border-radius: 20px;
+}
 */
-section:nth-of-type(4) main div:nth-of-type(2) {
-  width: 400px;
-  height: 330px;
-  background: linear-gradient(270deg, #FFFFFF 9.75%, rgba(255, 255, 255, 0) 100%);
-  border: 1px solid #9C69E2;
-  box-sizing: border-box;
-  border-radius: 20px;
-}
-
-section:nth-of-type(4) main div:nth-of-type(3) {
-  width: 400px;
-  height: 330px;
-  background: linear-gradient(270deg, #FFFFFF 9.75%, rgba(255, 255, 255, 0) 100%);
-  border: 1px solid #9C69E2;
-  box-sizing: border-box;
-  border-radius: 20px;
-}
-
-section:nth-of-type(4) footer {
+#testimonials footer {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -123,29 +126,29 @@ section:nth-of-type(4) footer {
   padding-inline-end: 3rem;
 }
 
-section:nth-of-type(4) footer div a {
+#testimonials footer div a {
   color: #FFFFFF;
 }
 
-section:nth-of-type(4) footer div:nth-of-type(2) {
+#testimonials footer div:nth-of-type(2) {
   margin-top: 1rem;
 }
 
-section:nth-of-type(4) footer div:nth-of-type(2) a:first-of-type {
+#testimonials footer div:nth-of-type(2) a:first-of-type {
   font-size: 30px;
   margin-top: 18px;
 }
 
-section:nth-of-type(4) footer div ul {
+#testimonials footer div ul {
   display: flex;
 
 }
 
-section:nth-of-type(4) footer div li {
+#testimonials footer div li {
   padding: 0.7rem;
   color: #FFFFFF;
 }
 
-section:nth-of-type(4) footer div li:first-of-type {
+#testimonials footer div li:first-of-type {
 color: red;
 }
