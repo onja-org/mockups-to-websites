@@ -1,4 +1,4 @@
-section:nth-of-type(2) > table {
+.two > table {
   display: table;
   width: 710px;
   height: 898px;
@@ -10,25 +10,25 @@ section:nth-of-type(2) > table {
   counter-reset: row-num;
 }
 
-/* section:nth-of-type(2) tbody > tr {
+.two tbody > tr {
   padding-inline-start: 4rem;
   counter-increment: row-num;
 }
 
-section:nth-of-type(2) tbody >  tr::before {
+.two tbody >  tr::before {
   content: counter(row-num);
-} */
+}
 
-section:nth-of-type(2) table > tr > td > svg {
+.two table > tr > td > svg {
   width: 50px;
   height: 50px;
 }
 
- section:nth-of-type(2) table > thead {
+ .two table > thead {
   border-bottom: 2px solid #ffffff;
  }
 
-section:nth-of-type(2) table > thead > tr > th {
+.two table > thead > tr > th {
   text-transform: uppercase;
   padding-inline-start: 7rem;
   padding-block-start: -2rem;
@@ -36,44 +36,44 @@ section:nth-of-type(2) table > thead > tr > th {
   opacity: 0.5;
 }
 
-section:nth-of-type(2) table > thead > tr > th:nth-of-type(1) {
+.two table > thead > tr > th:nth-of-type(1) {
   padding-inline-start: 0;
 }
 
-section:nth-of-type(2) table > thead > tr > th:nth-of-type(2) {
+.two table > thead > tr > th:nth-of-type(2) {
   padding-inline-start: 7rem;
 }
 
 
-section:nth-of-type(2) table > thead > tr > th:nth-of-type(3) {
+.two table > thead > tr > th:nth-of-type(3) {
   padding-inline-start: 0.5rem;
 }
 
-section:nth-of-type(2) table > thead > tr > th:nth-of-type(5) {
+.two table > thead > tr > th:nth-of-type(5) {
   padding-inline-start: 1rem;
 }
 
-section:nth-of-type(2) table > thead + tbody > tr {
+.two table > thead + tbody > tr {
   border-bottom: 1px solid whitesmoke;
 }
 
-section:nth-of-type(2) table > tbody > tr:nth-of-type(10) {
+.two table > tbody > tr:nth-of-type(10) {
   border-bottom: 0;
 }
 
-section:nth-of-type(2) table > tbody > tr > td {
+.two table > tbody > tr > td {
   padding: 1rem 0 1rem 0;
 }
 
-section:nth-of-type(2) table > tbody > tr > .tbd {
+.two table > tbody > tr > .tbd {
   padding-inline-start: 7rem;
 }
 
-section:nth-of-type(2) table > tbody > tr > td:nth-of-type(2) {
+.two table > tbody > tr > td:nth-of-type(2) {
   padding-inline-start: 1rem;
 }
 
 
-section:nth-of-type(2) table > tbody > tr > td:nth-of-type(3) {
+.two table > tbody > tr > td:nth-of-type(3) {
   padding-inline-start: 3rem;
 }
