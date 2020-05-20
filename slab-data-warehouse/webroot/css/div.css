@@ -1,0 +1,19 @@
+#request_demo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  float: right;
+  width: 210px;
+  height: 60px;
+  left: 1150px;
+  top: 50px;
+  background-color: white;
+  border-radius: 50px;
+  margin-top: -40rem;
+  margin-right: 240px;
+  /* padding-inline-start: 32px;
+  padding-inline-end: 32px;
+  padding-block-start: 16px;
+  padding-block-end: 16px; */
+
+}
