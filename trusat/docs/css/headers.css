@@ -20,6 +20,16 @@ body > header > nav > ul li {
   list-style: none;
   margin-left: 1rem;
 }
+.my_profile {
+  display: inline;
+  position: absolute;
+  margin-left: 52.2rem;
+  width: 8rem;
+  letter-spacing: 0.05em;
+}
+.my_profile > a img {
+  margin: 0px 0px -7px -1px;
+}
 body > header > nav a {
   text-transform: uppercase;
   font-weight: bold;

@@ -1,4 +1,4 @@
-#first-table > tbody > .icon-before th::before {
+#first-table > tbody > .icon-before > th::before {
   content: attr(data-id);
   background-image: url("../images/icon.svg");
   background-repeat: no-repeat;
@@ -7,6 +7,7 @@
   display: inline-block;
   color: white;
   font-size: 10px;
+
 }
 #first-table > tbody > .blue-icon-before th::before {
   content: attr(data-id);
