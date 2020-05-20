@@ -1,0 +1,43 @@
+:root {
+  --icon_width: 22px;
+  --icon_gutter: 5px;
+  --icon_width_2: 35px;
+  --icon_gutter_2: 10px;
+}
+
+.satellite_name {
+  display: inline-block;
+  line-height: 22px;
+  padding-inline-start: calc(var(--icon_width) + var(--icon_gutter));
+  background-image: url(../images/table_2_image.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: left 50%;
+  text-transform: uppercase;
+  padding-inline-end: 1rem;
+}
+
+.satellite_name_2 {
+  display: inline-block;
+  line-height: 22px;
+  padding-inline-start: calc(var(--icon_width_2) + var(--icon_gutter_2));
+  background-image: url(../images/table_image.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: left 50%;
+  text-transform: uppercase;
+  padding-inline-end: 1rem;
+}
+
+th {
+  counter-reset: th;
+}
+
+.satellite_name_2::before {
+  counter-increment: th;
+  content: counter(th) " ";
+}
+
+.number {
+
+}
