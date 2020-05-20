@@ -1,6 +1,11 @@
+section:nth-of-type(3) header{
+  text-align: center;
+  margin-left: 20rem;
+}
 section:nth-of-type(3){
   width: 1137.28px;
   height: 1026px;
+  margin-left: -150px;
 
 }
 
@@ -16,7 +21,9 @@ section:nth-of-type(3){
   display: inline-block;
   grid-template-columns: 442px 442px;
   display: grid;
-  grid-gap: 4rem;
+  grid-gap: 5rem;
+  position: relative;
+  grid-column-gap: 10rem;
 
 
 
@@ -52,43 +59,92 @@ section:nth-of-type(3){
 
 .features::before{
   content: "";
-  background-image: url('image4.png');
   position: absolute;
-  left: 102px;
+  left: -102px;
   display: block;
-  transform: rotateY(-50%);
   top : 50px;
 }
-#feature_search_data {
-  background-color: rgb(104, 201, 186, 0.1);
-  border-radius: 20%;
-  background-image: url(image3.png);
-  background-repeat: no-repeat;
 
-
-}
 
 
 #feature_learn_hours {
   background-color: rgb(156, 105, 226, 0.1);
   border-radius: 20%;
 
-  background-repeat: no-repeat;
+}
+
+#feature_learn_hours::before{
+  content: '';
+  background-image: url(image4.png);
+  width: 232px;
+  height: 211px;
+  position: absolute;
+  left: 580px;
+  top: 100px;
+  margin-left: 60px;
 
 }
 
-#feature_print_out{
-  background-color: rgba(221, 153, 215, 0.1);
+#feature_search_data {
+  background-color: rgb(104, 201, 186, 0.1);
   border-radius: 20%;
-  background-image: url(image5.png);
-  background-repeat: no-repeat;
 
+
+
+
+}
+#feature_search_data::before{
+  content: '';
+  background-image: url(image3.png);
+  background-repeat: no-repeat;
+  width: 232px;
+  height: 211px;
+  position: absolute;
+  left: -10px;
+  top: 100px;
+  margin-left: 60px;
 }
 
 #feature_security_code{
   background-color: rgba(141, 164, 224, 0.1);
   border-radius: 20%;
-  background-image: url(image6.png);
-  background-repeat: no-repeat;
+
 
 }
+#feature_security_code::before{
+  content: '';
+   background-image: url(image6.png);
+    background-repeat: no-repeat;
+    width: 232px;
+    height: 211px;
+    position: absolute;
+    left: 580px;
+    top: 500px;
+    margin-left: 60px;
+
+}
+#feature_print_out{
+  background-color: rgba(221, 153, 215, 0.1);
+  border-radius: 20%;
+
+
+}
+
+
+#feature_print_out::before{
+  content: '';
+  background-image: url(image5.png);
+  background-repeat: no-repeat;
+  width: 232px;
+  height: 211px;
+  position: absolute;
+  left: 20px;
+  top: 500px;
+  margin-left: 60px;
+}
+/*
+
+
+
+
+
