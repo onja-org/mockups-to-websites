@@ -15,12 +15,14 @@ body {
 }
 
 .data-storage-bank p {
-  width: 40vw;
-  height: 15vh;
+  font-family: 'Avenir',Arial, Helvetica, sans-serif;
+  width: 474px;
+  height: 170px;
   padding-inline-start: 300px;
-  word-wrap: break-word;
-  line-height: 1.7rem;
-  font-size: 1.5rem;
+  font-weight: 500;
+  line-height: 28px;
+  font-size: 18px;
+  padding-inline-start: 500px;
 }
 
 .features > p {
