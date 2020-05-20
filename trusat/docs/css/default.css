@@ -4,7 +4,7 @@ body {
   display: grid;
   grid-template-columns: repeat(2, 620px);
   grid-column-gap: 65px;
-  margin-left: 100px;
+  margin-left: 50px;
 }
 
 ul {
@@ -22,7 +22,7 @@ nav + h2 {
   font-weight: normal;
   border-block-end: 32px;
 }
-p {
+.intro {
   color: #FFFFFF;
   opacity: 0.5;
   font-size: 16px;
@@ -44,6 +44,12 @@ main td {
   border-block-end: 1px solid #113051;
   height: 105px;
 }
+
+main td:nth-of-type(3){
+  width: 500px;
+}
+
+
 main table {
   margin-block-start: 32px;
 }
@@ -71,4 +77,14 @@ tr > th:nth-of-type(1) {
 tr > th:nth-of-type(4),
 tr > th:nth-of-type(5) {
   width: 228px;
+}
+
+.discovered {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+svg {
+  margin-right: 1rem;
+  margin-left: 1rem;
 }

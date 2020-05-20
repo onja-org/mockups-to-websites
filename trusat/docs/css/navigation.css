@@ -1,54 +1,57 @@
-body nav li > a {
-  color: white;
-  font-size: 12px;
-  font-weight: bold;
+nav a {
   text-decoration: none;
   text-transform: uppercase;
 }
 
-body > header + nav ul {
+.main-nav li > a {
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+ .main-nav ul {
   padding: 0;
   display: flex;
   position: relative;
-  left: -400px;
+  right: 355px;
   justify-content: space-between;
 }
 
-body > header + nav ul li:last-of-type {
+#profile{
+  font-size: 12px;
   position: relative;
-  right: -360px;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  position: relative;
+  right: -275px;
 }
-/*
-body li:nth-last-of-type(5) > a::before {
-  content: " ";
-  background-image: url(../images/profile/image\ 11.svg);
-  vertical-align: middle;
-  width: 1.5rem;
-  height: 1.5rem;
-  background-size: contain;
-  position: absolute;
-  right: -255px;
-    top: 22px;
+
+#profile img {
+  margin-right: 9px;
   border-radius: 50%;
-  background-repeat: no-repeat;
 }
-*/
-main nav {
+
+.nav {
   border-block-end: solid 1px hsla(0, 100%, 100%, 0.4);
   margin-block-end: 19px;
 }
 
-main nav > ul {
+.nav > ul {
   display: flex;
   align-content: space-between;
   padding: 0;
 }
 
-main nav li {
+.nav li {
   padding-right: 44px;
 }
 
-main nav li > a {
+.nav li > a {
   color: #FFFFFF;
   opacity: 0.5;
   line-height: 24px;
@@ -56,7 +59,7 @@ main nav li > a {
   font-size: 20px;
 }
 
-main nav li:nth-of-type(1) > a {
+.nav li:nth-of-type(1) > a {
   color: #FFFFFF;
   opacity: 1;
   font-weight: bold;
