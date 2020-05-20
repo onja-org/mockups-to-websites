@@ -11,9 +11,15 @@
 }
 
 .data-storage-bank h2 {
-  font-size: 3rem;
-  width: 45vw;
-  padding-inline-start: 300px;
+  font-family: 'Helvetica', Arial, sans-serif;
+  width: 475px;
+  height: 100px;
+  margin: 0;
+  font-size: 40px;
+  font-weight: bold;
+  line-height: 130%;
+  padding-inline-start: 400px;
+  padding-block-end: 40px;
 }
 
 h2,
