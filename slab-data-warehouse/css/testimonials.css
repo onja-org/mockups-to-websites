@@ -5,6 +5,8 @@
   border-radius: 50px;
   margin-block-end: 50px;
   margin-block-start: 100px;
+  overflow-x: scroll;
+  overflow-y: hidden;
 }
 
 #testimonials h3 {
@@ -26,7 +28,6 @@
   margin-block-start: 50px;
   margin-inline-start: 93px;
   padding-inline-start: 20px;
-  padding-block-start: 50px;
 }
 
 #testimonials h4,
@@ -81,7 +82,6 @@
 
 #testimonials .test_list li:not(:first-of-type) {
   background: linear-gradient(270deg, #FFFFFF 100%, rgba(255, 255, 255, 0) 10%);
-  width: ;
 }
 
 #testimonials img {
@@ -95,29 +95,6 @@ display: flex;
 list-style: none;
 }
 
-/*#testimonials div:first-of-type h4::before {
-  content: url(../images/Ellipse\ 76.svg);
-  padding-top: 50px;
-}
-
-#testimonials li:nth-of-type(2) {
-  width: 400px;
-  height: 330px;
-  background: linear-gradient(270deg, #FFFFFF 9.75%, rgba(255, 255, 255, 0) 100%);
-  border: 1px solid #9C69E2;
-  box-sizing: border-box;
-  border-radius: 20px;
-}
-
-#testimonials li:nth-of-type(3) {
-  width: 400px;
-  height: 330px;
-  background: linear-gradient(270deg, #FFFFFF 9.75%, rgba(255, 255, 255, 0) 100%);
-  border: 1px solid #9C69E2;
-  box-sizing: border-box;
-  border-radius: 20px;
-}
-*/
 #testimonials footer {
   display: flex;
   flex-direction: row;

@@ -19,8 +19,8 @@ nav ul {
 }
 
 nav li {
-display: inline;
-padding: 1rem;
+  display: inline;
+  padding: 1rem;
 }
 
  a {
@@ -34,33 +34,33 @@ padding: 1rem;
 
 #home header nav button:first-of-type {
   width: 20px;
-height: 20px;
-background: #9C69E2;
-border-radius: 20px;
-margin-left: 15rem;
-margin-top:13px;
+  height: 20px;
+  background: #9C69E2;
+  border-radius: 20px;
+  margin-left: 15rem;
+  margin-top:13px;
 }
 #home header nav button:nth-of-type(2) {
   width: 20px;
-height: 35px;
-background: #F063B8;
-border-radius: 20px;
-margin-left: 1rem;
-
+  height: 35px;
+  background: #F063B8;
+  border-radius: 20px;
+  margin-left: 1rem;
 }
+
 header nav button:nth-of-type(3) {
   width: 140px;
-height: 40px;
-margin-top: 13px;
-margin-left: 20rem;
-align-items: center;
-border-radius: 20px;
-background-color: white;
+  height: 40px;
+  margin-top: 13px;
+  margin-left: 20rem;
+  align-items: center;
+  border-radius: 20px;
+  background-color: white;
 }
 
 h1 {
   width: 600px;
-height: 184px;
+  height: 184px;
   font-family: ;
   font-style: normal;
   font-weight: normal;
@@ -71,19 +71,19 @@ height: 184px;
 
 #home p {
   width: 380px;
-height: 120px;
-font-style: normal;
-font-weight: 500;
-font-size: 18px;
-line-height: 29px;
-color: #4B5D68;
+  height: 120px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 29px;
+  color: #4B5D68;
 }
 
 footer button {
   width: 96px;
-height: 40px;
-background-color: rgb(144, 3, 209);
-border-radius: 20px;
+  height: 40px;
+  background-color: rgb(144, 3, 209);
+  border-radius: 20px;
 }
 footer button a {
   color: white;

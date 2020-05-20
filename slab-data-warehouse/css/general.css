@@ -1,10 +1,10 @@
 body {
   position: relative;
-width: 1600px;
-height: 4500px;
-background: linear-gradient(180deg, #F6FAFD 0%, #FFFFFF 19.4%);
-font-family: Arial, Helvetica, sans-serif;
-font-size: 16px;
-overflow: visible;
-margin-left: 4rem;
+  width: 1600px;
+  height: 4500px;
+  background: linear-gradient(180deg, #F6FAFD 0%, #FFFFFF 19.4%);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  overflow: visible;
+  margin-left: 4rem;
 }
