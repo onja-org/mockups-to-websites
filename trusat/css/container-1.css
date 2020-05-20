@@ -21,6 +21,26 @@ body > header nav li{
   letter-spacing: 0.05em;
   text-transform: uppercase;
 }
+/*Taking the last li from its siblings to the right*/
+body > header nav li:last-of-type {
+  transform: translate(55rem, -1rem);
+}
+
+body > header nav > ul {
+  position: relative;
+}
+
+body > header nav li:last-of-type::before {
+  display: block;
+  content: "";
+  background-image: url(../docs/my-profile.svg);
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  top: -5px;
+  left: -1.75rem;
+}
+
 /* using flex to make the layout of the lists inside the nav*/
 .pages nav {
   display: flex;
@@ -36,8 +56,9 @@ body > header nav li{
 
 }
   .pages > nav li:not(:first-of-type) {
-  margin-inline-start: 2rem;
+    margin-inline-start: 2rem;
   }
+
   .pages nav li:first-of-type {
     font-weight: bold;
     opacity: 1;
@@ -45,9 +66,9 @@ body > header nav li{
   }
 
   .text p:first-of-type {
-  font-weight: 300;
-  font-size: 24px;
-  line-height: 29px;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
   }
 
   .text p:last-of-type {
@@ -70,7 +91,6 @@ body > header nav li{
   }
 /* here we make the table's style ===(headache) */
   table {
-
     color: #FFFFFF;
     opacity: 0.5;
     border-collapse: collapse;
@@ -84,15 +104,49 @@ body > header nav li{
   th[scope="col"]{
     opacity: 0.5;
   }
+
   .table tr th{
-   text-transform: uppercase;
-   color: #FFFFFF;
+    position: relative;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    vertical-align: middle;
+
  }
 
+  table th[headers="header_object"] {
+    width: 250px;
+  }
 
- /* Adding the image before the data inside the th*/
+  /* setting the different coloured icons in the object column*/
+  table  #row_consmos::before,
+  table #row_consmos2::before,
+  table #row_sl-8::before,
+  table #row_delta::before,
+  table #row_cosmos3::before   {
+    display: block;
+    content: "";
+    background-image: url(../docs/blue-object-icon.svg);
+    background-repeat: no-repeat;
+    width: 56.56px;
+    height: 65px;
+  }
 
- table th[headers="header_object"]::before {
-    content: url(../docs/Vector_3.svg);
- }
+  table th[headers="header_object"]::before {
+    display: block;
+    content: "";
+    background-image: url(../docs/red-object-icon.svg);
+    background-repeat: no-repeat;
+    width: 56.56px;
+    height: 65px;
+  }
+
+/* aligning the text with the bacground image*/
+
+  table th[headers="header_object"] span {
+    position: absolute;
+    line-height: 1.5;
+    margin-block-start: -2.75rem;
+    margin-inline-start: -7.2rem;
+    word-spacing: 8px;
+  }
 

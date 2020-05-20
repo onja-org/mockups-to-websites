@@ -28,49 +28,80 @@
    opacity: 0.5;
  }
   /* Moving the 2 links inside of the div about-catalog outside the h1*/
- .about-catalog ul {
+
+  .about-catalog ul {
+   position: relative;
   display: flex;
   flex-direction: row;
   margin-inline-start: -2.5rem;
  }
 
- .about-catalog ul a{
-   position: relative;
-   top: -7rem;
-   border-width: 0.2px;
-   border-style: dotted;
-   text-decoration: none;
-   color: #FFFFFF;
-   opacity: 0.5;
-   font-size: 12px;
-   line-height: 125%;
-   margin-inline-end: 1rem;
-   padding: 16pxrem;
+ .about-catalog ul li > a{
+  position: absolute;
+  border-width: 0.2px;
+  border-style: dotted;
+  text-decoration: none;
+  color: #FFFFFF;
+  opacity: 0.5;
+  font-size: 12px;
+  line-height: 125%;
+  margin-inline-end: 1rem;
+  padding: 16pxrem;
  }
+
+/* Positioning the anchors on top of the h2*/
+
+ .about-catalog ul li:first-of-type > a{
+   top: -6.5rem;
+ }
+
+ .about-catalog ul li:last-of-type > a{
+  top: -6.5rem;
+  left: 12rem;
+}
   /* Use flex to get the layout of the stats instead of having a table element in html*/
- .stats nav ul {
+
+  .stats nav ul {
     display: flex;
+    position: relative;
     flex-direction: row;
     align-items: flex-end;
     padding-inline-start: 0;
     margin-block-start: 0;
     margin-block-end: 0;
  }
+
  .stats nav > ul li:first-of-type {
    width: 135px;
  }
+
  .stats nav > ul li:first-of-type::before {
-   content: url(../docs/Vector-4.svg);
-   background: #848890;
+   content: "";
+   display: block;
+   background-image:  url(../docs/stats-satelite.svg);
    border: 0.7px solid #081122;
+   width: 37px;
+   height: 38px;
+   position: absolute;
+   top: 10px;
 }
 
 .stats nav > ul li:nth-of-type(2)::before {
-  content: url(../docs/Vector.svg);
-
+  content: "";
+  display: block;
+  background-image: url(../docs/stats-observation.svg);
+  width: 41px;
+  height: 29.82px;
+  position: absolute;
+  top: 15px;
 }
+
  .stats nav > ul li:nth-of-type(2) {
     width: 138px;
+  }
+
+  .stats nav li span {
+    margin-inline-start: 3rem;
   }
 /* for the number iside of the lists*/
 
@@ -79,7 +110,7 @@
     height: 30px;
     font-size: 24px;
     line-height: 28px;
-
+    margin-inline-start: 3rem;
   }
 
   /* Use flex to get the layout of the recent observation instead of having a table element in html*/
@@ -93,6 +124,7 @@
   .table-observations div:first-of-type {
     text-transform: uppercase;
   }
+
   .table-observations div:first-of-type li {
     font-weight: normal;
     font-size: 12px;
@@ -101,7 +133,8 @@
   }
 
   .table-observations div:first-of-type li::before {
-    content: url(../docs/Vector-1.svg);
+    content: url(../docs/recent-observation.svg);
+
   }
 
 /* Getting rid of the margin-left and the padding-left with the ul */
@@ -114,10 +147,10 @@
 
 
 /* setting the width of each li inside the table-observations class*/
-.table-observations li {
-  border-bottom: 1px rgba(255, 255, 255, 0.5) solid;
-}
-  .table-observations div:first-of-type li {
+  .table-observations li {
+    border-bottom: 1px rgba(255, 255, 255, 0.5) solid;
+  }
+    .table-observations div:first-of-type li {
     width: 143px;
     line-height: 1;
   }
