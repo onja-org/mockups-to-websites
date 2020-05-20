@@ -14,13 +14,16 @@ section {
   width: var(--section-width);
   height: calc(var(--section-height) *1.5);
   position: relative;
+  display: flex;
+  flex-direction: column;
+  margin-block-start: 150px;
 }
 
 .data-storage::after {
   position: absolute;
   content: "";
   background-image: url("../images/data_storage.svg");
-  width: 885px /*calc(var(--section-height) * 2) */;
+  width: 885px;
   height: 468px;
   top: 50%;
   transform: translateY(-50%);
@@ -39,6 +42,8 @@ section {
   border-radius: 50px;
   width: 900px;
   margin-inline-start: 5rem;
+  display: flex;
+  flex-direction: column;
 }
 
 .data-storage-bank::before {
@@ -46,7 +51,7 @@ section {
   content: "";
   background-image: url("../images/data-storage-bank.svg");
   width: 477px;
-  height: 477px;
+  height: 540px;
   top: 50%;
   transform: translateY(-50%);
   left: -30px;
