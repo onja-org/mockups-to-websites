@@ -1,6 +1,6 @@
 body {
-  width: 1600px;
-  height: 4500px;
+  width: 100vw;
+  height: 100vh;
   background-color: #e5e5e5;
 }
 /*body header {
@@ -13,10 +13,12 @@ body {
 
 }*/
  main > header {
+   width: 1248px;
+   height: 754px;
   background-image: url("../images/image1\ 1\ \(1\).svg");
   background-repeat: no-repeat;
   background-position: right;
-  padding-inline-start: 240px;
+  padding-inline-start: 5rem;
 }
 body .feature {
   font-family: "Avenir", Arial, Helvetica, sans-serif;
@@ -26,24 +28,17 @@ body .feature {
   font-size: 40px;
   font-weight: bold;
   color: #212353;
-  padding-inline-start: 595px;
+  padding-inline-start: 507px;
 }
 
-/*section:nth-of-type(1) {
-  width: 170px;
-  height: 60px;
-  background-image: url("../images/image1\ 1.svg");
-  background-repeat: no-repeat;
-  background-size: 673px;
-  background-position: left 600px top 194px;
-  background-origin: padding-box;
-}*/
 .storage_bank {
   width: 1117px;
   height: 560px;
   border-radius: 30px;
-  background-color: pink;
+  background-color: rgba(240, 99, 184, 0.15);
+  border-radius: 50px;;
   background-image: url("../images/image2.svg");
   background-repeat: no-repeat;
+  margin-inline-start: 5rem;
 
 }

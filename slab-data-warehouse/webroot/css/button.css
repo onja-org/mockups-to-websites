@@ -1,18 +1,40 @@
-header > button {
+header div {
+  margin-block-start: 2rem;
+}
+header div a {
   width: 210px;
   height: 60px;
   border-radius: 50px;
-  box-shadow: 0 5px 5px rgba(75, 93, 104, 0.1);;
+  box-shadow: 0 5px 5px rgba(75, 93, 104, 0.1);
   color: #ffffff;
+  padding-inline-start: 2rem;
+  padding-inline-end: 2rem;
+  padding-block-start: 2rem;
+  padding-block-end: 2rem;
 }
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+}
+
 header nav a {
   text-decoration: none;
+  font-size: 16px;
+  font-weight: 800;
   color: #212353;
+
 }
-main header button {
+main header div a {
   width: 170px;
   height: 60px;
+  border-radius: 50px;
   background-color: #9C69E2;
+  padding-inline-start: 3rem;
+  padding-inline-end: 3rem;
+  padding-block-start: 1.5rem;
+  padding-block-end: 1.5rem;
+
 }
 main header a {
   text-decoration: none;
