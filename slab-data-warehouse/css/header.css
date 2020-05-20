@@ -1,7 +1,7 @@
 /*Set the link inside the header*/
 body > header {
-  flex-wrap: wrap;
-  position: relative;
+  /*flex-wrap: wrap;
+  position: relative;*/
   justify-content: space-between;
   z-index: 3;
 }
@@ -9,19 +9,20 @@ body > header {
 header > nav > ul >li{
   width: 120px;
   height: 60px;  
-  left: 240px; 
+  left: 418px; 
   top: 50px;
+  text-decoration: none;
 }
 
-header > nav > ul > li > a{
+/*header > nav > ul > li > a{
   text-decoration: none;
   margin-right: 65px;
   margin-top: 65px;
   margin-right: 40px;
   margin-left: 40px;
-}
+}*/
 
-header > nav > ul > li:last-child{
+.link{
   color: midnightblue;
   width: 210px;
   height: 60px;
@@ -29,9 +30,8 @@ header > nav > ul > li:last-child{
   top: 50px;
   background-color: whitesmoke;
   font-weight: bold;
-  box-sizing: border-box;
   border-radius: 3rem;
   text-align: center;
-  line-height: 3;
-  margin-left: 40px;
+  line-height: 6;
+  text-decoration: none;
 }

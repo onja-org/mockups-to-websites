@@ -12,19 +12,24 @@ header > h1 {
 .section_1 p {
   width: 380px;
   height: 120px;
-  left: 240px;
-  top: 474px;
+  margin-left: -6px;
+  margin-top: -50px;
   color: darkblue;
 }
 
 .section_1 > header {
   background-image: url(../images/image-1-1.png);
-  background-position: 50% 90%;
+  background-position: 90% 40%;
   background-repeat: no-repeat;
-  width: 1542px;
-  height: 620px;
+  width: 1248px;
+  height: 754px;
+  margin-left: 240px;
+  margin-top: 50px;
+  margin-right: 112px;
+  /*width: 1542px;
+  height: 550px;
   left: 500px;
-  top: 400px;
+  top: 400px;*/
   box-sizing: border-box;
 }
 
