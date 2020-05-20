@@ -4,13 +4,14 @@ body {
   height: 100vh;
 }
 
-.data-storage p {
-  font-family: serif;
-  font-size: 19px;
-  width: 350px;
-  padding: 0;
-  padding-block-end: 2rem;
-  line-height: 30px;
+.data-storage p{
+  font-size: 18px;
+  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  line-height: 25px;
+  width: 370px;
+  margin: 0;
+  padding-block-end: 66px;
 }
 
 .data-storage-bank p {
