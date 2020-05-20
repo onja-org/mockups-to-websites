@@ -2,6 +2,7 @@ body {
   background-color: rgba(220, 220, 248, 0.2);
   width: 100vw;
   height: 100vh;
+  overflow-x: hidden;
 }
 
 .data-storage p{
