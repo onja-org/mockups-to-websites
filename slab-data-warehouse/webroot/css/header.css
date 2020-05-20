@@ -2,6 +2,9 @@
   --padding-unit: 2rem;
 }
 
+body header {
+  margin: 0;
+}
 
 header nav > ul {
   display: flex;
