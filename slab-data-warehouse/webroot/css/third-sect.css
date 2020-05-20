@@ -25,10 +25,11 @@ font-family: Avenir;
 
 div ul {
   display: grid;
-  grid-template-columns: repeat(2, 700px);
+  grid-template-columns: repeat(2, 500px);
   grid-template-rows: repeat(2, 400px);
   column-gap: 2rem;
   margin-inline-start: 9rem;
+  margin-inline-start: 6rem;
  }
 .feature {
   width: 200px;
@@ -53,7 +54,7 @@ div ul {
 .feature p {
   color: #212353;
   font-size: 16px;
-  li
+
 }
 .feature a {
   font-weight: 700;
