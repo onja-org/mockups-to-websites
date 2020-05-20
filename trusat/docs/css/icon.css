@@ -7,8 +7,21 @@
   display: inline-block;
   color: white;
   font-size: 10px;
-  fill: blue;
 }
+#first-table > tbody > .blue-icon-before th::before {
+  content: attr(data-id);
+  background-image: url("../images/lbue-icon.svg");
+  background-repeat: no-repeat;
+  width: 41px;
+  height: 45px;
+  display: inline-block;
+  color: white;
+  font-size: 10px;
+}
+#first-table > tbody > .blue-icon-before th[data-id] {
+  top: 2rem;
+}
+
 #first-table > tbody > .icon-before th[data-id] {
   top: 2rem;
 }
