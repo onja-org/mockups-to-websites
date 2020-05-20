@@ -1,11 +1,11 @@
  body > header nav ul {
   display: flex;
   flex-wrap: wrap;
-  justify-content: flex-end;
   list-style: none;
   margin: 0;
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
   margin-block-start: -4rem;
 }
 body > header nav ul li {

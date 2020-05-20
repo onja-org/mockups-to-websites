@@ -1,35 +1,16 @@
-main section:nth-of-type(3) {
-  position: absolute;
-  left: 75%;
-  top: 2%;
-}
 .profile {
   font-family: Montserrat;
   font-style: normal;
   font-weight: bold;
-  font-size: 12px;
+  font-size: 20px;
   line-height: 15px;
   letter-spacing: 0.05em;
   text-transform: uppercase;
   color: #FFFFFF;
-  padding-inline-start: 10rem;
-}
-section:nth-of-type(3) div button {
-  display: flex;
-  flex-direction: column;
-  padding-inline-start: 2rem;
-  border-radius: 15%;
-  font-family: Montserrat;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 12px;
-  line-height: 125%;
-  align-items: center;
-  text-align: center;
-  color: #FFFFFF;
 }
 
-section:nth-of-type(3) p {
+
+aside p {
   font-family: Montserrat;
   font-style: normal;
   font-weight: normal;
@@ -50,14 +31,6 @@ section:nth-of-type(3) p {
   color: #EC7E5F;
 
 }
-section:nth-of-type(3) table thead tr {
-  font-family: Proxima Nova;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 20px;
-  line-height: 24px;
-  letter-spacing: 0.05em;
-  text-transform: uppercase;
-color: #FFFFFF;
+.sections_aside {
+  margin-block-start: 65px;
 }
-

@@ -1,7 +1,6 @@
 html {
     background-color: #333;
 }
-
 body {
     margin-block-start: 30px;
     margin-block-end: 20px;
@@ -10,6 +9,13 @@ body {
     max-width: 945px;
 }
 
-:root {
-  --normal-values: normal;
+main {
+  display: flex;
+  flex-direction: row;
+  width: 60%;
+
+}
+aside {
+ width: 35%;
+ margin-inline-start:5%;
 }
