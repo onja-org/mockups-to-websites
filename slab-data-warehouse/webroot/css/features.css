@@ -55,8 +55,14 @@
    margin: 0;
    margin-inline-start: 20px;
   line-height: 20px;
+  margin-bottom: 20px;
 
-
+ }
+ .more-link{
+  background-image: url(../image/Group\ 56.png);
+  background-repeat: no-repeat;
+  background-position: 45%;
+  margin-bottom: 33px;
  }
   p.more-link a{
    margin-inline-start: 20px;
@@ -64,6 +70,13 @@
    text-decoration: none;
    color: #212353;
 
+  font-weight: 800;
+    font-size: 16px;
+    line-height: 160%;
+    display: flex;
+    align-items: center;
+    color: #212353;
+    letter-spacing: 0.005em;
  }
 
  .feature::before {

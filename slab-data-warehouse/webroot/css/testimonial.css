@@ -2,15 +2,26 @@
   background-color: #9C69E2;
   width: 1118px;
   height: 709px;
-border-radius: 50px;
-background-image: url(../image/testimonial-1.png),
+  border-radius: 50px;
+  background-image: url(../image/testimonial-1.png),
                  url(../image/testimonial-2.png),
                  url(../image/testimonial_3.png);
-  background-position: 50% 50%, 60% 60%, 70% 70%;
-
+  background-position: 11% 60%, 100% 60%, 139% 60%;
 background-repeat: no-repeat;
+left: 242px;
+ margin-left: 242px;
+ overflow: visible;
 }
 .three-testimonials{
-
-
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 130%;
+  display: flex;
+  align-items: center;
+  color: #FFFFFF;
+  padding: 8%;
+  padding-inline-start: 310px;
+  padding-bottom: 38px;
 }
