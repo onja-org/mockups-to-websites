@@ -1,17 +1,22 @@
 #fourth_section {
   position: relative;
+  margin-inline-start: 8rem;
 }
 
-#fourth_section ol {
+#fourth_section ul {
   background: #9C69E2;
   border-radius: 50px;
-  padding-top : 6rem;
+  padding-top : 8rem;
   padding-left : 2rem;
   padding-bottom: 3rem;
   display: inline-flex;
   flex-direction: row;
   align-items: center;
-  justify-content: center;
+}
+
+#fourth_section ul h4 {
+  padding-top: 2rem;
+  margin-bottom: .5rem;
 }
 
 #fourth_section > h2 {
@@ -23,11 +28,11 @@
   left: 4rem;
 }
 
-#fourth_section  ol h4 {
-  margin-inline-start: 5rem;
+#fourth_section  ul h4, #fourth_section  ul nav, #fourth_section  ul p {
+  margin-inline-start: 8rem;
 }
 
-#fourth_section > ol > li:first-of-type {
+#fourth_section > ul > li:first-of-type {
   background-color: white;
   border-radius: 20px;
   width: 30rem;
@@ -36,20 +41,46 @@
   border: 1px solid #9C69E2;
   box-shadow: 2rem 2rem 2rem rgba(152, 103, 219, 0.5);
   margin: 1rem;
+  position: relative;
 }
 
-#fourth_section > ol > li:nth-of-type(2) {
-  background-color: white;
+#fourth_section > ul > li:first-of-type::before {
+  background-image: url(../slab-data-warehouse/images/john\ fang.svg);
+  position: absolute;
+  width: 6rem;
+  height: 6rem;
+  content: "";
+  background-size: 80%;
+  background-repeat: no-repeat;
+  top: 3rem;
+  left: 2rem;
+}
+
+#fourth_section > ul > li:nth-of-type(2) {
+  background: white;
   border-radius: 20px;
   border: 1px solid #9C69E2;
   box-shadow: 0px 20px 0px rgba(156, 105, 226, 0.3);
-  width: 24rem;
+  width: 23rem;
   height: 15rem;
   padding: 1rem;
   margin: 1rem;
+  position: relative;
 }
 
-#fourth_section > ol > li:last-of-type {
+#fourth_section > ul > li:nth-of-type(2)::before {
+  background-image: url(../slab-data-warehouse/images/jeny\ do.svg);
+  position: absolute;
+  width: 6rem;
+  height: 6rem;
+  content: "";
+  background-size: 80%;
+  background-repeat: no-repeat;
+  top: 3rem;
+  left: 3rem;
+}
+
+#fourth_section > ul > li:last-of-type {
   background-color: white;
   border: 1px solid #9C69E2;
   box-shadow: 0px 20px 0px rgba(156, 105, 226, 0.3);
@@ -59,8 +90,21 @@
   padding: 1rem;
   margin: 1rem;
   overflow: hidden;
+  position: relative;
 }
 
-#fourth_section > ol > li {
+#fourth_section > ul > li:last-of-type::before {
+  background-image: url(../slab-data-warehouse/images/william.svg);
+  position: absolute;
+  width: 6rem;
+  height: 6rem;
+  content: "";
+  background-size: 80%;
+  background-repeat: no-repeat;
+  top: 3rem;
+  left: 3rem;
+}
+
+#fourth_section > ul > li {
   list-style: none;
 }

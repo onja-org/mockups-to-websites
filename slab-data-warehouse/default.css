@@ -1,4 +1,13 @@
 body {
-  background: rgba(255, 255, 255);
+  background: rgb(220, 237, 238);
   position: relative;
+}
+
+#empty {
+  width: 1350px;
+  height: .2px;
+  margin-block-end: 5rem;
+  margin-block-start: 5rem;
+  border: 2px solid rgb(76, 0, 139);
+  background-color: darkmagenta;
 }
