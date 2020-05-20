@@ -1,45 +1,108 @@
 .section-4 {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  width: 900px;
+  width: 1400px;
   height: 400px;
   background-color: #9C69E2;
   border-radius: 50px;
-  margin-inline-start: 10rem;
-  background-image: url(../images/2.png),
-                    url(../images/3.png);
-  background-repeat: no-repeat;
-  background-position: 70% 70%, 100% 70%;
-  background-size: 25% 50%, 20% 50%;
+  margin-inline-start: 2rem;
   margin-block-end: 3rem;
 }
 
-.section-4 div header {
+.section {
   color: white;
-  margin-block-start: -4rem;
+  margin-block-start: 0rem;
 }
 
-
-.section-4 div {
-  background-color: white;
-  border-radius: 10%;
-  width: 250px;
-  height: 165px;
-  padding-inline-start: 8rem;
-  padding-block-start: 0rem;
-  padding-inline-end: 2rem;
-  margin-block-start: 8.5rem;
-  margin-inline-start: 2rem;
-  padding-block-end: 2.5rem;
-}
-
-.section-4 div::before {
-  content: url(../images/Ellipse\ 76\ \(1\).png);
-  position: absolute;
-  margin-inline-start: -110px;
-}
-
-.section-4 div p {
+.section-4  p {
   font-size: 0.8rem;
 }
+
+.section-3 ul {
+  display: grid;
+  grid-template-columns: repeat(2, 600px);
+  column-gap: 15px;
+  row-gap: 15px;
+}
+
+
+#testimonials {
+  margin: 2rem;
+  padding-top: 49px;
+  padding-bottom: 33px;
+  padding-left: 150px;
+  margin-left: 50px;
+  padding-right: 50px;
+  background-color: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0px 20px 0px rgba(156, 105, 226, 0.3);
+  font-size: 16px;
+  position: relative;
+}
+
+#testimonials::before {
+  content: '';
+  left: 35px;
+  position: absolute;
+  top: 15%;
+  display: block;
+  width: 100px;
+  height: 100px;
+  background-repeat: no-repeat;
+}
+
+.section-4 .john {
+  width: 200px;
+  height: 150px;
+}
+
+.section-4 .john::before {
+  content: '';
+  left: -100px;
+  top: 10px;
+  background-image: url(../images/Ellipse\ 76\ \(1\).png);
+  margin-inline-start: -10px;
+}
+
+.section-4 .jeny {
+  width: 200px;
+  height: 150px;
+}
+.section-4 .jeny::before {
+   content: '';
+   background-image: url(../images/Jeny.png.png);
+}
+
+.section-4 .william {
+   width: 200px;
+   height: 150px;
+
+}
+
+.section-4 .william::before {
+   content: '';
+   background-image: url(../images/William.png.png);
+}/*
+body {
+  overflow-x: hidden;
+}
+
+div {
+  background-color: pink;
+  border-radius: 10px;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  position: relative;
+  min-height: 100px;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  top: 20px;
+  bottom: 20px;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+}
+*/
