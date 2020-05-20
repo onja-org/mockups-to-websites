@@ -5,13 +5,17 @@ table {
   height: 898px;
   margin-inline-start: 35px;
 }
+tbody {
+  position: absolute;
+  top: 400px;
+  line-height: 80px;
+}
 
 th {
 text-transform: uppercase;
 text-align: left;
 border-bottom: solid 1px;
 font-size: 13px;
-text-size-adjust: 2rem;
 color: #848890;
 word-spacing: 2rem;
 }
@@ -27,10 +31,14 @@ text-align: center;
 }
 .first_table {
   counter-reset: td;
+  background-image: url(../use-svg-trusat/images/icon_button.svg);
+  background-repeat: no-repeat;
 }
 .first_table::before {
-  counter-increment: td;
-  content: counter(td) "";
+  content: counter(td) "\0000a0\0000a0\0000a0\0000a0";
+}
+#background {
+  background-image: url(../use-svg-trusat/images/icon_button\ _blue.svg);
 }
 
 .second_table_row {
