@@ -1,4 +1,4 @@
-.section_1 {
+.save_your_data_storage_here {
   background-image: url(../images/image1\ 1.svg);
   background-repeat: no-repeat;
   background-size: 885px;
@@ -7,7 +7,7 @@
 }
 
 
-.section_1 p {
+.save_your_data_storage_here p {
   width: 380px;
   height: 120px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -19,7 +19,7 @@
 
 }
 
-.section_2 {
+.high_level_data_storage_bank {
   width: 1117px;
   height: 560px;
   background-color: rgba(240, 99, 184, 0.15);
@@ -30,7 +30,7 @@
   margin-top: 99px;
 }
 
-.section_2 h2 {
+.high_level_data_storage_bank h2 {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 40px;
   padding-inline-start: 550px;
@@ -39,7 +39,7 @@
   padding-block-end: 40px;
 }
 
- .section_2 p {
+.high_level_data_storage_bank p {
   width: 474px;
   height: 170px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -48,7 +48,7 @@
   word-wrap: break-word;
 }
 
-.section_3 header p {
+/* .section_features header p {
   width: 584px;
   height: 58px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -57,7 +57,7 @@
   font-style: normal;
   margin-left: 507px;
   margin-top: 50px;
-}
+} */
 
 
 

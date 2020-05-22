@@ -1,23 +1,19 @@
-.section_1 nav ul {
-  list-style: none;
-  padding-inline-start: 410px;
-  display: grid;
-  grid-template-columns: repeat(4, 53px);
-  grid-column-gap: 40px;
-  column-gap: 40px;
-}
-
-.section_1 nav {
+header nav {
   text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-block-start: 67px;
+  padding-inline-start: 240px;
 }
 
-.section_1 nav li {
+header nav li {
   display: inline-block;
 }
 
 
 
-.section_1 nav a {
+header nav a {
   text-decoration: none;
   color: black;
   padding-inline-start: 65px;
