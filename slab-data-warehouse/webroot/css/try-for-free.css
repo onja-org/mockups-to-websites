@@ -1,0 +1,17 @@
+.data-week-free{
+  display: grid;
+   grid-template-columns: repeat(4,1fr);
+   column-gap: 50px;
+  list-style: none;
+}
+.social{
+  background-image: url(../image/SM.png);
+  background-position: 40% 50%;
+  background-repeat: no-repeat;
+  padding-right:275px ;
+}
+
+.try_for_free{
+  margin-left: 309px;
+}
+
