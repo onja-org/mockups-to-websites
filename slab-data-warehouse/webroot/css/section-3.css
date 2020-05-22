@@ -3,16 +3,17 @@ body {
 }
 
 .section-3 {
-  width: 1136px;
+  width: 1000px;
   height: 1000px;
   display: grid;
+  margin-block-end: 5rem;
 }
 
 .section-3 ul {
   display: grid;
-  grid-template-columns: repeat(2, 600px);
-  column-gap: 15px;
-  row-gap: 15px;
+  grid-template-columns: repeat(2, 550px);
+  column-gap: 10px;
+  row-gap: 10px;
 }
 
 .feature {
@@ -21,7 +22,7 @@ body {
   padding-top: 49px;
   padding-bottom: 33px;
   padding-left: 172px;
-  margin-left: 102px;
+  margin-left: 100px;
   padding-right: 50px;
   background-color: grey;
   border-radius: 30px;
@@ -40,7 +41,7 @@ body {
 }
 .section-3 header {
   text-align: center;
-  margin-block-start: 2rem;
+  margin-block-start: 3rem;
 }
 
 .feture h4 {
