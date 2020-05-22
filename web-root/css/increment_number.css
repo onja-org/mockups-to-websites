@@ -1,0 +1,8 @@
+tbody {
+  counter-reset: th;
+}
+
+.satellite_name_2::before {
+  counter-increment: th;
+  content: counter(th) " ";
+}
