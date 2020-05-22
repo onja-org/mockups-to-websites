@@ -130,10 +130,13 @@ body > header nav li:last-of-type::before {
     width: 56.56px;
     height: 65px;
   }
+  tbody {
+
+  }
 
   table th[headers="header_object"]::before {
     display: block;
-    content: "";
+    content: counter(tr) " ";
     background-image: url(../docs/red-object-icon.svg);
     background-repeat: no-repeat;
     width: 56.56px;
