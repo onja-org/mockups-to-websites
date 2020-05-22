@@ -11,7 +11,7 @@ header > h1 {
 
 header > ul {
   list-style: none;
-  margin-inline-start: 11.5rem;
+  margin-inline-start: 11.7rem;
 }
 
 header > ul > li {
@@ -22,4 +22,8 @@ header > ul > li {
   padding-inline-end: 1.5rem;
   text-transform: uppercase;
   float: left;
+}
+
+header > ul > li:nth-of-type(4) {
+  padding-inline-end: 0;
 }
