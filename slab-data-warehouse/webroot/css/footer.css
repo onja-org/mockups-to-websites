@@ -1,0 +1,45 @@
+footer {
+  width: 1600px;
+  height: 761px;
+  transform: translate(13%, 298%);
+}
+  .title > h3 {
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 130%;
+    display: flex;
+    align-items: center;
+    color: #212353;
+  }
+  .title > p {
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 160%;
+    color: #4B5D68;
+  }
+.buttom {
+  display: flexbox;
+  width: 170px;
+  height: 60px;
+  text-align: center;
+  padding-block-end: 1rem;
+}
+.buttom > a {
+  text-decoration: none;
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 160%;
+}
+#buttom-learn {
+  background: #F063B8;
+  border-radius: 50px;
+}
+#buttom-learn > a {
+  color: white;
+}

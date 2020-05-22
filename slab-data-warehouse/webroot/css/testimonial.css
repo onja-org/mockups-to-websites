@@ -1,9 +1,11 @@
  #section-testimonial {
-  width: 1118px;
+  width: 1578px;
   height: 709px;
   background: #9C69E2;
   border-radius: 50px;
   transform: translate(171px, 2069px);
+  border: 1px grey solid;
+  margin: 2rem;
 }
 #section-testimonial header > h4 {
   width: 405px;
@@ -16,16 +18,18 @@
   display: flex;
   align-items: center;
   color: #FFFFFF;
-  transform: translate(93px, 109px);
+  transform: translate(118px, 109px);
 }
 .testimonial {
-  transform: translate(93px, 249px);
-  padding-inline-start: 283px;
+  transform: translate(93px, 144px);
+  padding-inline-start: 245px;
   padding-block-start: 329;
-  width: 645px;
-  height: 330px;
+  width: 345px;
+  height: 300px;
   background-color: white;
   list-style: none;
+  display: inline-block;
+  border-radius: 1rem;
 }
   .testimonial > h5 {
     font-family: Avenir;
@@ -33,14 +37,12 @@
     font-weight: 900;
     font-size: 18px;
     line-height: 160%;
-    /* display: flex; */
     align-items: center;
     letter-spacing: 0.005em;
     color: #212353;
   }
   .testimonial > p {
-    width: 385px;
-    height: 130px;
+    width: 340px;
     font-family: Avenir;
     font-style: normal;
     font-weight: normal;
@@ -59,14 +61,34 @@
     letter-spacing: 0.01em;
     color: #9C69E2;
   }
-  .testimonial > p::before {
-    width: 90px;
-    height: 90px;
-    transform: translate(70px, 60px);
+
+  ul {
+    display: flex;
+    justify-content: space-between;
+
   }
-  #john-testimonial > p::before {
-   background-image: url(../css/john.png);
+
+   #john-testimonial {
+    content: '';
+    background-image: url(../css/john.png);
+    background-repeat: no-repeat;
+    background-position: left 25% top 18%;
+}
+
+  #jeny-testimonial  {
+  content: '';
+  background-image: url(../css/jen.png);
+  background-repeat: no-repeat;
+  background-position: left 25% top 18%;
   }
+
+  #william-testimonial  {
+    content: '';
+    background-image: url(../css/william.png);
+    background-repeat: no-repeat;
+    background-position: left 25% top 18%;
+    overflow: hidden;
+    }
 
 
 
