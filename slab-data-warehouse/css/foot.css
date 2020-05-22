@@ -1,21 +1,21 @@
 #foot {
-border-top: 1px solid gray;
-padding-inline-start: 93px;
+  border-top: 1px solid gray;
+  padding-inline-start: 93px;
 }
 
 #foot .request_demo {
   width: 140px;
-height: 40px;
-align-items: center;
-border-radius: 20px;
-background-color: white;
+  height: 40px;
+  align-items: center;
+  border-radius: 20px;
+  background-color: white;
 }
 
 #foot .learn_more {
-width: 96px;
-height: 40px;
-background-color: #F063B8;
-border-radius: 20px;
+  width: 96px;
+  height: 40px;
+  background-color: #F063B8;
+  border-radius: 20px;
 }
 
 #foot .learn_more a {
@@ -37,25 +37,25 @@ border-radius: 20px;
 
 #foot header h3 {
   width: 405px;
-height: 52px;
-font-family: Helvetica;
-font-style: normal;
-font-weight: bold;
-font-size: 40px;
-line-height: 52px;
-align-items: center;
-color: #212353;
+  height: 52px;
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 52px;
+  align-items: center;
+  color: #212353;
 }
 
 #foot header p {
   width: 584px;
-height: 29px;
-font-family: Arial, Helvetica, sans-serif;
-font-style: normal;
-font-weight: 500;
-font-size: 18px;
-line-height: 29px;
-color: #4B5D68;
+  height: 29px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 29px;
+  color: #4B5D68;
 }
 
 #foot ul {
@@ -63,7 +63,10 @@ color: #4B5D68;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   list-style: none;
   font-weight: 600;
+  column-gap: 5rem;
+  margin-inline-end: 270px;
 }
+
 
 #foot ol {
   list-style: none;
@@ -71,23 +74,23 @@ color: #4B5D68;
   padding-left: 0;
   padding-top: 2rem;
   font-size: 16px;
-line-height: 40px;
-color: #212353;
+  line-height: 40px;
+  color: #212353;
 }
 
 #foot ul button:first-of-type {
   width: 20px;
-height: 20px;
-background: #9C69E2;
-border-radius: 20px;
+  height: 20px;
+  background: #9C69E2;
+  border-radius: 20px;
 }
 #foot ul button:nth-of-type(2) {
   width: 20px;
-height: 35px;
-background: #F063B8;
-border-radius: 20px;
-
+  height: 35px;
+  background: #F063B8;
+  border-radius: 20px;
 }
+
 .social_media li {
   display:inline;
   padding-left: 14px;
