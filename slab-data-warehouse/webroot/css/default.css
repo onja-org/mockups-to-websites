@@ -1,7 +1,6 @@
 body {
-  display: grid;
-  width: 1000px;
-  height: 3500px;
+  font-size: 16px;
+  font-family: Avenir, Arial, Helvetica, sans-serif;
   background: linear-gradient(180deg, #f6fafd 0%, #ffff 19.4%);
 }
 

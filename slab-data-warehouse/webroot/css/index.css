@@ -1,6 +1,8 @@
 @import "first-sect.css";
-@import "second-sect.css";
-@import "third-sect.css";
+@import "section_features.css";
+@import "section_description.css";
 @import "fourth-sect.css";
 @import "fith-sect.css";
 @import "default.css";
+@import "header.css";
+@import "main.css";

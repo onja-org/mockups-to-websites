@@ -1,0 +1,13 @@
+#section_description {
+  max-width: 1140px;
+  margin-inline-end: auto;
+  margin-inline-start: auto;
+}
+#section_description header h2  {
+  display: flex;
+  float: right;
+  max-width: 500px;
+  font-size: 40px;
+  color: #212352;
+  align-items: center;
+}
