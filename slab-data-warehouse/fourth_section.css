@@ -1,6 +1,7 @@
 #fourth_section {
   position: relative;
   margin-inline-start: 8rem;
+  overflow: hidden;
 }
 
 #fourth_section ul {

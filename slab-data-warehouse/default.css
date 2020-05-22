@@ -3,11 +3,15 @@ body {
   position: relative;
 }
 
+section:nth-of-type(5) {
+  overflow: hidden;
+}
+
 #empty {
-  width: 1350px;
+  width: 1520px;
   height: .2px;
   margin-block-end: 5rem;
   margin-block-start: 5rem;
-  border: 2px solid rgb(76, 0, 139);
+  border: 1px solid rgb(76, 0, 139);
   background-color: darkmagenta;
 }
