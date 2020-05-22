@@ -46,7 +46,10 @@ header div:last-of-type {
     background-color: white;
     float: right;
     margin-top: -2.5rem;
-    margin-right: -4rem;
+    margin-right: -10rem;
+    width: 150px;
+    height: 50px;
+    border-radius: 40%;
 
   }
 

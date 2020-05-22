@@ -7,55 +7,12 @@ section:nth-of-type(4){
 }
 section:nth-of-type(4) h1{
   color: white;
-  padding-top: 7rem;
+  padding-top: 6rem;
   margin-left: 7rem;
 
 }
 
-section:nth-of-type(4) div.lax{
-  color: white;
-  grid-column: 2;
 
-}
-section:nth-of-type(4) div div.bill{
-  grid-column: 1;
-}
-
-section:nth-of-type(4) div.bos{
-  background-color: white;
-  width: 7px;
-  height: 7px;
-  border-radius: 50%;
-  float: right;
-  margin: 0.5rem;
-}
-section:nth-of-type(4) div.boz{
-  background-color: white;
-  width: 7px;
-  height: 7px;
-  border-radius: 50%;
-  float: right;
-  margin: 0.5rem;
-}
-section:nth-of-type(4) div.bot{
-  background-color: white;
-  width: 7px;
-  height: 7px;
-  border-radius: 50%;
-  float: right;
-  margin: 0.5rem;
-}
-section:nth-of-type(4) div.bog{
-  margin: 0.5rem;
-  background-color:rgb(231, 83, 207);
-  border-radius: 50%;
-  width: 10px;
-  height: 10px;
-  margin: 0.5rem;
-  float: right;
-
-
-}
 
 section:nth-of-type(4) div.name p,
 section:nth-of-type(4) div.name h4,
@@ -118,5 +75,36 @@ margin-left: -7rem;
 section:nth-of-type(4) div.william p{
   opacity: 0.5;
 }
+section:nth-of-type(4) div.lax{
+  color: white;
+  margin-left: 60rem;
+  width: 3rem;
 
+}
+section:nth-of-type(4) div.bill{
+  display: grid;
+  margin-right: 10rem;
+}
+
+section:nth-of-type(4) div.bos,
+section:nth-of-type(4) div.boz,
+section:nth-of-type(4) div.bot{
+  background-color: white;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  margin: 0.5rem;
+}
+
+section:nth-of-type(4) div.bog{
+  margin: 0.5rem;
+  background-color:rgb(231, 83, 207);
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+  margin: 0.5rem;
+
+
+
+}
 

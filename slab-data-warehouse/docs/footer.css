@@ -1,19 +1,14 @@
 footer{
-  height: 800px;
-  margin-top: 5rem;
+  height:761px;
+  width: 1000px;
   border-top: 1px solid gray;
-}
-footer  header button[onclick*="learn-more"]{
-  background-color: rgb(245, 125, 199);
-  display: block;
-  margin-left: 2rem;
+  margin-top: 150px;
 
 }
 footer nav ul{
   grid-template-columns: 335px 116px 166px 178px;
   display: grid;
 }
-
  footer ol {
    padding: 0;
  }
@@ -26,61 +21,78 @@ footer li a {
   text-decoration: none;
   color: black;
  }
-
- footer header button {
-  float: right;
-  margin: 2rem;
-  border-radius: 20%;
+ footer button{
+   border-radius: 40%;
+   width: 170px;
+   height: 50px;
+ }
+ footer header button[onclick*="learn-more"]{
+  background-color: rgb(245, 125, 199);
+  margin-right: 32px;
 
 }
-footer img[src*="rec.png"]{
-  float: right;
-  margin-top: -4rem;
+
+footer nav {
+  margin-top: 80px;
 }
 
-footer ul li a[href*="datawarehouse"][href*="about"][href*="help"][href*="media"]{
+footer nav ul li a[href*="datawarehouse"],
+footer nav ul li a[href*="about"],
+footer nav ul li a[href*="help"],
+footer nav ul li a[href*="media"]{
   font-weight: 700;
 
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-footer nav ul li a[href*="datawarehouse"]{
- margin-top: -1.4rem;
- margin-left: 1rem;
-
-
-
-
-
-
-
+footer nav ul li ol{
+  padding-top: 32px;
+}
+footer nav ul li ol a[href*="Warehouse-Society"]{
+  font-weight: 700;
 
 }
+footer nav ul li a[href*="datawarehouse"] {
+  margin-top: -1.4rem;
+  margin-left: 4rem;
+}
 
+footer nav ul li ol:nth-of-type(1){
+ width: 200px;
+ height: 232px;
 
-
-
-
-
-
+}
+footer nav ul li ol img{
+ float: right;
+ margin-left: 15px;
+}
+footer img[src*="rec.png"]{
+  float: right;
+  margin-bottom: -100px;
+  box-shadow: plum;
+}
+footer div:first-of-type{
+  background-color: rgb(159, 110, 236);
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+footer div:last-of-type{
+  background-color: rgb(245, 125, 199);
+  width: 20px;
+  height: 35px;
+  border-radius: 40%;
+  margin: 2rem;
+  margin-top: -2rem;
+  margin-left: 1.5rem
+}
+footer div{
+ margin-top: -16px;
+}
+footer p:last-of-type{
+  width: 360px;
+  height: 50px;
+}
 
 
 footer nav ul li:nth-child(4) ul {
