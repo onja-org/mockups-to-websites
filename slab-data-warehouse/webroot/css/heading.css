@@ -49,3 +49,23 @@ h3 {
   padding-block-start: 49px;
 }
 
+#testimonial-container h3 {
+  margin: 0;
+  font-family: 'Avenir',Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: 900;
+  line-height: 30px;
+}
+
+.testimonials #testimonial-container .john_fang h3 {
+  margin-inline-start: 120px;
+}
+
+#testimonial-container .jeny_doe h3 {
+  margin-inline-start: 160px;
+}
+
+#testimonial-container .william h3 {
+  margin-inline-start: 138px;
+}
+
