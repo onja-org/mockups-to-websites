@@ -2,13 +2,15 @@
   background-image: url('../images/image1.png');
   background-repeat: no-repeat;
   background-size: 700px;
-  background-position: right 60% top 100%;
+  background-position: right 20% top 100%;
+  margin-inline-start: 186px;
 }
 
 .part-1 > p {
   width: 258px;
   height: 120px;
-  margin-top: 50px;
+  margin-block-start: 30px;
+  margin-inline-start: 0;
 }
 
 .part-1 > p:last-of-type {
