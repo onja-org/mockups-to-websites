@@ -17,6 +17,7 @@ section {
   display: flex;
   flex-direction: column;
   margin-block-start: 150px;
+  /* margin-inline-start: 20rem; */
 }
 
 .data-storage::after {
@@ -72,4 +73,5 @@ section {
   width: 700px;
   height: 500px;
   border-radius: 2vw;
+  margin-inline-start: 2rem;
 }
