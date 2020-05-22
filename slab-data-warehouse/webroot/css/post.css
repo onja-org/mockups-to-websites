@@ -102,13 +102,6 @@ main header > p {
 
 }
 
-.testimonials {
-  width: 1118px;
-  height: 709px;
-  background-color: #9C69E2;
-  border-radius: 30px;
-  margin-block-start: 980px;
-}
 .storage_bank h2 {
   position: absolute;
   font-family: sans-serif;
@@ -129,4 +122,39 @@ main header > p {
   padding-inline-start: 550px;
   padding-inline-end: 92px;
 }
+.testimonials {
+  width: 1118px;
+  height: 709px;
+  background-color: #9C69E2;
+  border-radius: 30px;
+  margin-block-start: 980px;
+}
 
+.testimonials ul {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 40px;
+}
+.testimonials ul li {
+  width: 645px;
+  height: 330px;
+  background-color: #ffff;
+  color: #212353;
+  border-radius: 30px;
+  list-style: none;
+  padding-inline-start: 93px;
+  margin-block-start: 249px;
+  margin-block-end: 130px;
+
+}
+.testimonials a {
+  text-decoration: none;
+}
+/*.testimonials p {
+  width: 385px;
+  height: 135px;
+  padding-inline-start: 190px;
+  margin-block-start: 150px;
+
+}
