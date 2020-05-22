@@ -7,6 +7,8 @@
   display: inline-block;
   color: white;
   font-size: 10px;
+  text-align: center;
+  vertical-align: middle;
 
 }
 #first-table > tbody > .blue-icon-before th::before {
@@ -18,6 +20,8 @@
   display: inline-block;
   color: white;
   font-size: 10px;
+  vertical-align: middle;
+  text-align: center;
 }
 #first-table > tbody > .blue-icon-before th[data-id] {
   top: 2rem;
