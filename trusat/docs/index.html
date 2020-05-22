@@ -123,31 +123,26 @@
       </table>
     </section>
     <section id="second-section">
-      <table>
-        <thead>
-          <tr><th>What is this?</th></tr>
-        </thead>
-        <tr>
-          <td>
-            This catalog is an independent record of satellite behavior. It provides orbit predictions to help you spote satellites. Submit your own observation to automatically udapte the catalog. <a href="">Learn more</a>
-          </td>
-        </tr>
-      </table>
-      <table>
-        <thead>
-          <tr>
-            <th>States</th>
-            <th></th>
-          </tr>
-        </thead>
-        <tr>
-          <th scope="row"><img src="vector.png" alt=""> 4,282 <br>Satellites</th>
-          <td>134,811 <br>Observations</td>
-        </tr>
-      </table>
+      <div class="what">
+        <header>
+          <h3>What is this?</h3>
+        </header>
+        <p>
+          This catalog is an independent record of satellite behavior. It provides orbit predictions to help you spote satellites. Submit your own observation to automatically udapte the catalog. <a href="">Learn more</a>
+        <p>
+      </div>
+      <div class="status">
+        <header>
+            <h3>States</h3>
+        </header>
+          <p> 4,282 <br>Satellites</p>
+          <p>134,811 <br>Observations</p>
+      </div>
       <table class="table-satname">
           <thead>
-            <th>Recent observations</th>
+            <th class="recent_observations">Recent observations</th>
+            <th></th>
+            <th></th>
           </thead>
           <tr>
             <th scope="row">Satname-7</th>
@@ -180,20 +175,17 @@
             <td>4d</td>
           </tr>
         </table>
-        <table>
-          <thead>
-            <th scope="row">
+        <div class="goal">
+          <header>
+            <h3>
               community goal
-            </th>
-          </thead>
-          <tr>
-            <td>
-              <b>2342</b> Observation April
-            </td>
-          </tr>
-          <div></div>
-        </table>
-
+            </h3>
+          </header>
+          <p>
+            <b>2342</b> Observation April
+          </p>
+      </div>
+      <div></div>
     </section>
   </main>
 </body>

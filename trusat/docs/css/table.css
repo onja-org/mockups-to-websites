@@ -73,3 +73,7 @@ table {
   align-items: flex-end;
   color: #EC7E5F;
 }
+.recent_observations {
+  display: flex;
+  width: 12rem;
+}

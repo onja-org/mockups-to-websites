@@ -53,6 +53,11 @@ color: #FFFFFF;
   padding-left: 4rem;
 }
 
+#first-section {
+width: 55rem;
+height: 74rem;
+}
+
 #first-section > nav > ul li {
   opacity: 0.5;
   color: #FFFFFF;
