@@ -1,2 +1,7 @@
-@import "copy.css";
+
 @import "table.css";
+@import "image.css";
+@import "aside.css";
+@import "body.css";
+@import "headers.css";
+@import "nav.css";
