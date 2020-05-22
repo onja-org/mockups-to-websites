@@ -1,3 +1,4 @@
+/* Default decoration of the table in this section */
 .two > table {
   display: table;
   width: 710px;
@@ -7,17 +8,11 @@
   margin-block-start: 1rem;
   margin-inline-start: 3rem;
   font-size: 0.9rem;
-  counter-reset: row-num;
 }
 
 .two tbody > tr {
   padding-inline-start: 4rem;
-  counter-increment: row-num;
 }
-
-/* .two tbody >  tr::before {
-  content: counter(row-num);
-} */
 
 .two table > thead + tbody > tr {
   border-bottom: 1.5px solid hsla(240, 100%, 50%, 0.2);
@@ -90,4 +85,17 @@
 
 .two table > tbody > tr > td:nth-of-type(3) {
   padding-inline-start: 3rem;
+}
+
+.svg-1 .num {
+  position: absolute;
+  left: 5.6rem;
+}
+
+tr:nth-of-type(8) > .svg-1 > .num {
+  left: 5.8rem;
+}
+
+tr:nth-of-type(10) > .svg-1 > .num {
+  left: 6rem;
 }
