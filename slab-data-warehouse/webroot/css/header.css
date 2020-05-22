@@ -1,4 +1,4 @@
-.save_your_data_storage_here h1{
+h1{
   color: darkblue;
   font-size: 80px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -8,7 +8,7 @@
 }
 
 
-.section_3 h2 {
+.section_feature h2 {
   width: 405px;
   height: 52px;
   font-family: Helvetica;
@@ -20,6 +20,7 @@
 }
 
 #request_demo {
+  position: absolute;
   display: flex;
   flex-direction: row;
   align-items: center;

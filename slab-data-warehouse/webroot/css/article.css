@@ -1,0 +1,32 @@
+.john_fang {
+  position: absolute;
+  width: 645px;
+  height: 330px;
+  left: 93px;
+  top: 249px;
+  background-color: #ffffff;
+  border-radius: 20px;
+}
+
+.john_fang > * {
+  margin-inline-start: 190px;
+  margin-block-start: 80px;
+  margin-block-end: 50px;
+}
+
+.jeny_doe {
+  position: absolute;
+  width: 400px;
+  height: 330px;
+  left: 758px;
+  top: 249px;
+  background-color: #ffffff;
+  border-radius: 20px;
+}
+
+.jeny_doe > * {
+  margin-inline-start: 190px;
+  margin-block-start: 80px;
+  margin-block-end: 50px;
+}
+

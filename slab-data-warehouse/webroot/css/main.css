@@ -1,13 +1,14 @@
-.save_your_data_storage_here {
+main header h1{
   background-image: url(../images/image1\ 1.svg);
   background-repeat: no-repeat;
   background-size: 885px;
+  height: 468px;
   background-position: right;
-  background-origin: padding-box;
+  top: 336px;
 }
 
 
-.save_your_data_storage_here p {
+.data_warehouse {
   width: 380px;
   height: 120px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -15,7 +16,6 @@
   font-weight: 500;
   padding-inline-start: 240px;
   margin-block-start: 50px;
-  padding-inline-end: 980px;
 
 }
 
@@ -58,6 +58,29 @@
   margin-left: 507px;
   margin-top: 50px;
 } */
+
+.testimonials {
+  position: absolute;
+  width: 1118px;
+  height: 709px;
+  background-color: #9C69E2;
+  left: 242px;
+  margin-block-start: 150px;
+  border-radius: 50px;
+
+}
+
+.testimonials h2 {
+  position: absolute;
+  width: 405px;
+  height: 52px;
+  left: 93px;
+  top: 109px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 40px;
+  color: #ffffff;
+}
 
 
 

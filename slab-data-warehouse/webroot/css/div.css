@@ -1,1 +1,20 @@
+.div_1 {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  margin-inline-start: 240px;
+  margin-block-start: 77px;
+  background-color: #9C69E2;
+  border-radius: 20px;
 
+}
+
+.div_2 {
+  position: absolute;
+  width: 20px;
+  height: 35px;
+  margin-inline-start: 269px;
+  margin-block-start: 62px;
+  background-color: deeppink;
+  border-radius: 20px;
+}
