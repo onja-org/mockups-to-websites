@@ -1,4 +1,7 @@
 .profile {
+  position: absolute;
+  left: 1226px;
+  top: 26px;
   font-family: Montserrat;
   font-style: normal;
   font-weight: bold;
@@ -7,6 +10,7 @@
   letter-spacing: 0.05em;
   text-transform: uppercase;
   color: #FFFFFF;
+  padding-inline-start: 8px;
 }
 
 
@@ -32,5 +36,12 @@ aside p {
 
 }
 .sections_aside {
-  margin-block-start: 65px;
+  margin-block-start: 70px;
+}
+aside h4 {
+  border-bottom: 1px solid grey;
+  font-size: 20px;
+  font-weight: bold;
+  color: #FFFFFF;
+
 }

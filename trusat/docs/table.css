@@ -37,8 +37,8 @@
 .td_1 {
   display: flex;
 }
-section:nth-of-type(2) td {
-  color: white;
+main table td {
+  color: #fff;
 }
 .small_spans {
 

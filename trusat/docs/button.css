@@ -4,6 +4,16 @@ div ul li {
   font-weight: normal;
   font-size: 16px;
   border: 1px solid gray;
-  display: inline;
+  color: #fff;
   line-height: 30px;
+  list-style: none;
+  border-radius: 5%;
+}
+div ul {
+  display: grid;
+  grid-template-columns: repeat(2,143px);
+  text-align: center;
+  gap: 15px;
+  margin: 0;
+  padding: 0;
 }
