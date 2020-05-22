@@ -90,8 +90,9 @@
 
 #testimonial-container {
   display: grid;
-  grid-template-columns: repeat(3, 38vw);
+  grid-template-columns: repeat(3, 560px);
   column-gap: 20px;
+  height: 330px;
 }
 
 #testimonial-container > div {
@@ -104,21 +105,53 @@
   box-shadow: 0px 20px 0px rgba(156, 105, 226, 0.3);
 }
 
-#testimonial-container .john_fang img {
+.testimonials #testimonial-container img{
   float: left;
-  margin-block-start: -4rem;
+  width: 90px;
+  height: 90px;
+  margin-block-start: -50px;
+}
+
+.testimonials #testimonial-container .john_fang p:nth-of-type(2) {
+  margin-inline-start: 120px;
+  width: 345px;
+  height: 130px;
+}
+
+.testimonials #testimonial-container .john_fang p {
+  margin-inline-start: 120px;
+}
+
+.testimonials #testimonial-container p {
+  font-size: 18px;
+  margin: 0;
+  line-height: 30px;
 }
 
 #testimonial-container .jeny_doe {
-  width: 250px;
-  /* background: linear-gradient(30deg,
-    rgba(255, 255, 255, 0.5) 20%,
-    rgba(255, 255, 255, 0.2) 50%
-  ); */
+  width: 300px;
+}
+
+#testimonial-container .jeny_doe p {
+  margin-inline-start: 160px;
+}
+
+#testimonial-container .jeny_doe p:nth-of-type(2) {
+  margin-inline-start: 160px;
+  width: 180px;
+}
+
+#testimonial-container .william p {
+  margin-inline-start: 138px;
+}
+
+#testimonial-container .william p:nth-of-type(2) {
+  width: 180px;
+  margin-inline-start: 138px;
 }
 
 #testimonial-container .william {
   margin-inline-start: -9.5rem;
-  width: 250px;
+  width: 300px;
   overflow: hidden;
 }
