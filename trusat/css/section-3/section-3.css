@@ -1,6 +1,7 @@
 .three {
   padding-inline-start: 5rem;
   font-size: 12px;
+  word-wrap: break-word;
 }
 
 /* This is h2 of this section */
@@ -20,17 +21,17 @@
 }
 
 /* This is for all the lists in this section */
-.three ul {
+.three  ul {
   list-style: none;
-  display: flex;
+  /* display: flex; */
   margin-inline-start: 0;
   font-size: 1.2rem;
-  /* text-transform: uppercase; */
   opacity: 0.7;
 }
 
 /* First list */
 .three > ul:nth-of-type(1) {
+  display: flex;
   padding-block-start: 5rem;
   padding-block-end: 1rem;
   padding-inline-start: 0;
@@ -79,6 +80,15 @@
   opacity: 1;
 }
 
+/* Second list in this section */
+.three > nav > ul {
+  display: flex;
+}
+
+.three > nav > ul > li:nth-of-type(2) {
+  margin-inline-start: 3rem;
+}
+
 /* Table in this section */
 .three > table {
   text-transform: uppercase;
@@ -98,12 +108,6 @@
   opacity: 1;
 }
 
-/* .three tr > td:nth-of-type(1) {
-  width: 30px;
-  height: 40px;
-  padding: 1rem;
-} */
-
 .three tr > td:nth-of-type(2) {
   padding-inline-start: 0.5rem;
 }
@@ -115,16 +119,8 @@
 .three tr > td:nth-of-type(4) {
   padding-inline-start: 2rem;
 }
-*/
+
 /* Last list in this section */
-.three ul:nth-of-type(2) {
-  display: inline;
-}
-
-.three > nav > ul > li:nth-of-type(2) {
-  margin-inline-start: 3rem;
-}
-
 .three ul:nth-of-type(2) > li {
   padding: .5rem;
   text-transform: uppercase;
@@ -142,5 +138,4 @@
 
 .three ul:nth-of-type(2) > li:nth-of-type(3) {
   padding-inline-start: 10rem;
-  /* opacity: 0.5; */
 }
