@@ -1,4 +1,4 @@
-.testimonials{
+/*.testimonials{
   background-color: #9C69E2;
   width: 1118px;
   height: 709px;
@@ -24,4 +24,101 @@ left: 242px;
   padding: 8%;
   padding-inline-start: 310px;
   padding-bottom: 38px;
+}
+*/
+
+#john_fang{
+  width: 645px;
+height: 330px;
+left: -67px;
+top: 3038px;
+background: #FFFFFF;
+box-shadow: 0px 20px 0px rgba(156, 105, 226, 0.3);
+border-radius: 20px
+background-image: url(../image/john_fang.png);
+  background-repeat: no-repeat;
+}
+.testimonials{
+background-color: #9C69E2;
+width: 1118px;
+height: 709px;
+border-radius: 50px;
+ }
+#jeny_doe{
+  width: 400px;
+  height: 330px;
+  left: 594px;
+  top: 3033px;
+  background: linear-gradient(270deg, #FFFFFF 9.75%, rgba(255, 255, 255, 0) 100%);
+
+border: 1px solid #9C69E2;
+box-sizing: border-box;
+border-radius: 20px;
+  border: 1px solid #9C69E2;
+  box-sizing: border-box;
+  border-radius: 20px;
+  background-image: url(../image/jeny_doe.png);
+  background-repeat: no-repeat;
+
+}
+#william{
+  width: 400px;
+  height: 330px;
+  left: 1018px;
+  top: 3038px;
+  background: linear-gradient(270deg, #FFFFFF 9.75%, rgba(255, 255, 255, 0) 100%);
+  border: 1px solid #9C69E2;
+  box-sizing: border-box;
+  border-radius: 20px;
+  background-image: url(../image/william.png);
+ background-repeat: no-repeat;
+
+}
+.testimonial{
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 160%;
+  align-items: center;
+  letter-spacing: 0.005em;
+  color: #212353;
+
+}
+
+.three-testimonials{
+   display: flex;
+   padding-block-start: 132px;
+}
+.testimonial h3{
+  margin-inline-start:126px ;
+
+}
+.testimonial p{
+  margin-inline-start:126px ;
+
+
+}
+.testimonial p + p{
+   margin-inline-start:126px ;
+
+
+}
+.testimonial::before{
+   background-color: lawngreen;
+
+}
+#john_fang::before{
+ background-image: url(../image/john_fang.png);
+ background-repeat: no-repeat;
+}
+
+#jeny_doe::before{
+ background-image: url(../image/jeny_doe.png);
+ background-repeat: no-repeat;
+}
+
+#william::before{
+ background-image: url(../image/william.png);
+ background-repeat: no-repeat;
 }
