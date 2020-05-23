@@ -98,7 +98,7 @@ header > nav ul li  {
     opacity: 0.5;
   }
 
-  .table tr th{
+  table tr th{
     position: relative;
     text-transform: uppercase;
     color: #FFFFFF;

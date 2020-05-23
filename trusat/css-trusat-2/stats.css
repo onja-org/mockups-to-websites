@@ -7,6 +7,8 @@
     padding-inline-start: 0;
     margin-block-start: 0;
     margin-block-end: 0;
+    opacity: 0.5;
+
  }
 
  .stats nav > ul li:first-of-type {
@@ -32,6 +34,7 @@
   height: 29.82px;
   position: absolute;
   top: 15px;
+
 }
 
  .stats nav > ul li:nth-of-type(2) {

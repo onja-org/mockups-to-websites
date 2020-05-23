@@ -2,6 +2,7 @@
   --width-doc: 1338px;
   --height-doc: 1299px;
 }
+
 body {
 width: var(--width-doc);
 background: #081122;

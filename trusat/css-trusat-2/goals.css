@@ -1,0 +1,41 @@
+/* Styling the last div which is the #goal class*/
+
+#goal p:first-of-type > b{
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 28px;
+  color: #EC7E5F;
+}
+#goal table {
+  border-collapse: collapse;
+}
+
+#goal table tr {
+  border-block-end: none;
+}
+
+#goal tbody tr {
+  display: block;
+  width: 305px;
+  border-block-start: 1px rgba(255, 255, 255, 0.5) solid;
+  border-inline-end: 1px rgba(255, 255, 255, 0.5) solid;
+}
+#goal tbody tr span{
+  margin-inline-start: 4rem;
+}
+
+#goal table thead > tr th:last-of-type {
+  display: block;
+  width: 210px;
+  height: 81px;
+  background-image: url(../docs/goal-image.svg);
+}
+
+#goal table thead {
+  display: block;
+  width: 304px;
+  height: 84px;
+  border-block-start: 1px rgba(255, 255, 255, 0.5) solid;
+  border-inline-start: 1px rgba(255, 255, 255, 0.5) solid;
+  border-inline-end: 1px rgba(255, 255, 255, 0.5) solid;
+}
