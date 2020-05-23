@@ -6,6 +6,19 @@
   top: 249px;
   background-color: #ffffff;
   border-radius: 20px;
+  box-shadow: 0px 20px 0px rgba(156, 105, 226, 0.3);
+
+}
+
+.john_fang::before {
+  content: "";
+  position: absolute;
+  background-image: url("../images/john_fang.png");
+  background-repeat: no-repeat;
+  width: 90px;
+  height: 90px;
+  top: 60px;
+  left: 70px;
 }
 
 .john_fang > * {
@@ -14,14 +27,46 @@
   margin-block-end: 50px;
 }
 
+.john_fang p:nth-of-type(1) {
+  margin-block-start: -50px;
+  color: #9C69E2;
+}
+
+.john_fang p:nth-of-type(2) {
+  margin-inline-end: 70px;
+}
+
 .jeny_doe {
   position: absolute;
   width: 400px;
   height: 330px;
   left: 758px;
   top: 249px;
-  background-color: #ffffff;
+  background: linear-gradient(270deg, #FFFFFF 9.75%, rgba(255, 255, 255, 0.8) 100%);
+  border: 1px solid #9C69E2;
+  box-sizing: border-box;
   border-radius: 20px;
+  box-shadow: 0px 20px 0px rgba(156, 105, 226, 0.3);
+}
+
+.jeny_doe::before {
+  content: "";
+  position: absolute;
+  background-image: url("../images/jeny-doe.png");
+  background-repeat: no-repeat;
+  width: 90px;
+  height: 90px;
+  top: 60px;
+  left: 70px;
+}
+
+.jeny_doe p:nth-of-type(1) {
+  margin-block-start: -50px;
+  color: #9C69E2;
+}
+
+.jeny_doe p:nth-of-type(2) {
+  margin-inline-end: 60px;
 }
 
 .jeny_doe > * {
@@ -30,14 +75,40 @@
   margin-block-end: 50px;
 }
 
+
 .william {
   position: absolute;
   width: 400px;
   height: 330px;
   left: 1178px;
   top: 249px;
-  background-color: #ffffff;
+  background: linear-gradient(270deg, #FFFFFF 9.75%, rgba(255, 255, 255, 0) 100%);
+  border: 1px solid #9C69E2;
+  box-sizing: border-box;
   border-radius: 20px;
+  box-shadow: 0px 20px 0px rgba(156, 105, 226, 0.3);
+
+}
+
+.william::before {
+  content: "";
+  position: absolute;
+  background-image: url("../images/william.png");
+  background-repeat: no-repeat;
+  width: 90px;
+  height: 90px;
+  top: 60px;
+  left: 70px;
+}
+
+.william p:nth-of-type(1) {
+  margin-block-start: -50px;
+  color: #9C69E2;
+}
+
+
+.william p:nth-of-type(2) {
+  margin-inline-end: 60px;
 }
 
 .william > * {

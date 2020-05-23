@@ -1,4 +1,4 @@
-header nav {
+header .main_link {
   position: relative;
   display: flex;
   flex-direction: row;
@@ -7,13 +7,13 @@ header nav {
   padding-inline-start: 240px;
 }
 
-header nav li {
+header .main_link li {
   display: inline-block;
 }
 
 
 
-header nav a {
+header .main_link a {
   text-decoration: none;
   color: black;
   padding-inline-start: 65px;

@@ -48,19 +48,10 @@ main header h1{
   word-wrap: break-word;
 }
 
-/* .section_features header p {
-  width: 584px;
-  height: 58px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 18px;
-  font-weight: 500;
-  font-style: normal;
-  margin-left: 507px;
-  margin-top: 50px;
-} */
 
 .testimonials {
-  position: absolute;
+  display: block;
+  position: relative;
   width: 1118px;
   height: 709px;
   background-color: #9C69E2;
@@ -81,6 +72,11 @@ main header h1{
   font-size: 40px;
   color: #ffffff;
 }
+
+.testimonials p:nth-of-type(2) {
+  margin-block-start: -19px;
+}
+
 
 
 
