@@ -30,3 +30,20 @@
   margin-block-end: 50px;
 }
 
+.william {
+  position: absolute;
+  width: 400px;
+  height: 330px;
+  left: 1178px;
+  top: 249px;
+  background-color: #ffffff;
+  border-radius: 20px;
+}
+
+.william > * {
+  margin-inline-start: 190px;
+  margin-block-start: 80px;
+  margin-block-end: 50px;
+}
+
+
