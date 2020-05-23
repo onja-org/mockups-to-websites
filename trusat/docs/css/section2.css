@@ -15,10 +15,9 @@
   padding: 0;
   bottom: 0;
   position: absolute;
-  left: 4.1rem;
+  left: 4.2rem;
   height: 15rem;
 }
-
 
 .stats p:nth-of-type(2) {
   left: 14rem;
@@ -31,7 +30,6 @@
   font-size: 12px;
   text-transform: uppercase;
   color: #848890;
-
 }
 
 .stats .observations {
@@ -70,7 +68,7 @@ h3 {
   position: absolute;
   width: 210px;
   height: 84px;
-  left: 66px;
+  left: 68px;
   top: 66.2rem;
   background: #EC7E5F;
 }
