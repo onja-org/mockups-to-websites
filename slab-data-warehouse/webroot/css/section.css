@@ -1,7 +1,8 @@
 :root {
   --section-width: 1100px;
   --section-height: 350px;
-  --padding-base-unit: 120px;
+  --padding-base-unit: 80px;
+  --padding-inline: 90;
 }
 
 section {
@@ -33,11 +34,12 @@ section {
 /*This is for the second section for the high-level data storage bank */
 
 .data-storage-bank {
+  margin: auto;
   position: relative;
   background-repeat: no-repeat;
   background-size: var(--section-height);
-  padding-inline-start: var(--padding-base-unit);
-  padding-inline-end: var(--padding-base-unit);
+  padding-inline-start: var(--padding-inline);
+  padding-inline-end: var(--padding-inline);
   padding-block-start: var(--padding-base-unit);
   padding-block-end: var(--padding-base-unit);
   background-color: rgba(240, 99, 184, 0.15);
@@ -64,8 +66,9 @@ section {
 }
 
 .testimonials {
-  padding-inline-start: var(--padding-base-unit);
-  padding-inline-end: var(--padding-base-unit);
+  margin: auto;
+  padding-inline-start: var(--padding-inline);
+  padding-inline-end: var(--padding-inline);
   padding-block-start: var(--padding-base-unit);
   padding-block-end: var(--padding-base-unit);
   background-color: #9C69E2;
