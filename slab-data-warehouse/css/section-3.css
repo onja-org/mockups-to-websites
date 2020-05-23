@@ -2,43 +2,47 @@ body {
   font-family: 'Avenir',Arial, Helvetica, sans-serif;
 }
 
-#section_features h3{
+.section_block h3{
   height: 52px;
-  width: 504px;
-  margin-left: 500px;
-  margin-right: 590px;
-  margin-top: -100px;
+  font-size: 30px;
+  text-align: center;
 }
 
-#section_features > header p{
+#section_features > header > p{
   height: 58px;
-  width: 584px;
   text-align: center;
-  margin-left: 250px;
-  margin-right: 50px;
+  /*margin-left: 25px;
+  margin-right: 50px;*/
   }
 
-#section_features {
+#section_block {
+  position: relative;
   list-style: none;
+  margin: 2rem;
   padding-block-start: 49px;
   padding-block-end: 33px;
   padding-inline-end: 50px;
   padding-inline-start: 102px;
+  margin-inline-start: 102px;
   font-size: 16px;
   border-radius: 30px;
-  position: relative;
-  width: 300px;
-  height: 200px;
-  margin-inline-start: 4rem;
-  
 }
 
-#section_features p {
+#section_block::before{
+  background-repeat: no-repeat;
+  top: 4rem;
+  left: -6rem;
+  /*width: 200px;*/
+  height: 150px;
+  content: '';
+}
+
+.section_block p {
   margin: 0;
   line-height: 1.6;
 }
 
-.more_link #section_features{
+.more_link {
   height: 26px;
   margin-block-start: 20px;
 }
@@ -47,6 +51,7 @@ body {
   color: grey ;
   font-weight: 700;
   text-decoration: none;
+  list-style:none;
 }
 
 #feature_search_data{
@@ -60,7 +65,6 @@ body {
 
 #feature_hour_access {
   background-color: rgba(156, 105, 226,0.1);
-  position: relative;
 }
 
 #feature_hour_access::before{
@@ -82,27 +86,17 @@ body {
 }
 
 #feature_security_code::before {
-  background-image: url(../images/security-code.png);
-  
-}
-.features ::before{
-  background-repeat: no-repeat;
-  position: absolute;
-  top: 4rem;
-  left: -6rem;
-  width: 200px;
-  height: 150px;
-  content: '';
+  background-image: url(../images/security-code.png); 
 }
 
-
-.features > ul {
+#section_features >  ul{
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   column-gap:50px;
   row-gap: 50px;
+  list-style: none;
 }
 
-/*.features li > h4 , .features li > p, .features li > a {
+/*.section_block li > h4 , .features li > p, .features li > a {
   margin-inline-start: 2rem;
 }*/

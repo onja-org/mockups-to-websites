@@ -18,10 +18,11 @@ body > main > header {
   background-image: url(../images/image-1-1.png);
   background-position: 70% 30%;
   background-repeat: no-repeat;
-  margin-top: 50px;
+  /*margin-top: 50px;
   margin-left: 240px;
   margin-right: 112px;
-  width: 1248px;
+  width: 1248px;*/
+  margin: auto;
   height: 754px;
 }
 
