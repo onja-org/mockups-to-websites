@@ -1,0 +1,66 @@
+
+/* here we make the table's style ===(headache) */
+table {
+  color: #FFFFFF;
+  opacity: 0.5;
+  border-collapse: collapse;
+  counter-reset: tr;
+  margin-inline-end: 0;
+}
+
+table tr {
+  border-bottom: 2px rgba(255, 255, 255, 0.5) solid;
+  border-bottom-width: 1px;
+}
+
+th[scope="col"]{
+  opacity: 0.5;
+}
+
+table tr th{
+  position: relative;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  vertical-align: middle;
+}
+
+table th[headers="header_object"] {
+  width: 250px;
+}
+
+/* setting the different coloured icons in the object column*/
+table  #row_consmos::before,
+table #row_consmos2::before,
+table #row_sl-8::before,
+table #row_delta::before,
+table #row_cosmos3::before   {
+  display: block;
+  content: "";
+  background-image: url(../docs/blue-object-icon.svg);
+  background-repeat: no-repeat;
+}
+
+table th[headers="header_object"] span::before {
+counter-increment: tr;
+content: counter(tr) " ";
+}
+
+table th[headers="header_object"]::before {
+  display: block;
+  content: " ";
+  background-image: url(../docs/red-object-icon.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 56.56px;
+  height: 65px;
+}
+
+/* aligning the text with the bacground image*/
+
+table th[headers="header_object"] span {
+  position: absolute;
+  line-height: 1.5;
+  margin-block-start: -2.75rem;
+  margin-inline-start: -8.5rem;
+  word-spacing: 8px;
+}

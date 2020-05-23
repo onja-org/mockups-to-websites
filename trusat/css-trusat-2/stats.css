@@ -1,0 +1,52 @@
+
+  .stats nav ul {
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    align-items: flex-end;
+    padding-inline-start: 0;
+    margin-block-start: 0;
+    margin-block-end: 0;
+ }
+
+ .stats nav > ul li:first-of-type {
+   width: 135px;
+ }
+
+ .stats nav > ul li:first-of-type::before {
+   content: "";
+   display: block;
+   background-image:  url(../docs/stats-satelite.svg);
+   border: 0.7px solid #081122;
+   width: 37px;
+   height: 38px;
+   position: absolute;
+   top: 10px;
+}
+
+.stats nav > ul li:nth-of-type(2)::before {
+  content: "";
+  display: block;
+  background-image: url(../docs/stats-observation.svg);
+  width: 41px;
+  height: 29.82px;
+  position: absolute;
+  top: 15px;
+}
+
+ .stats nav > ul li:nth-of-type(2) {
+    width: 138px;
+  }
+
+  .stats nav li span {
+    margin-inline-start: 3rem;
+  }
+/* for the number iside of the lists*/
+
+  .stats nav li b {
+    width: 98px;
+    height: 30px;
+    font-size: 24px;
+    line-height: 28px;
+    margin-inline-start: 3rem;
+  }

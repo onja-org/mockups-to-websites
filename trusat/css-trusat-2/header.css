@@ -1,0 +1,28 @@
+body header {
+  display: flex;
+  flex-direction: row;
+}
+
+body header nav ul {
+display: flex;
+flex-direction: row;
+}
+
+body > header nav li{
+  font-family: 'Segoe UI', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+body > header #list li:not(:last-of-type) {
+  margin-inline-end: 4rem;
+}
+
+body > header #link ul{
+  transform: translateX(16rem);
+}
+

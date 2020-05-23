@@ -1,0 +1,72 @@
+#catalog-description .about-catalog nav a{
+
+}
+#catalog-description {
+  margin-block-start: 2.5rem;
+}
+
+#catalog-description .about-catalog p {
+  font-size: 16px;
+  line-height: 22px;
+
+}
+
+#catalog-description h1 {
+  border-bottom: 1px solid #FFFFFF;
+  opacity: 0.5;
+}
+
+#catalog-description .text a {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  text-decoration-line: underline;
+  color: #EC7E5F;
+ }
+
+ #catalog-description .about-catalog nav,
+ p {
+   opacity: 0.5;
+ }
+
+  /* Moving the 2 links inside of the div about-catalog outside the h1*/
+
+  .about-catalog ul {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    margin-inline-start: -2.5rem;
+    margin-block-end: 0;
+    margin-block-start: 0;
+   }
+
+   .about-catalog ul li a{
+    position: absolute;
+    border-width: 0.2px;
+    border-style: dotted;
+    text-decoration: none;
+    width: 143px;
+    height: 30px;
+    color: #FFFFFF;
+    opacity: 0.5;
+    font-size: 12px;
+    line-height: 125%;
+    text-align: center;
+   }
+
+
+
+   .about-catalog .text p {
+     margin: 0;
+   }
+  /* Positioning the anchors on top of the h2*/
+
+   .about-catalog ul li:first-of-type  > a{
+     top: -7.5rem;
+     left: 2.5rem;
+   }
+
+   .about-catalog ul li:last-of-type > a{
+    top: -7.5rem;
+    left: 12rem;
+  }
