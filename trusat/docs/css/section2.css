@@ -1,23 +1,25 @@
 #second-section > .what {
-  display: flex;
-  width: 20rem;
-  padding: 0;
-  bottom: 0;
-  position: absolute;
   top: 8rem;
-  height: 15rem;
-  left: 4.1rem;
 }
 #second-section > .stats {
+  top: 24.7rem;
+}
+
+#second-section > .goal {
+  top: 60rem;
+}
+
+.scndsection {
   display: flex;
   width: 20rem;
   padding: 0;
   bottom: 0;
   position: absolute;
-  top: 24.7rem;
-  height: 15rem;
   left: 4.1rem;
+  height: 15rem;
 }
+
+
 .stats p:nth-of-type(2) {
   left: 14rem;
 }
@@ -31,22 +33,12 @@
   color: #848890;
 
 }
-.stats .observations {
 
+.stats .observations {
   font-family: Roboto;
   font-size: 12px;
   text-transform: uppercase;
   color: #848890;
-}
-#second-section > .goal {
-  display: flex;
-  width: 20rem;
-  padding: 0;
-  bottom: 0;
-  position: absolute;
-  top: 60rem;
-  height: 15rem;
-  left: 4.1rem;
 }
 
 h3 {
@@ -71,7 +63,7 @@ h3 {
 }
 #second-section p {
   position: absolute;
-    top: 3rem;
+  top: 3rem;
 }
 
 #second-section > .satellites {
