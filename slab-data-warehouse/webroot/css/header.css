@@ -1,57 +1,59 @@
 body {
-  width: 100vw;
-  height: 100vh;
+  max-width: 1600px;
+  height: 4500px;
   background-color: #e5e5e5;
+  margin: auto;
 }
-body header {
-  width: 1120px;
-  height: 60px;
+body > header {
+  max-width: 1120px;
+  height: auto;
   background-image: url("../images/circle.svg"),
                     url("../images/rectangle.svg");
-  background-position:top left, center left;
-  background-repeat:no-repeat, no-repeat;
+  background-position:top 40px left 118px, top 25px left 148px;
+  background-repeat: no-repeat, no-repeat;
 }
- main > header {
-   width: 1248px;
-   height: 754px;
-  background-image: url("../images/image1\ 1\ \(1\).svg");
-  background-repeat: no-repeat;
-  background-position: right;
-  padding-inline-start: 5rem;
+header nav {
+  display: flex;
+  justify-content: space-between;
 }
-body .feature {
-  font-family: "Avenir", Arial, Helvetica, sans-serif;
-}
-.feature h3 {
+header nav ul {
   text-align: center;
-  font-size: 40px;
-  font-weight: bold;
-  color: #212353;
-  padding-inline-start: 507px;
+  padding-inline-start: 410px;
+}
+header nav li {
+  font-size: 16px;
+  font-weight: 500;
+  display: inline-block;
+  text-decoration: none;
+  list-style: none;
+  padding-inline-start: 2rem;
+  padding-block-start: 2rem;
+  padding-block-end: 2rem;
+}
+header div {
+  margin-block-start: 2rem;
+}
+header div a {
+  width: 210px;
+  height: 60px;
+  border-radius: 50px;
+  box-shadow: 0 5px 5px rgba(75, 93, 104, 0.1);
+  color: #ffffff;
+  padding-inline-start: 2rem;
+  padding-inline-end: 2rem;
+  padding-block-start: 2rem;
+  padding-block-end: 2rem;
 }
 
-.storage_bank {
-  width: 1117px;
-  height: 560px;
-  border-radius: 30px;
-  background-color: rgba(240, 99, 184, 0.15);
-  border-radius: 50px;;
-  background-image: url("../images/image2.svg");
-  background-repeat: no-repeat;
-  margin-inline-start: 5rem;
+header nav {
+  display: flex;
+  justify-content: space-between;
+}
 
-}
-.testimonials header h3 {
-  font-family: Arial, Helvetica, sans-serif;
-  font-style: normal;
-  font-size: 40px;
-  font-weight: bold;
-  color: #ffff;
-}
-.testimonials h4 {
-  font-size: 18px;
-  font-weight: 900;
+header nav a {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 800;
   color: #212353;
-  margin-block-start: 80px;
-  margin-block-end: 41px;
+
 }
