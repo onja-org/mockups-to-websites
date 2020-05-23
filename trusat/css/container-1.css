@@ -1,20 +1,18 @@
 /* this css is only dedicated for the container-1 class and its contents in html document*/
 body > header  h1 {
 margin-inline-start: 2rem;
+margin-block-start: 0;
 }
 
 body > header  h2 {
   font-family: 'Segoe UI', sans-serif;
   font-style: normal;
   font-weight: bold;
-  text-transform: uppercase;
   font-size: 40px;
   line-height: 49px;
   letter-spacing: 0.05em;
   color: #FC7756;
-  margin-block-start: 4rem;
-  margin-inline-start: -13rem;
-  transform: translatey(100%);
+  transform: translate(-70%,100%);
 }
 
 body > header nav li{
@@ -37,34 +35,16 @@ header > nav ul {
   list-style: none;
   display: grid;
   grid-template-columns:123px 183px 175px 185px;
+  margin-block-start: 0;
+  margin-block-end: 0;
 }
 
-header > nav ul li:not(:last-of-type) {
-  transform: translate(338px, -125px);
-}
-
-/*Taking the last li from its siblings to the right*/
-body > header nav li:last-of-type {
-  transform: translate(67rem, -9rem);
-}
-
-body > header nav > ul {
-  position: relative;
-}
-
-body > header nav li:last-of-type::before {
-  display: block;
-  content: "";
-  background-image: url(../docs/my-profile.svg);
-  width: 24px;
-  height: 24px;
-  position: absolute;
-  top: -5px;
-  left: -1.75rem;
+header > nav ul li  {
+  transform: translate(338px, -100px);
 }
 
 /* using flex to make the layout of the lists inside the nav*/
-.pages nav {
+.pages nav ul {
   display: flex;
   flex-direction: row;
   font-weight: normal;
@@ -84,6 +64,7 @@ body > header nav li:last-of-type::before {
   .pages nav li:first-of-type {
     font-weight: bold;
     opacity: 1;
+    margin-inline-start: -2.5rem;
   }
 
   .text p:first-of-type {
@@ -105,6 +86,7 @@ body > header nav li:last-of-type::before {
     opacity: 0.5;
     border-collapse: collapse;
     counter-reset: tr;
+    margin-inline-end: 0;
   }
 
   table tr {
@@ -121,7 +103,6 @@ body > header nav li:last-of-type::before {
     text-transform: uppercase;
     color: #FFFFFF;
     vertical-align: middle;
-
  }
 
   table th[headers="header_object"] {
@@ -129,7 +110,7 @@ body > header nav li:last-of-type::before {
   }
 
   /* setting the different coloured icons in the object column*/
-  table  #row_consmos::before,
+ table  #row_consmos::before,
   table #row_consmos2::before,
   table #row_sl-8::before,
   table #row_delta::before,
@@ -137,7 +118,6 @@ body > header nav li:last-of-type::before {
     display: block;
     content: "";
     background-image: url(../docs/blue-object-icon.svg);
-   
     background-repeat: no-repeat;
     width: 56.56px;
     height: 65px;

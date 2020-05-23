@@ -7,26 +7,7 @@ width: var(--width-doc);
 height: var(--height-doc);
 background: #081122;
 }
- 
-/*
-body {
-  display: grid;
-  grid-template-columns:100px 753px 293px;
-  grid-template-areas:  blank header header
-                        section section section
-                        section section section;
-}
-header {
-  grid-area: header;
-}
 
-.container-1 {
-  grid-area: section;
-}
-.container-2 {
-  grid-area: section;
-}
-*/
 
 main {
   display: grid;
@@ -48,6 +29,7 @@ h1 {
   color: #FFFFFF;
 }
 
-h1 {
+h1,
+h2 {
 text-transform: uppercase;
 }
