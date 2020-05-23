@@ -6,7 +6,8 @@ footer {
   width: 1600px;
   height: 761px;
   border-top: 1px solid;
-  margin-inline-start: 4rem;
+  margin-inline-start: 32px;
+  margin-inline-end: auto;
   background-image: url(../images/Group\ 64.png),
                     url(../images/Logo.jpg);
   background-repeat: no-repeat;

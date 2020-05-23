@@ -5,7 +5,7 @@
   border-radius: 50px;
   margin-inline-start: auto;
   margin-inline-end: auto;
-  margin-block-end: 3rem;
+  margin-block-end: 48px;
   background-image: url(../images/vecter\ 2.png),
                     url(../images/vecter\ 1.png);
   background-position: 92% 86%, 88% 86%;
@@ -15,8 +15,8 @@
 
 .section-4 header h3{
   color: white;
-  margin-inline-start: 6rem;
-  padding-block-start: 6rem;
+  margin-inline-start: 96px;
+  padding-block-start: 96px;
   font-weight: bold;
   font-size: 40px;
   line-height: 130%;
@@ -29,7 +29,7 @@
 .section-4 ul {
   list-style: none;
   margin: 0;
-  top: 2480px;
+  top: 2600px;
   bottom: 20px;
   padding: 0;
   display: flex;
@@ -65,7 +65,7 @@
 .section-4 .john {
   width: 300px;
   height: 150px;
-  margin-inline-start: 5rem;
+  margin-inline-start: 80px;
 }
 
 .section-4 .john::before {
@@ -79,7 +79,7 @@
 .section-4 .jeny {
   width: 200px;
   height: 150px;
-  margin-inline-start: 2rem;
+  margin-inline-start: 32px;
 }
 .section-4 .jeny::before {
    content: '';
@@ -89,7 +89,7 @@
 .section-4 .william {
    width: 200px;
    height: 150px;
-   margin-inline-start: 2rem;
+   margin-inline-start: 32px;
 
 }
 
@@ -99,8 +99,8 @@
 }
 
 .round {
-  margin-inline-start: 5rem;
-  margin-block-start: 30rem;
+  margin-inline-start: 80px;
+  margin-block-start: 450px;
 }
 .button-1 {
   width: 10px;
@@ -133,44 +133,3 @@
   border-radius: 5px;
   border: 0px;
 }
-/*
-.arrow {
-  padding: 0px;
-}
-.button-5::before{
-  content: '←';
-  width: 40px;
-  height: 14px;
-}
-
-.button-6::after{
-  content: '→';
-  width: 20px;
-  height: 14px;
-}*/
-/*
-body {
-  overflow-x: hidden;
-}
-
-div {
-  background-color: pink;
-  border-radius: 10px;
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 20px;
-  position: relative;
-  min-height: 100px;
-}
-
-ul {
-  list-style: none;
-  margin: 0;
-  top: 20px;
-  bottom: 20px;
-  padding: 0;
-  display: flex;
-  flex-direction: row;
-  position: absolute;
-}
-*/

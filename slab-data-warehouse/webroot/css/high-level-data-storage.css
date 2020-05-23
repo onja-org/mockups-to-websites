@@ -1,3 +1,7 @@
+:root {
+  --padding: 5rem;
+}
+
 .section-2 {
   max-width: 1117px;
   max-height: 560px;
@@ -12,9 +16,10 @@
 }
 
 .section-2 header {
-  padding-inline-start: 30rem;
-  padding-inline-end: 5rem;
-  padding-block-start: 5rem;
+  padding-inline-start: calc(var(--padding) * 6);
+  padding-inline-end: var(--padding);
+  padding-block-start: var(--padding);
+  padding-block-end: calc(var(--padding) * 2);
 }
 
 .section-2 header h2 {
@@ -31,4 +36,3 @@
   line-height: 160%;
   color: #4B5D68;
 }
-*/
