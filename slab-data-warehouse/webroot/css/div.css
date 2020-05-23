@@ -1,22 +1,16 @@
 .container_features {
-  width: 1000px;
+  margin: 0;
   display: grid;
-  grid-template-columns: repeat(2, 400px);
+  grid-template-columns: repeat(2, 442px);
   row-gap: 50px;
   column-gap: 145px;
-}
-
-.container_features {
-  margin: 0;
 }
 
 .container_features li {
   display: flex;
   flex-direction: column;
   background-repeat: no-repeat;
-  background-position: left;
-  border-radius: 10%;
-  background-size: 40%;
+  border-radius: 50px;
   padding-inline-start: 172px;
   position: relative;
 }
