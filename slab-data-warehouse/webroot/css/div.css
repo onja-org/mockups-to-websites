@@ -84,17 +84,17 @@
 
 #testimonial-container {
   display: grid;
-  grid-template-columns: repeat(3, 540px);
+  grid-template-columns: repeat(3, 550px);
   column-gap: 20px;
   height: 330px;
   margin: 0;
 }
 
 #testimonial-container > div {
-  padding-inline-start: calc(var(--padding) / 2);
-  padding-inline-end: calc(var(--padding) / 2);
-  padding-block-start: calc(var(--padding) / 2);
-  padding-block-end: calc(var(--padding) / 2);
+  padding-inline-start: 50px;
+  padding-inline-end: 50px;
+  padding-block-start: 50px;
+  padding-block-end: 50px;
   background-color: #fff;
   border-radius: 16px;
   box-shadow: 0px 20px 0px rgba(156, 105, 226, 0.3);
@@ -108,15 +108,14 @@
   margin-inline-start: -30px;
 }
 
-
-.testimonials #testimonial-container .john_fang img {
-  margin-inline-start: 0;
-}
+/*
+.testimonials #testimonial-container .john_fang {
+  width: 500px;
+  margin-inline-start: 93px;
+} */
 
 .testimonials #testimonial-container .john_fang p:nth-of-type(2) {
   margin-inline-start: 120px;
-  width: 345px;
-  height: 130px;
 }
 
 .testimonials #testimonial-container .john_fang p {
@@ -129,9 +128,9 @@
   line-height: 30px;
 }
 
-#testimonial-container .jeny_doe {
-  width: 270px;
-}
+/* #testimonial-container .jeny_doe {
+  margin-inline-start: 200px;
+} */
 
 #testimonial-container .jeny_doe p {
   margin-inline-start: 100px;
@@ -139,7 +138,6 @@
 
 #testimonial-container .jeny_doe p:nth-of-type(2) {
   margin-inline-start: 100px;
-  width: 170px;
 }
 
 #testimonial-container .william p {
@@ -147,13 +145,10 @@
 }
 
 #testimonial-container .william p:nth-of-type(2) {
-  width: 170px;
   margin-inline-start: 100px;
 }
 
 #testimonial-container .william {
-  margin-inline-start: -10rem;
-  width: 270px;
   overflow: hidden;
 }
 
