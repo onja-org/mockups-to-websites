@@ -36,12 +36,38 @@ aside p {
 
 }
 .sections_aside {
-  margin-block-start: 70px;
+  padding-block-start: 55px;
 }
 aside h4 {
   border-bottom: 1px solid grey;
   font-size: 20px;
   font-weight: bold;
   color: #FFFFFF;
+}
+
+#unique ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  padding-inline-start: 7rem;
+}
+#unique ul > li {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 15px;
+  letter-spacing: 0.05em;
+  color:gray;
+  text-transform: uppercase;
 
 }
+#unique ul li:nth-of-type(1),
+#unique ul li:nth-of-type(3){
+  margin-inline-start: 2rem;
+}
+/* width: 300px;
+  height: 84px;
+  padding: 0;
+  border: 1px solid;
+}
+.three ul:nth-of-type(2) > li:nth-of-type(3) {
+  padding-inline-start: 10rem; */
