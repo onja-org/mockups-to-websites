@@ -1,4 +1,4 @@
-#first-table > tbody > .icon-before > th::before {
+#first_table > tbody > .icon_before > th::before {
   content: attr(data-id);
   background-image: url("../images/icon.svg");
   background-repeat: no-repeat;
@@ -11,7 +11,7 @@
   vertical-align: middle;
 
 }
-#first-table > tbody > .blue-icon-before th::before {
+#first_table > tbody > .blue_icon_before th::before {
   content: attr(data-id);
   background-image: url("../images/lbue-icon.svg");
   background-repeat: no-repeat;
@@ -23,15 +23,15 @@
   vertical-align: middle;
   text-align: center;
 }
-#first-table > tbody > .blue-icon-before th[data-id] {
+#first_table > tbody > .blue_icon_before th[data-id] {
   top: 2rem;
 }
 
-#first-table > tbody > .icon-before th[data-id] {
+#first_table > tbody > .icon_before th[data-id] {
   top: 2rem;
 }
 
-.table-satname > tbody > tr > th::before {
+.table_satname > tbody > tr > th::before {
   content: "";
   background-image: url("../images/small-icon.svg");
   background-repeat: no-repeat;

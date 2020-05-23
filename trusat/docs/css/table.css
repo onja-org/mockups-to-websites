@@ -1,20 +1,20 @@
 
-#first-section th, td {
+#first_section th, td {
   border-bottom: 1px solid rgb(57, 105, 160);
   padding: 5px 10px;
 }
-#first-section > #first-table .table-header th {
+#first_section > #first_table .table_header th {
   border-bottom: 1px solid white;
   opacity: 0.5;
   text-transform: uppercase;
 }
 
-.table-satname {
+.table_satname {
   padding-left: 4rem;
   padding-top: 13rem;
   text-align: left;
 }
-#first-table {
+#first_table {
   position: absolute;
   height: 860px;
   width: 879px;
@@ -24,18 +24,25 @@
   text-align: left;
 }
 
+#first_table tr {
+  counter-increment: clause;
+}
+#first_table tr::before {
+  content: counter(clause);
+  position: absolute;
+}
 /*Table in the second section are meant to be here*/
 
-#second-section th, td {
+#second_section th, td {
   border-bottom: 1px solid rgb(57, 105, 160);
   padding: 5px 10px;
 }
-#second-section thead > tr th {
+#second_section thead > tr th {
   border-bottom: 1px solid white;
   text-transform: uppercase;
 }
 
-#second-section > .what > p a {
+#second_section > .what > p a {
   font-style: normal;
   font-weight: normal;
   font-size: 16px;

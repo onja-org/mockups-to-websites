@@ -1,11 +1,11 @@
-#second-section > .what {
+#second_section > .what {
   top: 8rem;
 }
-#second-section > .stats {
+#second_section > .stats {
   top: 24.7rem;
 }
 
-#second-section > .goal {
+#second_section > .goal {
   top: 60rem;
 }
 
@@ -53,19 +53,19 @@ h3 {
   border-bottom: 1px rgb(199, 196, 196) solid;
 }
 
-#second-section {
+#second_section {
   padding-block-start: 21.4rem;
   position: relative;
   left: 10rem;
-  height: 66rem;
+  height: auto;
   width: 26rem;
 }
-#second-section p {
+#second_section p {
   position: absolute;
   top: 3rem;
 }
 
-#second-section > .satellites {
+#second_section > .satellites {
   position: absolute;
   width: 198px;
   height: 84px;
@@ -73,7 +73,7 @@ h3 {
   top: 66.2rem;
   background: #EC7E5F;
 }
-#second-section > .empty-div {
+#second_section > .empty_div {
   position: absolute;
   width: 335px;
   height: 84px;
@@ -84,7 +84,7 @@ h3 {
   box-sizing: border-box;
  }
 
- #second-section > .rotate-div {
+ #second_section > .rotate_div {
   position: absolute;
   width: 116px;
   left: 344px;
@@ -95,7 +95,7 @@ h3 {
   transform: rotate(90deg);
  }
 
- #second-section > .goal > p .twenty-three {
+ #second_section > .goal > p .twenty_three {
   font-family: Roboto;
   font-style: normal;
   font-weight: 300;
@@ -105,7 +105,7 @@ h3 {
   color: #EC7E5F;
  }
 
- #second-section > .goal > p .april {
+ #second_section > .goal > p .april {
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
@@ -117,7 +117,7 @@ h3 {
   left: 1rem;
   position: relative;
  }
-#second-section .foot-paragraph {
+#second_section .foot_paragraph {
   width: 178px;
   left: 245px;
   top: 71.8rem;
@@ -128,9 +128,9 @@ h3 {
   text-transform: uppercase;
 
 }
-#second-section .one-month {
+#second_section .one_month {
   color: #848890;
 }
-#second-section .number {
+#second_section .number {
   font-family: monospace;
 }

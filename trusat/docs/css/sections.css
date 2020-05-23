@@ -1,4 +1,4 @@
-#first-section > header h2 {
+#first_section > header h2 {
   text-transform: uppercase;
   color: #FC7756;
   font-style: normal;
@@ -8,12 +8,12 @@
   letter-spacing: 0.05em;
   height: 59px;
 }
-#first-section > header {
+#first_section > header {
   display: grid;
   padding-left: 4rem;
 }
 
-#first-section > nav ul {
+#first_section > nav ul {
   display: flex;
   font-size: 12px;
   padding-left: 0;
@@ -24,17 +24,17 @@
   line-height: 24px;
   letter-spacing: 0.05em;
 }
-#first-section > nav {
+#first_section > nav {
   display: grid;
 
 }
-#first-section > nav p:nth-of-type(2) {
+#first_section > nav p:nth-of-type(2) {
   opacity: 0.5;
   font-weight: normal;
   font-size: 16px;
   line-height: 22px;
 }
-#first-section > nav p:nth-of-type(1) {
+#first_section > nav p:nth-of-type(1) {
 font-style: normal;
 font-weight: 300;
 font-size: 24px;
@@ -43,31 +43,31 @@ color: #FFFFFF;
 }
 
 
-#first-section > nav > ul li:nth-of-type(1) {
+#first_section > nav > ul li:nth-of-type(1) {
   margin-left: 0;
   color: #FFFFFF;
   opacity: 1;
 }
 
-#first-section > nav {
+#first_section > nav {
   padding-left: 4rem;
 }
 
-#first-section {
+#first_section {
 width: 55rem;
 height: 74rem;
 }
 
-#first-section > nav > ul li {
+#first_section > nav > ul li {
   opacity: 0.5;
   color: #FFFFFF;
 }
-#first-section > nav > ul li {
+#first_section > nav > ul li {
   list-style: none;
   margin-left: 5rem;
   text-transform: uppercase;
 }
-#first-section > nav > ul > li a {
+#first_section > nav > ul > li a {
   text-transform: uppercase;
 }
 
