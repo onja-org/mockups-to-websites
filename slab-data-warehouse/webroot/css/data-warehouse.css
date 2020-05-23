@@ -1,6 +1,6 @@
 @import "default.css";
-@import "section-1.css";
-@import "section-2.css";
-@import "section-3.css";
-@import "section-4.css";
+@import "data-storage.css";
+@import "high-level-data-storage.css";
+@import "feature.css";
+@import "testimonials.css";
 @import "footer.css";

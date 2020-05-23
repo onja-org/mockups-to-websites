@@ -3,10 +3,12 @@ body {
 }
 
 .section-3 {
-  width: 1000px;
-  height: 1000px;
+  width: 1137.28px;
+  height: 1026px;
   display: grid;
   margin-block-end: 5rem;
+  margin-inline-start: auto;
+  margin-inline-end: auto;
 }
 
 .section-3 ul {
@@ -24,7 +26,6 @@ body {
   padding-left: 172px;
   margin-left: 100px;
   padding-right: 50px;
-  background-color: grey;
   border-radius: 30px;
   font-size: 16px;
   position: relative;
@@ -78,6 +79,7 @@ body {
 #feature_search_data {
   background-color: rgba(104, 201,  186,0.1);
 }
+
 #feature_search_data::before {
   content: '';
   position: absolute;

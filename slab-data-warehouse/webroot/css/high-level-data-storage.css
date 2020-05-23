@@ -1,0 +1,34 @@
+.section-2 {
+  max-width: 1117px;
+  max-height: 560px;
+  margin-inline-start: auto;
+  margin-inline-end: auto;
+  background-image: url(../images/image2.png);
+  background-position: -30px -5px;
+  background-repeat: no-repeat;
+  background-size: -95px 500px;
+  background-color: rgba(240, 99, 184, 0.15);
+  border-radius: 50px;
+}
+
+.section-2 header {
+  padding-inline-start: 30rem;
+  padding-inline-end: 5rem;
+  padding-block-start: 5rem;
+}
+
+.section-2 header h2 {
+  font-size: 40px;
+  line-height: 130%;
+  font-weight: bold;
+  color: #212353;
+}
+
+.section-2 p {
+  margin-block-start: 2rem;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 160%;
+  color: #4B5D68;
+}
+*/
