@@ -44,11 +44,15 @@ aside p {
    background-repeat: no-repeat;
  }
 
- small {
-   display: block;
-   text-transform: uppercase;
-   text-align: end;
-   padding-inline-end: 118px;
+small {
+  display: block;
+  text-transform: uppercase;
+  text-align: end;
+  padding-inline-end: 118px;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+  color: #848890;
  }
 
  section + section {
@@ -59,4 +63,20 @@ aside p {
    line-height: 22px;
    font-size: 16px;
    font-weight: normal;
+ }
+
+ .community span,
+ .community p {
+  display: inline-block;
+ }
+
+ .community p {
+   text-transform: uppercase;
+ }
+
+ .community span {
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 28px;
+  color: #EC7E5F;
  }
