@@ -35,7 +35,7 @@ section:nth-of-type(4) div.name{
 section:nth-of-type(4) div.john{
   width: 550px;
   height: 300px;
-  background-image: url(ellipse2.png);
+  background-image: url(john.png);
   background-color: white;
   background-repeat: no-repeat;
   border-radius: 10%;
@@ -48,7 +48,7 @@ section:nth-of-type(4) div.john{
 section:nth-of-type(4) div.jeny{
   width: 450px;
   height: 300px;
-  background-image: url(ellipse1.png);
+  background-image: url(jenny.png);
   background-color: white;
   background-repeat: no-repeat;
   border-radius: 10%;
@@ -64,7 +64,7 @@ section:nth-of-type(4) div.jeny p{
 section:nth-of-type(4) div.william{
 width: 300px;
 height: 300px;
-background-image: url(ellipse3.png);
+background-image: url(william.png);
 background-repeat: no-repeat;
 background-color: white;
 border-radius: 2rem;

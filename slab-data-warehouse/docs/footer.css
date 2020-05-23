@@ -6,7 +6,7 @@ footer{
 
 }
 footer nav ul{
-  grid-template-columns: 335px 116px 166px 178px;
+  grid-template-columns: 330px 116px 166px 178px;
   display: grid;
 }
  footer ol {
@@ -22,9 +22,10 @@ footer li a {
   color: black;
  }
  footer button{
-   border-radius: 40%;
+   border-radius: 45%;
    width: 170px;
    height: 50px;
+   margin-top: -5rem;
  }
  footer header button[onclick*="learn-more"]{
   background-color: rgb(245, 125, 199);
@@ -51,6 +52,8 @@ footer nav ul li ol{
 footer nav ul li ol a[href*="Warehouse-Society"]{
   font-weight: 700;
 
+
+
 }
 footer nav ul li a[href*="datawarehouse"] {
   margin-top: -1.4rem;
@@ -62,10 +65,33 @@ footer nav ul li ol:nth-of-type(1){
  height: 232px;
 
 }
-footer nav ul li ol img{
- float: right;
- margin-left: 15px;
+footer .icons{
+  width: 48px;
+height: 48px;
+border-radius: 50%;
+background-position: 50% 50%;
+background-repeat: no-repeat;
+background-size: contain;
+display: inline-block;
+float: right;
+margin-right: 16px;
+
 }
+footer .icons[href*="facebook"]{
+ background-image: url(facebook.png);
+
+}
+
+
+.icons[href*="twitter"]{
+ background-image: url(twitter.png);
+
+}
+
+.icons[href*="itterary"]{
+ background-image: url(icone.png);
+}
+
 footer img[src*="rec.png"]{
   float: right;
   margin-bottom: -100px;

@@ -75,7 +75,7 @@ section:nth-of-type(3){
 
 #feature_learn_hours::before{
   content: '';
-  background-image: url(image4.png);
+  background-image: url(hour_access_image.png);
   width: 232px;
   height: 211px;
   position: absolute;
@@ -95,7 +95,7 @@ section:nth-of-type(3){
 }
 #feature_search_data::before{
   content: '';
-  background-image: url(image3.png);
+  background-image: url(search_data_image.png);
   background-repeat: no-repeat;
   width: 232px;
   height: 211px;
@@ -113,7 +113,7 @@ section:nth-of-type(3){
 }
 #feature_security_code::before{
   content: '';
-   background-image: url(image6.png);
+   background-image: url(security_code_image.png);
     background-repeat: no-repeat;
     width: 232px;
     height: 211px;
@@ -133,7 +133,7 @@ section:nth-of-type(3){
 
 #feature_print_out::before{
   content: '';
-  background-image: url(image5.png);
+  background-image: url(print_out_image.png);
   background-repeat: no-repeat;
   width: 232px;
   height: 211px;
