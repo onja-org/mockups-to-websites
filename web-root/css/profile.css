@@ -1,19 +1,17 @@
-.my_profile {
-  position: absolute;
-  top: 26px;
-  right: 22px;
+:root {
+  --icon_width: 24px;
+  --icon_height: 24px;
+  --icon_gutter: 8px;
+}
+
+.my_profile a {
+  display: inline-block;
+  line-height: var(--icon_height);
+  background-image: url(../images/mask_group.svg);
+  background-repeat: no-repeat;
+  background-position: left center;
   text-transform: uppercase;
-}
-
-.my_profile {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  line-height: 27px;
-}
-
-.my_profile > a {
+  padding-inline-start: calc(var(--icon_width) + var(--icon_gutter));
   text-decoration: none;
-  padding-inline-start: 5px;
-  margin: 0;
+  margin-inline-end: 22px;
 }

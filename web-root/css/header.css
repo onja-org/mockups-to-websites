@@ -7,52 +7,42 @@ html {
 }
 
 header {
-  position: relative;
-  height: 194px;
-}
-
-header h1 {
-  display: block;
-  width: 266px;
-  height: 54px;
-  color: #FC7756;
-  text-transform: uppercase;
-  position: absolute;
-  top: 95px;
-  margin: 0;
-  font-weight: bold;
-
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-block-end: 96px;
+  margin-block-start: 26px;
 }
 
 header svg {
-  width: 120px;
+  max-width: 120px;
   height: 21px;
-  margin-top: 9px;
-  margin-inline-start: calc(var(--html-margin-inline-start) * -1);
 }
 
-.head {
-  display: flex;
-  flex-direction: row;
-}
-
-.head ul {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  width: 546px;
-  margin: 0;
-  margin-block-start:26px;
+#navigation_list {
   line-height: 23px;
+  margin: 0;
 }
 
-.head nav li {
-  list-style: none;
-}
 
-.head nav a {
-  text-decoration: none;
-  color: white;
-  text-transform: uppercase;
+
+header nav a {
   font-weight: bold;
+}
+
+main h1 {
+  color: #fc7756;
+  text-transform: uppercase;
+  margin: 0;
+  margin-block-end: 40px;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+header figure {
+  margin: 0;
+}
+
+header nav a {
+  display: inline-block;
 }

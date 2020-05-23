@@ -50,10 +50,10 @@
 
 .number.blue {
   background-image: url(../images/blue-bg.svg),
-                    url(../images/table_2_image.svg);
+                    url(../images/table-1_bg.svg);
 }
 
 .number.out_blue {
-  background-image: url(../images/blue-bg.svg),
+  background-image: url(../images/out_blue.svg),
                     url(../images/table_2_image.svg);
 }

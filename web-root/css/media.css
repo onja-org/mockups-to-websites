@@ -1,0 +1,11 @@
+@media (max-width: 850px) {
+  html {
+    margin: 0;
+  }
+
+  main {
+    margin: 0;
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}

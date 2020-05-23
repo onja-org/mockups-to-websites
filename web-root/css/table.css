@@ -13,7 +13,6 @@ thead th {
 }
 
 #object {
-  padding: 0;
   display: inline-block;
 }
 
@@ -21,4 +20,8 @@ thead th {
   text-align: end;
   display: inline-block;
   padding-inline-start: 5px;
+}
+
+table {
+  margin-block-end: 2em;
 }

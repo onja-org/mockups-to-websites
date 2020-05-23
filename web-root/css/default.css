@@ -1,55 +1,62 @@
-.text {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
-
-.small {
-  margin-block-start: 1rem;
-  text-transform: uppercase;
-}
-
-.small:nth-of-type(1)::before {
-  content: url(../images/Vector.svg);
-}
-
-.small:nth-of-type(2)::before {
-  content: url(../images/Group\ 124.svg);
+:root {
+  --image_width: 41px;
+  --image_gutter: 10px;
 }
 
 h3 {
   border-bottom: gray solid 2px;
   height: 23px;
   width: 289px;
-  padding-block-end: 7px;
+  padding-block-end: 17px;
+  text-transform: uppercase;
+  margin-block-start: 0;
 }
 
-.community span:nth-of-type(1) {
-  color: #ec7e5f;
-  height: 60px;
-  width: 290px;
+h3 a {
+  text-decoration: none;
 }
 
-.community small, h3, span:nth-of-type(2) {
+aside p {
+  margin: 0;
+}
+
+.sat_obs p {
   text-transform: uppercase;
 }
 
-.community small {
-  text-align: end;
-  width: 286px;
-  height: 23px;
+.sat_obs {
   display: block;
+  padding-inline-start: calc(var(--image_width) + var(--image_gutter));
 }
 
-section > h2 > a {
-  text-transform: uppercase;
-}
-
-section > h2 ~ p > a {
-  color: #ec7e5f;
-}
-.observation {
+.satellite_observation {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
 }
+
+.sat_obs:nth-child(1) {
+  background-image: url(../images/bg_for_the-section.svg);
+  background-repeat: no-repeat;
+  padding-inline-end: 30px;
+}
+ .sat_obs:nth-last-of-type(1) {
+   background-image: url(../images/eye_image.svg);
+   background-repeat: no-repeat;
+ }
+
+ small {
+   display: block;
+   text-transform: uppercase;
+   text-align: end;
+   padding-inline-end: 118px;
+ }
+
+ section + section {
+   margin-block-start: 63px;
+ }
+
+ .text {
+   line-height: 22px;
+   font-size: 16px;
+   font-weight: normal;
+ }

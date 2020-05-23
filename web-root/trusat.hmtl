@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Learning Web-Page</title>
+  <!-- <link rel="stylesheet" href="css/index.css"> -->
+  <link rel="stylesheet" href="css/header.css">
+  <link rel="stylesheet" href="css/profile.css">
+  <link rel="stylesheet" href="css/nav.css">
+  <link rel="stylesheet" href="css/button.css">
+  <link rel="stylesheet" href="css/default.css">
+  <link rel="stylesheet" href="css/table.css">
+  <link rel="stylesheet" href="css/satellite_name.css">
+  <link rel="stylesheet" href="css/setup.css">
+</head>
+<body>
+  <header>
+    <h1>
+      catalog
+    </h1>
+    <div class="head">
+      <figure>
+        <svg width="793" height="141" viewBox="0 0 793 141" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M37.504 33.2206H0.838135V8.09457H102.486V33.2206H65.8203V137.002H37.504V33.2206Z" fill="white"/>
+          <path d="M142.238 8.09457H191.973C198.508 8.09457 204.712 8.72355 210.587 9.99806C216.461 11.2726 221.593 13.3912 226.015 16.3706C230.438 19.35 233.936 23.3556 236.543 28.3874C239.15 33.4192 240.454 39.709 240.454 47.2236C240.454 56.3273 238.094 64.0736 233.375 70.4462C228.656 76.8187 221.758 80.8574 212.682 82.5623L245.355 137.002H211.395L184.531 85.4754H170.555V137.002H142.238V8.09457ZM170.555 61.4418H187.254C189.795 61.4418 192.485 61.3591 195.323 61.177C198.161 60.9949 200.735 60.4487 203.046 59.5384C205.339 58.628 207.253 57.2045 208.755 55.2679C210.273 53.3313 211.032 50.6003 211.032 47.0747C211.032 43.7974 210.372 41.1821 209.036 39.2455C207.699 37.309 206.016 35.8193 203.953 34.793C201.891 33.7668 199.531 33.0716 196.874 32.6909C194.217 32.3102 191.61 32.1447 189.069 32.1447H170.555V61.4418Z" fill="white"/>
+          <path d="M393.634 87.2962C393.634 94.9432 392.479 101.978 390.186 108.417C387.892 114.855 384.476 120.433 379.938 125.167C375.401 129.901 369.741 133.609 362.959 136.274C356.177 138.939 348.371 140.279 339.543 140.279C330.583 140.279 322.728 138.939 315.946 136.274C309.164 133.609 303.504 129.901 298.966 125.167C294.429 120.433 291.013 114.855 288.719 108.417C286.425 101.978 285.27 94.9432 285.27 87.2962V8.09457H313.587V86.2037C313.587 90.2093 314.214 93.917 315.484 97.3102C316.755 100.703 318.537 103.65 320.847 106.149C323.141 108.632 325.897 110.585 329.098 111.975C332.299 113.366 335.781 114.077 339.527 114.077C343.273 114.077 346.721 113.382 349.873 111.975C353.025 110.585 355.731 108.632 358.041 106.149C360.335 103.666 362.117 100.72 363.404 97.3102C364.675 93.917 365.302 90.2093 365.302 86.2037V8.09457H393.618V87.2962H393.634Z" fill="white"/>
+          <path d="M508.716 39.5939C506.422 36.6807 503.303 34.529 499.376 33.1386C495.449 31.7482 491.719 31.0365 488.205 31.0365C486.142 31.0365 484.03 31.2848 481.852 31.7648C479.673 32.2448 477.611 33.0062 475.68 34.049C473.75 35.0752 472.165 36.449 470.961 38.1373C469.756 39.8422 469.146 41.9112 469.146 44.3278C469.146 48.2175 470.598 51.1803 473.502 53.2493C476.406 55.3183 480.07 57.0729 484.492 58.5294C488.914 59.986 493.65 61.4426 498.733 62.8992C503.815 64.3558 508.567 66.4248 512.973 69.0897C517.395 71.7545 521.042 75.3463 523.947 79.8319C526.851 84.3176 528.303 90.3259 528.303 97.8571C528.303 105.024 526.966 111.281 524.31 116.611C521.636 121.957 518.056 126.376 513.518 129.902C508.98 133.428 503.716 136.026 497.726 137.731C491.736 139.436 485.416 140.28 478.749 140.28C470.4 140.28 462.661 139.006 455.516 136.457C448.371 133.908 441.72 129.786 435.549 124.076L455.697 101.863C458.601 105.752 462.265 108.748 466.67 110.884C471.093 113.019 475.664 114.078 480.367 114.078C482.66 114.078 485.003 113.797 487.363 113.251C489.723 112.704 491.835 111.893 493.716 110.801C495.597 109.708 497.099 108.318 498.254 106.613C499.409 104.908 499.97 102.906 499.97 100.605C499.97 96.715 498.485 93.6529 495.515 91.4184C492.544 89.1673 488.832 87.2638 484.343 85.6914C479.855 84.1189 475.02 82.5299 469.822 80.9575C464.624 79.385 459.773 77.2498 455.301 74.5849C450.829 71.9201 447.1 68.3945 444.146 64.0247C441.176 59.655 439.691 53.8949 439.691 46.7278C439.691 39.8091 441.044 33.7345 443.767 28.5206C446.489 23.3067 450.12 18.9369 454.657 15.4113C459.195 11.8858 464.426 9.25398 470.367 7.49946C476.291 5.74495 482.396 4.85114 488.7 4.85114C495.96 4.85114 502.973 5.87736 509.755 7.94637C516.537 10.0154 522.643 13.4748 528.088 18.3245L508.716 39.5939Z" fill="white"/>
+          <path d="M728.018 33.2206H691.352V8.09457H793V33.2206H756.334V137.002H728.018V33.2206Z" fill="white"/>
+          <path d="M620.561 0L561.536 137.001L620.759 112.173L679.982 137.001L620.561 0ZM620.561 41.3801L646.996 103.467L620.759 91.1025L620.561 41.3801Z" fill="white"/>
+          </svg>
+      </figure>
+      <div class="my_profile">
+        <img src="../web-root/images/mask_group.svg" alt="markup image">
+        <a href="/">My Profile</a>
+      </div>
+      <div class="button">
+        <button><span>Submit observations</span></button>
+        <button><span>Downloads TLEs</span></button>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="/">catalog</a></li>
+          <li><a href="/">learning hub</a></li>
+          <li><a href="/">project board</a></li>
+          <li><a href="/">about</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section>
+      <nav>
+        <ul>
+          <li><a href="#">priorities</a></li>
+          <li><a class="nav_anchor" href="#">launches</a></li>
+          <li><a class="nav_anchor" href="#">undisclosed</a></li>
+          <li><a class="nav_anchor" href="#">debris</a></li>
+          <li><a class="nav_anchor" href="#">more</a></li>
+        </ul>
+      </nav>
+
+      <h2>
+        The satelites most in need of monitoring by the space susstainability community.
+      </h2>
+      <p>
+        This list is auto-generated. Open a satelite for details on when and where to see it.
+      </p>
+      <table class="first_table">
+        <thead>
+          <tr>
+            <th scope="row" id="object">object</th>
+            <th scope="row" id="origin">origin</th>
+            <th scope="row" id="purpose">purpose</th>
+            <th scope="row" id="confidence">confidence</th>
+            <th scope="row" id="last_seen_by">last seen by</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th class="satellite_name_2">
+              <span class="number blue">13243</span>
+              <span>cosmos 1372</span>
+            </th>
+            <td><span></span></td>
+            <td><span></span></td>
+            <td><span>TBD</span></td>
+            <td><span>SolarLyra</span></td>
+          </tr>
+          <tr class="blue_background">
+            <th class="satellite_name_2">
+              <span class="number blue">15333</span>
+              <span>cosmos 1603</span>
+            </th>
+            <td><span></span></td>
+            <td><span></span></td>
+            <td><span>TBD</span></td>
+            <td><span>SolarLyra</span></td>
+          </tr>
+          <tr>
+            <th class="satellite_name_2">
+              <span class="number blue">16864</span>
+              <span> sl-8 r/b</span>
+            </th>
+            <td>
+              <span></span>
+            </td>
+            <td>
+              <span></span>
+            </td>
+            <td>
+              <span>TBD</span>
+            </td>
+            <td>
+              <span>SolarLyra</span>
+            </td>
+          </tr>
+          <tr>
+            <th class="satellite_name_2">
+              <span class="number">43258</span>
+              <span>iriduim 143</span>
+            </th>
+            <td>
+              <span></span>
+            </td>
+            <td><span>
+              Communication satellites -<br>
+            satellites</span>
+            </td>
+            <td>
+              <span>TBD</span>
+            </td>
+            <td>
+              <span>SolarLyra</span>
+            </td>
+          </tr>
+          <tr>
+            <th class="satellite_name_2">
+              <span class="number">25268</span>
+              <span>iriduim 63</span>
+            </th>
+            <td>
+              <span></span>
+            </td>
+            <td><span>
+              Communication satellites</span>
+            </td>
+            <td>
+              <span>TBD</span>
+            </td>
+            <td>
+              <span>SolarLyra</span>
+            </td>
+          </tr>
+          <tr>
+            <th class="satellite_name_2">
+              <span class="number out_blue">43253</span>
+              <span> iriduim 145</span>
+            </th>
+            <td>
+              <span></span>
+            </td>
+            <td><span>Communication satellites </span>-<br>
+            satellites
+            </td>
+            <td>
+              <span>TBD</span>
+            </td>
+            <td>
+              <span>SolarLyra</span>
+            </td>
+          </tr>
+          <tr>
+            <th class="satellite_name_2">
+              <span class="number">36039</span>
+              <span> sl-19 r/b</span>
+            </th>
+            <td>
+              <span></span>
+            </td>
+            <td>
+              <span></span>
+            </td>
+            <td>
+              <span>TBD</span>
+            </td>
+            <td>
+              <span>SolarLyra</span>
+            </td>
+          </tr>
+          <tr>
+            <th class="satellite_name_2">
+              <span class="number blue">7015</span>
+              <span>delta 1 deb</span>
+            </th>
+            <td>
+              <span></span>
+            </td>
+            <td>
+              <span></span>
+            </td>
+            <td>
+              <span>TBD</span>
+            </td>
+            <td>
+              <span>SolarLyra</span>
+            </td>
+          </tr>
+          <tr>
+            <th class="satellite_name_2">
+              <span class="number blue">19905</span>
+              <span>cosmos 2011</span>
+            </th>
+            <td>
+              <span></span>
+            </td>
+            <td>
+              <span></span>
+            </td>
+            <td>
+              <span>TBD</span>
+            </td>
+            <td>
+              <span>SolarLyra</span>
+            </td>
+          </tr>
+          <tr>
+            <th class="satellite_name_2">
+              <span class="number">49143</span>
+              <span>yaogan 21</span>
+            </th>
+            <td>
+              <span></span>
+            </td>
+            <td>
+              <span>Weather & Earth Resources<br>
+              Resources, Active, satellites<br>
+              Aperture Radar(SAR) sensor</span>
+            </td>
+            <td>
+              <span>TBD</span>
+            </td>
+            <td>
+              <span>SolarLyra</span>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <aside>
+      <h2>
+        <a href="/">What is this?</a>
+      </h2>
+      <p class="text">
+        This catalog is an independent record of satelite behaior it provides orbit prediction to help spot satelites. submit your own observations to automatically update the catalog.
+        <a href="/">Learn more</a>
+      </p>
+      <div class="stats">
+        <h3>stats</h3>
+        <div class="satellite_observation">
+          <div class="sat_obs">
+            <span>4,282</span>
+            <p class="stats_paragraph">satellites</p>
+          </div>
+          <div class="sat_obs">
+            <span>134,811</span>
+            <p class="stats_paragraph">observations</p>
+          </div>
+        </div>
+      <div class="observation">
+        <h3>Recent observations</h3>
+      </div>
+      <table class="second_table">
+        <tbody>
+          <tr>
+            <th scope= "row">
+              <span class="satellite_name">satname-7</span>
+            </th>
+            <td>
+              username
+            </td>
+            <td>
+              <abbr title="1 day ago">1d</abbr>
+            </td>
+          </tr>
+          <tr>
+            <th scope= "row">
+              <span class="satellite_name">satname-7</span>
+            </th>
+            <td>
+              username
+            </td>
+            <td>
+               <abbr title="1 day ago">1d</abbr>
+            </td>
+          </tr>
+          <tr>
+            <th scope= "row">
+              <span class="satellite_name">satname-7</span>
+            </th>
+            <td>
+              username
+            </td>
+            <td>
+               <abbr title="2 days ago">2d</abbr>
+            </td>
+          </tr>
+          <tr>
+            <th scope= "row">
+              <span class="satellite_name">satname-7</span>
+            </th>
+            <td>
+              username
+            </td>
+            <td>
+               <abbr title="2 days ago">2d</abbr>
+            </td>
+          </tr>
+          <tr>
+            <th scope= "row">
+              <span class="satellite_name">satname-7</span>
+            </th>
+            <td>
+              username
+            </td>
+            <td>
+               <abbr title="2 days ago">2d</abbr>
+            </td>
+          </tr>
+          <tr>
+            <th scope= "row">
+              <span class="satellite_name">satname-7</span>
+            </th>
+            <td>
+              username
+            </td>
+            <td>
+              <abbr title="4 days ago">4d</abbr>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <div class="community">
+        <h3>community goal</h3>
+        <span>
+          2342
+        </span>
+        <p id="april_observation">observations in April</p>
+        <div class="rectanle"></div>
+        <small>
+          1-Month record:5203
+        </small>
+      </div>
+    </aside>
+  </main>
+
+  <footer>
+
+  </footer>
+</body>
+</html>
