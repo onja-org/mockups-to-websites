@@ -1,33 +1,22 @@
-/*Set the link inside the header*/
-body > header {
-  /*flex-wrap: wrap;
-  position: relative;*/
+/*body > header {
+  flex-wrap: wrap;
+  position: relative;
   justify-content: space-between;
   z-index: 3;
-}
+}*/
 
-header > nav > ul >li{
-  width: 120px;
-  height: 60px;  
-  left: 418px; 
-  top: 50px;
-  text-decoration: none;
-}
-
-/*header > nav > ul > li > a{
+header > nav > ul > li a{
   text-decoration: none;
   margin-right: 65px;
-  margin-top: 65px;
+  margin-top: 50px;
   margin-right: 40px;
   margin-left: 40px;
-}*/
+}
 
 .link{
   color: midnightblue;
-  width: 210px;
-  height: 60px;
-  left: 1150px;
-  top: 50px;
+  box-sizing: border-box;
+  margin-left: 418px;
   background-color: whitesmoke;
   font-weight: bold;
   border-radius: 3rem;

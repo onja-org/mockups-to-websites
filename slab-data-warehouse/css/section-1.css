@@ -1,53 +1,46 @@
-header > h1 {
+body > main > header h1 {
   width: 645px;
   height: 184px;
-  left: 240px;
   font-size: 50px;
   font-style: normal;
   font-family:black han sans;
-  display: flex;
   line-height: normal;
 }
 
-.section_1 p {
+body > main > header p:nth-of-type(1) {
   width: 380px;
   height: 120px;
-  margin-left: -6px;
-  margin-top: -50px;
   color: darkblue;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-.section_1 > header {
+body > main > header {
   background-image: url(../images/image-1-1.png);
-  background-position: 90% 40%;
+  background-position: 70% 30%;
   background-repeat: no-repeat;
+  margin-top: 50px;
+  margin-left: 240px;
+  margin-right: 112px;
   width: 1248px;
   height: 754px;
-  margin-left: 240px;
-  margin-top: 50px;
-  margin-right: 112px;
-  /*width: 1542px;
-  height: 550px;
-  left: 500px;
-  top: 400px;*/
-  box-sizing: border-box;
 }
 
-p:nth-of-type(2) a {
-  background-color: purple;
-  width: 100%;
-  height: 60%; 
-  left: 240px;
-  top: 644px;
-  border-radius: 2rem;
-}
+/*.section_1 {
+  margin-top: 336px;
+  margin-left: 603px;
+}*/
 
 .button-link {
+  background-color: rgb(197, 133, 197);
+  width: 15%;
+  height: 15%; 
+  display: inline-block;
   text-decoration: none;
   font-weight: bold;
   border-radius: 2rem;
-  line-height: 3;
+  line-height: 4;
   color: white;
   text-align: center;
-  line-height: 3;
+  box-sizing: border-box;
+  /*margin-top: 50px;*/
 }

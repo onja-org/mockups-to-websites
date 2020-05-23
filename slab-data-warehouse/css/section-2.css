@@ -1,40 +1,41 @@
-.section_2 > header {
+#about {
   background-image: url(../images/image-2.png);
   width: 477px;
   height: 504px;
   left: 251px;  
   margin-top: -99px;
   background-position: 0 100%;
+  background-repeat: no-repeat;
 }
 
-.section_2{
+#about{
   background-color: rgba(240, 99, 184, 0.15);
   border-radius: 10%;
-  width: 1117px;
-  height: 560px;
-  margin-left: 60px;
-  margin-right: 50px;
-  margin-top: 125px;
+  width: 970px;
+  height: 500px;
+  margin-left: 240px;
+  margin-right: 243px;
+  margin-top: -150px;
   margin-bottom: 125px;
 }
 
-.section_2 h2 {
+#about h2 {
   width: 475px;
   height: 100px;
   margin-left: 500px;
-  margin-top: 0;
+  margin-top: 100px;
   font-family: Helvetica;
   position: absolute;
 }
 
-.section_2 p {
+#about p {
+  position: absolute;
   width: 400px;
   height: 300px;
   margin-left: 500px;
-  margin-top: 100px;
-  position: absolute;
+  margin-top: 200px;
   font-family: Helvetica, sans-serif;
   font-size: medium;
-  font-weight: 200;
 }
+
 

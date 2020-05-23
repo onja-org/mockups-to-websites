@@ -12,6 +12,9 @@ header > nav ul {
 
 header > nav a {
     font-size: 1rem;
+    margin-top: 50px;
+    margin-left: 240px;
+    margin-right: 240px;
   }
 
 nav ul li {
