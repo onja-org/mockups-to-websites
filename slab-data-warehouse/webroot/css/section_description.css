@@ -1,13 +1,39 @@
 #section_description {
-  max-width: 1140px;
+  height: 500px;
   margin-inline-end: auto;
   margin-inline-start: auto;
+  background: rgba(240, 99, 184, 0.15);
+  border-radius: 50px;
+  position: relative;
+  margin-block-start: 99.18px;
+  margin-block-end: 174px;
 }
 #section_description header h2  {
   display: flex;
   float: right;
-  max-width: 500px;
+  width: 516px;
   font-size: 40px;
   color: #212352;
   align-items: center;
+  padding-inline-end: 92px;
+  padding-block-start: 100px;
+  margin-block-start: 0;
+  margin-block-end: 0;
 }
+#section_description::before {
+  content: "";
+  background-image: url('../images/description.svg');
+  width: 477px;
+  height: 504px;
+  position: absolute;
+}
+#section_description p {
+  display: flex;
+  float: right;
+  margin-inline-start: 421px;
+  margin-inline-end: 93px;
+  padding-inline-start: 112px;
+  padding-block-start: 40px;
+  line-height: 29px;
+}
+
