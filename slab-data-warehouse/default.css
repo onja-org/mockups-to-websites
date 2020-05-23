@@ -1,11 +1,7 @@
-body {
-  background: rgb(220, 237, 238);
-  position: relative;
+/* body {
+  background: rgb(255, 255, 255);
 }
 
-section:nth-of-type(5) {
-  overflow: hidden;
-}
 
 #empty {
   width: 1520px;
@@ -14,4 +10,4 @@ section:nth-of-type(5) {
   margin-block-start: 5rem;
   border: 1px solid rgb(76, 0, 139);
   background-color: darkmagenta;
-}
+} */

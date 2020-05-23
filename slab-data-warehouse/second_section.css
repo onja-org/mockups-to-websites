@@ -1,28 +1,24 @@
 #second_section {
   background-image: url(../slab-data-warehouse/images/image2.svg);
   background-repeat: no-repeat;
-  background-color: rgb(255, 217, 223, 0.3);
+  background-color: rgb(255, 217, 223);
   border-radius: 50px;
-  height: 30rem;
-  position: relative;
-  margin-inline-start: 8rem;
+  max-width: 1200px;
+  margin-left: auto;
 }
 
 #second_section > h2 {
-  position: absolute;
-  top: 5rem;
-  left: 35rem;
-  width: 500px;
+  max-width: 500px;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 800;
   font-size: 30px;
   line-height: 130%;
+  padding-top: 125px;
+  padding-inline-start: 550px;
+  padding-right: 92px;
 }
 
 #second_section > p {
-  position: absolute;
-  top: 12rem;
-  left: 35rem;
   width: 455px;
   height: 170px;
   font-family: Arial, Helvetica, sans-serif;
@@ -30,4 +26,7 @@
   font-weight: 500;
   font-size: 18px;
   line-height: 160%;
+  padding-inline-start: 550px;
+  padding-right: 92px;
+  padding-bottom: 125px;
 }

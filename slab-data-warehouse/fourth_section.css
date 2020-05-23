@@ -1,7 +1,7 @@
 #fourth_section {
   position: relative;
-  margin-inline-start: 8rem;
-  overflow: hidden;
+  max-width: 1200px;
+  margin-left: auto;
 }
 
 #fourth_section ul {
