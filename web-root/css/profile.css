@@ -1,9 +1,7 @@
 .my_profile {
   position: absolute;
-  top: 10px;
-  left: 1222px;
-  width: 122px;
-  height: 27px;
+  top: 26px;
+  right: 22px;
   text-transform: uppercase;
 }
 
@@ -11,12 +9,11 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  width: 130px;
   line-height: 27px;
-  margin-inline-end: 4px;
 }
 
 .my_profile > a {
-  vertical-align: bottom;
   text-decoration: none;
+  padding-inline-start: 5px;
+  margin: 0;
 }
