@@ -13,6 +13,7 @@ footer {
   background-repeat: no-repeat;
   background-position: 64% 85%, 0% 35%;
   background-size: 60px 60px, 60px 40px;
+  flex-wrap: wrap;
 }
 footer header {
   display: flex;

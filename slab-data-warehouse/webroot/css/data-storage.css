@@ -15,6 +15,7 @@
   background-size:  700px 390px,
                     25px 30px,
                     25px 50px;
+  flex-wrap: wrap;
 }
 
 .section-1 header {
@@ -39,6 +40,7 @@
   display: inline-flex;
   align-items: flex-start;
   justify-content: flex-start;
+  flex-wrap: wrap;
   margin-block-start: -10rem;
   margin-inline-end: 2rem;
 }

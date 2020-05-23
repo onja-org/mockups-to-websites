@@ -11,12 +11,14 @@
   margin-block-end: calc(var(--margin) + 30px);
   margin-inline-start: auto;
   margin-inline-end: auto;
+  flex-wrap: wrap;
 }
 
 .section-3 ul {
   display: grid;
   grid-template-columns: repeat(2, 550px);
   column-gap: 50px;
+  flex-wrap: wrap;
 }
 
 .feature {
@@ -31,6 +33,7 @@
   position: relative;
   margin: calc(var(--margin) - 18px);
   margin-top: 0px;
+  flex-wrap: wrap;
 }
 
 .feature::before {

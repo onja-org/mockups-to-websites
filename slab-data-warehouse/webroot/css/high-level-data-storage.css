@@ -13,6 +13,7 @@
   background-size: -95px 500px;
   background-color: rgba(240, 99, 184, 0.15);
   border-radius: 50px;
+  flex-wrap: wrap;
 }
 
 .section-2 header {
