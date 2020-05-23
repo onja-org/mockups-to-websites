@@ -1,0 +1,44 @@
+.contacts {
+  width: 400px;
+  height: 900px;
+  position: relative;
+}
+
+h1 {
+  font-size: 12px;
+}
+
+.big-d {
+  width: 400px;
+  height: 900px;
+  background-color: rgb(111, 18, 231);
+}
+
+.big-d > div {
+  font-size: 42px;
+  font-weight: 900;
+  font-family: 'Forte';
+  color: darkblue;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background-color: rgb(197, 242, 101);
+}
+
+.big-d > div > p {
+  text-align: center;
+  padding-block-start: 10px;
+}
+
+.box {
+  height: 600px;
+  background-color: rgb(217, 210, 226);
+  text-align: center;
+  padding-block-start: 7rem;
+}
+
+.box > .head {
+  font-size: 32px;
+  color: rgb(45, 12, 87);
+  margin: 0;
+}
