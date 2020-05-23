@@ -7,7 +7,7 @@
 #first_section {
   background-image: url(../slab-data-warehouse/images/first_section.svg);
   background-repeat: no-repeat;
-  background-size: 60%;
+  background-size: calc(var(--height) * 6%);
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   background-position: right bottom;
   max-width: calc(var(--width) * 75);
@@ -20,7 +20,7 @@
   height: calc(var(--width) * 11.5);
   font-weight: calc(var(--height) * 80);
   font-size: calc(var(--width) * 5.625);
-  line-height: 100%;
+  line-height: calc(var(--height) * 10%);
   color: #212353;
   padding-bottom: calc(var(--width) * 3.125);
 }
@@ -30,7 +30,7 @@
   height: calc(var(--width) * 7.5);
   font-family: Arial, Helvetica, sans-serif;
   font-size: calc(var(--width) * 1.125);
-  line-height: 160%;
+  line-height: calc(var(--height) * 16%);
   color: #4B5D68;
   padding-bottom: calc(var(--width) * 3.125);
 }
