@@ -30,12 +30,13 @@ section:nth-of-type(3) td:first-of-type {
   width: 143px;
   line-height: 125%;
   height: 30px;
+  transform: translateY(4%);
 }
 
 section:nth-of-type(3) td:nth-of-type(2) {
 width: 143px;
 text-align: right;
-margin-inline-end: 10px;
+margin-inline-end: 4%;
 }
 
 section:last-of-type td {
@@ -85,12 +86,6 @@ section:last-of-type td {
   margin-right: 9px;
 }
 
-form {
-  position: relative;
-  top: 70px;
-  line-height: 40px;
-}
-
 button {
   width: 143px;
   height: 30px;
@@ -107,15 +102,14 @@ form ul {
   grid-column-gap: 15px;
 }
 
-footer {
-  position: relative;
-  right: -190px;
-  top: -50px;
-  display: grid;
+aside {
+  display: flex;
+  flex-direction: column;
+  transform: translate(100%, 4.5%);
   width: 299px;
 }
 
-footer h2 {
+aside h2 {
   text-transform: uppercase;
   font-size: 20px;
   line-height: 40px;
@@ -127,6 +121,7 @@ footer h2 {
   font-size: 24px;
   line-height: 28px;
   color: #EC7E5F;
+  margin-right: 10px;
 }
 
 .c-goal {
@@ -137,15 +132,76 @@ footer h2 {
 
 .c-goal:nth-of-type(2){
   text-align: end;
+  margin-right: 1rem;
 }
 
 .c-goal:nth-of-type(2) b {
   color: white;
-font-weight: normal;
+  font-weight: normal;
 }
 
-h2,
+aside h2,
 table,
-p {
+#explanation,
+form,
+.stat {
   width: 300px;
+}
+
+.stat,
+.c-goal {
+  font-family: Roboto, Arial, Helvetica, sans-serif;
+}
+
+.stat {
+  font-weight: 300;
+  display: flex;
+  justify-content: space-between;
+}
+
+.stat p {
+  color: #848890;
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: normal;
+  display: flex;
+  flex-direction: column;
+}
+
+.stat p {
+  text-align: start;
+}
+
+
+.stat b {
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 300;
+  color: #FFFFFF;
+}
+
+.stat > div {
+  display: flex;
+}
+
+.stat img {
+  position: relative;
+  margin-right: 10px;
+}
+img[alt="satellite"] {
+  top: 22%;
+  width: 37px;
+  height: 38px;
+}
+
+img[alt="eye"] {
+  top: 30%;
+  width: 43px;
+  height: 32px;
+}
+
+#white-border {
+  border-top: #FFFFFF 1px solid;
+  transform: rotate(90deg) translate(56px, -245px);
+  width: 111px;
 }

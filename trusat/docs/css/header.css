@@ -6,8 +6,11 @@ h1 {
   margin-block-start: 57.5px;
 }
 
-body > header > img {
-  margin-top: 19.20px;
-  position: relative;
-  left: -25px;
+img[alt="t"],
+img[alt="r"],
+img[alt="u"],
+img[alt="s"],
+img[alt="a"],
+img[alt="t"] {
+  transform: translate(100%, 100%);
 }

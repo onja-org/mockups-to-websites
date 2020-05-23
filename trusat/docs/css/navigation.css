@@ -3,6 +3,10 @@ nav a {
   text-transform: uppercase;
 }
 
+.main-nav{
+  transform: translate(55%, -100%)
+}
+
 .main-nav li > a {
   color: white;
   font-size: 12px;
@@ -14,8 +18,12 @@ nav a {
   padding: 0;
   display: flex;
   position: relative;
-  right: 355px;
-  justify-content: space-between;
+  /*transform: translate(28%, -150%);*/
+  /*justify-content: space-between;*/
+}
+
+.main-nav li {
+padding-left: 3%;
 }
 
 #profile{
