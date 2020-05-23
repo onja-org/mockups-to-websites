@@ -1,6 +1,11 @@
 body {
   background-color: rgba(220, 220, 248, 0.2);
-  overflow-x: hidden;
+
+}
+
+main {
+  max-width: 1200px;
+  margin: auto;
 }
 
 .data-storage p{
@@ -8,21 +13,18 @@ body {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   font-weight: 500;
   line-height: 25px;
-  width: 370px;
-  margin: 0;
+  padding-inline-end: 730px;
   padding-block-end: 66px;
 }
 
 .data-storage-bank p {
   margin: 0;
   font-family: 'Avenir',Arial, Helvetica, sans-serif;
-  width: 474px;
-  height: 170px;
   padding-inline-start: 300px;
   font-weight: 500;
   line-height: 28px;
   font-size: 18px;
-  padding-inline-start: 400px;
+  padding-inline-start: 495px;
 }
 
 .features > p {
