@@ -1,9 +1,3 @@
-:root {
-  --width: 16px;
-  --margin: 16px;
-  --height: 10;
-}
-
 #first_section {
   background-image: url(../slab-data-warehouse/images/first_section.svg);
   background-repeat: no-repeat;
@@ -12,6 +6,7 @@
   background-position: right bottom;
   max-width: calc(var(--width) * 75);
   margin-inline-start: auto;
+  margin-inline-end: auto;
   margin-bottom: calc(var(--margin) * 10);
 }
 

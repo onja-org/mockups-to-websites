@@ -1,10 +1,3 @@
-:root {
-  --width: 16px;
-  --margin: 16px;
-  --height: 10;
-}
-
-
 #second_section {
   background-image: url(../slab-data-warehouse/images/image2.svg);
   background-repeat: no-repeat;
@@ -12,6 +5,7 @@
   border-radius: calc(var(--width) * 3.125);
   max-width: calc(var(--width) * 75);
   margin-left: auto;
+  margin-right: auto;
   margin-block-end: calc(var(--width) * 10);
 }
 

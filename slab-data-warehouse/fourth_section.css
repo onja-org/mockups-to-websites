@@ -2,6 +2,8 @@
   position: relative;
   max-width: 1200px;
   margin-left: auto;
+  margin-bottom: 225px;
+  overflow: hidden;
 }
 
 #fourth_section ul {
@@ -25,12 +27,16 @@
   font-size: 2rem;
   color: white;
   position: absolute;
-  top: 1rem;
-  left: 4rem;
+  top: 109px;
+  left: 93px;
 }
 
 #fourth_section  ul h4, #fourth_section  ul nav, #fourth_section  ul p {
   margin-inline-start: 8rem;
+}
+
+#fourth_section > ul {
+  padding-block-start: 249px;
 }
 
 #fourth_section > ul > li:first-of-type {
@@ -41,8 +47,9 @@
   padding: 1rem;
   border: 1px solid #9C69E2;
   box-shadow: 2rem 2rem 2rem rgba(152, 103, 219, 0.5);
-  margin: 1rem;
+  margin-inline-start: 93px;
   position: relative;
+  box-shadow: 0px 20px 0px rgba(54, 2, 126, 0.316);
 }
 
 #fourth_section > ul > li:first-of-type::before {
@@ -67,6 +74,7 @@
   padding: 1rem;
   margin: 1rem;
   position: relative;
+  box-shadow: 0px 20px 0px rgba(54, 2, 126, 0.316);
 }
 
 #fourth_section > ul > li:nth-of-type(2)::before {
@@ -92,6 +100,7 @@
   margin: 1rem;
   overflow: hidden;
   position: relative;
+  box-shadow: 0px 20px 0px rgba(54, 2, 126, 0.316);
 }
 
 #fourth_section > ul > li:last-of-type::before {
