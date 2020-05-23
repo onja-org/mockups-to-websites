@@ -10,7 +10,6 @@
   letter-spacing: 0.05em;
   text-transform: uppercase;
   color: #FFFFFF;
-  padding-inline-start: 8px;
 }
 
 
@@ -20,8 +19,6 @@ aside p {
   font-weight: normal;
   font-size: 16px;
   line-height: 22px;
-  width: 299px;
-  height: 119px;
   color: #FFFFFF;
   opacity: 0.5;
 }
@@ -35,9 +32,7 @@ aside p {
   color: #EC7E5F;
 
 }
-.sections_aside {
-  padding-block-start: 55px;
-}
+
 aside h4 {
   border-bottom: 1px solid grey;
   font-size: 20px;
@@ -49,7 +44,7 @@ aside h4 {
   list-style: none;
   display: flex;
   justify-content: space-evenly;
-  padding-inline-start: 7rem;
+  padding: 0;
 }
 #unique ul > li {
   font-weight: bold;
@@ -64,10 +59,20 @@ aside h4 {
 #unique ul li:nth-of-type(3){
   margin-inline-start: 2rem;
 }
-/* width: 300px;
+
+
+#last_div ul {
+  width: 300px;
   height: 84px;
   padding: 0;
-  border: 1px solid;
 }
-.three ul:nth-of-type(2) > li:nth-of-type(3) {
-  padding-inline-start: 10rem; */
+#last_div ul li {
+  list-style: none;
+  text-transform: uppercase;
+  color: gray;
+  line-height: 2rem;
+  font-weight: bold;
+}
+aside div:nth-of-type(2) {
+  padding-block-start: 50px;
+}

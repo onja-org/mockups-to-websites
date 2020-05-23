@@ -1,12 +1,12 @@
 html {
-    background-color: #333;
+  background-color: #333;
 }
 body {
-    margin-block-start: 30px;
-    margin-block-end: 20px;
-    margin-inline-start: 45px;
-    margin-inline-end: 45px;
-    max-width: 945px;
+  margin-block-start: 30px;
+  margin-block-end: 20px;
+  margin-inline-start: 45px;
+  margin-inline-end: 45px;
+  max-width: 945px;
 }
 
 main {
@@ -16,6 +16,6 @@ main {
 
 }
 aside {
- width: 35%;
- margin-inline-start:15%;
+  width: 60%;
+  margin-inline-start:15%;
 }

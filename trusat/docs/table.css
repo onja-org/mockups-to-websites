@@ -1,17 +1,3 @@
-
-#header_object {
- width: 293px;
-}
-
-#header_origin +
-#purpose {
-  width: 242px;
-}
-#seen,
-#confidence {
-  width: 272px;
-}
-
 .first_thead {
   font-family: Proxima Nova;
   font-style: normal;
@@ -40,6 +26,14 @@
 main table td {
   color: #fff;
 }
-.small_spans {
-
+aside table td:nth-of-type(2) {
+  text-transform: uppercase;
+  display: flex;
+  flex-wrap: nowrap;
+}
+aside table td:nth-of-type(3) {
+  padding-inline-start: 6rem;
+}
+aside table td:nth-of-type(4) {
+  padding-inline-start: 2rem;
 }
