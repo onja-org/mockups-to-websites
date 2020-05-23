@@ -3,7 +3,7 @@ section:nth-of-type(1) > button:nth-of-type(1) {
   color: #FFFFFF;
   border: 1px solid rgb(86, 86, 173);
   border-radius: 4px;
-  margin-left: 60rem;
+  margin-left: 61rem;
   width: 9rem;
   height: 2rem;
   display: inline;
@@ -15,7 +15,7 @@ section:nth-of-type(1) > button:nth-of-type(2) {
   color: #FFFFFF;
   border: 1px solid rgb(86, 86, 173);
   border-radius: 4px;
-  margin-left: 70rem;
+  margin-left: 71rem;
   width: 9rem;
   height: 2rem;
   display: inline;
