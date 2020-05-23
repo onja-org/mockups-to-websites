@@ -1,15 +1,20 @@
 /* this css is only dedicated for the container-1 class and its contents in html document*/
 body > header  h1 {
+margin-inline-start: 2rem;
+}
+
+body > header  h2 {
   font-family: 'Segoe UI', sans-serif;
   font-style: normal;
   font-weight: bold;
+  text-transform: uppercase;
   font-size: 40px;
   line-height: 49px;
   letter-spacing: 0.05em;
   color: #FC7756;
-  margin-block-start: 5rem;
-  margin-inline-start: 100px;
-
+  margin-block-start: 4rem;
+  margin-inline-start: -13rem;
+  transform: translatey(100%);
 }
 
 body > header nav li{
@@ -21,9 +26,26 @@ body > header nav li{
   letter-spacing: 0.05em;
   text-transform: uppercase;
 }
+
+body > header {
+  display: grid;
+  grid-template-columns: 266px 298px;
+  column-gap: 2rem;
+}
+
+header > nav ul {
+  list-style: none;
+  display: grid;
+  grid-template-columns:123px 183px 175px 185px;
+}
+
+header > nav ul li:not(:last-of-type) {
+  transform: translate(338px, -125px);
+}
+
 /*Taking the last li from its siblings to the right*/
 body > header nav li:last-of-type {
-  transform: translate(55rem, -1rem);
+  transform: translate(67rem, -9rem);
 }
 
 body > header nav > ul {
@@ -62,7 +84,6 @@ body > header nav li:last-of-type::before {
   .pages nav li:first-of-type {
     font-weight: bold;
     opacity: 1;
-
   }
 
   .text p:first-of-type {
@@ -77,23 +98,13 @@ body > header nav li:last-of-type::before {
     line-height: 22px;
   }
 
-  body > header {
-    display: grid;
-    grid-template-columns: 266px 298px;
-    column-gap: 2rem;
-  }
 
-  header > nav ul {
-    list-style: none;
-    display: grid;
-    grid-template-columns:123px 183px 175px 185px;
-
-  }
 /* here we make the table's style ===(headache) */
   table {
     color: #FFFFFF;
     opacity: 0.5;
     border-collapse: collapse;
+    counter-reset: tr;
   }
 
   table tr {
@@ -126,18 +137,21 @@ body > header nav li:last-of-type::before {
     display: block;
     content: "";
     background-image: url(../docs/blue-object-icon.svg);
+   
     background-repeat: no-repeat;
     width: 56.56px;
     height: 65px;
   }
-  tbody {
 
-  }
-
+  table th[headers="header_object"] span::before {
+  counter-increment: tr;
+  content: counter(tr) " ";
+ }
   table th[headers="header_object"]::before {
     display: block;
-    content: counter(tr) " ";
+    content: " ";
     background-image: url(../docs/red-object-icon.svg);
+    background-size: contain;
     background-repeat: no-repeat;
     width: 56.56px;
     height: 65px;
@@ -149,7 +163,7 @@ body > header nav li:last-of-type::before {
     position: absolute;
     line-height: 1.5;
     margin-block-start: -2.75rem;
-    margin-inline-start: -7.2rem;
+    margin-inline-start: -8.5rem;
     word-spacing: 8px;
   }
 
