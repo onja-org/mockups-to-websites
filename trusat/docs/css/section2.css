@@ -4,15 +4,62 @@
   padding: 0;
   bottom: 0;
   position: absolute;
+  top: 8rem;
+  height: 15rem;
+  left: 4.1rem;
+}
+#second-section > .stats {
+  display: flex;
+  width: 20rem;
+  padding: 0;
+  bottom: 0;
+  position: absolute;
+  top: 24.7rem;
+  height: 15rem;
+  left: 4.1rem;
+}
+.stats p:nth-of-type(2) {
+  left: 14rem;
+}
+.stats .sat-stats {
+  left: 3rem;
+  position: absolute;
+  top: 33px;
+  font-family: Roboto;
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #848890;
+
+}
+.stats .observations {
+
+  font-family: Roboto;
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #848890;
+}
+#second-section > .goal {
+  display: flex;
+  width: 20rem;
+  padding: 0;
+  bottom: 0;
+  position: absolute;
+  top: 60rem;
+  height: 15rem;
+  left: 4.1rem;
 }
 
 h3 {
+  display: flex;
+  position: absolute;
+  width: 20rem;
   font-style: normal;
   font-weight: bold;
   font-size: 20px;
   line-height: 24px;
   letter-spacing: 0.05em;
   text-transform: uppercase;
+  border-bottom: 1px rgb(199, 196, 196) solid;
 }
 
 #second-section {
@@ -22,13 +69,16 @@ h3 {
   height: 66rem;
   width: 26rem;
 }
+#second-section p {
+  position: absolute;
+    top: 3rem;
+}
 
-
-#second-section > div {
+#second-section > .satellites {
   position: absolute;
   width: 210px;
   height: 84px;
   left: 66px;
-  top: 83.2rem;
+  top: 66.2rem;
   background: #EC7E5F;
 }

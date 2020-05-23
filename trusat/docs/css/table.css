@@ -9,9 +9,9 @@
   text-transform: uppercase;
 }
 
-table {
+.table-satname {
   padding-left: 4rem;
-  padding-top: 1rem;
+  padding-top: 13rem;
   text-align: left;
 }
 #first-table {
@@ -19,6 +19,9 @@ table {
   height: 860px;
   width: 879px;
   padding-left: 3.5rem;
+  padding-left: 4rem;
+  padding-top: 1rem;
+  text-align: left;
 }
 
 /*Tables in the second section are meant to be here*/
