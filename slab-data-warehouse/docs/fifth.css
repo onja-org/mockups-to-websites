@@ -58,7 +58,8 @@ section:nth-of-type(4) div.jeny{
 
 }
 section:nth-of-type(4) div.jeny p{
-  opacity: 0.5;
+
+  background: linear-gradient(0.25turn, #F8F8FF, #FFFF, #F5F5F5, );
 }
 
 section:nth-of-type(4) div.william{
@@ -72,6 +73,10 @@ border: solid 2px plum;
 margin-left: -112px;
 box-shadow:10px 20px 10px rgba(75, 70, 77, 0.363);
 
+}
+section:nth-of-type(4) div a{
+  text-decoration: none;
+  color: rgb(153, 17, 153);
 }
 section:nth-of-type(4) div.william p{
   opacity: 0.5;
