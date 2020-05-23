@@ -1,22 +1,38 @@
 .part-2 {
+  background-image: url('../images/image2.png');
+  background-position: left;
+  background-repeat: no-repeat;
   background-color: pink;
-  width: 1117px;
+  width: 980px;
   height: 560px;
   border-radius: 36px;
+  margin-inline-start: 174px;
+  margin-block-start: 131px;
+  margin-block-end: 172px;
 }
 
-.part-2 > h3 {
-  margin-left: 550px;
+
+.part-2 > p:first-child {
   font-family: helvetica;
   font-style: normal;
   font-weight: bold;
-}
-
-.part-2 > figure {
-  float: left;
+  font-size: 25px;
+  width: 280px;
+  padding-block-start: 128px;
 }
 
 .part-2 > p {
-  margin-block-start: 265px;
-  margin-right: 93px;
+  font-family: 'Avenir', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  width: 343px;
 }
+
+.part-2 > p {
+  width: 343px;
+  height: 170px;
+  margin-inline-start: 550px;
+  margin-block-start: -40px;
+  line-height: 1.75;
+}
+
