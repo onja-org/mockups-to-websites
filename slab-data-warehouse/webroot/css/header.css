@@ -2,6 +2,34 @@
   --padding-unit: 2rem;
 }
 
+/* header nav ul:first-of-type {
+  position: relative;
+}
+
+body > header nav > ul:first-of-type li:first-of-type {
+  padding: 0;
+  position: absolute;
+  background: #9C69E2;
+  background-size: 40%;
+  border-radius: 50px;
+  width: 20px;
+  height: 20px;
+  top: 3rem;
+  left: -2rem;
+}
+
+body > header nav > ul:first-of-type li:nth-of-type(2) {
+  padding: 0;
+  position: absolute;
+  background: #F063B8;
+  background-size: 40%;
+  border-radius: 20px;
+  width: 20px;
+  height: 45px;
+  top: 1.5rem;
+  left: -1rem;
+} */
+
 body header {
   margin: 0;
 }
