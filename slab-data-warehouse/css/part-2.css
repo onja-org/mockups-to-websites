@@ -3,10 +3,10 @@
   background-position: left;
   background-repeat: no-repeat;
   background-color: pink;
-  width: 980px;
-  height: 560px;
+  width: auto;
+  height: auto;
   border-radius: 36px;
-  margin-inline-start: 174px;
+  margin-inline-start: auto;
   margin-block-start: 131px;
   margin-block-end: 172px;
 }
@@ -17,8 +17,9 @@
   font-style: normal;
   font-weight: bold;
   font-size: 25px;
-  width: 280px;
-  padding-block-start: 128px;
+  padding-inline-start: auto;
+  padding-block-start: 135px;
+  padding-block-end: 10px;
 }
 
 .part-2 > p {
@@ -29,10 +30,10 @@
 }
 
 .part-2 > p {
-  width: 343px;
-  height: 170px;
-  margin-inline-start: 550px;
-  margin-block-start: -40px;
+  margin-inline-start: auto;
+  padding-inline-end: 93px;
+  margin-block-start: 40px;
+  padding-block-end: 125px;
   line-height: 1.75;
 }
 

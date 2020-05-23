@@ -1,0 +1,119 @@
+.features {
+  list-style: none;
+  margin-block-start: 40px;
+  margin-block-end: 33px;
+  margin-inline-start: 102px;
+  margin-inline-end: 50px;
+  position: relative;
+  font-size: 16px;
+  border-radius: 30px;
+}
+
+
+section ul {
+  display: grid;
+  grid-template-columns: repeat(2, 400px);
+  column-gap: 400px;
+  list-style: none;
+}
+
+
+section.features h3 {
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  color: #212353;
+  text-align: center;
+}
+
+
+section.features p {
+  line-height: 1.75;
+  font-family: 'Avenir', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  color: #4B5D68;
+  width: 220px;
+  height: 160px;
+}
+
+section.features h4, p {
+  margin-inline-start: 172px;
+}
+
+.features::before {
+  content: "";
+  display: block;
+  width: 245px;
+  height: 211px;
+  left: -120px;
+  top: 50%;
+  transform: translateY(-50%);
+  background-image: url('../images/image3.png');
+}
+
+#features_search-data {
+  /*background-image: url('../images/image3.png');*/
+  background-repeat: no-repeat;
+}
+
+#features_access {
+  background-image: url('../images/image4.png');
+  background-repeat: no-repeat;
+}
+
+#features_print-out {
+  background-image: url('../images/image5.png');
+  background-repeat: no-repeat;
+}
+
+#features_security {
+  background-image: url('../images/image6.png');
+  background-repeat: no-repeat;
+
+}
+
+.feature {
+  border-radius: 40px;
+  margin-block-start: 50px;
+}
+
+ #features_search-data {
+  background-color: rgba(104, 204, 186, 10%);
+}
+
+
+ #features_access {
+  background-color: rgba(156, 105, 226, 10%);
+}
+
+ #features_print-out {
+  background-color: rgba(204, 99, 184, 10%);
+}
+
+
+ #features_security {
+  background-color: rgba(45, 156, 219, 10%);
+}
+
+ ul h4 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  margin-block-start: 49px;
+}
+
+
+.features.more-link {
+  height: 26px;
+  margin-block-start: 20px;
+}
+
+.more-link a {
+  color: grey ;
+  font-weight: 700;
+  text-decoration: none;
+}

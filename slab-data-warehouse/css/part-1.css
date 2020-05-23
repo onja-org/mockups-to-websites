@@ -3,7 +3,7 @@
   background-repeat: no-repeat;
   background-size: 700px;
   background-position: right 20% top 100%;
-  margin-inline-start: 186px;
+  margin-inline-start: initial;
 }
 
 .part-1 > p {
@@ -11,7 +11,12 @@
   height: 120px;
   margin-block-start: 30px;
   margin-inline-start: 0;
-}
+  font-family: 'Avenir', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  }
+
 
 .part-1 > p:last-of-type {
   background-color: purple;
@@ -24,7 +29,8 @@
 .part-1 > p:last-of-type a {
   text-decoration: none;
   color: white;
-  margin-left: 37px;
-  margin-right: 37px;
-  margin-bottom: 15px;
+  margin-inline-start: 37px;
+  margin-inline-end: 37px;
+  margin-block-end: 15px;
+  font-size: 14px;
 }
