@@ -1,0 +1,24 @@
+article > p {
+  width: 710px;
+  height: 61px;
+  font-family: Montserrat;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  opacity: 0.8;
+  margin-inline-start: 3.5rem;
+  margin-block-start: 10px;
+  margin-block-end: 10px;
+}
+
+article > small {
+  width: 755px;
+  height: 38px;
+  left: 5%;
+  top: 314px;
+  font-family: Montserrat;
+  font-size: 16px;
+  line-height: 22px;
+  opacity: 0.5;
+  margin-inline-start: 3.5rem;
+}

@@ -1,5 +1,4 @@
-/* Default decoration of the table in this section
-.two > table {
+.table > table {
   display: table;
   width: 710px;
   height: 898px;
@@ -10,19 +9,19 @@
   font-size: 0.9rem;
 }
 
-.two tbody > tr {
+.table tbody > tr {
   padding-inline-start: 4rem;
 }
 
-.two table > thead + tbody > tr {
+.table table > thead + tbody > tr {
   border-bottom: 1.5px solid hsla(240, 100%, 50%, 0.2);
 }
 
-.two table > thead {
+.table table > thead {
   border-bottom: 2px solid hsla(0, 0%, 100%, 0.6);
 }
 
-.two table > thead > tr > th {
+.table table > thead > tr > th {
   text-transform: uppercase;
   padding-inline-start: 7rem;
   padding-block-start: -2rem;
@@ -30,73 +29,58 @@
   opacity: 0.5;
 }
 
-.two table > thead > tr > th:nth-of-type(1) {
+.table table > thead > tr > th:nth-of-type(1) {
   padding-inline-start: 0;
 }
 
-.two table > thead > tr > th:nth-of-type(2) {
+.table table > thead > tr > th:nth-of-type(2) {
   padding-inline-start: 7rem;
 }
 
-.two table > thead > tr > th:nth-of-type(3) {
+.table table > thead > tr > th:nth-of-type(3) {
   padding-inline-start: 0.5rem;
 }
 
-.two table > thead > tr > th:nth-of-type(5) {
+.table table > thead > tr > th:nth-of-type(5) {
   padding-inline-start: 1rem;
 }
 
-/* Tbody */
-/*.two table > tbody > tr:nth-of-type(10) {
+.table table > tbody > tr:nth-of-type(10) {
   border-bottom: 0;
 }
 
-.two table > tbody > tr > td {
+.table table > tbody > tr > td {
   padding: 1rem 0 1rem 0;
 }
 
-.two table > tr > td > svg {
+.table table > tr > td > svg {
   width: 50px;
   height: 50px;
 }
 
-.two tbody > tr td:nth-of-type(1) {
+.table tbody > tr td:nth-of-type(1) {
   display: flex;
 
 }
 
-.two tbody > tr td:nth-of-type(1) > span {
+.table tbody > tr td:nth-of-type(1) > span {
   padding-inline-end: 1rem;
   padding-block-start: 1.5rem;
 }
 
-.two tbody > tr td:nth-of-type(2) {
+.table tbody > tr td:nth-of-type(2) {
   text-transform: uppercase;
 }
 
-.two table > tbody > tr > .tbd {
+.table table > tbody > tr > .tbd {
   padding-inline-start: 7rem;
 }
 
-.two table > tbody > tr > td:nth-of-type(2) {
+.table table > tbody > tr > td:nth-of-type(2) {
   padding-inline-start: 1rem;
 }
 
 
-.two table > tbody > tr > td:nth-of-type(3) {
+.table table > tbody > tr > td:nth-of-type(3) {
   padding-inline-start: 3rem;
 }
-
-/* This is SVGs */
-/*.svg-1 .num {
-  position: absolute;
-  left: 5.6rem;
-}
-
-tr:nth-of-type(8) > .svg-1 > .num {
-  left: 5.8rem;
-}
-
-tr:nth-of-type(10) > .svg-1 > .num {
-  left: 6rem;
-} */

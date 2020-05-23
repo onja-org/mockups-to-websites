@@ -1,0 +1,26 @@
+article > nav > ul {
+  display: flex;
+  list-style: none;
+  margin-inline-start: 1rem;
+  font-family: Proxima Nova;
+}
+
+article >nav > ul > li {
+  font-size: 20px;
+  text-transform: uppercase;
+  padding-inline-end: 1rem;
+
+  opacity: 0.5;
+  flex-direction: row;
+}
+
+ article ul > li:nth-of-type(1) {
+  opacity: 1;
+}
+
+article > .border {
+  width: 600px;
+  height: 1.5px;
+  background-color: rgba(225, 225, 225, 0.5);
+  margin-inline-start: 3.5rem;
+}

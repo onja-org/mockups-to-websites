@@ -1,20 +1,15 @@
-header {
+.header {
   display: flex;
 }
 
-header > h1 {
-  margin-block-start: 0;
-  margin-block-end: 0;
-  margin-inline-start: 1rem;
-  margin-inline-end: 0;
-}
-
-header > ul {
+.header > .list-header > ul {
   list-style: none;
-  margin-inline-start: 11.7rem;
+  display: flex;
+  margin-block-start: 5px;
+  padding-inline-start: 11rem;
 }
 
-header > ul > li {
+.header > .list-header > ul > li {
   font-weight: bold;
   font-size: 12px;
   line-height: 15px;
@@ -24,6 +19,17 @@ header > ul > li {
   float: left;
 }
 
-header > ul > li:nth-of-type(4) {
-  padding-inline-end: 0;
+.header > .my-profile {
+  display: flex;
+  text-align: right;
+  padding-inline-start: 20rem;
+}
+
+.header > .my-profile > p {
+  margin: 0;
+}
+
+.header > .my-profile > h2 {
+  margin: 0;
+  padding-inline-start: 1rem;
 }

@@ -2,54 +2,12 @@ body {
   background-color: black;
   color: white;
   opacity: 0.9;
-  display: grid;
-  grid-template-columns: 70%, 1fr;
-  grid-template-areas: "header three"
-                        "catalog three"
-                       "one three"
-                       "two three";
+  margin-inline-start: auto;
+  margin-inline-end: auto;
+  padding-inline-start: 3rem;
 }
 
-header {
-  grid-area: header;
-}
-
-.catolog {
-  grid-area: catolog;
-}
-
-.one {
-  grid-area: one;
-}
-
-.two {
-  grid-area: two;
-}
-
-.three {
-  grid-area: three;
-}
-
-@media (max-width: 472px) {
-  body {
-    width: 100%;
-    display: block;
-  }
-  .one > table {
-    width: 200px;
-  }
-}
-
-@media (min-width: 400px) {
-  body {
-    width: 100%;
-    display: block;
-  }
-}
-
-@media (max-width: 1120px) {
-  body {
-    width: 100%;
-    display: block;
-  }
+main {
+  display: flex;
+  padding-inline-start: 2rem;
 }

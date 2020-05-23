@@ -1,0 +1,6 @@
+article > .catalog {
+  color: rgb(252, 119, 86);
+  font-size: 40px;
+  font-weight: 800;
+  text-transform: uppercase;
+}

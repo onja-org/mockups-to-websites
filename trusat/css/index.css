@@ -1,6 +1,7 @@
 @import "header/header.css";
 @import "default/default.css";
-@import "section-1/section-1.css";
-@import "section-2/section-2.css";
-@import "section-3/section-3.css";
-@import "div/div.css";
+@import "main/h3.css";
+@import "main/list.css";
+@import "main/paragraph.css";
+@import "main/table.css";
+@import "main/svg.css";
