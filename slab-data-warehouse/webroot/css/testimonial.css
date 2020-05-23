@@ -1,12 +1,14 @@
  #section-testimonial {
-  width: 1578px;
-  height: 709px;
-  background: #9C69E2;
-  border-radius: 50px;
-  transform: translate(171px, 2069px);
-  border: 1px grey solid;
-  margin: 2rem;
+    width: 1375px;
+    height: 709px;
+    background: #9C69E2;
+    border-radius: 50px;
+    transform: translate(326px, 1128px);
+    border-bottom: 1px grey solid;
+    margin: 2rem;
 }
+
+
 #section-testimonial header > h4 {
   width: 405px;
   height: 52px;

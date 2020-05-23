@@ -1,8 +1,14 @@
 footer {
-  width: 1600px;
-  height: 761px;
-  transform: translate(13%, 298%);
+  transform: translate(18%, 162%);
 }
+
+
+
+
+
+
+}
+
   .title > h3 {
     font-family: Helvetica;
     font-style: normal;
@@ -39,7 +45,130 @@ footer {
 #buttom-learn {
   background: #F063B8;
   border-radius: 50px;
+  transform: translate(1006px, -119px);
 }
 #buttom-learn > a {
   color: white;
+}
+
+#buttom-request {
+  transform: translate(1375px, -186px);
+}
+
+#buttom-request > a {
+  color: black;
+}
+nav {
+  transform: translate(8px, -76px);
+}
+nav > ul {
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+}
+.nested-list {
+  list-style: none;
+  display: inline;
+}
+.nested-list > li {
+  transform: translateY(40px);
+}
+.nested-list li > a {
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 250%;
+  color: #212353;
+  text-decoration: none;
+}
+ .parent-list > a {
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 16px;
+  color: #212353;
+  text-decoration: none;
+}
+
+#nested-list-about {
+  transform: translateX(100px);
+}
+
+#nested-list-help {
+  transform: translateX(30px);
+}
+
+#social-media-list {
+  background-image: url(../css/social-md.png),
+                    url(../css/message-in-social.png);
+  background-repeat: no-repeat, no-repeat;
+  background-position: right 1% bottom 64%, right 1% bottom 10%;
+  transform: translate(-47px, -8px);
+  width: 178px;
+}
+
+.data_warehouse {
+  transform: translate(10px, -344px);
+}
+h5 {
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 20px;
+  line-height: 160%;
+  color: #212353;
+  transform: translateX(88px);
+}
+.data_warehouse > p {
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 180%;
+  letter-spacing: 0.01em;
+  color: #212353;
+  transform: translateY(-54px);
+}
+div #info {
+  transform: translateY(-28px);
+}
+ #info >a {
+  text-decoration: none;
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 180%;
+  letter-spacing: 0.01em;
+  color: #212353;
+}
+.pink-button {
+  width: 22.87px;
+  height: 35px;
+  background: #F063B8;
+  border-radius: 20px;
+  margin-inline-start: -1rem;
+  transform: translate(48px, -90px);
+}
+
+
+.purple-button {
+  width: 22.87px;
+  height: 20px;
+  background: #9C69E2;
+  border-radius: 20px;
+  transform: translate(-1px, -55px);
+}
+
+.footer {
+  transform: translateY(-246px);
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 180%;
+  align-items: center;
+  letter-spacing: 0.01em;
+  color: #212353;
 }

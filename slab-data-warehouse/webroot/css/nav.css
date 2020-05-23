@@ -5,7 +5,9 @@
   height: 30px;
   display: grid;
   grid-column: 4;
+  transform: translate(116px, 10px);
 }
+
 .link > nav ul {
   list-style: none;
   display: grid;

@@ -174,11 +174,11 @@
     </div>
     <div>
       <nav>
-        <ul>
-          <li>
+        <ul class="list">
+          <li class = "parent-list" id="nested-list-about">
             <a href="#about">About
             </a>
-            <ul>
+            <ul class = "nested-list" id="nested-list-about">
               <li>
                 <a id="profile" href="profile">
                   Profile
@@ -201,11 +201,11 @@
               </li>
             </ul>
           </li>
-          <li>
+          <li class="parent-list" id="nested-list-help">
             <a href="#help">
               Help
             </a>
-            <ul>
+            <ul class="nested-list" id="nested-list-help">
               <li>
                 <a id="support" href="support">
                   Support
@@ -231,7 +231,7 @@
               </li>
             </ul>
           </li>
-          <li>
+          <li class="parent-list" id="social-media-list">
             <a id="social-media" href="social-media">
               social media
             </a>
@@ -243,11 +243,13 @@
         <h5>
           DataWarehouse
         </h5>
+        <div class="purple-button"></div>
+        <div class="pink-button"></div>
         <p>
           Warehouse Society, 234<br>
           Bagagia Ave Street PRBW 29281
         </p>
-        <div class="info" id="info">
+        <div id="info">
           <a href="info">info@warehouse.project <br> 1-232-3434(Main)</a>
         </div>
       </div>

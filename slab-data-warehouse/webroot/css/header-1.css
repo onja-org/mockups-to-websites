@@ -1,7 +1,7 @@
 .data-storage {
     background-image: url(../css/1pc.png);
     background-repeat: no-repeat;
-    background-position: left 615.06px top 366px;
+    background-position: left 807.06px top 366px;
     background-size: 983.94px 440px;
     display: grid;
     grid-template-columns: repeat(8, 150px);
@@ -28,18 +28,20 @@
   height: 35px;
   background: #F063B8;
   border-radius: 20px;
-  margin-inline-start: -1rem;
+  margin-inline-start: 1rem;
 }
 .buttom {
-  background-color: white;
-  padding-block-start: 0.8rem;
-  text-align: center;
-  border-radius: 2rem;
-  width: 186.12px;
-  height: 30px;
-  margin-inline-end: -11rem;
-  display: grid;
-  grid-column: 7/8;
+   background-color: white;
+    padding-block-start: 1.8rem;
+    text-align: center;
+    border-radius: 2rem;
+    width: 218.12px;
+    height: 49px;
+    margin-inline-end: -11rem;
+    display: grid;
+    grid-column: 7/8;
+    transform: translate(497px, 10px);
+}
 }
 .head {
   width: 737.51px;
@@ -84,9 +86,8 @@
     padding-block-start: 0.6rem;
     width: 127.38px;
     height: 29px;
-    display: grid;
-    grid-column: 3;
-    grid-row: 8;
-
-
+    transform: translate(306px, 679px);
 }
+
+
+
