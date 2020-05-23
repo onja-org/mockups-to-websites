@@ -11,7 +11,7 @@
 
 .scndsection {
   display: flex;
-  width: 20rem;
+  width: 21rem;
   padding: 0;
   bottom: 0;
   position: absolute;
@@ -40,9 +40,10 @@
 }
 
 h3 {
+  font-family: sans-serif;
   display: flex;
   position: absolute;
-  width: 20rem;
+  width: 21rem;
   font-style: normal;
   font-weight: bold;
   font-size: 20px;
@@ -66,9 +67,70 @@ h3 {
 
 #second-section > .satellites {
   position: absolute;
-  width: 210px;
+  width: 198px;
   height: 84px;
   left: 68px;
   top: 66.2rem;
   background: #EC7E5F;
+}
+#second-section > .empty-div {
+  position: absolute;
+  width: 335px;
+  height: 84px;
+  left: 68px;
+  top: 66.2rem;
+  z-index: -1;
+  border: 1px solid #848890;
+  box-sizing: border-box;
+ }
+
+ #second-section > .rotate-div {
+  position: absolute;
+  width: 116px;
+  left: 344px;
+  top: 69.8rem;
+  z-index: 1;
+  box-sizing: border-box;
+  border: 1px solid #FFFFFF;
+  transform: rotate(90deg);
+ }
+
+ #second-section > .goal > p .twenty-three {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 28px;
+  align-items: flex-end;
+  color: #EC7E5F;
+ }
+
+ #second-section > .goal > p .april {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+  align-items: flex-end;
+  text-transform: uppercase;
+  color: #848890;
+  left: 1rem;
+  position: relative;
+ }
+#second-section .foot-paragraph {
+  width: 178px;
+  left: 245px;
+  top: 71.8rem;
+  font-family: sans-serif;
+  font-size: 12px;
+  line-height: 14px;
+  display: flex;
+  text-transform: uppercase;
+
+}
+#second-section .one-month {
+  color: #848890;
+}
+#second-section .number {
+  font-family: monospace;
 }

@@ -33,14 +33,14 @@
 
 .table-satname > tbody > tr > th::before {
   content: "";
-  background-image: url("../images/icon.svg");
+  background-image: url("../images/small-icon.svg");
   background-repeat: no-repeat;
   width: 41px;
   height: 45px;
   display: inline-block;
   vertical-align: middle;
   text-align: center;
-  top: 30px;
+
 }
 
 .stats p:nth-of-type(1)::before {
