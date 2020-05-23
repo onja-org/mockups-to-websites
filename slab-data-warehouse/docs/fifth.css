@@ -7,8 +7,8 @@ section:nth-of-type(4){
 }
 section:nth-of-type(4) h1{
   color: white;
-  padding-top: 6rem;
-  margin-left: 7rem;
+  padding-top: 96px;
+  margin-left: 112px;
 
 }
 
@@ -17,7 +17,7 @@ section:nth-of-type(4) h1{
 section:nth-of-type(4) div.name p,
 section:nth-of-type(4) div.name h4,
 section:nth-of-type(4) div.name a{
-  margin-left: 8rem;
+  margin-left: 128px;
 }
 
 section:nth-of-type(4) div.name p{
@@ -40,8 +40,8 @@ section:nth-of-type(4) div.john{
   background-repeat: no-repeat;
   border-radius: 10%;
   border: solid 2px plum;
-  box-shadow:10px 5px 0px rgba(212, 110, 243, 0.363);
-  margin-left: 5rem;
+  box-shadow:10px 20px 10px rgba(75, 70, 77, 0.363);
+  margin-left: 80px;
 
 
 }
@@ -49,11 +49,11 @@ section:nth-of-type(4) div.jeny{
   width: 450px;
   height: 300px;
   background-image: url(jenny.png);
-  background-color: white;
   background-repeat: no-repeat;
   border-radius: 10%;
   border: solid 2px plum;
-
+  background-color: white;
+  box-shadow:10px 20px 10px rgba(75, 70, 77, 0.363);
 
 
 }
@@ -67,9 +67,10 @@ height: 300px;
 background-image: url(william.png);
 background-repeat: no-repeat;
 background-color: white;
-border-radius: 2rem;
+border-radius: 32px;
 border: solid 2px plum;
-margin-left: -7rem;
+margin-left: -112px;
+box-shadow:10px 20px 10px rgba(75, 70, 77, 0.363);
 
 }
 section:nth-of-type(4) div.william p{
@@ -77,13 +78,18 @@ section:nth-of-type(4) div.william p{
 }
 section:nth-of-type(4) div.lax{
   color: white;
-  margin-left: 60rem;
-  width: 3rem;
+  margin-left: 960px;
+  width: 48px;
+  margin-top: 64px;
 
 }
 section:nth-of-type(4) div.bill{
-  display: grid;
-  margin-right: 10rem;
+  display: flex;
+  margin-left: 96px;
+
+
+
+
 }
 
 section:nth-of-type(4) div.bos,

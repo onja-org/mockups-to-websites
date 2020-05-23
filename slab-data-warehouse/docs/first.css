@@ -1,39 +1,41 @@
-header:first-of-type {
-  width: 900px;
-  height: 60px;
-  margin-top: 32px;
-  margin-bottom: 32px;
+header:first-of-type{
+  --width-set:20px;
+  --height-set:20px;
+  --margin-set:32px;
 }
 
-
+header:first-of-type {
+  width:  calc(var(--width-set) * 45px);
+  height: calc(var(--height-set) * 3px);
+  margin-top: var(--margin-set);
+  margin-bottom: var(--margin-set);
+}
 header div:first-of-type {
   background-color: rgb(159, 110, 236);
-  width: 20px;
-  height: 20px;
+  width: var(--width-set);
+  height: var(--height-set);
   border-radius: 50%;
 
 
 }
 header div:last-of-type {
   background-color: rgb(245, 125, 199);
-  width: 20px;
-  height: 35px;
+  width: var(--width-set);
+  height: calc(var(--height-set) * 2);
   border-radius: 40%;
-  margin: 2rem;
-  margin-top: -2rem;
-  margin-left: 2rem
+  margin: var(--margin-set);
+  margin-top: calc(var(--margin-set) * -1);
+  margin-left: var(--margin-set)
 }
-
 .link > li{
   text-align: center;
-  margin-left: 9rem;
+  margin-left: calc(var(--margin-set) * 4.5);
   display: inline;
   }
-
   ul.link{
-    margin-right: 15px;
+    margin-right: calc(var(--margin-set) / 2);
     position: 90% 10%;
-    margin-top: -3rem;
+    margin-top: calc(var(--margin-set) / 2 * -3);
   }
 
   body > header a{
@@ -45,10 +47,10 @@ header div:last-of-type {
   header > button{
     background-color: white;
     float: right;
-    margin-top: -2.5rem;
-    margin-right: -10rem;
-    width: 150px;
-    height: 50px;
+    margin-top: calc(var(--margin-set) / 2 * -3);
+    margin-right: calc(var(--margin-set) / -2);
+    width: calc(var(--width-set) * 7.5);
+    height: calc(var(--height-set) * 3);
     border-radius: 40%;
 
   }
