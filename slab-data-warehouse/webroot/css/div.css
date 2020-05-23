@@ -136,7 +136,7 @@
 }
 
 #testimonial-container .jeny_doe {
-  width: 250px;
+  width: 270px;
 }
 
 #testimonial-container .jeny_doe p {
@@ -149,17 +149,17 @@
 }
 
 #testimonial-container .william p {
-  margin-inline-start: 80px;
+  margin-inline-start: 100px;
 }
 
 #testimonial-container .william p:nth-of-type(2) {
   width: 170px;
-  margin-inline-start: 80px;
+  margin-inline-start: 100px;
 }
 
 #testimonial-container .william {
-  margin-inline-start: -11rem;
-  width: 250px;
+  margin-inline-start: -10rem;
+  width: 270px;
   overflow: hidden;
 }
 
