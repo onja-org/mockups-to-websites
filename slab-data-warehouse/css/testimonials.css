@@ -4,9 +4,10 @@
   background: #9C69E2;
   border-radius: 50px;
   margin-block-end: 50px;
-  margin-block-start: 100px;
+  margin-block-start: 150px;
   overflow-x: scroll;
   overflow-y: hidden;
+  margin-left: 242px;
 }
 
 #testimonials h3 {
@@ -109,11 +110,17 @@ list-style: none;
 
 #testimonials footer div:nth-of-type(2) {
   margin-top: 1rem;
+  align-items: center;
+}
+
+#testimonials footer div:nth-of-type(2) a {
+padding: 20px;
 }
 
 #testimonials footer div:nth-of-type(2) a:first-of-type {
   font-size: 30px;
   margin-top: 18px;
+  vertical-align: middle;
 }
 
 #testimonials footer div ul {

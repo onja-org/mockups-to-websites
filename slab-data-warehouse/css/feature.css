@@ -1,3 +1,8 @@
+#section_features {
+  margin-left: 251px;
+  margin-right: 242;
+}
+
 #section_features header {
   text-align: center;
 
@@ -6,11 +11,18 @@
 #section_features h2 {
   font-size: 40px;
   font-weight: 700;
+  margin-inline-start: -300px;
 }
 
 #section_features header p {
+  width: 584px;
+  height: 58px;
   font-size: 18px;
   font-weight: 500;
+  margin-block-start: 50px;
+  margin-block-end: 100px;
+  margin-inline-start: 200.29px;
+  margin-inline-end: 508.71px;
 }
 
 .feature {
@@ -113,7 +125,7 @@
 
 #section_features ul {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 442px 442px;
   row-gap: 2rem;
   column-gap: 6rem;
 }
