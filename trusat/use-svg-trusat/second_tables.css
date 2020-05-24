@@ -1,0 +1,17 @@
+.second_table {
+  position: absolute;
+width: 301px;
+height: 301px;
+left: 934px;
+top: 596px;
+
+/*
+position: absolute;
+width: 98px;
+height: 22px;
+left: 935px;
+top: 735px;
+*/
+background: #C4C4C4;
+opacity: 0.1;
+}

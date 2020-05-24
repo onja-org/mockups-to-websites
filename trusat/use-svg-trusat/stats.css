@@ -1,0 +1,21 @@
+article > header > div > h3 + p {
+  width: 299px;
+  padding: 0rem 2rem 3rem 0rem;
+  line-height: 22px;
+  color: #FFFFFF;
+  opacity: 0.5;
+}
+
+div > br.sattelites {
+  border: 0.7px solid #081122;
+  font-size: small;
+  color: #081122;
+  text-transform: uppercase;
+  opacity: 0.5;
+}
+#number {
+  color: white;
+  font-size: 1.3rem;
+  margin-inline-end: 1rem;
+  margin-block-end: 4rem;
+}

@@ -1,12 +1,30 @@
+/* <section id="section_help">
+      <header>
+        <h3>
+          What is this?
+        </h3>
+      </header> */
 
-aside > article {
-  width: 300px;
-  float: left;
-  margin-inline-start: 100px;
+aside > section {
+  margin-block-end: 4rem;
 }
-aside > article > header {
-  margin-block-start: 190px;
+
+aside > section > header {
+  border-block-end: 1px solid rgba(255, 255, 255, 0.5);
+  padding-block-end: 1rem;
 }
+
+aside > section > header > h3 {
+  color: white;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  margin: 0;
+}
+
+/*
+
 
 article #profile{
   color: white;
@@ -14,21 +32,33 @@ article #profile{
   position: absolute;
   text-decoration: none;
   text-transform: uppercase;
-  right: 9px;
+  right: 70px;
+  font-weight: bold;
+  font-size: small;
   }
+
+img.profile{
+  position: absolute;
+  right: 165px;
+  top: 45px;
+}
   article .profile {
-  margin: 0rem 1rem -0.2rem;
   }
 
   button {
-  width: 143px;
+  width: 138px;
   height: 30px;
   border: 1px solid #4d4d4d;
+  border-radius: 6px;
   background-color: black;
   font-size: 12px;
   text-align: center;
   color: #FFFFFF;
-  }
+  margin-block-start: 9rem;
+  margin-inline-start: 0rem;
+  margin-block-end: 5rem;
+  margin-inline-end: 1rem;
+}
 
   div > h3 {
   margin-top: -2rem;
@@ -37,13 +67,6 @@ article #profile{
   line-height: 3rem;
   }
 
-  article > header > div > h3 + p {
-  width: 299px;
-  padding: 0rem 2rem 3rem 0rem;
-  line-height: 22px;
-  color: #FFFFFF;
-  opacity: 0.5;
-  }
 
   article > header > div > h3 + p a {
     color: #EC7E5F;
@@ -57,43 +80,4 @@ article #profile{
   border: 0.7px solid #081122;
   margin-inline-end: 2rem;
   margin-block-end: 3rem;
-  }
-  article > header > div > h3.community {
-  margin-top: 2rem;
-  }
-
-  article > header > div.rectangle {
-    display: inline-block;
-  }
-
-  article > header > div > p.rectangle {
-  width: 210px;
-  height: 84px;
-  background: #EC7E5F;
-  margin-top: -3rem;
-  border: solid 1px;
-  }
-  article > header > div > p.rectangle-2 {
-    width: 100px;
-    height: 84px;
-    background: none;
-    margin-top: -3rem;
-    margin-left: -1rem;
-    border: solid 1px;
-    border-left: none;
-    position: absolute;
-    }
-    article > header > div > p.observe {
-      text-transform: uppercase;
-    }
-
-    u {
-    color: #EC7E5F;
-    font-size: 2rem;
-    list-style-type: none;
-  }
-p#end {
-  margin-left: 7rem;
-  text-transform: uppercase;
-}
-
+} */

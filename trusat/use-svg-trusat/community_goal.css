@@ -1,0 +1,44 @@
+
+  article > header > div > h3.community {
+
+    }
+
+article > header > div.rectangle {
+display: inline-block;
+position: absolute;
+width: 289px;
+height: 23px;
+left: 935px;
+top: 960px;
+    }
+
+    article > header > div > p.rectangle {
+    width: 210px;
+    height: 84px;
+    background: #EC7E5F;
+    margin-top: -3rem;
+    border: solid 1px;
+    }
+    article > header > div > p.rectangle-2 {
+      width: 100px;
+      height: 84px;
+      background: none;
+      margin-top: -3rem;
+      margin-left: -1rem;
+      border: solid 1px;
+      border-left: none;
+      position: absolute;
+      }
+      article > header > div > p.observe {
+        text-transform: uppercase;
+      }
+
+      u {
+      color: #EC7E5F;
+      font-size: 2rem;
+      list-style-type: none;
+    }
+  p#end {
+    margin-left: 7rem;
+    text-transform: uppercase;
+  }

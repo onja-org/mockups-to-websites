@@ -1,10 +1,11 @@
 @charset "UTF-8";
 table {
-  width: 808px;
-  height: 898px;
   display: contents;
   margin-inline-start: 16px;
   margin-left: 12px;
+}
+#span {
+  width: 3px;
 }
 
 tbody {
@@ -23,7 +24,7 @@ color: #848890;
 word-spacing: 2rem;
 }
 tr > th.no_space {
-  word-spacing: 0;
+  width: 60px;
 }
 
 td {
@@ -31,20 +32,21 @@ td {
   text-transform: uppercase;
 }
 
-.first_table {
-width: 293px;
+.iredium_rows {
+width: 150px;
 text-align: center;
 }
-.first_table {
+tbody {
   counter-reset: td;
 }
-.first_table::before {
-  content: counter(td) "\0000a0\0000a0\0000a0\0000a0";
-}
+
 
 .second_table_row {
-  width: 242px;
-  text-size-adjust: left;
-  font-size: 1rem;
+  width: 200px;
+  line-height: normal;
   text-transform: capitalize;
 }
+.second_table_row#sizing {
+line-height: normal;
+}
+
