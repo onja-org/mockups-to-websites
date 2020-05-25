@@ -1,14 +1,20 @@
+header {
+  position: relative;
+  width: calc(var(--width) * 75);
+  margin-left: auto;
+}
+
 #fourth_section {
   position: relative;
-  max-width: 1200px;
+  max-width: calc(var(--width) * 75);
   margin-left: auto;
-  margin-bottom: 225px;
+  margin-bottom: calc(var(--width) * 14.0625);
   overflow: hidden;
 }
 
 #fourth_section ul {
   background: #9C69E2;
-  border-radius: 50px;
+  border-radius: calc(var(--width) * 75);
   padding-top : 8rem;
   padding-left : 2rem;
   padding-bottom: 3rem;
