@@ -1,0 +1,14 @@
+.button {
+  --button-height: 60px;
+  --button-size: 16px;
+  --button-vertical-padding: calc(var(--button-height) - var(--button-size) / 2);
+
+  font-size: 1rem;
+  line-height: 1;
+  background-color: #FFFFFF;
+  border-radius: 9999px;
+  background-color: red;
+  color: #212353;
+  padding-block-start: var(--button-vertical-padding);
+  padding-block-end: var(--button-vertical-padding);
+}
