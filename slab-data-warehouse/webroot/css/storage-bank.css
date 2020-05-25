@@ -1,0 +1,30 @@
+.storage_bank {
+  max-width: 1117px;
+  height: 560px;
+  background-color: rgba(240, 99, 184, 0.15);
+  border-radius: 50px;
+  background-image: url("../images/image2.svg");
+  background-repeat: no-repeat;
+  margin: auto;
+}
+.storage_bank h2 {
+  position: absolute;
+  font-family: sans-serif;
+  font-size: 40px;
+  width: 475px;
+  height: 100px;
+  margin-block-start: 125px;
+  padding-inline-start: 550px;
+
+}
+.storage_bank p {
+  position: absolute;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 18px;
+  width: 380px;
+  height: 100px;
+  margin-block-start: 265px;
+  padding-inline-start: 550px;
+  padding-inline-end: 92px;
+}
+

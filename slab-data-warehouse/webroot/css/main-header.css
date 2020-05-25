@@ -1,0 +1,41 @@
+main > header {
+ background-image: url("../images/image1.svg");
+ background-repeat: no-repeat;
+ background-position: right;
+ padding-inline-start: 7rem;
+ padding-block-end: 99.18px;
+ margin-inline-start: auto;
+}
+
+main header > h1 {
+  width: 645px;
+  height: 184px;
+  font-size: 80px;
+  color: #212353;
+
+}
+main header > p {
+  width: 380px;
+  height: 120px;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 2rem;
+}
+main header div a {
+  width: 170px;
+  height: 60px;
+  border-radius: 50px;
+  background-color: #9C69E2;
+  padding-inline-start: 3rem;
+  padding-inline-end: 3rem;
+  padding-block-start: 1.5rem;
+  padding-block-end: 1.5rem;
+
+}
+main header a {
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 500;
+  color: #ffffff;
+}
+
