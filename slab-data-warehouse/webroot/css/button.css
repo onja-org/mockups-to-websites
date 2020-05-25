@@ -1,0 +1,19 @@
+.button {
+  --button-hight: 60px;
+  --button-font-size: 16px;
+  --button_vertical: ;
+  background-color: red;
+  border-radius: 9999px;
+  padding-block-start: calc((var(--button-hight) - var(--button-font-size)) / 2);
+  padding-block-end: calc((var(--button-hight) - var(--button-font-size)) / 2);
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1;
+  padding-inline-start: 2rem;
+  padding-inline-end: 2rem;
+  color: #212121;
+  box-shadow: ;
+}
+.button a {
+  text-decoration: none;
+}
