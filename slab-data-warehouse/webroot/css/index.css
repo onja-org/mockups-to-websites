@@ -1,1 +1,5 @@
-@import "defaults.css";
+@import "../css/defaults.css";
+@import "../css/fonts.css";
+@import "./header.css";
+@import "../css/nav.css";
+@import "../css/buttons.css";

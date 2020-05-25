@@ -1,0 +1,13 @@
+nav > ul {
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+}
+
+body > header > nav a {
+color: #4B5D68;
+}
+
+
