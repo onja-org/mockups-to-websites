@@ -24,7 +24,7 @@
   text-align: left;
 }
 
-#first_table tr {
+#first_table > tbody tr {
   counter-increment: clause;
 }
 #first_table tr::before {
