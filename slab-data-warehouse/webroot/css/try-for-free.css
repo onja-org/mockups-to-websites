@@ -1,0 +1,147 @@
+.data-week-free{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  list-style: none;
+  position: relative;
+  margin-bottom: 118px;
+}
+.data-week-free > a {
+ text-decoration: none;
+}
+
+.try_for_free > header > h2{
+  padding-top: 50px;
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 130%;
+  display: flex;
+  align-items: center;
+  color: #212353;
+  padding-inline-start: 38px;
+  margin: 0;
+}
+.try_for_free header p a:nth-of-type(1){
+  padding-right: 60px;
+  margin-left: 700px;
+  text-decoration: none;
+  padding-block-start: 24px;
+  background-color: #F063B8;
+  border-radius: 50px;
+  padding: 21px;
+}
+.try_for_free header p a:nth-of-type(2){
+  background: #FFFFFF;
+  box-shadow: 0px 5px 5px rgba(75, 93, 104, 0.1);
+  border-radius: 50px;
+  padding-right: 136px;
+  padding: 21px;
+  padding-inline-end: 50px;
+  margin-left: 30px;
+}
+.try_for_free > header p{
+  font-family: Avenir;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 160%;
+  color: #4B5D68;
+  padding-inline-start: 38px;
+  margin-bottom: 131px;
+
+}
+
+#warehouse{
+  background-image: url(../image/Logo.png);
+  background-repeat: no-repeat;
+  background-position: 2%;
+  padding: 10px;
+  padding-inline-start: 58px;
+}
+
+
+#data_ware{
+  padding-right: 100px;
+}
+
+#help{
+  padding-right: 50px;
+}
+
+#about{
+  padding-right: 50px;
+}
+
+#social{
+  background-image: url(../image/SM.png);
+  background-position: 0% 50%;
+  background-repeat: no-repeat;
+
+}
+
+#help a{
+  text-decoration: none;
+}
+
+#about a{
+  text-decoration: none;
+}
+#data_ware a{
+  text-decoration: none;
+}
+
+.subhead_try_for_free{
+  margin-bottom: 30px;
+}
+
+
+.subhead_try_for_free > a{
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 160%;
+  color: #212353;
+  text-decoration: none;
+
+}
+
+li .subhead_try_for_free p a {
+ text-decoration: none;
+}
+.data-week-free + div {
+  background-image: url(../image/Group\ 64.png);
+  background-repeat: no-repeat;
+  margin: 0;
+  background-position: 90%;
+  padding: 10px;
+
+}
+.data-week-free + div > p{
+font-family: Avenir;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 180%;
+display: flex;
+align-items: center;
+letter-spacing: 0.01em;
+color: #212353;
+padding-left: 38px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
