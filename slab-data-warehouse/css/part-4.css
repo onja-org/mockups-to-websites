@@ -1,22 +1,48 @@
 .part-4 {
   background-color: purple;
   border-radius: 51px;
-  width: 1000px;
-  height: 550px;
+  width: auto;
+  height: auto;
 }
 
-.part-4 h3 {
-  margin-left: 93px;
-  margin-bottom: 109px;
-  color: white;
+.part-4 li {
   font-family: helvetica;
   font-style: normal;
-  font-weight: bold;
+  font-weight: normal;
+  font-size: 16px;
+  list-style: none;
+}
+
+.testimonial {
+  background-color: white;
+  width: auto;
+  height: auto;
+  border-radius: 30px;
+  text-align: center;
+  margin-inline-end: 20px;
+}
+
+#testimonial_1 {
+  background-image: url('../images/john-img.png');
+  background-repeat: no-repeat;
+  background-position: top left;
+}
+
+#testimonial_2 {
+  background-image: url('../images/jenny.png');
+  background-repeat: no-repeat;
+  background-position: top left;
+}
+
+#testimonial_3 {
+  background-image: url('../images/will-img.png');
+  background-repeat: no-repeat;
+  background-position: top left;
 }
 
 
-.part-4 .images {
+.part-4 ul {
   display: flex;
   flex-direction: row;
-  margin-left: 93px;
+  margin-inline-start: auto;
 }

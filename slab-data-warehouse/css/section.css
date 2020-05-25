@@ -51,11 +51,10 @@ section.features h4, p {
   left: -120px;
   top: 50%;
   transform: translateY(-50%);
-  background-image: url('../images/image3.png');
 }
 
 #features_search-data {
-  /*background-image: url('../images/image3.png');*/
+  background-image: url('../images/image3.png');
   background-repeat: no-repeat;
 }
 
