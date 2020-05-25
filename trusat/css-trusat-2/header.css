@@ -3,6 +3,9 @@ body header {
   flex-direction: row;
 }
 
+body header h1 {
+  margin: 0;
+}
 body header nav ul {
 display: flex;
 flex-direction: row;
