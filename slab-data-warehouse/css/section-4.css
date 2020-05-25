@@ -17,7 +17,7 @@
 #section_testimonials ul{
   display: flex;
   flex-direction: row;
-  padding-left: 50px;
+  padding-left: 50px;   
 }
 
 #section_testimonials ul > li {
