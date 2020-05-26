@@ -1,0 +1,9 @@
+.container {
+  max-width: 1140px;
+  margin-inline-start: auto;
+  margin-inline-end: auto;
+}
+
+.container + .container {
+  margin-block-start: 150px;
+}
