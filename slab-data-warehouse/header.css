@@ -4,7 +4,7 @@ body > header {
   align-items: center;
   max-width: 1140px;
   margin-inline-start: auto;
-  scroll-margin-block-end: auto;
+  margin-inline-end: auto;
 }
 
 body > header a{
@@ -12,13 +12,18 @@ body > header a{
 }
 
 body > header > h1 {
+  margin-inline-end: 7.5rem;
   margin-block-start: 0;
+  margin-block-end: 0;
+
+
 }
 
 body > header > p {
   margin-block-start: 0;
   margin-block-end: 0;
   margin-inline-start: auto;
+  color:  rgb(33, 35, 85, 100%);
 }
 
 body > header > nav a {
@@ -26,5 +31,5 @@ body > header > nav a {
 }
 
 body > header > nav li {
-  margin-block-start: 2.5rem;
+  margin-inline-end: 2.5rem;
 }
