@@ -1,0 +1,11 @@
+html{
+  font-family: "open sans " , Arial, Helvetica, sans-serif;
+  font-size: 16px;
+}
+ nav > ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+ }

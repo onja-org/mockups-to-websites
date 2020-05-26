@@ -1,0 +1,16 @@
+.botton{
+  --button-height : 3.75rem;
+  --button-font-size : 1rem;
+  --padding-vertical-start: calc(var(--button-height) - var(--button-font-size))/2;
+
+  font-size: 1rem;
+  line-height: 1;
+  border-radius: 9999px;
+  background-color: palevioletred;
+  padding-block-start: var(--padding-vertical-start);
+  padding-block-end: var(--padding-vertical-start);
+  padding-inline-start: 2rem;
+  padding-inline-end: 2rem;
+  box-shadow: 0 5px 5px; rgba(75 ,93,104 ,0.1)
+
+}
