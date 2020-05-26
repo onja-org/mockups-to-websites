@@ -2,3 +2,6 @@ html {
   font-family: 'Open Sans', Arial, Helvetica, sans-serif;
   font-size: 16px;
 }
+body {
+  background: linear-gradient(180deg, #F6FAFD 0%, #FFFFFF 19.4%);
+}
