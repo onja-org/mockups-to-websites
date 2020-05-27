@@ -1,5 +1,59 @@
-button {
-  max-width: 374px;
-  max-height: 56px;
-  margin-block-end: ;
+section > ul {
+  display: flex;
+  flex-direction: row;
 }
+
+section > ul > li {
+  height: 56px;
+  border: solid 1px;
+  border-radius: 8px;
+}
+
+section > ul > li a {
+  margin-inline-end: 5rem;
+  text-decoration: none;
+  align-items: center;
+  text-transform: uppercase;
+  list-style: none;
+  color: #ffffff;
+}
+
+.heart_button {
+  width: 50px;
+  margin-inline-end: 2rem;
+  background-image: url(../css/image/heart_icon.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.green_button {
+  width: 374px;
+  margin-inline-end: 2rem;
+  background-color: #0ACF83;
+}
+
+.adding_card {
+  width: 250px;
+  background-image: url(../css/image/card_icon.svg);
+  background-repeat: no-repeat;
+  background-position: 10%;
+}
+
+.using_card {
+
+}
+
+.first_vegetable {
+
+}
+
+.second_vegetable {
+
+}
+.last_vegetable {
+  width: 50px;
+  background-image: url(../css/image/card_icon.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
