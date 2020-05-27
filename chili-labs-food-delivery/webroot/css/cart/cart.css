@@ -2,3 +2,7 @@
   width: 230px;
   background-image: url("../shopping-cart.svg");
 }
+
+.cart > a {
+  padding-block-start: 1rem;
+}

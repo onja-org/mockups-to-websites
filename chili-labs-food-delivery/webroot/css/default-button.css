@@ -17,6 +17,11 @@ p {
   text-align: center;
 }
 
+.large_button > a {
+  padding-block-start: 1rem;
+}
+
+
 a {
   text-decoration: none;
   text-transform: uppercase;
