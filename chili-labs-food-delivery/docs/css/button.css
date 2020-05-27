@@ -1,0 +1,18 @@
+.order_now {
+  background: #0BCE83;
+  width: 374px;
+  height: 56px;
+}
+body > nav > ul > li {
+  list-style: none;
+  text-align: center;
+}
+body > nav > ul a {
+  text-decoration: none;
+
+}
+body > nav > ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
