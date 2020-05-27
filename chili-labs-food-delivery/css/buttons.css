@@ -1,0 +1,53 @@
+
+.buttons > a {
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: -0.01px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  padding-block-start: 16px;
+  padding-block-end: 16px;
+  padding-inline-start: 56.61px;
+  padding-inline-end: 56.61px;
+  text-decoration: none;
+  list-style: none;
+}
+
+.buttons {
+  background: #0BCE83;
+  border-radius: 8px;
+  display: inline-block;
+
+}
+
+.buttons_white {
+  border: 1px solid #D9D0E3;
+  box-sizing: border-box;
+  border-radius: 8px;
+  background-color: #FFFFFF;
+  background-image: url(../img/heart.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.buttons_green_small {
+  background-image: url(../img/shopping-cart.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.buttons_add_card {
+  background-image: url(../img/shopping-cart.svg);
+  background-position: left 67.5px top 18px ;
+  background-repeat: no-repeat;
+}
+.buttons_add_card > a {
+  padding-inline-start: 103.5px;
+  padding-block-start: 19px;
+}
+
+
