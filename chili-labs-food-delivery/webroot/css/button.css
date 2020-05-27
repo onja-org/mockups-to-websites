@@ -1,0 +1,78 @@
+.button {
+  margin-block-end: 48px;
+  border-radius: 8px;
+  border: 0;
+  margin-inline-end: 32px;
+}
+
+.button a {
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 18px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #ffffff;
+  text-align: center;
+  letter-spacing: -0.01px;
+}
+
+.button-white {
+  width: 78px;
+  height: 40px;
+  background: #FFFFFF;
+  border: 1px solid #D9D0E3;
+  box-sizing: border-box;
+  background-image: url(../image/heart.svg);
+  background-repeat: no-repeat;
+  background-position: 25px;
+}
+
+.button-white-bigger {
+  width: 78px;
+  height: 56px;
+  background: #FFFFFF;
+  border: 1px solid #D9D0E3;
+  box-sizing: border-box;
+  background-image: url(../image/heart.svg);
+  background-repeat: no-repeat;
+  background-position: 25px;
+  padding-block-end: 20px;
+}
+
+.button-green-small {
+  width: 78px;
+  height: 40px;
+  background: #0BCE83;
+  background-image: url(../image/shopping-cart.svg);
+  background-repeat: no-repeat;
+  background-position: 25px;
+}
+
+.button-green-large {
+  background: #0BCE83;
+  height: 56px;
+  width: 374px;
+}
+
+.button-green-large a {
+  margin-inline-start: -160px;
+}
+
+.button-green-medium {
+  background: #0BCE83;
+  height: 56px;
+  width: 275px;
+}
+
+
+.button-green-medium a::before {
+  content: url(../image/shopping-cart.svg);
+  margin-inline-end: 16px;
+  margin-inline-start: 48px;
+}
+
+.button-green-larger {
+  background: #0BCE83;
+  height: 56px;
+  width: 374px;
+}
