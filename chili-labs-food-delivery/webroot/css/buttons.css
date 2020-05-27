@@ -1,0 +1,86 @@
+.buttons {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 18px;
+  border-radius: 8px;
+  display: inline-block;
+  vertical-align: middle;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  margin-inline-start: 43px;
+  margin-inline-end: auto;
+  margin-block-start: auto;
+  margin-block-start: auto;
+}
+
+#button_favourite {
+  box-sizing: border-box;
+  border: 1px solid #D9D0E3;
+  padding-inline-start: 39px;
+  padding-inline-end: 39px;
+  padding-block-start: 28px;
+  padding-block-end: 28px;
+  background-color: #fff;
+  background-image: url("../images/button-favourite.svg");
+  background-position: center;
+  background-size: 20px 20px;
+  background-repeat: no-repeat;
+}
+
+#button_menu {
+  padding-inline-start: 39px;
+  padding-inline-end: 39px;
+  padding-block-start: 28px;
+  padding-block-end: 28px;
+  background-color: #0BCE83;
+  background-image: url("../images/button-shopping-cart.svg");
+  background-position: center;
+  background-size: 20px 20px;
+  background-repeat: no-repeat;
+  margin-inline-start: 20px;
+}
+
+#button_like {
+  box-sizing: border-box;
+  border: 1px solid #D9D0E3;
+  padding-inline-start: 39px;
+  padding-inline-end: 39px;
+  padding-block-start: 35px;
+  padding-block-end: 35px;
+  background-color: #fff;
+  background-image: url("../images/button-favourite.svg");
+  background-position: center;
+  background-size: 20px 20px;
+  background-repeat: no-repeat;
+}
+
+#button_add_cart {
+  padding-inline-start: 80px;
+  padding-inline-end: 60px;
+  padding-block-start: 28px;
+  padding-block-end: 28px;
+  background-color: #0BCE83;
+  position: relative;
+  background-repeat: no-repeat;
+}
+
+#button_add_cart::before {
+  content: "";
+  background-image: url("../images/button-shopping-cart.svg");
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  left: 15%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+#button_card {
+  padding-inline-start: 130px;
+  padding-inline-end: 130px;
+  padding-block-start: 28px;
+  padding-block-end: 28px;
+  background-color: #0BCE83;
+}
