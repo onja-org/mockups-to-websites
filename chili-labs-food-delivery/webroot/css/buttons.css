@@ -1,0 +1,43 @@
+.button{
+  display: inline-block;
+  background-color: #0bce83;
+  width: 374px;
+  height: 56px;
+  margin-inline-start: auto;
+  align-items: center;
+  line-height: 0;
+} 
+
+#purple{
+  background-color: #E2CBFF;
+  width: 225px;
+  height: 50px;
+}
+
+#purple p{
+  color: purple;
+}
+
+#green{
+  height: 40px;
+  width: 78px;
+  background-color: #0bce83;
+  background-image: url(../shopping-cart.svg);
+}
+
+#white{
+  height: 40px;
+  width: 78px;
+  background-color: white;
+  background-image: url(../heart-icon.svg);
+}
+
+button > p{
+  color: white;
+}
+
+.small_button{
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 8px;
+}
