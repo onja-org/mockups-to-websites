@@ -1,0 +1,84 @@
+.button {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  margin-inline-end: auto;
+  margin-inline-start: auto;
+}
+/* Only styles for smallgreen_button and smallwhite_button go here */
+#largewhite_button,
+#smallgreen_button,
+#smallwhite_button {
+  width: 78px;
+  height: 40px;
+  border: 1px solid #D9D0E3;
+  border-radius: 8px;
+}
+#smallwhite_button {
+  background-color: #ffffff;
+}
+
+
+#use_this_card,
+#add_to_cart,
+#smallgreen_button {
+  background-color: #0BCE83;
+}
+
+#add_to_cart::before,
+#largewhite_button::before,
+#smallgreen_button::before,
+#smallwhite_button::before {
+  content: "";
+  background-repeat: no-repeat;
+  width: 20px;
+  height: 17px;
+  margin: auto;
+}
+#largewhite_button::before,
+#smallwhite_button::before {
+  background-image: url("../images/heart.svg");
+}
+
+#add_to_cart::before,
+#smallgreen_button::before {
+  background-image: url("../images/shopping-cart.svg");
+}
+
+/* Only styles for the large white button go here */
+#largewhite_button {
+  height: 56px;
+}
+
+
+/* ADD TO CART style go here */
+#add_to_cart {
+  width: 230px;
+  height: 56px;
+  border-radius: 8px;
+}
+
+#add_to_cart::before {
+
+}
+
+#use_this_card a,
+#add_to_cart a {
+  text-decoration: none;
+  font-weight: 600;
+  color: #ffffff;
+  margin: auto;
+  font-size: 15px;
+  align-items: center;
+  letter-spacing: -0.01px;
+  text-transform: uppercase;
+
+}
+
+/* USE THIS CARD style go here */
+#use_this_card {
+  width: 374px;
+  height: 56px;
+  border-radius: 8px;
+}
+
