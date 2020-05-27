@@ -16,3 +16,23 @@ body > nav > ul {
   flex-direction: row;
   align-items: center;
 }
+body > nav {
+  display: flex;
+  flex-direction: row;
+  max-width: 1140px;
+  margin-inline-start: auto;
+  margin-inline-end: auto;
+  align-items: center;
+}
+nav > ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+}
+
+body > nav li {
+  margin-inline-end: 2.5rem;
+}
+
