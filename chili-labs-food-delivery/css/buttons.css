@@ -1,0 +1,91 @@
+:root {
+  --heart_hight: 1rem;
+  --heart_width: 18px;
+  --kart_hight: 20px;
+  --kart_width: 20px;
+  --kart_padding_inline: calc(29px + var(--heart_width) / 2);
+  --kart_padding_block: calc(11px + var(--kart_hight) / 2);
+  --border_color: #cccccc;
+  --heart_padding_inline: calc(29px + var(--heart_width) / 2);
+  --heart_padding_block: calc(19px + var(--heart_hight) / 2);
+}
+
+body {
+  background-color: #F6F5F5;
+}
+
+button + button {
+  margin-block-start: 2rem;
+}
+
+.button   {
+  display: block;
+  background-color: #0BCE83;
+  border-radius: 8px;
+  line-height: 18px;
+  text-transform: uppercase;
+  background-repeat: no-repeat;
+  font-weight: 600;
+  font-size: 15px;
+  font-style: normal;
+  border: none;
+}
+
+.button {
+  text-decoration: none;
+}
+
+.button.add_to_cart  {
+  padding-inline-start: 103px;
+  padding-block-end: 1rem;
+  padding-block-start: 1rem;
+  background-image: url('../images/shopping-cart.svg');
+  background-position: 65px center;
+  padding-inline-end: 1rem;
+  color: #FFFFFF;
+}
+
+.button.use_this_card {
+  padding-inline-start: 129px;
+  padding-inline-end: 129px;
+  padding-block-start: 19px;
+  padding-block-end: 19px;
+  color: #FFFFFF;
+  line-height: 18px;
+}
+
+.button.big_heart {
+  padding-inline-start: var(--heart_padding_inline);
+  padding-inline-end: var(--heart_padding_inline);
+  padding-block-start: var(--heart_padding_block);
+  padding-block-end: var(--heart_padding_block);
+  background-image: url('../images/heart.svg');
+  background-color: #FFFFFF;
+  background-position: center;
+  border: solid 1px var(--border_color);
+}
+
+.button.button.big_heart,
+.button.button.heart {
+  background-size: 18px 16px;
+}
+
+
+.button.button.kart,
+.button.button.heart {
+  padding-block-start: var(--kart_padding_block);
+  padding-block-end: var(--kart_padding_block);
+  padding-inline-start: var(--kart_padding_inline);
+  padding-inline-end: var(--kart_padding_inline);
+  background-position: center;
+
+}
+.button.kart {
+  background-image: url('../images/shopping-cart.svg');
+}
+
+.button.heart {
+  background-image: url('../images/heart.svg');
+  background-color: #FFFFFF;
+  border: solid var(--border_color) 1px;
+}
