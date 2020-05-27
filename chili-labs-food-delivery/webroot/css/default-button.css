@@ -1,0 +1,33 @@
+body {
+  background-color: rgb(219, 216, 221);
+}
+
+p {
+  border-radius: 8px;
+}
+
+.button {
+  width: 70px;
+  height: 40px;
+}
+
+.large_button {
+  height: 56px;
+  background-color: rgb(11, 206, 131);
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: 'SF Pro' sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: center;
+  letter-spacing: -0.01px;
+  color: #FFFFFF;
+  display: inline-block;
+  padding-block-start: 1rem;
+}

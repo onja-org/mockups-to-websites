@@ -1,1 +1,5 @@
 @import "default-button.css";
+@import "heart/heart.css";
+@import "bin/bin.css";
+@import "cart/cart.css";
+@import "card/card.css";
