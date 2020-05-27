@@ -1,0 +1,45 @@
+.oreder_now{
+  width: 375px;
+  height: 56px;
+  color: #FFFFFF;
+}
+.add_to_cart{
+  width: 230px;
+  height: 56px;
+  color: #FFFFFF;
+
+}
+.small{
+  width: 78px;
+  height: 40px;
+
+}
+.white_box{
+  width: 78px;
+  height: 56px;
+
+}
+.white_small_box{
+  width: 78px;
+  height: 40px;
+
+}
+.button_green{
+  background: #0BCE83;
+  border-radius: 8px;
+  align-items: center;
+  letter-spacing: -0.01px;
+  text-transform: uppercase;
+}
+.button{
+  border-radius: 8px;
+  background-image: url(../images/heart.svg);
+  background-repeat: no-repeat;
+  background-position: 50% 48%;
+}
+.button_shopping{
+  background-image: url(../images/shopping-cart.svg);
+  background-repeat: no-repeat;
+  background-position: 50% 48%;
+}
+
