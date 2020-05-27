@@ -1,0 +1,49 @@
+#ordering {
+  padding-inline-start: 128px;
+  padding-inline-end: 128px;
+  padding-block-start: 19px;
+  padding-block-end: 19px;
+}
+
+
+#favourite {
+  color: transparent;
+  background-color: white;
+  border: 1px solid #D9D0E3;
+  padding-inline-start: 29px;
+  padding-inline-end: 29px;
+  padding-block-start: 10px;
+  padding-block-end: 10px;
+  background-image: url("../images/heart.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#symbol {
+  color: transparent;
+  background-image: url("../images/shopping-cart.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  scroll-padding-inline-start: 29px;
+  padding-inline-end: 29px;
+  padding-block-start: 10px;
+  padding-block-end: 10px;
+}
+
+#adding {
+  padding-inline-start: 103.5px;
+  padding-inline-end: 15px;
+  padding-block-start: 16px;
+  padding-block-end: 16px;
+  background-image: url("../images/shopping-cart.svg");
+  background-repeat: no-repeat;
+  background-position: 67.5px;
+}
+
+
+#using {
+  padding-inline-start: 128px;
+  padding-inline-end: 128px;
+  padding-block-start: 19px;
+  padding-block-end: 19px;
+}

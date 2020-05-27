@@ -1,0 +1,15 @@
+.button {
+  display: inline-block;
+  text-decoration: none;
+  border-radius: 8px;
+  font-size: 18px;
+}
+
+.button-green {
+  color: #ffffff;
+  background-color: #0ACF83;
+  text-transform: uppercase;
+
+}
+
+
