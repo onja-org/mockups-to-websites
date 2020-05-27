@@ -29,5 +29,10 @@ a {
   letter-spacing: -0.01px;
   color: #FFFFFF;
   display: inline-block;
-  padding-block-start: 1rem;
+  /* padding-block-start: 1rem; */
+}
+
+#heart-image {
+  padding-block-start: 10px;
+  padding-inline-start: 1.5rem;
 }
