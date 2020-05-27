@@ -1,0 +1,86 @@
+.button a{
+  font-weight: 600;
+  font-size: 15px;
+  text-transform: uppercase;
+  text-align: center;
+  padding-inline-start: 5rem;
+  padding-inline-end: 1rem;
+  padding-block-start: 2rem;
+
+
+
+}
+
+
+
+.button #order{
+  width: 374px;
+  height: 56px;
+  background-color: #0BCE83;
+  border-radius: 8px;
+}
+.button > li > a{
+  text-decoration: none;
+  color: white;
+
+
+
+
+}
+
+nav ul li{
+  list-style: none;
+  list-style: none;
+  margin: 16px;
+
+
+
+}
+
+ .button #small_green{
+   background-color: #0BCE83;
+   width: 64px;
+   height: 32px;
+   border-radius: 8px;
+   background-image: url('../images/shopping_cart.png');
+   background-repeat: no-repeat;
+ }
+
+ .button #small_white{
+   background-color: white;
+   border: 0.5px solid rgb(187, 184, 184);
+   background-image: url('../images/heart.png');
+   background-repeat: no-repeat;
+   background-position: center;
+   width:64px;
+   height: 32px;
+   border-radius: 8px;
+ }
+ .button #middle_button_white{
+   background-color: white;
+   background-image: url('../images/heart.jpg');
+   border: 0.5px solid rgb(187, 184, 184);
+   width: 78px;
+   height: 56px;
+   border-radius: 8px;
+   background-repeat: no-repeat;
+
+ }
+
+ .button #add_to_cart{
+   background-color:#0BCE83;
+   background-image:url('../images/shopping_cart.png');
+   background-repeat: no-repeat;
+   border-radius: 8px;
+   width: 275px;
+   height: 56px;
+ }
+
+
+ .button #use_card{
+   background-color: #0BCE83;
+   width: 374px;
+   height: 56px;
+   border-radius: 8px;
+ }
+
