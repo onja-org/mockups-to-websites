@@ -3,12 +3,13 @@
   text-decoration: none;
   border-radius: 8px;
   font-size: 18px;
+  text-transform: uppercase;
+  color: #ffffff;
 }
 
 .button-green {
-  color: #ffffff;
-  background-color: #0ACF83;
-  text-transform: uppercase;
+
+
 
 }
 

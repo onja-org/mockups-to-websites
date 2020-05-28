@@ -1,12 +1,14 @@
-#ordering {
+.button-for-ordering {
   padding-inline-start: 128px;
   padding-inline-end: 128px;
   padding-block-start: 19px;
   padding-block-end: 19px;
+  background-color: #0ACF83;
 }
 
 
-#favourite {
+.button-favourite {
+  font-size: 18px;
   color: transparent;
   background-color: white;
   border: 1px solid #D9D0E3;
@@ -19,19 +21,21 @@
   background-position: center;
 }
 
-#symbol {
+.button-small-add-to-card {
+  font-size: 18px;
   color: transparent;
-  background-image: url("../images/shopping-cart.svg");
-  background-repeat: no-repeat;
-  background-position: center;
   scroll-padding-inline-start: 29px;
   padding-inline-end: 29px;
   padding-block-start: 10px;
   padding-block-end: 10px;
+  background-color: #0ACF83;
+  background-image: url("../images/shopping-cart.svg");
+  background-repeat: no-repeat;
+  background-position: center;
 
 }
 
-#adding {
+.button-large-add-to-card {
   padding-inline-start: 103.5px;
   padding-inline-end: 15px;
   padding-block-start: 16px;
@@ -39,13 +43,15 @@
   background-image: url("../images/shopping-cart.svg");
   background-repeat: no-repeat;
   background-position: 67.5px;
+  background-color: #0ACF83;
 
 }
 
 
-#using {
+.button-use-this-card {
   padding-inline-start: 128px;
   padding-inline-end: 128px;
   padding-block-start: 19px;
   padding-block-end: 19px;
+  background-color: #0ACF83;
 }
