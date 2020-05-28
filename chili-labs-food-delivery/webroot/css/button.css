@@ -3,6 +3,10 @@
   border-radius: 8px;
   border: 0;
   margin-inline-end: 32px;
+  padding-inline-start: 2rem;
+  padding-inline-end: 2rem;
+  padding-block-start: 1rem;
+  padding-block-end: 1rem;
 }
 
 .button a {
@@ -16,52 +20,38 @@
   letter-spacing: -0.01px;
 }
 
-.button-white {
-  width: 78px;
-  height: 40px;
+.button-favourite {
   background: #FFFFFF;
   border: 1px solid #D9D0E3;
   box-sizing: border-box;
   background-image: url(../image/heart.svg);
   background-repeat: no-repeat;
-  background-position: 25px;
+  background-position: 20px;
 }
 
 .button-white-bigger {
-  width: 78px;
-  height: 56px;
   background: #FFFFFF;
   border: 1px solid #D9D0E3;
   box-sizing: border-box;
   background-image: url(../image/heart.svg);
   background-repeat: no-repeat;
-  background-position: 25px;
+  background-position: 20px;
   padding-block-end: 20px;
 }
 
-.button-green-small {
-  width: 78px;
-  height: 40px;
+.button-add-to-cart {
   background: #0BCE83;
   background-image: url(../image/shopping-cart.svg);
   background-repeat: no-repeat;
-  background-position: 25px;
+  background-position: 20px;
 }
 
 .button-green-large {
   background: #0BCE83;
-  height: 56px;
-  width: 374px;
-}
-
-.button-green-large a {
-  margin-inline-start: -160px;
 }
 
 .button-green-medium {
   background: #0BCE83;
-  height: 56px;
-  width: 275px;
 }
 
 
@@ -73,6 +63,4 @@
 
 .button-green-larger {
   background: #0BCE83;
-  height: 56px;
-  width: 374px;
 }
