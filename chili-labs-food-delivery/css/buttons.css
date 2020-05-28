@@ -1,7 +1,6 @@
 
 button {
   display: flex;
-  flex-direction: column;
   background: #0BCE83;
   border: #0BCE83 thin;
   background-repeat: no-repeat;
