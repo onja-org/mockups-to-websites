@@ -1,0 +1,76 @@
+html {
+  font-family: Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+}
+
+
+nav > ul {
+  display: flex;
+  flex-direction: row;
+}
+
+.button {
+  list-style: none;
+  border-radius: 8px;
+  margin-inline-end: 20px;
+  margin-block-end: 50px;
+}
+
+#button_order {
+  background-color: #0BCE83;
+}
+
+#button_order a {
+  margin-inline-start: 54px;
+  margin-block-start: 16px;
+}
+
+#button_favourite-small,
+#button_favourite-large {
+  background-image: url('../images/white-icon.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  align-items: center;
+  background-color: white;
+  box-shadow: 0 0 3px gray;
+}
+
+
+#button_shopping-cart {
+  background-image: url('../images/shopping-cart.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #0BCE83;
+}
+
+
+#button_add-to-card {
+  background-image: url('../images/shopping-cart.svg');
+  background-repeat: no-repeat;
+  background-position: left 14% bottom 50%;
+  background-color: #0BCE83;
+}
+
+#button_using-card {
+  background-color: #0BCE83;
+}
+
+li a {
+  text-decoration: none;
+  line-height: 3;
+  color: white;
+  padding-inline-start: 90px;
+  padding-block-start: 18px;
+}
+
+ #button_using-card a {
+  padding-inline-start: 128px;
+  padding-block-start: 19px;
+}
+
+#button_shopping-cart a {
+  padding-inline-start: 67px;
+  padding-block-start: 18px;
+}
