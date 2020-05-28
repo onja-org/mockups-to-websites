@@ -26,7 +26,7 @@
 
 }
 
-.buttons_white {
+.buttons_small_favorite {
   border: 1px solid #D9D0E3;
   box-sizing: border-box;
   border-radius: 8px;
@@ -35,7 +35,7 @@
   background-repeat: no-repeat;
   background-position: center;
 }
-.buttons_green_small {
+.buttons_small_add {
   background-image: url(../img/shopping-cart.svg);
   background-position: center;
   background-repeat: no-repeat;
@@ -47,7 +47,9 @@
 }
 .buttons_add_card > a {
   padding-inline-start: 103.5px;
+  padding-inline-end: 103.5px;
   padding-block-start: 19px;
+  padding-block-end: 19px;
 }
 
 
