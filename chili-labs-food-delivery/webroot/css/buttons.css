@@ -2,7 +2,7 @@ body > header {
   display: flex;
   flex-direction: row;
   align-items: center;
-  max-width: 1140px;
+  /* max-width: 1140px; */
   margin-inline-start: auto;
   margin-inline-end: auto;
 }
@@ -10,7 +10,7 @@ body > header {
 body > header h1 {
   margin: 0;
   margin-block-start: 0;
-  margin-inline-end: 7.5rem;
+  /* margin-inline-end: 7.5rem; */
   margin-block-end: 0;
 }
 
@@ -31,7 +31,7 @@ body > header a {
   text-transform: uppercase;
   color: #FFFFFF;
 }
-.heart {
+.favorit {
   background-color: var(--for-white-background);
   box-sizing: var(--box-sizing);
   border: var(--border);
@@ -40,6 +40,9 @@ body > header a {
   background-position: center;
   background-image: url(../heart.svg);
   background-repeat: no-repeat;
+}
+.favorit::before {
+
 }
 .big {
   height: 56px;
@@ -59,7 +62,7 @@ body > header a {
   bottom: 12.31px;
 } */
 
-.green {
+.add_to_cart {
   font-family: sans-serif;
   background-color: var(--for-green-background);
   color: #FFFFFF;
