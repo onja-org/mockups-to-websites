@@ -20,9 +20,12 @@
 #purple p{
   color: purple;
   font-size: 15px;
+  background-image: url(../check.svg);
+  background-position: 0% 100%;
+  background-repeat: no-repeat;
 }
 
-#green{
+#button_add_to_cart{
   height: 40px;
   width: 78px;
   background-color: #0bce83;
@@ -30,7 +33,7 @@
   border-radius: 8px;
 }
 
-#white{
+#button_favourite{
   height: 40px;
   width: 78px;
   background-color: white;
