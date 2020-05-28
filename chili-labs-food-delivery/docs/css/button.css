@@ -3,12 +3,7 @@
   font-size: 15px;
   text-transform: uppercase;
   text-align: center;
-
-
 }
-
-
-
 
 .button #order{
   width: 374px;
@@ -23,19 +18,12 @@
 .button > li > a{
   text-decoration: none;
   color: white;
-
-
-
-
 }
 
 nav ul li{
   list-style: none;
   list-style: none;
   margin: 16px;
-
-
-
 }
 
  .button #small_green{
@@ -87,7 +75,6 @@ nav ul li{
    padding-block-start: 1rem;
  }
 
-
  .button #use_card{
    background-color: #0BCE83;
    width: 374px;
@@ -96,7 +83,5 @@ nav ul li{
    padding-inline-start: 1rem;
    padding-inline-end: 1rem;
    padding-block-start: 1rem;
-
-
  }
 
