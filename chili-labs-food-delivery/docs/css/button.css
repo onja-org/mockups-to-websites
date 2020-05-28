@@ -1,23 +1,24 @@
-.button a{
+.button {
   font-weight: 600;
   font-size: 15px;
   text-transform: uppercase;
   text-align: center;
-  padding-inline-start: 5rem;
-  padding-inline-end: 1rem;
-  padding-block-start: 2rem;
-
 
 
 }
 
 
 
+
 .button #order{
   width: 374px;
-  height: 56px;
+  height: 46px;
   background-color: #0BCE83;
   border-radius: 8px;
+  padding-inline-start: 1rem;
+  padding-inline-end: 2rem;
+  padding-block-start: 1rem;
+
 }
 .button > li > a{
   text-decoration: none;
@@ -43,7 +44,11 @@ nav ul li{
    height: 32px;
    border-radius: 8px;
    background-image: url('../images/shopping_cart.png');
+   background-position: 50% 50%;
    background-repeat: no-repeat;
+   padding-inline-start: 1rem;
+   padding-inline-end: 1rem;
+   padding-block-start: 1rem;
  }
 
  .button #small_white{
@@ -55,10 +60,12 @@ nav ul li{
    width:64px;
    height: 32px;
    border-radius: 8px;
+
  }
  .button #middle_button_white{
    background-color: white;
    background-image: url('../images/heart.jpg');
+   background-position: 50% 50%;
    border: 0.5px solid rgb(187, 184, 184);
    width: 78px;
    height: 56px;
@@ -70,17 +77,26 @@ nav ul li{
  .button #add_to_cart{
    background-color:#0BCE83;
    background-image:url('../images/shopping_cart.png');
+   background-position: 25% 40%;
    background-repeat: no-repeat;
    border-radius: 8px;
    width: 275px;
-   height: 56px;
+   height: 46px;
+   padding-inline-start: 1rem;
+   padding-inline-end: 1rem;
+   padding-block-start: 1rem;
  }
 
 
  .button #use_card{
    background-color: #0BCE83;
    width: 374px;
-   height: 56px;
+   height: 46px;
    border-radius: 8px;
+   padding-inline-start: 1rem;
+   padding-inline-end: 1rem;
+   padding-block-start: 1rem;
+
+
  }
 
