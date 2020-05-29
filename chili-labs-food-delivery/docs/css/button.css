@@ -58,8 +58,8 @@ body > nav > ul {
   background-position: center;
 }
 .button {
-  padding-inline-start: 1rem;
-  padding-inline-end: 1rem;
+  padding-inline-start: 2rem;
+  padding-inline-end: 2rem;
   padding-block-start: 2rem;
   padding-block-end: 2rem;
 }
