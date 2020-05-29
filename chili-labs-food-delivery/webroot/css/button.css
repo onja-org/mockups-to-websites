@@ -5,29 +5,29 @@
   margin-inline-end: auto;
   margin-inline-start: auto;
 }
-/* Only styles for smallgreen_button and smallwhite_button go here */
-#largewhite_button,
-#smallgreen_button,
+/* Only styles for smallgreen_button and. button_favourite go here */
+.button_favourite,
+.button_add_to_cart,
 .button_small {
   padding: auto;
   border: 1px solid #D9D0E3;
   border-radius: 8px;
 }
-#smallwhite_button {
+.button_favourite {
   background-color: #ffffff;
 }
 
 
 #use_this_card,
 #add_to_cart,
-#smallgreen_button {
+.button_add_to_cart {
   background-color: #0BCE83;
 }
 
 #add_to_cart::before,
-#largewhite_button::before,
-#smallgreen_button::before,
-#smallwhite_button::before {
+.button_favourite::before,
+.button_add_to_cart::before,
+.button_favourite::before {
   content: "";
   background-repeat: no-repeat;
   width: 20px;
@@ -35,12 +35,12 @@
   margin: auto;
 }
 #largewhite_button::before,
-#smallwhite_button::before {
+.button_favourite::before {
   background-image: url("../images/heart.svg");
 }
 
 #add_to_cart::before,
-#smallgreen_button::before {
+.button_add_to_cart::before {
   background-image: url("../images/shopping-cart.svg");
 }
 
