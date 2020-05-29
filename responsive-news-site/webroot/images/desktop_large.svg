@@ -1,0 +1,304 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1800" height="2400" viewBox="0 0 1800 2400">
+  <defs>
+    <clipPath id="clip-path">
+      <rect width="134" height="40" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <rect width="6" height="10" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-3">
+      <rect width="380" height="299" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-4">
+      <rect width="16" height="16" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-6">
+      <rect width="1160" height="350" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-11">
+      <rect width="760" height="900" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-15">
+      <rect width="360" height="896" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-20">
+      <rect width="16" height="16.001" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-Large_desktop_1">
+      <rect width="1800" height="2400"/>
+    </clipPath>
+    <pattern id="pattern" preserveAspectRatio="xMidYMid slice" width="100%" height="100%" viewBox="0 0 1800 1350">
+      <image width="1800" height="1350" xlink:href="pattern.jpeg"/>
+    </pattern>
+    <pattern id="pattern-2" preserveAspectRatio="xMidYMid slice" width="100%" height="100%" viewBox="0 0 3888 2592">
+      <image width="3888" height="2592" xlink:href="pattern-2.jpeg"/>
+    </pattern>
+    <pattern id="pattern-3" preserveAspectRatio="xMidYMid slice" width="100%" height="100%" viewBox="0 0 1800 1800">
+      <image width="1800" height="1800" xlink:href="pattern-3.jpeg"/>
+    </pattern>
+    <pattern id="pattern-4" preserveAspectRatio="xMidYMid slice" width="100%" height="100%" viewBox="0 0 1800 1200">
+      <image width="1800" height="1200" xlink:href="pattern-4.jpeg"/>
+    </pattern>
+    <pattern id="pattern-5" preserveAspectRatio="xMidYMid slice" width="100%" height="100%" viewBox="0 0 1050 500">
+      <image width="1050" height="500" xlink:href="pattern-5.jpeg"/>
+    </pattern>
+    <pattern id="pattern-6" preserveAspectRatio="xMidYMid slice" width="100%" height="100%" viewBox="0 0 1800 1192">
+      <image width="1800" height="1192" xlink:href="pattern-6.jpeg"/>
+    </pattern>
+    <pattern id="pattern-7" preserveAspectRatio="xMidYMid slice" width="100%" height="100%" viewBox="0 0 1024 698">
+      <image width="1024" height="698" xlink:href="pattern-7.jpeg"/>
+    </pattern>
+    <pattern id="pattern-8" preserveAspectRatio="xMidYMid slice" width="100%" height="100%" viewBox="0 0 1800 2700">
+      <image width="1800" height="2700" xlink:href="pattern-8.jpeg"/>
+    </pattern>
+    <pattern id="pattern-9" preserveAspectRatio="xMidYMid slice" width="100%" height="100%" viewBox="0 0 1800 1180">
+      <image width="1800" height="1180" xlink:href="pattern-9.jpeg"/>
+    </pattern>
+    <pattern id="pattern-10" preserveAspectRatio="xMidYMid slice" width="100%" height="100%" viewBox="0 0 1000 1000">
+      <image width="1000" height="1000" xlink:href="pattern-10.jpeg"/>
+    </pattern>
+  </defs>
+  <g id="Large_desktop_1" data-name="Large desktop 1" clip-path="url(#clip-Large_desktop_1)">
+    <rect width="1800" height="2400" fill="#f6f8f9"/>
+    <g id="Hero" transform="translate(0 50)">
+      <g id="Main">
+        <rect id="Image" width="1220" height="600" fill="url(#pattern)"/>
+        <g id="Title" transform="translate(320 177)">
+          <text id="For_some_reason_this_country_this_city_this_neighborhood_this_particular_street_is_the_place_you_are_living_a_majority_of_your_life_in." data-name="For some reason — this country, this city, this neighborhood, this particular street —  is the place you are living a majority of your life in." transform="translate(0 134)" fill="#fff" font-size="16" font-family="Helvetica"><tspan x="0" y="12">For some reason — this country, this city, this neighborhood, this particular street —  is the </tspan><tspan x="0" y="38">place you are living a majority of your life in.</tspan></text>
+          <text id="Amazing_places_in_America_to_visit." data-name="Amazing places in America to visit." transform="translate(0 100)" fill="#fff" font-size="24" font-family="Helvetica-Bold, Helvetica" font-weight="700"><tspan x="0" y="18">Amazing places in America to visit.</tspan></text>
+          <g id="Primary_Button" data-name="Primary Button" transform="translate(0 207)" clip-path="url(#clip-path)">
+            <rect id="base" width="134" height="40" rx="6" fill="#fa6980"/>
+            <text id="LEARN_MORE" data-name="LEARN MORE" transform="translate(30 16)" fill="#fff" font-size="11" font-family="Helvetica-Bold, Helvetica" font-weight="700"><tspan x="0.028" y="8">LEARN MORE</tspan></text>
+          </g>
+          <g id="Header">
+            <text id="WORLD_NEWS" data-name="WORLD NEWS" fill="#fff" font-size="24" font-family="Helvetica-Bold, Helvetica" font-weight="700"><tspan x="0" y="18">WORLD NEWS</tspan></text>
+            <path id="divider" d="M4427.848,210.677h660" transform="translate(-4427.848 -150.677)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="2"/>
+          </g>
+        </g>
+      </g>
+    </g>
+    <g id="more_news" data-name="more news" transform="translate(1220 50)">
+      <rect id="Base-2" data-name="Base" width="580" height="600" fill="#fff"/>
+      <g id="title-2" data-name="title" transform="translate(100 100)">
+        <text id="MORE_NEWS-2" data-name="MORE NEWS" fill="#202124" font-size="24" font-family="Helvetica-Bold, Helvetica" font-weight="700"><tspan x="0" y="18">MORE NEWS</tspan></text>
+        <g id="arrow" transform="translate(374 5)" clip-path="url(#clip-path-2)">
+          <path id="arrow-2" data-name="arrow" d="M5,6a.908.908,0,0,1-.7-.3l-4-4A.967.967,0,0,1,.3.3.967.967,0,0,1,1.7.3L5,3.6,8.3.3A.967.967,0,0,1,9.7.3a.967.967,0,0,1,0,1.4l-4,4A.908.908,0,0,1,5,6Z" transform="translate(0 10) rotate(-90)" fill="#202124"/>
+        </g>
+        <g id="arrow_back" data-name="arrow back" transform="translate(328 5)" opacity="0.3">
+          <path id="arrow_back-2" data-name="arrow back" d="M5,6a.908.908,0,0,1-.7-.3l-4-4A.967.967,0,0,1,.3.3.967.967,0,0,1,1.7.3L5,3.6,8.3.3A.967.967,0,0,1,9.7.3a.967.967,0,0,1,0,1.4l-4,4A.908.908,0,0,1,5,6Z" transform="translate(6) rotate(90)" fill="#202124"/>
+        </g>
+        <path id="divider-2" data-name="divider" d="M4427.847,210.677h380" transform="translate(-4427.848 -150.677)" fill="none" stroke="#ebeded" stroke-linecap="round" stroke-width="2"/>
+      </g>
+      <g id="new" transform="translate(100 200)" clip-path="url(#clip-path-3)">
+        <g id="new-2" data-name="new" transform="translate(-1300 -257)">
+          <text id="TRAVEL" transform="translate(1300 258)" fill="#fa6980" font-size="16" font-family="Helvetica-Bold, Helvetica" font-weight="700"><tspan x="0" y="12">TRAVEL</tspan></text>
+          <text id="Article_title" data-name="Article title" transform="translate(1300 292)" fill="#202124" font-size="16" font-family="Helvetica-Bold, Helvetica" font-weight="700"><tspan x="0" y="12">Article title</tspan></text>
+          <text id="Lorem_ipsum_dolor_sit_amet_ipsum_labitur_lucilius_mel_id_ad_has_appareat_" data-name="Lorem ipsum dolor sit amet, ipsum labitur lucilius mel id, ad has appareat…" transform="translate(1300 318)" fill="#a6adb4" font-size="16" font-family="AcuminPro-Regular, Acumin Pro"><tspan x="0" y="12">Lorem ipsum dolor sit amet, ipsum labitur lucilius mel </tspan><tspan x="0" y="38">id, ad has appareat…</tspan></text>
+          <g id="time" transform="translate(0 -3)">
+            <text id="_2_min_ago" data-name="2 min ago" transform="translate(1326 376)" fill="#a6adb4" font-size="13" font-family="Helvetica-Oblique, Helvetica" font-style="oblique"><tspan x="0" y="10">2 min ago</tspan></text>
+            <g id="time-2" data-name="time" transform="translate(1300 374)" clip-path="url(#clip-path-4)">
+              <path id="Path_5" data-name="Path 5" d="M8,0a8,8,0,1,0,8,8A8.024,8.024,0,0,0,8,0ZM8,14a6,6,0,1,1,6-6A6.018,6.018,0,0,1,8,14ZM9,7.6l2.7,2.7-1.4,1.4L7,8.4V3H9Z" fill="#cbd0d3"/>
+            </g>
+          </g>
+        </g>
+        <g id="new-3" data-name="new" transform="translate(-1300 -88)">
+          <text id="TECHNOLOGY" transform="translate(1300 258)" fill="#fa6980" font-size="16" font-family="Helvetica-Bold, Helvetica" font-weight="700"><tspan x="0" y="12">TECHNOLOGY</tspan></text>
+          <text id="Article_title-2" data-name="Article title" transform="translate(1300 292)" fill="#202124" font-size="16" font-family="Helvetica-Bold, Helvetica" font-weight="700"><tspan x="0" y="12">Article title</tspan></text>
+          <text id="Lorem_ipsum_dolor_sit_amet_ipsum_labitur_lucilius_mel_id_ad_has_appareat_2" data-name="Lorem ipsum dolor sit amet, ipsum labitur lucilius mel id, ad has appareat…" transform="translate(1300 318)" fill="#a6adb4" font-size="16" font-family="AcuminPro-Regular, Acumin Pro"><tspan x="0" y="12">Lorem ipsum dolor sit amet, ipsum labitur lucilius mel </tspan><tspan x="0" y="38">id, ad has appareat…</tspan></text>
+          <g id="time-3" data-name="time" transform="translate(0 -3)">
+            <text id="_2_min_ago-2" data-name="2 min ago" transform="translate(1326 376)" fill="#a6adb4" font-size="13" font-family="Helvetica-Oblique, Helvetica" font-style="oblique"><tspan x="0" y="10">2 min ago</tspan></text>
+            <g id="time-4" data-name="time" transform="translate(1300 374)" clip-path="url(#clip-path-4)">
+              <path id="Path_5-2" data-name="Path 5" d="M8,0a8,8,0,1,0,8,8A8.024,8.024,0,0,0,8,0ZM8,14a6,6,0,1,1,6-6A6.018,6.018,0,0,1,8,14ZM9,7.6l2.7,2.7-1.4,1.4L7,8.4V3H9Z" fill="#cbd0d3"/>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+    <g id="trending" transform="translate(320 690)">
+      <g id="Repeat_Grid_5" data-name="Repeat Grid 5" transform="translate(0 60)" clip-path="url(#clip-path-6)">
+        <g id="Group_2" data-name="Group 2" transform="translate(-100 -808)">
+          <g id="Base-3" data-name="Base">
+            <path id="Base-4" data-name="Base" d="M0,0H360a0,0,0,0,1,0,0V174a6,6,0,0,1-6,6H6a6,6,0,0,1-6-6V0A0,0,0,0,1,0,0Z" transform="translate(100 978)" fill="#fff"/>
+            <path id="Image-2" data-name="Image" d="M6,0H354a6,6,0,0,1,6,6V180a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V6A6,6,0,0,1,6,0Z" transform="translate(100 808)" fill="url(#pattern-2)"/>
+          </g>
+          <text id="Dolore_magna_aliqua" data-name="Dolore magna aliqua" transform="translate(140 1028)" fill="#202124" font-size="16" font-family="Helvetica-Bold, Helvetica" font-weight="700"><tspan x="0" y="12">Dolore magna aliqua</tspan></text>
+          <text id="Lorem_ipsum_dolor_sit_amet_ipsum_labitur_lucilius_mel_id_ad_has_appareat." data-name="Lorem ipsum dolor sit amet, ipsum labitur lucilius mel id, ad has appareat." transform="translate(140 1054)" fill="#a6adb4" font-size="13" font-family="AcuminPro-Regular, Acumin Pro"><tspan x="0" y="10">Lorem ipsum dolor sit amet, ipsum labitur </tspan><tspan x="0" y="33">lucilius mel id, ad has appareat.</tspan></text>
+          <g id="time-5" data-name="time" transform="translate(-113 5)">
+            <text id="_2m_ago" data-name="2m ago" transform="translate(279 1110)" fill="#a6adb4" font-size="13" font-family="Helvetica-Oblique, Helvetica" font-style="oblique"><tspan x="0" y="0">2m ago</tspan></text>
+            <g id="time-6" data-name="time" transform="translate(253 1097)" clip-path="url(#clip-path-4)">
+              <path id="Path_5-3" data-name="Path 5" d="M8,0a8,8,0,1,0,8,8A8.024,8.024,0,0,0,8,0ZM8,14a6,6,0,1,1,6-6A6.018,6.018,0,0,1,8,14ZM9,7.6l2.7,2.7-1.4,1.4L7,8.4V3H9Z" fill="#cbd0d3"/>
+            </g>
+          </g>
+        </g>
+        <g id="Group_2-2" data-name="Group 2" transform="translate(300 -808)">
+          <g id="Base-5" data-name="Base">
+            <path id="Base-6" data-name="Base" d="M0,0H360a0,0,0,0,1,0,0V174a6,6,0,0,1-6,6H6a6,6,0,0,1-6-6V0A0,0,0,0,1,0,0Z" transform="translate(100 978)" fill="#fff"/>
+            <path id="annie-spratt-216507-unsplash" d="M6,0H354a6,6,0,0,1,6,6V180a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V6A6,6,0,0,1,6,0Z" transform="translate(100 808)" fill="url(#pattern-3)"/>
+          </g>
+          <text id="Morbi_eleifend_a_libero" data-name="Morbi eleifend a libero" transform="translate(140 1028)" fill="#202124" font-size="16" font-family="Helvetica-Bold, Helvetica" font-weight="700"><tspan x="0" y="12">Morbi eleifend a libero</tspan></text>
+          <text id="Lorem_ipsum_dolor_sit_amet_ipsum_labitur_lucilius_mel_id_ad_has_appareat.-2" data-name="Lorem ipsum dolor sit amet, ipsum labitur lucilius mel id, ad has appareat." transform="translate(140 1054)" fill="#a6adb4" font-size="13" font-family="AcuminPro-Regular, Acumin Pro"><tspan x="0" y="10">Lorem ipsum dolor sit amet, ipsum labitur </tspan><tspan x="0" y="33">lucilius mel id, ad has appareat.</tspan></text>
+          <g id="time-7" data-name="time" transform="translate(-113 5)">
+            <text id="_1h_ago" data-name="1h ago" transform="translate(279 1110)" fill="#a6adb4" font-size="13" font-family="Helvetica-Oblique, Helvetica" font-style="oblique"><tspan x="0" y="0">1h ago</tspan></text>
+            <g id="time-8" data-name="time" transform="translate(253 1097)" clip-path="url(#clip-path-4)">
+              <path id="Path_5-4" data-name="Path 5" d="M8,0a8,8,0,1,0,8,8A8.024,8.024,0,0,0,8,0ZM8,14a6,6,0,1,1,6-6A6.018,6.018,0,0,1,8,14ZM9,7.6l2.7,2.7-1.4,1.4L7,8.4V3H9Z" fill="#cbd0d3"/>
+            </g>
+          </g>
+        </g>
+        <g id="Group_2-3" data-name="Group 2" transform="translate(700 -808)">
+          <g id="Base-7" data-name="Base">
+            <path id="Base-8" data-name="Base" d="M0,0H360a0,0,0,0,1,0,0V174a6,6,0,0,1-6,6H6a6,6,0,0,1-6-6V0A0,0,0,0,1,0,0Z" transform="translate(100 978)" fill="#fff"/>
+            <path id="carlos-hevia-628890-unsplash" d="M6,0H354a6,6,0,0,1,6,6V180a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V6A6,6,0,0,1,6,0Z" transform="translate(100 808)" fill="url(#pattern-4)"/>
+          </g>
+          <text id="Morbi_eleifend_a_libero-2" data-name="Morbi eleifend a libero" transform="translate(140 1028)" fill="#202124" font-size="16" font-family="Helvetica-Bold, Helvetica" font-weight="700"><tspan x="0" y="12">Morbi eleifend a libero</tspan></text>
+          <text id="Lorem_ipsum_dolor_sit_amet_ipsum_labitur_lucilius_mel_id_ad_has_appareat.-3" data-name="Lorem ipsum dolor sit amet, ipsum labitur lucilius mel id, ad has appareat." transform="translate(140 1054)" fill="#a6adb4" font-size="13" font-family="AcuminPro-Regular, Acumin Pro"><tspan x="0" y="10">Lorem ipsum dolor sit amet, ipsum labitur </tspan><tspan x="0" y="33">lucilius mel id, ad has appareat.</tspan></text>
+          <g id="time-9" data-name="time" transform="translate(-113 5)">
+            <text id="_3h_ago" data-name="3h ago" transform="translate(279 1110)" fill="#a6adb4" font-size="13" font-family="Helvetica-Oblique, Helvetica" font-style="oblique"><tspan x="0" y="0">3h ago</tspan></text>
+            <g id="time-10" data-name="time" transform="translate(253 1097)" clip-path="url(#clip-path-4)">
+              <path id="Path_5-5" data-name="Path 5" d="M8,0a8,8,0,1,0,8,8A8.024,8.024,0,0,0,8,0ZM8,14a6,6,0,1,1,6-6A6.018,6.018,0,0,1,8,14ZM9,7.6l2.7,2.7-1.4,1.4L7,8.4V3H9Z" fill="#cbd0d3"/>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g id="title-3" data-name="title">
+        <text id="TRENDING-2" data-name="TRENDING" fill="#202124" font-size="24" font-family="Helvetica-Bold, Helvetica" font-weight="700"><tspan x="0" y="18">TRENDING</tspan></text>
+        <g id="next_previous" data-name="next / previous" transform="translate(1108 5)">
+          <g id="arrow-3" data-name="arrow" transform="translate(46)" clip-path="url(#clip-path-2)">
+            <path id="arrow-4" data-name="arrow" d="M5,6a.908.908,0,0,1-.7-.3l-4-4A.967.967,0,0,1,.3.3.967.967,0,0,1,1.7.3L5,3.6,8.3.3A.967.967,0,0,1,9.7.3a.967.967,0,0,1,0,1.4l-4,4A.908.908,0,0,1,5,6Z" transform="translate(0 10) rotate(-90)" fill="#202124"/>
+          </g>
+          <g id="arrow_back-3" data-name="arrow back" opacity="0.3">
+            <path id="arrow_back-4" data-name="arrow back" d="M5,6a.908.908,0,0,1-.7-.3l-4-4A.967.967,0,0,1,.3.3.967.967,0,0,1,1.7.3L5,3.6,8.3.3A.967.967,0,0,1,9.7.3a.967.967,0,0,1,0,1.4l-4,4A.908.908,0,0,1,5,6Z" transform="translate(6) rotate(90)" fill="#202124"/>
+          </g>
+        </g>
+      </g>
+    </g>
+    <text id="HAPPENING_NOW" data-name="HAPPENING NOW" transform="translate(320 1140)" fill="#202124" font-size="24" font-family="Helvetica-Bold, Helvetica" font-weight="700"><tspan x="0" y="18">HAPPENING NOW</tspan></text>
+    <g id="big_new" data-name="big new" transform="translate(320 1200)" clip-path="url(#clip-path-11)">
+      <g id="big_new-2" data-name="big new" transform="translate(-310 -1198)">
+        <rect id="Image-3" data-name="Image" width="760" height="430" rx="6" transform="translate(310 1198)" fill="url(#pattern-5)"/>
+        <g id="info" transform="translate(-20 19)">
+          <text id="Lorem_ipsum_dolor_sit_amet_in_eam_odio_amet_vix_id_nullam_detracto_vidit_vituperatoribus_duo_id._Affert_detraxit_voluptatum_vis_eu_inermis_eloquentiam." data-name="Lorem ipsum dolor sit amet, in eam odio amet, vix id nullam detracto, vidit vituperatoribus duo id. Affert detraxit voluptatum vis eu, inermis eloquentiam." transform="translate(370 1501)" fill="#fff" font-size="16" font-family="Helvetica"><tspan x="0" y="12">Lorem ipsum dolor sit amet, in eam odio amet, vix id nullam detracto, vidit vituperatoribus duo </tspan><tspan x="0" y="38">id. Affert detraxit voluptatum vis eu, inermis eloquentiam.</tspan></text>
+          <text id="Large_article_title" data-name="Large article title" transform="translate(370 1467)" fill="#fff" font-size="24" font-family="Helvetica-Bold, Helvetica" font-weight="700"><tspan x="0" y="18">Large article title</tspan></text>
+          <g id="time-11" data-name="time" transform="translate(117 456)">
+            <text id="_2m_ago-2" data-name="2m ago" transform="translate(277 1110)" fill="#cbd0d3" font-size="13" font-family="Helvetica-Oblique, Helvetica" font-style="oblique"><tspan x="0" y="0">2m ago</tspan></text>
+            <g id="time-12" data-name="time" transform="translate(253 1097)" clip-path="url(#clip-path-4)">
+              <path id="Path_5-6" data-name="Path 5" d="M8,0a8,8,0,1,0,8,8A8.024,8.024,0,0,0,8,0ZM8,14a6,6,0,1,1,6-6A6.018,6.018,0,0,1,8,14ZM9,7.6l2.7,2.7-1.4,1.4L7,8.4V3H9Z" fill="#cbd0d3"/>
+            </g>
+          </g>
+        </g>
+        <text id="CITY" transform="translate(350 1238)" fill="#fff" font-size="16" font-family="Helvetica-Bold, Helvetica" font-weight="700"><tspan x="0" y="12">CITY</tspan></text>
+      </g>
+      <g id="big_new-3" data-name="big new" transform="translate(-310 -728)">
+        <rect id="Image-4" data-name="Image" width="760" height="430" rx="6" transform="translate(310 1198)" fill="url(#pattern-6)"/>
+        <g id="info-2" data-name="info" transform="translate(-20 19)">
+          <text id="Lorem_ipsum_dolor_sit_amet_in_eam_odio_amet_vix_id_nullam_detracto_vidit_vituperatoribus_duo_id._Affert_detraxit_voluptatum_vis_eu_inermis_eloquentiam.-2" data-name="Lorem ipsum dolor sit amet, in eam odio amet, vix id nullam detracto, vidit vituperatoribus duo id. Affert detraxit voluptatum vis eu, inermis eloquentiam." transform="translate(370 1501)" fill="#fff" font-size="16" font-family="Helvetica"><tspan x="0" y="12">Lorem ipsum dolor sit amet, in eam odio amet, vix id nullam detracto, vidit vituperatoribus duo </tspan><tspan x="0" y="38">id. Affert detraxit voluptatum vis eu, inermis eloquentiam.</tspan></text>
+          <text id="Large_article_title-2" data-name="Large article title" transform="translate(370 1467)" fill="#fff" font-size="24" font-family="Helvetica-Bold, Helvetica" font-weight="700"><tspan x="0" y="18">Large article title</tspan></text>
+          <g id="time-13" data-name="time" transform="translate(117 456)">
+            <text id="_2m_ago-3" data-name="2m ago" transform="translate(277 1110)" fill="#cbd0d3" font-size="13" font-family="Helvetica-Oblique, Helvetica" font-style="oblique"><tspan x="0" y="0">2m ago</tspan></text>
+            <g id="time-14" data-name="time" transform="translate(253 1097)" clip-path="url(#clip-path-4)">
+              <path id="Path_5-7" data-name="Path 5" d="M8,0a8,8,0,1,0,8,8A8.024,8.024,0,0,0,8,0ZM8,14a6,6,0,1,1,6-6A6.018,6.018,0,0,1,8,14ZM9,7.6l2.7,2.7-1.4,1.4L7,8.4V3H9Z" fill="#cbd0d3"/>
+            </g>
+          </g>
+        </g>
+        <text id="TRAVEL-2" data-name="TRAVEL" transform="translate(350 1238)" fill="#fff" font-size="16" font-family="Helvetica-Bold, Helvetica" font-weight="700"><tspan x="0" y="12">TRAVEL</tspan></text>
+      </g>
+    </g>
+    <g id="right_column" data-name="right column" transform="translate(1130 1145)">
+      <g id="next_previous-2" data-name="next / previous" transform="translate(298)">
+        <g id="arrow-5" data-name="arrow" transform="translate(46)" clip-path="url(#clip-path-2)">
+          <path id="arrow-6" data-name="arrow" d="M5,6a.908.908,0,0,1-.7-.3l-4-4A.967.967,0,0,1,.3.3.967.967,0,0,1,1.7.3L5,3.6,8.3.3A.967.967,0,0,1,9.7.3a.967.967,0,0,1,0,1.4l-4,4A.908.908,0,0,1,5,6Z" transform="translate(0 10) rotate(-90)" fill="#202124"/>
+        </g>
+        <g id="arrow_back-5" data-name="arrow back" opacity="0.3">
+          <path id="arrow_back-6" data-name="arrow back" d="M5,6a.908.908,0,0,1-.7-.3l-4-4A.967.967,0,0,1,.3.3.967.967,0,0,1,1.7.3L5,3.6,8.3.3A.967.967,0,0,1,9.7.3a.967.967,0,0,1,0,1.4l-4,4A.908.908,0,0,1,5,6Z" transform="translate(6) rotate(90)" fill="#202124"/>
+        </g>
+      </g>
+      <g id="new-4" data-name="new" transform="translate(-10 55)" clip-path="url(#clip-path-15)">
+        <g id="new-5" data-name="new" transform="translate(-1300 -257)">
+          <text id="Small_title" data-name="Small title" transform="translate(1300 487)" fill="#202124" font-size="16" font-family="AcuminPro-Bold, Acumin Pro" font-weight="700"><tspan x="0" y="12">Small title</tspan></text>
+          <rect id="_161975_1024x768" data-name="161975_1024x768" width="360" height="210" rx="6" transform="translate(1300 257)" fill="url(#pattern-7)"/>
+          <g id="time-15" data-name="time" transform="translate(1047 -584)">
+            <text id="_3h_ago_by_Worldnews" data-name="3h ago by Worldnews" transform="translate(279 1110)" fill="#a6adb4" font-size="13" font-family="Helvetica-Oblique, Helvetica" font-style="oblique"><tspan x="0" y="0">3h ago by </tspan><tspan y="0" text-decoration="underline">Worldnews</tspan></text>
+            <g id="time-16" data-name="time" transform="translate(253 1097)" clip-path="url(#clip-path-4)">
+              <path id="Path_5-8" data-name="Path 5" d="M8,0a8,8,0,1,0,8,8A8.024,8.024,0,0,0,8,0ZM8,14a6,6,0,1,1,6-6A6.018,6.018,0,0,1,8,14ZM9,7.6l2.7,2.7-1.4,1.4L7,8.4V3H9Z" fill="#cbd0d3"/>
+            </g>
+          </g>
+        </g>
+        <g id="new-6" data-name="new" transform="translate(-1300 55)">
+          <text id="Small_title-2" data-name="Small title" transform="translate(1300 487)" fill="#202124" font-size="16" font-family="AcuminPro-Bold, Acumin Pro" font-weight="700"><tspan x="0" y="12">Small title</tspan></text>
+          <rect id="roberto-nickson-g-744100-unsplash" width="360" height="210" rx="6" transform="translate(1300 257)" fill="url(#pattern-8)"/>
+          <g id="time-17" data-name="time" transform="translate(1047 -584)">
+            <text id="_4h_ago_by_Days" data-name="4h ago by Days" transform="translate(279 1110)" fill="#a6adb4" font-size="13" font-family="Helvetica-Oblique, Helvetica" font-style="oblique"><tspan x="0" y="0">4h ago by </tspan><tspan y="0" text-decoration="underline">Days</tspan></text>
+            <g id="time-18" data-name="time" transform="translate(253 1097)" clip-path="url(#clip-path-4)">
+              <path id="Path_5-9" data-name="Path 5" d="M8,0a8,8,0,1,0,8,8A8.024,8.024,0,0,0,8,0ZM8,14a6,6,0,1,1,6-6A6.018,6.018,0,0,1,8,14ZM9,7.6l2.7,2.7-1.4,1.4L7,8.4V3H9Z" fill="#cbd0d3"/>
+            </g>
+          </g>
+        </g>
+        <g id="new-7" data-name="new" transform="translate(-1300 367)">
+          <text id="Small_title-3" data-name="Small title" transform="translate(1300 487)" fill="#202124" font-size="16" font-family="AcuminPro-Bold, Acumin Pro" font-weight="700"><tspan x="0" y="12">Small title</tspan></text>
+          <rect id="tom-mussak-108425-unsplash" width="360" height="210" rx="6" transform="translate(1300 257)" fill="url(#pattern-9)"/>
+          <g id="time-19" data-name="time" transform="translate(1047 -584)">
+            <text id="_3h_ago_by_Monica" data-name="3h ago by Monica" transform="translate(279 1110)" fill="#a6adb4" font-size="13" font-family="Helvetica-Oblique, Helvetica" font-style="oblique"><tspan x="0" y="0">3h ago by </tspan><tspan y="0" text-decoration="underline">Monica</tspan></text>
+            <g id="time-20" data-name="time" transform="translate(253 1097)" clip-path="url(#clip-path-4)">
+              <path id="Path_5-10" data-name="Path 5" d="M8,0a8,8,0,1,0,8,8A8.024,8.024,0,0,0,8,0ZM8,14a6,6,0,1,1,6-6A6.018,6.018,0,0,1,8,14ZM9,7.6l2.7,2.7-1.4,1.4L7,8.4V3H9Z" fill="#cbd0d3"/>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+    <g id="Footer" transform="translate(0 2200)">
+      <rect id="base-9" data-name="base" width="1800" height="200" fill="#a6adb4"/>
+      <g id="main-2" data-name="main" transform="translate(310 58)">
+        <text id="Home" transform="translate(110 10)" fill="#cbd0d3" font-size="13" font-family="Helvetica-Bold, Helvetica" font-weight="700"><tspan x="0" y="0">Home</tspan></text>
+        <text id="About" transform="translate(210 10)" fill="#cbd0d3" font-size="13" font-family="Helvetica-Bold, Helvetica" font-weight="700"><tspan x="0" y="0">About</tspan></text>
+        <text id="Testimonials" transform="translate(310 10)" fill="#cbd0d3" font-size="13" font-family="Helvetica-Bold, Helvetica" font-weight="700"><tspan x="0" y="0">Testimonials</tspan></text>
+        <text id="Photos" transform="translate(110 56)" fill="#cbd0d3" font-size="13" font-family="Helvetica-Bold, Helvetica" font-weight="700"><tspan x="0" y="0">Photos</tspan></text>
+        <text id="Terms" transform="translate(210 56)" fill="#cbd0d3" font-size="13" font-family="Helvetica-Bold, Helvetica" font-weight="700"><tspan x="0" y="0">Terms</tspan></text>
+        <text id="Integrations" transform="translate(310 56)" fill="#cbd0d3" font-size="13" font-family="Helvetica-Bold, Helvetica" font-weight="700"><tspan x="0" y="0">Integrations</tspan></text>
+        <text id="Contact" transform="translate(110 79)" fill="#cbd0d3" font-size="13" font-family="Helvetica-Bold, Helvetica" font-weight="700"><tspan x="0" y="0">Contact</tspan></text>
+        <text id="Guidlines" transform="translate(210 79)" fill="#cbd0d3" font-size="13" font-family="Helvetica-Bold, Helvetica" font-weight="700"><tspan x="0" y="0">Guidlines</tspan></text>
+        <text id="Careers" transform="translate(310 79)" fill="#cbd0d3" font-size="13" font-family="Helvetica-Bold, Helvetica" font-weight="700"><tspan x="0" y="0">Careers</tspan></text>
+        <text id="Discovery" transform="translate(110 33)" fill="#cbd0d3" font-size="13" font-family="Helvetica-Bold, Helvetica" font-weight="700"><tspan x="0" y="0">Discovery</tspan></text>
+        <text id="Help" transform="translate(210 33)" fill="#cbd0d3" font-size="13" font-family="Helvetica-Bold, Helvetica" font-weight="700"><tspan x="0" y="0">Help</tspan></text>
+        <text id="Advertise" transform="translate(310 33)" fill="#cbd0d3" font-size="13" font-family="Helvetica-Bold, Helvetica" font-weight="700"><tspan x="0" y="0">Advertise</tspan></text>
+        <text id="LOGO" transform="translate(10 10)" fill="#fff" font-size="13" font-family="AcuminPro-Bold, Acumin Pro" font-weight="700"><tspan x="0" y="0">LOGO</tspan></text>
+      </g>
+      <g id="subscribe" transform="translate(920 58)">
+        <g id="field" fill="none" stroke="#fff" stroke-width="2" opacity="0.1">
+          <rect width="260" height="40" rx="6" stroke="none"/>
+          <rect x="1" y="1" width="258" height="38" rx="5" fill="none"/>
+        </g>
+        <g id="send" transform="translate(224 12)" clip-path="url(#clip-path-4)">
+          <path id="send-2" data-name="send" d="M10,16,8,8,0,6,16,0Z" fill="#fff"/>
+        </g>
+        <text id="Email" transform="translate(20 14)" fill="#cbd0d3" font-size="13" font-family="Helvetica" opacity="0.5"><tspan x="0" y="10">Email</tspan></text>
+        <text id="Stay_in_touch_with_us_for_the_freshest_products_" data-name="Stay in touch with us for the freshest products!" transform="translate(0 56)" fill="#cbd0d3" font-size="11" font-family="Helvetica"><tspan x="0" y="8">Stay in touch with us for the freshest products!</tspan></text>
+      </g>
+      <g id="Social" transform="translate(1344 56)">
+        <g id="facebook" transform="translate(72)" clip-path="url(#clip-path-20)">
+          <rect id="Rectangle_392" data-name="Rectangle 392" width="16" height="16" fill="none"/>
+          <path id="Path_1" data-name="Path 1" d="M85.422,16V8.711h2.489l.356-2.844H85.422V4.089c0-.8.267-1.422,1.422-1.422h1.511V.089C88,.089,87.111,0,86.133,0a3.431,3.431,0,0,0-3.644,3.733V5.867H80V8.711h2.489V16Z" transform="translate(-76 0.001)" fill="#fff" fill-rule="evenodd"/>
+        </g>
+        <g id="twitter" transform="translate(24)" clip-path="url(#clip-path-4)">
+          <rect id="Rectangle_393" data-name="Rectangle 393" width="16" height="16" fill="none"/>
+          <path id="Path_2" data-name="Path 2" d="M43.067,14.978A9.25,9.25,0,0,0,52.4,5.644V5.2A7.225,7.225,0,0,0,54,3.511a7.379,7.379,0,0,1-1.867.533,3.458,3.458,0,0,0,1.422-1.778,8.153,8.153,0,0,1-2.044.8A3.175,3.175,0,0,0,49.111,2a3.34,3.34,0,0,0-3.289,3.289A1.733,1.733,0,0,0,45.911,6a9.19,9.19,0,0,1-6.756-3.467,3.4,3.4,0,0,0-.444,1.689,3.532,3.532,0,0,0,1.422,2.756,3,3,0,0,1-1.511-.444h0a3.249,3.249,0,0,0,2.667,3.2,2.74,2.74,0,0,1-.889.089,1.513,1.513,0,0,1-.622-.089,3.367,3.367,0,0,0,3.111,2.311A6.711,6.711,0,0,1,38.8,13.467a2.461,2.461,0,0,1-.8-.089,8.39,8.39,0,0,0,5.067,1.6" transform="translate(-38 -0.001)" fill="#fff" fill-rule="evenodd"/>
+        </g>
+        <g id="instagram" transform="translate(-24)" clip-path="url(#clip-path-4)">
+          <path id="Path_3" data-name="Path 3" d="M8,1.422a24.53,24.53,0,0,1,3.2.089,4.123,4.123,0,0,1,1.511.267,3.122,3.122,0,0,1,1.511,1.511A4.123,4.123,0,0,1,14.489,4.8c0,.8.089,1.067.089,3.2a24.53,24.53,0,0,1-.089,3.2,4.123,4.123,0,0,1-.267,1.511,3.122,3.122,0,0,1-1.511,1.511,4.123,4.123,0,0,1-1.511.267c-.8,0-1.067.089-3.2.089a24.53,24.53,0,0,1-3.2-.089,4.123,4.123,0,0,1-1.511-.267,3.122,3.122,0,0,1-1.511-1.511A4.123,4.123,0,0,1,1.511,11.2c0-.8-.089-1.067-.089-3.2a24.53,24.53,0,0,1,.089-3.2,4.123,4.123,0,0,1,.267-1.511A3.192,3.192,0,0,1,2.4,2.4a1.5,1.5,0,0,1,.889-.622A4.123,4.123,0,0,1,4.8,1.511,24.53,24.53,0,0,1,8,1.422M8,0A26.264,26.264,0,0,0,4.711.089,5.488,5.488,0,0,0,2.756.444a3.48,3.48,0,0,0-1.422.889A3.48,3.48,0,0,0,.444,2.756,4.05,4.05,0,0,0,.089,4.711,26.264,26.264,0,0,0,0,8a26.264,26.264,0,0,0,.089,3.289,5.488,5.488,0,0,0,.356,1.956,3.48,3.48,0,0,0,.889,1.422,3.48,3.48,0,0,0,1.422.889,5.488,5.488,0,0,0,1.956.356A26.264,26.264,0,0,0,8,16a26.264,26.264,0,0,0,3.289-.089,5.488,5.488,0,0,0,1.956-.356,3.729,3.729,0,0,0,2.311-2.311,5.488,5.488,0,0,0,.356-1.956C15.911,10.4,16,10.133,16,8a26.264,26.264,0,0,0-.089-3.289,5.488,5.488,0,0,0-.356-1.956,3.48,3.48,0,0,0-.889-1.422A3.48,3.48,0,0,0,13.244.444,5.488,5.488,0,0,0,11.289.089,26.264,26.264,0,0,0,8,0M8,3.911A4.023,4.023,0,0,0,3.911,8,4.089,4.089,0,1,0,8,3.911m0,6.756A2.619,2.619,0,0,1,5.333,8,2.619,2.619,0,0,1,8,5.333,2.619,2.619,0,0,1,10.667,8,2.619,2.619,0,0,1,8,10.667m4.267-7.911a.978.978,0,1,0,.978.978.986.986,0,0,0-.978-.978" fill="#fff" fill-rule="evenodd"/>
+        </g>
+        <g id="web" transform="translate(120)" clip-path="url(#clip-path-4)">
+          <path id="Path_4" data-name="Path 4" d="M2.4,2.4A7.263,7.263,0,0,1,8,0a7.263,7.263,0,0,1,5.6,2.4A7.263,7.263,0,0,1,16,8a7.263,7.263,0,0,1-2.4,5.6A7.263,7.263,0,0,1,8,16a7.263,7.263,0,0,1-5.6-2.4A7.984,7.984,0,0,1,0,8,7.263,7.263,0,0,1,2.4,2.4Zm6.667,12a3.276,3.276,0,0,0,2-1.2A5.824,5.824,0,0,0,12,10.4a2.208,2.208,0,0,0-.667-1.6A2.347,2.347,0,0,0,9.6,8H8.267a3.893,3.893,0,0,1-1.2-.267,1.21,1.21,0,0,1-.4-.933.693.693,0,0,1,.267-.533A1.011,1.011,0,0,1,7.467,6a.91.91,0,0,1,.667.4c.267.133.4.267.533.267A.8.8,0,0,0,9.2,6.533.8.8,0,0,0,9.333,6a2.122,2.122,0,0,0-.667-1.333,5.515,5.515,0,0,0,.667-2.533.287.287,0,0,0-.267-.267A4.122,4.122,0,0,0,8,1.6,6.67,6.67,0,0,0,4.533,2.667a3.357,3.357,0,0,0-1.2,2.667A3.414,3.414,0,0,0,4.4,7.867,3.643,3.643,0,0,0,6.933,8.933h0v.533A1.712,1.712,0,0,0,7.467,10.8a1.942,1.942,0,0,0,1.2.8V14c0,.133,0,.133.133.267S8.933,14.4,9.067,14.4Z" fill="#fff"/>
+        </g>
+      </g>
+    </g>
+    <g id="Group_14" data-name="Group 14">
+      <g id="Header-2" data-name="Header" transform="translate(-360)">
+        <rect id="base-10" data-name="base" width="1800" height="50" transform="translate(360)" fill="#f6f8f9"/>
+        <text id="LOGO-2" data-name="LOGO" transform="translate(380 30)" fill="#fa6980" font-size="13" font-family="Helvetica-Bold, Helvetica" font-weight="700"><tspan x="0" y="0">LOGO</tspan></text>
+        <text id="HOME-2" data-name="HOME" transform="translate(1803 29)" fill="#343638" font-size="11" font-family="Helvetica-Bold, Helvetica" font-weight="700"><tspan x="0" y="0">HOME</tspan></text>
+        <text id="PHOTOS-2" data-name="PHOTOS" transform="translate(1949 29)" fill="#343638" font-size="11" font-family="Helvetica-Bold, Helvetica" font-weight="700" opacity="0.5"><tspan x="0" y="0">PHOTOS</tspan></text>
+        <text id="CONTACT-2" data-name="CONTACT" transform="translate(2017 29)" fill="#343638" font-size="11" font-family="Helvetica-Bold, Helvetica" font-weight="700" opacity="0.5"><tspan x="0" y="0">CONTACT</tspan></text>
+        <text id="DISCOVERY-2" data-name="DISCOVERY" transform="translate(1863 29)" fill="#343638" font-size="11" font-family="Helvetica-Bold, Helvetica" font-weight="700" opacity="0.5"><tspan x="0" y="0">DISCOVERY</tspan></text>
+        <circle id="christopher-campbell-28567-unsplash" cx="15" cy="15" r="15" transform="translate(2110 10)" fill="url(#pattern-10)"/>
+      </g>
+    </g>
+  </g>
+</svg>
