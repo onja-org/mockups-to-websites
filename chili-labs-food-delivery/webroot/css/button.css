@@ -1,0 +1,100 @@
+:root {
+  --green: #0BCE83;
+  --green-border: 1px solid #0BCE83;
+  --grey-border: 1px solid #D9D0E3;
+  --border-radius: 8px;
+}
+
+body {
+  margin: auto;
+}
+
+.button-favourite,
+.button-add-to-card,
+#button-favourite-big,
+#button-add-to-card-big,
+#button-card {
+  border-radius: var(--border-radius);
+  margin: 10px;
+}
+
+.button-add-to-card,
+#button-add-to-card-big,
+#button-card {
+  background-color: var(--green);
+  border: var(--green-border);
+}
+
+.button-favourite,
+#button-favourite-big,
+.button-add-to-card {
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#button-add-to-card-big,
+#button-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'SF Pro Text', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.button-small,
+.adding {
+display: flex;
+}
+
+.button-favourite,
+.button-add-to-card {
+  padding-inline-start: 2rem;
+  padding-inline-end: 2rem;
+  padding-block-start: 1rem;
+  padding-block-end: 1rem;
+}
+
+#button-favourite-big {
+  padding-inline-start: 2rem;
+  padding-inline-end: 2rem;
+  padding-block-start: 1rem;
+  padding-block-end: 1rem;
+}
+
+#button-add-to-card-big {
+  padding-inline-start: 3rem;
+  padding-inline-end: 3rem;
+  padding-block-start: 1rem;
+  padding-block-end: 1rem;
+}
+
+#button-card {
+  padding-inline-start: 3rem;
+  padding-inline-end: 3rem;
+  padding-block-start: 1rem;
+  padding-block-end: 1rem;
+  }
+
+  .button-favourite,
+  #button-favourite-big {
+    background-color: #FFFFFF;
+    border: var(--grey-border);
+    background-image: url(../image/heart.svg);
+  }
+
+  .button-add-to-card {
+    background-image: url(../image/shopping-cart.svg);
+  }
+
+img {
+  margin: 16px;
+}
+
+#button-add-to-card-big,
+#button-card {
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
