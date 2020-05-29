@@ -89,3 +89,8 @@ button + button {
   background-color: #FFFFFF;
   border: solid var(--border_color) 1px;
 }
+
+.button:focus {
+  border-radius: 8px;
+  border: solid var(--border_color) 1px;
+}
