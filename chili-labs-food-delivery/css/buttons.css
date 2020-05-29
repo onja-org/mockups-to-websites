@@ -1,48 +1,50 @@
 .button {
   display: inline-block;
 }
-.button_group a {
+.button a {
   text-decoration: none;
   text-align: center;
 
 }
-#button_1 {
-  width: 78px;
-  height: 40px;
+.button_favourite_1 {
   background-image: url("../images/heart.svg");
   background-repeat: no-repeat;
   background-size: 20px 20px;
   background-position: center;
   border: 1px solid grey;
   border-radius: 1rem;
+  padding-inline-start: 2rem;
+  padding-inline-end: 2rem;
+  padding-block-start: 2rem;
+  padding-block-end: 2rem;
 }
 
-#button_2 {
-  width: 78px;
-  height: 40px;
+.button_add_to_cart_1 {
   background: #0BCE83;
   background-image: url("../images/shopping-cart.svg");
   background-repeat: no-repeat;
   background-size: 20px 20px;
   background-position: center;
-  border: 1px solid grey;
   border-radius: 1rem;
-
+  padding-inline-start: 2rem;
+  padding-inline-end: 2rem;
+  padding-block-start: 2rem;
+  padding-block-end: 2rem;
 }
 
-#button_3 {
-  width: 78px;
-  height: 56px;
+.button_favourite_2 {
   background-image: url("../images/heart.svg");
   background-repeat: no-repeat;
   background-size: 20px 20px;
   background-position: center;
   border: 1px solid grey;
   border-radius: 1rem;
+  padding-inline-start: 2rem;
+  padding-inline-end: 2rem;
+  padding-block-start: 2rem;
+  padding-block-end: 2rem;
 }
-#button_add-to-cart {
-  width: 230px;
-  height: 56px;
+.button_add-to-cart_2 {
   background: #0BCE83;
   text-transform: uppercase;
   color: #ffff;
@@ -53,7 +55,7 @@
   border: 1px solid grey;
   border-radius: 1rem;
 }
-#button_use-this-cart {
+.button_use-this-cart {
   width: 374px;
   height: 56px;
   background: #0BCE83;
