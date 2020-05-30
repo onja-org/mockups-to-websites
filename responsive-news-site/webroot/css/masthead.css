@@ -12,11 +12,40 @@ body {
 
 main {
   max-width: 375px;
-  margin-inline-start: auto;
-  margin-inline-end: auto;
 }
 .navigation {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  padding-inline-start: 0;
+}
+
+.button_menu::before {
+  content: "=";
+  padding-inline-start: 1rem;
+}
+.link__menu {
+  visibility: hidden;
+}
+.link__logo {
+  font-size: 13px;
+  text-transform: uppercase;
+  color: darkgray;
+  font-weight: 700;
+  text-decoration: none;
+  padding-inline-end: 5rem;
+}
+
+.navigation_link__profile {
+  background-image: url("../images/pattern-10.jpeg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: block;
+  clip-path: circle(30.3% at 50% 50%);
+  width: 2rem;
+  height: 2rem;
+
+}
+.link__profile {
+  visibility: hidden;;
 }

@@ -1,15 +1,55 @@
-.advertisement_title {
+.description {
+  position: relative;
+}
+.description_title {
   position: absolute;
   left: 2rem;
-  top: 5rem;
+  top: 2rem;
   color: #ffffff;
   text-transform: uppercase;
   padding-block-end: 2rem;
   font-size: 24px;
-  border-block-end: #ffffff 2px solid;
+  border-bottom: #ffffff 2px solid;
 }
 
-.advertisement img {
-  max-width: 375px;
-  max-height: 388px;
+.description img {
+  width: 375px;
+  height: 370px;
+}
+
+.header__post {
+  position: absolute;
+  font-size: 24px;
+  top: 7rem;
+  padding-inline-start: 2rem;
+  padding-inline-end: 2rem;
+  color: #ffffff;
+}
+.description__advert {
+  position: absolute;
+  top: 12rem;
+  padding-inline-start: 2rem;
+  padding-inline-end: 1rem;
+  color: #ffffff;
+  line-height: 30px;
+}
+.button__learn_more {
+  position: absolute;
+  top: 18rem;
+  left: 2rem;
+  width: 151px;
+  height: 40px;
+  background-color: rgb(250,105, 128);
+  font-weight: 700;
+  border-radius: 6px;
+}
+.link {
+  color: #ffffff;
+  font-size: 11px;
+  text-decoration: none;
+  text-transform: uppercase;
+  position: absolute;
+  top: 30%;
+  left: 25%;
+
 }
