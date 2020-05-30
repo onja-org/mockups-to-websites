@@ -50,3 +50,7 @@ html {
 .trending {
   background-color: #c1c1c1;
 }
+
+.curent-news__list {
+  list-style: none;
+}

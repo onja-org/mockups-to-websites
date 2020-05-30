@@ -1,4 +1,31 @@
 .menu {
   display: grid;
-  t
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.menu__list {
+  list-style: none;
+}
+
+.menu__anchor {
+  text-decoration: none;
+}
+
+footer {
+  background-color: #cccccc;
+}
+
+.icon {
+  display: flex;
+  flex-direction: row;
+}
+
+.icon__list {
+  list-style: none;
+  scroll-padding-inline-end: 1rem;
+}
+
+.icon__anchor {
+  text-decoration: none;
+  padding-inline-end: 1rem;
 }
