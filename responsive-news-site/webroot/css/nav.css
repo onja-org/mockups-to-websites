@@ -1,0 +1,21 @@
+.list_item{
+  list-style: none;
+}
+.nav_list_item_description{
+  transform: translate(334 1369);
+  font-size: 16px;
+  font-family:Helvetica;
+}
+.nav_list_item_description--link{
+   width: 151px;
+   height: 40px;
+   background-color:#fa6980;
+   transform: translate(76 24);
+   font-size:11px;
+   font-family:Helvetica-Bold, Helvetica;
+   font-weight: 700;
+}
+.nav_list_item_description--link{
+
+}
+nav_list_item_description--link

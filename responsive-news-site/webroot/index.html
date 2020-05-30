@@ -5,13 +5,14 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>responsive</title>
+  <link rel="stylesheet" href="css/default.css">
 </head>
 
 <body>
-  <h1>Logo</h1>
+  <h1 class="header_logo">Logo</h1>
   <nav>
     <ul>
-  <li><a href="/">Home</a></li>
+  <li class="list_item"><a href="/">Home</a></li>
   <li><a href="">discovery</a></li>
   <li><a href="">contact</a></li>
   <li><a href="">photo</a></li>
@@ -19,41 +20,47 @@
   </nav>
   <main>
     <header>
-      <h2>world news</h2>
-      <h3> amizing places in America to visit</h3>
+      <h2 class="header heading2">world news</h2>
     </header>
-    <p>
+    <nav>
+      <ul>
+        <li class="list_item">
+    <h3 class=" header heading3">amizing places in America to visit</h3>
+    <p class="nav_list_item_description">
       For some reason — this country, this city, this neighborhood, this particular street —
        is the place you are living a majority of your life in.
     </p>
-    <p><a href=" /learn-more">learn more</a></p>
+    <p class="nav_list_item_description nav_list_item_description--link"><a href=" /learn-more">learn more</a></p>
+        </li>
+      </ul>
+    </nav>
     <section>
       <header>
-        <h2>
+        <h2 class="header heading2">
           more news
         </h2>
       </header>
       <nav>
         <ul>
-          <li>
-            <h3>
+          <li class="list_item">
+            <h4 class=" header heading4">
               travel
-            </h3>
-            <h4>
-              Article title
             </h4>
-            <p>
+            <h5 class="heading5">
+              Article title
+            </h5>
+            <p class="nav_list_item_description">
               Lorem ipsum dolor sit amet, ipsum labitur lucilius mel id, ad has appareat…
             </p>
-            <p>2min ago</p>
+            <p class="nav_list_item_description">2min ago</p>
           </li>
-          <li>
-            <h3>technology</h3>
-            <h4>aricle title</h4>
-            <p>
+          <li class="list_item">
+            <h4 class=" header heading4">technology</h4>
+            <h5 class="heading5">aricle title</h5>
+            <p class="nav_list_item_description">
               Lorem ipsum dolor sit amet, ipsum labitur lucilius mel id, ad has appareat…
             </p>
-            <p>
+            <p class="nav_list_item_description">
               1min ago
             </p>
           </li>
@@ -62,49 +69,49 @@
     </section>
     <section>
       <header>
-        <h2>
+        <h2 class="header heading2">
           trending
         </h2>
       </header>
       <nav>
         <ul>
-          <li>
-            <h4>
+          <li class="list_item">
+            <h5 class="heading5">
               dolore magma aliqua
-            </h4>
-            <p>Lorem ipsum dolor sit amet, ipsum labitur lucilius mel id, ad has appareat.
+            </h5>
+            <p class="nav_list_item_description">Lorem ipsum dolor sit amet, ipsum labitur lucilius mel id, ad has appareat.
             </p>
-            <p>2m ago</p>
+            <p class="nav_list_item_description">2m ago</p>
           </li>
-          <li>
-            <h4>Morbi eleifend a libero</h4>
-            <p>Lorem ipsum dolor sit amet, ipsum labitur lucilius mel id, ad has appareat.
+          <li class="list_item">
+            <h5 class="heading5">Morbi eleifend a libero</h5>
+            <p class="nav_list_item_description">Lorem ipsum dolor sit amet, ipsum labitur lucilius mel id, ad has appareat.
             </p>
-            <p>1h ago</p>
+            <p class="nav_list_item_description">1h ago</p>
           </li>
         </ul>
       </nav>
     </section>
     <section>
       <header>
-     <h2>
+     <h2 class="header heading2">
        happening now
      </h2>
-     <h3>
+     <h4 class=" header heading4">
        city
      </h3>
       </header>
       <nav>
         <ul>
-          <li>
-            <h2>
+          <li class="list_item">
+            <h3 class=" header heading3">
               Large article title mobile layout
-            </h2>
-            <p>
+            </h3>
+            <p class="nav_list_item_description">
               Lorem ipsum dolor sit amet,
               in eam odio amet, vix id nullam detracto, vidit vituperatoribus duo id. Affert detraxit
             </p>
-            <p>
+            <p class="nav_list_item_description">
               2m ago
             </p>
           </li>
@@ -113,21 +120,21 @@
     </section>
     <section>
      <header>
-      <h3>
+      <h4 class=" header heading4">
         travel
-      </h3>
+      </h4>
      </header>
       <nav>
       <ul>
-        <li>
-       <h4>
+        <li class="list_item">
+       <h3 class=" header heading3">
         Large article title mobile layout
-       </h4>
-       <p>
+       </h3>
+       <p class="nav_list_item_description">
         Lorem ipsum dolor sit amet,
          in eam odio amet, vix id nullam detracto, vidit vituperatoribus duo id. Affert detraxit
        </p>
-       <p>
+       <p class="nav_list_item_description">
         2d ago
        </p>
        </li>
@@ -135,15 +142,15 @@
     </nav>
     </section>
     <section>
-      <h5>
+      <h5 class="heading5">
         Small title
       </h5>
-      <p>
+      <p class="nav_list_item_description">
         4h ago by Days
       </p>
     </section>
     <section>
-      <h5>
+      <h5 class="heading5">
         Small title
       </h5>
       <p>
@@ -153,18 +160,17 @@
       <footer>
         <nav>
           <ul>
-        <li><a href="/about">About</a></li>
-        <li><a href="/help">Help</a></li>
-        <li><a href="/terms">Terms</a></li>
-        <li><a href="/guidlines">Guidlines</a></li>
-        <li><a href="/testimonials">Testimonials</a></li>
-        <li><a href="/advertise">Advertise</a></li>
-        <li><a href="/integration">Integration</a></li>
-        <li><a href="/careers">Careers</a></li>
+        <li class="list_item"><a href="/about">About</a></li>
+        <li class="list_item"><a href="/help">Help</a></li>
+        <li class="list_item"><a href="/terms">Terms</a></li>
+        <li class="list_item"><a href="/guidlines">Guidlines</a></li>
+        <li class="list_item"><a href="/testimonials">Testimonials</a></li>
+        <li class="list_item"><a href="/advertise">Advertise</a></li>
+        <li class="list_item"><a href="/integration">Integration</a></li>
+        <li class="list_item"><a href="/careers">Careers</a></li>
       </ul>
       </nav>
       </footer>
-
   </main>
 </body>
 

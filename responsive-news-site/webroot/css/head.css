@@ -1,0 +1,24 @@
+:root{
+ --font-weight-of-head : 700;
+ --font-size-of-head : 24px;
+ --font-family-of-head :Helvetica-Bold, Helvetica;
+}
+body{
+  max-width: 375px;
+}
+.header{
+  font-weight: var(--font-weight-of-head);
+  font-size: var(--font-size-of-head);
+  font-family: var(--font-family-of-head);
+}
+
+.heading3{
+ transform: translate(310 334);
+ background-color: indianred;
+
+}
+.heading2{
+  transform: translate(310 234);
+  text-transform: uppercase;
+}
+
