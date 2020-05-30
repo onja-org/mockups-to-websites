@@ -1,0 +1,29 @@
+header{
+ max-width: 375px;
+}
+
+.nav_world_news_links{
+  background-color: gainsboro;
+}
+.world_news_links_informations{
+  text-decoration: none;
+  color: grey;
+  text-transform: uppercase;
+
+}
+.world_news_links{
+  list-style: none;
+}
+
+
+
+
+
+
+
+
+
+
+img{
+  max-width: 375px;
+}
