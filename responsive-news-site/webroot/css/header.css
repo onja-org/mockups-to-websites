@@ -1,0 +1,31 @@
+.nav {
+  display: none;
+}
+
+.head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.head__profile {
+  display: inline-block;
+  background-image: url("../images/pattern-10.jpeg");
+  text-decoration: none;
+  background-size: contain;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  background-position: center;
+}
+
+.head__h1 {
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.head__link {
+  text-decoration: none;
+  color: #000000;
+}

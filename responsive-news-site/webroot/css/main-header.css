@@ -1,0 +1,35 @@
+.heading {
+  position: relative;
+  color: #ffffff;
+  margin: 0;
+}
+
+.heading__h1 {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-family: Arial, Helvetica, sans-serif;
+  position: absolute;
+  border-bottom: solid 5px #ffffff;
+  padding-block-end: 2rem;
+  padding-inline-start: 1rem;
+}
+
+.heading__paragraph {
+  position: absolute;
+  top: 8rem;
+  left: 1.5rem;
+}
+
+.heading__paragraph__link {
+  position: absolute;
+  left: 1.5rem;
+  bottom: 3rem;
+}
+
+.heading__h2 {
+  position: absolute;
+  top: 5rem;
+  left: 1.5rem;
+}
+
+

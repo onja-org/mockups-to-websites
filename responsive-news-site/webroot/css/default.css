@@ -1,0 +1,26 @@
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.news__heading {
+  text-transform: uppercase;
+  font-weight: bold;
+  margin: 0;
+}
+
+.more-news {
+  padding: 0;
+  margin: 0;
+}
+
+.more-news__list {
+  list-style: none;
+}
+
+.more-news__list__heading {
+  margin: 0;
+}
+
+.more-news__list__subheading {
+  margin: 0;
+}
