@@ -1,0 +1,26 @@
+.main_headings{
+  font-size: x-large;
+  font-weight: 800;
+  text-transform: uppercase;
+  padding-block-end: 2rem;
+}
+
+.main_headings_1{
+  font-size: x-large;
+  font-weight: 800;
+  text-transform: uppercase;
+  padding-block-end: 2rem;
+}
+
+.sub_headings{
+  font-size: large;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: rgba(250, 19, 57, 0.719);
+  padding-block-start: 2rem;
+}
+
+.sub_headings__articles{
+  font-size: large;
+  font-weight: bold;
+}

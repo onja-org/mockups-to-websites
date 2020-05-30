@@ -1,0 +1,20 @@
+.article{
+  color: lightslategray;
+}
+
+.article_time{
+  color: lightslategray;
+  font-style: italic;
+  padding-block-end: 3rem;
+}
+
+.article_title{
+  font-weight: 500;
+  font-weight: bold;
+  padding-inline-start: 1rem;
+}
+
+.article_1{
+  background-color: white;
+}
+

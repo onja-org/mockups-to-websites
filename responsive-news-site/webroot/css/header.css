@@ -9,6 +9,9 @@
   top: 0;
   color: white;
   text-transform: uppercase;
+  font-size: x-large;
+  font-weight: 800;
+  border-block-end: white 2px solid;
 }
 
 .intro__subhead {
@@ -28,31 +31,37 @@
   vertical-align:middle; 
   position: absolute;
   padding-block-start: 110px;
-  margin: 1rem;
   left: 0;
   top: 0;
+  margin: 1rem;
   color: white;
   font-size: 17px;
   font-weight: 700px;
   font-family: Arial, Helvetica, sans-serif;
-  margin-block-start: 80px;
-  font-size: 20px;
+  margin-block-start: 100px; 
+  font-size: 16px;
 }
 
 .intro__link {
+  list-style: none;
   position: absolute;
   top: 70%;
   left: 10%;
   transform: translate(0%, 100%);
   background-color: rgb(250, 105, 128);
-  color: white;
-  font-size: 12px;
+  margin-block-start: -2rem;
   padding-inline-start: 2.5rem;
   padding-inline-end: 2.5rem;
   margin-inline-start: -1.25rem;
   height: 40px;
-  line-height: 0.5;
+  border-radius: 5px;
+}
+
+.intro__link--link{
+  color:white;
+  font-size: 12px;
+  line-height: 3;
   border: none;
   text-transform: uppercase;
-  border-radius: 5px;
+  text-decoration: none;
 }
