@@ -1,0 +1,16 @@
+.button {
+  margin-inline-start: 1rem;
+  margin-inline-end: 1rem;
+  background-color: #fa6980;
+  position: relative;
+  width: 8rem;
+  height: 2rem;
+  border: none;
+  border-radius: 4px;
+}
+
+.learn-more {
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+}

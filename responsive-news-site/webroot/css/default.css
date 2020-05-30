@@ -1,0 +1,22 @@
+html {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+}
+body {
+  background-color: #f6f8f9;
+  max-width: 393px;
+  margin-inline-start: 0;
+  margin-inline-end: 0;
+  padding: 0;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: stretch;
+  position: relative;
+}
+.section {
+  flex-grow: 1;
+}
+
