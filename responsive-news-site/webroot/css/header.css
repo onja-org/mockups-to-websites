@@ -1,0 +1,9 @@
+.introduction{
+  position: relative;
+  display: inline-block;
+}
+
+.text {
+  position: absolute;
+  text-align: center;
+}
