@@ -1,0 +1,42 @@
+.navigation__container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-grow: 1;
+  background-color: rgb(246, 248, 249);
+  opacity: 0.1;
+  padding-inline-start: 16px;
+  padding-inline-end: 16px;
+  padding-block-start: 16px;
+  padding-block-end: 1.5rem;
+  margin: 0;
+
+
+}
+
+.navigation__list_item {
+  list-style: none;
+  margin-block-start: 16px;
+}
+
+.navigation__link {
+  text-decoration: none;
+}
+.navigation__link--menu {
+  color: transparent;
+}
+
+
+.navigation__list_item--menu::before {
+  content: "Ξ";
+
+}
+
+.navigation__link--logo {
+  color: #000000;
+  font-weight: bold;
+}
+
+.navigation__link--profile {
+  border-radius: 50%;
+}

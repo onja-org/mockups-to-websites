@@ -4,17 +4,217 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Responsive news site.</title>
+  <link rel="stylesheet" href="../responsive-news-site/webroot/css/index.css">
 </head>
-<body>
+<body class="responsive">
   <header>
-    <nav>
-      <ul>
-        <li><a href="/menu">Menu</a></li>
-        <li><a href="/logo">LOGO</a></li>
-        <li><a href="/profile"><img width="65" height="50" src="../responsive-news-site/webroot/images/profile.jpeg"></a></li>
+    <nav class="navigation">
+      <ul class="navigation__container">
+        <li class="navigation__list_item navigation__list_item--menu"><a class="navigation__link navigation__link--menu" href="/menu">Menu</a></li>
+        <li class="navigation__list_item"><a class="navigation__link navigation__link--logo" href="/logo">LOGO</a></li>
+        <li class="navigation__list_item"><a class="navigation__link" href="/profile"><img class="navigation__link--profile" width="15" height="15" src="../responsive-news-site/webroot/images/profile.jpeg" alt="Profile image"></a></li>
       </ul>
     </nav>
   </header>
+  <main>
+    <article class="world_news">
+      <header>
+        <h2 class="world_news__heading">
+          WORLD NEWS
+        </h2>
+      </header>
+      <h3 class="world_news__america">
+        Amazing places in America to visit.
+      </h3>
+      <p class="world_news__information">
+        For some reason -- this country, this city,this neighborhood, this particular street -- is the place you are living a majority of your life in.
+      </p>
+      <p class="world_news__link"><a class="world_news__learn_more" href="/learn-more">Learn more</a></p>
+    </article>
+    <article class="more_news">
+      <header>
+        <h2 class="more_news__heading">
+          MORE NEWS
+        </h2>
+      </header>
+      <nav class="more_news__navigation">
+        <ul class="more_news__navigation_container">
+          <li class="more_news__list_item">
+            <h3 class="more_news__subheading">
+              TRAVEL
+            </h3>
+            <p class="more_news__article_title">
+              Article title
+            </p>
+            <small class="more_news__lorem_text">
+              Lorem ipsum dolor sit amet, ipsum labitur lucilius mel id, ad has appareat...
+            </small><br>
+            <small class="more_news__updated_time">
+              <i>2min ago</i>
+            </small>
+          </li>
+          <li class="more_news__list_item">
+            <h3 class="more_news__subheading">
+              TECHNOLOGY
+            </h3>
+            <p class="more_news__article_title">
+              Article title
+            </p>
+            <small class="more_news__lorem_text">
+              Lorem ipsum dolor sit amet, ipsum labitur lucilius mel id, ad has appareat...
+            </small><br>
+            <small class="more_news__updated_time">
+              <i>1h ago</i>
+            </small>
+          </li>
+        </ul>
+      </nav>
+    </article>
+    <article class="trending">
+      <header>
+        <h2 class="trending__heading">
+          TRENDING
+        </h2>
+      </header>
+      <nav class="trending__navigation">
+        <ul class="trending__navigation_container">
+          <li class="trending__list_item trending__list_item--dolor">
+            <p class="trendind__subtitle">
+              Dolor magna aliqua
+            </p>
+            <small class="trending__lorem_text">
+              Lorem ipsum dolor sit amet, ipsum labitur lucilius mel id, ad has appareat.
+            </small><br>
+            <small class="trending__updated_time">
+              <i>2m ago</i>
+            </small>
+          </li>
+          <li class="trending__list_item trending__list_item--morbi">
+            <p class="trending__subtitle">
+              Morbi eleifend a libero
+            </p>
+            <small class="trending__lorem_text">
+              Lorem ipsum dolor sit amet, ipsum labitur lucilius mel id, ad has appareat.
+            </small><br>
+            <small class="trending__updated_time">
+              <i>1h ago</i>
+            </small>
+          </li>
+        </ul>
+      </nav>
+    </article>
+    <article class="happening_now">
+      <header>
+        <h2 class="happening_now__heading">
+          HAPPENING NOW
+        </h2>
+      </header>
+      <nav class="happening_now__navigation">
+        <ul class="happening_now__navigation_container">
+          <li class="happening_now__list_item happening_now__list_item--city">
+            <h3 class="happening_now__subheading">
+              CITY
+            </h3>
+            <h4 class="happening_now__small_heading">
+              Large article title mobile layout
+            </h4>
+            <p class="happening_now__lorem_text">
+              Lorem ipsum dolor sit amet, in eam odio amet, vix id nullam detracto, vidit vituperatoribusduo id. Affert detraxit
+            </p>
+            <small class="happening_now__updated_time">
+              <i>2min ago</i>
+            </small>
+          </li>
+          <li class="happening_now__list_item">
+            <h3 class="happening_now__subheading">
+              TRAVEL
+            </h3>
+            <h4 class="happening_now__small_heading">
+              Large article title mobile layout
+            </h4>
+            <p class="happening_now__lorem_text">
+              Lorem ipsum dolor sit amet, in eam odio amet, vix id nullam detracto, vidit vituperatoribusduo id. Affert detraxit
+            </p>
+            <small class="happening_now__updated_time">
+              <i>2d ago</i>
+            </small>
+          </li>
+        </ul>
+      </nav>
+    </article>
+    <nav>
+      <ul>
+        <li>
+          <p>
+            Small title
+          </p>
+          <small>
+            3h ago by <u>Worldnews</u>
+          </small>
+        </li>
+        <li>
+          <p>
+            Small title
+          </p>
+          <small>
+            4h ago by <u>Days</u>
+          </small>
+        </li>
+        <li>
+          <p>
+            Small title
+          </p>
+          <small>
+            3h ago by <u>Monica</u>
+          </small>
+        </li>
+      </ul>
+    </nav>
+  </main>
+  <footer>
+    <table>
+      <tr>
+        <td>
+          <a href="/about">About</a>
+        </td>
+        <td>
+          <a href="/testimonials">Testimonials</a>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <a href="/help">Help</a>
+        </td>
+        <td>
+          <a href="/advertise">Advertise</a>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <a href="/terms">Terms</a>
+        </td>
+        <td>
+          <a href="/integrations">Integrations</a>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <a href="/guidlines">Guidlines</a>
+        </td>
+        <td>
+          <a href="/careers">Careers</a>
+        </td>
+      </tr>
+    </table>
+    <nav>
+      <ul>
+        <li><a href="/instagram">Instagram</a></li>
+        <li><a href="/twitter">Twitter</a></li>
+        <li><a href="/facebook">Facebook</a></li>
+        <li><a href=""></a></li>
+      </ul>
+    </nav>
+  </footer>
 
 
 </body>

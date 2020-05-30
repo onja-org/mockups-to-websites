@@ -1,0 +1,185 @@
+.world_news {
+  background-image: url("../images/pattern.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  padding: 1.5rem;
+
+}
+
+.world_news__heading {
+  border-bottom: 2px solid white;
+  padding-block-end: 2rem;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.world_news__america {
+  font-weight: bold;
+  font-size: 20px;
+
+}
+
+.world_news__learn_more {
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+  background-color: rgb(250, 105, 128);;
+  padding-inline-start: 32px;
+  padding-inline-end: 32px;
+  padding-block-start: 16px;
+  padding-block-end: 16px;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+.world_news__link {
+  margin-block-start: 2.5rem;
+  margin-block-end: 3rem;
+}
+
+.more_news__heading {
+  font-size: 24px;
+  font-weight: bold;
+  padding-block-end: 2rem;
+  border-bottom: 2px solid rgb(235, 237, 237);
+}
+
+.more_news {
+  padding: 1.5rem;
+}
+
+.more_news__subheading {
+  color: red;
+  font-size: 16px;
+  font-weight: bold;
+  padding-block-start: 1.5rem;
+}
+
+.more_news__navigation_container {
+  padding: 0;
+}
+
+.more_news__list_item {
+  list-style: none;
+}
+
+.more_news__article_title {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.more_news__lorem_text {
+  font-size: 16px;
+  color: lightgray;
+}
+
+.more_news__updated_time {
+  font-size: 13px;
+  color: lightgrey;
+}
+
+.trending {
+  padding: 1.5rem;
+  background-color: rgb(246, 248, 249);
+}
+
+.trending__navigation_container {
+  padding-inline-start: 0;
+}
+
+.trending__list_item {
+  list-style: none;
+  background-color: white;
+  padding-block-end: 2rem;
+  padding-inline-start: 1.5rem;
+  padding-block-start: 12rem;
+  border-radius: 8px;
+}
+
+.trending__list_item--dolor {
+  background-image: url("../images/pattern-2.jpeg");
+  background-repeat: no-repeat;
+  background-size: 350px 170px;
+}
+
+.trendind__subtitle {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.trending__lorem_text {
+  color: lightgray;
+  font-size: 13px;
+}
+
+.trending__updated_time {
+  color: lightgray;
+  font-size: 13px;
+}
+
+.trending__list_item--morbi {
+  background-image: url("../images/pattern-3.jpeg");
+  background-repeat: no-repeat;
+  background-size: 350px 170px;
+  margin-block-start: 3rem;
+
+}
+
+.happening_now {
+  padding: 1.5rem;
+  background-color: rgb(246, 248, 249);
+
+}
+
+.happining_now__heading {
+  font-size: 24px;
+  font-weight: bold;
+
+}
+
+.happening_now__navigation_container {
+  padding-inline-start: 0;
+}
+
+.happening_now__subheading {
+  padding-block-start: 2rem;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.happening_now__list_item--city {
+  background-image: url("../images/pattern-5.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.happening_now__small_heading {
+  font-size: 24px;
+  font-weight: bold;
+  margin-block-end: 0;
+}
+
+.happening_now__list_item {
+  color: white;
+  list-style: none;
+  padding-inline-start: 2rem;
+  padding-block-end: 2rem;
+  border-radius: 8px;
+}
+
+.happening_now__list_item--city {
+  background-image: url("../images/pattern-5.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.happening_now__lorem_text {
+  font-size: 16px;
+  margin-block-start: 16px;
+}
+
+.happening_now__updated_time {
+  font-size: 16px;
+  color: lightgray;
+}
