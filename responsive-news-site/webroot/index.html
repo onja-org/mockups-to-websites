@@ -4,12 +4,13 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title> A responsive new site</title>
+  <link rel="stylesheet" href="css/index.css">
 </head>
 
 <body>
   <header>
     <nav class="navigation">
-      <ul class="navigation__menus">
+      <ul class="navigation__menus--hidden">
         <li class="navigation__menus__list-of-menus"><a class="navigation__menus__list-of-menus__new-tab"
             href="/home">Home</a></li>
         <li class="navigation__menus__list-of-menus"><a class="navigation__menus__list-of-menus__new-tab"
@@ -19,7 +20,7 @@
         <li class="navigation__menus__list-of-menus"><a class="navigation__menus__list-of-menus__new-tab"
             href="/contact">Contact</a></li>
       </ul>
-      <ul class="navigation__menus">
+      <ul class="navigation__menus--transform">
         <li class="navigation__menus__list-of-menus" <a class="navigation__menus__list-of-menus__new-tab--Logo"
           href="logo">Logo</a>
         </li>
@@ -32,26 +33,31 @@
     </nav>
   </header>
   <main>
-    <article class="sharing-news">
-      <header class="sharing-news__titles">
-        <!-- <img src="../docs/american-amazing-place.jpeg" alt=""> -->
-        <h1 class="sharing-news__titles__big-title">
-          World news
-        </h1>
-        <h2 class="sharing-news__titles__sub-title1">
-          Amazing places in America to visit.
-        </h2>
-      </header>
-      <p class="sharing-news__explanation">
-        For some reason — this country, this city, this neighborhood, this particular street —  is the place you are
-        living a majority of your life in.
-      </p>
-      <a class="sharing-news-learn-more-link" href="learn-more">Learn-more</a>
+    <article class="sharing-news" id="world-news">
+      <aside class="sharing-news__section">
+        <header class="sharing-news__titles">
+          <h1 class="sharing-news__titles__big-title">
+            World news
+          </h1>
+          <h2 class="sharing-news__titles__sub-title1">
+            Amazing places in America to visit.
+          </h2>
+        </header>
+        <p class="sharing-news__explanation">
+          For some reason — this country, this city, this neighborhood, this particular street —  is the place you are
+          living a majority of your life in.
+        </p>
+        <a class="sharing-news-learn-more-link" href="learn-more">Learn more</a>
+      </aside>
+      <aside class="sharing-news__section--image">
+        <img class="sharing-news__american-photo" src="../docs/american-amazing-place.jpeg" alt="">
+      </aside>
     </article>
-    <article class="sharing-news">
+
+    <article class="sharing-news" id="more-news">
       <header class="sharing-news__titles">
         <h1 class="sharing-news__titles__big-title">More news</h1>
-        <h2 class="sharing-news__titles__sub-title1">Travel</h2>
+        <h2 class="sharing-news__titles__sub-title1--uppercase">Travel</h2>
         <h3 class="sharing-news__titles__sub-title2">Article title</h3>
       </header>
       <p class="sharing-news__explanation">
@@ -61,19 +67,21 @@
         <small>2mn ago</small>
       </p>
     </article>
-    <article class="sharing-news">
+
+    <article class="sharing-news" id="sharing-news">
       <header class="sharing-news__titles">
-        <h2 class="sharing-news__titles__sub-title">Technologie</h2>
+        <h2 class="sharing-news__titles__sub-title1--uppercase">Technologie</h2>
         <h3 class="sharing-news__titles__sub-title2">Article title</h3>
       </header>
-      <p class="sharing-news__explanation">>
+      <p class="sharing-news__explanation">
         Lorem ipsum dolor sit amet, ipsum labitur lucilius mel id, ad has appareat…
       </p>
       <p class="sharing-news__explanation--period">
         <small>1h ago</small>
       </p>
     </article>
-    <article class="sharing-news">
+
+    <article class="sharing-news" id="trending">
       <header class="sharing-news__titles">
         <h1 class="sharing-news__titles__big-title">
           Trending
@@ -82,7 +90,8 @@
       <nav class="sharing-news-navigation">
         <ul class="sharing-news-navigation__description-lists">
           <li class="sharing-news-navigation__description-lists__list">
-            <!--<img src="../docs/trending.jpeg" alt=""> -->
+            <img class="sharing-news-navigation__trending-image" src="../docs/trending.jpeg" alt="">
+
             <h2 class="sharing-news__titles__sub-title1">
               Dolore magna aliqua
             </h2>
@@ -94,11 +103,11 @@
             </p>
           </li>
           <li class="sharing-news-navigation__description-lists__list">
-            <!-- <img src="../docs/nice-beach.jpeg" alt=""> -->
+            <img class="sharing-news-navigation__trending-image" src="../docs/nice-beach.jpeg" alt="">
             <h2 class="sharing-news__titles__sub-title1">
               Morbi eleifend a libero
             </h2>
-            <p class="sharing-news__description">
+            <p class="sharing-news__explanation">
               Lorem ipsum dolor sit amet, ipsum labitur lucilius mel id, ad has appareat…
             </p>
             <p class="sharing-news__explanation--period">
@@ -109,7 +118,7 @@
       </nav>
     </article>
 
-    <article class="sharing-news">
+    <article class="sharing-news" id="happening-today">
       <header class="sharing-news__titles">
         <h1 class="sharing-news__titles__big-title">
           Happening now
@@ -118,8 +127,7 @@
       <nav class="sharing-news-navigation">
         <ul class="sharing-news-navigation__description-lists">
           <li class="sharing-news-navigation__description-lists__list">
-            <img src="../docs/amazing-city.jpeg" alt="">
-            <h2 class="sharing-news__titles__sub-title1">
+            <h2 class="sharing-news__titles__sub-title1--uppercase">
               City
             </h2>
             <h3>
@@ -135,8 +143,11 @@
               </small>
             </p>
           </li>
+           <li class="sharing-news-navigation__description-lists__list">
+            <img class="sharing-news__amazing-photo" src="../docs/amazing-city.jpeg" alt="">
+          </li>
           <li class="sharing-news-navigation__description-lists__list">
-            <h2 class="sharing-news__titles__sub-title1">
+            <h2 class="sharing-news__titles__sub-title1--uppercase">
               Travel
             </h2>
             <h3>
@@ -151,6 +162,9 @@
                 2d ago
               </small>
             </p>
+          </li>
+          <li class="sharing-news-navigation__description-lists__list">
+            <img class="sharing-news__amazing-photo forest" src="../docs/travel-forest.jpeg" alt="">
           </li>
           <li class="sharing-news-navigation__description-lists__list">
             <img src="" alt="">

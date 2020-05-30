@@ -1,4 +1,25 @@
 html {
 font-family: helvetica, helvetica-bold;
 }
+body {
+  max-width: 375px;
+  margin-inline-start: 2rem;
+}
+
+li {
+  list-style: none;
+}
+.sharing-news__titles__big-title {
+font-size: 24px;
+font-weight: 700;
+text-transform: uppercase;
+}
+.sharing-news__titles__sub-title1--uppercase {
+  text-transform: uppercase;
+  font-size: 16px;
+
+}
+.sharing-news__explanation {
+  font-size: 16px;
+}
 

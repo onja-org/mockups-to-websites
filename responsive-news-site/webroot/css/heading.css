@@ -1,0 +1,21 @@
+.navigation {
+  display: flex;
+  flex-direction: row;
+}
+.navigation__menus {
+  flex-grow: 1;
+}
+
+.navigation__menus__woman-profile{
+width: 16px;
+height: 24px;
+border-radius: 50% 50%;
+margin-inline-start: 6rem;
+}
+
+.navigation__menus--transform {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 16px;
+  transform: translateX(50%);
+}

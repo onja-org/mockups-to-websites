@@ -1,0 +1,30 @@
+
+#happening-today {
+  background-color: #f6f8f9;
+}
+
+#happening-today .sharing-news-navigation__description-lists {
+  position: relative;
+}
+#happening-today .sharing-news-navigation__description-lists  .sharing-news-navigation__description-lists__list:first-child {
+  position: absolute;
+  margin-inline-end: 3rem;
+  margin-inline-start: 2rem;
+  color: #fff;
+}
+.sharing-news__amazing-photo {
+  max-width: 90%;
+  height: 40%;
+}
+#happening-today .sharing-news__titles__sub-title1--uppercase {
+  margin-block-end: 3rem;
+}
+
+#happening-today .sharing-news-navigation__description-lists  .sharing-news-navigation__description-lists__list:nth-of-type(3) {
+  position: absolute;
+  color: #fff;
+  margin-inline-end: 3rem;
+  margin-inline-start: 2rem;
+
+}
+ 
