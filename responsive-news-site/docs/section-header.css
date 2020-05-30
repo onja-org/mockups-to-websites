@@ -1,0 +1,14 @@
+:root {
+  --heading-padding: 2rem;
+}
+.section__heading {
+  text-transform: uppercase;
+  padding-inline-start: var(--heading-padding);
+  padding-inline-end: var(--heading-padding);
+  padding-block-start: var(--heading-padding);
+  padding-block-end: var(--heading-padding);
+}
+.list__subheading {
+  list-style: none;
+}
+

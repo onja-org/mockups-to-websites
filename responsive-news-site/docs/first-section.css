@@ -3,6 +3,7 @@
   --par-horizontal-padding: 2rem;
   --par-vertical-padding: 0.5rem;
   --button-vertical-padding: 1rem;
+  --text-color: #ffff;
 }
 img {
   position: absolute;
@@ -11,7 +12,7 @@ img {
   height: 388px;
 }
 .section__first {
-  color: #ffff;
+  color: var(--text-color);
 }
 .section__heading--important {
   padding-inline-start: var(--padding-tab-important);
@@ -31,7 +32,7 @@ img {
   margin: 0;
   font-size: 1.5rem;
 }
-main p:nth-of-type(1) {
+.main__first--paragraph {
   padding-inline-start: var(--par-horizontal-padding);
   padding-inline-end: var(--par-horizontal-padding);
   padding-block-start: var(--par-vertical-padding);
@@ -50,7 +51,7 @@ main p:nth-of-type(1) {
   border-radius: 0.5rem;
   text-align: center;
   text-decoration: none;
-  color: #ffff;
+  color: var(--text-color);
   background-color: rgb(250, 105, 128);
   font-size: 0.75rem;
 }

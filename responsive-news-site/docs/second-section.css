@@ -1,0 +1,16 @@
+.list__subheading--h3 {
+  color: #fa6980;
+  text-transform: uppercase;
+}
+.list__subheading--inside {
+  font-weight: 900;
+  font-size: 1.25rem;
+  margin: 0;
+}
+.main__secod--paragraph {
+  color: #ccc;
+}
+.time {
+  color: #ccc;
+  font-style: italic;
+}
