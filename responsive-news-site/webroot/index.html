@@ -4,23 +4,156 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width">
     <title>Responsive New Site</title>
+    <link rel="stylesheet" href="./css/index.css">
   </head>
   <body>
     <header class="responsive-heading">
-      <nav class="responsive">
-        <ul>
-          <li class="responsive__list-item"><a href="/logo">Logo</a></li>
-          <li class="responsive__list-item"><a href="/">Home</a></li>
-          <li class="responsive__list-item"><a href="/discovery">Discovery</a></li>
-          <li class="responsive__list-item"><a href="/photos">Photos</a></li>
-          <li class="responsive__list-item"><a href="/contact">contact</a></li>
-          <li class="responsive__list-item"><a href="/profile">Profile</a></li>
-          <li class="responsive__list-item"><img src="./images/profile.jpeg" alt=""></li>
+      <nav>
+        <ul class="responsive-mobile">
+          <li class="responsive-mobile__list-item"><a class="responsive-mobile__list-item__link responsive-mobile__list-item__link--homepage" href="/home">Ξ</a></li>
+          <li class="responsive-mobile__list-item"><a class="responsive-mobile__list-item__link responsive-mobile__list-item__link-logo" href="/logo">Logo</a></li>
+          <li class="responsive-mobile__list-item"><img class="responsive-mobile__list-item--image-profile" src="./images/profile.jpeg" alt="Profile"></li>
+        </ul>
+        <ul class="responsive">
+          <li class="responsive__list-item responsive__list-item--logo"><a class="responsive__list-item responsive__list-item--link" href="/logo">Logo</a></li>
+          <li class="responsive__list-item"><a class="responsive__list-item responsive__list-item--link" href="/">Home</a></li>
+          <li class="responsive__list-item"><a class="responsive__list-item responsive__list-item--link" href="/discovery">Discovery</a></li>
+          <li class="responsive__list-item"><a class="responsive__list-item responsive__list-item--link" href="/photos">Photos</a></li>
+          <li class="responsive__list-item"><a class="responsive__list-item responsive__list-item--link" href="/contact">contact</a></li>
+          <li class="responsive__list-item"><a class="responsive__list-item responsive__list-item--link" href="/profile">Profile</a></li>
+          <li class="responsive__list-item"><img class="responsive__list-item--profile" src="./images/profile.jpeg" alt="Profile image"></li>
         </ul>
       </nav>
     </header>
-    <main>
 
+    <main>
+      <header class="main-heading">
+        <h1 class="heading"><a class="heading__link" href="/world-news">World news</a></h1>
+        <article class="heading-article" >
+          <h2 class="heading-article__information heading-article__information__heading">Amazing places in America to visit.</h2>
+          <p class="heading-article__information heading-article__information__description">
+            For some reason — this country, this city, this neighborhood, this particular street —  is the place you are living a majority of your life in
+          </p>
+          <p class="heading-article__information heading-article__information__link"><a class="heading-article__information__link--find-more" href="/learn-more">Learn more</a></p>
+          <img class="heading-article__information__image-information" src="./images/america-amazing-place.jpeg" alt="An amzing place to visit in America">
+        </article>
+      </header>
+
+      <article class="article">
+        <h2 class="article-heading"><a class="article-heading__link" href="/more-news">More News</a></h2>
+        <ul>
+          <li class="article__list-item">
+            <h3 class="article__list-item article__list-item__heading">Travel</h3>
+            <h4 class="article__list-item article__list-item__subheading">Article title</h4>
+            <p class="article__list-item article__list-item__description">
+              Lorem ipsum dolor sit amet, ipsum labitur lucilius mel id, ad has appareat…
+            </p>
+            <p class="article__list-item article__list-item__last-visit">2m ago</p>
+          </li>
+
+          <li class="article__list-item">
+            <h3 class="article__list-item article__list-item__heading">Technology</h3>
+            <h4 class="article__list-item article__list-item__subheading">Article title</h4>
+            <p class="article__list-item article__list-item__description">
+              Lorem ipsum dolor sit amet, ipsum labitur lucilius mel id, ad has appareat…
+            </p>
+            <p class="article__list-item article__list-item__last-visit">1m ago</p>
+          </li>
+        </ul>
+      </article>
+
+      <article>
+        <h2>Trending</h2>
+        <ul>
+          <li>
+            <h3>Doloro magna aliqua</h3>
+            <img src="./images/trending-dolore-magna.jpeg" alt="Doloro magna aliqua">
+            <p>
+              Lorem ipsum dolor sit amet, ipsum labitur lucilius mel id, ad has appareat.
+            </p>
+            <p>1m ago</p>
+          </li>
+          <li>
+            <h3>Morbi eleifend a libero</h3>
+            <img src="./images/trending-morbi-eleifend-libero.jpeg" alt="Morbi eleifend a libero">
+            <p>
+              Lorem ipsum dolor sit amet, ipsum labitur lucilius mel id, ad has appareat.
+            </p>
+            <p>2m ago</p>
+          </li>
+        </ul>
+      </article>
+
+      <article>
+        <h2>Happening now</h2>
+        <ul>
+          <li>
+            <h3><a href="/city">City</a></h3>
+            <h3>Large Article title mobile layout</h3>
+            <img src="./images/trending-dolore-magna.jpeg" alt="Doloro magna aliqua">
+            <p>Lorem ipsum dolor sit amet, in eam odio amet, vix id nullam detracto, vidit vituperatoribus duo id. Affert detraxit
+            </p>
+            <p>2m ago</p>
+          </li>
+
+          <li>
+            <h3><a href="/travel">Travel</a></h3>
+            <h3>Large Article title mobile layout</h3>
+            <img src="./images/trending-dolore-magna.jpeg" alt="Doloro magna aliqua">
+            <p>Lorem ipsum dolor sit amet, in eam odio amet, vix id nullam detracto, vidit vituperatoribus duo id. Affert detraxit
+            </p>
+            <p>1m ago</p>
+          </li>
+        </ul>
+      </article>
+
+      <article>
+        <ul>
+          <li>
+            <h2>
+              Small title
+            </h2>
+            <p>3h ago by <a href="https://world-news.com">Worldnews</a></p>
+            <img src="./images/world-news.jpeg" alt="Worldnews">
+          </li>
+          <li>
+            <h2>
+              Small title
+            </h2>
+            <p>4h ago by <a href="https://days.com">Days</a></p>
+            <img src="./images/days.jpeg" alt="Days">
+          </li>
+
+          <li>
+            <h2>
+              Small title
+            </h2>
+            <p>3h ago by <a href="https://monica.com">Monica</a></p>
+            <img src="./images/monica.jpeg" alt="Monica">
+          </li>
+        </ul>
+      </article>
     </main>
+
+    <footer>
+      <nav>
+        <ul>
+          <li><a href="/about">About</a></li>
+          <li><a href="/help">Help</a></li>
+          <li><a href="/terms">Terms</a></li>
+          <li><a href="/guidlines">Guidlines</a></li>
+          <li><a href="/testimonials">Testimonials</a></li>
+          <li><a href="/advertise">Advertise</a></li>
+          <li><a href="/integrations">Integration</a></li>
+          <li><a href="/careers">Careers</a></li>
+        </ul>
+        <ul>
+          <li><a href="http://world-news-instagram.com">Instagram</a></li>
+          <li><a href="http://world-news-twitter.com">Twitter</a></li>
+          <li><a href="http://world-news-facebook.com">Facebook</a></li>
+          <li><a href="http://world-news-pinterest.com">Pinterest</a></li>
+        </ul>
+      </nav>
+    </footer>
   </body>
 </html>
