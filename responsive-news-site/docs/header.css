@@ -1,6 +1,5 @@
 :root {
   --nav-gap-padding: 1rem;
-  --border-checkbox: 1px;
 }
 .navigation__container {
   display: flex;
@@ -10,10 +9,11 @@
 }
 .navigation__link--item {
   list-style: none;
-  padding-inline-start: 1rem;
-  padding-inline-end: 1rem;
-  padding-block-end: 1rem;
-  padding-block-start: 1rem;
+  padding-inline-start: var(--nav-gap-padding);
+  padding-inline-end: var(--nav-gap-padding);
+  padding-block-end: var(--nav-gap-padding);
+  padding-block-start: var(--nav-gap-padding);
+  font-size: 1rem;
 }
 div nav a {
   text-decoration: none;
@@ -25,27 +25,18 @@ div nav a {
 .user_interface label {
   display: block;
   cursor: pointer;
-  border-inline-start: 1px solid #ccc;
-  border-block-start: 1px solid #ccc;
-  border-block-end: 1px solid #ccc;
-  border-radius: 5px;
-  padding-inline-start: 1rem;
-  padding-inline-end: 1rem;
-  padding-block-end: 1rem;
-  padding-block-start: 1rem;
-  color: #ccc;
+  padding-inline-start: var(--nav-gap-padding);
+  padding-inline-end: var(--nav-gap-padding);
+  padding-block-end: var(--nav-gap-padding);
+  padding-block-start: var(--nav-gap-padding);
+  color: var(--color-inverse);
   text-transform: uppercase;
-}
-
-.user_interface label:hover,
-.user_interface a:hover {
-  background-color: red;
 }
 .user_interface nav {
   background-color: #eee;
   transition: transform .2s ease-in;
 }
 .user_interface :checked ~ nav {
-  transform: translateX(-375px);
   display: none;
+  transform: translateX(-375px);
 }

@@ -3,4 +3,6 @@ html {
 }
 body {
   max-width: 375px;
+  margin: auto;
+  padding: auto;
 }
