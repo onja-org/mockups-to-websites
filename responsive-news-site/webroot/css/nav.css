@@ -1,5 +1,6 @@
 .list_item{
   list-style: none;
+
 }
 .nav_list_item_description{
   transform: translate(334 1369);
@@ -28,7 +29,7 @@
   margin: 0;
 
 }
-img{
+.picture_of_description > img{
   position: absolute;
   max-width:375px;
   z-index: 1;
@@ -44,9 +45,12 @@ img{
   margin: 0;
 }
 .nav_list_item_description--article{
-   color:#a6adb4;
-   font-size: 16px;
-   font-family: AcuminPro-Regular;
+  color:#a6adb4;
+  font-size: 16px;
+  font-family: AcuminPro-Regular;
+  padding-inline-start: 35px;
+  padding-inline-end: 68px;
+  line-height: 30px;
 }
 .section2{
   padding-inline-start: 2rem;
@@ -54,9 +58,38 @@ img{
   padding-block-start: 1rem;
   padding-block-end: 1rem;
   margin: 0;
+  margin: 0;
 }
 .nav_unorder_list{
   padding-inline-start: 2px;
+}
+.nav_trending--unorder-list{
+ padding-inline-start: 2px;
+}
+.nav_trending{
+
+}
+.section3{
+  padding-inline-start: 2rem;
+  padding-inline-end: 2rem;
+  padding-block-start: 1rem;
+  padding-block-end: 1rem;
+  margin: 0;
+}
+.list_item--dorole{
+ background-color: white;
+ width: 375px; ;
+ height: 150px;
+ margin-block-start: -21px;
+
+}
+
+.list_item--morbi{
+ background-color: white;
+ width: 375px; ;
+ height: 150px;
+ margin-block-start: -21px;
+
 }
 
 

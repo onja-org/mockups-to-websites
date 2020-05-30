@@ -40,17 +40,31 @@ body{
  font-size: 16px;
  font-weight: 700;
  font-family:Helvetica-Bold ;
+ margin-top: 0;
+ padding-inline-start: 2rem;
+ padding-block-start: 2rem;
 }
 .heading2--more-news{
   border-bottom: #a6adb4 solid;
   padding-block-end: 15px;
 }
+.section3{
+ width:375px;
+ height: 3720px;
+ background-color:#f6f8f9;
+}
 
-
-
-
-
-
-
-
+.picture_description > img{
+width: 375px;
+height: 150px;
+border-radius: 3px 3px 0 0;
+margin-bottom: 0;
+}
+.picture_description3 > img{
+  width: 375px;
+height: 150px;
+border-radius: 3px 3px 0 0;
+padding-inline-start: 2px;
+padding-inline-end: 2rem;
+}
 
