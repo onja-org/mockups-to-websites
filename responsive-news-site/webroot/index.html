@@ -1,58 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Wild News</title>
+  <link rel="stylesheet" href="css/world-news.css">
 </head>
+
 <body>
-  <header>
-    <h1>Logo</h1>
-    <nav>
-      <ul>
-        <li><a href="/">Home</a></li>
-        <li><a href="/discovery">Discovery</a></li>
-        <li><a href="/photos">Photos</a></li>
-        <li><a href="contact">Contact</a></li>
-        <li><a href="/profile">Profile</a></li>
+  <header class="header">
+    <h1 class="header__logo">Logo</h1>
+    <!--
+    <nav class="navigation">
+      <ul class="navigation__container">
+        <li class="navigation__list_item"><a class="navigation__link" href="/">Home</a></li>
+        <li class="navigation__list_item"><a class="navigation__link" href="/discovery">Discovery</a></li>
+        <li class="navigation__list_item"><a class="navigation__link" href="/photos">Photos</a></li>
+        <li class="navigation__list_item"><a class="navigation__link" href="contact">Contact</a></li>
+        <li class="navigation__list_item"><a class="navigation__link" href="/profile">Profile</a></li>
       </ul>
     </nav>
+  -->
   </header>
   <main>
-    <header>
-      <h2>World news</h2>
+    <header class="world_news">
+      <p>
+        <img src="../docs/pattern.jpeg">
+      </p>
+      <div class="world_news__div">
+        <h2 class="world_news__heading">World news</h2>
+        <h3 class="world_news__heading--small">Amazing places in America to visit</h3>
+        <p class="world_news__explanations">
+          For some reason__this country this city this neighborhood this particular street__is the place you are living a
+          majority of your life in.
+        </p>
+        <p class="learn_more"><a class="learn_more__link" href="/learn more">Learn more</a></p>
+      </div>
     </header>
-      <h3>Amazing places in America to visit</h3>
-      <p>
-        For some reason this country this city this neighborhood this particular street is the place you are living a majority of your life in.
-      </p>
-      <p><a href="/learn more"></a>Learn more</p>
-      <p>
-        <img src="responsive-news-site/docs/pattern.jpeg" alt="Amazing place">
-      </p>
-    <section>
+    <section class="more_news">
       <header>
-        <h2>MORE NEWS</h2>
+        <h3 class="more_news__heading">More news</h3>
       </header>
-      <ul>
-        <li>
-          <h4>Travel</h4>
-          <b>Article title</b>
-          <p>Lorem ipsum dolor sit amet, ipsum labitur lucilius mel id, ad has appareat…</p>
-          <p>2mn ago</p>
+      <ul class="more_news__container">
+        <li class="more_news__list_items">
+          <h4 class="more_news__list_items--heading">Travel</h4>
+          <p class="more_news__article">Article title</p>
+          <p class="more_news__list_items--description">
+            Lorem ipsum dolor sit amet, ipsum labitur lucilius mel id, ad has appareat…
+          </p>
+          <p class="more_news__list_items--time">2m ago</p>
         </li>
-        <li>
-          <h4>Technology</h4>
-          <b>Article title</b>
-          <p>Lorem ipsum dolor sit amet, ipsum labitur lucilius mel id, ad has appareat…</p>
-          <p>1h ago</p>
+        <li class="more_news__list_items">
+          <h4 class="more_news__list_items--heading">Technology</h4>
+          <p class="more_news__article">Article title</p>
+          <p class="more_news__list_items--description">
+            Lorem ipsum dolor sit amet, ipsum labitur lucilius mel id, ad has appareat…
+          </p>
+          <p class="more_news__list_items--time">1h ago</p>
         </li>
       </ul>
 
     </section>
     <section>
       <header>
-        <h2>Trending</h2>
+        <h3>Trending</h3>
       </header>
       <ul>
         <li>
@@ -71,44 +83,46 @@
     </section>
     <section>
       <header>
-        <h2>HAPPENING NOW</h2>
+        <h3>Happening Now</h3>
       </header>
       <div>
-      <ul>
-        <li>
-          <h3>City</h3>
-          <h4>Large article title mobile layout</h4>
-          <p>
-            Lorem ipsum dolor sit amet, in eam odio amet, vix id nullam detracto, vidit vituperatoribus duo id. Affert detraxit
-          </p>
-          <p>2m ago</p>
-          <img src="" alt="">
-        </li>
-        <li>
-          <h3>Travel</h3>
-          <h4>Large article title mobile layout</h4>
-          <p>
-            Lorem ipsum dolor sit amet, in eam odio amet, vix id nullam detracto, vidit vituperatoribus duo id. Affert detraxit
-          </p>
-          <p>2d ago</p>
-          <img src="" alt="">
-        </li>
-      </ul>
+        <ul>
+          <li>
+            <h4>City</h4>
+            <h5>Large article title mobile layout</h5>
+            <p>
+              Lorem ipsum dolor sit amet, in eam odio amet, vix id nullam detracto, vidit vituperatoribus duo id. Affert
+              detraxit
+            </p>
+            <p>2m ago</p>
+            <img src="" alt="">
+          </li>
+          <li>
+            <h4>Travel</h4>
+            <h5>Large article title mobile layout</h5>
+            <p>
+              Lorem ipsum dolor sit amet, in eam odio amet, vix id nullam detracto, vidit vituperatoribus duo id. Affert
+              detraxit
+            </p>
+            <p>2d ago</p>
+            <img src="" alt="">
+          </li>
+        </ul>
       </div>
       <div>
         <ul>
           <li>
-            <p>Small title</p>
+            <h5>Small title</h5>
             <p>3h ago by Worldnews</p>
             <img src="" alt="">
           </li>
           <li>
-            <p>Small title</p>
+            <h5>Small title</h5>
             <p>4h ago by Days</p>
             <img src="" alt="">
           </li>
           <li>
-            <p>Small title</p>
+            <h5>Small title</h5>
             <p>3h ago by Monica</p>
             <img src="" alt="">
           </li>
@@ -136,4 +150,5 @@
   </footer>
 
 </body>
+
 </html>
