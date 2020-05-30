@@ -1,0 +1,28 @@
+.information__list--trending_title {
+  text-transform: uppercase;
+  background-color: rgb(246, 248, 249);
+  font-size: 24px;
+  margin: 0;
+  padding-block-start: 1rem;
+  padding-block-end: 1rem;
+}
+
+.information__list--trending {
+  background-color: #FFFFFF;
+}
+
+.information__list--trending_image {
+  margin: 0;
+}
+
+.information__list--trending_subtitle {
+  padding-inline-start: 1rem;
+}
+
+.information__list--trending_explanation {
+  padding-inline-start: 1rem;
+}
+
+.information__list--trending_time {
+  padding-inline-start: 1rem;
+}
