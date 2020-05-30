@@ -5,20 +5,52 @@
 }
 body{
   max-width: 375px;
+ margin: 0;
 }
 .header{
   font-weight: var(--font-weight-of-head);
   font-size: var(--font-size-of-head);
   font-family: var(--font-family-of-head);
+
 }
 
 .heading3{
  transform: translate(310 334);
- background-color: indianred;
-
+ color: white;
 }
 .heading2{
   transform: translate(310 234);
   text-transform: uppercase;
 }
+.world-news_header{
+  border-bottom: white solid;
+}
+.world-news_content{
+
+}
+.heading4{
+ color: #fa6980;
+ font-size: 16px;
+ font-weight: 700;
+ font-family:Helvetica-Bold, Helvetica;
+ text-transform: uppercase;
+}
+.heading5{
+  color:#202124;
+ font-size: 16px;
+ font-weight: 700;
+ font-family:Helvetica-Bold ;
+}
+.heading2--more-news{
+  border-bottom: #a6adb4 solid;
+  padding-block-end: 15px;
+}
+
+
+
+
+
+
+
+
 
