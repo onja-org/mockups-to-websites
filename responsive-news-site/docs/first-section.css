@@ -5,11 +5,12 @@
   --button-vertical-padding: 1rem;
   --text-color: #ffff;
 }
-img {
+section:nth-of-type(1) img {
   position: absolute;
   width: 375px;
   z-index: -1;
   height: 388px;
+  border-radius: 0.5rem;
 }
 .section__first {
   color: var(--text-color);

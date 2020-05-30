@@ -1,0 +1,9 @@
+section:nth-of-type(3) img {
+  width: 375px;
+  height: 154px;
+  border-radius: 0.5rem;
+}
+.heading__lists {
+  position: relative;
+  top: -50%;
+}
