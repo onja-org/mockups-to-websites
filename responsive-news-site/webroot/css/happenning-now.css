@@ -1,0 +1,62 @@
+:root {
+  --base-paddign: 2rem;
+}
+
+.happening_now {
+  padding-inline-start: 1rem;
+  padding-inline-end: 1rem;
+  color: #fff;
+  border-bottom: 1px solid black;
+  padding-block-end: var(--base-paddign);
+}
+
+.happening_now__heading {
+  font-size: 24px;
+  font-weight: 700;
+  color: #202124;
+  text-transform: uppercase;
+}
+
+.happening_now__list_items--heading {
+  font-weight: 700;
+  text-transform: uppercase;
+  padding-block-start: var(--base-paddign);
+}
+
+.happening_now__list_items--small {
+  font-size: 24px;
+  font-weight: 700;
+  margin-block-end: 0;
+}
+
+.happening_now__list_items--time {
+  font-size: 13px;
+  font-style: oblique;
+  color: #a6adb4;
+}
+
+.happening_now__container {
+  list-style: none;
+  padding-inline-start: 0;
+}
+
+.happening_now__list_items--first {
+  background-image: url(../images/pattern-5.jpeg);
+  background-position: center;
+  background-size: cover;
+  border-radius: 5px;
+  padding-inline-start: var(--base-padding);
+  padding-inline-end: var(--base-padding);
+  padding-block-end: var(--base-paddign);
+  margin-block-end: var(--base-paddign);
+}
+
+.happening_now__list_items--second {
+  background-image: url(../images/pattern-6.jpeg);
+  background-position: center;
+  background-size: cover;
+  border-radius: 5px;
+  padding-inline-start: var(--base-padding);
+  padding-inline-end: var(--base-padding);
+  padding-block-end: var(--base-paddign);
+}

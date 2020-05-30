@@ -1,0 +1,39 @@
+.small-title {
+ border-radius: 5px;
+}
+
+.small_title__container {
+  margin-inline-start: 0;
+  list-style: none;
+  padding-inline-start: 1rem;
+}
+
+.small-title__heading {
+  padding-block-start: 18rem;
+  margin-block-start: -1rem;
+}
+
+.small-title__list_item--first {
+  background-image: url(../images/pattern-7.jpeg);
+  background-repeat: no-repeat;
+  background-size: 338px 208px;
+  background-position: 10% 30%;
+  border-radius: 5px;
+
+}
+
+.small-title__list_item--second {
+  background-image: url(../images/pattern-8.jpeg);
+  background-repeat: no-repeat;
+  background-size: 338px 208px;
+  background-position: 10% 30%;
+  border-radius: 5px;
+}
+
+.small-title__list_item--third {
+  background-image: url(../images/pattern-9.jpeg);
+  background-repeat: no-repeat;
+  background-size: 338px 208px;
+  background-position: 10% 30%;
+  border-radius: 5px;
+}

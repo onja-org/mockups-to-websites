@@ -20,13 +20,11 @@
 }
 
 .more_news__list_items--heading {
-  font-size: 16px;
   font-weight: 700;
   color: #fa6980;
   text-transform: uppercase;
 }
 .more_news__article {
-  font-size: 16px;
   font-weight: 700;
   color: #202124;
 }

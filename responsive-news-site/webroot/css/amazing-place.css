@@ -3,7 +3,7 @@
   color: #fff;
 }
 
-img {
+.place {
   position: absolute;
   object-fit: cover;
   max-width: 375px;
@@ -54,4 +54,5 @@ img {
   color: #fff;
   text-decoration: none;
   text-transform: uppercase;
+  border: 0;
 }
