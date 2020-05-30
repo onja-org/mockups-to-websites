@@ -1,4 +1,35 @@
-/* .responsive__list_item {
+header {
+  height: 88px;
+  background-color: rgb(246, 248, 249);
+}
+.responsive__list {
   list-style: none;
   display: flex;
-} */
+  justify-content: stretch;
+  padding: 3rem 0 0 1rem;
+  margin: 0;
+}
+
+.responsive__list_item {
+  flex-grow: 1;
+}
+
+.responsive__list_item--link {
+  text-transform: uppercase;
+  color: #000000;
+  font: 13px sans-serif;
+  font-weight: 800;
+}
+
+.responsive__list_item--link_home::before {
+  content: "Ξ";
+
+}
+
+.responsive__list_item--link_logo {
+  opacity: 0.6;
+}
+
+.responsive__list_item--link_image {
+  border-radius: 50%;
+}
