@@ -21,7 +21,9 @@ div nav a {
   color: #aaa;
   font-weight: 400;
 }
-
+.navigation__link--home {
+  color: black;
+}
 .user_interface label {
   display: block;
   cursor: pointer;
