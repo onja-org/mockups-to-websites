@@ -12,3 +12,8 @@ ul {
 a {
   text-decoration: none;
 }
+
+span {
+  font-family: 13px;
+  font-style: italic;
+}

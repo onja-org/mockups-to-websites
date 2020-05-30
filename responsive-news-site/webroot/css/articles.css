@@ -1,0 +1,24 @@
+.article__list--title {
+  font-size: 16px;
+  text-transform: uppercase;
+  color: rgb(250, 105, 128);
+  margin: 0;
+  padding-block-start: 1rem;
+  padding-block-end: 1rem;
+}
+
+.article__list--subtitle {
+  margin: 0;
+}
+
+.article__list--description {
+  opacity: 0.3;
+}
+
+.article__list--time {
+  opacity: 0.3;
+}
+
+.article__list--time::before {
+  content: "";
+}
