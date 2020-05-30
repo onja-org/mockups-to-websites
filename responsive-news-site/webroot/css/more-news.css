@@ -1,0 +1,45 @@
+.more-news {
+  margin-block-start: 40px;
+  margin-inline-end: 40px;
+}
+
+.more-news__header {
+  font-family: Helvetica;
+  font-size: 24px;
+  font-weight: bold;
+  padding-block-end: 30px;
+  border-block-end: 2px rgb(197, 188, 188) solid;
+}
+.more-news__container-list {
+  list-style: none;
+  line-height: 2;
+}
+
+.more-news__container-list--travel {
+  text-transform: uppercase;
+  color: deeppink;
+  font-family: Helvetica;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.more-news__container-list--article-title {
+ font-family: Helvetica;
+ font-size: 16px;
+ font-weight: 700;
+}
+
+.more-news__container-list--article {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 16px;
+  font-weight: normal;
+  color: rgb(197, 188, 188);
+}
+
+.more-news__container-list--duration {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 16px;
+  color: rgb(197, 188, 188);
+}
+
+

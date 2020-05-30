@@ -1,0 +1,29 @@
+.happening-now {
+  position: relative;
+  margin-inline-start: 10px;
+  margin-inline-end: 10px;
+  color: white;
+}
+
+.happening-now__navigation {
+  list-style: none;
+  font-family: Helvetica;
+  font-size: 16px;
+  font-weight: normal;
+  position: absolute;
+  padding-block-start: 13px;
+}
+
+.happening-now__header2 {
+  font-family: Helvetica;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.happening-now__navigation-list--big-title {
+  font-family: Helvetica;
+  font-size: 24px;
+  font-weight: bold;
+  padding-block-start: 50px;
+}

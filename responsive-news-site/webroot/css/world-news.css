@@ -1,0 +1,49 @@
+.world-news {
+  position: relative;
+  margin-inline-start: 10px;
+  margin-inline-end: 10px;
+  color: white;
+}
+
+.world-news__list {
+  list-style: none;
+  font-family: Helvetica;
+  font-size: 16px;
+  font-weight: normal;
+  position: absolute;
+  padding-block-start: 13px;
+}
+
+
+.world-news__header {
+  font-family: Helvetica;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  border-block-end: 2px white solid;
+}
+
+.world-news__list--place-to-visit {
+  font-family: Helvetica;
+  font-size: 24px;
+  font-weight: bold;
+  padding-block-start: 50px;
+}
+
+
+.world-news__list--learn-more {
+  max-width: 151px;
+  background-color: rgb(250, 105, 128);
+  border-radius: 10px;
+  padding-inline-start: 24px;
+  padding-inline-end: 0;
+  padding-block-start: 9px;
+  padding-block-end: 12px;
+}
+
+.world-news__list--learn-more a {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: white;
+}
+

@@ -1,0 +1,41 @@
+.trending {
+  background-color: whitesmoke
+}
+
+.trending__header2 {
+  font-family: Helvetica;
+  font-size: 24px;
+  font-weight: bold;
+  padding-block-start: 40px;
+  padding-inline-start: 40px;
+}
+
+.trending__container_list {
+  list-style: none;
+  line-height: 2;
+}
+
+.trending__container--images img {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.trendind__container_list--title {
+  font-family: Helvetica;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.trending__container_list--article {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 16px;
+  font-weight: normal;
+  color: rgb(197, 188, 188);
+}
+
+.trending__container_list--duration {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 16px;
+  color: rgb(197, 188, 188);
+  padding-block-end: 40px;
+}
