@@ -4,21 +4,134 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width">
   <title>Responsive news site</title>
-  <link rel="stylesheet" href="responsive.css">
+  <link rel="stylesheet" href="css/index.css">
 </head>
 <body>
-  <header>
-    <ul>
-      <li><a href="memu"></a>
-        <ul>
+  <header class="heading">
+    <ul class="heading__container">
+      <li class="heading__menu"><a href="memu">Ξ</a>
+        <!-- <ul>
           <li><a href="/#">HOME</a></li>
           <li><a href="discovery">DISCOVERY</a></li>
           <li><a href="/photos">PHOTOS</a></li>
           <li><a href="/contact">CONTACTS</a></li>
-        </ul>
+        </ul> -->
       </li>
-      <li><a href="logo">LOGO</a></li>
+      <li class="heading__logo"><a href="logo">LOGO</a></li>
+      <li><img class="heading__profile" src="../responsive-news-site/webroot/images/pattern-10.jpeg">
+      </li>
+      </header>
     </ul>
-  </header>
+  <section class="world_news">
+    <img class="world_news__background" src="../responsive-news-site/docs/pattern.jpeg" alt="">
+    <h1 class="world_news__heading">WORLD NEWS</h1>
+    <h2 class="world_news__title">Amazing places in America to visit.</h2>
+    <p class="world_news__description">For some reason — this country, this city, this neighborhood, this particular street —  is the place you are living a majority of your life in.</p>
+    <p class="world_news__link"><a href="/learn_more">LEARN MORE</a></p>
+  </section>
+  <section class="more_news">
+    <h1 class="more_news__heading"><a href="/more_news">MORE NEWS</a></h1>
+    <ul>
+      <li class="more_news__travel">
+        <h3 class="more_news__travel--title"><a href="/travel">TRAVEL</a></h3>
+        <h5 class="more_news__travel__subtitle">Article title</h5>
+        <p class="more_news__travel--description">Lorem ipsum dolor sit amet, ipsum labitur lucilius mel id, ad has appareat…</p>
+        <p class="more_news__travel--icon">2m ago</p>
+      </li>
+      <li class="more_news__technology">
+        <h3 class="more_news__technology--title"><a href="/technology">TECHNOLOGY</a></h3>
+        <h5 class="more_news__technology--subtitle">Article title</h5>
+        <p class="more_news__technology--description">Lorem ipsum dolor sit amet, ipsum labitur lucilius mel id, ad has appareat…</p>
+        <p class="more_news__technology--icon">1h ago</p>
+      </li>
+    </ul>
+  </section>
+  <div class="all_four_section">
+    <section  class="trending">
+      <h1  class="trending__heading">TRENDING</h1>
+      <article class="trending__dolor">
+        <img class="trending__dolor--background" src="../responsive-news-site/webroot/images/pattern-2.jpeg" alt="pattern_2">
+        <div class="trending_dolor_div">
+          <h4 class="trending__dolor--title">Dolor magna aliqua</h4>
+          <p class="trending__dolor--description">Lorem ipsum dolor sit amet, ipsum labitur lucilius mel id, ad has appareat.</p>
+          <p class="trending__dolor--time">2m ago</p>
+        </div>
+      </article>
+      <article class="trending__morbi">
+        <img class="trending__morbi--background" src="../responsive-news-site/webroot/images/pattern-3.jpeg" alt="pattern_3">
+        <div class="trending__morbi_div">
+          <h4 class="trending__morbi--title">Morbi eleifend a libero</h4>
+          <p class="trending__morbi--description">Lorem ipsum dolor sit amet, ipsum labitur lucilius mel id, ad has appareat.</p>
+          <p class="trending__morbi--time">1h ago</p>
+        </div>
+      </article>
+      <!-- <article>
+        <img src="../responsive-news-site/webroot/images/pattern-4.jpeg" alt="pattern_4">
+        <h4>Morbi eleifend a libero</h4>
+        <p>Lorem ipsum dolor sit amet, ipsum labitur lucilius mel id, ad has appareat.</p>
+        <p>3h ago</p>
+      </article> -->
+    </section>
+    <section class="happening_now">
+      <h1  class="happening_now__heading">HAPPENING NOW</h1>
+      <article class="happening_now__city">
+        <img class="happening_now__city--background" src="../responsive-news-site/webroot/images/pattern-5.jpeg" alt="pattern_5">
+        <h4 class="happening_now__city--title">CITY</h4>
+        <h3 class="happening_now__city--subtilte">Large article title mobile layout</h3>
+        <p class="happening_now__city--desciption">Lorem ipsum dolor sit amet, in eam odio amet, vix id nullam detracto, vidit vituperatoribus duo id. Affert detraxit</p>
+        <p class="happening_now__city--time">2m ago</p>
+      </article>
+      <article class="happening_now__travel">
+        <img class="happening_now__travel--background" src="../responsive-news-site/webroot/images/pattern-6.jpeg" alt="">
+        <h4 class="happening_now__travel--title">TRAVEL</h4>
+        <h3 class="happening_now__travel--subtitle">Large article title mobile layout</h3>
+        <p class="happening_now__travel--description">Lorem ipsum dolor sit amet, in eam odio amet, vix id nullam detracto, vidit vituperatoribus duo id. Affert detraxit</p>
+        <p class="happening_now__travel--time">2d ago</p>
+      </article>
+      <article class="happening_now__list">
+        <div class="happening_now__list_item_one">
+          <img class="happening_now__list_item_one--background" src="../responsive-news-site/webroot/images/pattern-7.jpeg" alt="pattern-7">
+          <h5 class="happening_now__list_item_one--title">Small title</h5>
+          <p class="happening_now__list_item_one--source">3h ago by <a href="/Worlnews">Worlnews</a></p>
+        </div>
+        <div class="happening_now__list_item_second">
+          <img class="happening_now__list_item_second" src="../responsive-news-site/webroot/images/pattern-8.jpeg" alt="pattern-8">
+          <h5 class="happening_now__list_item_second--title">Small title</h5>
+          <p class="happening_now__list_item_second--source">4h ago by <a href="/days">Days</a></p>
+        </div>
+        <div class="happening_now__list_item_third">
+          <img class="happening_now__list_item_third--background" src="../responsive-news-site/webroot/images/pattern-9.jpeg" alt="pattern-9">
+          <h5 class="happening_now__list_item_third--title">Small title</h5>
+          <p class="happening_now__list_item_third--source">3h ago by <a href="monica">/Monica</a></p>
+        </div>
+      </article>
+    </section>
+  </div>
+  <footer>
+    <article class="more_info_first">
+      <ul class="more_info_first__container">
+        <li class="more_info_first__about">ABOUT</li>
+        <li class="more_info_first__help">HELP</li>
+        <li class="more_info_first__terms">TERMS</li>
+        <li class="more_info_first__cuidlines">CUIDLINES</li>
+      </ul>
+    </article>
+    <article class="more_info_second">
+      <ul class="more_info_second__container">
+        <li class="more_info_second__testimonials">TESTIMONIALS</li>
+        <li class="more_info_second__advertise">ADVERTISE</li>
+        <li class="more_info_second__integration">INTEGRATIONS</li>
+        <li class="more_info_second__careers">CAREERS</li>
+      </ul>
+    </article>
+    <article class="navigation">
+      <ul class="navigation_container">
+        <li class="navigation__instagram"><a href="/instagram"></a></li>
+        <li class="navigation__twiter"><a href="/twiter"></a></li>
+        <li class="navigation__facebook"><a href="/facebook"></a></li>
+        <li class="navigation__world"><a href="/world"></a></li>
+      </ul>
+    </article>
+  </footer>
 </body>
 </html>

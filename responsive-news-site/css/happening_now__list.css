@@ -1,0 +1,14 @@
+.happening_now__list_item_one--background::before {
+  content: "";
+  background-color: gray;
+  width: 375px;
+  height: 2px;
+  position: absolute;
+  top: 60px;
+  left: 0;
+}
+.happening_now__list_item_one--background {
+  width: 327px;
+  height: 180px;
+  border-radius: 6px;
+}

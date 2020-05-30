@@ -1,0 +1,98 @@
+.trending {
+  width: 375px;
+}
+
+.trending__heading {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  padding: 16px;
+}
+.trending__dolor--background {
+  width: 327px;
+  height: 154px;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+  margin-inline-start: 1.5rem;
+}
+.trending_dolor_div {
+  background-color: white;
+  border-bottom-right-radius: 16px;
+  border-bottom-left-radius: 16px;
+  margin-inline-start: 1.5rem;
+  margin-inline-end: 1.5rem;
+}
+.trending__dolor--title {
+  margin-top: -5px;
+  padding-left: 25px;
+  padding-top: 32px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  width: 300px;
+  height: 5px;
+  color: #000;
+}
+.all_four_section {
+  padding-inline-end: 1rem;
+  background-color: rgba(223, 223, 223, 0.527);
+}
+.trending__dolor--description {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 13px;
+  color: #a6adb4;
+  padding-inline-start: 25px;
+  padding-inline-end: 50px;
+  line-height: 1.8;
+}
+.trending__dolor--time {
+  font-style: oblique;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-inline-start: 25px;
+  padding-bottom: 30px;
+  font-size: 13px;
+  color: #a6adb4;
+  margin-top: 0;
+}
+.trending__morbi--background {
+  width: 327px;
+  height: 154px;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+  margin-inline-start: 1.5rem;
+}
+.trending__morbi_div {
+  background-color: white;
+  border-bottom-right-radius: 16px;
+  border-bottom-left-radius: 16px;
+  margin-inline-start: 1.5rem;
+  margin-inline-end: 1.5rem;
+}
+.trending__morbi--title {
+  margin-top: -5px;
+  padding-left: 25px;
+  padding-top: 32px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  width: 300px;
+  height: 5px;
+  color: #000;
+}
+.trending__morbi--description {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 13px;
+  color: #a6adb4;
+  padding-inline-start: 25px;
+  padding-inline-end: 50px;
+  line-height: 1.8;
+}
+.trending__morbi--time {
+  font-style: oblique;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-inline-start: 25px;
+  padding-bottom: 30px;
+  font-size: 13px;
+  color: #a6adb4;
+  margin-top: 0;
+}
