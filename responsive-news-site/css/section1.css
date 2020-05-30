@@ -1,0 +1,24 @@
+.more_news_africa{
+  background-color: white;
+  margin-left: -20px;
+  border-top: gray solid 2px;
+  max-width: 375px;
+}
+
+
+.section_news_africa_nav_ancer{
+ text-decoration: none;
+}
+
+.section_news_africa_nav_ancer{
+  color: red;
+  text-transform: uppercase;
+}
+.section_news_africa_link{
+  list-style: none;
+
+}
+.more_news_africa p{
+  color: rgb(190, 188, 188);
+
+}

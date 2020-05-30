@@ -10,6 +10,8 @@
   <header>
       <nav class="nav_world_news_links">
         <h3>Logo</h3>
+        <input type="checkbox">
+        <label for="checkbox_links" class="checkbox_for_hidden"></label>
         <ul class="world_news_links">
           <li class="world_news_lists_links">
             <a class="world_news_links_informations" class="world_news_links_informations_general" href="#">Home</a>
@@ -27,7 +29,7 @@
             <a class="world_news_links_informations" href="news_profile">Profile</a>
           </li>
           <li>
-            <a class="world_news_links_informations" href="special_news_world_profile">Profile</a>
+            <a class="world_news_links_informations_same_profile" href="special_news_world_profile">Profile</a>
           </li>
         </ul>
       </nav>
@@ -39,25 +41,25 @@
       For some reason — this country, this city, this neighborhood, this particular street —  is the place you are living a majority of your life in.
     </p>
     <a class="button_for_learn" href="learn_more">Learn more</a>
-    <h2>More news</h2>
+    <h3>More news</h3>
   </section>
   </header>
 
 
   <section class="more_news_africa">
-    <nav>
+    <nav class="section_news_africa_nav">
       <ul>
-        <li>
-          <a href="travel">Travel</a>
-          <h6>Article title</h6>
+        <li class="section_news_africa_link">
+          <a class="section_news_africa_nav_ancer" href="travel">Travel</a>
+          <h4>Article title</h4>
           <p>
            Lorem ipsum dolor sit amet, ipsum labitur lucilius mel id, ad has appareat…<br>
            2m ago
          </p>
          </li>
-        <li>
-          <a href="technology">Technology</a>
-          <h6>Article title</h6>
+        <li class="section_news_africa_link">
+          <a class="section_news_africa_nav_ancer" href="technology">Technology</a>
+          <h4>Article title</h4>
           <p>
            Lorem ipsum dolor sit amet, ipsum labitur lucilius mel id, ad has appareat…<br>
            1h ago
@@ -70,21 +72,23 @@
    <section class="trending_news">
     <h2>TRENDING</h2>
     <img src="images/pattern-2.jpeg" alt="trending">
-      <ul>
-        <li>
-          <h3>Dolore magna aliqua</h3>
-            <p>Lorem ipsum dolor sit amet, ipsum labitur lucilius mel id, ad  has appareat <br>
+    <nav>
+      <ul class="trending_news_links">
+        <li class="trending_news_list">
+          <h3 class="header_trending">Dolore magna aliqua</h3>
+            <p class="paragraph_trending">Lorem ipsum dolor sit amet, ipsum labitur lucilius mel id, ad  has appareat <br>
             2min ago
             </p>
         </li>
-        <li>
-          <img src="images/pattern-3.jpeg" alt="morbi">
-          <h3>Morbi eleifend a libero</h3>
+        <img src="images/pattern-3.jpeg" alt="morbi">
+        <li class="trending_news_list">
+          <h3 class="header_trending">Morbi eleifend a libero</h3>
           <p>Lorem ipsum dolor sit amet, ipsum labitur lucilius mel id, ad  has appareat <br>
         1h ago
           </p>
         </li>
       </ul>
+    </nav>
    </section>
    <section class="news_happening_now">
      <h2>HAPPENING NOW</h2>

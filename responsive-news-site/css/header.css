@@ -2,6 +2,42 @@ header{
  max-width: 375px;
 }
 
+header h3{
+  color: grey;
+  text-transform: uppercase;
+  padding-inline-start: 8rem;
+  padding-block-start: 3rem;
+}
+
+.nav_world_news_links{
+  position: relative;
+}
+
+.checkbox_for_hidden{
+  list-style: none;
+
+
+}
+.checkbox_for_hidden_links_short{
+  width: 1px;
+  height: 2px;
+  background-color: black;
+  padding-inline-start: 6px;
+  padding-inline-end: 6px;
+  margin-block-start: 1px;
+  margin-block-end: 2px;
+}
+.checkbox_for_hidden_links{
+  width: 1px;
+  height: 2px;
+  background-color: black;
+  padding-inline-start: 10px;
+  padding-inline-end: 10px;
+  margin-block-start: 1px;
+  margin-block-end: 2px;
+
+
+}
 .nav_world_news_links{
   background-color: gainsboro;
 }
@@ -14,7 +50,54 @@ header{
 .world_news_links{
   list-style: none;
 }
+.world_news_links_informations_same_profile{
+  background-image: url(../images/pattern-10.jpeg);
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  text-decoration: none;
+  float: right;
+  background-size: 3rem;
+  margin-top: -5rem;
+  text-indent: -9999px;
+  display: inline-block;
+  background-size: contain;
+  min-width: 24px;
+  min-height: 24px;
 
+
+}
+
+
+
+/* Seconde part of the head */
+
+.amazing_place_america {
+  margin-top: -17rem;
+  color: white;
+  margin-inline-start: 1rem;
+}
+  .amazing_place_america h2{
+  border-top: 16px solid white;
+}
+.button_for_learn{
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+  background-color: red;
+  padding-inline-start: 0.5rem;
+  padding-inline-end: 0.5rem;
+  padding-block-start: 0.5rem;
+  padding-block-end: 0.5rem;
+  border-radius: 9999px;
+}
+
+.amazing_place_america h3{
+  text-transform: uppercase;
+  color: black;
+  font-size: 32px;
+  margin-inline-start: 0;
+  margin-left: -64px;
+}
 
 
 

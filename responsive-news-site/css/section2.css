@@ -1,0 +1,38 @@
+.trending_news{
+  background-color: rgb(240, 250, 252);
+  max-width: 375px;
+  display: block;
+  min-height: 900px;
+}
+.trending_news_links{
+  list-style: none;
+}
+
+.trending_news_list{
+  background-color: white;
+  margin-block-start: -22px;
+  border-radius: 8px;
+  max-width: 300px;
+  margin-block-end: 48px;
+ min-height: 150px;
+ line-height: 32px;
+
+}
+.header_trending{
+  margin-inline-start: 16px;
+}
+.paragraph_trending{
+  margin-inline-start: 16px;
+}
+
+img[src*="pattern-2.jpeg"]{
+  max-width: 300px;
+}
+img[src*="pattern-3.jpeg"]{
+  max-width: 300px;
+}
+.trending_news_list p{
+  color: rgb(180, 177, 177);
+  margin-inline-start: 16px;
+}
+
