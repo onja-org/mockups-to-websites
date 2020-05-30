@@ -4,6 +4,7 @@ h2 {
   margin-inline-start: 1rem;
   margin-inline-end: 1rem;
 }
+
 h3 {
   margin-inline-start: 1rem;
   margin-inline-end: 1rem;
@@ -11,15 +12,13 @@ h3 {
 }
 .world-news {
   color: #fff;
-  line-height: 1.5;
+  line-height: 1.7;
 }
 .world-news h2 {
-  margin-top: -23.3rem;
+  margin-top: -23.7rem;
 }
 .world-news a {
   color: #fff;
-  font-size: 11px;
-  font-weight: 700;
 }
 .section__link--tosubhead {
   text-decoration: none;
@@ -34,3 +33,23 @@ h3 {
   margin-inline-end: 1rem;
 }
 
+.more-news {
+  background-color: white;
+  margin-top: 1.3rem;
+  color: darkgray;
+  line-height: 1.5;
+}
+.more-news h3 {
+  color: #fa6980;
+  text-transform: uppercase;
+  font-size: initial;
+}
+.more-news h4, p {
+  margin-inline-start: 1rem;
+  margin-inline-end: 1rem;
+  font-family: initial;
+}
+.more-news h4 {
+  color: black;
+  font-family: sans-serif;
+}
