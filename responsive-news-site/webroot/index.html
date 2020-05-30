@@ -7,29 +7,136 @@
 </head>
 <body>
   <header>
-    <a href="/"><input type="checkbox"></a>
+    <input type="checkbox">
     <h1><a href="/logo">Logo</a></h1>
     <a href="/profile">profile</a>
     <nav>
-      <ul>
-        <li><a href="/">Home</a></li>
-        <li><a href="/about">About</a></li>
-        <li><a href="/"></a></li>
-        <li><a href=""></a></li>
+      <ul class="nav">
+        <li class="nav__list"><a class="nav__anchor" href="/">Home</a></li>
+        <li class="nav__list"><a class="nav__anchor" href="/discovery">Discovery</a></li>
+        <li class="nav__list"><a class="nav__anchor" href="/photos">Photos</a></li>
+        <li class="nav__list"><a class="nav__anchor" href="/contact">contact</a></li>
       </ul>
     </nav>
   </header>
 
   <main>
-    <header>
-      <h2>
-
+    <header class="heading">
+      <h1 class="heading__1">
+        world news
+      </h1>
+      <h2 class="heading__2">
+        Amazing places in America to visit.
       </h2>
+      <p class="heading__paragraph">
+        For some reason - this country, this city, this neighborhood, this particular street - is the place you are living a majority of your life in.
+      </p>
+      <img class="heading__image" src="../webroot/images/pattern.jpeg" alt="">
+      <p class="heading__paragraph"><a class="heading__paragraph__link" href="/learn_more">learn more</a></p>
     </header>
+    <section class="news">
+      <h2 class="news__heading">More news</h2>
+      <ul class="more-news">
+        <li class="more-news__list">
+          <h3 class="more-news__list__heading">travel</h3>
+          <h4 class="more-news__list__subheading">Article title</h4>
+          <p class="more-news__list__paragraph">Lorem ipsum dolor sit amet, ipsum labitur lucilius mel id, ad has appareat…</p>
+          <small class="more-news__list__small updated"><i><abbr title="two munites ago">2mn ago</abbr></i></small>
+        </li>
+        <li>
+          <h3 class="more-news__list__heading">Technology</h3>
+          <h4 class="more-news__list__subheading">Article title</h4>
+          <p class="more-news__list__paragraph">Lorem ipsum dolor sit amet, ipsum labitur lucilius mel id, ad has appareat…</p>
+          <small class="more-news__list__small updated"><i><abbr title="an hour ago">1h ago</abbr></i></small>
+        </li>
+      </ul>
+    </section>
+
+    <section class="trending">
+      <h2 class="trending__heading">Trending</h2>
+      <ul class="trending__news">
+        <li class="trending__news__list">
+          <img class="trending_image" src="../webroot/images/pattern-2.jpeg" alt="Trending image">
+          <h3 class="trnding__list__heading">
+            Dolore magna aliqua
+          </h3>
+          <p class="trending__list__paragraph">Lorem ipsum dolor sit amet, ipsum labitur lucilius mel id, ad has appareat.</p>
+          <small class="trending__list__small updated">
+            <i>
+              <abbr title="two munites ago">2m ago</abbr>
+            </i>
+          </small>
+        </li>
+        <li class="trending__news__list">
+          <img class="trending_image" src="../webroot/images/pattern-3.jpeg" alt="trending image">
+          <h3 class="trnding__list__heading">Morbi elefeind a libero</h3>
+          <p class="trending__list__paragraph">Lorem ipsum dolor sit amet, ipsum labitur lucilius mel id, ad has appareat.</p>
+          <small class="trending__list__small updated"><i><abbr title="1 hour ago">1h ago</abbr></i></small>
+        </li>
+        </ul>
+    </section>
+
+    <section class="curent-news">
+      <h2 class="curent-news__heading">Happening now</h2>
+      <ul class="curent-news-menu">
+        <li class="curent-news__list">
+          <h3 class="curent-news__list__heading">city</h3>
+          <img class="curent-news__images" src="../webroot/images/pattern-5.jpeg" alt="city">
+          <h4 class="curent-news__subheading">large article title mobile layout</h4>
+          <p class="curent-news__paragraph">Lorem ipsum dolor sit amet, in eam odio amet, vix id nullam detracto, vidit vituperatoribus duo id. Affert detraxit</p>
+          <small class="curent-news__sign updated"><i><abbr title="two minutes ago">2m ago</abbr></i></small>
+        </li>
+        <li class="curent-news__list">
+          <h3 class="curent-news__list__heading">travel</h3>
+          <img class="curent-news__images" src="../webroot/images/pattern-6.jpeg" alt="travel">
+          <h4 class="curent-news__subheading">Large article mobile layout</h4>
+          <p class="curent-news__paragraph">Lorem ipsum dolor sit amet, in eam odio amet, vix id nullam detracto, vidit vituperatoribus duo id. Affert detraxit</p>
+          <small class="curent-news__sign updated"><i><abbr title="two days ago"></abbr></i></small>
+        </li>
+        <li class="curent-news__list">
+          <img class="curent-news__images" src="../webroot/images/pattern-7.jpeg" alt="elephant">
+          <h4 class="curent-news__small-tile">Small title</h4>
+          <small class="curent-news__sign updated"><i><abbr title="three hours ago">3h ago by <cite><a href="/worldness">Worldness</a></cite></abbr></i></small>
+        </li>
+        <li class="curent-news__list">
+          <img class="curent-news__images" src="../webroot/images/pattern-8.jpeg" alt="forest">
+          <h4 class="curent-news__small-tile">Small title</h4>
+          <small class="curent-news__sign updated"><i><abbr title="four hours ago">4h ago by <cite><a href="/days">Days</a></cite></abbr></i></small>
+        </li>
+        <li class="curent-news__list">
+          <img class="curent-news__images" src="../webroot/images/pattern-9.jpeg" alt="road">
+          <h4 class="curent-news__small-tile">Small title</h4>
+          <small class="curent-news__sign updated"><i><abbr title="three hours ago">3 hours ago by <cite><a href="/monica">Monica</a></cite></abbr></i></small>
+        </li>
+      </ul>
+
+    </section>
+
   </main>
 
   <footer>
-
+    <nav class="footer_navigation">
+      <div>
+        <ul class="menu">
+          <li class="menu__llist"><a class="menu__anchor" href="/about">about</a></li>
+          <li class="menu__llist"><a class="menu__anchor" href="/help">help</a></li>
+          <li class="menu__llist"><a class="menu__anchor" href="/terms">terms</a></li>
+          <li class="menu__llist"><a class="menu__anchor" href="/guidlines">guidlines</a></li>
+          <li class="menu__llist"><a class="menu__anchor" href="/testimonials">testimonials</a></li>
+          <li class="menu__llist"><a class="menu__anchor" href="/advertise">advertise</a></li>
+          <li class="menu__llist"><a class="menu__anchor" href="/integrations">integrations</a></li>
+          <li class="menu__llist"><a class="menu__anchor" href="/careers">careers</a></li>
+        </ul>
+      </div>
+      <div class="icon">
+        <ul>
+          <li class="icon__list"><a class="icon__download" href="/download">download</a></li>
+          <li class="icon__list"><a class="icon__twiter" href="/twiter">twiter</a></li>
+          <li class="icon__list"><a class="icon__facebook" href="/facebook">facebook</a></li>
+          <li class="icon__list"><a class="icon__web" href="/web">web</a></li>
+        </ul>
+      </div>
+    </nav>
   </footer>
 </body>
 </html>
