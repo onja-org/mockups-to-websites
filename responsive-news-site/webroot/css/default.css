@@ -1,6 +1,8 @@
 body {
-  display: block;
+  max-width: 375px;
   margin: 0;
+  font-family: sans-serif;
+  line-height: 1.5;
 }
 
 ul {
