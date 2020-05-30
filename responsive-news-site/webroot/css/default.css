@@ -1,11 +1,20 @@
 html {
   font-family: Arial, Helvetica, sans-serif;
+  margin-inline-start: auto;
+  margin-inline-end: auto;
+}
+
+.news {
+  margin-inline-start: 1rem;
+  margin-inline-end: 1rem;
 }
 
 .news__heading {
   text-transform: uppercase;
   font-weight: bold;
-  margin: 0;
+  margin-block-start: 4rem;
+  padding-block-end: 3rem;
+  border-bottom: 3px solid #cccccc;
 }
 
 .more-news {
@@ -15,12 +24,29 @@ html {
 
 .more-news__list {
   list-style: none;
+
 }
 
 .more-news__list__heading {
   margin: 0;
+  color: rgba(255, 34, 0, .5);
+  text-transform: uppercase;
+  margin-block-start: 3rem;
+  margin-block-end: 2rem;
 }
 
 .more-news__list__subheading {
   margin: 0;
+}
+
+.more-news__list__paragraph {
+  color: #c2c2cc;
+}
+
+.trending__heading {
+  text-transform: uppercase;
+}
+
+.trending {
+  background-color: #c1c1c1;
 }
