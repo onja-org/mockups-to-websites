@@ -1,0 +1,46 @@
+.responsive-heading {
+  background-color: #f6f8f9;
+  width: 100vw;
+  height: 10vh;
+}
+
+.responsive__list-item {
+  display: none;
+}
+
+ul > li {
+  list-style: none;
+}
+
+.responsive-mobile {
+  display: flex;
+  justify-content: stretch;
+  padding: 0;
+  padding-block-start: 2rem;
+}
+
+.responsive-mobile__list-item {
+  flex-grow: 1;
+}
+
+.responsive-mobile__list-item__link {
+  text-transform: uppercase;
+}
+
+.responsive-mobile__list-item__link--homepage {
+  color: #343638;
+  padding-inline-start: 10px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.responsive-mobile__list-item__link-logo {
+  color: #a6adb4;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.responsive-mobile__list-item--image-profile {
+  border-radius: 50%;
+  max-width: 16px;
+}

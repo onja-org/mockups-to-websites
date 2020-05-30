@@ -1,0 +1,39 @@
+.article-heading {
+  position: relative;
+  padding-inline-start: 1rem;
+  margin-block-end: 4rem;
+  font-weight: 700;
+}
+
+.article-heading::after {
+  content: "";
+  position: absolute;
+  width: 80vw;
+  height: 2px;
+  background-color: #ebeded;
+  top: 4rem;
+  left: 1rem;
+}
+
+.article-heading__link {
+  color: #000;
+}
+
+
+.article__list-item {
+  color: #a6adb4;
+  font-size: 16px;
+  margin-inline-start: -0.7rem;
+}
+
+.article__list-item__heading {
+  color: #fa6980;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.article__list-item__subheading {
+  color: #202124;
+  font-weight: 700;
+  font-size: 16px;
+}
