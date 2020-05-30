@@ -1,0 +1,15 @@
+.advertisement_title {
+  position: absolute;
+  left: 2rem;
+  top: 5rem;
+  color: #ffffff;
+  text-transform: uppercase;
+  padding-block-end: 2rem;
+  font-size: 24px;
+  border-block-end: #ffffff 2px solid;
+}
+
+.advertisement img {
+  max-width: 375px;
+  max-height: 388px;
+}

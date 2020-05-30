@@ -1,0 +1,22 @@
+html {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+}
+
+body {
+  width: 375px;
+  height: 388px;
+  object-fit: cover;
+  margin: 0;
+}
+
+main {
+  max-width: 375px;
+  margin-inline-start: auto;
+  margin-inline-end: auto;
+}
+.navigation {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
