@@ -1,0 +1,25 @@
+.introduction-header {
+  position: absolute;
+  top: 3%;
+  font-family: Helvetica, Arial, sans-serif;
+  color: white;
+  font-size: 16px;
+
+}
+
+.more-information__link {
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+  font-size: 12px;
+  padding-inline-start: 2rem;
+  padding-inline-end: 2rem;
+  padding-block-start: 1rem;
+  padding-block-end: 1rem;
+  background-color: rgb(250, 105, 128);
+  border-radius: 6px;
+}
+
+.more-information {
+
+}

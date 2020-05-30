@@ -1,0 +1,107 @@
+body {
+  position: relative;
+  max-width: 375px;
+}
+
+.masthead,
+aside {
+  background-color: rgb(246, 248, 249);;
+}
+
+main > img {
+  width: 375px;
+  height: 388px;
+}
+
+.travel__paragraph,
+.technology__paragraph,
+small,
+small a,
+.first-section p,
+footer a
+ {
+  color: rgb(166, 173, 180);
+}
+
+.travel__paragraph,
+.technology__paragraph {
+  overflow: hidden;
+}
+
+.travel,
+.technology {
+color: rgb(250, 105, 128);
+}
+
+.more-info,
+h2,
+h3,
+small,
+small a,
+.second-section p,
+footer a {
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+.more-info {
+  text-transform: uppercase;
+}
+
+.info-line {
+  border-block-end: 2px solid rgb(235, 237, 237);
+}
+
+
+.small-title {
+  font-family: serif, 'Times New Roman', Times;
+}
+
+.second-section--primary-content,
+.second-section--secondary-content,
+.article-title
+ {
+  color: white;
+}
+
+.second-section--primary-content,
+.second-section--secondary-content {
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+img[alt="dusty-elephant"],
+img[alt="a-red-bird"],
+img[alt="sloppy-road"] {
+  width: 327px;
+  height: 180px;
+  border-radius: 6px;
+}
+
+img[alt="a-big-bridge"],
+img[alt="path-in-forest"] {
+  width: 327px;
+  height: 300px;
+  border-radius: 6px;
+}
+
+img[alt="nice-river-and-mountain"],
+img[alt="orange-parasol"] {
+  width: 327px;
+  height: 180px;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+}
+
+.second-section {
+position: relative;
+}
+
+.second-section--secondary-content {
+  position: absolute;
+  top: 57%;
+}
+
+.second-section--primary-content {
+  position: absolute;
+  top: 10%;
+}

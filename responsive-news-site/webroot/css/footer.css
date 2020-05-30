@@ -1,0 +1,12 @@
+footer {
+  background-color: black;
+  opacity: 0.23;
+  height: 310px;
+}
+
+footer a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 11px;
+  font-weight: bold;
+}
