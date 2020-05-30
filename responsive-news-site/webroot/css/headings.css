@@ -1,0 +1,64 @@
+
+.sections__headings1 {
+   font-size: 24px;
+    color: white;
+    position: absolute;
+    top: -2%;
+    left: 2%;
+    padding-bottom: 1rem;
+    padding-right: 0;
+    padding-inline-start: 2rem;
+}
+
+
+
+
+
+
+
+.sections__headings2 {
+  color: #202124;
+  font-size: 24px;
+  text-decoration: none;
+  padding-inline-start: 2rem;
+}
+
+.sections__headings3--red {
+  color: #fa6980;
+}
+.sections__headings2--world {
+  position: absolute;
+  top: 13%;
+  padding-left: 2.5rem;
+  padding-right: 1rem;
+  color: white;
+  font-size: 24px;
+  border-top: 2px white solid;
+  padding-top: 1rem;
+}
+.sections__description__america {
+  position: absolute;
+    font-size: 16px;
+    top: 44%;
+    color: white;
+    width: 20rem;
+    padding-inline-start: 2.5rem;
+    padding-inline-end: 1rem;
+    padding-block-end: 1rem;
+}
+
+.button {
+  background-color: #fa6980;
+  text-align: center;
+  padding-inline-start: 1.5rem;
+  padding-inline-end: 1.5rem;
+  padding-block-start: 1rem;
+  padding-block-end: 1rem;
+  position: absolute;
+  top: 80%;
+  left: 10%;
+}
+.button__link {
+  text-decoration: none;
+  color: white;
+}

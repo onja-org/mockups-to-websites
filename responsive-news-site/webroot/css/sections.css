@@ -1,0 +1,29 @@
+.sections {
+  font-family:Helvetica;
+  font-weight: 700;
+}
+.sections:nth-of-type(1) {
+  position: relative;
+  display: inline-block;
+}
+.sections:nth-of-type(2) {
+  display: block;
+  max-width: 375px;
+}
+.sections:nth-of-type(3) {
+  max-width: 375px;
+  display: flex;
+  flex-direction: column;
+  background-color: #f6f8f9;
+}
+
+.sections:nth-of-type(4) {
+  max-width: 375px;
+  display: flex;
+  flex-direction: column;
+  background-color: #f6f8f9;
+}
+
+
+
+

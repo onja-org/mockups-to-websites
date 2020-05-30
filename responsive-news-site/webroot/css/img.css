@@ -1,0 +1,37 @@
+.mountain-img {
+  position: relative;
+  max-width: 375px;
+  object-fit: contain;
+}
+
+.trending__img {
+  position: relative;
+  max-width: 88%;
+}
+
+.beach__img {
+  position: relative;
+  max-width: 88%;
+}
+.bridge--img {
+  position: relative;
+  max-width: 88%;
+  object-fit: cover;
+}
+.elephant--img {
+  position: relative;
+  max-width: 88%;
+}
+.trees--img {
+  position: relative;
+  max-width: 88%;
+}
+.road--img {
+  position: relative;
+  max-width: 88%;
+}
+.forest--img {
+  position: relative;
+  object-fit: cover;
+  max-width: 88%;
+}
