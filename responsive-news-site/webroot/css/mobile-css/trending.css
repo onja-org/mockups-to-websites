@@ -1,0 +1,16 @@
+.trending img {
+  margin-inline-start: 1rem;
+  margin-inline-end: 1rem;
+  max-width: 361px;
+}
+.trending h2 {
+  border-block-end: none;
+}
+.dolore, .ipsum {
+  margin-inline-start: 2rem;
+  margin-inline-end: 2rem;
+
+}
+.trending__nav > div{
+
+}
