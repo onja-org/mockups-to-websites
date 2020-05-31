@@ -1,0 +1,16 @@
+.more-news header{
+  border-bottom: 2px solid #eeeeee;
+}
+
+.more-news li {
+  list-style: none;
+}
+
+.more-news a {
+  text-decoration: none;
+  color: #fa6980;
+}
+
+.more-news p {
+  color: #a6adb4;
+}

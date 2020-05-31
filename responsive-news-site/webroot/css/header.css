@@ -1,0 +1,62 @@
+header {
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+}
+
+.header input {
+  position: absolute;
+  top: 0; right: 0;
+  z-index: -1;
+}
+
+header label {
+  z-index: -1;
+}
+
+.checkbox ul {
+  position: absolute;
+  top: 3.5rem;
+  right: 0;
+  bottom: 0;
+  transition: transform .2s ease-in;
+transform: scale(0);
+transform-origin: left;
+}
+
+.checkbox li {
+  list-style: none;
+  margin: 0;
+  padding: 0.5rem;
+}
+
+.checkbox a {
+  display: block;
+  padding: 0.5rem;
+  margin-block-end: 0.5rem;
+  text-decoration: none;
+  color: #000000;
+  text-transform: uppercase;
+}
+
+.checkbox :checked ~ nav {
+transform: scale(1);
+}
+
+  header p > img {
+   width: 16px;
+   height: 24px;
+   border-radius: 50%;
+   margin-inline-start: 4rem;
+ }
+
+ h1 {
+  text-transform: uppercase;
+  font-size: medium;
+  color: #eeeeee;
+ }
+
+ nav {
+   display: none;
+ }

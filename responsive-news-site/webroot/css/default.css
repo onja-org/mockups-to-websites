@@ -1,0 +1,11 @@
+html {
+  font-family:sans-serif;
+  font-size: medium;
+  line-height: 2rem;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
