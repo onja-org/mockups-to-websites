@@ -1,0 +1,41 @@
+.description_world_news {
+  position: relative;
+  color: #ffffff;
+  text-align: left;
+  font-size: 11;
+  font-weight: 700;
+  padding-inline-start: 3rem;
+  padding-inline-end: 1rem;
+  padding-block-start: 1rem;
+  padding-block-end: 1rem;
+  background-color: rgba(0, 0, 0, .2);
+  text-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
+}
+.main_title {
+  border-bottom: solid 1px;
+}
+
+.description_world_news img {
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  top: 50%;
+  left: 50%;
+  object-fit: cover;
+  transform: translate(-50%, -50%);
+}
+
+button {
+  background-color: #fa6980;
+  border-radius: 10px;
+  border: 0;
+  width: 151px;
+  height: 40px;
+}
+
+button a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #ffffff;
+}

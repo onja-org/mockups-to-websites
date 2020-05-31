@@ -1,0 +1,14 @@
+
+.list__menu {
+
+}
+
+.list__menu_dropdown li {
+  display: inline-flex;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: space-between;
+}
+
+.list__menu_dropdown li {
+}

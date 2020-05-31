@@ -1,0 +1,18 @@
+.more__news-information {
+  border-bottom: solid 1px;
+}
+
+.details {
+  color: #fa6980;
+  font-weight: 700;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+.article_title {
+  font-weight: 700;
+}
+
+.more_explanation {
+  color: #a6adb4;
+}

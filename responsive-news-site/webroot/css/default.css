@@ -1,0 +1,20 @@
+html {
+
+}
+
+body {
+
+}
+
+main {
+
+}
+
+.timing {
+  color: #a6adb4;
+  font-style: oblique;
+}
+.timing::before {
+  content: "";
+  clip-path: circle(10% at 10% 10%);
+}
