@@ -21,3 +21,12 @@ main {
   display: block;
   padding-block-start: 31rem;
 }
+
+.information__list--explanation {
+  opacity: 0.3;
+}
+
+.information__list--time {
+  opacity: 0.3;
+  padding-block-end: 2rem;
+}
