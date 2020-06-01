@@ -10,7 +10,7 @@
     <header class="responsive-heading">
       <nav>
         <ul class="responsive-mobile">
-          <li class="responsive-mobile__list-item"><a class="responsive-mobile__list-item__link responsive-mobile__list-item__link--homepage" href="/home">Ξ</a></li>
+          <li class="responsive-mobile__list-item"><a class="responsive-mobile__list-item__link responsive-mobile__list-item__link--homepage" href="/home"></a></li>
           <li class="responsive-mobile__list-item"><a class="responsive-mobile__list-item__link responsive-mobile__list-item__link-logo" href="/logo">Logo</a></li>
           <li class="responsive-mobile__list-item"><img class="responsive-mobile__list-item--image-profile" src="./images/profile.jpeg" alt="Profile"></li>
         </ul>
@@ -41,45 +41,45 @@
 
       <article class="article">
         <h2 class="article-heading"><a class="article-heading__link" href="/more-news">More News</a></h2>
-        <ul>
-          <li class="article__list-item">
-            <h3 class="article__list-item article__list-item__heading">Travel</h3>
-            <h4 class="article__list-item article__list-item__subheading">Article title</h4>
-            <p class="article__list-item article__list-item__description">
+        <ul class="article-travelling">
+          <li class="article-travelling__list-item">
+            <h3 class="article-travelling__list-item article-travelling__list-item__heading">Travel</h3>
+            <h4 class="article-travelling__list-item article-travelling__list-item__subheading">Article title</h4>
+            <p class="article-travelling__list-item article-travelling__list-item__description">
               Lorem ipsum dolor sit amet, ipsum labitur lucilius mel id, ad has appareat…
             </p>
-            <p class="article__list-item article__list-item__last-visit">2m ago</p>
+            <p class="article-travelling__list-item list-item__last-visit">2m ago</p>
           </li>
 
-          <li class="article__list-item">
-            <h3 class="article__list-item article__list-item__heading">Technology</h3>
-            <h4 class="article__list-item article__list-item__subheading">Article title</h4>
-            <p class="article__list-item article__list-item__description">
+          <li class="article-travelling__list-item">
+            <h3 class="article-travelling__list-item article-travelling__list-item__heading">Technology</h3>
+            <h4 class="article-travelling__list-item article-travelling__list-item__subheading">Article title</h4>
+            <p class="article-travelling__list-item article-travelling__list-item__description">
               Lorem ipsum dolor sit amet, ipsum labitur lucilius mel id, ad has appareat…
             </p>
-            <p class="article__list-item article__list-item__last-visit">1m ago</p>
+            <p class="article-travelling__list-item list-item__last-visit">1m ago</p>
           </li>
         </ul>
       </article>
 
-      <article>
-        <h2>Trending</h2>
-        <ul>
-          <li>
-            <h3>Doloro magna aliqua</h3>
-            <img src="./images/trending-dolore-magna.jpeg" alt="Doloro magna aliqua">
-            <p>
+      <article class="article-environment">
+        <h2 class="article-environment__heading">Trending</h2>
+        <ul class="article-environment__list">
+          <li class="article-environment__list__list-item article-environment__list__list-item__nature">
+            <img class="article-environment__list__list-item article-environment__list__list-item__images" src="./images/trending-dolore-magna.jpeg" alt="Doloro magna aliqua">
+            <h3 class="article-environment__list__list-item article-environment__list__list-item__subheading">Doloro magna aliqua</h3>
+            <p class="article-environment__list__list-item article-environment__list__list-item__explanation">
               Lorem ipsum dolor sit amet, ipsum labitur lucilius mel id, ad has appareat.
             </p>
-            <p>1m ago</p>
+            <p class="article-environment__list__list-item list-item__last-visit">2m ago</p>
           </li>
-          <li>
-            <h3>Morbi eleifend a libero</h3>
-            <img src="./images/trending-morbi-eleifend-libero.jpeg" alt="Morbi eleifend a libero">
+          <li class="article-environment__list__list-item article-environment__list__list-item__beache">
+            <img class="article-environment__list__list-item article-environment__list__list-item__images" src="./images/trending-morbi-eleifend-libero.jpeg" alt="Morbi eleifend a libero">
+            <h3 class="article-environment__list__list-item article-environment__list__list-item__subheading" >Morbi eleifend a libero</h3>
             <p>
               Lorem ipsum dolor sit amet, ipsum labitur lucilius mel id, ad has appareat.
-            </p>
-            <p>2m ago</p>
+            </p class="article-environment__list__list-item article-environment__list__list-item__explanation">
+            <p class="list-item__last-visit">1h ago</p>
           </li>
         </ul>
       </article>
@@ -93,7 +93,7 @@
             <img src="./images/trending-dolore-magna.jpeg" alt="Doloro magna aliqua">
             <p>Lorem ipsum dolor sit amet, in eam odio amet, vix id nullam detracto, vidit vituperatoribus duo id. Affert detraxit
             </p>
-            <p>2m ago</p>
+            <p class="list-item__last-visit">2m ago</p>
           </li>
 
           <li>
@@ -102,7 +102,7 @@
             <img src="./images/trending-dolore-magna.jpeg" alt="Doloro magna aliqua">
             <p>Lorem ipsum dolor sit amet, in eam odio amet, vix id nullam detracto, vidit vituperatoribus duo id. Affert detraxit
             </p>
-            <p>1m ago</p>
+            <p class="list-item__last-visit">1m ago</p>
           </li>
         </ul>
       </article>
@@ -113,14 +113,14 @@
             <h2>
               Small title
             </h2>
-            <p>3h ago by <a href="https://world-news.com">Worldnews</a></p>
+            <p class="list-item__last-visit">3h ago by <a href="https://world-news.com">Worldnews</a></p>
             <img src="./images/world-news.jpeg" alt="Worldnews">
           </li>
           <li>
             <h2>
               Small title
             </h2>
-            <p>4h ago by <a href="https://days.com">Days</a></p>
+            <p class="list-item__last-visit">4h ago by <a href="https://days.com">Days</a></p>
             <img src="./images/days.jpeg" alt="Days">
           </li>
 
@@ -128,7 +128,7 @@
             <h2>
               Small title
             </h2>
-            <p>3h ago by <a href="https://monica.com">Monica</a></p>
+            <p class="list-item__last-visit">3h ago by <a href="https://monica.com">Monica</a></p>
             <img src="./images/monica.jpeg" alt="Monica">
           </li>
         </ul>
