@@ -1,16 +1,35 @@
-.trending img {
-  margin-inline-start: 1rem;
-  margin-inline-end: 1rem;
-  width: 100%;
-}
+
 .trending h2 {
   border-block-end: none;
 }
 .dolore, .ipsum {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
   margin-inline-start: 2rem;
   margin-inline-end: 2rem;
+  margin-top: 0;
+}
+  
 
+.ipsum {
+  font-family: serif;
+  opacity: 0.5;
+}
+.amet {
+  padding-top: 0;
+  padding-bottom: 0;
+  margin-bottom: 0;
 }
 .trending__nav > div{
-
+  position: relative;
+  margin-left: 1rem;
+  background-color: white;
+  width: 100%;
+  height: auto;
+  margin-top: -3rem;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.trending__nav .odd {
+  margin-top: -6rem;
 }

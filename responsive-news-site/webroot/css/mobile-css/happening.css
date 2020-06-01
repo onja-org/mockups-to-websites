@@ -1,0 +1,16 @@
+.happening {
+  position: relative;
+}
+.happening h2 {
+  border: none;
+
+}
+.happening h3 {
+
+  /* top: 3rem;
+  left: 2rem; */
+}
+.happening--description {
+  margin-inline-start: 2rem;
+  margin-inline-end: 2rem;
+}
