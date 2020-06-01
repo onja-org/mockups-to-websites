@@ -46,5 +46,9 @@
 
 .social__link {
   text-decoration: none;
-  color: #fff;
+  color: lightgrey;
+}
+
+.instagram {
+  background-image: url(../images/instagram.svg);
 }

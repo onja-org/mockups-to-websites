@@ -10,18 +10,29 @@
 
 <body>
   <header class="header">
-    <h1 class="header__logo">Logo</h1>
-    <!--
-    <nav class="navigation">
-      <ul class="navigation__container">
-        <li class="navigation__list_item"><a class="navigation__link" href="/">Home</a></li>
-        <li class="navigation__list_item"><a class="navigation__link" href="/discovery">Discovery</a></li>
-        <li class="navigation__list_item"><a class="navigation__link" href="/photos">Photos</a></li>
-        <li class="navigation__list_item"><a class="navigation__link" href="contact">Contact</a></li>
-        <li class="navigation__list_item"><a class="navigation__link" href="/profile">Profile</a></li>
-      </ul>
-    </nav>
-  -->
+    <div class="menu">
+      <input class="menu__input" type="checkbox" id="checkbox_menu">
+      <label for="checkbox_menu" class="menu__label"> Menu</label>
+      <nav class="navigation">
+        <header class="navigation__heading">
+          <h1>Logo</h1>
+        </header>
+        <ul class="navigation__container">
+          <li class="navigation__list_item"><a class="navigation__link" href="/">Home</a></li>
+          <li class="navigation__list_item"><a class="navigation__link" href="/discovery">Discovery</a></li>
+          <li class="navigation__list_item"><a class="navigation__link" href="/photos">Photos</a></li>
+          <li class="navigation__list_item"><a class="navigation__link" href="contact">Contact</a></li>
+          <li class="navigation__list_item"><a class="navigation__link" href="/profile">Profile</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div>
+      <h1 class="header__logo">Logo</h1>
+    </div>
+    <div class="profile">
+      Profile
+    </div>
+    <img class="profile__image" src="../docs/pattern-10.jpeg" alt="">
   </header>
   <main>
     <header class="world_news">
@@ -37,7 +48,7 @@
           majority of your life in.
         </p>
       </div>
-        <p class="learn_more"><a class="learn_more__link" href="/learn more">Learn more</a></p>
+      <p class="learn_more"><a class="learn_more__link" href="/learn more">Learn more</a></p>
     </header>
     <section class="more_news">
       <header>
@@ -156,10 +167,10 @@
     </div>
     <div class="social">
       <ul class="social__container">
-        <li class="social__list_items"> <a class="social__link" href="/instagram"> Instagram</a></li>
-        <li class="social__list_items"> <a class="social__link" href="/twitter"> Twitter</a></li>
-        <li class="social__list_items"> <a class="social__link" href="/facebook"> Facebook</a></li>
-        <li class="social__list_items"> <a class="social__link" href="/web"> Web</a></li>
+        <li class="social__list_items"> <a class="social__link instagram" href="/instagram"> Instagram</a></li>
+        <li class="social__list_items"> <a class="social__link twitter" href="/twitter"> Twitter</a></li>
+        <li class="social__list_items"> <a class="social__link facebook" href="/facebook"> Facebook</a></li>
+        <li class="social__list_items"> <a class="social__link web" href="/web"> Web</a></li>
       </ul>
     </div>
   </footer>

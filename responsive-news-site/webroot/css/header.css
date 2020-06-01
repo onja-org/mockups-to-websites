@@ -1,3 +1,15 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  padding-block-start: 2rem;
+  padding-inline-start: 1rem;
+  padding-inline-end: 1rem;
+  margin-inline-start: auto;
+  margin-inline-end: auto;
+}
+
 .header__logo {
   text-align: center;
   text-transform: uppercase;
@@ -5,3 +17,14 @@
   font-size: 16px;
   color: lightgrey;
 }
+
+.profile {
+  color: #fff;
+}
+
+.profile__image {
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+}
+
