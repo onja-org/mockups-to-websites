@@ -1,0 +1,14 @@
+.news_happening_now_list{
+ list-style: none;
+}
+.anchor_list_for_news_now{
+  color: gray;
+}
+.news_happening_now_list p{
+  color: gray;
+}
+.trending_news h2{
+  margin-inline-start: 3rem;
+  text-transform: uppercase;
+}
+

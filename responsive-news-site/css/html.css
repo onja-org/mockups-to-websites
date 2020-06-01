@@ -3,4 +3,6 @@ html{
  min-width: 375px;
 }
 
-
+h2{
+  margin-inline-start: 2rem;
+}

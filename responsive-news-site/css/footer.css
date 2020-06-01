@@ -1,0 +1,36 @@
+footer{
+  background-color: rgb(212, 209, 209);
+  max-width: 375px;
+  margin-block-start: -16px;
+
+}
+footer .footer_nav_list{
+  display: flex;
+
+
+}
+
+.footer_links{
+  list-style: none;
+  margin-block-start: 16px;
+
+
+}
+.footer_anchor_list{
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+ margin-block-start: 1rem;
+
+
+}
+.footer_links_second{
+  list-style: none;
+  margin-block-start: 48px;
+}
+.footer_list{
+  margin-block-start: 16px;
+}
+.footer_links{
+  margin-block-start: 48px;
+}

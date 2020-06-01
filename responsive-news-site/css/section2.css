@@ -1,11 +1,15 @@
 .trending_news{
-  background-color: rgb(240, 250, 252);
+  background-color: rgb(230, 240, 240);
   max-width: 375px;
   display: block;
   min-height: 900px;
 }
 .trending_news_links{
   list-style: none;
+}
+.trending_news img{
+  border-radius: 6px;
+
 }
 
 .trending_news_list{
@@ -25,14 +29,37 @@
   margin-inline-start: 16px;
 }
 
-img[src*="pattern-2.jpeg"]{
+.image_for_detail{
   max-width: 300px;
 }
-img[src*="pattern-3.jpeg"]{
-  max-width: 300px;
-}
+
 .trending_news_list p{
   color: rgb(180, 177, 177);
   margin-inline-start: 16px;
+}
+
+img[src*="pattern-2.jpeg"]{
+  margin-inline-start: 40px;
+}
+
+.news_happening_now_list_of_information img{
+  position: absolute;
+  z-index: -1;
+}
+
+.news_happening_now{
+margin-bottom: solid 10px grey;
+
+}
+.news_happening_now_list_of_information{
+  list-style: none;
+  color: white;
+  z-index: 1;
+}
+
+.anchor_list_for_news_happening_now{
+ text-decoration: none;
+ color: white;
+ text-transform: uppercase;
 }
 
