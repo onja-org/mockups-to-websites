@@ -1,6 +1,7 @@
 .inform {
   background-color: rgb(246, 248, 249);
   padding-inline-end: 2rem;
+  padding-block-end: 1rem;
 }
 
 .information__list--image {
