@@ -13,9 +13,13 @@ h3 {
 .world-news {
   color: #fff;
   line-height: 1.7;
+  object-fit: cover;
+  position: relative;
 }
 .world-news h2 {
-  margin-top: -23.7rem;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
 }
 .world-news a {
   color: #fff;
@@ -28,16 +32,15 @@ h3 {
   margin-bottom: 2rem;
 }
 .section__description {
-  position: relative;
   margin-inline-start: 1rem;
   margin-inline-end: 1rem;
 }
 
 .more-news {
   background-color: white;
-  margin-top: 1.3rem;
   color: darkgray;
   line-height: 1.5;
+  position: relative;
 }
 .more-news h3 {
   color: #fa6980;

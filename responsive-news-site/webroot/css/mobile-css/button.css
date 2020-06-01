@@ -1,6 +1,7 @@
 .button {
   margin-inline-start: 1rem;
   margin-inline-end: 1rem;
+  margin-block-end: 2rem;
   background-color: #fa6980;
   position: relative;
   width: 10rem;

@@ -1,7 +1,7 @@
 .trending img {
   margin-inline-start: 1rem;
   margin-inline-end: 1rem;
-  max-width: 361px;
+  width: 100%;
 }
 .trending h2 {
   border-block-end: none;
