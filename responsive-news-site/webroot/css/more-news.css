@@ -8,6 +8,7 @@
   padding-inline-end: 0;
   margin: 0;
   margin-inline-start: 2rem;
+  margin-inline-end: 2rem;
   display: flex;
   align-items: center;
   justify-content: stretch;
