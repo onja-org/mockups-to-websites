@@ -1,5 +1,14 @@
+.more-news {
+background-color: #ffffff;
+}
+
 .more-news header{
   border-bottom: 2px solid #eeeeee;
+  margin: 2rem;
+}
+
+.more-news h3 {
+text-transform: uppercase;
 }
 
 .more-news li {

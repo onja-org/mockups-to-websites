@@ -1,0 +1,44 @@
+.happening-now {
+border-bottom: 2px solid #eeeeee;
+}
+
+.happening-now h3 {
+  text-transform: uppercase;
+}
+
+.happening-now ul {
+padding: 0;
+}
+
+.happening-now li {
+  position: relative;
+  color: #ffffff;
+  list-style: none;
+  padding-block-start: 1rem;
+  padding-block-end: 1rem;
+  margin: 2rem;
+
+}
+.happening-now img {
+  object-fit: cover;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  transform: translate(-50%, -50%);
+  border-radius: 10px;
+  }
+
+    .happening-now h3,
+    .happening-now h4,
+    .happening-now p {
+      padding-inline-start: 2rem;
+      z-index: ;
+    }
+
+    .happening-now h4 {
+      font-weight: 700;
+      font-size: 24px;
+    }

@@ -1,5 +1,4 @@
 .trending {
-  background-color: #eeeeee;
   position: relative;
 }
 
@@ -15,4 +14,13 @@
   background-color: #ffffff;
   border-radius: 10px;
   margin: 2rem;
+}
+
+.trending ul {
+  padding: 0;
+}
+
+.trending h4,
+.trending p {
+  padding-left: 2rem;
 }

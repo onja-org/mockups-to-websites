@@ -1,31 +1,38 @@
 header {
-  overflow: hidden;
-  position: relative;
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
 }
 
-.header input {
+.checkbox {
+  overflow: hidden;
+  position: relative;
+}
+
+.checkbox input {
   position: absolute;
   top: 0; right: 0;
   z-index: -1;
 }
 
-header label {
+.checkbox label {
   z-index: -1;
 }
 
-.checkbox ul {
+.checkbox nav {
   position: absolute;
   top: 3.5rem;
   right: 0;
   bottom: 0;
   transition: transform .2s ease-in;
-transform: scale(0);
-transform-origin: left;
+  transform: scale(0);
+  transform-origin: left;
+  width: 287px;
+  z-index: 9999;
+  background-color: #f6f8f9;
 }
 
-.checkbox li {
+.checkbox ul {
   list-style: none;
   margin: 0;
   padding: 0.5rem;
@@ -48,15 +55,14 @@ transform: scale(1);
    width: 16px;
    height: 24px;
    border-radius: 50%;
-   margin-inline-start: 4rem;
  }
 
  h1 {
   text-transform: uppercase;
   font-size: medium;
-  color: #eeeeee;
+  color: #a6adb4;
  }
 
- nav {
+ /*header nav {
    display: none;
  }

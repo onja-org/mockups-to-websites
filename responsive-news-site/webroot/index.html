@@ -8,17 +8,19 @@
 </head>
 <body>
 <header>
-  <label for="checkbox-menu">Menu</label>
-  <input type="checkbox" id="checkbox-menu">
-  <nav>
-    <ul class="checkbox">
-      <li><a href="/">Home</a></li>
-      <li><a href="/discovery">Discovery</a></li>
-      <li><a href="/photos">Photos</a></li>
-      <li><a href="/contact">Contact</a></li>
-      <li><a href="/profile">Profile</a></li>
-    </ul>
-  </nav>
+  <div class="checkbox">
+    <label for="checkbox-menu">Menu</label>
+    <input type="checkbox" id="checkbox-menu">
+    <nav>
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/discovery">Discovery</a></li>
+        <li><a href="/photos">Photos</a></li>
+        <li><a href="/contact">Contact</a></li>
+        <li><a href="/profile">Profile</a></li>
+      </ul>
+    </nav>
+  </div>
   <h1>Logo</h1>
   <p><img class="profile" src="../docs/pattern-10.jpeg" alt="profile"></p>
 </header>
@@ -38,14 +40,16 @@
   </header>
   <ul>
     <li>
-      <h3><a href="/travel">TRAVEL</a></h3>
+      <h3><a href="/travel">Travel</a></h3>
       <h4>Article title</h4>
       <p>Lorem ipsum dolor sit amet, ipsum labitur lucilius mel id, ad has appareat…</p>
+      <p class="small"> 2m ago</p>
     </li>
     <li>
-      <h3><a href="/technology">TECHNOLOGY</a></h3>
+      <h3><a href="/technology">Technology</a></h3>
       <h4>Article title</h4>
       <p>Lorem ipsum dolor sit amet, ipsum labitur lucilius mel id, ad has appareat…</p>
+      <p class="small">1h ago</p>
     </li>
 </section>
 <section class="trending">
@@ -54,23 +58,84 @@
   </header>
   <ul>
     <li>
-  <img src="../docs/pattern-2.jpeg" alt="image">
+  <img src="../docs/pattern-2.jpeg" alt="lac">
   <h4>Dolore magna aliqua</h4>
   <p>Lorem ipsum dolor sit amet, ipsum labitur lucilius mel id, ad has appareat</p>
+  <p class="small">2mn ago</p>
     </li>
     <li>
-  <img src="../docs/pattern-3.jpeg" alt="image">
+  <img src="../docs/pattern-3.jpeg" alt="beach">
   <h4>Morbi eleifend a libero</h4>
   <p>Lorem ipsum dolor sit amet, ipsum labitur lucilius mel id, ad has appareat</p>
+  <p class="small">1h ago</p>
     </li>
   </ul>
 </section>
-<section>
+<section class="happening-now">
   <header>
-    <h2></h2>
+    <h2>happening now</h2>
   </header>
+  <ul>
+    <li>
+      <img class="bridge" src="../docs/pattern-5.jpeg" alt="bridge">
+      <h3>City</h3>
+      <h4>Large article title mobile layout</h4>
+      <p>Lorem ipsum dolor sit amet, in eam odio amet, vix id nullam detracto, vidit vituperatoribus duo id. Affert detraxit</p>
+      <p class="small">2mn ago</p>
+    </li>
+    <li>
+      <img class="path" src="../docs/pattern-6.jpeg" alt="path">
+      <h3>Travel</h3>
+      <h4>Large article title mobile layout</h4>
+      <p>Lorem ipsum dolor sit amet, in eam odio amet, vix id nullam detracto, vidit vituperatoribus duo id. Affert detraxi</p>
+      <p class="small">2d ago</p>
+    </li>
+  </ul>
+</section>
+<section class="photos">
+  <ul>
+    <li>
+      <img src="../docs/pattern-7.jpeg" alt="elephant">
+      <p>Small title</p>
+      <p class="small">3h ago by <a href="/worldnews">Worldnews</a></p>
+    </li>
+    <li>
+      <img src="../docs/pattern-8.jpeg" alt="bird">
+      <p>Small title</p>
+      <p class="small">4h ago by <a href="/day">Days</a></p>
+    </li>
+    <li>
+      <img src="../docs/pattern-9.jpeg" alt="road">
+      <p>Small title</p>
+      <p class="small">3h ago by <a href="/monica">Monica</a></p>
+    </li>
+  </ul>
 </section>
 </main>
-<footer></footer>
+<footer>
+  <nav  class="grid">
+    <ul>
+      <li><a href="/about">about</a></li>
+      <li><a href="/help">help</a></li>
+      <li><a href="/terms">terms</a></li>
+      <li><a href="/guidlines">guidlines</a></li>
+    </ul>
+    <ul>
+      <li><a href="/testimonials">testimonials</a></li>
+      <li><a href="/advertise">advertise</a></li>
+      <li><a href="/integrations">integrations</a></li>
+      <li><a href="/careers">careers</a></li>
+    </ul>
+  </nav>
+  <nav class="flex">
+      <ul>
+        <li><a href="/insta"><img src="" alt="">inst</a></li>
+        <li><a href="/twiter"><img src="" alt="">twit</a></li>
+        <li><a href="/facebook"><img src="" alt="">fb</a></li>
+        <li><a href="/navig"><img src="" alt="">nav</a></li>
+      </ul>
+    </nav>
+  </footer>
+</footer>
 </body>
 </html>

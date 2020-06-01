@@ -1,0 +1,23 @@
+.photos {
+background-color: #f6f8f9;
+}
+
+.photos img {
+width: 100%;
+height: 100%;
+border-radius: 10px;
+}
+
+.photos li {
+  list-style: none;
+  margin-top: 2rem;
+}
+
+.photos ul {
+  padding: 0;
+}
+
+.photos p {
+  font-weight: 600;
+  font-family: serif;
+}

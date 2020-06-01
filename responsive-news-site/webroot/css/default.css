@@ -2,10 +2,26 @@ html {
   font-family:sans-serif;
   font-size: medium;
   line-height: 2rem;
+  background-color: #f6f8f9;
 }
 
 h2 {
   font-size: 24px;
   font-weight: 700;
   text-transform: uppercase;
+}
+
+header {
+  margin-inline-start: 2rem;
+}
+
+.small {
+  color: #a6adb4;
+  font-size: 13px;
+  font-style: oblique;
+  font-family: sans-serif;
+}
+
+.small a {
+  color: #a6adb4;
 }
