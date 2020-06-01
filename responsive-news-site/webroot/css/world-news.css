@@ -1,18 +1,31 @@
 #world-news {
   position: relative;
-   background-color: rgba(0,0,0,0.2);
+  background-color: rgba(0,0,0,0.2);
 }
 
 .sharing-news__section {
-  position: absolute;
-  margin-inline-start: 2rem;
+  padding-block-start: 2rem;
+  margin-inline-start: 3rem;
   margin-inline-end: 2rem;
+  padding-block-end: 2rem;
   color: #fff;
 }
- 
+#world-news .sharing-news__titles__big-title {
+  border-block-end: 2px solid;
+}
+
+#world-news .sharing-news__explanation {
+  padding-block-end: 1.5rem;
+}
+
 .sharing-news__american-photo {
-  max-width: 100%;
-  height: 60%;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+  z-index: -1;
 }
 
 .sharing-news-learn-more-link {
@@ -24,5 +37,4 @@ padding-inline-start: 2rem;
 padding-inline-end: 2rem;
 padding-block-start: 1rem;
 padding-block-end: 1rem;
-
 }

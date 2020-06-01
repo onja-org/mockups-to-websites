@@ -10,7 +10,7 @@
 <body>
   <header>
     <nav class="navigation">
-      <ul class="navigation__menus--hidden">
+      <ul class="navigation__menus hidden">
         <li class="navigation__menus__list-of-menus"><a class="navigation__menus__list-of-menus__new-tab"
             href="/home">Home</a></li>
         <li class="navigation__menus__list-of-menus"><a class="navigation__menus__list-of-menus__new-tab"
@@ -20,7 +20,7 @@
         <li class="navigation__menus__list-of-menus"><a class="navigation__menus__list-of-menus__new-tab"
             href="/contact">Contact</a></li>
       </ul>
-      <ul class="navigation__menus--transform">
+      <ul class="navigation__menus transform">
         <li class="navigation__menus__list-of-menus" <a class="navigation__menus__list-of-menus__new-tab--Logo"
           href="logo">Logo</a>
         </li>
@@ -128,92 +128,108 @@
           Happening now
         </h1>
       </header>
-      <nav class="sharing-news-navigation">
-        <ul class="sharing-news-navigation__description-lists">
-          <li class="sharing-news-navigation__description-lists__list">
-            <h2 class="sharing-news__titles__sub-title1--uppercase">
-              City
-            </h2>
-            <h3>
-              Large article title mobile layout
-            </h3>
-            <p class="sharing-news__description">
-              Lorem ipsum dolor sit amet, in eam odio amet, vix id nullam detracto, vidit vituperatoribus duo id. Affert
-              detraxit
-            </p>
-            <p class="sharing-news__description__period">
-              <small>
-                2mn ago
-              </small>
-            </p>
-          </li>
-          <li class="sharing-news-navigation__description-lists__list">
-            <img class="sharing-news__amazing-photo" src="../docs/amazing-city.jpeg" alt="">
-          </li>
-          <li class="sharing-news-navigation__description-lists__list">
-            <h2 class="sharing-news__titles__sub-title1--uppercase">
-              Travel
-            </h2>
-            <h3>
-              Large article title mobile layout
-            </h3>
-            <p class="sharing-news__description">
-              Lorem ipsum dolor sit amet, in eam odio amet, vix id nullam detracto, vidit vituperatoribus duo id. Affert
-              detraxit
-            </p>
-            <p class="sharing-news__description__period">
-              <small>
-                2d ago
-              </small>
-            </p>
-          </li>
-          <li class="sharing-news-navigation__description-lists__list">
-            <img class="sharing-news__amazing-photo forest" src="../docs/travel-forest.jpeg" alt="">
-          </li>
-          <li class="sharing-news-navigation__description-lists__list">
-            <img class="small-title-image" src="../docs/big-thorn.jpeg" alt="">
-            <p class="sharing-news__description">
-              <b>
-                Small title
-              </b>
-            </p>
-            <p class="sharing-news__description__period">
-              <small>
-                3h ago by
-                <a href="https://www.Worldnews">Worldnews</a>
-              </small>
-            </p>
-          </li>
-          <li class="sharing-news-navigation__description-lists__list">
-            <img class="small-title-image tall" src="../docs/bird-forest.jpeg" alt="">
-            <p class="sharing-news__description">
-              <b>
-                Small title
-              </b>
-            </p>
-            <p class="sharing-news__description__period">
-              <small>
-                4h ago by
-                <a href="https://days">Days</a>
-              </small>
-            </p>
-          </li>
-          <li class="sharing-news-navigation__description-lists__list">
-            <img class="small-title-image" src="../docs/road-in-forest.jpeg" alt="">
-            <p class="sharing-news__description">
-              <b>
-                Small title
-              </b>
-            </p>
-            <p class="sharing-news__description__period">
-              <small>
-                3h ago by
-                <a href="https://Monica">Monica</a>
-              </small>
-            </p>
-          </li>
-        </ul>
-      </nav>
+      <article class="sharing-news__article">
+        <nav class="sharing-news-navigation">
+          <ul class="sharing-news-navigation__description-lists">
+            <li class="sharing-news-navigation__description-lists__list">
+              <h2 class="sharing-news__titles__sub-title1--uppercase">
+                City
+              </h2>
+              <h3>
+                Large article title mobile layout
+              </h3>
+              <p class="sharing-news__description">
+                Lorem ipsum dolor sit amet, in eam odio amet, vix id nullam detracto, vidit vituperatoribus duo id.
+                Affert
+                detraxit
+              </p>
+              <p class="sharing-news__description__period">
+                <small>
+                  2mn ago
+                </small>
+              </p>
+            </li>
+            <li class="sharing-news-navigation__description-lists__list--photo">
+              <img class="sharing-news__amazing-city" src="../docs/amazing-city.jpeg" alt="">
+            </li>
+          </ul>
+        </nav>
+      </article>
+      <article class="sharing-news__article">
+        <nav class="sharing-news-navigation">
+          <ul class="sharing-news-navigation__description-lists">
+            <li class="sharing-news-navigation__description-lists__list travel">
+              <h2 class="sharing-news__titles__sub-title1--uppercase">
+                Travel
+              </h2>
+              <h3>
+                Large article title mobile layout
+              </h3>
+              <p class="sharing-news__description">
+                Lorem ipsum dolor sit amet, in eam odio amet, vix id nullam detracto, vidit vituperatoribus duo id.
+                Affert
+                detraxit
+              </p>
+              <p class="sharing-news__description__period">
+                <small>
+                  2d ago
+                </small>
+              </p>
+            </li>
+            <li class="sharing-news-navigation__description-lists__list">
+              <img class="sharing-news__amazing-photo forest" src="../docs/travel-forest.jpeg" alt="">
+            </li>
+          </ul>
+        </nav>
+      </article>
+      <article class="sharing-news__article">
+        <nav class="sharing-news-navigation">
+          <ul class="sharing-news-navigation__description-lists">
+            <li class="sharing-news-navigation__description-lists__list">
+              <img class="small-title-image" src="../docs/big-thorn.jpeg" alt="">
+              <p class="sharing-news__description">
+                <b>
+                  Small title
+                </b>
+              </p>
+              <p class="sharing-news__description__period">
+                <small>
+                  3h ago by
+                  <a href="https://www.Worldnews">Worldnews</a>
+                </small>
+              </p>
+            </li>
+            <li class="sharing-news-navigation__description-lists__list">
+              <img class="small-title-image tall" src="../docs/bird-forest.jpeg" alt="">
+              <p class="sharing-news__description">
+                <b>
+                  Small title
+                </b>
+              </p>
+              <p class="sharing-news__description__period">
+                <small>
+                  4h ago by
+                  <a href="https://days">Days</a>
+                </small>
+              </p>
+            </li>
+            <li class="sharing-news-navigation__description-lists__list">
+              <img class="small-title-image" src="../docs/road-in-forest.jpe" alt="">
+              <p class="sharing-news__description">
+                <b>
+                  Small title
+                </b>
+              </p>
+              <p class="sharing-news__description__period">
+                <small>
+                  3h ago by
+                  <a href="https://Monica">Monica</a>
+                </small>
+              </p>
+            </li>
+          </ul>
+        </nav>
+      </article>
     </section>
   </main>
   <footer>

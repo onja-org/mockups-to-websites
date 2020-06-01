@@ -2,14 +2,19 @@
   background-color: #f6f8f9;
 
 }
-
+#trending .sharing-news__titles__big-title {
+  margin-inline-start: 2.3rem;
+}
 #trending .sharing-news-navigation__description-lists__list {
   background-color: #fff;
   margin-inline-end: 2rem;
+  margin-block-end: 2rem;
+  padding-block-end: 2rem;
 }
+
+
 .sharing-news-navigation__trending-image {
-  min-width: 100%;
-  height: 30%;
+  width: 100%;
 }
 
 #trending .sharing-news__explanation,

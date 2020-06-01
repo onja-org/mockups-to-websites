@@ -1,6 +1,7 @@
 .navigation {
   display: flex;
   flex-direction: row;
+  background-color: #f6f8f9;
 }
 .navigation__menus {
   flex-grow: 1;
@@ -10,12 +11,11 @@
 width: 16px;
 height: 24px;
 border-radius: 50% 50%;
-margin-inline-start: 6rem;
 }
 
 .navigation__menus--transform {
   text-transform: uppercase;
   font-weight: 700;
   font-size: 16px;
-  transform: translateX(50%);
+
 }

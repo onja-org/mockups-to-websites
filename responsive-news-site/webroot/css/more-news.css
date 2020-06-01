@@ -2,3 +2,9 @@
 #sharing-news .sharing-news__titles__sub-title1--uppercase{
  color: #fa6980;
 }
+#more-news .sharing-news__titles__big-title {
+  border-block-end: solid 2px;
+  border-color: rgba(0, 0, 0, 0.23);
+  margin-inline-start: 2.3rem;
+
+}
