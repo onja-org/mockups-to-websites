@@ -7,10 +7,10 @@
   border-radius: 50%;
   max-width: 7%;
   margin-block-end: auto;
-  transform: translate(181px, 13px)
+  transform: translate(129px, 13px);
 }
 .header__logo {
-  transform: translateX(75px);
+ transform: translateX(48px);
 }
 .header__logo--link {
   text-decoration: none;
