@@ -2,7 +2,6 @@ header {
   height: 88px;
   background-color: rgb(246, 248, 249);
   color: #FFFFFF;
-  position: relative;
 }
 .responsive__list {
   list-style: none;
@@ -21,11 +20,16 @@ header {
   color: #000000;
   font: 13px sans-serif;
   font-weight: 800;
+
+}
+
+.responsive__list_item--link_home {
+  color: rgb(246, 248, 249);
 }
 
 .responsive__list_item--link_home::before {
   content: "Ξ";
-
+  color: #000000;
 }
 
 .responsive__list_item--link_logo {
@@ -63,7 +67,9 @@ header {
   height: 100%;
   position: absolute;
   z-index: -1;
+  object-fit: cover;
   margin: 0;
+  transform: translate(0, 0);
 }
 
 .subheading {
