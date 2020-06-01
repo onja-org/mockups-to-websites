@@ -1,5 +1,6 @@
 .news_happening_now_list{
  list-style: none;
+
 }
 .anchor_list_for_news_now{
   color: gray;
@@ -11,4 +12,6 @@
   margin-inline-start: 3rem;
   text-transform: uppercase;
 }
-
+.news_happening_now{
+  border-top: gray solid 2px;
+}

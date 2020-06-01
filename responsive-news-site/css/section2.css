@@ -1,15 +1,12 @@
+
 .trending_news{
   background-color: rgb(230, 240, 240);
   max-width: 375px;
   display: block;
-  min-height: 900px;
+  max-height: 3720px;
 }
 .trending_news_links{
   list-style: none;
-}
-.trending_news img{
-  border-radius: 6px;
-
 }
 
 .trending_news_list{
@@ -22,44 +19,106 @@
  line-height: 32px;
 
 }
+
 .header_trending{
   margin-inline-start: 16px;
+}
+
+.trending_news img{
+  border-radius: 6px;
+
 }
 .paragraph_trending{
   margin-inline-start: 16px;
 }
-
 .image_for_detail{
   max-width: 300px;
-}
 
+}
 .trending_news_list p{
   color: rgb(180, 177, 177);
   margin-inline-start: 16px;
 }
-
 img[src*="pattern-2.jpeg"]{
   margin-inline-start: 40px;
 }
 
-.news_happening_now_list_of_information img{
-  position: absolute;
+
+
+/* The second part of nav */
+.news_happening_now_list_of_information{
+
+
+}
+.anchor_list_for_news_happening_now{
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+ }
+ .nav_news_happening_now{
+  z-index: 1;
+  position: relative;
+
+}
+.image_for_detail_travel{
+  max-width: 327px;
+  min-height: 400px;
   z-index: -1;
+  position: absolute;
+
 }
 
-.news_happening_now{
-margin-bottom: solid 10px grey;
 
+/*  third part of sectio */
+.news_happening_now{
+margin-block-start: 32px;
+
+}
+.image_for_detail_travel{
+ margin-block-start: -32px;
 }
 .news_happening_now_list_of_information{
+  max-width: 375px;
+  min-height: 375px;
+  margin-block-start: 16px;
   list-style: none;
   color: white;
-  z-index: 1;
+  margin-block-start: 48px;
+
+
+}
+.image_for_detail_travel{
+
 }
 
 .anchor_list_for_news_happening_now{
- text-decoration: none;
- color: white;
- text-transform: uppercase;
+  padding-block-start: 32px;
+  margin-inline-start: 32px;
+
+
 }
+.news_happening_now_list_of_information h4{
+  font-weight: 700;
+  font-size: 32px;
+}
+
+.header_for_nav{
+  margin-inline-start: 32px;
+
+}
+.paragraph_of_nav{
+  margin-inline-start: 32px;
+ font-size: 20px;
+ line-height: 32px;
+
+}
+.news_happening_now_list_of_information a{
+
+}
+.date_of_paragrathe{
+  color: rgb(187, 184, 184);
+  margin-inline-start: 32px;
+}
+
+
 

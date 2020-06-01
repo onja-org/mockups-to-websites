@@ -34,3 +34,17 @@ footer .footer_nav_list{
 .footer_links{
   margin-block-start: 48px;
 }
+
+.icon_link_news{
+  list-style: none;
+  display: flex;
+  margin-inline-start: 6px;
+
+}
+.icon_list_of_news{
+ margin-inline-start: 6px;
+}
+.anchor_of_footer{
+  text-decoration: none;
+  color: white;
+}
