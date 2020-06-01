@@ -2,7 +2,6 @@ body {
   margin: 0;
   font-family: sans-serif;
   line-height: 1.5;
-  columns: 1;
 }
 
 ul {
@@ -16,4 +15,9 @@ a {
 span {
   font-family: 13px;
   font-style: italic;
+}
+
+main {
+  display: block;
+  padding-block-start: 31rem;
 }
