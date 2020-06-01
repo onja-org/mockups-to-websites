@@ -1,6 +1,8 @@
 header {
   height: 88px;
   background-color: rgb(246, 248, 249);
+  color: #FFFFFF;
+  position: relative;
 }
 .responsive__list {
   list-style: none;
@@ -33,3 +35,72 @@ header {
 .responsive__list_item--link_image {
   border-radius: 50%;
 }
+
+.world_news {
+  position: relative;
+  background-color: rgba(0, 0, 0, 0.2);
+  margin-block-start: 1rem;
+}
+
+.world_news--title {
+  font: 24px;
+  font-weight: 700;
+  text-transform: uppercase;
+  border-bottom: 2px solid;
+  padding-block-end: 2rem;
+  margin: 0;
+  padding-inline-end: 1rem;
+  padding-block-start: 3rem;
+  margin-inline-start: 2rem;
+}
+
+.word_news--title_link {
+  color: #FFFFFF;
+}
+
+.image {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: -1;
+  margin: 0;
+}
+
+.subheading {
+  font-size: 24px;
+  margin-inline-start: 1rem;
+  padding-block-start: 1rem;
+  padding-block-end: 0;
+  padding-inline-start: 1rem;
+  padding-inline-end: 0;
+  z-index: 1;
+}
+
+.world_news--explanation {
+  padding-block-start: 1rem;
+  padding-block-end: 1rem;
+  padding-inline-start: 1rem;
+  margin-inline-start: 1rem;
+  font-size: 16px;
+  z-index: 1;
+}
+
+.world_news--learn_more {
+  padding-inline-start: 1rem;
+  margin-inline-start: 1rem;
+  padding-block-start: 2rem;
+  padding-block-end: 3rem;
+}
+
+.world_news--learn_more-link {
+  text-transform: uppercase;
+  font-size: 12px;
+  background-color: rgb(250, 105, 128);
+  color: #FFFFFF;
+  padding-block-start: 0.8rem;
+  padding-block-end: 0.8rem;
+  padding-inline-start: 2.5rem;
+  padding-inline-end: 2.5rem;
+  border-radius: 5px;
+}
+
