@@ -1,0 +1,102 @@
+.world-news_content {
+  position: relative;
+  color: white;
+  padding-inline-start: 1.5rem;
+  padding-block-start: 2.375rem;
+  padding-block-end: 2.375rem;
+  padding-inline-end: 1.5rem;
+  background-color: rgba(0,0,0,0.2);
+}
+.trending_content{
+  position: relative;
+  color: white;
+  padding-inline-start: 1.5rem;
+  padding-block-start: 2.375rem;
+  padding-block-end: 2.375rem;
+  padding-inline-end: 1.5rem;
+  background-color: rgba(0,0,0,0.2);
+}
+.navigation {
+  position: relative;
+  color: white;
+  padding-inline-start: 1.5rem;
+  padding-block-start: 2.375rem;
+  padding-block-end: 2.375rem;
+  padding-inline-end: 1.5rem;
+  background-color: rgba(0,0,0,0.2);
+}
+
+.world-news_content header > :first-child {
+  margin-block-start: 0;
+}
+
+.picture_of_description {
+  margin: 0;
+  position: absolute;
+  z-index: -1;
+  top: 50%;
+  height: 100%;
+  width: 100%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.picture_of_description > img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+.heading4--pattern-5 > img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+.picture_of_description > img
+.heading_section--description {
+  border-bottom: white solid;
+  padding-bottom: 2rem;
+}
+
+.nav_list_item_description--link {
+  background-color: pink;
+  padding-inline-start: 1rem;
+  padding-inline-end: 1rem;
+  padding-block-start: 1rem;
+  padding-block-end: 1rem;
+  border-radius: 6px;
+}
+.navigation_unoder_list--heading4 {
+  color: #fa6980;
+  text-transform: uppercase;
+}
+.navigation_unoder_list--heading5 {
+  color: #202124;
+}
+
+.navigation_unoder_list--description--article {
+  color: #a6adb4;
+}
+
+.list_item {
+  list-style: none;
+}
+
+.picture_description > img{
+  width: 100%;
+  height: 200px;
+  border-radius: 6px 6px 0 0;
+}
+.heading4--pattern {
+  margin: 0;
+  position: absolute;
+  z-index: -1;
+  top: 50%;
+  height: 100%;
+  width: 100%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.section-4 {
+  padding-block-end: 60px;
+}
