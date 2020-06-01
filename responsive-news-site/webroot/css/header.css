@@ -30,8 +30,13 @@ ul > li {
 .responsive-mobile__list-item__link--homepage {
   color: #343638;
   padding-inline-start: 10px;
-  font-size: 16px;
-  font-weight: 600;
+  background-image: url(../images/icon-menu.svg);
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-size: 16px 14px;
+  background-position: center;
 }
 
 .responsive-mobile__list-item__link-logo {
@@ -42,5 +47,5 @@ ul > li {
 
 .responsive-mobile__list-item--image-profile {
   border-radius: 50%;
-  max-width: 16px;
+  max-width: 20px;
 }
