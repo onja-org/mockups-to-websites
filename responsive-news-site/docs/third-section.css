@@ -3,15 +3,16 @@
   --padding-horizontal: 1rem;
 }
 section:nth-of-type(3) img {
-  width: 375px;
+  width: 327px;
   height: 154px;
   border-radius: 0.5rem;
 }
-.heading__lists {
+section:nth-of-type(3) .heading__lists {
   position: relative;
   top: -50%;
   padding: 0;
   margin: 0;
+  padding-inline-end: 3rem;
 }
 
 section:nth-of-type(3) .list__subheading--inside {
@@ -25,5 +26,6 @@ section:nth-of-type(3) .list__subheading {
 }
 section:nth-of-type(3) .main__secod--paragraph {
   padding-inline-start: var(--padding-horizontal);
+  padding-inline-end: 3rem;
   margin: 0;
 }
