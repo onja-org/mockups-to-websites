@@ -9,6 +9,14 @@
 
 .menu__anchor {
   text-decoration: none;
+  color: #ffffff;
+  display: inline-block;
+  text-transform: uppercase;
+  padding-block-end: 2rem;
+}
+
+footer nav {
+  padding-block-start: 4rem;
 }
 
 footer {
@@ -29,3 +37,4 @@ footer {
   text-decoration: none;
   padding-inline-end: 1rem;
 }
+
