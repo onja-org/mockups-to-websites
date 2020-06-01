@@ -11,7 +11,17 @@
   object-fit: cover;
 }
 
-.world_news__heading {
+
+.world_news__header {
+  font-weight: bold;
+  font-size: 20px;
+  top: 8rem;
+  margin-inline-start: 1.5rem;
+  margin-inline-end: 1.5rem;
+  transform: translate(0rem, -16rem);
+}
+
+.world_news__paragraph {
   border-bottom: 2px solid white;
   padding-block-end: 2rem;
   font-size: 24px;
@@ -22,15 +32,11 @@
   transform: translate(0rem, -17rem);
 }
 
-.world_news__america {
-  font-weight: bold;
-  font-size: 20px;
-  top: 8rem;
-  margin-inline-start: 1.5rem;
-  margin-inline-end: 1.5rem;
-  transform: translate(0rem, -16rem);
-
-}
+/* .world_news__header,
+.world_news__paragraph {
+  display: flex;
+  flex-direction: row;
+} */
 
 .world_news__information {
   top: 12rem;
@@ -150,6 +156,7 @@
 .happening_now {
   padding: 1.5rem;
   background-color: rgb(246, 248, 249);
+  display: inline-block;
 
 }
 
@@ -164,16 +171,21 @@
 }
 
 .happening_now__subheading {
-  padding-block-start: 2rem;
   font-size: 16px;
   font-weight: bold;
   text-transform: uppercase;
+  margin: 0;
 }
 
-.happening_now__list_item--city {
-  background-image: url("../images/pattern-5.jpeg");
-  background-repeat: no-repeat;
-  background-size: cover;
+.happening_now__content {
+  transform: translate(0rem, -10rem);
+  padding: 1.5rem;
+
+}
+
+.happening_now__city_image {
+  width: 100%;
+  height: 100%;
 }
 
 .happening_now__small_heading {
@@ -183,18 +195,13 @@
 }
 
 .happening_now__list_item {
-  color: white;
+  color: black;
   list-style: none;
-  padding-inline-start: 2rem;
+  /* padding-inline-start: 2rem; */
   padding-block-end: 2rem;
   border-radius: 8px;
 }
 
-.happening_now__list_item--city {
-  background-image: url("../images/pattern-5.jpeg");
-  background-repeat: no-repeat;
-  background-size: cover;
-}
 
 .happening_now__lorem_text {
   font-size: 16px;
@@ -204,4 +211,10 @@
 .happening_now__updated_time {
   font-size: 16px;
   color: lightgray;
+}
+
+
+.happening_now__travel_image {
+  width: 100%;
+  height: 100%;
 }
