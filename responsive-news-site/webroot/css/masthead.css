@@ -4,15 +4,9 @@ html {
 }
 
 body {
-  width: 375px;
-  height: 388px;
-  object-fit: cover;
   margin: 0;
 }
 
-main {
-  max-width: 375px;
-}
 .navigation {
   display: flex;
   flex-direction: row;
@@ -20,9 +14,13 @@ main {
   padding-inline-start: 0;
 }
 
-.button_menu::before {
-  content: "=";
-  padding-inline-start: 1rem;
+.button_menu {
+  background-image: url("../images/menu-button.svg");
+  background-repeat: no-repeat;
+  display: block;
+  width: 20px;
+  height: 20px;
+  margin-inline-start: 1rem;
 }
 .link__menu {
   visibility: hidden;

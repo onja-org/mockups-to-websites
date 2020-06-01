@@ -1,0 +1,7 @@
+.happening_now {
+  position: relative;
+  top: 21rem;
+}
+.happening_now__list {
+  list-style: none;
+}
