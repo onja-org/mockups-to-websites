@@ -10,12 +10,6 @@
     padding-inline-start: 2rem;
 }
 
-
-
-
-
-
-
 .sections__headings2 {
   color: #202124;
   font-size: 24px;
@@ -26,11 +20,15 @@
 .sections__headings3--red {
   color: #fa6980;
 }
+.sections__headings4 {
+  color: #202124;
+  font-size: 16px;
+  font-weight: 700;
+}
 .sections__headings2--world {
   position: absolute;
   top: 13%;
-  padding-left: 2.5rem;
-  padding-right: 1rem;
+  padding-left: 2rem;
   color: white;
   font-size: 24px;
   border-top: 2px white solid;
@@ -41,10 +39,7 @@
     font-size: 16px;
     top: 44%;
     color: white;
-    width: 20rem;
-    padding-inline-start: 2.5rem;
-    padding-inline-end: 1rem;
-    padding-block-end: 1rem;
+    padding-inline-start: 2rem;
 }
 
 .button {
@@ -52,8 +47,8 @@
   text-align: center;
   padding-inline-start: 1.5rem;
   padding-inline-end: 1.5rem;
-  padding-block-start: 1rem;
-  padding-block-end: 1rem;
+  padding-block-start: 0.5rem;
+  padding-block-end: 0.5rem;
   position: absolute;
   top: 80%;
   left: 10%;
@@ -62,3 +57,4 @@
   text-decoration: none;
   color: white;
 }
+

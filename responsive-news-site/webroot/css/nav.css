@@ -6,3 +6,6 @@ ul {
   list-style: none;
   text-decoration: none;
 }
+.sections__navigation__list--happening--now--text {
+  position: absolute;
+}

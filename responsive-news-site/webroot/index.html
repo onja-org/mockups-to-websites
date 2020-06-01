@@ -8,15 +8,17 @@
 </head>
 
 <body class="body">
-  <header>
+  <header class="header">
     <nav>
-      <ul>
-        <li><a href="/">Home</a></li>
-        <li><a href=""></a></li>
-        <li><a href=""></a></li>
-        <li><a href=""></a></li>
+      <ul class = "header__navigation">
+        <li class="header__navigation--link"><a href="/">Home</a></li>
+        <li class = "header__navigation--link"><a href="/discovery">Discovery</a></li>
+        <li class="header__navigation--link"><a href="/photos">Photos</a></li>
+        <li class="header__navigation--link"><a href="/contact">Contact</a></li>
       </ul>
     </nav>
+    <p class="header__logo"><a class = "header__logo--link" href="/logo">Logo</a></p>
+    <img class = "header__profile" src="../docs/profile.jpeg">
   </header>
   <section class="sections">
     <img class = "mountain-img" src="../docs/mountain.jpeg">
@@ -37,12 +39,12 @@
     </button>
   </section>
   <section class="sections">
+    <h2 class="sections__headings2">
+      More news
+    </h2>
     <nav class="sections__navigation">
       <ul>
         <li class="sections__navigation__list">
-          <h2 class="sections__headings2">
-            More news
-          </h2>
           <h3 class="sections__headings3 sections__headings3--red">
             Travel
           </h3>
@@ -73,14 +75,14 @@
     </h2>
     <nav class="sections__navigation">
       <ul>
-        <li class="sections__navigation__list">
+        <li class="sections__navigation__list sections__navigation__list--trending">
           <p>
             <img class="trending__img" src="../docs/trending.jpeg">
           </p>
-          <h3 class="sections__headings3">
+          <h3 class="sections__headings3 sections__headings3--trending">
             Dolore magna aliqua
           </h3>
-          <p class="sections__description">
+          <p class="sections__description sections__description--trending">
             Lorem ipsum dolor sit amet, ipsum labitur lucilius mel id, ad has appareat.
           </p>
           <p class="sections__description">
@@ -89,7 +91,7 @@
             </small>
           </p>
         </li>
-        <li class="sections__navigation__list">
+        <li class="sections__navigation__list sections__navigation__list--trending">
           <p>
             <img class = "beach__img" src="../docs/beach.jpeg">
           </p>
@@ -115,13 +117,12 @@
     <nav class="sections__navigation">
       <ul>
         <li class="sections__navigation__list">
-          <p>
-            <img class = "bridge--img" src="../docs/bridge.jpeg" alt="">
-          </p>
+          <img class = "bridge--img" src="../docs/bridge.jpeg" alt="">
+        </li>
+        <li class="sections__navigation__list sections__navigation__list--happening--now--text">
           <h2 class="sections__heading2">
             City
           </h2>
-
           <h3 class="sections__headings3">
             Large article title mobile layout
           </h3>
@@ -135,7 +136,7 @@
             </small>
           </p>
         </li>
-        <li class="sections__navigation__list">
+        <li class="sections__navigation__list sections__navigation__list--happening--now">
           <p>
             <img class= "forest--img" src="../docs/forest.jpeg" alt="">
           </p>
