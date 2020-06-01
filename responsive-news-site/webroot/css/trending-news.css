@@ -1,0 +1,28 @@
+
+.trending {
+  background-color: rgb(246, 248, 249);
+  margin-block-start: 2rem;
+  padding-block-start: 1rem;
+}
+
+.trending__heading {
+  margin: 0;
+}
+
+.trending__news__list {
+  list-style: none;
+  position: relative;
+}
+
+.trending__news {
+  padding: 0;
+}
+
+.trending__image {
+  margin-block-start: 3rem;
+}
+
+.trending {
+  padding-inline-start: 2rem;
+  padding-inline-end: 2rem;
+}
