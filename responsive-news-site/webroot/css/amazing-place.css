@@ -6,9 +6,8 @@
 .place {
   position: absolute;
   object-fit: cover;
-  max-width: 375px;
   height: 388px;
-  margin-inline-start: auto;
+  width: 100%;
 }
 
 .world_news__div {
@@ -39,9 +38,11 @@
 }
 
 .learn_more {
+  position: absolute;
   background-color: #fa6980;
-  width: 80px;
   border-radius: 5px;
+  margin-block-start: 18rem;
+  margin-inline-start: 1rem;
   padding-inline-start: 2rem;
   padding-inline-end: 2rem;
   padding-block-start: 1rem;

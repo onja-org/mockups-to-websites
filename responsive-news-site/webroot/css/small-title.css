@@ -1,39 +1,38 @@
 .small-title {
  border-radius: 5px;
+
 }
 
 .small_title__container {
   margin-inline-start: 0;
   list-style: none;
   padding-inline-start: 1rem;
+  border-radius: 5px;
 }
 
 .small-title__heading {
-  padding-block-start: 18rem;
-  margin-block-start: -1rem;
+  color: #202124;
+  font-weight: 700;
+  margin-block-start: 2rem;
 }
 
-.small-title__list_item--first {
-  background-image: url(../images/pattern-7.jpeg);
-  background-repeat: no-repeat;
-  background-size: 338px 208px;
-  background-position: 10% 30%;
+.pattern-2 {
+  margin-block-start: 2rem;
   border-radius: 5px;
-
+  width: 100%;
 }
 
-.small-title__list_item--second {
-  background-image: url(../images/pattern-8.jpeg);
-  background-repeat: no-repeat;
-  background-size: 338px 208px;
-  background-position: 10% 30%;
-  border-radius: 5px;
+.small-title__time {
+  font-size: 13px;
+  font-style: oblique;
+  color: #a6adb4;
 }
 
 .small-title__list_item--third {
-  background-image: url(../images/pattern-9.jpeg);
-  background-repeat: no-repeat;
-  background-size: 338px 208px;
-  background-position: 10% 30%;
-  border-radius: 5px;
+  padding-block-end: 4rem;
+}
+
+.small-title__link {
+  text-decoration: underline;
+  color: #a6adb4;
 }

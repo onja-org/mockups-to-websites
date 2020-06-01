@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Wild News</title>
-  <link rel="stylesheet" href="css/world-news.css">
+  <link rel="stylesheet" href="css/index.css">
 </head>
 
 <body>
@@ -36,8 +36,8 @@
           a
           majority of your life in.
         </p>
-        <p class="learn_more"><a class="learn_more__link" href="/learn more">Learn more</a></p>
       </div>
+        <p class="learn_more"><a class="learn_more__link" href="/learn more">Learn more</a></p>
     </header>
     <section class="more_news">
       <header>
@@ -97,7 +97,7 @@
               Affert
               detraxit
             </p>
-            <p class="happening_now__list_items">2m ago</p>
+            <p class="happening_now__list_items--time">2m ago</p>
           </li>
           <li class="happening_now__list_items--second">
             <h4 class="happening_now__list_items--heading">Travel</h4>
@@ -115,16 +115,19 @@
         <div>
           <ul class="small_title__container">
             <li class="small-title__list_item--first">
+              <img class="pattern-2" src="../docs/pattern-7.jpeg" alt="">
               <h5 class="small-title__heading">Small title</h5>
-              <p class="small-title__time">3h ago by Worldnews</p>
+              <p class="small-title__time">3h ago by <a class="small-title__link" href="/worldnews"> Worldnews</a></p>
             </li>
             <li class="small-title__list_item--second">
+              <img class="pattern-2" src="../docs/pattern-8.jpeg" alt="">
               <h5 class="small-title__heading">Small title</h5>
-              <p class="small-title__time">4h ago by Days</p>
+              <p class="small-title__time">4h ago by <a class="small-title__link" href="/days"> Days</a></p>
             </li>
             <li class="small-title__list_item--third">
+              <img class="pattern-2" src="../docs/pattern-9.jpeg" alt="">
               <h5 class="small-title__heading">Small title</h5>
-              <p class="small-title__time">3h ago by Monica</p>
+              <p class="small-title__time">3h ago by <a class="small-title__link" href="/monica"> Monica</a></p>
             </li>
           </ul>
         </div>
@@ -132,21 +135,31 @@
 
     </div>
   </main>
-  <footer>
-    <div>
-      <ul>
-        <li><a href="/About">About</a></li>
-        <li><a href="/Help">Help</a></li>
-        <li><a href="/Terms">Terms</a></li>
-        <li><a href="/Guidelines">Guidelines</a></li>
-      </ul>
+  <footer class="footer__link">
+    <div class="link">
+      <div>
+        <ul class="link__container">
+          <li class="link__list_items"><a class="list_items__link" href="/About">About</a></li>
+          <li class="link__list_items"><a class="list_items__link" href="/Help">Help</a></li>
+          <li class="link__list_items"><a class="list_items__link" href="/Terms">Terms</a></li>
+          <li class="link__list_items"><a class="list_items__link" href="/Guidelines">Guidelines</a></li>
+        </ul>
+      </div>
+      <div>
+        <ul class="link__container">
+          <li class="link__list_items"><a class="list_items__link" href="/Testimonials">Testimonials</a></li>
+          <li class="link__list_items"><a class="list_items__link" href="/Advertise">Advertise</a></li>
+          <li class="link__list_items"><a class="list_items__link" href="/Integrations">Integrations</a></li>
+          <li class="link__list_items"><a class="list_items__link" href="/Careers">Careers</a></li>
+        </ul>
+      </div>
     </div>
-    <div>
-      <ul>
-        <li><a href="/Testimonials">Testimonials</a></li>
-        <li><a href="/Advertise">Advertise</a></li>
-        <li><a href="/Integrations">Integrations</a></li>
-        <li><a href="/Careers">Careers</a></li>
+    <div class="social">
+      <ul class="social__container">
+        <li class="social__list_items"> <a class="social__link" href="/instagram"> Instagram</a></li>
+        <li class="social__list_items"> <a class="social__link" href="/twitter"> Twitter</a></li>
+        <li class="social__list_items"> <a class="social__link" href="/facebook"> Facebook</a></li>
+        <li class="social__list_items"> <a class="social__link" href="/web"> Web</a></li>
       </ul>
     </div>
   </footer>
