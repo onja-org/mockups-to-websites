@@ -1,16 +1,32 @@
+:root {
+  --second-section-padding-block: 0.5rem;
+  --second-section-padding-inline: 2rem;
+}
 .list__subheading--h3 {
   color: #fa6980;
   text-transform: uppercase;
+  padding-inline-start: 2rem;
+  padding-block-start: var(--second-section-padding-block);
+  padding-block-end: var(--second-section-padding-block);
+  margin: 0;
 }
 .list__subheading--inside {
   font-weight: 900;
   font-size: 1.25rem;
   margin: 0;
+  padding-inline-start: var(--second-section-padding-inline);
+  padding-block-start: var(--second-section-padding-block);
+  padding-block-end: var(--second-section-padding-block);
+  padding-inline-end: 1rem;
 }
 .main__secod--paragraph {
   color: #ccc;
+  padding-inline-start: var(--second-section-padding-inline);
 }
 .time {
   color: #ccc;
   font-style: italic;
+  padding-inline-start: var(--second-section-padding-inline);
+  padding-block-end: var(--second-section-padding-inline);
+  padding-block-start: 1rem;
 }

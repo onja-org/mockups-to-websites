@@ -4,4 +4,11 @@ html {
 }
 body {
   max-width: 375px;
+  margin-inline-start: 2rem;
+}
+body p {
+  margin: 0;
+}
+section:nth-of-type(2) {
+  background-color: #ffffff;
 }

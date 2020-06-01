@@ -7,8 +7,13 @@
   padding-inline-end: var(--heading-padding);
   padding-block-start: var(--heading-padding);
   padding-block-end: var(--heading-padding);
+  margin: 0;
 }
 .list__subheading {
   list-style: none;
+  border-radius: 0.5rem;
+}
+.section {
+  background-color: rgb(246, 247, 248);
 }
 
