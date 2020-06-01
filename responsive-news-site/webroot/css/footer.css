@@ -1,0 +1,50 @@
+footer {
+  word-wrap: break-word;
+  background-color: silver;
+  line-height: 35px;
+}
+table {
+  margin-top: -1rem;
+  padding-left: 4rem;
+}
+
+tr td {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 11px;
+  opacity: 0.5;
+  color: #fff;
+}
+
+tr td a {
+  text-decoration: none;
+  color: #fff;
+}
+
+footer > ul > li {
+  display: inline-flex;
+  flex-direction: row;
+  align-items: stretch;
+}
+footer > ul > li > a {
+  list-style: none;
+  padding: 5px;
+  justify-content: space-between;
+}
+.logo {
+  background-image: url(../image/logo.svg);
+  background-repeat: no-repeat;
+}
+.twiter {
+  background-image: url(../image/twiter.svg);
+  background-repeat: no-repeat;
+  text-indent: none;
+}
+.facebook {
+  background-image: url(../image/facebook.svg);
+  background-repeat: no-repeat;
+}
+.other {
+  background-image: url(../image/other.svg);
+  background-repeat: no-repeat;
+}
