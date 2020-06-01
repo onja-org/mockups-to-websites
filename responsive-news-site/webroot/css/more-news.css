@@ -4,7 +4,6 @@
 }
 
 .more-news__header {
-  font-family: Helvetica;
   font-size: 24px;
   font-weight: bold;
   padding-block-end: 30px;
@@ -18,13 +17,11 @@
 .more-news__container-list--travel {
   text-transform: uppercase;
   color: deeppink;
-  font-family: Helvetica;
   font-size: 16px;
   font-weight: bold;
 }
 
 .more-news__container-list--article-title {
- font-family: Helvetica;
  font-size: 16px;
  font-weight: 700;
 }

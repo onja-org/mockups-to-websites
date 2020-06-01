@@ -1,29 +1,74 @@
 .happening-now {
   position: relative;
-  margin-inline-start: 10px;
-  margin-inline-end: 10px;
-  color: white;
 }
 
 .happening-now__navigation {
+  padding-block-end: 40px;
+}
+
+.happening-now__navigation_list {
   list-style: none;
-  font-family: Helvetica;
   font-size: 16px;
   font-weight: normal;
   position: absolute;
-  padding-block-start: 13px;
+  line-height: 1.75;
+  color: white;
+  padding-block-start: 10px;
+  padding-inline-start: 18px;
+  padding-inline-end: 45px;
 }
 
-.happening-now__header2 {
-  font-family: Helvetica;
+.happening-now__header {
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding-block-start: 40px;
+}
+
+
+.happening-now__navigation_list--big-title {
   font-size: 16px;
   font-weight: bold;
+  margin-block-start: -19px;
   text-transform: uppercase;
 }
 
-.happening-now__navigation-list--big-title {
-  font-family: Helvetica;
+.happening-now__navigation_list--title {
   font-size: 24px;
-  font-weight: bold;
-  padding-block-start: 50px;
+  font-weight: 700;
+}
+.happening-now__navigation_list--duration {
+  font-family: sans-serif;
+  font-style: oblique;
+  font-size: 13px;
+  color: darkgray;
+}
+
+.image {
+  border-radius: 10px;
+}
+
+.happening-now_images-container__pattern {
+  padding-inline-start: 18px;
+}
+
+.happening-now_images-container__pattern {
+  list-style: none;
+}
+
+.happening-now_images-container__patern--title {
+  font-family: serif;
+  font-size: 18px;
+}
+
+.happening-now_images-container__pattern--duration,
+.link {
+  font-family: sans-serif;
+  font-style: oblique;
+  font-size: 13px;
+  color: darkgray;
+}
+
+.pattern-image {
+  border-radius: 5px;
 }
