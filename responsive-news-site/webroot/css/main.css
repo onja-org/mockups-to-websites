@@ -85,6 +85,9 @@
 .navigation_unoder_list--description--article {
   color: #a6adb4;
 }
+.nav_trending--unorder-list{
+  padding-inline-start: 2px;
+}
 
 .list_item {
   list-style: none;
@@ -116,8 +119,20 @@
   transform: translate(-50%, -50%);
 }
 
-
 .section-4 {
   padding-block-end: 60px;
 }
 
+.heading4{
+  text-transform: uppercase;
+  line-height: 3;
+}
+
+.heading3--layout {
+  font-size: 24px;
+}
+.pattern-description > img{
+  border-radius: 10px;
+  width: 100%;
+  height: 200px;
+}
