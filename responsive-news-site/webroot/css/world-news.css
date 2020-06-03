@@ -36,9 +36,9 @@
   border-radius: 4px;
   padding-inline-start: 24px;
   padding-block-start: 7px;
-  padding-block-end: 7px;
+  padding-block-end: 10px;
   margin-block-start: 15px;
-  width: 110px;
+  max-width: 110px;
 }
 
 .world-news__list--learn-more a {
