@@ -1,14 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Resposive website</title>
   <link rel="stylesheet" href="index.css">
 </head>
+
 <body>
-  <header>
-    <h1 class="logo">Logo</h1>
+  <header class="site_header">
+    <h1 class="site_header__logo">
+      <a class="site_header__logo__link" href="/">Logo</a>
+    </h1>
+    <p class="site_header__profile">
+      <a class="site_header__profile__link" href="/">
+        <span  class="site_header__profile__text">My profile</span>
+        <img class="site_header__profile__image" src="../docs/pattern-10.jpeg" alt="A profile photo you uploaded previously">
+      </a>
+    </p>
+    <p class="site_header__menu">
+      <a class="site_header__menu__link" href="/"> Menu</a>
+    </p>
   </header>
     <div class="user_interface">
       <label for="checkbox-logo">Logo</label>
