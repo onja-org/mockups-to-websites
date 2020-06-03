@@ -1,0 +1,21 @@
+footer {
+  background-color: rgb(249, 251, 252);
+}
+.page__container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.page__list--item {
+  list-style: none;
+  text-transform: uppercase;
+  padding-inline-start: 1rem;
+  padding-inline-end: 1rem;
+  padding-block-start: 1rem;
+  padding-block-end: 1rem;
+  flex-grow: 1;
+}
+.text__link--item {
+  text-decoration: none;
+  color: #ccc;
+}
