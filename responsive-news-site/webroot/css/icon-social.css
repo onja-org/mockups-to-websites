@@ -1,21 +1,24 @@
+
 .social__container {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
-  align-items: flex-start;
+  justify-content: space-between;
+  align-items: stretch;
   list-style: none;
   padding-inline-end: 5rem;
-  background-size: auto;
+  margin-inline-start: -2rem;
 }
 
 .social__list_items {
-  margin-inline-end: 0;
+  margin-inline-end: 1rem;
 }
 
 .social__link {
   text-decoration: none;
   color: lightgrey;
   background-repeat: no-repeat;
+  background-size: contain;
+  background-position: 50% 50%;
 }
 
 .instagram {
