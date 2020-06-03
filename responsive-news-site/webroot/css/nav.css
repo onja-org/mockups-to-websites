@@ -8,4 +8,6 @@ ul {
 }
 .sections__navigation__list--happening--now--text {
   position: absolute;
+  color: white;
+  z-index: 2;
 }

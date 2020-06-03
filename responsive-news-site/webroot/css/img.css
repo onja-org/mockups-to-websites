@@ -1,14 +1,21 @@
 
 .trending__img {
   width: 100%;
+  position: absolute;
+  /* z-index: -1; */
 }
 
 .beach__img {
   width: 100%;
 }
 .bridge--img {
+  position: absolute;
+  object-fit: cover;
   width: 100%;
-  object-fit: contain;
+  /* height: 100%; */
+  /* top: 0; */
+  /* left: 0; */
+  /* z-index: -1; */
 }
 .elephant--img {
   width: 100%;
