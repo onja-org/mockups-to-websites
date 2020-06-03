@@ -1,52 +1,68 @@
-/* .happening_now__heading {
+.happening_now__heading {
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 700;
   font-size: 24px;
   margin: 1.5rem;
+  position: relative;
 }
 .happening_now__city {
   position: relative;
   color: #FFF;
+  margin-inline-start: 20px;
 }
 .happening_now__city--background {
-  width: 327px;
-  height: 300px;
-  border-radius: 16px;
-  margin-inline-start: 1.5rem;
+  position: absolute;
+  object-fit: cover;
+  top: 50%;
+  left: 50%;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  transform: translate(-50%, -50%);
+  border-radius: 6px;
 }
 .happening_now__city--title {
-  position: absolute;
-  top: 16px;
-  left: 50px;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 16px;
   font-weight: 700;
+  padding-inline-start: 25px;
+  padding-block-end: 20px;
+  padding-block-start: 30px;
+  line-height: 16px;
+  text-transform: uppercase;
+  margin-block-end: 0;
+  margin-block-start: 10;
+  margin-inline-start: 0;
+  margin-inline-end: 0;
+
 }
 .happening_now__city--subtilte {
-  position: absolute;
   font-size: 24px;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 700;
-  top: 80px;
-  left: 50px;
+  line-height: 1.5;
+  margin: 0;
+  padding-inline-start: 25px;
+  margin-block-end: 0;
 }
 .happening_now__city--desciption {
-  position: absolute;
-  top: 150px;
-  left: 50px;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 16px;
   line-height: 1.5;
+  padding-inline-start: 25px;
+  margin: 0;
 }
 .happening_now__city--time {
-  position: absolute;
-  top: 240px;
-  left: 50px;
   font-style: oblique;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 13px;
   color: #a6adb4;
+  padding-inline-start: 25px;
+  margin: 0;
 }
+
+
+
 .happening_now__travel {
   position: relative;
   color: white;
@@ -89,4 +105,4 @@
   font-family: Arial, Helvetica, sans-serif;
   font-size: 13px;
   color: #a6adb4;
-} */
+}
