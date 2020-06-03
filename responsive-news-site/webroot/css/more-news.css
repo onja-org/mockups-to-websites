@@ -8,18 +8,25 @@
   font-size: 24px;
   text-transform: uppercase;
 }
-.more__news_article--button {
-  position: absolute;
-  top: 27.5rem;
-  padding-inline-start: 16rem;
+.more__news_article--button::after {
+  content: "" ;
+  background-image: url("../images/blackarrow.svg");
+  background-repeat: no-repeat;
+  background-position: right;
+  display: block;
+  width: 20px;
+  height: 20px;
 }
 
 .more__news_article--button::before {
-  content: "<" ;
-  color: darkgray;
-}
-.more__news_article--button::after {
-  content: ">";
+  content: "" ;
+  background-image: url("../images/greyarrow.svg");
+  background-repeat: no-repeat;
+  background-position: left;
+  display: block;
+  width: 20px;
+  height: 20px;
+
 }
 .link_button {
   visibility: hidden;
