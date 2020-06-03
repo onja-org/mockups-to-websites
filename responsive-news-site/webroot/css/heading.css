@@ -1,18 +1,27 @@
 .heading {
   margin: 0;
-  border-block-end: 2px solid #fff;
   padding-block-start: 2rem;
   padding-block-end: 3rem;
   margin-inline-start: 1rem;
+  font-size: 24px;
+  font-weight: 700;
 }
 
- .heading__link {
+.base-heading {
   text-transform: uppercase;
+  color: #000;
+}
+
+.heading__main-base-heading {
+  border-block-end: 2px solid #fff;
+}
+
+ .heading__main-base-heading__link {
   color: #fff;
 }
-.heading__article {
+/* .heading__article {
   font-size: 16px;
-}
+} */
 
 .heading-article__information {
   margin: 0;
