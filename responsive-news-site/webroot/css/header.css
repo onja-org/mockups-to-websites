@@ -23,6 +23,7 @@
 .head__h1 {
   margin: 0;
   text-transform: uppercase;
+  font-size: 2rem;
 }
 
 .head__link {
