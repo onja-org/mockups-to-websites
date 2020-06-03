@@ -21,16 +21,18 @@ footer nav {
 
 footer {
   background-color: #cccccc;
+  padding-block-end: 3rem;
 }
 
 .icon {
   display: flex;
   flex-direction: row;
+  margin: 0;
 }
 
 .icon__list {
   list-style: none;
-  scroll-padding-inline-end: 1rem;
+  padding-inline-end: 1rem;
 }
 
 .icon__anchor {
@@ -38,3 +40,28 @@ footer {
   padding-inline-end: 1rem;
 }
 
+.icon__anchor {
+  background-repeat: no-repeat;
+  width: 20px;
+  height: 20px;
+  background-size: contain;
+  background-position: 50% 50%;
+  display: inline-block;
+  text-indent: -99999px;
+}
+
+.icon__anchor[href^="/download"] {
+  background-image: url('../images/camera.svg');
+}
+
+.icon__anchor[href^="/twiter"] {
+  background-image: url('../images/twiter.svg');
+}
+
+.icon__anchor[href^="/facebook"] {
+  background-image: url('../images/facebook.svg');
+}
+
+.icon__anchor[href^="/web"] {
+  background-image: url('../images/earth.svg');
+}
