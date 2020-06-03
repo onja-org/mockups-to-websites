@@ -1,0 +1,60 @@
+.happening_now {
+  background-color: rgb(246, 248, 249);
+  padding-inline-start: 1.5rem;
+  padding-inline-end: 1.5rem;
+  padding-block-start: 1rem;
+  padding-block-end: 1rem;
+
+}
+.happening_now ul {
+  padding-inline-start: 0;
+}
+.happening_now li {
+list-style: none;
+padding-inline-start: 0rem;
+
+}
+.happening_now__category {
+  font-size: 24px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.category_2 {
+  font-size: 16px;
+  font-weight: 700;
+}
+.city {
+  position: relative;
+}
+.testimonial img {
+  width: 327px;
+  height: 180px;
+  border-radius: 6px;
+}
+/*.happening_now h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+  color: black;
+  padding-inline-start: 1.5rem;
+  padding-inline-end: 1.5rem;
+  padding-block-start: 1.5rem;
+}
+.happening_now img {
+  position: absolute;
+  max-width: 375px;
+  height: 388px;
+  margin-block-start: 2rem;
+}
+
+/*.happening_now {
+  background-color: rgb(246, 248, 249);
+}
+.happening_now img {
+  width: 375px;
+  height: 388px;
+  border-radius: 7px;
+}
+.happening_now li {
+  list-style: none;
+  text-decoration: none;
+}

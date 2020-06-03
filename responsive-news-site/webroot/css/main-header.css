@@ -1,0 +1,41 @@
+.world_news {
+  position: relative;
+  background-color: rgba(0, 0, 0, 0.2);
+  color: #ffff;
+  padding-inline-start: 1.5rem;
+  padding-inline-end: 1.5rem;
+  padding-block-start: 2.375rem;
+  padding-block-end: 2.375rem;
+
+}
+.world_news header {
+  display: flex;
+  flex-direction: column-reverse;
+}
+.world_news img {
+  max-width: 375px;
+  height: 388px;
+  position: absolute;
+  display: none;
+}
+.world_news > header p {
+  border-bottom: 2px solid white;
+  padding-block-start: 1rem;
+  padding-block-end: 2.5rem;
+}
+.learn_more-link {
+  background-color: rgb(250, 105, 128);
+  background-size: 151px;
+  text-decoration: none;
+  padding-inline-start: 2.5rem;
+  padding-inline-end: 2.5rem;
+  padding-block-start: 1rem;
+  padding-block-end: 1rem;
+  border-radius: 10px;
+  text-transform: uppercase;
+  color: #ffff;
+}
+.information {
+  padding-block-end: 1rem;
+}
+
