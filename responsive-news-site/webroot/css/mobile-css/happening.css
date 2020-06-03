@@ -6,11 +6,16 @@
 
 }
 .happening h3 {
-
-  /* top: 3rem;
-  left: 2rem; */
+  color: white;
+  text-transform: uppercase;
+  top: 3rem;
+  left: 2rem;
 }
 .happening--description {
   margin-inline-start: 2rem;
   margin-inline-end: 2rem;
+}
+
+.fact {
+  position: relative;
 }
