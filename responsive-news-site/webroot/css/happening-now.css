@@ -2,6 +2,9 @@
   margin-block-start: 2rem;
   color: #ffffff;
   background-color: rgb(246, 248, 249);
+  padding-block-start: 1rem;
+  padding-inline-start: 2rem;
+  padding-inline-end: 2rem;
 }
 
 .curent-news__list {
@@ -70,5 +73,3 @@
   padding-block-start: 3rem;
   border-top: solid 2px #cccccc;
 }
-
-
