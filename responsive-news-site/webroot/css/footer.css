@@ -27,3 +27,27 @@ footer li {
 display: flex;
 flex-direction: row;
 }
+
+.icon {
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: 50% 50%;
+  border-radius: 50%;
+  text-indent: -9999px;
+}
+
+.insta {
+  background-image: url(../../docs/instagram-icon.svg);
+}
+
+.twit {
+background-image: url(../../docs/twitter-icon.svg);
+}
+
+.fbook {
+  background-image: url(../../docs/facebook-icon.svg);
+}
+
+.navig {
+  background-image: url(../../docs/nav-icon.svg);
+}

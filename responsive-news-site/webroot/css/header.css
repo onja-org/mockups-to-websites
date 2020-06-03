@@ -11,12 +11,16 @@ header {
 
 .checkbox input {
   position: absolute;
-  top: 0; right: 0;
+  top: 0;
+  right: 0;
   z-index: -1;
 }
 
-.checkbox label {
-  z-index: -1;
+.checkbox label{
+  background-image: url(../../docs/menu-icon.svg);
+  background-repeat: no-repeat;
+  background-position: left center;
+  text-indent: -9999px;
 }
 
 .checkbox nav {

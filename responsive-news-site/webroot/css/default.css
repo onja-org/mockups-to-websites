@@ -20,8 +20,18 @@ header {
   font-size: 13px;
   font-style: oblique;
   font-family: sans-serif;
+  background-image: url(../../docs/watch.svg);
+  background-repeat: no-repeat;
+  background-position: 0 50%;
+  background-size: 1rem;
+  padding-left: 1.5rem;
 }
 
 .small a {
   color: #a6adb4;
+}
+
+.trending .small,
+.happening-now .small {
+  background-position: 5% 50%;
 }
