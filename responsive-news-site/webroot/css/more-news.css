@@ -1,0 +1,42 @@
+.more_news {
+  padding: 1.5rem;
+  margin-top: 0;
+}
+
+.more_news__heading {
+  font-size: 24px;
+  font-weight: bold;
+  padding-block-end: 2rem;
+  border-bottom: 2px solid rgb(235, 237, 237);
+}
+
+
+.more_news__subheading {
+  color: red;
+  font-size: 16px;
+  font-weight: bold;
+  padding-block-start: 1.5rem;
+}
+
+.more_news__navigation_container {
+  padding: 0;
+}
+
+.more_news__list_item {
+  list-style: none;
+}
+
+.more_news__article_title {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.more_news__lorem_text {
+  font-size: 16px;
+  color: lightgray;
+}
+
+.more_news__updated_time {
+  font-size: 13px;
+  color: lightgrey;
+}

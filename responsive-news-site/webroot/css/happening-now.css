@@ -1,0 +1,64 @@
+.happening_now {
+  padding: 1.5rem;
+  background-color: rgb(246, 248, 249);
+  display: inline-block;
+
+}
+
+.happining_now__heading {
+  font-size: 24px;
+  font-weight: bold;
+
+}
+
+.happening_now__navigation_container {
+  padding-inline-start: 0;
+}
+
+.happening_now__subheading {
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.happening_now__content {
+  transform: translate(0rem, -10rem);
+  padding: 1.5rem;
+
+}
+
+.happening_now__city_image {
+  width: 100%;
+  height: 100%;
+}
+
+.happening_now__small_heading {
+  font-size: 24px;
+  font-weight: bold;
+  margin-block-end: 0;
+}
+
+.happening_now__list_item {
+  color: black;
+  list-style: none;
+  padding-block-end: 2rem;
+  border-radius: 8px;
+}
+
+
+.happening_now__lorem_text {
+  font-size: 16px;
+  margin-block-start: 16px;
+}
+
+.happening_now__updated_time {
+  font-size: 16px;
+  color: lightgray;
+}
+
+
+.happening_now__travel_image {
+  width: 100%;
+  height: 100%;
+}

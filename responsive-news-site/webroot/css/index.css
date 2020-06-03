@@ -1,4 +1,6 @@
 @import "nav.css";
 @import "default.css";
-@import "article.css";
 @import "world-news.css";
+@import "more-news.css";
+@import "trending.css";
+@import "happening-now.css";
