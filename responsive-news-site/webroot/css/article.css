@@ -6,6 +6,10 @@
   margin-inline-start: 1rem;
 }
 
+.article-environment__list__list-item {
+  background-color: #fff;
+}
+
 .article-travelling {
   padding-inline-start: 1rem;
 }
