@@ -1,4 +1,4 @@
-.world_news {
+/* .world_news {
   position: relative;
   color: white;
   margin-block-end: -2rem;
@@ -32,12 +32,6 @@
   transform: translate(0rem, -17rem);
 }
 
-/* .world_news__header,
-.world_news__paragraph {
-  display: flex;
-  flex-direction: row;
-} */
-
 .world_news__information {
   top: 12rem;
   margin-inline-start: 1.5rem;
@@ -57,7 +51,7 @@
   border-radius: 8px;
   font-size: 16px;
   margin-inline-start: 1.5rem;
-}
+} */
 
 
 .more_news {
@@ -197,7 +191,6 @@
 .happening_now__list_item {
   color: black;
   list-style: none;
-  /* padding-inline-start: 2rem; */
   padding-block-end: 2rem;
   border-radius: 8px;
 }
