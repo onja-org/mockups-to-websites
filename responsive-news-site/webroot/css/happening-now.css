@@ -1,6 +1,7 @@
 
 #happening-today {
   background-color: #f6f8f9;
+  margin-block-start: -2rem;
 }
 
 
@@ -18,11 +19,6 @@
 }
 
 
-
-#happening-today .sharing-news__titles__big-title {
-  margin-inline-start: 2.3rem;
-}
-
 #happening-today .sharing-news__titles__sub-title1--uppercase {
   margin-block-end: 3rem;
 }
@@ -32,11 +28,11 @@
 }
 .sharing-news__amazing-city {
   position: absolute;
-  width: 100%;
+  width: 83%;
   height: 100%;
   top: -1rem;
-  left: 0;
-
+  left: 2.3rem;
+  bottom: 0;
 }
 
 #happening-today .sharing-news-navigation__description-lists  .sharing-news-navigation__description-lists__list:nth-of-type(3) {
@@ -49,11 +45,11 @@
 
 .small-title-image {
   max-width: 90%;
+
 }
 
 .tall {
   width: 90%;
-
 }
 
 #happening-today small a{
@@ -63,11 +59,10 @@
 .forest {
   position: absolute;
   top: 0;
-  left: 0;
-  right: 0;
+  left: 2.3rem;
   bottom: 0;
-  width: 100%;
-  height: 100%;
+  width: 83%;
+  height: 90%;
 }
 
 .travel {
@@ -75,7 +70,8 @@
   z-index: 999;
 }
 
-.travel .sharing-news__titles__sub-title1--uppercase {
+.travel .sharing-news__titles__sub-title1--uppercase,
+.city .sharing-news__titles__sub-title1--uppercase {
   padding-block-start: 2rem;
  }
 
