@@ -6,16 +6,29 @@
 
 }
 .happening h3 {
-  color: white;
+  position: relative;
   text-transform: uppercase;
-  top: 3rem;
-  left: 2rem;
+  font-size: initial;
+  top: 1rem;
+  bottom: 1rem;
+  margin-inline-start: 3rem;
+  margin-inline-end: 3rem;
+}
+.happening i {
+  bottom: 1rem;
+  position: relative;
 }
 .happening--description {
   margin-inline-start: 2rem;
   margin-inline-end: 2rem;
 }
-
+.happening h4 {
+  margin-inline-start: 1rem;
+  margin-inline-end: 1rem;
+}
 .fact {
+  color: #fff;
+  line-height: 1.7;
+  object-fit: cover;
   position: relative;
 }
