@@ -50,6 +50,7 @@
 
 .main-heading {
   position: relative;
+  background-color: rgba(0, 0, 0, 0.2);
 }
 
 .heading-article__information__image-information {
