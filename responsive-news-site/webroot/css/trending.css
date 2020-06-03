@@ -9,15 +9,24 @@
   padding-inline-start: 40px;
 }
 
+.trending__container {
+  background-color: white;
+}
+
 .trending__container_list {
   list-style: none;
   line-height: 2;
 }
 
-.trending__container--images img {
+
+.images {
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
+  width: 100%;
+  height: 100%;
 }
+
+
 
 .trendind__container_list--title {
   font-size: 14px;
