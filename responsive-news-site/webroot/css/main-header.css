@@ -40,7 +40,3 @@
   background-image: url("../images/menu.svg");
   margin-inline-start: 1rem;
 }
-
-.checkbox {
-  visibility: hidden;
-}
