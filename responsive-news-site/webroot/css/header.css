@@ -23,10 +23,14 @@
 .head__h1 {
   margin: 0;
   text-transform: uppercase;
-  font-size: 2rem;
+  font-size: 3rem;
 }
 
 .head__link {
   text-decoration: none;
   color: #000000;
+}
+
+.checkbox {
+  visibility: hidden;
 }
