@@ -1,0 +1,14 @@
+.happening__list--small {
+  margin-block-end: 1rem;
+}
+
+.happening__list--small_heading {
+  font-size: 16px;
+  margin: 0;
+}
+
+.happening__list--small_time {
+  font-size: 13px;
+  opacity: 0.3;
+}
+
