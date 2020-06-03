@@ -1,6 +1,5 @@
 body {
-  position: relative;
-  max-width: 375px;
+
 }
 
 .masthead,
@@ -8,9 +7,10 @@ aside {
   background-color: rgb(246, 248, 249);;
 }
 
-main > img {
-  width: 375px;
-  height: 388px;
+
+
+img {
+    max-width: 100%;
 }
 
 .travel__paragraph,
@@ -72,22 +72,16 @@ footer a {
 img[alt="dusty-elephant"],
 img[alt="a-red-bird"],
 img[alt="sloppy-road"] {
-  width: 327px;
-  height: 180px;
   border-radius: 6px;
 }
 
 img[alt="a-big-bridge"],
 img[alt="path-in-forest"] {
-  width: 327px;
-  height: 300px;
   border-radius: 6px;
 }
 
 img[alt="nice-river-and-mountain"],
 img[alt="orange-parasol"] {
-  width: 327px;
-  height: 180px;
   border-top-left-radius: 6px;
   border-top-right-radius: 6px;
 }
@@ -97,11 +91,7 @@ position: relative;
 }
 
 .second-section--secondary-content {
-  position: absolute;
-  top: 57%;
 }
 
 .second-section--primary-content {
-  position: absolute;
-  top: 10%;
 }

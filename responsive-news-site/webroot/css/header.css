@@ -1,10 +1,8 @@
 .introduction-header {
-  position: absolute;
-  top: 3%;
   font-family: Helvetica, Arial, sans-serif;
   color: white;
   font-size: 16px;
-
+  border-block-end: 2px solid;
 }
 
 .more-information__link {
@@ -18,6 +16,12 @@
   padding-block-end: 1rem;
   background-color: rgb(250, 105, 128);
   border-radius: 6px;
+}
+
+
+img[alt="green-space"] {
+  position: absolute;
+  z-index: -1;
 }
 
 .more-information {
