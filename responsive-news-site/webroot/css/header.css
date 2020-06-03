@@ -2,7 +2,7 @@
   height: 88px;
   background-color: #f6f8f9;
   margin: 0;
-  padding-inline-start: 16px;
+  padding-inline-start: 10px;
 }
 .header__container {
   display: grid;
