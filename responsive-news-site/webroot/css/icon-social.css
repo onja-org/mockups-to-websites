@@ -1,0 +1,35 @@
+.social__container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  list-style: none;
+  padding-inline-end: 5rem;
+  background-size: auto;
+}
+
+.social__list_items {
+  margin-inline-end: 0;
+}
+
+.social__link {
+  text-decoration: none;
+  color: lightgrey;
+  background-repeat: no-repeat;
+}
+
+.instagram {
+  background-image: url(../images/instagram.svg);
+}
+
+.twitter {
+  background-image: url(../images/twitter.svg);
+}
+
+.facebook {
+  background-image: url(../images/facebook.svg);
+}
+
+.web {
+  background-image: url(../images/web.svg);
+}
