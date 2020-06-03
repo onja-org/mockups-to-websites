@@ -31,9 +31,10 @@
   height: 5px;
   color: #000;
 }
-.all_four_section {
+.trending_section {
   padding-inline-end: 1rem;
   background-color: rgba(223, 223, 223, 0.527);
+  padding-bottom: 32px;
 }
 .trending__dolor--description {
   font-family: 'Times New Roman', Times, serif;
