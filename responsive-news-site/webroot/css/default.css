@@ -15,6 +15,13 @@ html {
   margin-block-start: 4rem;
   padding-block-end: 3rem;
   border-bottom: 3px solid #cccccc;
+  background-image:
+                url('../images/left-arrow.svg'),
+                url('../images/right-arrow.svg');
+  background-repeat: no-repeat;
+  background-size: 1.5rem 1.5rem;
+  background-position: 80% 00%,
+                       90% 00%;
 }
 
 .more-news {
