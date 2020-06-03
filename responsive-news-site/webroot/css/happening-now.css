@@ -17,3 +17,25 @@
   height: 100%;
   border-radius: 5px;
 }
+
+.happening__list--city {
+  position: relative;
+}
+
+.happening__list--travel {
+  position: relative;
+}
+
+.happening__list--image_now {
+  position: absolute;
+  z-index: -1;
+  object-fit: cover;
+  margin: 0;
+  transform: translate(0, 0);
+}
+
+/* .happening__list--paragraph {
+  position: absolute;
+  z-index: 2;
+  transform: translate(1px, -248px);
+} */
