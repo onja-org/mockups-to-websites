@@ -1,17 +1,4 @@
-body [type="checkbox"]:checked ~ nav {
-  transform: translateX(0);
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  background-color: #ffff;
-  z-index: 2;
-  box-shadow: 0 0 50px rgb(0 0 0);
-  width: 250px;
-}
-
-body [type="checkbox"]:checked ~ nav img {
+nav img {
   width: 1.5rem;
   height: 1.5rem;
 }
@@ -28,6 +15,19 @@ body [type="checkbox"] {
   box-shadow: 0 0 50px rgb(0 0 0);
 }
 
+body [type="checkbox"]:checked ~ nav {
+  transform: translateX(0);
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: #ffff;
+  z-index: 2;
+  box-shadow: 0 0 50px rgb(0 0 0);
+  width: 250px;
+}
+
 body [type="checkbox"] ~ nav img {
   width: 1.5rem;
   height: 1.5rem;
@@ -36,6 +36,7 @@ body [type="checkbox"] ~ nav img {
 body [type="checkbox"]:checked ~ header > label {
   position: absolute;
   top: 0;
+  display: block;
   right: 0;
   bottom: 0;
   left: 0;
