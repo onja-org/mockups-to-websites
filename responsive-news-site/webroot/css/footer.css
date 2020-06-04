@@ -1,0 +1,23 @@
+footer {
+  background-color: rgba(0, 0, 0, .23);
+  margin: 0;
+}
+
+.footer {
+  columns: 2;
+  margin: 0;
+  padding-block-start: 3rem;
+  padding-inline-end: 3rem;
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.footer_list {
+  padding-block-start: 1rem;
+}
+
+.footer_list--link {
+  color: #FFFFFF;
+  opacity: 0.5;
+}
