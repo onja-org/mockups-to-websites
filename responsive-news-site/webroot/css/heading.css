@@ -1,21 +1,101 @@
-.navigation {
+
+.top-pages {
   display: flex;
   flex-direction: row;
   background-color: #f6f8f9;
+  align-items: center;
+  justify-content: space-around;
+  background-image: url(../css/icon-menu.svg);
+  background-position-x: 1rem;
+  background-position-y: 2.5rem;
 }
-.navigation__menus {
-  flex-grow: 1;
+label {
+ 
+  display: inline-block;
+  background-image: url(../css/icon-menu.svg);
+
+}
+span {
+  display: none;
 }
 
 .navigation__menus__woman-profile{
-width: 16px;
-height: 24px;
+margin-block-start: 1rem;
+width: 2rem;
+height: 2rem;
 border-radius: 50% 50%;
 }
 
-.navigation__menus--transform {
+body > header  h1 {
+  margin-block-start: 2rem;
   text-transform: uppercase;
   font-weight: 700;
   font-size: 16px;
+}
 
+.navigation__menus--hidden {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  padding: 0;
+  transform: translateX(-100%);
+}
+.navigation__menus__list-of-menus__new-tab {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+
+
+
+input[type=checkbox]:checked ~ .navigation__menus--hidden {
+  transform: translateX(0%);
+}
+/* Let's hide the icon-menu ansd the profile*/
+@media (min-width: 768px) {
+  body > header > label,
+  body > header > p {
+    display: none;
+  }
+
+  body > header {
+    padding: 1.25rem;
+
+  }
+}
+
+body > nav > ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+
+}
+
+@media (min-width: 768px) {
+body > nav {
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 0;
+  left: auto;
+  bottom: auto;
+  width: auto;
+  box-shadow: none;
+  transform: none;
+  transition: none;
+}
+
+body > nav > ul {
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.navigation__menus__woman-profile {
+  width: 2rem;
+  height: 2rem;
+  margin-inline-start: 0;
+}
 }
