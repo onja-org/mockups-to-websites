@@ -15,6 +15,11 @@
   margin-block-end: 3rem;
 }
 
+.curent-news__list-image {
+  padding-inline-start: 2rem;
+  padding-inline-end: 2rem;
+}
+
 .curent-news__list:nth-last-child(1) {
   margin: 0;
 }
@@ -47,8 +52,8 @@
 .curent-news__list__heading {
   text-transform: uppercase;
   padding-block-start: 1rem;
-  padding-block-end: 2rem;
-  font-size: 16px
+  font-size: 16px;
+  margin: 0;
 }
 
 .curent-news__subheading {
@@ -56,13 +61,12 @@
 }
 
 .curent-news__sign {
-  padding-block-end: 2rem;
   display: block;
-  color: #444444
+  color: #cbd0d3
 }
 
 .curent-news__sign a {
-  color: #444444
+  color: #cbd0d3
 }
 
 .curent-news__small-title {
