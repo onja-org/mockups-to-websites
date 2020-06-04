@@ -11,19 +11,29 @@
 <body>
   <input type="checkbox">
   <header>
+    <label for="menu_checkbox" class="icon icon_menu">
+      <span>Go to the menu</span>
     <h1>
       <a href="/logo">Logo</a>
     </h1>
+    <p>
+      <a href="/profile">
+        <img src="images/pattern-10 copy.jpeg" class="profile">
+          <span>Profile</span>
+      </a>
+      </p>
   </header>
-  <nav>
+  <nav class="nav_container">
+  <nav class="sidenav">
     <ul>
-      <li><a href="/home">Home</a></li>
+      <li><a href="/home" class="active">Home</a></li>
       <li><a href="/discovery">Discovery</a></li>
       <li><a href="/photos">Photos</a></li>
       <li><a href="/contact">Contact</a></li>
-      <li><a href="/profile">Profile</a></li>
-      <li><img src="images/pattern-10 copy.jpeg" width="16" height="16"></li>
+      <li><a href="/profile"><img src="images/pattern-10 copy.jpeg"><span>Profile</span></a></li>
     </ul>
+  </nav>
+  <a href="images/menu-icon.svg" class="icon"></a>
   </nav>
   <main>
     <article class="world_news">
@@ -91,7 +101,7 @@
             <p class="trending__info">
               Lorem ipsum dolor sit amet, ipsum labitur lucilius mel id, ad has appareat...
             </p>
-            <p class="trending__time">
+            <p class="time">
               2m ago
             </p>
           </li>
@@ -103,7 +113,7 @@
             <p class="trending__info">
               Lorem ipsum dolor sit amet, ipsum labitur lucilius mel id, ad has appareat
             </p>
-            <p class="trending__time">
+            <p class="time">
               1m ago
             </p>
           </li>
@@ -132,13 +142,13 @@
             </p>
           </li>
           <li class="travel">
+            <img src="images/pattern-6.jpeg">
             <p class="category_2">
               Travel
             </p>
             <h2>
               Large article title mobile layout
             </h2>
-            <img src="images/pattern-6.jpeg" class="more_info">
             <p>
               Lorem ipsum dolor sit amet, ipsum labitur lucilius mel id, ad has appareat
             </p>
@@ -151,7 +161,7 @@
             <h4>
               Small title
             </h4>
-            <p>
+            <p class="time">
               3h ago by <a href="/worldnews">Worldnews</a>
             </p>
           </li>
