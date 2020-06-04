@@ -6,8 +6,12 @@ ul {
   list-style: none;
   text-decoration: none;
 }
-.sections__navigation__list--happening--now--text {
-  position: absolute;
+.sections__navigation__list--city {
+  position: relative;
   color: white;
-  z-index: 2;
+}
+
+.sections__navigation__list--travel {
+  position: relative;
+  color: white;
 }
