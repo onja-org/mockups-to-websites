@@ -1,3 +1,13 @@
+.menu-responsive__list-item {
+  font-size: 11px;
+  font-weight: 700;
+}
+
+.menu-responsive__list-item__link {
+  color: #343638;
+  text-transform: uppercase;
+}
+
 @media (min-width: 768px) {
   .navigation_menu-responsive {
     width: auto;
