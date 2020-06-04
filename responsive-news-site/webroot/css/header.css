@@ -1,19 +1,22 @@
 .responsive-mobile {
   display: flex;
-  justify-content: stretch;
+  flex-direction: row;
+  justify-content: space-between;
   padding: 0;
   padding-block-start: 2rem;
+  align-items: center;
 }
 
-.responsive-mobile__list-item {
-  flex-grow: 1;
+.responsive-mobile__information {
+  margin: 0;
 }
 
-.responsive-mobile__list-item__link {
-  text-transform: uppercase;
+.responsive-mobile__heading {
+  font-size: 13px;
 }
 
-.responsive-mobile__list-item__link--homepage {
+
+.responsive-mobile__heading__link--homepage {
   color: #343638;
   padding-inline-start: 10px;
   background-image: url(../images/icon-menu.svg);
@@ -25,14 +28,20 @@
   background-position: center;
 }
 
-.responsive-mobile__list-item__link-logo {
+.responsive-mobile__heading__link-logo {
   color: #a6adb4;
   font-size: 13px;
   font-weight: 700;
+  text-transform: uppercase;
 }
 
-.responsive-mobile__list-item--image-profile {
+.responsive-mobile__heading--image-profile {
   border-radius: 50%;
-  max-width: 40px;
-  max-height: 20px;
+  width: 1rem;
+  height: 1rem;
 }
+
+.responsive-mobile__heading--image-profile__description {
+  display: none;
+}
+
