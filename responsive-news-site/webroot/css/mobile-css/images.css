@@ -37,4 +37,7 @@ z-index: -1;
   border-top-right-radius: 10px;
 }
 
-
+.photo-profile {
+  width: 16px;
+  border-radius: 50;
+}

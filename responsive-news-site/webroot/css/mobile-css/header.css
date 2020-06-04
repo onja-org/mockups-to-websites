@@ -1,32 +1,116 @@
-/* use this with tablet and desctop
+
 .navigation__container {
-  display: flex;
-  flex-direction: row;
-  justify-content: stretch;
   list-style: none;
-  margin: 0;
-  padding: 0;
+  font-size: 12px;
+  font-weight: 700;
+  opacity: 0.5;
+  line-height: 4;
 }
-.navigation__list--item {
+.navigation {
+  position: absolute;
+  top: 1.5rem;
+  left: 0;
+  bottom: 0;
+  z-index: 3;
+  background-color: #eee;
+  min-width: 200px;
+  border-left: #aaa solid 1px;
+  box-shadow: 32px 0px 39px rgba(0,0,0,0.3);
+  visibility: hidden;
+}
+
+body > header > label {
+  width: 1rem;
+  height: 1rem;
+  display: block;
+  background-size: 1rem;
+  background-image: url(../rect.svg);
+  background-repeat: no-repeat;
+}
+body [type= "checkbox"]:checked ~ .navigation {
+  visibility: visible;
+  transition: transform .2s ease-in;
+  transition-duration: 1s;
+}
+
+#checkbox-menu {
+  display: none;
+}
+
+ body > header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-inline-start: 1rem;
+  padding-inline-end: 1rem;
+}
+
+/* .navigation__list--item {
   flex-grow: 1;
 
- }
+ } */
 
 .navigation__link {
   padding: 1rem 2rem;
   text-align: center;
   text-decoration: none;
-  color: black;
+  color: #343638;
   text-transform: uppercase;
   opacity: 0.5;
- } */
+ }
+ body > header h1 {
+  text-transform: uppercase;
+  margin: 0;
+ }
+ body > header p {
+   margin: 0;
+ }
 
  .heading {
-  text-align: center;
   text-decoration: none;
-  color: black;
-  text-transform: uppercase;
-  opacity: 0.5;
-  padding-inline-start: 10rem;
+  color: #FA6980;
   font-size: 1rem;
+ }
+
+ /* Tablet */
+ @media (min-width: 768px) {
+   body > header > label,
+   body > header > p {
+     display: none;
+   }
+   body > header {
+     padding: 1.25rem;
+   }
+ }
+ /* tablet nav */
+ @media (min-width: 768px) {
+   .navigation {
+    position: relative;
+    top: 0;
+    left: auto;
+    right: 0;
+    box-shadow: none;
+    min-width: none;
+    background: unset;
+    visibility: visible;
+   }
+   body [type= "checkbox"]:checked ~ .navigation {
+     display: none;
+   }
+   .navigation__container {
+     display: flex;
+    list-style: none;
+    font-size: 12px;
+    font-weight: 700;
+    opacity: 0.5;
+    line-height: 4;
+    justify-content: space-between;
+    margin: 0;
+   }
+   .navigation__link {
+     padding: 0;
+   }
+   body > header {
+     padding: 0;
+   }
  }
