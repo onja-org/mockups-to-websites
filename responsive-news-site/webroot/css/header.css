@@ -1,13 +1,33 @@
 :root {
   --nav-gap-padding: 1rem;
 }
+.site_header {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+}
+.site_header__logo__link {
+  text-decoration: none;
+  color: #aaa;
+}
+.site_header__menu__link {
+  text-decoration: none;
+}
+.site_header__profile__link {
+  text-decoration: none;
+}
+.site_header__profile__image {
+  border-radius: 1rem;
+}
+
+
 .navigation__container {
   display: flex;
   flex-direction: column;
   justify-content: center;
   padding: 0;
 }
-.navigation__link--item {
+.navigation_link__item {
   list-style: none;
   padding-inline-start: var(--nav-gap-padding);
   padding-inline-end: var(--nav-gap-padding);
@@ -15,7 +35,7 @@
   padding-block-start: var(--nav-gap-padding);
   font-size: 1rem;
 }
-div nav a {
+body > nav ul a {
   text-decoration: none;
   text-transform: uppercase;
   color: #aaa;
@@ -24,7 +44,7 @@ div nav a {
 .navigation__link--home {
   color: black;
 }
-.user_interface label {
+/* .user_interface label {
   display: block;
   cursor: pointer;
   padding-inline-start: var(--nav-gap-padding);
@@ -41,4 +61,4 @@ div nav a {
 .user_interface :checked ~ nav {
   display: none;
   transform: translateX(-375px);
-}
+} */
