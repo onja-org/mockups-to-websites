@@ -2,6 +2,7 @@ body > nav {
   padding: 1rem;
   background-color: #f8f8f8;
   position: absolute;
+  z-index: 3;
   top: 0;
   left: 0;
   bottom: 0;
@@ -17,6 +18,7 @@ body > [type="checkbox"]:checked ~ nav {
 
 body > [type="checkbox"]:checked ~ header label {
   position: absolute;
+  z-index: 2;
   top: 0;
   right: 0;
   bottom: 0;
@@ -24,6 +26,10 @@ body > [type="checkbox"]:checked ~ header label {
   height: 100%;
   width: 100%;
   background: rgba(0,0,0,.25);
+}
+
+body > [type="checkbox"]:checked ~ main {
+  z-index: 1;
 }
 
 body > nav > h2 {

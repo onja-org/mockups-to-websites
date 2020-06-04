@@ -6,15 +6,6 @@ article > header {
 
 }
 
-article > header > :first-child {
-  margin-block-start: 0;
-}
-
-
-article > header > :last-child {
-  margin-block-end: 0;
-}
-
 article > p {
   margin-block-start: 1.25rem;
   margin-block-end: 1.25rem;
@@ -55,6 +46,13 @@ article > footer {
   text-decoration: none;
 }
 
+.card p {
+  line-height: 1.75;
+}
+
 .card_title {
   font-size: 1.5rem;
+  line-height: 2.5rem;
+  margin-block-start: -1rem;
+  margin-block-end: -1rem;
 }
