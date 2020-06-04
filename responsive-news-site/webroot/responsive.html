@@ -7,102 +7,120 @@
   <link rel="stylesheet" href="css/index.css">
 </head>
 <body>
+  <input type="checkbox">
   <header class="header">
     <ul class="header__container">
-      <li class="header__menu"><a href="memu"></a>
+      <li><label class="header__menu"><a href="memu"></a></label></li>
+      <li><h1 class="header__logo"><a href="http://logo">Logo</a></h2></li>
+      <li class="header_profile">
+        <img class="header__profile" src="../webroot/images/pattern-10.jpeg">
       </li>
-      <li class="header__logo"><a href="logo">Logo</a></li>
-      <li><img class="header__profile" src="../webroot/images/pattern-10.jpeg">
-      </li>
-      </header>
     </ul>
-  <section class="world_news">
-    <img class="world_news__background" src="../webroot/images/pattern.jpeg" alt="">
-    <h1 class="heading world_news__heading">World news</h1>
-    <h2 class="world_news__title">Amazing places in America to visit.</h2>
-    <p class="world_news__description">For some reason — this country, this city, this neighborhood, this particular street —  is the place you are living a majority of your life in.</p>
-    <p class="world_news__link"><a href="/learn_more">learn more</a></p>
-  </section>
-  <section class="more_news">
-    <h1 class="heading more_news__heading"><a href="/more_news">More news</a></h1>
+  </header>
+  <nav>
     <ul>
-      <li class="more_news__travel">
-        <h3 class="more_news__travel--title"><a href="/travel">travel</a></h3>
-        <h5 class="more_news__travel__subtitle">Article title</h5>
-        <p class="more_news__travel--description">Lorem ipsum dolor sit amet, ipsum labitur lucilius mel id, ad has appareat…</p>
-        <p class="more_news__travel--icon">2m ago</p>
-      </li>
-      <li class="more_news__technology">
-        <h3 class="more_news__technology--title"><a href="/technology">Technology</a></h3>
-        <h5 class="more_news__technology--subtitle">Article title</h5>
-        <p class="more_news__technology--description">Lorem ipsum dolor sit amet, ipsum labitur lucilius mel id, ad has appareat…</p>
-        <p class="more_news__technology--icon">1h ago</p>
-      </li>
+      <li><a href="#">home</a></li>
+      <li><a href="/discovery">discovery</a></li>
+      <li><a href="/photos">photos</a></li>
+      <li><a href="/contact">contact</a></li>
+      <li>
+        <p>
+          <img class="header__profile" src="../webroot/images/pattern-10.jpeg">
+            <a class="header__profile--navigation" href="profile">profile</a>
+              <span class="header__profile--description">
+              </span>
+        </p>
     </ul>
-  </section>
-  <div class="trending_section">
-    <section  class="trending">
-      <h1 class="heading trending__heading">trending</h1>
-      <article class="trending__dolor">
-        <img class="trending__dolor--background" src="../webroot/images/pattern-2.jpeg" alt="pattern_2">
-        <div class="trending_dolor_div">
-          <h4 class="trending__dolor--title">Dolor magna aliqua</h4>
-          <p class="trending__dolor--description">Lorem ipsum dolor sit amet, ipsum labitur lucilius mel id, ad has appareat.</p>
-          <p class="trending__dolor--time">2m ago</p>
-        </div>
-      </article>
-      <article class="trending__morbi">
-        <img class="trending__morbi--background" src="../docs/pattern-3.jpeg" alt="pattern_3">
-        <div class="trending__morbi_div">
-          <h4 class="trending__morbi--title">Morbi eleifend a libero</h4>
-          <p class="trending__morbi--description">Lorem ipsum dolor sit amet, ipsum labitur lucilius mel id, ad has appareat.</p>
-          <p class="trending__morbi--time">1h ago</p>
-        </div>
-      </article>
-      <!-- <article>
-        <img src="../responsive-news-site/webroot/images/pattern-4.jpeg" alt="pattern_4">
-        <h4>Morbi eleifend a libero</h4>
-        <p>Lorem ipsum dolor sit amet, ipsum labitur lucilius mel id, ad has appareat.</p>
-        <p>3h ago</p>
-      </article> -->
+  </nav>
+  <main>
+    <section class="world_news">
+      <img class="world_news__background" src="../webroot/images/pattern.jpeg" alt="">
+      <h2 class="heading world_news__heading">World news</h2>
+      <h2 class="world_news__title">Amazing places in America to visit.</h2>
+      <p class="world_news__description">For some reason — this country, this city, this neighborhood, this particular street —  is the place you are living a majority of your life in.</p>
+      <p class="world_news__link"><a href="/learn_more">learn more</a></p>
     </section>
-  </div>
-  <div class="happening_section">
-    <section class="happening_now">
-      <h1 class="heading happening_now__heading">Happening now</h1>
-      <article class="happening_now__city">
-        <img class="happening_now__city--background" src="../docs/pattern-5.jpeg" alt="pattern-5">
-        <h4 class="happening_now__city--title">City</h4>
-        <h3 class="happening_now__city--subtilte">Large article title mobile layout</h3>
-        <p class="happening_now__city--desciption">Lorem ipsum dolor sit amet, in eam odio amet, vix id nullam detracto, vidit vituperatoribus duo id. Affert detraxit</p>
-        <p class="happening_now__city--time">2m ago</p>
-      </article>
-      <article class="happening_now__travel">
-        <img class="happening_now__travel--background" src="../docs/pattern-6.jpeg" alt="">
-        <h4 class="happening_now__travel--title">Travel</h4>
-        <h3 class="happening_now__travel--subtitle">Large article title mobile layout</h3>
-        <p class="happening_now__travel--description">Lorem ipsum dolor sit amet, in eam odio amet, vix id nullam detracto, vidit vituperatoribus duo id. Affert detraxit</p>
-        <p class="happening_now__travel--time">2d ago</p>
-      </article>
-      <article class="happening_now__list">
-        <div class="happening_now__list_item_first">
-          <img class="happening_now__list_item_first--background" src="../docs/pattern-7.jpeg" alt="pattern-7">
-          <h5 class="happening_now__list_item_first--title">Small title</h5>
-          <p class="happening_now__list_item_first--source">3h ago by <a href="/Worlnews">Worlnews</a></p>
-        </div>
-        <div class="happening_now__list_item_second">
-          <img class="happening_now__list_item_second--background" src="images/pattern-8.jpeg" alt="pattern-8">
-          <h5 class="happening_now__list_item_second--title">Small title</h5>
-          <p class="happening_now__list_item_second--source">4h ago by <a href="/days">Days</a></p>
-        </div>
-        <div class="happening_now__list_item_third">
-          <img class="happening_now__list_item_third--background" src="images/pattern-9.jpeg" alt="pattern-9">
-          <h5 class="happening_now__list_item_third--title">Small title</h5>
-          <p class="happening_now__list_item_third--source">3h ago by <a href="monica">/Monica</a></p>
-        </div>
-      </article>
+    <section class="more_news">
+      <h2 class="heading more_news__heading"><a href="/more_news">More news</a></h2>
+      <ul>
+        <li class="more_news__travel">
+          <h3 class="more_news__travel--title"><a href="/travel">travel</a></h3>
+          <h5 class="more_news__travel__subtitle">Article title</h5>
+          <p class="more_news__travel--description">Lorem ipsum dolor sit amet, ipsum labitur lucilius mel id, ad has appareat…</p>
+          <p class="more_news__travel--icon">2m ago</p>
+        </li>
+        <li class="more_news__technology">
+          <h3 class="more_news__technology--title"><a href="/technology">Technology</a></h3>
+          <h5 class="more_news__technology--subtitle">Article title</h5>
+          <p class="more_news__technology--description">Lorem ipsum dolor sit amet, ipsum labitur lucilius mel id, ad has appareat…</p>
+          <p class="more_news__technology--icon">1h ago</p>
+        </li>
+      </ul>
     </section>
-  </div>
+    <div class="trending_section">
+      <section  class="trending">
+        <h2 class="heading trending__heading">trending</h2>
+        <article class="trending__dolor">
+          <img class="trending__dolor--background" src="../webroot/images/pattern-2.jpeg" alt="pattern_2">
+          <div class="trending_dolor_div">
+            <h4 class="trending__dolor--title">Dolor magna aliqua</h4>
+            <p class="trending__dolor--description">Lorem ipsum dolor sit amet, ipsum labitur lucilius mel id, ad has appareat.</p>
+            <p class="trending__dolor--time">2m ago</p>
+          </div>
+        </article>
+        <article class="trending__morbi">
+          <img class="trending__morbi--background" src="../docs/pattern-3.jpeg" alt="pattern_3">
+          <div class="trending__morbi_div">
+            <h4 class="trending__morbi--title">Morbi eleifend a libero</h4>
+            <p class="trending__morbi--description">Lorem ipsum dolor sit amet, ipsum labitur lucilius mel id, ad has appareat.</p>
+            <p class="trending__morbi--time">1h ago</p>
+          </div>
+        </article>
+        <!-- <article>
+          <img src="../responsive-news-site/webroot/images/pattern-4.jpeg" alt="pattern_4">
+          <h4>Morbi eleifend a libero</h4>
+          <p>Lorem ipsum dolor sit amet, ipsum labitur lucilius mel id, ad has appareat.</p>
+          <p>3h ago</p>
+        </article> -->
+      </section>
+    </div>
+    <div class="happening_section">
+      <section class="happening_now">
+        <h2 class="heading happening_now__heading">Happening now</h2>
+        <article class="happening_now__city">
+          <img class="happening_now__city--background" src="../docs/pattern-5.jpeg" alt="pattern-5">
+          <h4 class="happening_now__city--title">City</h4>
+          <h3 class="happening_now__city--subtilte">Large article title mobile layout</h3>
+          <p class="happening_now__city--desciption">Lorem ipsum dolor sit amet, in eam odio amet, vix id nullam detracto, vidit vituperatoribus duo id. Affert detraxit</p>
+          <p class="happening_now__city--time">2m ago</p>
+        </article>
+        <article class="happening_now__travel">
+          <img class="happening_now__travel--background" src="../docs/pattern-6.jpeg" alt="">
+          <h4 class="happening_now__travel--title">Travel</h4>
+          <h3 class="happening_now__travel--subtitle">Large article title mobile layout</h3>
+          <p class="happening_now__travel--description">Lorem ipsum dolor sit amet, in eam odio amet, vix id nullam detracto, vidit vituperatoribus duo id. Affert detraxit</p>
+          <p class="happening_now__travel--time">2d ago</p>
+        </article>
+        <article class="happening_now__list">
+          <div class="happening_now__list_item_first">
+            <img class="happening_now__list_item_first--background" src="../docs/pattern-7.jpeg" alt="pattern-7">
+            <h5 class="happening_now__list_item_first--title">Small title</h5>
+            <p class="happening_now__list_item_first--source">3h ago by <a href="/Worlnews">Worlnews</a></p>
+          </div>
+          <div class="happening_now__list_item_second">
+            <img class="happening_now__list_item_second--background" src="images/pattern-8.jpeg" alt="pattern-8">
+            <h5 class="happening_now__list_item_second--title">Small title</h5>
+            <p class="happening_now__list_item_second--source">4h ago by <a href="/days">Days</a></p>
+          </div>
+          <div class="happening_now__list_item_third">
+            <img class="happening_now__list_item_third--background" src="images/pattern-9.jpeg" alt="pattern-9">
+            <h5 class="happening_now__list_item_third--title">Small title</h5>
+            <p class="happening_now__list_item_third--source">3h ago by <a href="monica">/Monica</a></p>
+          </div>
+        </article>
+      </section>
+    </div>
+  </main>
   <footer>
     <article class="more_info_first">
       <ul class="more_info_first__container">

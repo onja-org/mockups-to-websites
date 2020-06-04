@@ -1,23 +1,17 @@
 .header__container {
-  height: 88px;
-  background-color: #f6f8f9;
-  margin: 0;
-  padding-inline-start: 10px;
-}
-.header__container {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
   align-items: center;
+  margin: 0;
+  padding-inline-start: 6px;
 }
-
 .header__container li {
   list-style: none;
 }
-
 .header__container li a {
   text-decoration: none;
 }
-
 .header__menu a {
   font-size: 32px;
   color: #000;
@@ -29,17 +23,23 @@
   background-size: 16px 14px;
   background-position: center;
 }
-
+.header__logo {
+  margin: 0;
+}
 .header__logo a {
   color: #a6adb4;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 700;
   text-transform: uppercase;
+  font-size: 13px;
 }
-
 .header__profile {
   display: inline-block;
-  max-width: 30px;
-  height: 30px;
+  width: 16px;
+  height: 16px;
   border-radius: 50%;
+  margin: 0;
+}
+.header__profile > p {
+  margin: 0;
 }
