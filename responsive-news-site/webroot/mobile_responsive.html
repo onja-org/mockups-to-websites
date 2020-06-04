@@ -7,7 +7,7 @@
   <title>Mobile responsible</title>
 </head>
 <body>
-
+<!--
   <header class="list__menu">
     <div class="list__menu_dropdown">
         <legend>
@@ -29,10 +29,10 @@
         </legend>
 
         <legend class="second_menu">
+          <input type="checkbox" id="scales" name="scales">
           <label for="scales">
             <h1>Logo</h1>
             </label>
-          <input type="checkbox" id="scales" name="scales">
           <a href="/dropdown"></a>
         </legend>
 
@@ -42,25 +42,32 @@
           <a href="/dropdown"></a>
         </legend>
 
-    </div>
-    <!-- <nav class="list__menu">
-      <ul class="list__menu_dropdown">
-        <li>
-          <a href="/dropdown"><img class="first_menu" src="image/menu.svg" alt="dropdown that keps the menu">
-          </a>
-        </li>
-        <li>
-          <a class="second_menu" href="/dropdown_logo">
-            <h1>logo</h1>
-          </a>
-        </li>
-        <li>
-          <a href="/image">
-            <img src="image/dropdown_menu.jpeg" alt="dropdown that keps the menu">
-          </a>
-        </li>
-      </ul>
-    </nav> -->
+    </div> -->
+
+  <header>
+    <nav class="example">
+      <div class="dropdown">
+        <input type="checkbox" id="dropdown_checkbox">
+        <label class="dropdown_trigger" for="dropdown_checkbox">
+          <img class="first_menu" src="image/menu.svg" alt="dropdown that keps the menu">
+        </label>
+        <div class="dropdown_contents">
+          <header>
+            <h1>
+              Logo
+            </h1>
+          </header>
+          <ul>
+            <li><a class="contents_menu-home" href="/home">home</a></li>
+            <li><a class="contents_menu" href="/discover">discover</a></li>
+            <li><a class="contents_menu" href="/photo">photo</a></li>
+            <li><a class="contents_menu" href="/contact">contact</a></li>
+            <li><a class="contents_menu" href="/profile">profile</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
   </header>
 
   <main>
