@@ -37,7 +37,6 @@
 
 .list-item__last-visit {
   padding-inline-start: 2rem;
-  padding-block-start: 1rem;
   position: relative;
   font-style: italic;
 }
