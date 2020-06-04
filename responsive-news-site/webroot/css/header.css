@@ -1,4 +1,4 @@
-header {
+.responsive {
   height: 88px;
   background-color: rgb(246, 248, 249);
   color: #FFFFFF;
@@ -112,3 +112,11 @@ header {
   border-radius: 5px;
 }
 
+@media (min-width: 768px) {
+  .responsive__list {
+    display: none;
+  }
+  body > header {
+    pa
+  }
+}
