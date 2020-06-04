@@ -8,30 +8,36 @@
 </head>
 
 <body>
-  <header>
-    <nav class="navigation">
-      <ul class="navigation__menus hidden">
-        <li class="navigation__menus__list-of-menus"><a class="navigation__menus__list-of-menus__new-tab"
-            href="/home">Home</a></li>
-        <li class="navigation__menus__list-of-menus"><a class="navigation__menus__list-of-menus__new-tab"
-            href="/discovery">Discovery</a></li>
-        <li class="navigation__menus__list-of-menus"><a class="navigation__menus__list-of-menus__new-tab"
-            href="/photo">Photos</a></li>
-        <li class="navigation__menus__list-of-menus"><a class="navigation__menus__list-of-menus__new-tab"
-            href="/contact">Contact</a></li>
-      </ul>
-      <ul class="navigation__menus transform">
-        <li class="navigation__menus__list-of-menus" <a class="navigation__menus__list-of-menus__new-tab--Logo"
-          href="logo">Logo</a>
-        </li>
-      </ul>
-      <ul class="navigation__menus">
-        <li class="navigation__menus__list-of-menus">
-          <img class="navigation__menus__woman-profile" src="../docs/beautiful-girl.jpeg" alt="profile photo">
-        </li>
-      </ul>
-    </nav>
+  <input type="checkbox" class="check" id="links">
+  <header class="top-pages">
+    <label for="links">
+      <span class="ally"> Open to menu</span>
+    </label>
+    <h1>Logo</h1>
+    <p>
+      <a href="/profile">
+        <img class="navigation__menus__woman-profile" src="../docs/beautiful-girl.jpeg" alt="profile photo">
+      </a>
+      <span>Profile</span>
+    </p>
   </header>
+  <nav class="navigation">
+    <ul class="navigation__menus--hidden">
+      <li class="navigation__menus__list-of-menus"><a class="navigation__menus__list-of-menus__new-tab"
+          href="/home">Home</a></li>
+      <li class="navigation__menus__list-of-menus"><a class="navigation__menus__list-of-menus__new-tab"
+          href="/discovery">Discovery</a></li>
+      <li class="navigation__menus__list-of-menus"><a class="navigation__menus__list-of-menus__new-tab"
+          href="/photo">Photos</a></li>
+      <li class="navigation__menus__list-of-menus"><a class="navigation__menus__list-of-menus__new-tab"
+          href="/contact">Contact</a></li>
+      <li class="navigation__menus__list-of-menus">
+        <a href="/profile">
+          <img class="navigation__menus__woman-profile" src="../docs/beautiful-girl.jpeg" alt="profile photo">
+        </a>
+      </li>
+    </ul>
+  </nav>
   <main>
     <section class="sharing-news" id="world-news">
       <article class="sharing-news__section">
