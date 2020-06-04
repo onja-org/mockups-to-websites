@@ -1,4 +1,7 @@
-.updated::before {
-  content: "";
-  background-image: ;
+.updated {
+  padding-inline-start: 1.5rem;
+  background-image: url('../images/small-image.svg');
+  background-repeat: no-repeat;
+  background-position: left 50%;
+  background-size: contain;
 }
