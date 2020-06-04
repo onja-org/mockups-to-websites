@@ -1,3 +1,38 @@
 nav {
   display: none;
 }
+body > [type="checkbox"]:checked ~ nav {
+
+}
+
+
+@media(min-width: 768px) {
+  body > nav {
+    position: absolute;
+    top: 0;
+    left: auto;
+    padding: 1rem;
+    background-color: transparent;
+    box-shadow: none;
+    transform: none;
+    transition: none;
+  }
+
+  body > nav > ul {
+    flex-direction: row;
+  }
+
+  body > nav > ul a {
+    padding: 1.25rem;
+    background-image: none;
+    line-height: 1.25;
+  }
+
+  #profile-link img {
+  background-image: none;
+  }
+
+  #profile-link a {
+
+  }
+}

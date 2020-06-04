@@ -1,0 +1,35 @@
+.featured-article img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: -1;
+  object-fit: cover;
+  transform: translate(-50%, -50%);
+}
+
+.featured-article {
+  position: relative;
+  padding: 1rem;
+  color: #FFFFFF;
+}
+
+.featured-article p,
+.featured-article h3,
+.featured-article small {
+  margin-inline-start: 2rem;
+  margin-inline-end: 2rem;
+}
+
+.featured-title {
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.featured-article:nth-of-type(1) {
+  margin-block-end: 1rem;
+}
+
+img[alt="a-big-bridge"],
+img[alt="path-in-forest"] {
+  border-radius: 6px;
+}

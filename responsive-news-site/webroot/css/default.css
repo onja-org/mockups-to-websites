@@ -1,31 +1,30 @@
 body {
-
+  font-family: Helvetica, Arial, sans-serif;
 }
-
-.masthead,
-aside {
-  background-color: rgb(246, 248, 249);;
-}
-
-
 
 img {
-    max-width: 100%;
+  width: 100%;
+  height: 100%;
 }
 
-.travel__paragraph,
-.technology__paragraph,
 small,
 small a,
-.first-section p,
-footer a
- {
+.travel-paragraph,
+.technology-paragraph,
+.post-paragraph {
   color: rgb(166, 173, 180);
 }
 
-.travel__paragraph,
-.technology__paragraph {
-  overflow: hidden;
+.travel-paragraph,
+.technology-paragraph,
+small a,
+.post-paragraph,
+.small-title {
+font-family: serif;
+}
+
+.small-title {
+  margin-block-end: 0;
 }
 
 .travel,
@@ -33,65 +32,61 @@ footer a
 color: rgb(250, 105, 128);
 }
 
-.more-info,
-h2,
-h3,
-small,
-small a,
-.second-section p,
-footer a {
-  font-family: Helvetica, Arial, sans-serif;
-}
-
-.more-info {
+.travel,
+.technology,
+.world-news > a,
+.more-news > a,
+.trending > a,
+.happening-now a {
   text-transform: uppercase;
+  text-decoration: none;
 }
 
-.info-line {
-  border-block-end: 2px solid rgb(235, 237, 237);
+.happening-now {
+  margin-block-end: 1rem;
 }
 
-
-.small-title {
-  font-family: serif, 'Times New Roman', Times;
+.world-news > a {
+  color: #FFFFFF;
+  font-weight: 700;
 }
 
-.second-section--primary-content,
-.second-section--secondary-content,
-.article-title
- {
-  color: white;
+.more-news > a,
+.trending > a,
+.happening-now a {
+  color: #000000;
+  font-weight: 700;
 }
 
-.second-section--primary-content,
-.second-section--secondary-content {
-  background-repeat: no-repeat;
-  background-size: contain;
+.with-background-color {
+  /*
+  background-color: rgb(246, 248, 249);
+*/
 }
 
-img[alt="dusty-elephant"],
-img[alt="a-red-bird"],
-img[alt="sloppy-road"] {
-  border-radius: 6px;
+.more-news-heading {
+border-block-end: 2px solid rgb(166, 173, 180);
 }
 
-img[alt="a-big-bridge"],
-img[alt="path-in-forest"] {
-  border-radius: 6px;
+header + .more-news {
+  margin-block-end: 2rem;
 }
+ .introduction-paragraph {
+  margin-block-end: 2rem;
+ }
 
-img[alt="nice-river-and-mountain"],
-img[alt="orange-parasol"] {
-  border-top-left-radius: 6px;
-  border-top-right-radius: 6px;
-}
+ img[alt="nice-river-and-mountain"],
+ img[alt="orange-parasol"],
+ img[alt="dusty-elephant"],
+ img[alt="a-red-bird"],
+ img[alt="sloppy-road"] {
+   border-radius: 6px;
+ }
 
-.second-section {
-position: relative;
-}
+ img[alt="dusty-elephant"] {
+   margin-block-start: 1rem;
+ }
 
-.second-section--secondary-content {
-}
-
-.second-section--primary-content {
-}
+ .images-posts {
+   border-block-start: 2px solid rgb(166, 173, 180);
+ }
