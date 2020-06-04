@@ -1,0 +1,88 @@
+body [type="checkbox"]:checked ~ nav {
+  transform: translateX(0);
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: #ffff;
+  z-index: 2;
+  box-shadow: 0 0 50px rgb(0 0 0);
+  width: 250px;
+}
+
+body [type="checkbox"]:checked ~ nav img {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+body [type="checkbox"] {
+  transform: translateX(-110px);
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: #ffff;
+  z-index: 2;
+  box-shadow: 0 0 50px rgb(0 0 0);
+}
+
+body [type="checkbox"] ~ nav img {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+body [type="checkbox"]:checked ~ header > label {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: red;
+}
+
+body > nav {
+  position: absolute;
+}
+/* These folloowing rules below are for Tablet */
+
+@media (min-width: 768px) {
+  body > nav {
+    background-color: transparent;
+    position: absolute;
+    top: 0;
+    left: auto;
+    right: 0;
+    bottom: auto;
+    box-shadow: none;
+    background-image: none;
+    z-index: 4;
+  }
+
+  body > nav ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+
+  body > nav li {
+    list-style: none;
+  }
+
+  body > nav img {
+    border-radius: 50%;
+  }
+
+  body > nav a {
+    display: inline-block;
+    padding: 1rem;
+    text-decoration: none;
+  }
+
+  body > nav {
+    display: flex;
+    flex-direction: row;
+  }
+}
