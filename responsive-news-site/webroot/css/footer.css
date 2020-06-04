@@ -13,6 +13,7 @@
   display: inline-block;
   text-transform: uppercase;
   padding-block-end: 2rem;
+  opacity: 1;
 }
 
 footer nav {
@@ -22,6 +23,7 @@ footer nav {
 footer {
   background-color: #cccccc;
   padding-block-end: 3rem;
+  opacity: 1;
 }
 
 .icon {
@@ -64,4 +66,8 @@ footer {
 
 .icon__anchor[href^="/web"] {
   background-image: url('../images/earth.svg');
+}
+
+footer h3 {
+  visibility: hidden;
 }
