@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="">
+    <title>Responsive2</title>
+    <style>
+      body > [type="checkbox"]:checked ~ nav {
+        transform: translateX(0);
+      }
+      body [type="checkbox"] ~ nav img{
+        width: 1.25rem;
+        height: 1.25rem;
+
+      }
+      body > header,
+      body > main,
+      body > footer {
+        text-transform: uppercase;
+        color: orange;
+      }
+      /*body > nav {
+        /* padding: 1rem;
+        background-color: antiquewhite;
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        width: 290px;
+        box-shadow: 0 0 50px rgba(0 , 0, 0, .25);
+        transform: translateX(-110px);
+        transition: transform 0.3s;
+      } */
+      body > nav > ul a {
+        display: block;
+
+      }
+
+
+      body > header {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+      }
+      body > header > a {
+        display: inline-block;
+      }
+      .link {
+
+      }
+
+    </style>
+  </head>
+  <body>
+    <input type="checkbox" id="menu_checkbox">
+    <header>
+      <label for="menu_checkbox" class="icon icon_menu">
+        <span class="a11y">Open the menu</span>
+      </label>
+      <h1>Header</h1>
+      <p>
+        <a href="/profile" class="link">
+          <img src="images/pattern-10.jpeg" alt="">
+          <span>profile</span>
+        </a>
+      </p>
+    </header>
+    <nav>
+      <ul>
+        <li><a href="/" class="icon icon_home">Home</a></li>
+        <li><a href="/" class="icon icon_discovery">Discovery</a></li>
+        <li><a href="/" class="icon icon_photo">Photo</a></li>
+        <li><a href="/" class="icon icon_contact">Contact</a></li>
+      </ul>
+    </nav>
+    <main>
+
+    </main>
+    <footer>
+      <h2><a href="/">Logo</a></h2>
+      <nav>
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/discovery">Discovery</a></li>
+          <li><a href="/photo">Photo</a></li>
+          <li><a href="/contact">contact</a></li>
+          <li><a href="/about">About</a></li>
+          <li><a href="/help">Help</a></li>
+          <li><a href="/terms">Terms</a></li>
+          <li><a href="/guidlines">Guidlines</a></li>
+          <li><a href="/testimonials">Testimonials</a></li>
+          <li><a href="/advertise">Advertise</a></li>
+          <li><a href="/integrations">Integrations</a></li>
+          <li><a href="/carrers">Carrers</a></li>
+        </ul>
+        <h3 class="a11y">Find us on the web</h3>
+          <ul>
+            <li><a href="https://Instagram.com/logo" class="icon icon_instagram">Instagram</a></li>
+            <li><a href="https://Twitter.com/logo" class="icon icon_twitter">Twitter</a></li>
+            <li><a href="https://Facebook.com/logo" class="icon icon_facebook">Facebook</a></li>
+            <li><a href="https://Browser.com/logo" class="icon icon_browser">Browser</a></li>
+          </ul>
+      </nav>
+    </footer>
+  </body>
+</html>
