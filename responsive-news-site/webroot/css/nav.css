@@ -1,0 +1,25 @@
+@media (min-width: 768px) {
+  .navigation_menu-responsive {
+    width: auto;
+    padding: 1rem;
+    position: absolute;
+    padding: 0;
+    right: 0;
+    left: auto;
+    top: 0;
+    bottom: auto;
+    margin: 0;
+  }
+  .menu-responsive {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .menu-responsive__list-item__link {
+    padding: 1.25rem;
+    line-height: 1.25rem;
+  }
+  .profile_span {
+    display: none;
+  }
+}
