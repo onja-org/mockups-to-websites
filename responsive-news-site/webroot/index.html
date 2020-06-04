@@ -7,24 +7,31 @@
     <link rel="stylesheet" href="./css/index.css">
   </head>
   <body>
-    <header class="responsive-heading">
-      <nav>
-        <ul class="responsive-mobile">
-          <li class="responsive-mobile__list-item"><a class="responsive-mobile__list-item__link responsive-mobile__list-item__link--homepage" href="/home"></a></li>
-          <li class="responsive-mobile__list-item"><a class="responsive-mobile__list-item__link responsive-mobile__list-item__link-logo" href="/logo">Logo</a></li>
-          <li class="responsive-mobile__list-item"><img class="responsive-mobile__list-item--image-profile" src="./images/profile.jpeg" alt="Profile"></li>
-        </ul>
-        <ul class="responsive">
-          <li class="responsive__list-item responsive__list-item--logo"><a class="responsive__list-item responsive__list-item--link" href="/logo">Logo</a></li>
-          <li class="responsive__list-item"><a class="responsive__list-item responsive__list-item--link" href="/">Home</a></li>
-          <li class="responsive__list-item"><a class="responsive__list-item responsive__list-item--link" href="/discovery">Discovery</a></li>
-          <li class="responsive__list-item"><a class="responsive__list-item responsive__list-item--link" href="/photos">Photos</a></li>
-          <li class="responsive__list-item"><a class="responsive__list-item responsive__list-item--link" href="/contact">contact</a></li>
-          <li class="responsive__list-item"><a class="responsive__list-item responsive__list-item--link" href="/profile">Profile</a></li>
-          <li class="responsive__list-item"><img class="responsive__list-item--profile" src="./images/profile.jpeg" alt="Profile image"></li>
-        </ul>
-      </nav>
+    <input type="checkbox" id="menu-checkbox">
+    <header class="responsive-mobile">
+      <label class="responsive-mobile__information responsive-mobile__icon-menu responsive-mobile__heading__link--homepage" for="menu-checkbox"></label>
+      <h1 class="responsive-mobile__information responsive-mobile__heading"><a class="responsive-mobile__heading__link-logo" href="/">Logo</a></h1>
+      <p class="responsive-mobile__information responsive-mobile__profile">
+        <a href="/profile">
+          <img class="responsive-mobile__heading--image-profile" src="./images/profile.jpeg" alt="Profile">
+          <span class="responsive-mobile__heading--image-profile__description">Profile</span>
+        </a>
+      </p>
     </header>
+
+    <nav class="navigation_menu-responsive">
+      <ul class="menu-responsive">
+        <li class="menu-responsive__list-item"><a class="menu-responsive__list-item__link menu-responsive__list-item--link" href="/">Home</a></li>
+        <li class="menu-responsive__list-item"><a class="menu-responsive__list-item__link menu-responsive__list-item--link" href="/discovery">Discovery</a></li>
+        <li class="menu-responsive__list-item"><a class="menu-responsive__list-item__link menu-responsive__list-item--link" href="/photos">Photos</a></li>
+        <li class="menu-responsive__list-item"><a class="menu-responsive__list-item__link menu-responsive__list-item--link" href="/contact">contact</a></li>
+        <li class="menu-responsive__list-item"><a class="menu-responsive__list-item__link" href="/profile">
+          <img class="menu-responsive__list-item--profile responsive-mobile__heading--image-profile" src="./images/profile.jpeg" alt="Profile">
+          <span class="profile_span">Profile</span>
+          </a>
+        </li>
+      </ul>
+    </nav>
 
     <main>
       <header class="main-heading">
@@ -65,16 +72,16 @@
       <article class="article-environment">
         <h1 class="heading environment__heading"><a class="base-heading-link" href="/trending">Trending</a></h1>
         <ul class="article-environment__list">
-          <li class="article-environment__list__list-item article-environment__list__list-item__nature">
-            <img class="article-environment__list__list-item article-environment__list__list-item__images" src="./images/trending-dolore-magna.jpeg" alt="Doloro magna aliqua">
+          <li class="article-environment__list__list-item article-environment__list__list-item__nature article-environment__list__list-item__beatiful-nature">
+            <img class="article-environment__list__list-item__images" src="./images/trending-dolore-magna.jpeg" alt="Doloro magna aliqua">
             <h2 class="article-environment__list__list-item article-environment__list__list-item__subheading">Doloro magna aliqua</h2>
             <p class="article-environment__list__list-item article-environment__list__list-item__explanation">
               Lorem ipsum dolor sit amet, ipsum labitur lucilius mel id, ad has appareat.
             </p>
             <p class="article-environment__list__list-item list-item__last-visit">2m ago</p>
           </li>
-          <li class="article-environment__list__list-item article-environment__list__list-item__beache">
-            <img class="article-environment__list__list-item article-environment__list__list-item__images" src="./images/trending-morbi-eleifend-libero.jpeg" alt="Morbi eleifend a libero">
+          <li class="article-environment__list__list-item article-environment__list__list-item__nature article-environment__list__list-item__beache">
+            <img class="article-environment__list__list-item__images" src="./images/trending-morbi-eleifend-libero.jpeg" alt="Morbi eleifend a libero">
             <h2 class="article-environment__list__list-item article-environment__list__list-item__subheading" >Morbi eleifend a libero</h2>
             <p>
               Lorem ipsum dolor sit amet, ipsum labitur lucilius mel id, ad has appareat.
@@ -86,49 +93,49 @@
 
       <article class="article_happening-now">
         <h1 class="heading"><a class="base-heading-link" href="/happening-now">Happening now</a></h1>
-        <ul>
-          <li class="article_happening-now__list-item happening-now__list-item">
-            <h2 class="happening-now__list-item__subheading"><a class="happening-now__list-item" href="/city">City</a></h2>
+        <ul class="happening-now">
+          <li class="article_happening-now__list-item">
+            <h2 class="happening-now__list-item__subheading"><a class="happening-now__list-item happening-now__list-item__subheading__link" href="/city">City</a></h2>
             <h3 class="happening-now__list-item happening-now__list-item__subtitle">Large Article title mobile layout</h3>
-            <img class="happening-now__list-item__image" src="./images/trending-dolore-magna.jpeg" alt="Doloro magna aliqua">
-            <p class="happening-now__list-item">Lorem ipsum dolor sit amet, in eam odio amet, vix id nullam detracto, vidit vituperatoribus duo id. Affert detraxit
+            <img class="happening-now__list-item__image" src="./images/happening-city.jpeg" alt="Doloro magna aliqua">
+            <p class="happening-now__list-item happening-now__list-item__explanation">Lorem ipsum dolor sit amet, in eam odio amet, vix id nullam detracto, vidit vituperatoribus duo id. Affert detraxit
             </p>
-            <p class="happening-now__list-item list-item__last-visit">2m ago</p>
+            <p class="list-item__last-visit__snoozed list-item__last-visit">2m ago</p>
           </li>
 
           <li class="article_happening-now__list-item">
-            <h2 class="happening-now__list-item happening-now__list-item__subheading"><a class="happening-now__list-item" href="/travel">Travel</a></h2>
+            <h2 class="happening-now__list-item__subheading"><a class="happening-now__list-item happening-now__list-item__subheading__link" href="/travel">Travel</a></h2>
             <h3 class="happening-now__list-item happening-now__list-item__subtitle">Large Article title mobile layout</h3>
-            <img class="happening-now__list-item__image" src="./images/trending-dolore-magna.jpeg" alt="Doloro magna aliqua">
-            <p class="happening-now__list-item">Lorem ipsum dolor sit amet, in eam odio amet, vix id nullam detracto, vidit vituperatoribus duo id. Affert detraxit
+            <img class="happening-now__list-item__image" src="./images/happening-travel.jpeg" alt="Doloro magna aliqua">
+            <p class="happening-now__list-item happening-now__list-item__explanation">Lorem ipsum dolor sit amet, in eam odio amet, vix id nullam detracto, vidit vituperatoribus duo id. Affert detraxit
             </p>
-            <p class="happening-now__list-item list-item__last-visit">1m ago</p>
+            <p class="list-item__last-visit__snoozed list-item__last-visit">2d ago</p>
           </li>
         </ul>
       </article>
 
-      <article>
-        <ul>
-          <li>
-            <h4>
+      <article class="article_small-detail">
+        <ul class="article_small-detail__best-nature">
+          <li class="article_small-detail__best-nature__list-item">
+            <h4 class="article_small-detail__best-nature_environment article_small-detail__best-nature__list-item__subheading">
               Small title
             </h4>
-            <p class="list-item__last-visit">3h ago by <a href="https://world-news.com">Worldnews</a></p>
+            <p class="article_small-detail__best-nature_environment list-item__last-visit">3h ago by <a href="https://world-news.com">Worldnews</a></p>
             <img src="./images/world-news.jpeg" alt="Worldnews">
           </li>
-          <li>
-            <h4>
+          <li class="article_small-detail__best-nature__list-item">
+            <h4 class="article_small-detail__best-nature_environment article_small-detail__best-nature__list-item__subheading">
               Small title
             </h4>
-            <p class="list-item__last-visit">4h ago by <a href="https://days.com">Days</a></p>
+            <p class="article_small-detail__best-nature_environment list-item__last-visit">4h ago by <a href="https://days.com">Days</a></p>
             <img src="./images/days.jpeg" alt="Days">
           </li>
 
-          <li>
-            <h4>
+          <li class="article_small-detail__best-nature__list-item">
+            <h4 class="article_small-detail__best-nature_environment article_small-detail__best-nature__list-item__subheading">
               Small title
             </h4>
-            <p class="list-item__last-visit">3h ago by <a href="https://monica.com">Monica</a></p>
+            <p class="article_small-detail__best-nature_environment list-item__last-visit">3h ago by <a href="https://monica.com">Monica</a></p>
             <img src="./images/monica.jpeg" alt="Monica">
           </li>
         </ul>
