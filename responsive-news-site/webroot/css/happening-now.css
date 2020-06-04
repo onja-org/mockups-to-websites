@@ -1,7 +1,7 @@
 .happening_now {
   margin: 0;
   position: relative;
-  color: #ffffff;
+  padding: 1.5rem;
 
 }
 
@@ -21,7 +21,7 @@
 
 .happening_now__updated_time {
   font-size: 13px;
-  color: lightgray;
+  color: darkgray;
 }
 
 
@@ -48,6 +48,7 @@
 .happening_now__list_item {
   list-style: none;
   position: relative;
+  color: #ffffff;
 }
 
 
