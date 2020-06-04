@@ -1,0 +1,29 @@
+footer {
+  display: flex;
+  background-color: lightgray;
+  top: 2rem;
+  margin-inline-end: -1rem;
+}
+
+footer nav {
+
+}
+footer ul {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-block-start: 4rem;
+  padding: 1rem;
+  grid-row-gap: 2rem
+}
+
+
+footer a {
+  padding: 1rem 2rem;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: 700;
+ }
