@@ -1,0 +1,30 @@
+.icons {
+  display: flex;
+  justify-content: stretch;
+  padding-inline-end: 1rem;
+}
+
+.icons__list--link {
+  color: #FFFFFF;
+  opacity: 0;
+}
+
+.icons__list--link-instegram {
+  background-image: url('../svg/instegram.svg');
+  background-repeat: no-repeat;
+}
+
+.icons__list--link-twitter {
+ background-image: url('../svg/twitter.svg');
+ background-repeat: no-repeat;
+}
+
+.icons__list--link-facebook {
+  background-image: url('../svg/facebook.svg');
+  background-repeat: no-repeat;
+}
+
+.icons__list--link-search {
+  background-image: url('../svg/search.svg');
+  background-repeat: no-repeat;
+}
