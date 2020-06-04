@@ -1,9 +1,11 @@
 .heading__image {
-  width: 100vw;
+ /* max-width: 100%; */
+ width: 100%;
   height: 100%;
 }
 
 .trending__image {
+  /* max-width: 100%; */
   width: 100%;
   height: 100%;
   border-top-left-radius: 5px;
@@ -11,12 +13,14 @@
 }
 
 .curent-news__images {
+  /* max-width: 100%; */
   width: 100%;
   height: 100%;
   border-radius: 5px;
 }
 
 .curent-news__posted-images {
+  /* max-width: 100%; */
   width: 100%;
   height: 100%;
   border-radius: 5px;
