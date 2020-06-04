@@ -1,4 +1,5 @@
 .responsive {
-  max-width: 375px;
+  /* max-width: 375px; */
+  width: 100%;
   font-family: Helvetica;
 }

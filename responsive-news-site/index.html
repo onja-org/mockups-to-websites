@@ -7,15 +7,28 @@
   <link rel="stylesheet" href="../responsive-news-site/webroot/css/index.css">
 </head>
 <body class="responsive">
+  <input type="checkbox">
   <header>
-    <nav class="navigation">
-      <ul class="navigation__container">
-        <li class="navigation__list_item navigation__list_item--menu"><a class="navigation__link navigation__link--menu" href="/menu">Menu</a></li>
-        <li class="navigation__list_item"><a class="navigation__link navigation__link--logo" href="/logo">Logo</a></li>
-        <li class="navigation__list_item"><a class="navigation__link" href="/profile"><img class="navigation__link--profile" width="15" height="15" src="../responsive-news-site/webroot/images/profile.jpeg" alt="Profile image"></a></li>
-      </ul>
-    </nav>
+    <h1>
+      Logo
+    </h1>
   </header>
+  <nav>
+    <ul>
+      <li><a href="/">Home</a></li>
+      <li><a href="/discovery">Discovery</a></li>
+      <li><a href="/photos">Photos</a></li>
+      <li><a href="/contact">Contact</a></li>
+      <li><a href="/profile">Profile</a></li>
+    </ul>
+  </nav>
+  <nav class="navigation">
+    <ul class="navigation__container">
+      <li class="navigation__list_item navigation__list_item--menu"><a class="navigation__link navigation__link--menu" href="/menu">Menu</a></li>
+      <li class="navigation__list_item"><a class="navigation__link navigation__link--logo" href="/logo">Logo</a></li>
+      <li class="navigation__list_item"><a class="navigation__link" href="/profile"><img class="navigation__link--profile" width="15" height="15" src="../responsive-news-site/webroot/images/profile.jpeg" alt="Profile image"></a></li>
+    </ul>
+  </nav>
   <main>
     <article class="world_news">
       <img class="world_news__image" src="../responsive-news-site/webroot/images/pattern.jpeg" alt="amazing places in America">
@@ -150,31 +163,34 @@
           </li>
         </ul>
       </nav>
-    </article>
-    <nav>
-      <ul>
-        <li>
-          <p>
+    </article class="category">
+    <nav class="category__navigation">
+      <ul class="category__navigation_container">
+        <li class="category__list_item">
+          <img class="category__image category__image--elephant" src="../responsive-news-site/webroot/images/pattern-7.jpeg" alt="Image of an Elephant">
+          <p class="category__small_title">
             Small title
           </p>
-          <small>
-            3h ago by <u>Worldnews</u>
+          <small class="category__updated_time">
+            <i>3h ago by <a class="category__link" href="/worldews">Worldnews</a></i>
           </small>
         </li>
-        <li>
-          <p>
+        <li class="category__list_item">
+          <img class="category__image category__image--bird" src="../responsive-news-site/webroot/images/pattern-8.jpeg" alt="An image of a bird in a tree">
+          <p class="category__small_title">
             Small title
           </p>
-          <small>
-            4h ago by <u>Days</u>
+          <small class="category__updated_time">
+            <i>4h ago by <a class="category__link" href="/days">Days</a></i>
           </small>
         </li>
-        <li>
-          <p>
+        <li class="category__list_item">
+          <img class="category__image category__image--road" src="../responsive-news-site/webroot/images/pattern-9.jpeg" alt="An image of road">
+          <p class="category__small_title">
             Small title
           </p>
-          <small>
-            3h ago by <u>Monica</u>
+          <small class="category__updated_time">
+            <i>3h ago by <a class="category__link" href="/monica">Monica</a></i>
           </small>
         </li>
       </ul>
