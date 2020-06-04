@@ -2,6 +2,7 @@ footer {
   word-wrap: break-word;
   background-color: silver;
   line-height: 35px;
+  width: 100%;
 }
 table {
   margin-top: -1rem;

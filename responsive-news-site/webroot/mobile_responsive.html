@@ -1,74 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/mobile_index.css">
   <title>Mobile responsible</title>
 </head>
+
 <body>
-<!--
-  <header class="list__menu">
-    <div class="list__menu_dropdown">
-        <legend>
-          <label for="scales"><img class="first_menu" src="image/menu.svg" alt="dropdown that keps the menu">
-          <input type="checkbox" id="scales" name="scales">
-          <nav>
-            <header>
-              <h1>Logo</h1>
-            </header>
-            <ul>
-              <li><a href="/home">home</a></li>
-              <li><a href="/discover">discover</a></li>
-              <li><a href="/photo">photo</a></li>
-              <li><a href="/contact">contact</a></li>
-              <li><a href="/profile">profile</a></li>
-            </ul>
-          </nav>
-        </label>
-        </legend>
 
-        <legend class="second_menu">
-          <input type="checkbox" id="scales" name="scales">
-          <label for="scales">
-            <h1>Logo</h1>
-            </label>
-          <a href="/dropdown"></a>
-        </legend>
-
-        <legend>
-          <label for="scales"><img class="last_menu" src="image/dropdown_menu.jpeg" alt="dropdown that keps the menu"></label>
-          <input type="checkbox" id="scales" name="scales">
-          <a href="/dropdown"></a>
-        </legend>
-
-    </div> -->
+  <input type="checkbox" id="dropdown_checkbox">
 
   <header>
-    <nav class="example">
-      <div class="dropdown">
-        <input type="checkbox" id="dropdown_checkbox">
-        <label class="dropdown_trigger" for="dropdown_checkbox">
-          <img class="first_menu" src="image/menu.svg" alt="dropdown that keps the menu">
-        </label>
-        <div class="dropdown_contents">
-          <header>
-            <h1>
-              Logo
-            </h1>
-          </header>
-          <ul>
-            <li><a class="contents_menu-home" href="/home">home</a></li>
-            <li><a class="contents_menu" href="/discover">discover</a></li>
-            <li><a class="contents_menu" href="/photo">photo</a></li>
-            <li><a class="contents_menu" href="/contact">contact</a></li>
-            <li><a class="contents_menu" href="/profile">profile</a></li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-
+    <label class="dropdown_trigger" for="dropdown_checkbox"></label>
+    <h1 class="title">
+      Logo
+    </h1>
+    <p>
+      <a href="/image">
+        <img class="profile_photo" src="image/profile_menu.jpeg" alt="">
+        <span></span>
+      </a>
+    </p>
   </header>
+
+  <nav>
+      <header>
+        <h1>
+          Logo
+        </h1>
+      </header>
+        <ul class=".list__menu_dropdown">
+          <li><a class="contents_menu-home" href="/home">home</a></li>
+          <li><a class="contents_menu" href="/discover">discover</a></li>
+          <li><a class="contents_menu" href="/photo">photo</a></li>
+          <li><a class="contents_menu" href="/contact">contact</a></li>
+          <li><a class="contents_menu" href="/profile">profile</a></li>
+        </ul>
+  </nav>
+  </div>
+
 
   <main>
 
@@ -77,10 +49,11 @@
         <img src="image/bacground_information.jpeg" alt="background image for the header">
         <h2 class="main_title">World news</h2>
         <h3>Amazing places in America t visit</h3>
-        <p>For some reason — this country, this city, this neighborhood, this particular street —  is the place you are living a majority of your life in</p>
-      <button>
-        <a class="learn_more" href="/">Learn more</a>
-      </button>
+        <p>For some reason — this country, this city, this neighborhood, this particular street —  is the place you are
+          living a majority of your life in</p>
+        <button>
+          <a class="learn_more" href="/">Learn more</a>
+        </button>
       </header>
     </section>
 
@@ -89,11 +62,13 @@
         <h2 class="more__news-information">more news</h2>
         <h4 class="details">travel</h4>
         <p class="article_title">Article title</p>
-        <p class="more_explanation">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima delectus, laboriosam alias officiis dolores dicta quas quis debitis assumenda reprehenderit natus vel accusantium maiores...</p>
+        <p class="more_explanation">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima delectus, laboriosam
+          alias officiis dolores dicta quas quis debitis assumenda reprehenderit natus vel accusantium maiores...</p>
         <p class="timing">2m ago</p>
         <h4 class="details">technology</h4>
         <p class="article_title">Article title</p>
-        <p class="more_explanation">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima delectus, laboriosam alias officiis dolores dicta quas quis debitis assumenda reprehenderit natus vel accusantium maiores...</p>
+        <p class="more_explanation">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima delectus, laboriosam
+          alias officiis dolores dicta quas quis debitis assumenda reprehenderit natus vel accusantium maiores...</p>
         <p class="timing">1h ago</p>
       </header>
     </section>
@@ -103,11 +78,13 @@
         <h2>trending</h2>
         <img class="trending__dercorational_image" src="image/trending-1.jpeg" alt="dercorational image">
         <p class="article_title">dolore magma aliqua</p>
-        <p class="more_explanation">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima delectus, laboriosam alias officiis dolores dicta quas quis debitis assumenda reprehenderit natus vel accusantium maiores...</p>
+        <p class="more_explanation">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima delectus, laboriosam
+          alias officiis dolores dicta quas quis debitis assumenda reprehenderit natus vel accusantium maiores...</p>
         <p class="timing">2m ago</p>
         <img class="trending__dercorational_image" src="image/trending-2.jpeg" alt="dercorational image">
         <p class="article_title">Morbi eleifend a libero</p>
-        <p class="more_explanation">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima delectus, laboriosam alias officiis dolores dicta quas quis debitis assumenda reprehenderit natus vel accusantium maiores...</p>
+        <p class="more_explanation">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima delectus, laboriosam
+          alias officiis dolores dicta quas quis debitis assumenda reprehenderit natus vel accusantium maiores...</p>
         <p class="timing">1h ago</p>
       </header>
     </section>
@@ -119,7 +96,8 @@
         <div class="more__explanation">
           <p>city</p>
           <h3>large article title mobile layout</h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima delectus, laboriosam alias officiis dolores dicta quas quis debitis assumenda reprehenderit natus vel accusantium maiores...</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima delectus, laboriosam alias officiis dolores
+            dicta quas quis debitis assumenda reprehenderit natus vel accusantium maiores...</p>
           <p class="timing">2m ago</p>
         </div>
 
@@ -127,7 +105,8 @@
         <div class="more__explanation">
           <p>travel</p>
           <h3>large article title mobile layout</h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima delectus, laboriosam alias officiis dolores dicta quas quis debitis assumenda reprehenderit natus vel accusantium maiores...</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima delectus, laboriosam alias officiis dolores
+            dicta quas quis debitis assumenda reprehenderit natus vel accusantium maiores...</p>
           <p class="timing">2d ago</p>
         </div>
 
@@ -135,19 +114,19 @@
 
     </section>
 
-      <aside class="decoration_information">
-          <img class="decoration_1" src="../webroot/image/elephante_decoration.jpeg" alt="elephante decoration">
-          <p class="article_title">Small title</p>
-          <p class="timing">3h ago by Worldnews</p>
+    <aside class="decoration_information">
+      <img class="decoration_1" src="../webroot/image/elephante_decoration.jpeg" alt="elephante decoration">
+      <p class="article_title">Small title</p>
+      <p class="timing">3h ago by Worldnews</p>
 
-          <img class="decoration_2" src="../webroot/image/bird_decoration.jpeg" alt="bird decoration">
-          <p class="article_title">Small title</p>
-          <p class="timing">3h ago by days</p>
+      <img class="decoration_2" src="../webroot/image/bird_decoration.jpeg" alt="bird decoration">
+      <p class="article_title">Small title</p>
+      <p class="timing">3h ago by days</p>
 
-          <img class="decoration_1" src="../webroot/image/road_decoration.jpeg" alt="">
-          <p class="article_title">Small title</p>
-          <p class="timing">3h ago by Monica</p>
-      </aside>
+      <img class="decoration_1" src="../webroot/image/road_decoration.jpeg" alt="">
+      <p class="article_title">Small title</p>
+      <p class="timing">3h ago by Monica</p>
+    </aside>
 
   </main>
 
@@ -164,12 +143,12 @@
       </tr>
       <tr>
         <td><a href="/">terms</a></td>
-      <td>integrations</td>
-    </tr>
-    <tr>
-      <td><a href="/">guidlines</a></td>
-      <td>careers</td>
-    </tr>
+        <td>integrations</td>
+      </tr>
+      <tr>
+        <td><a href="/">guidlines</a></td>
+        <td>careers</td>
+      </tr>
     </table>
 
     <ul>
@@ -182,4 +161,5 @@
   </footer>
 
 </body>
+
 </html>

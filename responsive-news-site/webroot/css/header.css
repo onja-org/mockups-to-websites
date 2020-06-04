@@ -1,0 +1,51 @@
+body > header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+body > header > label {
+  width: 1rem;
+  height: 1rem;
+  display: inline-block;
+  background-image: url(../image/menu.svg);
+  background-size: 1rem;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.profile_photo {
+  width: 16px;
+  border-radius: 100%;
+}
+
+
+body > [type="checkbox"]:checked ~ nav {
+  visibility: visible;
+  transition: transform 0.3s;
+}
+
+
+body > [type="checkbox"]:checked {
+  display: none;
+  position: absolute;
+  transform: translate(0);
+}
+
+
+[type="checkbox"] {
+  visibility: hidden;
+}
+
+
+@media (min-width: 768px) {
+  body > header > label,
+  body > header > p {
+    display: none;
+  }
+
+  body > header {
+    padding: 1.25rem;
+  }
+}

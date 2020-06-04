@@ -1,13 +1,30 @@
 html {
-
+font-size: 16px;
+font-family: Arial, Helvetica, sans-serif;
 }
 
 body {
-  padding-left: 16px;
+  margin: 0;
+  background-color: #f6f8f9;
+}
+
+body > header,
+body > main,
+body > footer,
+body > nav {
+  padding: 1rem;
 }
 
 main {
 
+}
+
+h1.title {
+text-align: center;
+color: #a6adb4;
+font-size: 13px;
+font-weight: 700;
+text-transform: uppercase;
 }
 
 h2 {
