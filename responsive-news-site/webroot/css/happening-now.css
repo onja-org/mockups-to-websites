@@ -1,70 +1,73 @@
 .happening_now {
-  background-color: rgb(246, 248, 249);
-  display: inline-block;
-  position: relative;
   margin: 0;
+  position: relative;
+  color: #ffffff;
 
 }
 
-.happining_now__heading {
-  font-size: 24px;
-  font-weight: bold;
-
-}
-
-.happening_now__navigation_container {
-  padding-inline-start: 0;
+.happening_now__content {
+  margin: 0;
+  padding: 1.5rem;
 }
 
 .happening_now__subheading {
   font-size: 16px;
   font-weight: bold;
-  text-transform: uppercase;
-  margin: 0;
+  /* padding-block-start: 1rem; */
 }
-
-.happening_now__content {
-  transform: translate(0rem, -10rem);
-  padding: 1.5rem;
-
-}
-
-.happening_now__city_image {
-  width: 100%;
-  height: 100%;
-  z-index: -1;
-  object-fit: cover;
-  padding: 0;
-  transform: translate(0, 0);
-  border-radius: 8px;
-}
-
-.happening_now__small_heading {
-  font-size: 24px;
-  font-weight: bold;
-  margin-block-end: 0;
-}
-
-.happening_now__list_item {
-  color: black;
-  list-style: none;
-  padding-block-end: 2rem;
-  border-radius: 8px;
-}
-
 
 .happening_now__lorem_text {
   font-size: 16px;
-  margin-block-start: 16px;
 }
 
 .happening_now__updated_time {
-  font-size: 16px;
+  font-size: 13px;
   color: lightgray;
 }
 
 
-.happening_now__travel_image {
+.happening_now__small_heading {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+
+.happening_now__city_image {
+  position: absolute;
   width: 100%;
   height: 100%;
+  z-index: -1;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.happening_now__navigation_container {
+  margin: 0;
+  padding: 0;
+}
+
+.happening_now__list_item {
+  list-style: none;
+  position: relative;
+}
+
+
+
+
+.happening_now__travel_image {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.happening_now__list_item--travel {
+  padding-block-start: 2rem;
+}
+
+.happening_now__content--2 {
+  margin: 0;
+  padding: 1.5rem;
 }
