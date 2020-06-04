@@ -1,10 +1,4 @@
-.responsive-heading {
-  background-color: #f6f8f9;
-  width: 100vw;
-  height: 10vh;
-}
-
-.responsive__list-item {
+.menu-responsive__list-item {
   display: none;
 }
 
