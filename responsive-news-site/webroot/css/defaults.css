@@ -1,0 +1,40 @@
+html {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 1.25;
+}
+
+body {
+  margin: 0;
+  background-color: #f8f8f8;
+}
+
+img {
+  max-width: 100%;
+}
+
+body > header > :first-child,
+body > nav > :first-child,
+main > :first-child,
+body > footer > :first-child {
+  margin-block-start: 0;
+}
+
+body > header > :last-child,
+body > nav > :last-child,
+main > :last-child,
+body > footer > :last-child {
+  margin-block-start: 0;
+}
+
+figure {
+  margin: 0;
+  padding: 0;
+}
+
+body > [type="checkbox"] {
+  position: absolute;
+  top: 3.5rem;
+  left: .5rem;
+}
+
