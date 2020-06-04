@@ -4,3 +4,7 @@
 .nav-discover > p {
   opacity: 0.5;
 }
+.discover-world {
+  top: 2rem;
+  position: relative;
+}

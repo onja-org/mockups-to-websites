@@ -18,8 +18,6 @@ z-index: -1;
   height: 100%;
   position: absolute;
   z-index: -1;
-  margin-inline-start: 1rem;
-  margin-inline-end: 1rem;
   border-radius: 10px;
 }
 .travel {
@@ -27,10 +25,8 @@ z-index: -1;
   height: 100%;
   position: absolute;
   z-index: -1;
-  margin-inline-start: 1rem;
-  margin-inline-end: 1rem;
   border-radius: 10px;
-  
+
 }
 
 .discover-world img {
