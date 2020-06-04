@@ -4,7 +4,7 @@
   justify-content: space-between;
   align-items: center;
   margin: 0;
-  padding-inline-start: 6px;
+  padding-inline-start: 0;
 }
 .header__container li {
   list-style: none;
@@ -33,13 +33,37 @@
   text-transform: uppercase;
   font-size: 13px;
 }
-.header__profile {
+.header__profile--image {
   display: inline-block;
   width: 16px;
   height: 16px;
   border-radius: 50%;
   margin: 0;
 }
-.header__profile > p {
+.header__profile--description {
+  display: none;
+}
+.navigation {
+  list-style: none;
+}
+.navigation a {
+  text-transform: uppercase;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #a6adb4;
+}
+.container {
   margin: 0;
+}
+.navigation__paragraph {
+  margin: 0;
+}
+.navigation__image {
+  width: 16px;
+  height: 16px;
+  margin: 0;
+  border-radius: 50%;
+}
+.navigation__description {
+  display: none;
 }

@@ -12,24 +12,30 @@
     <ul class="header__container">
       <li><label class="header__menu"><a href="memu"></a></label></li>
       <li><h1 class="header__logo"><a href="http://logo">Logo</a></h2></li>
-      <li class="header_profile">
-        <img class="header__profile" src="../webroot/images/pattern-10.jpeg">
+      <li class="header__profile">
+        <p class="header__profile--paragraph">
+          <a class="header__profile--navigation" href="profile">
+            <img class="header__profile--image" src="../webroot/images/pattern-10.jpeg">
+            <span class="header__profile--description">profile</span>
+          </a>
+        </p>
       </li>
     </ul>
   </header>
   <nav>
-    <ul>
-      <li><a href="#">home</a></li>
-      <li><a href="/discovery">discovery</a></li>
-      <li><a href="/photos">photos</a></li>
-      <li><a href="/contact">contact</a></li>
-      <li>
-        <p>
-          <img class="header__profile" src="../webroot/images/pattern-10.jpeg">
-            <a class="header__profile--navigation" href="profile">profile</a>
-              <span class="header__profile--description">
-              </span>
+    <ul class="container">
+      <li class="navigation"><a class="navigation__home" href="#">home</a></li>
+      <li class="navigation"><a class="navigation__discovery" href="/discovery">discovery</a></li>
+      <li class="navigation"><a class="navigation__photos" href="/photos">photos</a></li>
+      <li class="navigation"><a class="navigation__contact" href="/contact">contact</a></li>
+      <li class="navigation">
+        <p class="navigation__paragraph">
+          <a class="navigation__navigation" href="profile">
+            <img class="navigation__image" src="../webroot/images/pattern-10.jpeg">
+            <span class="navigation__description">profile</span>
+          </a>
         </p>
+      </li>
     </ul>
   </nav>
   <main>
