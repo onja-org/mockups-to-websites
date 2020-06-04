@@ -42,15 +42,6 @@
   padding-inline-end: var(--base-padding);
 }
 
-.trending__list-items--time {
-  font-size: 13px;
-  font-style: oblique;
-  color: #a6adb4;
-  padding-inline-start: var(--base-padding);
-  padding-inline-end: var(--base-padding);
-  padding-block-end: var(--base-padding);
-}
-
 .pattern {
   height: 400px;
   width: 100%;

@@ -29,12 +29,6 @@
   margin-block-end: 0;
 }
 
-.happening_now__list_items--time {
-  font-size: 13px;
-  font-style: oblique;
-  color: #a6adb4;
-}
-
 .happening_now__container {
   list-style: none;
   padding-inline-start: 0;

@@ -1,10 +1,11 @@
-@import "default.css";
-@import "header.css";
-@import "menu.css";
 @import "amazing-place.css";
+@import "default.css";
+@import "footer.css";
+@import "happenning-now.css";
+@import "header.css";
+@import "icon_menu.css";
+@import "icon-social.css";
+@import "menu.css";
 @import "more-news.css";
 @import "trending.css";
-@import "happenning-now.css";
 @import "small-title.css";
-@import "footer.css";
-@import "icon-social.css";

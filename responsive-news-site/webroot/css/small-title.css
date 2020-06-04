@@ -22,12 +22,6 @@
   width: 100%;
 }
 
-.small-title__time {
-  font-size: 13px;
-  font-style: oblique;
-  color: #a6adb4;
-}
-
 .small-title__list_item--third {
   padding-block-end: 4rem;
 }

@@ -9,35 +9,31 @@
 </head>
 
 <body>
+  <input class="menu__input" type="checkbox" id="checkbox_menu">
   <header class="header">
-    <div class="menu">
-      <input class="menu__input" type="checkbox" id="checkbox_menu">
-      <label for="checkbox_menu" class="menu__label"> Menu</label>
-      <nav class="navigation">
-        <header class="navigation__heading">
-          <h1>Logo</h1>
-        </header>
-        <ul class="navigation__container">
-          <li class="navigation__list_item"><a class="navigation__link" href="/">Home</a></li>
-          <li class="navigation__list_item"><a class="navigation__link" href="/discovery">Discovery</a></li>
-          <li class="navigation__list_item"><a class="navigation__link" href="/photos">Photos</a></li>
-          <li class="navigation__list_item"><a class="navigation__link" href="contact">Contact</a></li>
-          <li class="navigation__list_item"><a class="navigation__link" href="/profile">Profile</a></li>
-        </ul>
-      </nav>
-    </div>
-    <div>
-      <h1 class="header__logo">Logo</h1>
-    </div>
-    <div class="profile">
-      Profile
-    </div>
-    <img class="profile__image" src="../docs/pattern-10.jpeg" alt="">
+    <label for="checkbox_menu" class="menu__label">
+      <span> Menu</span>
+    </label>
+    <h1 class="header__logo">Logo</h1>
+    <p>
+      <a class="profile__link" href="/profile"> <img class="profile__image" src="./images/pattern-10.jpeg" alt="">
+        <span class="profile__span">Profile</span></a>
+    </p>
   </header>
+  <nav class="navigation">
+    <h1 class="navigation__header">Logo</h1>
+    <ul class="navigation__container">
+      <li class="navigation__list_item"><a class="navigation__link home" href="/">Home</a></li>
+      <li class="navigation__list_item"><a class="navigation__link discovery" href="/discovery">Discovery</a></li>
+      <li class="navigation__list_item"><a class="navigation__link photos" href="/photos">Photos</a></li>
+      <li class="navigation__list_item"><a class="navigation__link contact" href="contact">Contact</a></li>
+      <li class="navigation__list_item"><a class="navigation__link profile" href="/profile">Profile</a></li>
+    </ul>
+  </nav>
   <main>
     <header class="world_news">
       <p>
-        <img class="place" src="../docs/pattern.jpeg">
+        <img class="place" src="../docs/pattern.jpeg" alt="">
       </p>
       <div class="world_news__div">
         <h2 class="world_news__heading">World news</h2>
@@ -48,7 +44,7 @@
           majority of your life in.
         </p>
       </div>
-      <p class="learn_more"><a class="learn_more__link" href="/learn more">Learn more</a></p>
+      <p class="learn_more"><a class="learn_more__link" href="/learn-more">Learn more</a></p>
     </header>
     <section class="more_news">
       <header>
@@ -61,7 +57,7 @@
           <p class="more_news__list_items--description">
             Lorem ipsum dolor sit amet, ipsum labitur lucilius mel id, ad has appareat…
           </p>
-          <p class="more_news__list_items--time">2m ago</p>
+          <p class="time">2m ago</p>
         </li>
         <li class="more_news__list_items">
           <h4 class="more_news__list_items--heading">Technology</h4>
@@ -69,7 +65,7 @@
           <p class="more_news__list_items--description">
             Lorem ipsum dolor sit amet, ipsum labitur lucilius mel id, ad has appareat…
           </p>
-          <p class="more_news__list_items--time">1h ago</p>
+          <p class="time">1h ago</p>
         </li>
       </ul>
     </section>
@@ -84,14 +80,14 @@
             <h4 class="trending__list-items--heading">Dolore magna aliqua</h4>
             <p class="trending__list-items--description">Lorem ipsum dolor sit amet, ipsum labitur lucilius mel id, ad
               has appareat.</p>
-            <p class="trending__list-items--time">2mn ago</p>
+            <p class="time">2mn ago</p>
           </li>
           <li class="trending__list-items">
             <img class="pattern" src="../docs/pattern-3.jpeg" alt="">
             <h4 class="trending__list-items--heading">Morbi eleifend a libero</h4>
             <p class="trending__list-items--description">Lorem ipsum dolor sit amet, ipsum labitur lucilius mel id, ad
               has appareat.</p>
-            <p class="trending__list-items--time">1h ago</p>
+            <p class="time">1h ago</p>
           </li>
         </ul>
       </section>
@@ -108,7 +104,7 @@
               Affert
               detraxit
             </p>
-            <p class="happening_now__list_items--time">2m ago</p>
+            <p class="time">2m ago</p>
           </li>
           <li class="happening_now__list_items--second">
             <h4 class="happening_now__list_items--heading">Travel</h4>
@@ -118,7 +114,7 @@
               Affert
               detraxit
             </p>
-            <p class="happening_now__list_items--time">2d ago</p>
+            <p class="time">2d ago</p>
           </li>
         </ul>
       </section>
@@ -128,17 +124,17 @@
             <li class="small-title__list_item--first">
               <img class="pattern-2" src="../docs/pattern-7.jpeg" alt="">
               <h5 class="small-title__heading">Small title</h5>
-              <p class="small-title__time">3h ago by <a class="small-title__link" href="/worldnews"> Worldnews</a></p>
+              <p class="time">3h ago by <a class="small-title__link" href="/worldnews"> Worldnews</a></p>
             </li>
             <li class="small-title__list_item--second">
               <img class="pattern-2" src="../docs/pattern-8.jpeg" alt="">
               <h5 class="small-title__heading">Small title</h5>
-              <p class="small-title__time">4h ago by <a class="small-title__link" href="/days"> Days</a></p>
+              <p class="time">4h ago by <a class="small-title__link" href="/days"> Days</a></p>
             </li>
             <li class="small-title__list_item--third">
               <img class="pattern-2" src="../docs/pattern-9.jpeg" alt="">
               <h5 class="small-title__heading">Small title</h5>
-              <p class="small-title__time">3h ago by <a class="small-title__link" href="/monica"> Monica</a></p>
+              <p class="time">3h ago by <a class="small-title__link" href="/monica"> Monica</a></p>
             </li>
           </ul>
         </div>
@@ -167,13 +163,50 @@
     </div>
     <div class="social">
       <ul class="social__container">
-        <li class="social__list_items"> <a class="social__link instagram" href="/instagram"> Instagram</a></li>
-        <li class="social__list_items"> <a class="social__link twitter" href="/twitter"> Twitter</a></li>
-        <li class="social__list_items"> <a class="social__link facebook" href="/facebook"> Facebook</a></li>
-        <li class="social__list_items"> <a class="social__link web" href="/web"> Web</a></li>
+        <li class="social__list_items"> <a class="social__link instagram" href="/instagram"><span
+              class="social__link--span"> Instagram</span></a></li>
+        <li class="social__list_items"> <a class="social__link twitter" href="/twitter"><span
+              class="social__link--span"> Twitter</span></a></li>
+        <li class="social__list_items"> <a class="social__link facebook" href="/facebook"><span
+              class="social__link--span"> Facebook</span></a></li>
+        <li class="social__list_items"> <a class="social__link web" href="/web"><span class="social__link--span">
+              Web</span></a></li>
       </ul>
     </div>
   </footer>
+  <!--
+  <footer>
+    <h2></h2>
+    <nav>
+      <ul>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+      </ul>
+    </nav>
+    <h3>Subscribe</h3>
+    <form action="/subscript" method="POST"></form>
+    <div class="form_row">
+      <label for="">Email</label>
+      <div class="form_field">
+        <input type="email" name="email" id="subscribe_email" required>
+      </div>
+
+    </div>
+    <div class="form_row form_actions">
+      <button type="submit">Subscribe</button>
+    </div>
+  </footer>
+  -->
 
 </body>
 

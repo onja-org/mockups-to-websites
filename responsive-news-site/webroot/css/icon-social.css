@@ -2,20 +2,18 @@
 .social__container {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
   align-items: stretch;
   list-style: none;
-  padding-inline-end: 5rem;
-  margin-inline-start: -2rem;
+  padding-inline-start: 1rem;
 }
 
-.social__list_items {
-  margin-inline-end: 1rem;
+
+.social__link--span {
+  visibility: hidden;
 }
 
 .social__link {
   text-decoration: none;
-  color: lightgrey;
   background-repeat: no-repeat;
   background-size: contain;
   background-position: 50% 50%;
@@ -31,8 +29,10 @@
 
 .facebook {
   background-image: url(../images/facebook.svg);
+  margin-inline-start: -2rem;
 }
 
 .web {
   background-image: url(../images/web.svg);
+  margin-inline-start: -0.5rem;
 }

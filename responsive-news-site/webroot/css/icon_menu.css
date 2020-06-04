@@ -1,0 +1,25 @@
+.navigation__link {
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: 1rem;
+}
+
+.home {
+  background-image: url(../images/icon_home.svg);
+}
+
+.discovery {
+  background-image: url(../images/icon_discavery.svg);
+}
+
+.contact {
+  background-image: url(../images/icon_contact.svg);
+}
+
+.photos {
+  background-image: url(../images/icon_photos.svg);
+}
+
+.profile {
+  background-image: url(../images/pattern-10.jpeg);
+}
