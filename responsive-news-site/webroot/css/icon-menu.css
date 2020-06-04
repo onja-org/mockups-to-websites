@@ -1,0 +1,40 @@
+ body > nav .icon {
+  background-repeat: no-repeat;
+  background-size: 1rem;
+  background-position: 5% 50%;
+}
+
+.home {
+  background-image: url(../../docs/icon-home.svg);
+}
+
+.contact {
+  background-image: url(../../docs/icon-contact.svg);
+}
+
+.discovery {
+  background-image: url(../../docs/icon-discovery.svg);
+}
+
+.photos {
+  background-image: url(../../docs/icon-photos.svg);
+}
+
+body > nav .profile {
+  display: flex;
+  flex-direction: row;
+  margin-inline-end: 3rem;
+}
+
+/* tablet*/
+
+@media (min-width: 768px) {
+  body > nav .icon {
+    background-image: none;
+    margin: 0;
+  }
+
+  .profile {
+    display: none;
+  }
+}
