@@ -3,10 +3,16 @@
   padding: 0;
 }
 
+.article-environment__list__list-item__nature {
+  margin-inline-start: 1rem;
+  background-color: #fff;
+  border-radius: 10px;
+}
+
 .article-environment__list__list-item {
   color: #a6adb4;
   font-size: 13px;
-  padding-inline-start: 1rem;
+  margin-inline-start: 1rem;
 }
 .article-environment__list__list-item__images {
   padding-inline-start: 0;
