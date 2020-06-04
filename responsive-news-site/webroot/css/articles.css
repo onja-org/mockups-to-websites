@@ -1,0 +1,60 @@
+article {
+  padding: 1.5rem;
+}
+
+article > header {
+
+}
+
+article > header > :first-child {
+  margin-block-start: 0;
+}
+
+
+article > header > :last-child {
+  margin-block-end: 0;
+}
+
+article > p {
+  margin-block-start: 1.25rem;
+  margin-block-end: 1.25rem;
+}
+
+article > p:last-of-type {
+  margin-block-end: 0;
+}
+
+article > footer {
+  display: none;
+}
+
+.card {
+  position: relative;
+  color: #fff;
+  background-color: rgba(0,0,0,.2);
+}
+
+.card figure {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.card figure img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.card a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.card_title {
+  font-size: 1.5rem;
+}
