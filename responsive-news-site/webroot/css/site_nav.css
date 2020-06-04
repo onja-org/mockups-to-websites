@@ -46,6 +46,8 @@ body > nav > h2 > label {
 
 body > nav > ul {
   list-style: none;
+  display: flex;
+  flex-direction: column;
 }
 
 body > nav > ul a {
@@ -90,4 +92,45 @@ body > nav > ul a:hover {
 
 #profile_link span {
   display: block;
+}
+
+/* Tablet */
+@media (min-width: 768px) {
+  body > nav {
+    padding: 0;
+    background-color: transparent;
+    top: 0;
+    left: auto;
+    right: 0;
+    bottom: auto;
+    width: auto;
+    box-shadow: none;
+    transform: none;
+    transition: none
+  }
+
+  /* Switch from column to row flex */
+  body > nav > ul {
+    flex-direction: row;
+  }
+
+  body > nav > ul .icon {
+    padding: 1.25rem;
+    background-image: none;
+    line-height: 1.25rem;
+  }
+
+  #profile_link a {
+    padding: 0.875rem;
+  }
+
+  #profile_link img {
+    width: 2rem;
+    height: 2rem;
+    margin-inline-end: 0;
+  }
+
+  #profile_link span {
+    display: none;
+  }
 }

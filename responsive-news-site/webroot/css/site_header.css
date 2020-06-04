@@ -38,3 +38,18 @@ body > header > p > a {
 body > header > p > a > span {
   display: none;
 }
+
+/* Tablet */
+@media (min-width: 768px) {
+
+  /* Let's hide the menu icon and the profile link from the header */
+  body > header > label,
+  body > header > p {
+    display: none;
+  }
+
+  body > header {
+    padding: 1.25rem;
+  }
+
+}
