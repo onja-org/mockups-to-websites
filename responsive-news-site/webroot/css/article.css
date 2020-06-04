@@ -39,6 +39,7 @@
   padding-inline-start: 2rem;
   position: relative;
   font-style: italic;
+  color: #a6adb4;
 }
 
 .list-item__last-visit::before {
