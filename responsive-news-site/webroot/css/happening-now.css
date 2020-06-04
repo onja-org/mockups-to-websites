@@ -1,9 +1,14 @@
 .happening {
-  background-color: rgb(246, 248, 249);
+  /* background-color: rgb(246, 248, 249); */
   padding-block-start: 1rem;
   padding-block-end: 1rem;
   padding-inline-end: 2rem;
   margin: 0;
+}
+
+.happening__list--paragraph {
+  padding: 2rem;
+  color: #FFFFFF;
 }
 
 .happening__list--heading {
@@ -24,6 +29,7 @@
 
 .happening__list--travel {
   position: relative;
+  margin-bottom: 1rem;
 }
 
 .happening__list--image_now {
@@ -34,8 +40,9 @@
   transform: translate(0, 0);
 }
 
-/* .happening__list--paragraph {
-  position: absolute;
-  z-index: 2;
-  transform: translate(1px, -248px);
-} */
+.list__time--period {
+  font-size: 13px;
+  font-style: italic;
+  color: #FFFFFF;
+  opacity: 0.7;
+}
