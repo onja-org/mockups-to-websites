@@ -45,3 +45,15 @@
   display: none;
 }
 
+
+/*Tablet design*/
+
+@media (min-width: 768px) {
+  .responsive-mobile__heading__link--homepage,
+  .responsive-mobile__profile {
+    display: none;
+  }
+  .responsive-mobile {
+    padding-inline-start: 1.5rem;
+  }
+}
