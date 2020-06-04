@@ -1,0 +1,10 @@
+body > header > label {
+  background-image: url(../images/icon.svg);
+  background-repeat: no-repeat;
+}
+label {
+  position: absolute;
+  top: 10%;
+  left: 5%;
+
+}

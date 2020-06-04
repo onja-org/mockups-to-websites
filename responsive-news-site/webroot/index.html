@@ -9,8 +9,9 @@
 </head>
 
 <body>
-  <input type="checkbox" id="checkbox_menu">
+  <input type="checkbox" id="menu_checkbox">
   <header class="site_header">
+    <label for="menu_checkbox" class="icon icon_menu"></label>
     <h1 class="site_header__logo">
       <a class="site_header__logo__link" href="/">Logo</a>
     </h1>
@@ -21,9 +22,9 @@
           alt="A profile photo you uploaded previously">
       </a>
     </p>
-    <p class="site_header__menu">
+    <!-- <p class="site_header__menu">
       <a class="site_header__menu__link" href="/"> Menu</a>
-    </p>
+    </p> -->
   </header>
   <nav class="navigation">
     <ul class="navigation__container">
@@ -40,7 +41,11 @@
         <a class="navigation__link--contact" href="contact">Contact</a>
       </li>
       <li class="navigation_link__item">
-        <a class="navigation__link--profile" href="/profile">Profile</a>
+        <a class="site_header__profile__link" href="/">
+        <span class="site_header__profile__text">profile</span>
+        <img class="site_header__profile__image" src="./images/profile.jpeg"
+          alt="A profile photo you uploaded previously">
+      </a>
       </li>
     </ul>
   </nav>
@@ -65,15 +70,15 @@
         <h2 class="section_heading"> More news</a></h2>
       </header>
       <ul class="lists__container">
-        <li class="section_lists__item">
+        <li class="section_lists">
           <p class="section_lists__item">Travel</p>
           <p class="section_paragraph__article">Article title</p>
           <p class="section_paragraph__lorem">Lorem ipsum dolor sit amet, ipsum labitur lucilius mel id, ad has
             appareat... </p>
-          <p class="section_paragraph__section_paragraph__time"> 2m ago</p>
+          <p class="section_paragraph__time"> 2m ago</p>
         </li>
-        <li class="section_lists__item">
-          <p class="section_lists__item--h3">Technology</p>
+        <li class="section_lists">
+          <p class="section_lists__item">Technology</p>
           <p class="section_paragraph__article"> Article title</p>
           <p class="section_paragraph__lorem">Lorem ipsum dolor sit amet, ipsum labitur lucilius mel id, ad has
             appareat...</p>
@@ -85,18 +90,18 @@
       <header>
         <h2 class="section_heading">Trending</a></h2>
       </header>
-      <img src="./images/river.jpeg" alt="This is the image of the river">
+      <img class="third_section__img" src="./images/river.jpeg" alt="This is the image of the river">
       <ul class="lists__container">
-        <li class="section_lists__item">
+        <li class="third_lists__item">
           <p class="section_paragraph__article">Dolore magna aliqua</p>
-          <p class="section_paragraph__lorem">Lorem ipsum dolor sit amet, ipsum labitur lucilius mel id, ad has
+          <p class="section_third__paragraph--lorem">Lorem ipsum dolor sit amet, ipsum labitur lucilius mel id, ad has
             appareat...</p>
           <p class="section_paragraph__time">2m</p>
         </li>
-        <li class="section_lists__item">
-          <img src="./images/beach.jpeg" alt="This is the image of beach">
+        <li class="third_lists__item">
+          <img class="third_section__img"class="third_section__img" src="./images/beach.jpeg" alt="This is the image of beach">
           <p class="section_paragraph__article">Morbi eleifend a libero</p>
-          <p class="section_paragraph__lorem">Lorem ipsum dolor sit amet, ipsum labitur lucilius mel id, ad has
+          <p class="section_third__paragraph--lorem">Lorem ipsum dolor sit amet, ipsum labitur lucilius mel id, ad has
             appareat...
           </p>
           <p class="section_paragraph__time"> 1h ago</p>
@@ -109,17 +114,17 @@
         <h2 class="section_heading">Happening now</h2>
       </header>
       <ul class="section_lists__container">
-        <img src="./images/city.jpeg" alt="This is the image of the city">
+        <img class="section_four__image" src="./images/city.jpeg" alt="This is the image of the city">
         <li class="happenig__news--item">
-          <p>City</p>
+          <p class="section_header__important">City</p>
           <p class="section_news__article">Large article title mobile layout</p>
           <p class="happening__news--desription">Lorem ipsum dolor sit amet, in eam odio amet, vix id nullam detracto,
             vidit vituperatoribus duo id. Affert detraxi</p>
           <p class="section_paragraph__time">2m ago</p>
         </li>
         <li class="happenig__news--item">
-          <img src="./images/road.jpeg" alt="This is the road to travel">
-          <p>Travel</p>
+          <img class="section_four__image" src="./images/road.jpeg" alt="This is the road to travel">
+          <p class="section_header__important">Travel</p>
           <p class="section_news__article">Large article title mobile layout</p>
           <p class="happening__news--desription">Lorem ipsum dolor sit amet, in eam odio amet, vix id nullam detracto,
             vidit vituperatoribus duo id. Affert detraxi</p>
@@ -157,7 +162,6 @@
       </ul>
     </nav>
   </footer>
-
 </body>
 
 </html>

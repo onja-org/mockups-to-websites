@@ -3,12 +3,13 @@
 }
 .site_header {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   flex-direction: row;
 }
 .site_header__logo__link {
   text-decoration: none;
-  color: #aaa;
+  color: #fa6980;
+  text-transform: uppercase;
 }
 .site_header__menu__link {
   text-decoration: none;
@@ -44,7 +45,7 @@ body > nav ul a {
 .navigation__link--home {
   color: black;
 }
-/* .user_interface label {
+label {
   display: block;
   cursor: pointer;
   padding-inline-start: var(--nav-gap-padding);
@@ -54,11 +55,51 @@ body > nav ul a {
   color: var(--color-inverse);
   text-transform: uppercase;
 }
-.user_interface nav {
+ nav {
   background-color: #eee;
   transition: transform .2s ease-in;
 }
-.user_interface :checked ~ nav {
+input:checked ~ nav {
   display: none;
-  transform: translateX(-375px);
-} */
+  transform: translateX(0);
+  width: 1rem;
+  height: 10rem;
+
+}
+body > [type="checkbox"]:checked  ~ label {
+  transform: translate(-375px);
+}
+/* Tablet */
+@media (min-width: 768px) {
+  body > header > label,
+  body > header > p {
+    display: none;
+  }
+  body > header {
+    padding: 1.25rem;
+  }
+  .navigation__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  body > nav {
+    padding: 0;
+    background-color: transparent;
+    top: 0;
+    bottom: auto;
+    width: auto;
+    box-shadow: none;
+    transform: none;
+    line-height: 1rem;
+    left: auto;
+    right: 0;
+  }
+  body > nav ul a {
+    padding: ;
+  }
+  input {
+    display: none;
+  }
+}

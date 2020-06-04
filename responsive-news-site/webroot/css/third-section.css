@@ -2,30 +2,35 @@
   --padding-vertical: 2rem;
   --padding-horizontal: 1rem;
 }
-section:nth-of-type(3) img {
+.third_section__img {
   width: 327px;
   height: 154px;
   border-radius: 0.5rem;
 }
-section:nth-of-type(3) .heading__lists {
+section:nth-of-type(3) .third_lists__item {
   position: relative;
   top: -50%;
   padding: 0;
   margin: 0;
   padding-inline-end: 3rem;
 }
+.third_lists__item {
+  list-style: none;
+}
 
-section:nth-of-type(3) .list__subheading--inside {
+.section_paragraph__article {
   padding-block-start: var(--padding-vertical);
   padding-inline-start:  var(--padding-horizontal);
 }
-section:nth-of-type(3) .list__subheading {
+.third_lists__item {
   background-color: #ffff;
   border-radius: 0.5rem;
   margin-block-end: var(--padding-vertical);
 }
-section:nth-of-type(3) .main__secod--paragraph {
+.section_third__paragraph--lorem {
   padding-inline-start: var(--padding-horizontal);
   padding-inline-end: 3rem;
   margin: 0;
+  color: #ccc;
+  padding: 0;
 }

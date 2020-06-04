@@ -2,7 +2,7 @@
   --second-section-padding-block: 0.5rem;
   --second-section-padding-inline: 2rem;
 }
-.list__subheading--h3 {
+.section_lists__item {
   color: #fa6980;
   text-transform: uppercase;
   padding-inline-start: 2rem;
@@ -10,7 +10,10 @@
   padding-block-end: var(--second-section-padding-block);
   margin: 0;
 }
-.list__subheading--inside {
+.section_lists {
+  list-style: none;
+}
+.section_paragraph__article {
   font-weight: 900;
   font-size: 1.25rem;
   margin: 0;
@@ -19,11 +22,11 @@
   padding-block-end: var(--second-section-padding-block);
   padding-inline-end: 1rem;
 }
-.main__secod--paragraph {
+.section_paragraph__lorem {
   color: #ccc;
   padding-inline-start: var(--second-section-padding-inline);
 }
-.time {
+.section_paragraph__time {
   color: #ccc;
   font-style: italic;
   padding-inline-start: var(--second-section-padding-inline);

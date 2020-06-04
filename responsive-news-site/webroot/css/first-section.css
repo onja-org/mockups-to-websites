@@ -7,7 +7,7 @@
 }
 .amaizing_place {
   position: absolute;
-  width: 375px;
+  min-width: 375px;
   z-index: -1;
   height: 388px;
   border-radius: 0.5rem;
