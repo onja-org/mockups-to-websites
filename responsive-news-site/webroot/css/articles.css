@@ -15,10 +15,6 @@
   opacity: 0.3;
 }
 
-.article__list--time {
-  opacity: 0.3;
-}
-
 .article__list--time::before {
   content: "";
 }
