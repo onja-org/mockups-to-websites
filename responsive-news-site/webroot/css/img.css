@@ -10,11 +10,13 @@
 .sections__navigation__list--city {
   position: relative;
   color: white;
-  padding-block-start: 3.5rem;
-  padding-block-end: 3.5rem;
+  padding-block-start: 1rem;
+  padding-block-end: 1rem;
   padding-inline-start: 1.5rem;
   padding-inline-end: 1.5rem;
+  z-index: 1;
 }
+
 
 .city__description--image > img {
   position: absolute;
@@ -29,9 +31,11 @@
 .sections__navigation__list--travel {
   position: relative;
   color: white;
-  padding-block-end: 3.5rem;
+  padding-block-end: 1rem;
   padding-inline-start: 1.5rem;
-  padding-inline-end: 1.5rem;
+  padding-inline-end: 1rem;
+  z-index: 1;
+  margin-inline-end: 2.5rem;
 }
 .travel__description--image > img {
   position: absolute;

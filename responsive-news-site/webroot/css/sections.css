@@ -5,7 +5,9 @@
   background-color: #f6f8f9;
 }
 
-
+.sections:nth-of-type(3) {
+  background-color: #f6f8f9;
+}
 .sections__navigation__list--trending {
   background-color: white;
   margin-inline-end: 1rem;
