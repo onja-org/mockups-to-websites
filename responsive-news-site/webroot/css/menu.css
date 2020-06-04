@@ -1,0 +1,20 @@
+.menu__heading {
+  margin: 0;
+  font-size: 13px;
+}
+
+.menu__heading--link{
+  color: red;
+  text-transform: uppercase;
+}
+
+.menu__list {
+  padding: 0;
+  font-size: 11px;
+  text-transform: uppercase;
+}
+
+.menu__list--item {
+  padding-block-start: 1rem;
+}
+
