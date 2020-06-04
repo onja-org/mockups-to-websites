@@ -1,0 +1,23 @@
+footer {
+  background-color: grey;
+}
+
+.navigation__footer {
+  display: grid;
+  grid-template-columns: repeat(2, 200px);
+  column-gap: 16px;
+  row-gap: 30px;
+  text-decoration: none;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  margin: 0;
+}
+
+.navigation__footer--list > a{
+  text-decoration: none;
+  color: white;
+  font-weight: 700;
+  font-size: 16px;
+  text-transform: uppercase;
+  margin: 0;
+}

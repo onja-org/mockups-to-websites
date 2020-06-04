@@ -5,14 +5,7 @@
   background-color: #f6f8f9;
 }
 
-.sections:nth-of-type(3) {
-  position: relative;
-  padding-block-start: 3.5rem;
-  padding-block-end: 3.5rem;
-  padding-inline-end: 1.5rem;
-  background-color: #f6f8f9;
 
-}
 .sections__navigation__list--trending {
   background-color: white;
   margin-inline-end: 1rem;

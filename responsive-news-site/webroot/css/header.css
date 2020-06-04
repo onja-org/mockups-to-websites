@@ -2,21 +2,58 @@
   background-color: #f6f8f9;
   display: flex;
   flex-direction: row;
-}
-.header__profile {
-  border-radius: 50%;
-  max-width: 7%;
-  margin-block-end: auto;
-  transform: translate(129px, 13px);
-}
-.header__logo {
- transform: translateX(48px);
-}
-.header__logo--link {
-  text-decoration: none;
-  font-family: Helvetica;
-  font-size: 13px;
-  font-weight: 700;
-  color: #a6adb4;
+  align-items: center;
+  justify-content: space-around;
 }
 
+.header {
+  background-image: url(../css/icon-menu.svg);
+  padding: 1rem;
+  background-position-y: 33px;
+  background-position-x: 22px;
+}
+
+.header__headings {
+  color: #fa6980;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 16px;
+}
+.navigation {
+  padding: 1rem;
+  background-color: #f8f8f8;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 290px;
+  box-shadow: 0 0 50px rgba(0, 0, 0, .25);
+  transform: translateX(-110%);
+  transition: 0.3s;
+}
+
+
+.ally {
+  display: none;
+}
+.image {
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+}
+
+label {
+
+}
+
+/* Tablet */
+@media (min-width: 768px) {
+  /* Let's hide the menu icon and the profile link from the header */
+  body > header > label,
+  body > header > p {
+    display: none;
+  }
+
+  body > header {
+    padding: 1.25rem;
+  }
+}

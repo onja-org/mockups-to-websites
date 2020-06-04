@@ -6,12 +6,30 @@ ul {
   list-style: none;
   text-decoration: none;
 }
-.sections__navigation__list--city {
-  position: relative;
-  color: white;
+
+
+@media (min-width:768px) {
+  .navigation {
+  padding: 1rem;
+  background-color: #f8f8f8;
+  top: 0;
+  right: 0;
+  left: auto;
+  bottom: auto;
+  width: auto;
+  box-shadow: none;
+  transform: none;
+  transition: none
+  }
+  body> header > ul {
+    flex-direction: row;
+  }
+  body > header > ul .icon {
+    padding: 1.25rem;
+    background-image: none;
+    line-height: 1.25rem;
+  }
+
 }
 
-.sections__navigation__list--travel {
-  position: relative;
-  color: white;
-}
+

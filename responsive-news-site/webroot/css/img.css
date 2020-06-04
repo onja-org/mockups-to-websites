@@ -6,13 +6,43 @@
 .beach__img {
   width: 100%;
 }
-.bridge--img {
+
+.sections__navigation__list--city {
+  position: relative;
+  color: white;
+  padding-block-start: 3.5rem;
+  padding-block-end: 3.5rem;
+  padding-inline-start: 1.5rem;
+  padding-inline-end: 1.5rem;
+}
+
+.city__description--image > img {
   position: absolute;
   object-fit: cover;
   width: 100%;
-  margin-inline-start: -3.2rem;
-  margin-block-end: 16rem;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: -1;
 }
+
+.sections__navigation__list--travel {
+  position: relative;
+  color: white;
+  padding-block-end: 3.5rem;
+  padding-inline-start: 1.5rem;
+  padding-inline-end: 1.5rem;
+}
+.travel__description--image > img {
+  position: absolute;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
 .elephant--img {
   width: 100%;
   margin-block-start: 9rem;
@@ -23,9 +53,4 @@
 .road--img {
   width: 100%;
 }
-.forest--img {
-  position: absolute;
-  object-fit: cover;
-  width: 100%;
-  margin-inline-start: -3.2rem;
-}
+

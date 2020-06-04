@@ -7,19 +7,27 @@
   <title>World News website</title>
 </head>
 
-<body class="body">
+<body>
+  <input type="checkbox">
   <header class="header">
-    <nav>
-      <ul class = "header__navigation">
-        <li class="header__navigation--link"><a href="/">Home</a></li>
-        <li class = "header__navigation--link"><a href="/discovery">Discovery</a></li>
-        <li class="header__navigation--link"><a href="/photos">Photos</a></li>
-        <li class="header__navigation--link"><a href="/contact">Contact</a></li>
-      </ul>
-    </nav>
-    <p class="header__logo"><a class = "header__logo--link" href="/logo">Logo</a></p>
-    <img class = "header__profile" src="../docs/profile.jpeg">
+    <label for="menu_checkbox" class="icon icon__menu">
+      <span class="ally">Open to menu</span>
+    </label>
+    <h1 class="header__headings">Logo</h1>
+    <p>
+      <a href="/profile">
+        <img class = "image" src="../docs/profile.jpeg">
+      </a>
+    </p>
   </header>
+  <nav class="navigation">
+    <ul class = "header__navigation">
+      <li class="header__navigation--link"><a href="/">Home</a></li>
+      <li class = "header__navigation--link"><a href="/discovery">Discovery</a></li>
+      <li class="header__navigation--link"><a href="/photos">Photos</a></li>
+      <li class="header__navigation--link"><a href="/contact">Contact</a></li>
+    </ul>
+  </nav>
   <article class="special__article">
     <h1 class="special__article__world__news"><a href="amazing-places-in-america-to-visit-world-news">World news</a></h1>
     <h2 class="special__article__headings">
@@ -44,7 +52,7 @@
       <ul>
         <li class="sections__navigation__list">
           <h3 class="sections__headings3 sections__headings3--red">
-            Travel
+            More news
           </h3>
           <h4 class="sections__headings4">
             Article title
@@ -114,17 +122,15 @@
     </h2>
     <nav class="sections__navigation">
       <ul>
-        <li class="sections__navigation__list">
-          <img class = "bridge--img" src="../docs/bridge.jpeg" alt="">
-        </li>
-        <li class="sesections__navigation__list sections__navigation__list--city">
-          <h2 class="sections__heading2">
+        <li class="sections__navigation__list--city">
+          <p class = "city__description--image"><img class = "bridge--img" src="../docs/bridge.jpeg"></p>
+          <h2 class="city__heading2">
             City
           </h2>
-          <h3 class="sections__headings3">
+          <h3 class="city__headings3">
             Large article title mobile layout
           </h3>
-          <p class="sections__description">
+          <p class="city__description">
             Lorem ipsum dolor sit amet, in eam odio amet, vix id nullam detracto, vidit vituperatoribus duo id. Affert
             detraxit
           </p>
@@ -134,21 +140,19 @@
             </small>
           </p>
         </li>
-        <li class = "sections__navigation__list">
-            <img class= "forest--img" src="../docs/forest.jpeg" alt="">
-        </li>
-        <li class="sections__navigation__list sections__navigation__list--travel">
-          <h2 class="sections__heading2">
+        <li class = "sections__navigation__list--travel">
+          <p class="travel__description--image"><img src="../docs/forest.jpeg" alt=""></p>
+          <h2 class="travel__heading2">
             Travel
           </h2>
-          <h3 class="sections__headings3">
+          <h3 class="travel__headings3">
             Large article title mobile layout
           </h3>
-          <p class="sections__description">
+          <p class= "travel__description">
             Lorem ipsum dolor sit amet, in eam odio amet, vix id nullam detracto, vidit vituperatoribus duo id. Affert
             detraxit
           </p>
-          <p class="sections__description">
+          <p class="travel__description">
             <small>
               2d ago
             </small>
@@ -198,15 +202,15 @@
   </section>
   <footer>
     <nav>
-      <ul>
-        <li><a href="#about">About</a></li>
-        <li><a href="#help">Help</a></li>
-        <li><a href="#terms">Terms</a></li>
-        <li><a href="#guidlines">Guidlines</a></li>
-        <li><a href="#testimonials">Testimonial</a></li>
-        <li><a href="#advertise">Advertise</a></li>
-        <li><a href="#integrations">Integrations</a></li>
-        <li><a href="#careers">careers</a></li>
+      <ul class="navigation__footer">
+        <li class="navigation__footer--list"><a href="#about">About</a></li>
+        <li class="navigation__footer--list"><a href="#help">Help</a></li>
+        <li class="navigation__footer--list"><a href="#terms">Terms</a></li>
+        <li class="navigation__footer--list"><a href="#guidlines">Guidlines</a></li>
+        <li class="navigation__footer--list"><a href="#testimonials">Testimonial</a></li>
+        <li class="navigation__footer--list"><a href="#advertise">Advertise</a></li>
+        <li class="navigation__footer--list"><a href="#integrations">Integrations</a></li>
+        <li class="navigation__footer--list"><a href="#careers">careers</a></li>
       </ul>
     </nav>
   </footer>
