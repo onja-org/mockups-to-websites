@@ -3,3 +3,16 @@
   width: 100%;
   font-family: Helvetica;
 }
+
+
+/* Tablet */
+
+@media (min-width: 768px) {
+  .navigation__link--menu,
+  .navigation__link--profile {
+
+  }
+  body > .navigation__link--logo {
+    padding: 1.25rem;
+  }
+}
