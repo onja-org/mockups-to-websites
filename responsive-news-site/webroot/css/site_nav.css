@@ -5,8 +5,8 @@ body > nav {
   top: 0;
   left: 0;
   bottom: 0;
-  width: 290px;
-  box-shadow: 0 0 50px rgba(0,0,0,.25);
+  width: 250px;
+  box-shadow: 0 0 50px rgba(0,0,0,.5);
   transform: translateX(-110%);
   transition: transform 0.3s;
 }
@@ -23,6 +23,7 @@ body > [type="checkbox"]:checked ~ header label {
   left: 0;
   height: 100%;
   width: 100%;
+  background: rgba(0,0,0,.25);
 }
 
 body > nav > h2 {
@@ -41,4 +42,52 @@ body > nav > h2 > label {
   background-image: url(../images/icons/icon_menu.svg);
   background-size: 1rem;
   background-repeat: no-repeat;
+}
+
+body > nav > ul {
+  list-style: none;
+}
+
+body > nav > ul a {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #343638;
+  opacity: 0.5;
+  font-weight: 700;
+  font-size: 0.75rem;
+  line-height: 1rem;
+  transition: opacity 0.3s;
+  display: block;
+  padding: 1rem 1rem 1rem 4rem;
+  vertical-align: middle;
+}
+
+body > nav .active a {
+  opacity: 1;
+}
+
+body > nav .icon {
+  background-position: 1rem 50%;
+}
+
+body > nav > ul a:hover {
+  opacity: 1;
+}
+
+#profile_link a {
+  padding-left: 1rem;
+  display: flex;
+  flex-direction: row;
+}
+
+#profile_link img {
+  width: 1rem;
+  height: 1rem;
+  margin-inline-end: 2rem;
+  vertical-align: middle;
+  border-radius: 50%;
+}
+
+#profile_link span {
+  display: block;
 }

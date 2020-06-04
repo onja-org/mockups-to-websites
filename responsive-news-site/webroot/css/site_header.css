@@ -10,9 +10,6 @@ body > header > label {
   width: 1rem;
   height: 1rem;
   display: block;
-  background-image: url(../images/icons/icon_menu.svg);
-  background-size: 1rem;
-  background-repeat: no-repeat;
 }
 
 body > header > h1 {
