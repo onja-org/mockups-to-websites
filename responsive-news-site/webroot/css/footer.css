@@ -1,0 +1,25 @@
+footer {
+  background-color: lightgray;
+  background-image:  url(../image/instagram.svg),
+                    url(../image/twitter.svg),
+                    url(../image/facgebook.svg),
+                    url(../image/web.svg);
+  background-position: 36px 320px, 83px 320px , 130px 320px ,177px 320px;;
+}
+
+.footer-navigation-unorder-list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  line-height: 58px;
+  text-transform: uppercase;
+  color: #a6adb4;
+  padding-block-start: 50px;
+  padding-block-end: 100px;
+
+}
+
+.footer-navigation-unorder-list > li a {
+  color: #fff;
+  text-decoration: none;
+
+}
