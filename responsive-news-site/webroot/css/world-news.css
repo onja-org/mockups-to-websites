@@ -1,3 +1,38 @@
-.world_news {
+.feature {
   color: #FFFFFF;
+}
+
+.feature__word_news--image {
+  margin: 0;
+}
+
+.feature__world_news--title {
+  margin: 0;
+  padding-block-start: 2rem;
+  padding-block-end: 2rem;
+  padding-inline-end: 2rem;
+  margin-inline-start: 2rem;
+  margin-inline-end: 2rem;
+  border-block-end: 2px solid;
+  font-size: 24px;
+  text-transform: uppercase;
+}
+
+.feature__subheading {
+  margin: 0;
+  padding: 2rem;
+}
+
+.feature__world_news--explanation {
+  margin: 0;
+  padding-inline-start: 2rem;
+  padding-inline-end: 2rem;
+}
+
+.feature__world_news--learn_more {
+  margin: 0;
+  padding-inline-start: 2rem;
+  padding-inline-end: 2rem;
+  padding-block-start: 2rem;
+  padding-block-end: 2rem;
 }
