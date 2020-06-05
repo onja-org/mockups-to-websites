@@ -4,7 +4,7 @@ font-family: helvetica, helvetica-bold;
 body {
  display: flex;
  flex-direction: column;
- margin-inline-start: 2rem;
+ margin-inline-start: 0.5rem;
 }
 
 li {
