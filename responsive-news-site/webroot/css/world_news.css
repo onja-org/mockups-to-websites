@@ -1,14 +1,12 @@
 .world_news {
-
 }
 
 .description_world_news {
   position: relative;
   color: #ffffff;
   text-align: left;
-  font-size: 11;
   font-weight: 700;
-  padding-inline-start: 3rem;
+  padding-inline-start: 2rem;
   padding-inline-end: 1rem;
   padding-block-start: 1rem;
   padding-block-end: 1rem;

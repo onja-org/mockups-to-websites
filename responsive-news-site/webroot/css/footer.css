@@ -49,3 +49,33 @@ footer > ul > li > a {
   background-image: url(../image/other.svg);
   background-repeat: no-repeat;
 } */
+footer {
+  background-color: silver;
+}
+
+footer .list__items_info {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  list-style: none;
+  opacity: 0.5;
+  line-height: 2rem;
+}
+
+footer .list__items_info > li > a {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 15px;
+}
+/*
+footer .list__items_icons {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  text-decoration: none;
+} */
+
+footer ul .icons {
+  width: 30px;
+  height: 30px;
+}
