@@ -7,22 +7,18 @@
   <link rel="stylesheet" href="css/index.css">
 </head>
 <body>
-  <input type="checkbox">
+  <input  type="checkbox" id="menu_checkbox">
   <header class="header">
-    <ul class="header__container">
-      <li><label class="header__menu"><a href="memu"></a></label></li>
-      <li><h1 class="header__logo"><a href="http://logo">Logo</a></h2></li>
-      <li class="header__profile">
-        <p class="header__profile--paragraph">
-          <a class="header__profile--navigation" href="profile">
-            <img class="header__profile--image" src="../webroot/images/pattern-10.jpeg">
-            <span class="header__profile--description">profile</span>
-          </a>
-        </p>
-      </li>
-    </ul>
+    <label for="menu_checkbox" class="header__menu"></label>
+    <h1 class="header__logo"><a href="http://logo">Logo</a></h2>
+    <p class="header__profile--paragraph">
+      <a class="header__profile--navigation" href="profile">
+        <img class="header__profile--image" src="../webroot/images/pattern-10.jpeg">
+        <span class="header__profile--description">profile</span>
+      </a>
+    </p>
   </header>
-  <nav>
+  <nav class="nav_container">
     <ul class="container">
       <li class="navigation"><a class="navigation__home" href="#">home</a></li>
       <li class="navigation"><a class="navigation__discovery" href="/discovery">discovery</a></li>

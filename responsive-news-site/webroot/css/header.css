@@ -1,4 +1,4 @@
-.header__container {
+.header {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -6,13 +6,13 @@
   margin: 0;
   padding-inline-start: 0;
 }
-.header__container li {
+.header li {
   list-style: none;
 }
-.header__container li a {
+.header li a {
   text-decoration: none;
 }
-.header__menu a {
+.header__menu {
   font-size: 32px;
   color: #000;
   background-image: url(../images/icon_menu.svg);
@@ -32,6 +32,7 @@
   font-weight: 700;
   text-transform: uppercase;
   font-size: 13px;
+  text-decoration: none;
 }
 .header__profile--image {
   display: inline-block;
