@@ -9,6 +9,43 @@
 </head>
 
 <body>
+  <input class="menu__input" type="checkbox" id="checkbox_menu">
+  <header class="header">
+    <label for="checkbox_menu" class="menu__label">
+      <span>Menu</span>
+    </label>
+    <h1 class="header__logo">Logo</h1>
+    <p class="header__profile">
+      <a class="profile__link" href="/profile"><img class="profile__image" width="16px" height="16px" src="image/pattern-10.jpeg" alt>
+        <span class="profile__span">Profile</span></a>
+    </p>
+  </header>
+  <nav class="navigation">
+    <h1 class="navigation__header">Logo</h1>
+    <ul class="navigation__container">
+      <li class="navigation__list_item"><a class="navigation__link home" href="/">Home</a></li>
+      <li class="navigation__list_item"><a class="navigation__link discovery" href="/discovery">Discovery</a></li>
+      <li class="navigation__list_item"><a class="navigation__link photos" href="/photos">Photos</a></li>
+      <li class="navigation__list_item"><a class="navigation__link contact" href="contact">Contact</a></li>
+      <li class="navigation__list_item"><a class="navigation__link profile" href="/profile">Profile</a></li>
+    </ul>
+  </nav>
+  <!-- <header class="news">
+    <nav class="responsive">
+      <ul class="responsive__list">
+        <li class="responsive__list_item responsive__list_item--home">
+          <label for="menu_checkbox" id="icon icnons_menu">
+            <span id="span_checkbox"><img width="13px" height="13px" src="svg/menu.svg" alt></span>
+          </label>
+        </li>
+        <li class="responsive__list_item responsive__list_item--logo"><a
+            class="responsive__list_item--link responsive__list_item--link_logo" href="/logo">Logo</a></li>
+        <li class="responsive__list_item responsive__list_item--profile"><a class="responsive__list_item--link"
+            href="/profile"><img class=" responsive__list_item--link_image"" width=" 16px" height="16px"
+              src="../webroot/image/pattern-10.jpeg" alt=""></a></li>
+      </ul>
+    </nav>
+  </header>
   <input type="checkbox" id="menu_checkbox">
   <header>
   <h1><a href="/logo">Logo</a></h1>
@@ -22,29 +59,18 @@
           href="/photos">Photos</a></li>
       <li class="menu__list--item"><a class="menu__list--item_link menu__list--item_link-contact"
           href="contact">Contact</a></li>
-      <li class="menu__list--item"><a class="menu__list--item_link menu__list--item_link-profile"
-          href="/profile">Profile</a></li>
+      <li class="menu__list--item">
+        <a class="menu__list--item_link menu__list--item_link-profile"
+          href="/profile">
+          <img class="menu__list--item_image" width="16px" height="16px" src="image/pattern.jpeg">
+          <span class="menu__list--item_span">My profile</span>
+        </a>
+      </li>
     </ul>
-  </nav>
+  </nav> -->
   </header>
 
   <main>
-    <header class="news">
-      <nav class="responsive">
-        <ul class="responsive__list">
-          <li class="responsive__list_item responsive__list_item--home">
-            <label for="menu_checkbox" id="icon icnons_menu">
-              <span id="span_checkbox"><img width="13px" height="13px" src="svg/menu.svg" alt></span>
-            </label>
-          </li>
-          <li class="responsive__list_item responsive__list_item--logo"><a
-              class="responsive__list_item--link responsive__list_item--link_logo" href="/logo">Logo</a></li>
-          <li class="responsive__list_item responsive__list_item--profile"><a class="responsive__list_item--link"
-              href="/profile"><img class=" responsive__list_item--link_image"" width=" 16px" height="16px"
-                src="../webroot/image/pattern-10.jpeg" alt=""></a></li>
-        </ul>
-      </nav>
-    </header>
       <div class="world_news">
         <p class="word_news--image"><img class="image" src="image/pattern.jpeg" alt="Background image"></p>
         <h2 class="world_news--title"><a class="word_news--title_link" href="/world-news">World news</a></h2>
