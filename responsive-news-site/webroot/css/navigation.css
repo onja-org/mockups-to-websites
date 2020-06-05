@@ -1,11 +1,25 @@
 nav {
+  display: flex;
+  flex-direction: column;
+  white-space: break-spaces;
   background-color: rgb(246, 248, 249);
   width: 287px;
   height: 812px;
   position: absolute;
   top: 0;
+  left: 0;
   z-index: 2;
   box-shadow: 20px 20px 30px grey;
+  transform: translateX(-150%);
+}
+
+nav > h1 > a {
+  padding-inline-start: 2.5rem;
+  color:rgb(250, 105, 128);
+  opacity: 1;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding-inline-start: 2.5rem;
 }
 
 nav li {
@@ -21,8 +35,13 @@ nav a {
 
 body > [type="checkbox"]:checked ~ nav {
   display: block;
+  transform: translateX(0%);
+  transition: transform .3s ease-in;
 }
 
+input {
+  position: absolute;
+}
 
 @media(min-width: 768px) {
   body > nav {
