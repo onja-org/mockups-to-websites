@@ -47,3 +47,57 @@ body {
 .link__profile {
   visibility: hidden;;
 }
+/* body > nav {
+  padding: 1rem;
+  background-color: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 250px;
+
+  transition: transform 0.3s;
+} */
+
+body > header {
+  padding: 1.25rem;
+}
+
+body > nav > ul {
+  flex-direction: row;
+  list-style: none;
+}
+body > nav > ul a {
+  padding: 1.25rem;
+  background-image: none;
+  line-height: 2rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: brown;
+}
+
+body [type="checkbox"] ~ nav {
+  transform: translateX(-110px);
+  transition: 0.3s;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 250px;
+  position: absolute;
+  box-shadow: 0 0 50px rgba(0 , 0, 0, .25);
+
+}
+
+body [type="checkbox"]:checked ~ nav {
+  transform: translateX(-0px);
+  transition: 0.3s;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 250px;
+  position: absolute;
+  box-shadow: 0 0 50px rgba(0 , 0, 0, .25);
+
+}
