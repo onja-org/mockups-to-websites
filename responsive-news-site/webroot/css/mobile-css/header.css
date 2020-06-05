@@ -6,6 +6,7 @@
   opacity: 0.5;
   line-height: 4;
 }
+
 .navigation {
   position: absolute;
   top: 65px;
@@ -29,6 +30,7 @@ body > header > label {
   background-image: url(../rect.svg);
   background-repeat: no-repeat;
 }
+
 body [type= "checkbox"]:checked ~ .navigation {
   transition: transform .2s ease-in;
   transform: translate(0);
@@ -116,3 +118,4 @@ body [type= "checkbox"]:checked ~ .navigation {
      padding: 0;
    }
  }
+
