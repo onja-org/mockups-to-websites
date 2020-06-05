@@ -55,5 +55,7 @@
   }
   .responsive-mobile {
     padding-inline-start: 1.5rem;
+    padding-block-start: 0;
+    padding-block-end: 2rem;
   }
 }
