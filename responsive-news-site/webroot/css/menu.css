@@ -3,9 +3,8 @@
   text-transform: uppercase;
   font-weight: 700;
   font-size: 16px;
-  padding-block-end: 4rem;
-  margin-block-start: -5rem;
-  margin-inline-start: -4rem;
+  margin-block-end: 4rem;
+
 }
 
 .menu__input {
@@ -43,15 +42,12 @@
   left: 0;
   transform: translateX(-110%);
   transition: transform .2s;
-  display: none;
   box-shadow: 0px 0px 50px rgba(0,0,0,.25);
   z-index: 1;
-  padding-inline-start: 10rem;
-  margin-inline-start: -3rem;
-  padding-block-start: 7rem;
-  padding-block-end: 1rem;
   background-color: #f6f8f9;
-  width: 200px;
+  padding-inline-start: 2rem;
+  width: 290px;
+  padding-block-start: 1rem;
  }
 
  .navigation__container {
@@ -64,10 +60,6 @@
    align-items: flex-start;
  }
 
- .navigation__list_item + .navigation__list_item {
-   margin-block-start: 1rem;
- }
-
  .navigation__link {
   display: block;
   color: #343638;
@@ -76,6 +68,7 @@
   font-weight: 700;
   text-transform: uppercase;
   opacity: 0.5;
+  margin-block-end: 2rem;
  }
 
  /*Create default state: closed / unchecked */
@@ -87,7 +80,6 @@
 
 [type="checkbox"]:checked ~ .navigation {
   transform: translateX(0);
- display: block;
 }
 
 body > [type="checkbox"]:checked ~ header label {
@@ -109,24 +101,33 @@ body > [type="checkbox"]:checked ~ header label {
 
 @media (min-width: 768px) {
   body > .navigation {
-  position: absolute;
-  top: 0;
-  bottom: auto;
-  left: 0;
-  right: 0;
-  padding: 0;
-  transform: none;
-  transition: none;
-  display: none;
-  box-shadow: none;
-  background-color: transparent;
-  width: auto;
+    position: absolute;
+    top: 0;
+    bottom: auto;
+    left: auto;
+    right: 0;
+    padding: 0;
+    transform: none;
+    transition: none;
+    box-shadow: none;
+    background-color: transparent;
+    width: auto;
   }
   body > .navigation > .navigation__container {
    flex-direction: row;
   }
+
+  body > nav > h1 {
+    display: none;
+  }
   body > nav > ul .navigation__link {
     padding: 1.25rem;
     background-color: none;
+    background-image: none;
+    padding-block-end: 0;
+  }
+
+  body > nav > ul li {
+    margin-block-start: 1rem;
   }
 }
