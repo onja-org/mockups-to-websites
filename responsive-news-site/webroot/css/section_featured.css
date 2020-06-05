@@ -3,13 +3,7 @@
   padding-block-end: 2.5rem;
 }
 
-#section_featured_article > article > header {
-  display: flex;
-  flex-direction: column;
-}
-
 #section_featured_article .category {
-  order: 1;
   margin-block-start: 0;
   padding-block-end: 2.5rem;
   margin-block-end: 2.5rem;
@@ -17,6 +11,6 @@
   line-height: 1;
 }
 
-#section_featured_article .card_title {
-  order: 2;
+#section_featured_article footer {
+  display: none;
 }

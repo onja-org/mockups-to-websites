@@ -1,0 +1,9 @@
+.section_container {
+  padding: 2.5rem 1.5rem;
+}
+
+.section_container article:not(.card) {
+  padding: 0;
+  margin-block-start: 2.5rem;
+  margin-block-end: 2.5rem;
+}

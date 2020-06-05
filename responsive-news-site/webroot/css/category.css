@@ -1,0 +1,10 @@
+.category {
+  text-transform: uppercase;
+  font-weight: 700;
+  order: 1;
+}
+
+.category a {
+  text-decoration: none;
+  color: inherit;
+}

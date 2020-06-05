@@ -1,0 +1,19 @@
+.publication_details {
+  font-size: 0.875rem;
+  font-style: italic;
+}
+
+.publication_details time {
+  display: inline-block;
+  padding-left: 1.5em;
+  background-blend-mode: lighten;
+  background-image: url(../images/icons/icon_clock_grey.svg);
+  background-position: 0 50%;
+  background-repeat: no-repeat;
+  background-size: 1em;
+}
+
+.publication_details a {
+  color: inherit;
+  text-decoration: none;
+}

@@ -1,0 +1,31 @@
+#section_more_news {
+  background-color: #fff;
+}
+
+#section_more_news > header > :first-child {
+  margin-block-start: 0;
+}
+
+#section_more_news .heading_section {
+  padding-block-end: 2.5rem;
+  border-bottom: 2px solid #EBEDED;
+  margin-block-end: 2.5rem;
+}
+
+#section_more_news .article_title {
+  margin-block-start: 0;
+  margin-block-end: -0.625rem;
+}
+
+#section_more_news article p {
+  color: #A6ADB4;
+}
+
+#section_more_news .category {
+  margin-block-start: 0;
+  margin-block-end: 1.25rem;
+}
+
+#section_more_news .category a {
+  color: #FA6980;
+}
