@@ -13,6 +13,8 @@
 @import "publication_details.css";
 @import "icons.css";
 @import "headings.css";
+@import "forms.css";
+
 @import "buttons.css";
 
 /* Site sections */
@@ -24,3 +26,4 @@
 @import "section_trending.css";
 @import "section_happening_now.css";
 @import "footer.css";
+@import "form_subscribe.css";

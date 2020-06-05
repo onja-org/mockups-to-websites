@@ -29,7 +29,7 @@ body > header > :last-child,
 body > nav > :last-child,
 main > :last-child,
 body > footer > :last-child {
-  margin-block-start: 0;
+  margin-block-end: 0;
 }
 
 figure {

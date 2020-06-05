@@ -1,6 +1,6 @@
 body > footer {
   padding: 1rem;
-  background-color: rgba(0,0,0,.23);
+  background-color: #A6ADB4;
   color: #fff;
   font-size: 0.75rem;
 }
@@ -13,6 +13,30 @@ body > footer ul {
 
 body > footer a {
   color: inherit;
-  text-transform: uppercase;
   text-decoration: none;
+  font-weight: 700;
+}
+
+.links_site {
+  columns: 2;
+  margin: 3.75rem 0;
+}
+
+.links_site li {
+  margin: 1rem 0;
+}
+
+.link_primary + .link_secondary {
+  margin-block-start: 0;
+}
+
+.link_primary {
+  display: none;
+}
+
+.links_social {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  max-width: 8.5rem;
 }

@@ -1,0 +1,8 @@
+form input {
+  font-family: inherit;
+  font-size: 1rem;
+  color: inherit;
+  background-color: transparent;
+  line-height: 1rem;
+  -webkit-appearance: none;
+}
