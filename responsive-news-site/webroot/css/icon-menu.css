@@ -1,7 +1,7 @@
  body > nav .icon {
   background-repeat: no-repeat;
   background-size: 1rem;
-  background-position: 5% 50%;
+  background-position: 1rem 1.5rem;
 }
 
 .home {
@@ -16,14 +16,20 @@
   background-image: url(../../docs/icon-discovery.svg);
 }
 
-.photos {
+.photos-menu {
   background-image: url(../../docs/icon-photos.svg);
 }
 
+body > nav [href="/profile"] {
+  padding-inline-start: 1rem;
+}
+
+body > nav span {
+  visibility: visible;
+}
+
 body > nav .profile {
-  display: flex;
-  flex-direction: row;
-  margin-inline-end: 3rem;
+  margin-inline-end: 1rem;
 }
 
 /* tablet*/
@@ -34,7 +40,16 @@ body > nav .profile {
     margin: 0;
   }
 
-  .profile {
+  body > nav ul {
+    margin-block-end: 0;
+  }
+
+  body > nav span {
     display: none;
   }
+
+  body > nav a {
+    padding-inline-start: 0;
+  }
+
 }

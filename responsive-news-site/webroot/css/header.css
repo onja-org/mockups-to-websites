@@ -78,7 +78,7 @@ body > [type="checkbox"]:checked ~ header label {
 
   .profile {
    width: 16px;
-   height: 24px;
+   height: 16px;
    border-radius: 50%;
  }
 
