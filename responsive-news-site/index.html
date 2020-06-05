@@ -8,25 +8,26 @@
 </head>
 <body class="responsive">
   <input type="checkbox">
-  <header>
-    <h1>
+  <header class="header">
+    <label class="label_menu" for="checkbox_menu">
+      <span class="menu">Menu</span>
+    </label>
+    <h1 class="header__heading">
       Logo
     </h1>
+    <p class="profile_container">
+      <a class="profile" href="/profile"><img class="profile_picture" width="16px" height="16px" src="../responsive-news-site/webroot/images/profile.jpeg" alt="profile picture">
+        <span class="profile_text">Profile</span>
+      </a>
+    </p>
   </header>
-  <nav>
-    <ul>
+  <nav class="header__navigation">
+    <ul class="header__navigation--link">
       <li><a class="header__link header__link--home" href="/">Home</a></li>
       <li><a class="header__link" href="/discovery">Discovery</a></li>
       <li><a class="header__link" href="/photos">Photos</a></li>
       <li><a class="header__link" href="/contact">Contact</a></li>
       <li><a class="header__link" href="/profile"><img width="16" height="16" src="../responsive-news-site/webroot/images/profile.jpeg" alt="Profile picture for the owner">Profile</a></li>
-    </ul>
-  </nav>
-  <nav class="navigation">
-    <ul class="navigation__container">
-      <li class="navigation__list_item navigation__list_item--menu"><a class="navigation__link navigation__link--menu" href="/menu">Menu</a></li>
-      <li class="navigation__list_item"><a class="navigation__link navigation__link--logo" href="/logo">Logo</a></li>
-      <li class="navigation__list_item"><a class="navigation__link" href="/profile"><img class="navigation__link--profile" width="16" height="16" src="../responsive-news-site/webroot/images/profile.jpeg" alt="Profile image"></a></li>
     </ul>
   </nav>
   <main>
@@ -225,12 +226,12 @@
         </li>
       </ul>
     </nav>
-    <nav>
-      <ul>
-        <li><a href="/instagram">Instagram</a></li>
-        <li><a href="/twitter">Twitter</a></li>
-        <li><a href="/facebook">Facebook</a></li>
-        <li><a href=""></a></li>
+    <nav class="social_media">
+      <ul class="social_media__navigation_container">
+        <li class="social_media__list_item"><a class="social_media__instagram" href="/instagram">Instagram</a></li>
+        <li class="social_media__list_item"><a class="social_media__twitter" href="/twitter">Twitter</a></li>
+        <li class="social_media__list_item"><a class="social_media__facebook" href="/facebook">Facebook</a></li>
+        <li class="social_media__list_item"><a href=""></a></li>
       </ul>
     </nav>
   </footer>

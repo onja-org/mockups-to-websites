@@ -1,3 +1,51 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-grow: 1;
+  background-color: rgba(246, 248, 249, 0.3);
+  padding: 16px;
+  margin: 0;
+
+}
+
+.header__heading {
+  font-size: 13px;
+  font-weight: bold;
+  color: red;
+  text-transform: uppercase;
+  padding-block-start: 18px;
+  margin: 0;
+}
+
+.profile_container {
+
+}
+
+.label_menu {
+  padding-block-start: 16px;
+}
+
+.menu::before {
+  content: "Ξ";
+}
+
+.profile {
+  text-decoration: none;
+}
+
+.profile_picture {
+  border-radius: 50%;
+  margin-inline-end: -48px;
+}
+
+.profile_text {
+  /* color: transparent; */
+  visibility: hidden;
+
+}
+
+
 body > header ~ nav > ul {
   list-style: none;
 }
