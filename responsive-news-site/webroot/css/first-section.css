@@ -7,9 +7,7 @@
 }
 .amaizing_place {
   position: absolute;
-  min-width: 375px;
   z-index: -1;
-  height: 388px;
   border-radius: 0.5rem;
 }
 .section__first {
@@ -62,4 +60,13 @@
   margin-block-end: 2rem;
   margin-inline-start: 2rem;
   margin-inline-end: 2rem;
+}
+@media (min-width: 768px) {
+  .amaizing_place {
+    position: absolute;
+    min-width: 768px;
+    z-index: -1;
+    height: 388px;
+    border-radius: 0.5rem;
+  }
 }

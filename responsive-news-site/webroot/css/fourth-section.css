@@ -34,8 +34,6 @@
 }
 .section_four__image {
   position: absolute;
-  max-width: 327px;
-  height: 300px;
   z-index: -2;
   border-radius: 0.5rem;
 }

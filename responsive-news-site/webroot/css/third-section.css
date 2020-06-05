@@ -1,10 +1,8 @@
-:root {
+/* :root {
   --padding-vertical: 2rem;
   --padding-horizontal: 1rem;
 }
 .third_section__img {
-  width: 327px;
-  height: 154px;
   border-radius: 0.5rem;
 }
 section:nth-of-type(3) .third_lists__item {
@@ -33,4 +31,4 @@ section:nth-of-type(3) .third_lists__item {
   margin: 0;
   color: #ccc;
   padding: 0;
-}
+} */
