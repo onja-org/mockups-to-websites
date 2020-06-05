@@ -51,9 +51,6 @@
   color: #ffffff;
 }
 
-
-
-
 .happening_now__travel_image {
   position: absolute;
   width: 100%;
@@ -70,4 +67,37 @@
 .happening_now__content--2 {
   margin: 0;
   padding: 1.5rem;
+}
+
+
+.happening_now__images--navigation_container {
+  padding-inline-start: 0;
+}
+
+.happening_now__images--elephant,
+.happening_now__images--bird,
+.happening_now__images--road {
+  width: 100%;
+  height: 100%;
+  margin-block-start: 3rem;
+  border-radius: 8px;
+}
+
+.happening_now__images--list_item {
+  list-style: none;
+}
+
+.happening_now__images--small_title {
+  font-size: 16px;
+  font-weight: bold;
+  font-family: serif;
+}
+
+.happening_now__images--updated_time {
+  font-size: 13px;
+  color: lightgray;
+}
+
+.happening_now__images--link {
+  color: lightgray;
 }
