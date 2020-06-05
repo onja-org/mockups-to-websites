@@ -89,10 +89,6 @@ body > nav {
     color: #343638;
   }
 
-  body > nav a:nth-last-child(1) {
-    /* visibility: hidden; */
-  }
-
   body > nav ul {
     display: flex;
     flex-direction: row;
