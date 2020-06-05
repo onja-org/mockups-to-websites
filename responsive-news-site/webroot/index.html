@@ -12,7 +12,7 @@
   <input class="menu__input" type="checkbox" id="checkbox_menu">
   <header class="header">
     <label for="checkbox_menu" class="menu__label">
-      <span>Menu</span>
+      <span class="span_menu">Menu</span>
     </label>
     <h1 class="header__logo">Logo</h1>
     <p class="header__profile">
@@ -30,59 +30,21 @@
       <li class="navigation__list_item"><a class="navigation__link profile" href="/profile">Profile</a></li>
     </ul>
   </nav>
-  <!-- <header class="news">
-    <nav class="responsive">
-      <ul class="responsive__list">
-        <li class="responsive__list_item responsive__list_item--home">
-          <label for="menu_checkbox" id="icon icnons_menu">
-            <span id="span_checkbox"><img width="13px" height="13px" src="svg/menu.svg" alt></span>
-          </label>
-        </li>
-        <li class="responsive__list_item responsive__list_item--logo"><a
-            class="responsive__list_item--link responsive__list_item--link_logo" href="/logo">Logo</a></li>
-        <li class="responsive__list_item responsive__list_item--profile"><a class="responsive__list_item--link"
-            href="/profile"><img class=" responsive__list_item--link_image"" width=" 16px" height="16px"
-              src="../webroot/image/pattern-10.jpeg" alt=""></a></li>
-      </ul>
-    </nav>
-  </header>
-  <input type="checkbox" id="menu_checkbox">
-  <header>
-  <h1><a href="/logo">Logo</a></h1>
-  <nav class="menu">
-    <ul class="menu__list">
-      <li class="menu__list--item"><a class="menu__list--item_link menu__list--item_link-home" href="/homepage">Home</a>
-      </li>
-      <li class="menu__list--item"><a class="menu__list--item_link menu__list--item_link-discovery"
-          href="/discovery">Discovery</a></li>
-      <li class="menu__list--item"><a class="menu__list--item_link menu__list--item_link-photos"
-          href="/photos">Photos</a></li>
-      <li class="menu__list--item"><a class="menu__list--item_link menu__list--item_link-contact"
-          href="contact">Contact</a></li>
-      <li class="menu__list--item">
-        <a class="menu__list--item_link menu__list--item_link-profile"
-          href="/profile">
-          <img class="menu__list--item_image" width="16px" height="16px" src="image/pattern.jpeg">
-          <span class="menu__list--item_span">My profile</span>
-        </a>
-      </li>
-    </ul>
-  </nav> -->
-  </header>
 
   <main>
-      <div class="world_news">
-        <p class="word_news--image"><img class="image" src="image/pattern.jpeg" alt="Background image"></p>
-        <h2 class="world_news--title"><a class="word_news--title_link" href="/world-news">World news</a></h2>
-        <h3 class="subheading">Amazing places in America to visit.</h3>
-        <p class="world_news--explanation">For some reason - this country, this city, this neighborhood, this particular
+    <article class="feature">
+      <div class="feature__world_news">
+        <p class="feature__word_news--image"><img class="image" src="image/pattern.jpeg" alt="Background image"></p>
+        <h2 class="feature__world_news--title"><a class="word_news--title_link" href="/world-news">World news</a></h2>
+        <h3 class="feature__subheading">Amazing places in America to visit.</h3>
+        <p class="feature__world_news--explanation">For some reason - this country, this city, this neighborhood, this particular
           street - is the place you are living a majority of your life in.</p>
-        <p class="world_news--learn_more"><a class="world_news--learn_more-link" href="/learn-more">Learn more</a></p>
+        <p class="feature__world_news--learn_more"><a class="world_news--learn_more-link" href="/learn-more">Learn more</a></p>
       </div>
-      <h2 class="more_news"><a class="more_news__link" href="/more-news">More news</a></h2>
-    </header>
+      <h2 class="feature__more_news"><a class="more_news__link" href="/more-news">More news</a></h2>
+    </article>
 
-    <article>
+    <article class="article__no_image">
       <nav class="article">
         <ul class="article__list">
           <li class="article__list">
@@ -106,7 +68,7 @@
       </nav>
     </article>
 
-    <article>
+    <article class="inform__trending">
       <nav class="inform">
         <ul class="information">
           <li class="information__list information__list--trending">
@@ -132,7 +94,9 @@
           </li>
         </ul>
       </nav>
+    </article>
 
+    <article class="happening_now">
       <nav>
         <ul class="happening">
           <li class="happening__list happening__list--heading">Happening now</li>
@@ -164,26 +128,32 @@
               <span class="list__time--period">2d ago</span>
             </div>
           </li>
+        </ul>
+      </nav>
+    </article>
 
-          <li class="happening__list happening__list--small">
-            <p class="happening__list--image1"><img class="happening__list--image_small" src="image/pattern-7.jpeg" alt>
+    <article class="last_article">
+      <nav class="small">
+        <ul class="small__list">
+          <li class="small__list--image">
+            <p class="small__list--image1"><img class="small__list--image_small" src="image/pattern-7.jpeg" alt>
             </p>
-            <h4 class="small__heading happening__list--small_title">Small title</h4>
-            <span class="list__time happening__list__time">3h ago by <a href="/worldnews">Worldnews</a></span>
+            <h4 class="small__heading small__list--small_title">Small title</h4>
+            <span class="list__time small__list__time">3h ago by <a href="/worldnews">Worldnews</a></span>
           </li>
 
-          <li class="happening__list happening__list--small">
-            <p class="happening__list--image2"><img class="happening__list--image_small" src="image/pattern-8.jpeg" alt>
+          <li class="small__list--image">
+            <p class="small__list--image2"><img class="small__list--image_small" src="image/pattern-8.jpeg" alt>
             </p>
-            <h4 class="small__heading happening__list--small2_title">Small title</h4>
-            <span class="list__time happening__list--time">4h ago by <a href="/days">Days</a></span>
+            <h4 class="small__heading small__list--small2_title">Small title</h4>
+            <span class="list__time small__list--time">4h ago by <a href="/days">Days</a></span>
           </li>
 
-          <li class="happening__list happening__list--small">
-            <p class="happening__list--image3"><img class="happening__list--image_small" src="image/pattern-9.jpeg" alt>
+          <li class="small__list--image">
+            <p class="small__list--image3"><img class="small__list--image_small" src="image/pattern-9.jpeg" alt>
             </p>
-            <h4 class="small__heading happening__list--last-small_title">Small title</h4>
-            <span class="list__time happening__list--time">3h ago by <a href="/monica">Monica</a></span>
+            <h4 class="small__heading small__list--last-small_title">Small title</h4>
+            <span class="list__time small__list--time">3h ago by <a href="/monica">Monica</a></span>
           </li>
         </ul>
       </nav>
