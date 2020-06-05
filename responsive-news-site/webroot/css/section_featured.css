@@ -11,6 +11,14 @@
   line-height: 1;
 }
 
+#section_featured .article_title {
+  margin-top: -1rem;
+}
+
+#section_featured .article_image img {
+  border-radius: 0;
+}
+
 #section_featured footer {
   display: none;
 }

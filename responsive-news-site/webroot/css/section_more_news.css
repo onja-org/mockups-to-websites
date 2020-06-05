@@ -2,11 +2,7 @@
   background-color: #fff;
 }
 
-#section_more_news > header > :first-child {
-  margin-block-start: 0;
-}
-
-#section_more_news .heading_section {
+#section_more_news > header {
   padding-block-end: 2.5rem;
   border-bottom: 2px solid #EBEDED;
   margin-block-end: 2.5rem;

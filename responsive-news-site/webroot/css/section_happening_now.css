@@ -1,4 +1,6 @@
-#section_happening_now {}
+#section_happening_now {
+  margin-block-start: -2.5rem;
+}
 
 #section_happening_now .article_card {
   border-radius: 0.375rem;

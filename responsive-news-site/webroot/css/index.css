@@ -14,8 +14,8 @@
 @import "icons.css";
 @import "headings.css";
 @import "forms.css";
-
 @import "buttons.css";
+@import "section_pagination.css";
 
 /* Site sections */
 @import "site_header.css";
