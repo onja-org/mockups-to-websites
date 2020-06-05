@@ -1,12 +1,18 @@
 .footer__communication {
   background-color: gray;
-  font-size: 11px;
+  font-size: 13px;
   font-weight: 700;
 }
 
 
 .footer__container_list {
   list-style: none;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding-block-start: 90px;
+  padding-block-end: 90px;
+  line-height: 3;
+  margin-block-start: -17px;
 }
 
 .footer__images {

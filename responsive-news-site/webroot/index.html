@@ -7,24 +7,28 @@
   <link rel="stylesheet" href="css/index.css">
 </head>
 <body>
-  <section class="header">
+  <input type="checkbox" id="checkbox_menu">
+  <header class="heading">
+    <label for="checkbox_menu" class="checkbox">
+      <span>Menu</span>
+    </label>
+    <h1>Logo</h1>
+    <p><img class="header__image" src="../docs/pattern-10.jpeg" alt></p>
+  </header>
+  <nav class="menu__container">
+    <ul class="menu__container-list">
+      <li class="menu__container-list header"><h1 class="menu-header">Logo</h1></li>
+      <li class="menu__container-list home"><a href="/">Home</a></li>
+      <li class="menu__container-list discover"><a href="/discover">Discover</a></li>
+      <li class="menu__container-list photos"><a href="/photos">Photos</a></li>
+      <li class="menu__container-list contact"><a href="/contact">Contact</a></li>
+      <li class="menu__container-list profile"><a href="/profile">profile</a></li>
+    </ul>
+  </nav>
+<main>
+  <div class="world-news">
     <header>
-      <h1>Logo</h1>
-      <nav class="menu__container">
-        <ul class="menu__container-list">
-          <li class="menu__container-list home"><a href="/">Home</a></li>
-          <li class="menu__container-list discover"><a href="/discover">Discover</a></li>
-          <li class="menu__container-list photos"><a href="/photos">Photos</a></li>
-          <li class="menu__container-list contact"><a href="/contact">Contact</a></li>
-          <li class="menu__container-list profile"><a href="/profile">profile</a></li>
-          <li class="menu__container-list photos"><img src="../docs/pattern-10.jpeg" width="24" height="16"></a></li>
-        </ul>
-      </nav>
-    </header>
-  </section>
-  <section class="world-news">
-    <header>
-      <img class="world-news__image" src="../docs/pattern.jpeg" height>
+      <img class="world-news__image" src="../docs/pattern.jpeg" alt>
       <nav class="news">
         <ul class="world-news__list">
           <li class="world-news__header"><h2>World news</h2></li>
@@ -34,8 +38,7 @@
         </ul>
       </nav>
     </header>
-  </section>
-<main>
+  </div>
   <section class="more-news">
     <header>
       <h2 class="more-news__header">More news</h2>
@@ -61,13 +64,13 @@
     </header>
     <nav class="trending__container">
         <ul class="trending__container_list">
-          <li class="trending__container--images"><img class="images" src="../docs/pattern-2.jpeg"></li>
+          <li class="trending__container--images"><img class="images" src="../docs/pattern-2.jpeg" alt></li>
           <li class="trendind__container_list--title"><h3>Dolore magna aliqua</h3></li>
           <li class="trending__container_list--article">Lorem ipsum dolor sit amet, ipsum labitur lucilius mel id, ad has appareat.</li>
           <li class="trending__container_list--duration">2m ago</li>
         </ul>
         <ul class="trending__container_list">
-          <li class="trending__container--images"><img class="images" src="../docs/pattern-3.jpeg"></li>
+          <li class="trending__container--images"><img class="images" src="../docs/pattern-3.jpeg" alt></li>
           <li class="trendind__container_list--title"><h3>Morbi eleifend a libero</h3></li>
           <li class="trending__container_list--article">Lorem ipsum dolor sit amet, ipsum labitur lucilius mel id, ad has appareat.</li>
           <li class="trending__container_list--duration">1h ago</li>
@@ -78,39 +81,37 @@
     <header class="happening-now__header">
       <h2 class="happening__header2">Happening now</h2>
     </header>
-    <nav class="happening-now__navigation">
-      <ul class="happening-now__navigation_list">
-        <li class="happening-now__navigation_list--big-title"><h3>City</h3></li>
-        <li class="happening-now__navigation_list--title">Large article title mobile layout</li>
-        <li class="happening-now__navigation_list--article">Lorem ipsum dolor sit amet, in eam odio amet, vix id nullam detracto, vidit vituperatoribus duo id. Affert detraxit</li>
-        <li class="happening-now__navigation_list--duration">2m ago</li>
-      </ul>
-      <img class="image" src="../docs/pattern-5.jpeg">
-    </nav>
-    <nav class="happening-now__navigation">
-      <ul class="happening-now__navigation_list">
-        <li class="happening-now__navigation_list--big-title"><h3>Travel</h3></li>
-        <li class="happening-now__navigation_list--title">Large article title mobile layout</li>
-        <li class="happening-now__navigation_list--article">Lorem ipsum dolor sit amet, in eam odio amet, vix id nullam detracto, vidit vituperatoribus duo id. Affert detraxit</li>
-        <li class="happening-now__navigation_list--duration">1d ago</li>
-      </ul>
-      <img class="image" src="../docs/pattern-6.jpeg">
-    </nav>
+    <article>
+      <img src="../docs/pattern-5.jpeg" alt>
+      <h3>City</h3>
+      <p>Large article title mobile layout</p>
+      <p>Lorem ipsum dolor sit amet, in eam odio amet, vix id nullam detracto, vidit vituperatoribus duo id. Affert detraxit</p>
+      <p>2m ago</p>
+    </article>
+    <article>
+      <img src="../docs/pattern-6.jpeg" alt>
+      <h3>Travel</h3>
+      <p>Large article title mobile layout</p>
+      <p>Lorem ipsum dolor sit amet, in eam odio amet, vix id nullam detracto, vidit vituperatoribus duo id. Affert detraxit</p>
+      <p>1d ago</p>
+    </article>
     <nav class="happening-now_images-container">
       <ul class="happening-now_images-container__pattern">
-        <li class="happening-now_images-container__pattern-1"><img class="pattern-image" src="../docs/pattern-7.jpeg"></li>
+        <li class="happening-now_images-container__pattern-1"><img class="pattern-image" src="../docs/pattern-7.jpeg" alt></li>
         <li class="happening-now_images-container__pattern--title"><h4>Small title</h4></li>
         <li class="happening-now_images-container__pattern--duration">3h ago by <a class="link" href="/3h-ago-by-worldness">Worldnews</a></li>
       </ul>
-      <ul class="happening-now_images-container__pattern">
-        <li class="happening-now_images-container__pattern-1"><img class="pattern-image" src="../docs/pattern-8.jpeg"></li>
-        <li class="happening-now_images-container__pattern--title"><h4>Small title</h4></li>
-        <li class="happening-now_images-container__pattern--duration">4h ago by <a class="link" href="/4h-ago-by-days">Days</a> </li>
+    </nav>
+    <nav class="happening">
+      <ul class="happening_images-container__pattern">
+        <li class="happening_images-container__pattern-1"><img class="pattern-image" src="../docs/pattern-8.jpeg" alt></li>
+        <li class="happening_images-container__pattern--title"><h4>Small title</h4></li>
+        <li class="happening_images-container__pattern--duration">4h ago by <a class="link" href="/4h-ago-by-days">Days</a> </li>
       </ul>
-      <ul class="happening-now_images-container__pattern">
-        <li class="happening-now_images-container__pattern-1"><img class="pattern-image" src="../docs/pattern-9.jpeg"></li>
-        <li class="happening-now_images-container__pattern--title"><h4>Small title</h4></li>
-        <li class="happening-now_images-container__pattern--duration">3h ago by <a class="link" href="3h-ago-by-monica">Monica</a></li>
+      <ul class="happening_images-container__pattern">
+        <li class="happening_images-container__pattern-1"><img class="pattern-image" src="../docs/pattern-9.jpeg" alt></li>
+        <li class="happening_images-container__pattern--title"><h4>Small title</h4></li>
+        <li class="happening_images-container__pattern--duration">3h ago by <a class="link" href="3h-ago-by-monica">Monica</a></li>
       </ul>
     </nav>
   </section>
@@ -118,14 +119,14 @@
 <footer class="footer__communication">
   <nav class="footer__container">
     <ul class="footer__container_list">
-      <li class="footer__container_list--about"><a class="footer__images" href="/about">Abo</a>
-      <li class="footer__container_list--help"><a class="footer__images" href="/help">Help</a</li>
-      <li class="footer__container_list--terms"><a class="footer__images" href="/terms">Terms</a</li>
-      <li class="footer__container_list--guidelines"><a class="footer__images" href="guidelines">Guidelines</a</li>
-      <li class="footer__container_list--testimonials"><a class="footer__images" href="/testimonials">Testimonials</a</li>
-      <li class="footer__container_list--advertise"><a class="footer__images" href="/advertise">Advertise</a</li>
-      <li class="footer__container_list--integretions"><a class="footer__images" href="/integrations">Integrations</a</li>
-      <li class="footer__container_list--carreers"><a class="footer__images" href="/careers">Careers</a</li>
+      <li class="footer__container_list--about"><a class="footer__images" href="/about">About</a>
+      <li class="footer__container_list--help"><a class="footer__images" href="/help">Help</a></li>
+      <li class="footer__container_list--terms"><a class="footer__images" href="/terms">Terms</a></li>
+      <li class="footer__container_list--guidelines"><a class="footer__images" href="guidelines">Guidelines</a></li>
+      <li class="footer__container_list--testimonials"><a class="footer__images" href="/testimonials">Testimonials</a></li>
+      <li class="footer__container_list--advertise"><a class="footer__images" href="/advertise">Advertise</a></li>
+      <li class="footer__container_list--integretions"><a class="footer__images" href="/integrations">Integrations</a></li>
+      <li class="footer__container_list--carreers"><a class="footer__images" href="/careers">Careers</a></li>
     </ul>
   </nav>
 </footer>
