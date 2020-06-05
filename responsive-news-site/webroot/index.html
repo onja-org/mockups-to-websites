@@ -1,210 +1,221 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="../webroot/css/index.css">
   <title>Responsive New Site</title>
 </head>
-
 <body>
-  <input type="checkbox">
   <header>
-    <label for="menu_checkbox" class="icon icon_menu">
-      <span>Go to the menu</span>
     <h1>
       <a href="/logo">Logo</a>
     </h1>
-    <p>
-      <a href="/profile">
-        <img src="images/pattern-10 copy.jpeg" class="profile">
-          <span>Profile</span>
-      </a>
-      </p>
   </header>
-  <nav class="nav_container">
-  <nav class="sidenav">
+  <nav>
     <ul>
       <li><a href="/home" class="active">Home</a></li>
       <li><a href="/discovery">Discovery</a></li>
       <li><a href="/photos">Photos</a></li>
       <li><a href="/contact">Contact</a></li>
-      <li><a href="/profile"><img src="images/pattern-10 copy.jpeg"><span>Profile</span></a></li>
+      <li><a href="/profile">Profile</a></li>
+      <li><a href="/profile">
+        <img src="images/pattern-10 copy.jpeg" class="profile">
+          <span>Profile</span>
+      </a>
+      </li>
     </ul>
   </nav>
-  <a href="images/menu-icon.svg" class="icon"></a>
-  </nav>
-  <main>
-    <article class="world_news">
+<main>
+  <section>
+    <article>
       <header>
         <h2>
           Amazing places in America to visit.
         </h2>
         <p class="category">World news</p>
-      </header>
-      <img src="images/pattern.jpeg" alt="A small road cuts through a beautiful mountainous landscape">
-      <p class="information">
-        For some reason — this country, this city, this neighborhood,
-        this particular street —  is the place you are living a majority of your life in
-      </p>
-      <p><a href="/learn-more" class="learn_more-link">Learn more</a></p>
+        <header>
+          <p class="description">
+            For some reason — this country, this city, this neighborhood,
+            this particular street —  is the place you are living a majority of your life in
+          </p>
+          <figure><img src="images/pattern.jpeg" alt="A small road cuts through a beautiful mountainous landscape"></figure>
+          <footer><a href="/learn--more">Learn more</a></footer>
     </article>
-    <article class="more_news">
-      <p class="category">
-        More news
-      </p>
-      <nav>
-        <ul>
-          <li class="travel">
-            <h2>
-              Travel
-            </h2>
-            <h3>
-              Article title
-            </h3>
-            <p class="info">
-            Lorem ipsum dolor sit amet, ipsum labitur lucilius mel id, ad has appareat…
-            </p>
-            <p class="time">
-              2m ago
-            </p>
-          </li>
-          <li class="technology">
-            <h2>
-              Technology
-            </h2>
-            <h3>
-              Article title
-            </h3>
-            <p class="info">
-              Lorem ipsum dolor sit amet, ipsum labitur lucilius mel id, ad has appareat…
-            </p>
-            <p class="time">
-              1m ago
-            </p>
-          </li>
-        </ul>
-      </nav>
-    </article>
-    <article class="trending">
-        <p class="trending__category">
-          Trending
+  </section>
+  <section>
+    <article>
+      <header>
+        <h2>Travel</h2>
+        <p class="category">
+          More news
         </p>
-      <nav>
-        <ul>
-          <li class="trending__list__item">
-            <img src="images/pattern-2.jpeg">
-            <h3>
-              Dolore magna aliqua
-            </h3>
-            <p class="trending__info">
-              Lorem ipsum dolor sit amet, ipsum labitur lucilius mel id, ad has appareat...
-            </p>
-            <p class="time">
-              2m ago
-            </p>
-          </li>
-          <li class="trending__list__item">
-            <img src="images/pattern-3.jpeg">
-            <h3>
-              Morbi eleifend a libero
-            </h3>
-            <p class="trending__info">
-              Lorem ipsum dolor sit amet, ipsum labitur lucilius mel id, ad has appareat
-            </p>
-            <p class="time">
-              1m ago
-            </p>
-          </li>
-        </ul>
-      </nav>
+      </header>
+      <div>
+        <p class="subtitle">
+          Article title
+        </p>
+        <p class="description">
+          Lorem ipsum dolor sit amet, ipsum labitur lucilius mel id, ad has appareat…
+        </p>
+      </div>
+      <footer>
+        <p class="published--date">
+          2m ago
+        </p>
+      </footer>
     </article>
-    <article class="happening_now">
-        <p class="happening_now__category">
+  </section>
+  <section>
+    <article>
+    <header>
+      <h2>
+        Dolore magna aliqua
+      </h2>
+      <p class="category">
+        Trending
+      </p>
+    </header>
+    <div>
+      <p class="description">
+        Lorem ipsum dolor sit amet, ipsum labitur lucilius mel id, ad has appareat...
+      </p>
+    </div>
+    <figure>
+      <img src="images/pattern-2.jpeg">
+    </figure>
+    <footer>
+      <p class="published--date">
+        2m ago
+      </p>
+    </footer>
+    </article>
+    <article>
+      <header>
+        <h2>
+          Morbi eleifend a libero
+        </h2>
+      </header>
+      <div>
+        <p class="description">
+          Lorem ipsum dolor sit amet, ipsum labitur lucilius mel id, ad has appareat...
+        </p>
+      </div>
+      <figure>
+        <img src="images/pattern-3.jpeg">
+      </figure>
+      <footer>
+        <p class="published--date">
+          1m ago
+        </p>
+      </footer>
+    </article>
+  </section>
+  <section>
+    <article>
+      <header>
+        <h2>
+          Large article title mobile layout
+        </h2>
+        <p class="category">
           Happening now
         </p>
-      <nav>
-        <ul>
-          <li class="city">
-            <img src="images/pattern-5.jpeg" class="more_info">
-            <p class="category_2">
-              City
-            </p>
-            <h2>
-              Large article title mobile layout
-            </h2>
-            <p>
-              Lorem ipsum dolor sit amet, ipsum labitur lucilius mel id, ad has appareat
-            </p>
-            <p class="time">
-              2m ago
-            </p>
-          </li>
-          <li class="travel">
-            <img src="images/pattern-6.jpeg">
-            <p class="category_2">
-              Travel
-            </p>
-            <h2>
-              Large article title mobile layout
-            </h2>
-            <p>
-              Lorem ipsum dolor sit amet, ipsum labitur lucilius mel id, ad has appareat
-            </p>
-            <p class="time">
-              2d ago
-            </p>
-          </li>
-          <li class="testimonial">
-            <img src="images/pattern-7.jpeg">
-            <h4>
-              Small title
-            </h4>
-            <p class="time">
-              3h ago by <a href="/worldnews">Worldnews</a>
-            </p>
-          </li>
-          <li class="testimonial">
-            <img src="images/pattern-8.jpeg">
-            <h4>
-              Small title
-            </h4>
-            <p class="time">
-              3h by <a href="/days">Days</a>
-            </p>
-          </li>
-          <li class="testimonial">
-            <img src="images/pattern-9.jpeg">
-            <h5>
-              Small title
-            </h5>
-            <p class="time">
-              3h ago by <a href="/monica">Monica</a>
-            </p>
-          </li>
-        </ul>
-      </nav>
+        <p class="subcategory">
+          City
+        </p>
+      </header>
+      <div>
+        <p class="description">
+          Lorem ipsum dolor sit amet, in eam odio amet, vix id nullam detracto, vidit vituperatoribus duo id. Affert detraxit
+        </p>
+      </div>
+      <figure>
+        <img src="images/pattern-5.jpeg">
+      </figure>
+      <footer>
+        <p class="published--date">
+          2m ago
+        </p>
+      </footer>
     </article>
-  </main>
-  <footer>
-    <nav>
-      <ul>
-        <li><a href="/about">About</a></li>
-        <li><a href="/help">Help</a></li>
-        <li><a href="/terms">Terms</a></li>
-        <li><a href="/guidlines">Guidlines</a></li>
-        <li><a href="/testimonials">Testimonials</a></li>
-        <li><a href="/advertise">Advertise</a></li>
-        <li><a href="/integrations">Integrations</a></li>
-        <li><a href="/careers">Careers</a></li>
-      </ul>
-    </nav>
-    <p>
-      <a class="icon" href="https://web.facebook.com"></a>
-      <a class="icon" href="https://twitter.com"></a>
-    </p>
-  </footer>
+    <article>
+      <header>
+        <h2>
+          Large article title mobile layout
+        </h2>
+        <p class="subcategory">
+          Travel
+        </p>
+      </header>
+      <div>
+        <p class="description">
+          Lorem ipsum dolor sit amet, in eam odio amet, vix id nullam detracto, vidit vituperatoribus duo id. Affert detraxit
+        </p>
+      </div>
+      <figure>
+        <img src="images/pattern-6.jpeg">
+      </figure>
+      <footer>
+        <p class="published--date">
+          2m ago
+        </p>
+      </footer>
+    </article>
+  </section>
+  <section>
+    <article>
+      <p class="subtitle">
+        Small title
+      </p>
+      <figure>
+        <img src="images/pattern-7.jpeg">
+      </figure>
+      <p class="published--date">
+        3h by <a href="/worldnews">Worldnews</a>
+      </p>
+    </article>
+    <article>
+      <p class="subtitle">
+        Small title
+      </p>
+      <figure>
+        <img src="images/pattern-8.jpeg">
+      </figure>
+      <p class="published--date">
+        3h ago by <a href="/days">Days</a>
+      </p>
+    </article>
+    <article>
+      <p class="subtitle">
+        Small title
+      </p>
+      <figure>
+        <img src="images/pattern-9.jpeg">
+      </figure>
+      <p class="published--date">
+        3h by <a href="/monica">Monica</a>
+      </p>
+    </article>
+  </section>
+</main>
+<footer>
+  <nav>
+    <ul>
+      <li><a href="/about">About</a></li>
+      <li><a href="/help">Help</a></li>
+      <li><a href="/terms">Terms</a></li>
+      <li><a href="/guidlines">Guidlines</a></li>
+      <li><a href="/testimonials">Testimonials</a></li>
+      <li><a href="/advertise">Advertise</a></li>
+      <li><a href="/integrations">Integrations</a></li>
+      <li><a href="/careers">Careers</a></li>
+    </ul>
+  </nav>
+  <figure>
+    <a href=""><img src=""></a>
+    <a href=""><img src=""></a>
+    <a href=""><img src=""></a>
+    <a href=""><img src=""></a>
+  </figure>
+<footer>
 </body>
-
 </html>
