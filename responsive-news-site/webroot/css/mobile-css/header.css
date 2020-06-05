@@ -8,7 +8,7 @@
 }
 .navigation {
   position: absolute;
-  top: 1.5rem;
+  top: 65px;
   left: 0;
   bottom: 0;
   z-index: 3;
@@ -16,7 +16,9 @@
   min-width: 200px;
   border-left: #aaa solid 1px;
   box-shadow: 32px 0px 39px rgba(0,0,0,0.3);
-  visibility: hidden;
+  transform: translate(-202px);
+  transition: transform .2s ease-in;
+  transition-duration: .5s;
 }
 
 body > header > label {
@@ -28,9 +30,9 @@ body > header > label {
   background-repeat: no-repeat;
 }
 body [type= "checkbox"]:checked ~ .navigation {
-  visibility: visible;
   transition: transform .2s ease-in;
-  transition-duration: 1s;
+  transform: translate(0);
+  transition-duration: .5s;
 }
 
 #checkbox-menu {

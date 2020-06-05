@@ -39,5 +39,8 @@ z-index: -1;
 
 .photo-profile {
   width: 16px;
-  border-radius: 50;
+  border-radius: 100%;
+}
+span {
+  display: none;
 }
