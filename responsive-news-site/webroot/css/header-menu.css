@@ -1,4 +1,4 @@
-body > header > label{
+/*body > header > label{
 display: block;
 width: 1rem;
 height: 1rem;
@@ -17,24 +17,23 @@ position: absolute;
 top: 0;
 left: 0;
 width: 290px;
-}
+}*/
 
 body > header {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   background-image: url(../images/menu-button.svg);
-  width: 1rem;
   height: 1rem;
   background-repeat: no-repeat;
 } 
 
-.profile_image{    
-  position: absolute;
+.profile_image{ 
   border-radius: 50%;
   height: 2rem;
   width: 2rem;
 }
+
 
 
 /*tablet*/
