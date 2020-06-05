@@ -50,6 +50,7 @@ html {
   padding-block-start: 0.5rem;
   padding-block-end: 0.5rem;
   border-radius: 0.5rem;
+  width: 100px;
 }
 .learn__more > a {
   color: white;
