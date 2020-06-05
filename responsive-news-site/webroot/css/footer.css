@@ -1,8 +1,13 @@
 body > footer {
-  padding: 1rem;
+  padding: 3.75rem 1rem;
   background-color: #A6ADB4;
   color: #fff;
   font-size: 0.75rem;
+}
+
+body > footer > h2 a {
+  text-transform: uppercase;
+  font-size: 0.875rem;
 }
 
 body > footer ul {
@@ -19,11 +24,24 @@ body > footer a {
 
 .links_site {
   columns: 2;
-  margin: 3.75rem 0;
+  margin: 3.5rem 0;
+  padding: 0.5rem 0;
 }
 
 .links_site li {
-  margin: 1rem 0;
+  margin: 0.5rem 0;
+}
+
+.links_site a {
+  display: inline-block;
+  padding: 0.25rem;
+  margin: 0 -0.25rem;
+  color: #CBD0D3;
+  transition: color .3s;
+}
+
+.links_site a:hover {
+  color: #fff;
 }
 
 .link_primary + .link_secondary {
