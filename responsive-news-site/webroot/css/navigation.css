@@ -1,8 +1,26 @@
 nav {
-  display: none;
+  background-color: rgb(246, 248, 249);
+  width: 287px;
+  height: 812px;
+  position: absolute;
+  top: 0;
+  z-index: 2;
+  box-shadow: 20px 20px 30px grey;
 }
-body > [type="checkbox"]:checked ~ nav {
 
+nav li {
+  list-style: none;
+}
+
+nav a {
+  text-decoration: none;
+  color: rgb(166, 173, 180);
+  text-transform: uppercase;
+  font-size: 12px;
+}
+
+body > [type="checkbox"]:checked ~ nav {
+  display: block;
 }
 
 

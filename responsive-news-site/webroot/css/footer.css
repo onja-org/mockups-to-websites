@@ -9,3 +9,35 @@ footer a {
   text-transform: uppercase;
   text-decoration: none;
 }
+
+.social-media {
+  display: flex;
+}
+
+.social-media a {
+  text-indent: -9999px;
+}
+
+.icon[href="/instagram.com"],
+.icon[href="/twitter.com"],
+.icon[href="/facebook.com"],
+.icon[href="/facebook.com"],
+.icon[href="/web.com"] {
+  background-repeat: no-repeat;
+}
+
+.icon[href="/instagram.com"] {
+  background-image: url("../css/icon/instagram-icon.svg");
+}
+
+.icon[href="/twitter.com"] {
+  background-image: url("../css/icon/twitter-icon.svg");
+}
+
+.icon[href="/facebook.com"] {
+  background-image: url("../css/icon/facebook-icon.svg");
+}
+
+.icon[href="/web.com"] {
+  background-image: url("../css/icon/web-icon.svg");
+}
