@@ -1,8 +1,34 @@
-.responsive {
+.header {
   height: 88px;
   background-color: rgb(246, 248, 249);
-  color: #FFFFFF;
+  display: flex;
+  justify-content: space-between;
 }
+
+.menu__label {
+  margin-block-start: 2rem;
+}
+
+.header__logo {
+  font-size: 13px;
+  opacity: 0.3;
+  text-transform: uppercase;
+  margin-block-start: 2rem;
+}
+
+.header__profile {
+  margin-block-start: 2rem;
+}
+
+.profile__image {
+  border-radius: 50%;
+}
+
+.profile__span {
+  color: transparent;
+}
+
+
 .responsive__list {
   list-style: none;
   display: flex;
