@@ -4,15 +4,10 @@ font-family: Arial, Helvetica, sans-serif;
 }
 
 body {
+  padding-inline-start: 1rem;
   margin: 0;
   background-color: #f6f8f9;
-}
-
-body > header,
-body > main,
-body > footer,
-body > nav {
-  padding: 1rem;
+  position: relative;
 }
 
 main {
