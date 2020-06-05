@@ -1,0 +1,20 @@
+footer > form {
+  margin-inline-start: 2.5rem;
+}
+
+#subscribe_email {
+  background-color: lightgray;
+  border-radius: 5px;
+  width: 282px;
+  height: 38px;
+  border: 1px solid lavender;
+  background-image: url(../images/icon_form.svg);
+  background-repeat: no-repeat;
+  background-size: 1rem;
+  background-position: 95% 50%;
+}
+
+.form_para {
+  font-size: 11px;
+  color: lavender;
+}
