@@ -13,7 +13,7 @@
 .happening-now__list-item__subheading {
   padding-block-start: 2rem;
   padding-block-end: 3rem;
-  margin-inline-start: 1rem;
+  margin: 0;
 }
 
 .happening-now__list-item__subheading__link {
