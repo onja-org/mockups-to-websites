@@ -1,9 +1,9 @@
-#section_featured_article article {
+#section_featured article {
   padding-block-start: 2.5rem;
   padding-block-end: 2.5rem;
 }
 
-#section_featured_article .category {
+#section_featured .category {
   margin-block-start: 0;
   padding-block-end: 2.5rem;
   margin-block-end: 2.5rem;
@@ -11,6 +11,6 @@
   line-height: 1;
 }
 
-#section_featured_article footer {
+#section_featured footer {
   display: none;
 }

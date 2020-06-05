@@ -1,0 +1,14 @@
+#section_happening_now {}
+
+#section_happening_now .article_card {
+  border-radius: 0.375rem;
+  margin-block-end: 2.5rem;
+}
+
+#section_happening_now .article_simple:first-of-type::before {
+  content: "";
+  display: block;
+  height: 0;
+  border-block-start: 2px solid #EBEDED;
+  padding-block-start: 2.5rem;
+}

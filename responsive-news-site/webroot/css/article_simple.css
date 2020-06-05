@@ -1,0 +1,30 @@
+.article_simple {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+}
+
+.article_simple .category {
+  display: none;
+}
+
+.article_simple .article_header {
+  order: 2;
+}
+
+.article_simple .article_image {
+  order: 1;
+}
+
+.article_simple .article_image img {
+  border-radius: 0.375rem;
+}
+
+.article_simple .article_description {
+  display: none;
+}
+
+.article_simple .article_footer {
+  order: 3;
+  color: #A6ADB4;
+}

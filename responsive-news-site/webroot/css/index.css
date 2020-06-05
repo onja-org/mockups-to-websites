@@ -5,7 +5,10 @@
 @import "utilities.css";
 @import "section_container.css";
 @import "articles.css";
-@import "card.css";
+@import "article_card.css";
+@import "article_longform.css";
+@import "article_simple.css";
+@import "article_swatch.css";
 @import "category.css";
 @import "publication_details.css";
 @import "icons.css";

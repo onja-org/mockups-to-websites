@@ -1,4 +1,18 @@
 body > footer {
   padding: 1rem;
   background-color: rgba(0,0,0,.23);
+  color: #fff;
+  font-size: 0.75rem;
+}
+
+body > footer ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+body > footer a {
+  color: inherit;
+  text-transform: uppercase;
+  text-decoration: none;
 }
