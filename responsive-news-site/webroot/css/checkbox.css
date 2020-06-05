@@ -13,8 +13,21 @@ h1 > a {
   color: red;
 }
 
-input[type="checkbox"]:checked {
-  transform: translateX(10px);
-  top: -10%;
-  display: none;
+.navigation {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  transform: translateX(-110%);
+  transition: transform .2s;
+  box-shadow: 0px 0px 50px rgba(0,0,0,.25);
+  z-index: 1;
+  background-color: #f6f8f9;
+  padding-inline-start: 2rem;
+  width: 290px;
+  padding-block-start: 1rem;
+ }
+
+.input[type="checkbox"]:checked + label {
+  transform: translateX(0);
 }
