@@ -13,7 +13,15 @@
 .happening_now__subheading {
   font-size: 16px;
   font-weight: bold;
+  text-transform: uppercase;
 }
+
+.happening_now__images--elephant {
+  height: 10rem;
+  width: 15rem;
+
+}
+
 
 .happening_now__lorem_text {
   font-size: 16px;
@@ -74,9 +82,7 @@
   padding-inline-start: 0;
 }
 
-.happening_now__images--elephant,
-.happening_now__images--bird,
-.happening_now__images--road {
+.happening_now__images {
   width: 100%;
   height: 100%;
   margin-block-start: 3rem;
@@ -100,4 +106,40 @@
 
 .happening_now__images--link {
   color: lightgray;
+}
+
+@media (min-width: 768px) {
+  .happening_now {
+    padding-inline-start: 3rem;
+    padding-inline-end: 4rem;
+  }
+
+  .happening_now__images--elephant {
+    width: 18rem;
+    height: 12rem;
+  }
+
+  .happening_now__images--bird {
+    width: 18rem;
+    height: 12rem;
+  }
+
+  .happening_now__small_heading {
+    padding-block-start: 10rem;
+  }
+
+  .happening_now__images--list_item--forest {
+    display: none;
+
+  }
+
+
+  .happening_now__images--navigation_container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 4.5rem;
+    column-gap: 4.5rem;
+  }
+
+
 }

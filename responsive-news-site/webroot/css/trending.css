@@ -47,3 +47,9 @@
   border-top-left-radius: 8px;
   border-top-right-radius: 8px;
 }
+
+@media (min-width: 768px) {
+  .trending {
+    padding-inline-start: 4rem;
+  }
+}
