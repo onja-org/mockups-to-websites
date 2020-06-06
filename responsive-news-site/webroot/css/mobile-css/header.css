@@ -78,9 +78,13 @@ body [type= "checkbox"]:checked ~ .navigation {
 
  /* Tablet */
  @media (min-width: 768px) {
-   body > header > label,
-   body > header > p {
+   body > header > label  {
      display: none;
+   }
+    body > header > p > a .photo-profile {
+    width: 32px;
+    margin-inline-end: 1rem;
+    margin-block-end: -1rem;
    }
    body > header {
      padding: 1.25rem;
@@ -113,7 +117,9 @@ body [type= "checkbox"]:checked ~ .navigation {
     font-weight: 700;
     opacity: 0.5;
     line-height: 4;
-    justify-content: space-evenly;
+    justify-content: flex-end;
+    margin-block-start: 0;
+    padding-inline-end: 3rem;
     margin-block-end: 0;
     margin-block-start: 0;
    }
@@ -123,9 +129,17 @@ body [type= "checkbox"]:checked ~ .navigation {
    body > header {
      padding: 0;
    }
+
+
    header h1 {
     padding-inline-start: 1rem;
    }
-
+   .home {
+    opacity: unset;
+   }
+   /* Navigation list item here */
+   .navigation__list--item {
+    padding-inline-end: 2rem;
+   }
  }
 
