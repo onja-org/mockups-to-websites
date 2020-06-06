@@ -51,3 +51,12 @@
   top: 50%;
   transform: translateY(-50%);
 }
+
+@media (min-width: 768px) {
+  .article-travelling {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+}
