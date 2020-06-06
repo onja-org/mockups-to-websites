@@ -1,0 +1,60 @@
+@media (min-width: 768px) {
+  .header > h1 {
+    color: transparent;
+    background-color: transparent;
+  }
+  label {
+    background-image: none;
+  }
+  body > .navigation {
+    position: absolute;
+    top: 0;
+    left: auto;
+    bottom: auto;
+    right: 0;
+    transform: none;
+    box-shadow: none;
+    background-color: transparent;
+    width: auto;
+    display: flex;
+    padding: 0;
+  }
+  body > .navigation > .navigation__container {
+    padding-block-start: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-inline-end: 4rem;
+    margin: 20px;
+  }
+
+  body > .navigation > .navigation__header {
+    margin-inline-end: 20rem;
+    margin-inline-start: 1rem;
+    margin-block-start: 10px;
+    padding-block-start: 1rem;
+  }
+
+  body > .navigation > .navigation__container > .navigation__list_item {
+    padding-inline-start: 1rem;
+  }
+  body > .navigation > .navigation__container > .navigation__list_item > .home {
+    padding: 0;
+    background-image: none;
+  }
+  body > .navigation > .navigation__container > .navigation__list_item > .discovery {
+    padding: 0;
+    background-image: none;
+  }
+  body > .navigation > .navigation__container > .navigation__list_item > .photos {
+    padding: 0;
+    background-image: none;
+  }
+  body > .navigation > .navigation__container > .navigation__list_item > .contact {
+    padding: 0;
+    background-image: none;
+  }
+  body > .navigation > .navigation__container > .navigation__list_item > .profile {
+    display: none;
+  }
+}
