@@ -3,9 +3,11 @@
     color: transparent;
     background-color: transparent;
   }
+
   label {
     background-image: none;
   }
+
   body > .navigation {
     position: absolute;
     top: 0;
@@ -19,6 +21,7 @@
     display: flex;
     padding: 0;
   }
+
   body > .navigation > .navigation__container {
     padding-block-start: 0;
     display: flex;
@@ -38,23 +41,36 @@
   body > .navigation > .navigation__container > .navigation__list_item {
     padding-inline-start: 1rem;
   }
+
   body > .navigation > .navigation__container > .navigation__list_item > .home {
     padding: 0;
     background-image: none;
   }
+
   body > .navigation > .navigation__container > .navigation__list_item > .discovery {
     padding: 0;
     background-image: none;
   }
+
   body > .navigation > .navigation__container > .navigation__list_item > .photos {
     padding: 0;
     background-image: none;
   }
+
   body > .navigation > .navigation__container > .navigation__list_item > .contact {
     padding: 0;
     background-image: none;
   }
+
   body > .navigation > .navigation__container > .navigation__list_item > .profile {
     display: none;
+  }
+
+  .article {
+    columns: 2;
+  }
+
+  .article > .article__list > li:nth-of-type(2) {
+    padding-block-start: 1rem;
   }
 }
