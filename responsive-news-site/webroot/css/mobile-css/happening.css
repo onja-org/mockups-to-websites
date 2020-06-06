@@ -35,3 +35,35 @@
   object-fit: cover;
   position: relative;
 }
+/* Tablet */
+@media (min-width: 768px) {
+  .happening h2 {
+  margin-inline-start: 3rem;
+  margin-inline-end: 3rem;
+  }
+  .happening h3 {
+    top: 2rem;
+    margin-inline-start: 2rem;
+    margin-inline-end: 2rem;
+  }
+  .happening h4 {
+    font-size: 25px;
+  }
+  .happening-art {
+    display: block;
+  }
+
+  .happening {
+    border-bottom: unset;
+  }
+  .happening--description {
+    margin-inline-start: 1rem;
+    margin-inline-end: 1rem;
+    padding-block-start: 11rem;
+    font-family: sans-serif;
+  }
+  .happening--description > .section__description {
+    font-size: 16px;
+    font-family: sans-serif;
+  }
+}

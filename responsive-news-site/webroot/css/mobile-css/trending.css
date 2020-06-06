@@ -9,8 +9,13 @@
   margin-inline-end: 2rem;
   margin-top: 0;
 }
-  
-
+  /* tablet */
+  @media (min-width: 768px) {
+    .trending h2 {
+    margin-inline-start: 4rem;
+    margin-inline-end: 4rem;
+    }
+  }
 .ipsum {
   font-family: serif;
   opacity: 0.5;

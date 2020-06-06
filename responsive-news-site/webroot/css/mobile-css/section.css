@@ -53,3 +53,20 @@ h3 {
   color: black;
   font-family: sans-serif;
 }
+
+@media (min-width: 768px) {
+  article {
+    display: flex;
+    padding-inline-start: 3rem;
+    padding-inline-end: 3rem;
+  }
+  .more-news > header h2 {
+    margin-inline-start: 4rem;
+    margin-inline-end: 4rem;
+  }
+  .rain-forest {
+    margin-inline-end: 4rem;
+}
+
+}
+
