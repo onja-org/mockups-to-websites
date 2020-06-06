@@ -1,7 +1,7 @@
 :root {
-  --heading-padding: 2rem;
+  --heading-padding: 2.5rem;
 }
-.section_heading {
+.article_heading {
   text-transform: uppercase;
   padding-inline-start: var(--heading-padding);
   padding-inline-end: var(--heading-padding);
