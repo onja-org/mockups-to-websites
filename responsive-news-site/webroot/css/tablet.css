@@ -85,6 +85,10 @@
     margin-inline-end: auto;
   }
 
+  .information__list--trending_title {
+    padding-inline-start: 4rem;
+  }
+
   .information {
     display: flex;
     justify-content: space-between;
