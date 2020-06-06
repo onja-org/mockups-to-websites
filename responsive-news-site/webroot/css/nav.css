@@ -16,17 +16,9 @@
   width: 250px;
   z-index: 1;
   background-color: white;
-  padding: 16px;
-}
-.menu-checkbox {
-  display: none;
 }
 
-.menu-responsive {
-  padding-block-start: 50px;
-}
-
-[type="checkbox"]:checked ~ .navigation_menu-responsive {
+.menu-checkbox:checked ~ .navigation_menu-responsive {
   position: absolute;
   top: 3.5rem;
   bottom: 0;
@@ -37,7 +29,38 @@
   box-shadow: 0 0 50px rgba(0, 0, 0, 0.25);
 }
 
+.menu-checkbox {
+  display: none;
+}
 
+.navigation_menu-responsive__homepage {
+  padding-inline-start: 2rem;
+  padding-block-end: 5rem;
+}
+
+.menu-responsive {
+  margin: 0;
+}
+
+.menu-responsive__list-item {
+  padding-block-end: 2rem;
+}
+
+.navigation_menu-responsive a {
+  text-transform: uppercase;
+}
+
+.navigation_menu-responsive__heading {
+  margin: 0;
+  padding-block-start: 2rem;
+}
+
+.navigation_menu-responsive__heading--link {
+  color: #fa6980;
+  font-size: 11px;
+  font-weight: 700;
+  margin: 0;
+}
 
 
 @media (min-width: 768px) {
