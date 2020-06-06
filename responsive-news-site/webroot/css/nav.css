@@ -8,6 +8,38 @@
   text-transform: uppercase;
 }
 
+.navigation_menu-responsive {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: -280px;
+  width: 250px;
+  z-index: 1;
+  background-color: white;
+  padding: 16px;
+}
+.menu-checkbox {
+  display: none;
+}
+
+.menu-responsive {
+  padding-block-start: 50px;
+}
+
+[type="checkbox"]:checked ~ .navigation_menu-responsive {
+  position: absolute;
+  top: 3.5rem;
+  bottom: 0;
+  left: 0;
+  width: 250px;
+  z-index: 1;
+  background-color: #f6f8f9;
+  box-shadow: 0 0 50px rgba(0, 0, 0, 0.25);
+}
+
+
+
+
 @media (min-width: 768px) {
   .navigation_menu-responsive {
     width: auto;
