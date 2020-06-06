@@ -26,3 +26,8 @@
   padding-inline-start: 6rem;
   font-weight: 300;
 }
+
+.article__list {
+  margin-block-end: 0;
+  padding-inline-end: 2rem;
+}
