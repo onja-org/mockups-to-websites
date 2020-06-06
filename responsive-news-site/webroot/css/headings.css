@@ -6,9 +6,17 @@
   padding-inline-start: 1.5rem;
   padding-block-end: 2rem;
   padding-block-start: 2rem;
-  border-block-end: 2px gray solid;
 }
 
+.article__featured__headings2 {
+  color: #202124;
+  font-size: 24px;
+  text-decoration: none;
+  padding-inline-start: 1.5rem;
+  padding-block-end: 2rem;
+  padding-block-start: 2rem;
+  border-block-end: 2px gray solid;
+}
 .sections__headings3--red {
   color: #fa6980;
   padding-block-start: 2rem;

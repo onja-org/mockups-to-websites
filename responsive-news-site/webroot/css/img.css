@@ -7,7 +7,7 @@
   width: 100%;
 }
 
-.sections__navigation__list--city {
+.sections__city {
   position: relative;
   color: white;
   padding-block-start: 1rem;
@@ -15,9 +15,9 @@
   padding-inline-start: 1.5rem;
   padding-inline-end: 1.5rem;
   z-index: 1;
-  margin-inline-end: 2.3rem;
+  margin-inline-start: 1rem;
+  margin-inline-end: 1rem;
 }
-
 
 .city__description--image > img {
   position: absolute;
@@ -29,14 +29,15 @@
   z-index: -1;
 }
 
-.sections__navigation__list--travel {
+.sections__travel {
   position: relative;
   color: white;
   padding-block-end: 1rem;
   padding-inline-start: 1.5rem;
   padding-inline-end: 1rem;
   z-index: 1;
-  margin-inline-end: 2.5rem;
+  margin-inline-end: 1rem;
+  margin-inline-start: 1rem;
 }
 .travel__description--image > img {
   position: absolute;
@@ -47,13 +48,26 @@
   left: 0;
   z-index: -1;
 }
-
+.sections__elephant__image {
+  margin-inline-end: 1rem;
+  margin-inline-start: 1rem;
+}
 .elephant--img {
   width: 100%;
-  /* margin-block-start: 9rem; */
+
+}
+
+.sections__tree__image {
+  margin-inline-end: 1rem;
+  margin-inline-start: 1rem;
 }
 .trees--img {
   width: 100%;
+}
+
+.sections__road__image {
+  margin-inline-end: 1rem;
+  margin-inline-start: 1rem;
 }
 .road--img {
   width: 100%;

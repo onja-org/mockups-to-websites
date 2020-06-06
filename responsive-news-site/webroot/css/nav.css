@@ -1,12 +1,7 @@
 
-.sections__navigation__list {
+.sections__image {
   text-decoration: none;
 }
-ul {
-  list-style: none;
-  text-decoration: none;
-}
-
 
 @media (min-width:768px) {
   .navigation {
