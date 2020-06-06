@@ -39,3 +39,13 @@ h4 {
   font-size: 16px;
   margin: 0;
 }
+
+@media (min-width: 768px) {
+  .responsive__list {
+    display: none;
+  }
+
+  .responsive {
+    background-color: transparent;
+  }
+}
