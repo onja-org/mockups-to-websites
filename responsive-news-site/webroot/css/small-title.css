@@ -1,50 +1,43 @@
 .small_title {
-  position: relative;
-}
-.small_title__list {
   list-style: none;
 }
+.small_title__list2 img,
+.small_title__list3 img,
 .small_title__list1 img {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  top: 50%;
-  left: 50%;
-  z-index: -1;
-  object-fit: cover;
-  transform: translate(-50%, -50%);
+  width: 100vw;
+  height: 50vw;
+  border-radius: 6px;
 }
-.small_title__list1 > blockquote {
-  margin-block-start: 0;
-  margin-block-end: 0;
-  margin-inline-start: 0;
-  margin-inline-end: 0;
-}
-.small_title__list > blockquote p {
-  margin-block-start: 5rem;
+.small_title > blockquote  {
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
 }
 
-.small_title__list2 img {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  top: 50%;
-  left: 50%;
-  z-index: -1;
-  object-fit: cover;
-  transform: translate(-50%, -50%);
-  padding-block-start: 2rem;
-  padding-block-end: 2rem;
+.small_title > blockquote p {
+  font-size: 16px;
+  font-family: sans-serif;
+  font-weight: 700;
 }
-.small_title__list3 img {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  top: 50%;
-  left: 50%;
-  padding-block-start: 2rem;
-  padding-block-end: 2rem;
-  object-fit: cover;
-  transform: translate(-50%, -50%);
-  z-index: 1;
+.small_title__list2 > cite,
+.small_title__list3 > cite,
+.small_title__list1 > cite {
+  background-image: url("../images/watch.svg");
+  background-repeat: no-repeat;
+  background-position: 0% 0%;
+  display: block;
+  padding-inline-start: 2rem;
+}
+
+.small_title__list2 > cite,
+.small_title__list3 > cite,
+.small_title__list1 > cite {
+  margin-block-end: 3rem;
+  color: grey;
+  font-size: 13px;
+}
+.small_title a {
+  color: grey;
+  font-size: 13px;
 }
