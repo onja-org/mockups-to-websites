@@ -78,3 +78,12 @@
 .footer--navigation__list__social__communication__link__web {
   background-image: url("../images/icon_web.svg");
 }
+
+
+.footer--navigation_menu-responsive__homepage {
+  display: none;
+}
+
+.footer_menu-responsive__logo__heading {
+  display: none;
+}
