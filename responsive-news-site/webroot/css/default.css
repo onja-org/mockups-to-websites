@@ -34,6 +34,14 @@ padding-block-end: 2rem;
 
 .sharing-news__description__period {
   font-size: 13px;
+
+}
+small {
+
+  margin-inline-start: 1.5rem;
 }
 
-
+.sharing-news__description__period{
+background-image: url(../css/clock.svg);
+line-height: 16px;
+}
