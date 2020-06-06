@@ -4,7 +4,6 @@
 body > header > label {
   background-image: url(../images/icon.svg);
   background-repeat: no-repeat;
-  background-position: 10% 10%;
 }
 
 .navigation__link--home {

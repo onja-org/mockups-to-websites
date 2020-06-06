@@ -9,6 +9,7 @@
   width: 280px;
   box-shadow: 0 0 50px rgba(0, 0, 0, 0.25);
   background-color: #eee;
+  z-index: 3;
 }
 .site_header {
   display: flex;
@@ -67,8 +68,6 @@ label {
   padding-inline-start:1rem;
   padding-inline-end: 1rem;
   padding-block-start: 1rem;
-  color: var(--color-inverse);
-  text-transform: uppercase;
 }
 
 input:checked ~ nav {
