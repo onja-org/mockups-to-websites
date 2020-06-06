@@ -53,9 +53,12 @@ h3 {
   color: black;
   font-family: sans-serif;
 }
-.more-news .date-post {
-  margin-inline-start: 2rem;
-  margin-inline-end: 2rem;
+
+i {
+  background-image: url("../clock.svg");
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  padding-left: 1rem;
 }
 
 @media (min-width: 768px) {
