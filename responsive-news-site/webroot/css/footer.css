@@ -10,8 +10,25 @@ footer a {
   text-decoration: none;
 }
 
+footer ul {
+  padding-block-start: 2rem;
+  margin: 0;
+}
+
+footer ul:nth-of-type(1) {
+  display: grid;
+  grid-gap: 2rem;
+  grid-template-columns: repeat(2, 1fr);
+}
+
 .social-media {
+  margin: 0;
   display: flex;
+  padding-block-end: 2rem;
+}
+
+.social-media > li {
+  margin: 0;
 }
 
 .social-media a {

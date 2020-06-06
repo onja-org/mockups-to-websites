@@ -23,7 +23,7 @@
       <li><a href="/dicovery">Discovery</a></li>
       <li><a href="/photos">Photos</a></li>
       <li><a href="/contact">Contact</a></li>
-      <li><a href="/profile">Profile</a></li>
+      <li><a href="/profile"><img src="../webroot/css/image/profile.jpeg" alt="woman-s-face-nav">Profile</a></li>
     </ul>
   </nav>
 
@@ -47,11 +47,15 @@
       </p>
     </article>
 
-    <article>
+    <article class="more-information">
       <header class="more-news-heading">
         <p class="more-news">
           <a href="/more-news">More News</a>
         </p>
+        <form>
+          <button class="previews"><a href="/previews">Previews</a></button>
+          <button class="next"><a href="/next">Next</a></button>
+        </form>
       </header>
       <h2 class="travel"><a href="/travel">Travel</a></h2>
       <h3 class="travel-title">Article title</h3>
@@ -70,9 +74,15 @@
     <article class="with-background-color">
 
       <article class="post">
-        <section class="first-section">
-          <p class="trending"><a href="/trending">Trending</a></p>
-          <section class="first-section--primary-content">
+        <article class="first-section">
+          <header class="trending-heading">
+            <p class="trending"><a href="/trending">Trending</a></p>
+            <form>
+              <button class="previews"><a href="/previews">Previews</a></button>
+              <button class="next"><a href="/next">Next</a></button>
+            </form>
+          </header>
+          <section>
             <img src="../webroot/css/image/landscape.jpeg" alt="nice-river-and-mountain">
             <h3 class="paragraph--title">Dolore magna aliqua</h3>
             <p class="post-paragraph">
@@ -80,7 +90,7 @@
             </p>
             <small><i>2m ago</i></small>
           </section>
-          <section class="second-section">
+          <section>
             <img src="../webroot/css/image/parasol.jpeg" alt="orange-parasol">
             <h3 class="paragraph-title">Morbi eleifend a libero</h3>
             <p class="post-paragraph">
@@ -88,11 +98,17 @@
             </p>
             <small><i>1h ago</i></small>
           </section>
-        </section>
+        </article>
       </article>
 
       <article class="happening-now">
-        <p><a href="happening-now">Happening Now</a></p>
+        <header class="happening-now-header">
+          <p><a href="happening-now">Happening Now</a></p>
+          <form>
+            <button class="previews">Previews</button>
+            <button class="next">Next</button>
+          </form>
+        </header>
         <article class="featured-article">
           <header class="featured-header">
             <p class="featured-title">City</p>
@@ -119,28 +135,30 @@
           <small><i>2d ago</i></small>
         </article>
       </article>
-      <article class="images-posts">
-        <img src="../webroot/css/image/elephant.jpeg" alt="dusty-elephant">
-        <h3 class="small-title">Small title</h3>
-        <small>
-          <i>3h ago by <a href="/worldnews.com">Worldnews</a></i>
-        </small>
-      </article>
+      <article class="images">
+        <article class="images-posts">
+          <img src="../webroot/css/image/elephant.jpeg" alt="dusty-elephant">
+          <h3 class="small-title">Small title</h3>
+          <small>
+            <i>3h ago by <a href="/worldnews.com">Worldnews</a></i>
+          </small>
+        </article>
 
-      <article>
-        <img src="../webroot/css/image/bird.jpeg" alt="a-red-bird">
-        <h3 class="small-title">Small title</h3>
-        <small>
-          <i>4h ago by <a href="/days.com">Days</a></i>
-        </small>
-      </article>
+        <article>
+          <img src="../webroot/css/image/bird.jpeg" alt="a-red-bird">
+          <h3 class="small-title">Small title</h3>
+          <small>
+            <i>4h ago by <a href="/days.com">Days</a></i>
+          </small>
+        </article>
 
-      <article>
-        <img src="../webroot/css/image/road.jpeg" alt="sloppy-road">
-        <h3 class="small-title">Small title</h3>
-        <small>
-          <i>3h ago by <a href="/monica.com">Monica</a></i>
-        </small>
+        <article>
+          <img src="../webroot/css/image/road.jpeg" alt="sloppy-road">
+          <h3 class="small-title">Small title</h3>
+          <small>
+            <i>3h ago by <a href="/monica.com">Monica</a></i>
+          </small>
+        </article>
       </article>
     </article>
 

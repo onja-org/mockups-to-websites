@@ -10,3 +10,31 @@
   text-decoration: none;
   text-transform: uppercase;
 }
+
+button {
+  position: relative;
+  background-color: transparent;
+  border: 0;
+  height: 0;
+}
+
+button {
+  background-repeat: no-repeat;
+  text-indent: -9999px;
+  width: 10px;
+  height: 10px;
+}
+
+button:active {
+visibility: hidden;
+border: none;
+}
+
+.previews {
+  background-image: url("../css/icon/previous-icon.svg");
+  padding-inline-end: 2rem;
+}
+
+.next {
+  background-image: url("../css/icon/next-icon.svg");
+}

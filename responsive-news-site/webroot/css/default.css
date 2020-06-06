@@ -22,21 +22,31 @@ small a,
 .small-title {
 font-family: serif;
 }
+
+.post button {
+  vertical-align: bottom;
+}
+
 small {
   position: relative;
 }
 
-small > i::before {
+small::before {
   content: "";
-  display: block;
-  background-image: url("../css/icon/duration.svg");
+  background-image: url("../css/icon/clock-icon.svg");
   position: absolute;
-  top: 50%;
-  background-size: 2rem;
+  background-repeat: no-repeat;
+  width: 1rem;
+  height: 1rem;
+  background-size: contain;
+}
+
+small > i {
+  padding-inline-start: 2rem;
 }
 
 .small-title {
-  margin-block-end: 0;
+  margin-block-end: 1rem;
 }
 
 .travel > a,
@@ -55,8 +65,20 @@ text-decoration: none;
   text-decoration: none;
 }
 
+.more-information {
+  padding-inline-start: 1rem;
+  padding-inline-end: 1rem;
+  padding-block-end: 1rem;
+}
+
+.trending-heading {
+  padding-block-start: 2rem;
+  padding-block-end: 2rem;
+}
+
+.happening-now-header,
 .happening-now {
-  margin-block-end: 1rem;
+  margin-block-end: 2rem;
 }
 
 .world-news > a {
@@ -72,13 +94,21 @@ text-decoration: none;
 }
 
 .with-background-color {
-  /*
   background-color: rgb(246, 248, 249);
-*/
+  padding-inline-end: 1rem;
+  padding-inline-start: 1rem;
 }
 
 .more-news-heading {
-border-block-end: 2px solid rgb(166, 173, 180);
+  border-block-end: 2px solid rgb(166, 173, 180);
+}
+
+.more-news-heading,
+.trending-heading,
+.happening-now-header {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
 }
 
 header + .more-news {
@@ -88,8 +118,6 @@ header + .more-news {
   margin-block-end: 2rem;
  }
 
- img[alt="nice-river-and-mountain"],
- img[alt="orange-parasol"],
  img[alt="dusty-elephant"],
  img[alt="a-red-bird"],
  img[alt="sloppy-road"] {
@@ -99,9 +127,51 @@ header + .more-news {
  img[alt="dusty-elephant"],
  img[alt="a-red-bird"],
  img[alt="sloppy-road"] {
-   margin-block-start: 1rem;
+   margin-block-start: 2rem;
  }
+
+ img[alt="nice-river-and-mountain"],
+ img[alt="orange-parasol"] {
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+ }
+
+.images {
+  padding-block-end: 2rem;
+}
 
  .images-posts {
    border-block-start: 2px solid rgb(166, 173, 180);
  }
+
+ form {
+  position: absolute;
+  top: 35%;
+  right: -2%;
+ }
+
+section {
+  background-color: #FFFFFF;
+  border-radius: 6px;
+  margin-block-end: 2rem;
+}
+
+section h3,
+section p,
+section small {
+  padding-inline-start: 1rem;
+  padding-inline-end: 1rem;
+}
+
+section {
+  padding-block-end: 1rem;
+}
+
+@media(min-width: 768px) {
+
+.images {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+}

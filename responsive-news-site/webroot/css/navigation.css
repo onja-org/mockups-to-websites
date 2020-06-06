@@ -39,12 +39,72 @@ body > [type="checkbox"]:checked ~ nav {
   transition: transform .3s ease-in;
 }
 
+nav li > a:visited {
+  color: #000000;
+}
+
 input {
   position: absolute;
+  /*
+  z-index: 3;
+  opacity: 0;
+*/
+}
+
+li a[href="/"] {
+  background-image: url("../css/icon/home-icon.svg");
+}
+
+li a[href="/dicovery"] {
+  background-image: url("../css/icon/discovery-icon.svg");
+}
+
+li a[ href="/photos"] {
+  background-image: url("../css/icon/photos-icon.svg");
+}
+
+li a[ href="/contact"] {
+  background-image: url("../css/icon/contact-icon.svg");
+}
+
+nav li:nth-of-type(5) {
+  display: flex;
+  opacity: 0.5;
+}
+
+nav img {
+  margin-inline-end: 1.5rem;
+  border-radius: 50%;
+  width: 1rem;
+  height: 1rem;
+}
+
+li a[href="/"],
+li a[href="/dicovery"],
+li a[ href="/photos"],
+li a[ href="/contact"] {
+  content: "";
+  position: absolute;
+  background-repeat: no-repeat;
+  width: 1rem;
+  height: 1rem;
+  background-size: contain;
+  padding-inline-start: 2.5rem;
+  opacity: 0.5;
+}
+
+li a[href="/"]:active,
+li a[href="/dicovery"]:active,
+li a[ href="/photos"]:active,
+li a[ href="/contact"]:active,
+nav li:nth-of-type(5):active {
+  opacity: 1;
 }
 
 @media(min-width: 768px) {
   body > nav {
+    display: flex;
+    flex-direction: row;
     position: absolute;
     top: 0;
     left: auto;
@@ -55,7 +115,12 @@ input {
     transition: none;
   }
 
+ label + h1 {
+  display: none;
+  }
+
   body > nav > ul {
+    display: flex;
     flex-direction: row;
   }
 
@@ -65,11 +130,12 @@ input {
     line-height: 1.25;
   }
 
-  #profile-link img {
-  background-image: none;
+  nav img {
+    display: none;
   }
 
   #profile-link a {
 
   }
 }
+
