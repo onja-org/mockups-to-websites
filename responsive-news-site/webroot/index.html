@@ -1,48 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Responsive</title>
-    <link rel="stylesheet" href="css/index.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive</title>
+  <link rel="stylesheet" href="css/index.css">
 </head>
 <body>
-  <input id="check_link" type="checkbox">
-  <header>
+  <input id="checkbox_list" type="checkbox">
+  <header class="head">
+    <label for="checkbox_list"><span>Menu</span></label>
     <h1>Logo</h1>
+    <p>
+      <img class="profile_image" src="../docs/pattern-10.jpeg" alt="an image profile">
+    </p>
   </header>
-    <nav class="homepage">
-      <ul>
-        <li><a href="/home"></a>Home</li>
-      </ul>
-      <ul>
-        <li><a href="/discovery"></a>Discovery</li>
-      </ul>
-      <ul>
-        <li><a href="/photos"></a>Photos</li>
-      </ul>
-      <ul>
-        <li><a href="/contact"></a>Contact</li>
-      </ul>
-      <ul>
-        <li><a href="/profile"></a>Profile</li>
-      </ul>
-    </nav>
-    <div class="introduction">
-      <ul>
-        <li>
-          <img class="image_1" src="../docs/pattern.jpeg" alt="an image describe the place">
-        </li>
-      </ul>
-      <h2 class="intro__heading">World News</h2>
-      <h3 class="intro__subhead">Amazing places in America to visit</h3>
-        <p class="intro__text">For some reason — this country, this city, this neighborhood, this particular street —is the place you are living a majority of your life in.</p>
-        <ul class="intro__link">
-          <li>
-            <a class="intro__link--link" href="#">Learn more</a>
-          </li>
-        </ul>
-    </div>
+  <nav>
+    <ul class="homepage">
+      <li class="home"><a href="/home"></a>Home</li>
+      <li class="discovery"><a href="/discovery"></a>Discovery</li>
+      <li><a href="/photos"></a>Photos</li>
+      <li><a href="/contact"></a>Contact</li>
+      <li><a href="/profile"></a>Profile</li>
+    </ul>
+  </nav>
+  <img class="image_1" src="../docs/pattern.jpeg" alt="an image describe the place">
+  <article class="introduction">
+    <h2 class="intro__heading">World News</h2>
+    <h3 class="intro__subhead">Amazing places in America to visit</h3>
+    <p class="intro__text">For some reason — this country, this city, this neighborhood, this particular street —is the
+      place you are living a majority of your life in.</p>
+    <p class="intro__link">
+        <a class="intro__link--link" href="#">Learn more</a>
+    </p>
+  </article>
   </header>
   <main class="information">
     <section class="information_1">
@@ -65,56 +57,58 @@
     <section class="information_2">
       <header>
         <h1 class="main_headings">Trending</h1>
-        <img class="image_2" src="../docs/pattern-2.jpeg" width=100% height= 100% alt="second image">
+        <img class="image_2" src="../docs/pattern-2.jpeg" width=100% height=100% alt="second image">
         <article class="article_1">
           <h1 class="article_title">Dolore magna aliqua</h1>
           <p class="article">Lorem ipsum dolor sit amet, ipsum labitur lucilius mel id, ad has appareat...</p>
-        <p class="article_time">2m ago</p>
-      </article>
-        <img src="../docs/pattern-3.jpeg" width=100% height= 100% alt="third image">
+          <p class="article_time">2m ago</p>
+        </article>
+        <img src="../docs/pattern-3.jpeg" width=100% height=100% alt="third image">
         <article class="article_1">
           <h1 class="article_title">Morbi eleifend a libero</h>
-          <p class="article">Lorem ipsum dolor sit amet, ipsum labitur lucilius mel id, ad has appareat...</p>
-        <p class="article_time">2m ago</p>
-      </article>
+            <p class="article">Lorem ipsum dolor sit amet, ipsum labitur lucilius mel id, ad has appareat...</p>
+            <p class="article_time">2m ago</p>
+        </article>
       </header>
     </section>
     <section class="information_3">
       <header>
         <h1 class="main_headings">Happening now</h1>
-        <img  src="../docs/pattern-5.jpeg" width=100% height= 100% alt="fourth image">
       </header>
-      <div>
-        <img class="image" src="../docs/pattern-6.jpeg" width=100% height= 100%alt="fifth image">
-        <h2 class="destination_1">City</h2>
-        <h3 class="destination_header_1">Large article title mobile layout</h3>
-        <p class="text_1">Lorem ipsum dolor sit amet, in eam odio amet, vix id nullam detracto, vidit vituperatoribus duo id. Affert detraxit</p>
-      </div>
-      <div>
-        <h2 class="destination_2">Travel</h2>
-        <h3 class="destination_header_2">Large article title mobile layout</h3>
-        <p class="text_2">Lorem ipsum dolor sit amet, in eam odio amet, vix id nullam detracto, vidit vituperatoribus duo id. Affert detraxit</p>
-      </div>
+      <article class="description_1">
+          <img class="image_4" src="../docs/pattern-5.jpeg" alt="fourth image">
+          <h2 class="destination_1">City</h2>
+          <h3 class="destination_header_1">Large article title mobile layout</h3>
+          <p class="text_1">Lorem ipsum dolor sit amet, in eam odio amet, vix id nullam detracto, vidit vituperatoribus
+          duo id. Affert detraxit</p>
+      </article>
+      <article class="description_1">
+          <img class="image_4" src="../docs/pattern-6.jpeg"alt="fifth image">
+          <h2 class="destination_1">Travel</h2>
+          <h3 class="destination_header_1">Large article title mobile layout</h3>
+          <p class="text_1">Lorem ipsum dolor sit amet, in eam odio amet, vix id nullam detracto, vidit vituperatoribus
+          duo id. Affert detraxit</p>
+      </article>
     </section>
     <section>
       <div>
-      <img src="../docs/pattern-7.jpeg" width=100% height= 100% alt="sixth image">
-      <h4>Small title</h4>
-      <cite class="article_time">3h ago by Worldnews</cite>
+        <img src="../docs/pattern-7.jpeg" width=100% height=100% alt="sixth image">
+        <h4>Small title</h4>
+        <cite class="article_time">3h ago by Worldnews</cite>
       </div>
       <div>
-      <img src="../docs/pattern-8.jpeg" width=100% height= 100% alt="sixth image">
-      <h4>Small title</h4>
-      <cite class="article_time">4h ago by Days</cite>
+        <img src="../docs/pattern-8.jpeg" width=100% height=100% alt="sixth image">
+        <h4>Small title</h4>
+        <cite class="article_time">4h ago by Days</cite>
       </div>
       <div>
-      <img src="../docs/pattern-9.jpeg" width=100% height= 100% alt="sixth image">
-      <h4>Small title</h4>
-      <cite>3h ago by Monica</cite>
+        <img src="../docs/pattern-9.jpeg" width=100% height=100% alt="sixth image">
+        <h4>Small title</h4>
+        <cite>3h ago by Monica</cite>
       </div>
     </section>
     <footer>
-      <nav>
+      <nav class="list_page">
         <ul>
           <li><a href="/about">About</a></li>
           <li><a href="/help">Help</a></li>
@@ -129,4 +123,5 @@
     </footer>
   </main>
 </body>
+
 </html>

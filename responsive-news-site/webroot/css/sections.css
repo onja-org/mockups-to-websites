@@ -1,85 +1,52 @@
-.information{
+ .information{
   margin-inline-start: 1rem;
 }
 
 .information_1{
   display: inline-block;
-  padding-block-start: 2rem;
+  padding-block-start: 20rem;
 }
 
-.information_2 img{
-  border-radius: 10px;
-}
-
-.information_3{
+.description_1{
   position: relative;
-  display: inline-block;
   color: white;
-  font-weight: 700px;
 }
 
-.destination_1{
+.image_4{
+  width: 100%;
+  height: 95%;
   position: absolute;
-  margin: 1rem; 
-  left: 0;
-  top: 115px;
-  text-transform: uppercase;
-  font-size: x-large;
-  font-weight: 800;
-}
+  z-index: -1;
+  object-fit: cover;
+  margin: 0;
+  transform: translate(0, 0);
+} 
 
-.destination_2{
-  position: absolute;
-  margin: 1rem; 
-  left: 0;
-  top: 420px;
-  text-transform: uppercase;
-  font-size: x-large;
-  font-weight: 800;
+.destination_1 {
+  position: relative;
+  margin: 0;
+  margin-inline-start: 2rem;
+  margin-inline-end: 2rem;
+  padding-block-start: 2rem;
+  padding-block-end: 2rem;
 }
 
 .destination_header_1{
-  position: absolute;
-  padding-block-start: 170px;
-  padding-block-end: 0;
-  margin: 1rem;
-  left: 0;
-  top: 0;
-  color: white;
-  font-size: 25px;
-  font-weight: 500px;
-}
-
-.destination_header_2{
-  position: absolute;
-  padding-block-start: 500px;
-  padding-block-end: 0;
-  margin: 1rem;
-  left: 0;
-  top: 0;
-  font-size: 25px;
-  font-weight: 500px;
+  position: relative;
+  margin: 0;
+  margin-inline-start: 2rem;
+  margin-inline-end: 2rem;
+  padding-block-start: 2rem;
+  padding-block-end: 2rem;
 }
 
 .text_1{
-  vertical-align:middle; 
-  position: absolute;
-  padding-block-start: 110px;
-  left: 0;
-  top: 0;
-  margin: 1rem;
-  color: white;
-  margin-block-start: 200px; 
+  position: relative;
+  margin: 0;
+  margin-inline-start: 2rem;
+  margin-inline-end: 2rem;
+  padding-block-start: 2rem;
+  padding-block-end: 2rem;
 }
+ 
 
-.text_2{
-  vertical-align:middle; 
-  position: absolute;
-  padding-block-start: 130px;
-  left: 0;
-  top: 0;
-  margin: 1rem;
-  color: white;
-  font-weight: 700px;
-  margin-block-start:460px; 
-}

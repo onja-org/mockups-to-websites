@@ -26,6 +26,7 @@ body > nav {
   left: 0;
   bottom: 0;
   padding: 0;
+  margin-inline-start: 50px;
 }
 
 input[type=checkbox]:checked ~ header label {

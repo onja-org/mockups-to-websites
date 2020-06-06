@@ -1,0 +1,8 @@
+.list_page{
+  background-color: lightgray;
+}
+
+footer ul{
+  grid-template-rows: repeat(2, 1fr);
+  display: grid;
+}
