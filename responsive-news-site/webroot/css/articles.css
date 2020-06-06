@@ -18,3 +18,14 @@
 .article__list--time::before {
   content: "";
 }
+
+.last_article {
+  padding-inline-end: 2rem;
+  background-color: rgb(246, 248, 249);
+}
+
+.small__list--image_small {
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+}
