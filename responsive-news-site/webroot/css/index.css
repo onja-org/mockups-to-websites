@@ -1,12 +1,15 @@
-/* @import "header.css";
+/*
 @import "button.css";
 @import "backgrounds.css";
 @import "footer.css";
-@import "defualt.css";
 @import "first-section.css";
 @import "second-section.css";
 @import "section-header.css";
 @import "third-section.css";
 @import "fourth-section.css";
 @import "fith-section.css";
-@import "icon.css"; */
+ */
+
+@import "header.css";
+@import "defualt.css";
+@import "icon.css";

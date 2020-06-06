@@ -1,10 +1,29 @@
+:root {
+  --anker-padding-inline : 2rem;
+}
 body > header > label {
   background-image: url(../images/icon.svg);
   background-repeat: no-repeat;
+  background-position: 10% 10%;
 }
-label {
-  position: absolute;
-  top: 10%;
-  left: 5%;
 
+.navigation__link--home {
+  background-image: url(../images/home.svg);
+  padding-inline-start: var(--anker-padding-inline);
+}
+
+.navigation__link--discovery {
+  background-image: url(../images/discovery.svg);
+  padding-inline-start: var(--anker-padding-inline);
+}
+.navigation__link--photos {
+  background-image: url(../images/photos.svg);
+  padding-inline-start: var(--anker-padding-inline);
+}
+.navigation__link--contact {
+  background-image: url(../images/contact.svg);
+  padding-inline-start: var(--anker-padding-inline);
+}
+.site_header__profile__image--nav {
+  border-radius: 1rem;
 }
