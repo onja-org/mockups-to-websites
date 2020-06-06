@@ -5,10 +5,6 @@
 }
 
 .more_news__heading {
-  font-size: 24px;
-  font-weight: 700;
-  color:#202124;
-  text-transform: uppercase;
   border-bottom: lightgrey 2px solid;
   padding-block-end: 2rem;
 }
@@ -34,5 +30,19 @@
 
 .more_news__list_items {
   margin-block-end: 3rem;
+}
+
+@media (min-width: 768px) {
+  .more_news__container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 40px;
+  }
+
+  .more_news {
+    padding-block-start: 460px;
+    padding-inline-start: 5rem;
+    padding-inline-end: 5rem;
+  }
 }
 

@@ -10,13 +10,6 @@
   padding-block-end: var(--base-paddign);
 }
 
-.happening_now__heading {
-  font-size: 24px;
-  font-weight: 700;
-  color: #202124;
-  text-transform: uppercase;
-}
-
 .happening_now__list_items--heading {
   font-weight: 700;
   text-transform: uppercase;
@@ -53,4 +46,16 @@
   padding-inline-start: var(--base-padding);
   padding-inline-end: var(--base-padding);
   padding-block-end: var(--base-paddign);
+}
+@media (min-width:768px) {
+  .happening_now {
+    padding-inline-start: 5rem;
+    padding-inline-end: 5rem;
+    margin-block-start: -4rem;
+    border-bottom: none;
+    margin-block-end: 2rem;
+  }
+  .happening_now__list_items--heading {
+    margin-block-end: 15rem;
+  }
 }

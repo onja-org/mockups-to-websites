@@ -41,12 +41,11 @@
   position: absolute;
   background-color: #fa6980;
   border-radius: 5px;
-  margin-block-start: 18rem;
-  margin-inline-start: 1rem;
-  padding-inline-start: 2rem;
-  padding-inline-end: 2rem;
-  padding-block-start: 1rem;
-  padding-block-end: 1rem;
+  margin-block-start: 1rem;
+  padding-inline-start: 1.5rem;
+  padding-inline-end: 1.5rem;
+  padding-block-start: 0.8rem;
+  padding-block-end: 0.8rem;
 }
 
 .learn_more__link {
@@ -56,4 +55,24 @@
   text-decoration: none;
   text-transform: uppercase;
   border: 0;
+}
+
+@media (min-width: 768px) {
+  .world_news__div {
+    position: absolute;
+    padding-inline-start: 5rem;
+    padding-inline-end: 5rem;
+    margin-block-start: 2rem;
+    padding-block-start: 4rem;
+ }
+  .world_news {
+    margin-block-start: -1rem;
+  }
+  .learn_more {
+    margin-block-end: 5rem;
+}
+.place {
+  height: 450px;
+}
+
 }
