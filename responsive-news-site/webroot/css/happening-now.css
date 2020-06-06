@@ -1,17 +1,101 @@
 .happening_now {
   background-color: rgb(246, 248, 249);
-  padding-inline-start: 1.5rem;
+  margin: 0;
+  border-bottom: 1px solid gray;
+}
+.city {
+  position: relative;
+  padding-inline-start: 3rem;
   padding-inline-end: 1.5rem;
   padding-block-start: 1rem;
-  padding-block-end: 1rem;
+  padding-block-end: 2rem;
+  z-index: 5;
+  color: #ffff;
 
 }
-.happening_now ul {
+.happening_now figure {
+  margin: 0;
+}
+.city figure img {
+  position: absolute;
+  border-radius: 6px;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  object-fit: cover;
+  margin-block-end: 2rem;
+  margin-inline-start: 1.5rem;
+
+
+}
+.happening_now header {
+  display: flex;
+  flex-direction: column-reverse;
+}
+.happening_now h2 {
+  font-size: 24px;
+  font-weight: 700;
+}
+.happening_now .subcategory {
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.happening_now .description {
+  color: #ffff;
+  font-size: 16px;
+}
+.happening_now .published--date {
+  color: #ffff;
+}
+.travel {
+  position: relative;
+  padding-inline-start: 3rem;
+  padding-inline-end: 1.5rem;
+  padding-block-start: 2rem;
+  padding-block-end: 2rem;
+  z-index: 5;
+  color: #ffff;
+
+}
+.travel figure img {
+  position: absolute;
+  border-radius: 6px;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  object-fit: cover;
+  margin-block-start: 2rem;
+  margin-block-end: 2rem;
+  margin-inline-start: 1.5rem;
+
+}
+
+.travel {
+  margin-block-end: 3rem;
+}
+
+.elephant {
+   position: relative;
+   top: 2rem;
+}
+.testimonials .subtitle {
+  font-size: 16px;
+  font-weight: 700;
+  color: #202124;
+}
+
+/*.happening_now ul {
+  width: 327px;
   padding-inline-start: 0;
+  padding-inline-end: 0;
 }
 .happening_now li {
 list-style: none;
-padding-inline-start: 0rem;
 
 }
 .happening_now__category {
@@ -25,7 +109,29 @@ padding-inline-start: 0rem;
 }
 .city {
   position: relative;
+  width: 327px;
+  height: 300px;
+  background-color: #ffff;
+  padding-block-start: 1rem;
+  padding-inline-start: 1rem;
 }
+.more_info {
+  width: 327px;
+  height: 300px;
+  position: absolute;
+  display: none;
+}
+.travel {
+  position: relative;
+  width: 327px;
+  height: 300px;
+  background-color: #ffff;
+  margin-block-start: 2rem;
+  padding-block-start: 1rem;
+  padding-inline-start: 1rem;
+}
+
+
 .testimonial img {
   width: 327px;
   height: 180px;
