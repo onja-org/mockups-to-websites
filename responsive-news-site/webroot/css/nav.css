@@ -146,6 +146,7 @@ body > nav {
     text-decoration: none;
     text-transform: uppercase;
     color: #343638;
+    margin: 0;
   }
 
   body > nav a > span {
