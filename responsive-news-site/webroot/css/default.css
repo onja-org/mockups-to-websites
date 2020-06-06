@@ -30,11 +30,16 @@ body {
                     url(../images/next_arrow.svg);
   background-repeat: no-repeat;
   background-size: 0.5rem;
-  background-position: 86% 20%, 100% 20% ;
+  background-position: 86% 20%, 100% 20%;
 }
 
 @media (min-width: 768px) {
   html {
     max-width: 768px;
   }
+  .heading {
+    background-position: 90% 20%, 100% 20%;
+    margin-block-start: 0rem;
+  }
+
 }

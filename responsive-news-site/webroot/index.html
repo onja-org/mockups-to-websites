@@ -12,7 +12,7 @@
   <input class="menu__input" type="checkbox" id="checkbox_menu">
   <header class="header">
     <label for="checkbox_menu" class="menu__label">
-      <span> Menu</span>
+      <span class="menu"> Menu</span>
     </label>
     <h1 class="header__logo">Logo</h1>
     <p>
@@ -23,12 +23,20 @@
   <nav class="navigation">
     <h1 class="navigation__header">Logo</h1>
     <ul class="navigation__container">
-      <li class="navigation__list_item first"><a class="navigation__link home home__link" href="/">Home</a></li>
-      <li class="navigation__list_item"><a class="navigation__link discovery" href="/discovery">Discovery</a></li>
-      <li class="navigation__list_item"><a class="navigation__link photos" href="/photos">Photos</a></li>
-      <li class="navigation__list_item"><a class="navigation__link contact" href="contact">Contact</a></li>
-      <li class="navigation__list_item"><a class="navigation__link profile" href="/profile"> <span>Profile</span></a>
-        <img class="profile__image image" src="./images/pattern-10.jpeg" alt="">
+      <li class="navigation__list_item first">
+        <a class="navigation__link home navigation__link--click" href="/">Home</a>
+      </li>
+      <li class="navigation__list_item">
+        <a class="navigation__link discovery navigation__link--click" href="/discovery">Discovery</a>
+      </li>
+      <li class="navigation__list_item">
+        <a class="navigation__link photos navigation__link--click" href="/photos">Photos</a>
+      </li>
+      <li class="navigation__list_item">
+        <a class="navigation__link contact navigation__link--click" href="contact">Contact</a>
+      </li>
+      <li class="navigation__list_item">
+        <a class="navigation__link profile navigation__link--profile" href="/profile"> <span class="span">Profile</span></a>
       </li>
     </ul>
   </nav>

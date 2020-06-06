@@ -31,7 +31,11 @@
   background-size: 20px 20px;
  }
 
- span {
+ .profile__span {
+   visibility: hidden;
+ }
+
+ .menu {
    visibility: hidden;
  }
 
@@ -120,13 +124,23 @@ body > [type="checkbox"]:checked ~ header label {
   body > nav > h1 {
     display: none;
   }
+
   body > nav > ul .navigation__link {
     padding: 1.25rem;
     background-color: none;
-    background-image: none;
     padding-block-end: 0;
   }
+  body > nav > ul .navigation__link--click {
+    background-image: none;
+  }
 
+  body > nav > ul .navigation__link--profile {
+    background-position: 44% 71%;
+    background-size: 2rem;
+  }
+  .span {
+    visibility: hidden;
+  }
   body > nav > ul li {
     margin-block-start: 1rem;
   }
@@ -136,9 +150,5 @@ body > [type="checkbox"]:checked ~ header label {
      margin-block-start: -4rem;
      margin-inline-end: 1rem;
    }
-
-  span {
-    visibility: hidden;
-  }
 
 }
