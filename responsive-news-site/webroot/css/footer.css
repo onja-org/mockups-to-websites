@@ -24,3 +24,13 @@ footer {
   text-transform: uppercase;
   color: white;
 }
+
+.social_media__list_item {
+  display: inline-block;
+  list-style: none;
+  /* padding-inline-start: 2rem; */
+}
+
+.social_media__icon {
+  text-decoration: none;
+}
