@@ -1,4 +1,5 @@
 .trending {
+  position: relative;
   background-color: rgb(246, 248, 249);
   padding-inline-start: 1.5rem;
   padding-inline-end: 1.5rem;
@@ -6,7 +7,27 @@
   padding-block-end: 1rem;
 
 }
-.trending__category {
+.trending h2 {
+  font-size: 16px;
+  color: #202124;
+}
+.trending figure {
+  margin-inline-start: 0;
+}
+.trending article {
+  background-color: #ffff;
+  border-radius: 6px;
+}
+.trending .description {
+  padding-inline-start: 1.5rem;
+}
+.trending h2 {
+  padding-inline-start: 1.5rem;
+}
+/*.trending .published--date {
+  padding-inline-start: 1.5rem;
+}
+/*.trending__category {
   font-size: 24px;
   font-weight: 700;
   color: #212324;
