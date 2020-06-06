@@ -24,10 +24,12 @@
 
 .label_menu {
   padding-block-start: 16px;
+  color: transparent;
 }
 
-.menu::before {
-  content: "Ξ";
+.menu {
+  background-image: url("../svg/menu.svg");
+  background-repeat: no-repeat;
 }
 
 .profile {

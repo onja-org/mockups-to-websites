@@ -1,43 +1,42 @@
-.navigation__container {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  flex-grow: 1;
-  background-color: rgb(246, 248, 249);
-  opacity: 0.1;
-  padding-inline-start: 16px;
-  padding-inline-end: 16px;
-  padding-block-start: 16px;
-  padding-block-end: 1.5rem;
-  margin: 0;
-
+.header__navigation {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: -280px;
+  width: 250px;
+  z-index: 1;
+  background-color: white;
 
 }
 
-.navigation__list_item {
-  list-style: none;
-  margin-block-start: 16px;
+
+
+/* [type="checkbox"] {
+  display: none;
+} */
+
+
+[type="checkbox"]:checked ~ .header__navigation {
+  position: absolute;
+  top: 60px;
+  bottom: 0;
+  left: 0;
+  width: 250px;
+  z-index: 1;
+  background-color: #F6F8F9;
+  box-shadow: 0 0 50px rgba(0, 0, 0, 0.25);
 }
 
-.navigation__link {
-  text-decoration: none;
-}
-.navigation__link--menu {
-  color: transparent;
-}
-
-
-.navigation__list_item--menu::before {
-  content: "Ξ";
-
-}
-
-.navigation__link--logo {
-  color: #000000;
-  font-weight: bold;
+.navigation_heading {
+  color: red;
   text-transform: uppercase;
+  font-size: 13px;
+  font-weight: bold;
+  padding-inline-start: 2.5rem;
+  padding-block-start: 2rem;
 }
 
-.navigation__link--profile {
-  border-radius: 50%;
+
+.header__list_item {
+  padding-block-start: 2rem;
 }
