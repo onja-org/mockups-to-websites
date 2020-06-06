@@ -6,7 +6,7 @@
   padding-inline-end: 2rem;
 }
 
-.curent-news__list {
+.curent-news-menu {
   position: relative;
   z-index: 1;
   object-fit: cover;
@@ -36,7 +36,7 @@
   padding-inline-start: 0;
 }
 
-.curent-news__heading {
+.curent-news__happening-now {
   color: black;
   font-size: 24px;
   text-transform: uppercase;
@@ -48,7 +48,7 @@
                         100% 60%;
 }
 
-.curent-news__list__heading {
+.curent-news__heading {
   text-transform: uppercase;
   padding-block-start: 1rem;
   font-size: 16px;
