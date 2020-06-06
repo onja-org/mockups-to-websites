@@ -73,3 +73,15 @@
   width: 100%;
 }
 
+small {
+  background-image: url(../css/clock.svg);
+  background-repeat: no-repeat;
+  padding-inline-start: 1.5rem;
+  background-position-y: -1px;
+}
+.arrow__class {
+  background-image: url(../css/arrow-back.svg),
+                    url(../css/arrow-ahead.svg);
+  background-repeat: no-repeat;
+  background-position: right -20px top 2px;
+}

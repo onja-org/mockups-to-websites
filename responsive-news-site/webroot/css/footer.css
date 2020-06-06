@@ -1,10 +1,22 @@
 footer {
   background-color: grey;
+  background-image: url(../css/social.svg),
+                    url(../css/twitter.svg),
+                    url(../css/facebook.svg),
+                    url(../css/instagram.svg);
+  background-repeat: no-repeat;
+  background-position: left 40px bottom -250px,
+                       left 90px bottom -250px,
+                       left 140px bottom -250px,
+                       left 200px bottom -250px;
+}
+footer > nav {
+  height: 55%;
 }
 
 .navigation__footer {
   display: grid;
-  grid-template-columns: repeat(2, 200px);
+  grid-template-columns: repeat(2, 125px);
   column-gap: 16px;
   row-gap: 30px;
   text-decoration: none;
@@ -25,4 +37,15 @@ footer {
   font-size: 16px;
   text-transform: uppercase;
   margin: 0;
+}
+
+.social__media {
+  display: flex;
+}
+.social__media__images {
+  list-style: none;
+}
+.social__media__images > a {
+  text-decoration: none;
+  visibility: hidden;
 }
