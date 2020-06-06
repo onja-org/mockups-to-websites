@@ -1,0 +1,46 @@
+footer {
+  background-color: gray;
+}
+.more_info__container {
+  display: flex;
+  flex-direction: row;
+  padding-top: 40px;
+}
+.more_info__container ul {
+  margin: 0;
+}
+.more_info__container li {
+  list-style: none;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+.more_info--navigation {
+  color: rgba(230, 225, 225, 0.452);
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 11px;
+  text-transform: uppercase;
+}
+
+
+.navigation_container {
+  display: flex;
+  flex-direction: row;
+}
+.navigation__info {
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+}
+.navigation__instagram {
+  background-image: url(../images/icon_instagram.svg);
+}
+.navigation__twiter {
+
+}
+.navigation__facebook {
+
+}
+.navigation__world {
+
+}
