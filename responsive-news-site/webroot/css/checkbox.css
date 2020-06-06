@@ -46,3 +46,59 @@ body [type="checkbox"]:checked ~ header label {
 .menu__input {
   visibility: hidden;
 }
+
+.navigation__header {
+  font-size: 13px;
+  font-weight: normal;
+  text-transform: uppercase;
+  color: rgb(230, 11, 11);
+}
+
+.navigation__container {
+  padding-inline-start: 0;
+  padding-block-start: 6rem;
+}
+
+.navigation__list_item {
+  padding-block-end: 2rem;
+}
+
+.navigation__link {
+  text-transform: uppercase;
+  color: #000000;
+  opacity: .5;
+  font-size: 11px;
+}
+
+.home {
+  background-image: url("../svg/home.svg");
+  background-repeat: no-repeat;
+  padding-inline-start: 2rem;
+  opacity: 1;
+}
+
+.discovery {
+  background-image: url("../svg/discovery.svg");
+  background-repeat: no-repeat;
+  padding-inline-start: 2rem;
+
+}
+
+.photos {
+  background-image: url("../svg/photo.svg");
+  background-repeat: no-repeat;
+  padding-inline-start: 2rem;
+}
+
+.contact {
+  background-image: url("../svg/contact.svg");
+  background-repeat: no-repeat;
+  padding-inline-start: 2rem;
+}
+
+.profile {
+  background-image: url(../image/pattern-10.jpeg);
+  background-repeat: no-repeat;
+  background-size: 16px 16px;
+  padding-inline-start: 2rem;
+}
