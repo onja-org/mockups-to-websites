@@ -20,9 +20,3 @@ ul > li {
 figure {
   margin: 0;
 }
-
-@media (min-width: 768px) {
-  article {
-    padding: 3rem;
-  }
-}
