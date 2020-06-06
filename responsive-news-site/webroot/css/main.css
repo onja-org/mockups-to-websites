@@ -76,7 +76,6 @@
   padding-block-end: 1rem;
   border-radius: 6px;
   width: 151px;
-
 }
 
 .nav_list_item_description--link > a{
@@ -161,4 +160,13 @@
 .section2 > header > h2 {
   border-bottom:#a6adb4 solid;
   padding-bottom: 40px;
+}
+
+@media(min-width :768px ){
+
+ body > nav > li> a {
+  background-color:none;
+  position: relative;
+
+ }
 }
