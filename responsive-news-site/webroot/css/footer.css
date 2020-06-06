@@ -1,7 +1,11 @@
-footer {
-  background-color: rgb(249, 251, 252);
+:root {
+  --footer-page-padding: 1rem;
+  --icon-padding-inline: 1.5rem;
+  --icon-padding-block: 0.75rem;
 }
-
+footer {
+  background-color: rgb(189, 185, 185);
+}
 .page_container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -11,13 +15,46 @@ footer {
 .page_list__item {
   list-style: none;
   text-transform: uppercase;
-  padding-inline-start: 1rem;
-  padding-inline-end: 1rem;
-  padding-block-start: 1rem;
-  padding-block-end: 1rem;
+  padding-inline-start: var(--footer-page-padding);
+  padding-inline-end: var(--footer-page-padding);
+  padding-block-start: var(--footer-page-padding);
+  padding-block-end: var(--footer-page-padding);
 }
 
 footer > nav > ul a {
   text-decoration: none;
   color: gray;
+}
+.icons_container {
+  display: flex;
+  flex-direction: row;
+  justify-content: stretch;
+}
+.icon_list__item {
+  list-style: none;
+  padding-inline-start: var(--icon-padding-inline);
+  padding-inline-end: var(--icon-padding-inline);
+  padding-block-start: var(--icon-padding-block);
+  padding-block-end: var(--icon-padding-block);
+}
+
+.icon_list__anchor--download {
+  background-image: url(../images/download.svg);
+  background-repeat: no-repeat;
+
+}
+.icon_list__anchor--twitter {
+  background-image: url(../images/twitter.svg);
+  background-repeat: no-repeat;
+}
+.icon_list__anchor--facebook {
+  background-image: url(../images/facebook.svg);
+  background-repeat: no-repeat;
+}
+.icon_list__anchor--browser {
+  background-image: url(../images/browser.svg);
+  background-repeat: no-repeat;
+}
+.icon_list__anchor--text {
+  visibility: hidden;
 }
