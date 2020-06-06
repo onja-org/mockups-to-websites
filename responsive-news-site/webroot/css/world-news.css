@@ -1,6 +1,7 @@
 .world-news {
   margin-inline-end: 10px;
   margin-block-start: 40px;
+  padding-block-end: 20px;
   color: white;
   position: relative;
 }
