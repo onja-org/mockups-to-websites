@@ -3,13 +3,24 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="css/index.css" rel="stylesheet">
   <title>Responsive New Site</title>
+  </style>
 </head>
 <body>
-  <header>
+  <input type="checkbox" name="nkl" id="manjaka">
+  <header class="page">
+    <label for="manjaka" class="icon icon_menu">
+      <!-- <a href="/menu"><img src="images/menu-icon.svg"></a> -->
+      <span>Go to the menu</span>
+    </label>
     <h1>
       <a href="/logo">Logo</a>
     </h1>
+    <p>
+      <img src="images/pattern-10 copy.jpeg" class="profile">
+      <span>Profile</span>
+    </p>
   </header>
   <nav>
     <ul>
@@ -18,37 +29,36 @@
       <li><a href="/photos">Photos</a></li>
       <li><a href="/contact">Contact</a></li>
       <li><a href="/profile">Profile</a></li>
-      <li><a href="/profile">
-        <img src="images/pattern-10 copy.jpeg" class="profile">
+      <li><img src="images/pattern-10 copy.jpeg" class="profile">
           <span>Profile</span>
       </a>
       </li>
     </ul>
   </nav>
 <main>
-  <section>
+  <section class="world_news">
     <article>
       <header>
+        <p class="category">World news</p>
         <h2>
           Amazing places in America to visit.
         </h2>
-        <p class="category">World news</p>
-        <header>
+      </header>
           <p class="description">
             For some reason — this country, this city, this neighborhood,
             this particular street —  is the place you are living a majority of your life in
           </p>
           <figure><img src="images/pattern.jpeg" alt="A small road cuts through a beautiful mountainous landscape"></figure>
-          <footer><a href="/learn--more">Learn more</a></footer>
+          <footer><a href="/learn-more" class="learn_more">Learn more</a></footer>
     </article>
   </section>
-  <section>
+  <section class="more_news">
     <article>
       <header>
-        <h2>Travel</h2>
         <p class="category">
           More news
         </p>
+        <h2>Travel</h2>
       </header>
       <div>
         <p class="subtitle">
@@ -64,25 +74,43 @@
         </p>
       </footer>
     </article>
-  </section>
-  <section>
     <article>
+      <header>
+        <h2>Technology</h2>
+      </header>
+      <div>
+        <p class="subtitle">
+          Article title
+        </p>
+        <p class="description">
+          Lorem ipsum dolor sit amet, ipsum labitur lucilius mel id, ad has appareat…
+        </p>
+      </div>
+      <footer>
+        <p class="published--date">
+          1h ago
+        </p>
+      </footer>
+    </article>
+  </section>
+  <section class="trending">
+    <p class="category">
+      Trending
+    </p>
+    <article>
+      <figure>
+        <img src="images/pattern-2.jpeg">
+      </figure>
     <header>
       <h2>
         Dolore magna aliqua
       </h2>
-      <p class="category">
-        Trending
-      </p>
     </header>
     <div>
       <p class="description">
         Lorem ipsum dolor sit amet, ipsum labitur lucilius mel id, ad has appareat...
       </p>
     </div>
-    <figure>
-      <img src="images/pattern-2.jpeg">
-    </figure>
     <footer>
       <p class="published--date">
         2m ago
@@ -90,6 +118,9 @@
     </footer>
     </article>
     <article>
+      <figure>
+        <img src="images/pattern-3.jpeg">
+      </figure>
       <header>
         <h2>
           Morbi eleifend a libero
@@ -100,9 +131,7 @@
           Lorem ipsum dolor sit amet, ipsum labitur lucilius mel id, ad has appareat...
         </p>
       </div>
-      <figure>
-        <img src="images/pattern-3.jpeg">
-      </figure>
+
       <footer>
         <p class="published--date">
           1m ago
@@ -110,15 +139,18 @@
       </footer>
     </article>
   </section>
-  <section>
-    <article>
+  <section class="happening_now">
+    <p class="category">
+      Happening now
+    </p>
+    <article class="city">
+      <figure>
+        <img src="images/pattern-5.jpeg">
+      </figure>
       <header>
         <h2>
           Large article title mobile layout
         </h2>
-        <p class="category">
-          Happening now
-        </p>
         <p class="subcategory">
           City
         </p>
@@ -128,16 +160,16 @@
           Lorem ipsum dolor sit amet, in eam odio amet, vix id nullam detracto, vidit vituperatoribus duo id. Affert detraxit
         </p>
       </div>
-      <figure>
-        <img src="images/pattern-5.jpeg">
-      </figure>
       <footer>
         <p class="published--date">
           2m ago
         </p>
       </footer>
     </article>
-    <article>
+    <article class="travel">
+      <figure>
+        <img src="images/pattern-6.jpeg">
+      </figure>
       <header>
         <h2>
           Large article title mobile layout
@@ -151,9 +183,6 @@
           Lorem ipsum dolor sit amet, in eam odio amet, vix id nullam detracto, vidit vituperatoribus duo id. Affert detraxit
         </p>
       </div>
-      <figure>
-        <img src="images/pattern-6.jpeg">
-      </figure>
       <footer>
         <p class="published--date">
           2m ago
@@ -162,35 +191,35 @@
     </article>
   </section>
   <section>
-    <article>
+    <article class="testimonials">
+      <figure>
+        <img src="images/pattern-7.jpeg" class="elephant">
+      </figure>
       <p class="subtitle">
         Small title
       </p>
-      <figure>
-        <img src="images/pattern-7.jpeg">
-      </figure>
       <p class="published--date">
         3h by <a href="/worldnews">Worldnews</a>
       </p>
     </article>
     <article>
-      <p class="subtitle">
-        Small title
-      </p>
       <figure>
         <img src="images/pattern-8.jpeg">
       </figure>
+      <p class="subtitle">
+        Small title
+      </p>
       <p class="published--date">
         3h ago by <a href="/days">Days</a>
       </p>
     </article>
     <article>
-      <p class="subtitle">
-        Small title
-      </p>
       <figure>
         <img src="images/pattern-9.jpeg">
       </figure>
+      <p class="subtitle">
+        Small title
+      </p>
       <p class="published--date">
         3h by <a href="/monica">Monica</a>
       </p>
@@ -198,7 +227,7 @@
   </section>
 </main>
 <footer>
-  <nav>
+  <div>
     <ul>
       <li><a href="/about">About</a></li>
       <li><a href="/help">Help</a></li>
@@ -209,7 +238,7 @@
       <li><a href="/integrations">Integrations</a></li>
       <li><a href="/careers">Careers</a></li>
     </ul>
-  </nav>
+  </div>
   <figure>
     <a href=""><img src=""></a>
     <a href=""><img src=""></a>
