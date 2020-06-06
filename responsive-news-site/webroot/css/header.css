@@ -145,12 +145,3 @@ label {
   border-radius: 5px;
 }
 
-@media (min-width: 768px) {
-  .responsive__list {
-    display: none;
-  }
-
-  .responsive {
-    background-color: transparent;
-  }
-}
