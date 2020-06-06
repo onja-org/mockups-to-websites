@@ -56,6 +56,8 @@ body > header img {
     display: none;
   }
 
-  body
+  body > header {
+    background-color: #f6f8f9;
+  }
 }
 

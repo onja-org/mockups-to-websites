@@ -89,6 +89,9 @@ body > nav {
     color: #343638;
   }
 
+  body > nav a > span {
+    display: none;
+  }
   body > nav ul {
     display: flex;
     flex-direction: row;
