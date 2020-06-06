@@ -69,5 +69,7 @@ footer {
 }
 
 footer h3 {
-  visibility: hidden;
+  margin-inline-start: 3rem;
+  margin-block-end: 3rem;
+  color: #ffffff;
 }
