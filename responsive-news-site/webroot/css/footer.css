@@ -4,7 +4,6 @@
 
 .footer--navigation {
   margin: 0;
-
 }
 
 .footer--navigation__list {
@@ -27,20 +26,34 @@
 .footer--navigation__list__social{
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: stretch;
   margin: 0;
-  padding-inline-start: 1.5rem;
+  padding: 0;
+  padding-inline-start: 0.5rem;
+}
+
+.footer--navigation__list__social__communication {
+  padding-block-end: 3rem;
 }
 
 .footer--navigation__list__social__communication__link{
   color: transparent;
   background-repeat: no-repeat;
   background-position: 50% 50%;
-  width: 79px;
-  height: 79px;
-  text-indent: -999px;
+}
+
+.footer--navigation__list__social__communication__link__instagram {
+  background-image: url("../images/icon_instagram.svg");
+}
+
+.footer--navigation__list__social__communication__link__twitter {
+  background-image: url("../images/icon_twitter.svg");
 }
 
 .footer--navigation__list__social__communication__link__facebook {
   background-image: url("../images/icon_facebook.svg");
+}
+
+.footer--navigation__list__social__communication__link__web {
+  background-image: url("../images/icon_web.svg");
 }
