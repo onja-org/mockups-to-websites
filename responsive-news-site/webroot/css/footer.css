@@ -1,21 +1,23 @@
 footer {
   background-color: rgb(249, 251, 252);
 }
-.page__container {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+
+.page_container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 2rem;
+  margin: 0;
 }
-.page__list--item {
+.page_list__item {
   list-style: none;
   text-transform: uppercase;
   padding-inline-start: 1rem;
   padding-inline-end: 1rem;
   padding-block-start: 1rem;
   padding-block-end: 1rem;
-  flex-grow: 1;
 }
-.text__link--item {
+
+footer > nav > ul a {
   text-decoration: none;
-  color: #ccc;
+  color: gray;
 }
