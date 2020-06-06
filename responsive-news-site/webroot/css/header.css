@@ -1,0 +1,38 @@
+@media (min-width :768px ) {
+  body > header> label,
+  body > header > p{
+    display: none;
+  }
+  body >header {
+    padding : 1.5 rem;
+  }
+}
+
+body > nav > ul {
+ list-style: ;
+}
+/* */
+@media (min-width :768px ) {
+   body > nav {
+     padding: 0;
+     background-color: transparent;
+    left: 0;
+    right: 0;
+    top: 0;
+    box-shadow: none;
+    transform: none;
+    transition: none;
+   }
+  body > nav > ul {
+  flex-direction: row;
+  }
+}
+
+/* */
+
+
+
+
+
+
+
