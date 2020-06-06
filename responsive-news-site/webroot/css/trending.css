@@ -2,30 +2,46 @@
   margin-block-start: 3rem;
 }
 .trending_list {
-  position: relative;
   list-style: none;
 }
 .trending_list h3 {
   text-transform: uppercase;
   margin-block-start: 3rem;
   font-size: 24px;
-  padding-block-end: 1rem;
 }
+.list2 img,
 .list1 img {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  top: 50%;
-  left: 50%;
-  z-index: -1;
-  object-fit: cover;
-  transform: translate(-50%, -50%);
-  margin-block-start: 4rem;
+  width: 100vw;
+  height: 40vw;
+  border-radius: 8px;
 }
+.list2 h4,
 .list1 h4 {
+  font-size: 16px;
+  padding-inline-start: 2.5rem;
   margin-block-end: 0;
 }
-
+.list2 > blockquote p,
+.list1 > blockquote p {
+  font-size: 13px;
+  color: lightgray;
+  line-height: 20px;
+}
+.list2 cite,
+.list1 cite {
+  background-image: url("../images/watch.svg");
+  background-repeat: no-repeat, no-repeat;
+  background-position: 0% 0%;
+  background-size: 15px 15px;
+  justify-content: space-between;
+  padding-inline-start: 2rem;
+}
+.list2 a,
+.list1 a {
+  font-size: 13px;
+  text-decoration: none;
+  color: lightgray;
+}
 
 
 

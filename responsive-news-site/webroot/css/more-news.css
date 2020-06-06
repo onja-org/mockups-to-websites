@@ -4,7 +4,7 @@
 }
 .more__news_article--head1 {
   padding-block-end: 2rem;
-  border-bottom: darkgray 1px solid;
+  border-bottom: lightgray 1px solid;
   font-size: 24px;
   text-transform: uppercase;
   background-image: url("../images/greyarrow.svg"), url("../images/blackarrow.svg");
@@ -28,13 +28,12 @@
   color: darkgray;
   font-size: 16px;
   line-height: 29px;
-  padding-inline-start: 1rem;
 }
 .time {
   background-image: url("../images/watch.svg");
   background-repeat: no-repeat, no-repeat;
-  background-position: 0% -50%;
+  background-position: 0% 0%;
   justify-content: space-between;
-  padding-inline-end: 1rem;
+  padding-inline-start: 2rem;
 }
 
