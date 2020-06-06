@@ -11,20 +11,21 @@
 
 
 
-/* [type="checkbox"] {
+[type="checkbox"] {
   display: none;
-} */
+}
 
 
 [type="checkbox"]:checked ~ .header__navigation {
   position: absolute;
-  top: 60px;
+  top: 0;
   bottom: 0;
   left: 0;
   width: 250px;
   z-index: 1;
   background-color: #F6F8F9;
   box-shadow: 0 0 50px rgba(0, 0, 0, 0.25);
+  transform: translateX(0);
 }
 
 .navigation_heading {
@@ -39,4 +40,48 @@
 
 .header__list_item {
   padding-block-start: 2rem;
+}
+
+.header__link--home {
+  background-image: url("../svg/home.svg");
+  background-repeat: no-repeat;
+  padding-inline-start: 2rem;
+
+
+}
+
+.header__link--discovery {
+  background-image: url("../svg/discovery.svg");
+  background-repeat: no-repeat;
+  padding-inline-start: 2rem;
+
+}
+
+.header__link--photos {
+  background-image: url("../svg/photos.svg");
+  background-repeat: no-repeat;
+  padding-inline-start: 2rem;
+
+}
+
+.header__link--contact {
+  background-image: url("../svg/contact.svg");
+  background-repeat: no-repeat;
+  padding-inline-start: 2rem;
+
+}
+
+.profile-image {
+  border-radius: 50;
+  padding-inline-end: 2rem;
+}
+
+body [type="checkbox"]:checked ~ .header .label_menu {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
 }
