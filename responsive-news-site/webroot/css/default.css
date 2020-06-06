@@ -47,7 +47,7 @@ html {
 /* Tablet */
 
 @media (min-width: 768px) {
-  html {
+  section {
     max-width: 780px;
     margin-inline-start: auto;
     margin-inline-end: auto;
@@ -56,10 +56,9 @@ html {
 
   .more-news {
     padding: 0;
-    margin: 0;
     display: grid;
-    grid-template-columns: repeat(2, calc(768px / 2));
-    grid-column-gap: 5px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 10px;
     column-gap: 10px;
   }
 }
