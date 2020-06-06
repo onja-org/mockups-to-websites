@@ -20,6 +20,10 @@
   font-family: serif;
   opacity: 0.5;
 }
+/* .date-post {
+  margin-inline-start: 3rem;
+  margin-inline-end: 3rem;
+} */
 .amet {
   padding-top: 0;
   padding-bottom: 0;
@@ -29,7 +33,7 @@
   position: relative;
   margin-left: 1rem;
   background-color: white;
-  width: 100%;
+  width: 93%;
   height: auto;
   margin-top: -3rem;
   border-bottom-left-radius: 10px;
@@ -38,3 +42,5 @@
 .trending__nav .odd {
   margin-top: -6rem;
 }
+
+

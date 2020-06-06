@@ -53,6 +53,10 @@ h3 {
   color: black;
   font-family: sans-serif;
 }
+.more-news .date-post {
+  margin-inline-start: 2rem;
+  margin-inline-end: 2rem;
+}
 
 @media (min-width: 768px) {
   article {

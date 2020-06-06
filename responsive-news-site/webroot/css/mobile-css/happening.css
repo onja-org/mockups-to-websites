@@ -3,6 +3,7 @@
   border-bottom: 2px solid darkgray;
   margin-inline-start: 1rem;
   margin-inline-end: -1rem;
+  width: 93%;
 }
 .happening h2 {
   border: none;
