@@ -36,6 +36,7 @@
   flex-direction: row;
   align-items: center;
   justify-content: space-around;
+  margin-block-end: -40px;
 }
 span {
   display: none;
@@ -61,6 +62,10 @@ span {
   z-index: 1;
 }
 
+body > [type="checkbox"] {
+  width: 1rem;
+  height: 1rem;
+}
 
 input[type="checkbox"]:checked ~ .menu__container-list {
   display: block;
