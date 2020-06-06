@@ -23,7 +23,8 @@ body {
 
 @media (min-width:768px) {
   .header__menu,
-  .header__logo {
+  .header__logo,
+  .navigation_profile__description {
     display: none;
   }
   .nav_container {
@@ -36,8 +37,7 @@ body {
     background-color: transparent;
   }
   .navigation__logo {
-    margin-top: 0;
-    margin-bottom: 0;
+    margin: 0;
   }
   .navigation__image,
   .navigation_image {
@@ -46,9 +46,41 @@ body {
   .container {
     float: right;
     display: flex;
+    margin-inline-end: 50px;
     padding: 0;
     flex-direction: row;
     margin-top: -50px;
-    margin-inline-end: 16px;
+  }
+  .world_news {
+    padding: 48px;
+  }
+  .more_news > ul {
+    display: flex;
+    flex-direction: row;
+  }
+  .more_news {
+    padding: 48px;
+    padding-top: 0;
+    background-color: white;
+  }
+  .trending {
+    padding: 48px;
+    display: flex;
+    flex-direction: row;
+  }
+  .trending__morbi {
+    clear: right;
+    float: right;
+  }
+
+
+
+
+
+
+
+
+  .happening_now__list_item_third {
+    display: none;
   }
 }
