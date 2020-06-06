@@ -35,41 +35,10 @@ body > header  h1 {
   font-size: 16px;
 }
 
-.navigation__menus--hidden {
-  list-style: none;
-  display: flex;
-  flex-direction: column;
-  position: absolute;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  padding: 0;
 
-}
+/* Let's hide the icon-menu and the profile*/
 
-.navigation__menus__list-of-menus__new-tab {
-  text-decoration: none;
-  text-transform: uppercase;
-  color: #000000;
-}
-
-input[type=checkbox] {
- display: none;
-
-}
-.navigation {
-  transform: translateX(-111px);
-  transition: transform 0.3s;
-}
-
-input[type=checkbox]:checked ~ .navigation {
-  transform: translateX(0%);
-  background-color: #f6f8f9;
-  box-shadow: 0 0 50px rgba(0 , 0, 0, .25);
-}
-
-/* Let's hide the icon-menu ansd the profile*/
-@media (min-width: 768px) {
+@media(min-width: 614px) {
   body > header > label,
   body > header > p {
     display: none;
@@ -78,35 +47,5 @@ input[type=checkbox]:checked ~ .navigation {
   body > header {
     padding: 1.25rem;
   }
- 
-body  nav {
-  padding: 1rem;
-  position: absolute;
-  top: auto;
-  left: auto;
-  bottom: auto;
-  width: auto;
-  box-shadow: 0 0 50px rgba(0 , 0, 0, .25);
-  transition: transform 0.3s;
-}
-body {
-  background-color: aquamarine;
-}
-body  nav > ul {
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-around;
-}
 
-.navigation__menus__woman-profile {
-  width: 2rem;
-  height: 2rem;
-  margin-inline-start: 0;
-}
-
-body > nav > ul a {
-  padding: 1.25rem;
-  background-image: none;
-  line-height: 1.25rem;
-}
 }
