@@ -20,11 +20,12 @@
   padding-inline-start: var(--second-section-padding-inline);
   padding-block-start: var(--second-section-padding-block);
   padding-block-end: var(--second-section-padding-block);
-  padding-inline-end: 1rem;
+  padding-inline-end: var(--second-section-padding-inline);
 }
 .article_read {
   color: #ccc;
   padding-inline-start: var(--second-section-padding-inline);
+  padding-inline-end: var(--second-section-padding-inline);
 }
 .checked_timing {
   color: #ccc;
@@ -32,4 +33,11 @@
   padding-inline-start: var(--second-section-padding-inline);
   padding-block-end: var(--second-section-padding-inline);
   padding-block-start: 1rem;
+}
+@media (min-width: 768px) {
+  .article_container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 5%;
+  }
 }
