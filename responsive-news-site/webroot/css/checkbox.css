@@ -14,20 +14,35 @@ h1 > a {
 }
 
 .navigation {
+  width: 290px;
   position: absolute;
   top: 0;
   bottom: 0;
   left: 0;
-  transform: translateX(-110%);
-  transition: transform .2s;
   box-shadow: 0px 0px 50px rgba(0,0,0,.25);
   z-index: 1;
   background-color: #f6f8f9;
   padding-inline-start: 2rem;
-  width: 290px;
   padding-block-start: 1rem;
- }
+  transform: translateX(-110%);
+  transition: transform .2s;
 
-.input[type="checkbox"]:checked + label {
+}
+
+[type="checkbox"]:checked ~ .navigation {
   transform: translateX(0);
+}
+
+body [type="checkbox"]:checked ~ header label {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.menu__input {
+  visibility: hidden;
 }
