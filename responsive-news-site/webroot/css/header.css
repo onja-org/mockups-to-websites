@@ -39,11 +39,11 @@
   padding-block-end: 2rem;
 }
 
-li{
+.homepage li{
   padding-block-start: 2rem;
   padding-block-end: 2rem;
   list-style: none;
-}
+} 
 
 .link{
   color: white;

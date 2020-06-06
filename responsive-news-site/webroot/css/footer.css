@@ -1,8 +1,19 @@
 .list_page{
-  background-color: lightgray;
+  background-color: lightgrey;
+  padding-block-start: 40px;
+  padding-block-end: 40px;
 }
 
-footer ul{
-  grid-template-rows: repeat(2, 1fr);
+.links{
+  grid-template-columns: repeat(2, 1fr);
   display: grid;
+  list-style: none;
+  line-height: 2;
+}
+
+.links a{
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+  padding-inline-start: 2rem;
 }
