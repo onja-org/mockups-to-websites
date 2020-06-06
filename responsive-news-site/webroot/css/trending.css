@@ -25,6 +25,7 @@
   background-color: #fff;
   border-radius: 5px;
   margin-block-end: var(--base-padding);
+  padding-block-end: 2rem;
 }
 
 .trending__list-items--heading {
@@ -42,8 +43,18 @@
   padding-inline-end: var(--base-padding);
 }
 
+.trending__time {
+  font-size: 13px;
+  font-style: oblique;
+  color: #a6adb4;
+  background-image: url(../images/clock.svg);
+  background-position: 10% 0%;
+  background-repeat: no-repeat;
+  padding-inline-start: 4rem;
+}
+
 .pattern {
-  height: 400px;
+  height: 200px;
   width: 100%;
   border-radius: 5px 5px 0 0;
 }

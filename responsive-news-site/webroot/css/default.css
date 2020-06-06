@@ -20,3 +20,15 @@ body {
   background-repeat: no-repeat;
   padding-inline-start: 2rem;
 }
+
+.heading {
+  font-size: 24px;
+  font-weight: 700;
+  color: #202124;
+  text-transform: uppercase;
+  background-image: url(../images/back_arrow.svg),
+                    url(../images/next_arrow.svg);
+  background-repeat: no-repeat;
+  background-size: 0.5rem;
+  background-position: 82% 53%, 100% 51% ;
+}
