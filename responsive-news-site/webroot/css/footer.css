@@ -1,15 +1,17 @@
 footer {
+  margin-block-start: -1rem;
   background-color: #000000;
   opacity: 0.23;
 }
-footer ul {
+
+footer .links {
   display: grid;
   grid-template-columns: repeat(2,1fr);
   padding-block-start: 2rem;
 }
+
  footer li {
   padding-block-start: 2rem;
-
  }
 
 footer a {
@@ -17,4 +19,44 @@ footer a {
   color: #fff;
   text-transform: uppercase;
   font-size: 11px;
+}
+
+.icons {
+display: flex;
+flex-direction: row;
+}
+
+.icons li {
+   flex-grow: 1;
+}
+
+.icon {
+  display: block;
+  background-image: url(../css/first-icon.svg);
+  width: 50px;
+  height: auto;
+}
+
+.facebook {
+  display: block;
+  background-image: url(../css/facebook.svg);
+  width: 50px;
+  height: auto;
+}
+
+.twitter {
+  display: block;
+  background-image: url(../css/twitter.svg);
+  width: 50px;
+  height: auto;
+}
+.git {
+  display: block;
+  background-image: url(../css/github.svg);
+  width: 50px;
+  height: auto;
+}
+
+.icons li a {
+  display: none;
 }
