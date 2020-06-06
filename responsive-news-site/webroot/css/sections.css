@@ -10,6 +10,39 @@
   padding-inline-end: 1.5rem;
 }
 
+@media (min-width:768px) {
+  .section__featured--gathered {
+    display: grid;
+    grid-template-columns: repeat(2, 350px);
+    column-gap: 80px;
+  }
+  .section__trending {
+    display: grid;
+    grid-template-columns: repeat(2, 350px);
+    column-gap: 50px;
+    margin-inline-start: 4.5rem;
+    padding-block-end: 2rem;
+  }
+  .section__image {
+    display: grid;
+    grid-template-columns: repeat(2, 350px);
+    column-gap: 80px;
+    margin-inline-start: 5rem;
+  }
+
+  .sections__travel {
+    width: 50%;
+    height: 50%;
+    transform: translateX(12rem);
+  }
+  .sections__tree__image {
+    height: 50%;
+  }
+  .sections__road__image {
+    display: none;
+  }
+}
+
 .article__trending {
   background-color: #f6f8f9;
 }

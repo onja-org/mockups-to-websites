@@ -85,13 +85,21 @@
 
 /* Tablet */
 @media (min-width: 768px) {
-  /* Let's hide the menu icon and the profile link from the header */
-  body > header > label,
-  body > header > p {
-    display: none;
+  .header {
+    padding: 1.25rem;
+    background-color: #f6f8f9;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-around;
   }
 
-  body > header {
-    padding: 1.25rem;
+  .menu__label {
+    display: none;
+  }
+  .header__headings {
+    transform: translateX(-217px);
   }
 }
+
+
