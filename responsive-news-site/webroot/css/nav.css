@@ -46,6 +46,14 @@
   padding-block-end: 2rem;
 }
 
+.menu-responsive__list-item__link {
+  color: gray;
+}
+
+.menu-responsive__list-item--link__home {
+  color: #000;
+}
+
 .navigation_menu-responsive a {
   text-transform: uppercase;
 }
