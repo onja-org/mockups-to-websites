@@ -13,6 +13,49 @@ body [type="checkbox"] {
   background-color: #ffff;
   z-index: 2;
   box-shadow: 0 0 50px rgb(0 0 0);
+  transform: translateX(0);
+  transition: 2s;
+}
+
+body [type="checkbox"]:checked ~ nav .home {
+  background-image: url(../images/home.svg);
+  background-position: left center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  color: #343638;
+}
+
+body [type="checkbox"]:checked ~ nav .discovery {
+  background-image: url(../images/discovery.svg);
+  background-position: left center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+body [type="checkbox"]:checked ~ nav .contact {
+  background-image: url(../images/photos.svg);
+  background-position: left center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+body [type="checkbox"]:checked ~ nav .photos {
+  background-image: url(../images/contact.svg);
+  background-position: left center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+body [type="checkbox"]:checked ~ nav .profile {
+  padding: 0;
+}
+
+body [type="checkbox"]:checked ~ nav span {
+  padding-inline-start: .5rem;
+}
+
+body [type="checkbox"]:checked ~ nav img {
+  border-radius: 50%;
 }
 
 body [type="checkbox"]:checked ~ nav {
@@ -46,6 +89,21 @@ body [type="checkbox"]:checked ~ header > label {
   background-size: 1rem 1rem;
   background-repeat: no-repeat;
   transition: 2s;
+  z-index: 6;
+  background: none;
+}
+
+body [type="checkbox"]:checked ~ nav li {
+  list-style: none;
+}
+
+body nav a {
+  text-transform: uppercase;
+  text-decoration: none;
+  padding-inline-start: 2rem;
+  display: inline-block;
+  margin-block-end: 2rem;
+  color: #343638;
 }
 
 body > nav {
