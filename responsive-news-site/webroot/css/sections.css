@@ -16,27 +16,34 @@
     grid-template-columns: repeat(2, 350px);
     column-gap: 80px;
   }
+  .sections__featured {
+    margin-inline-start: 6rem;
+  }
   .section__trending {
     display: grid;
-    grid-template-columns: repeat(2, 350px);
-    column-gap: 50px;
-    margin-inline-start: 4.5rem;
+    grid-template-columns: repeat(2, 400px);
+    column-gap: 20px;
+    margin-inline-start: 6rem;
     padding-block-end: 2rem;
   }
   .section__image {
     display: grid;
-    grid-template-columns: repeat(2, 350px);
-    column-gap: 80px;
-    margin-inline-start: 5rem;
+    grid-template-columns: repeat(2, 400px);
+    column-gap: 20px;
+    margin-inline-start: 12rem;
   }
-
+  .sections__city {
+    width: 50%;
+    height: 50%;
+    transform: translateX(12rem);
+  }
   .sections__travel {
     width: 50%;
     height: 50%;
     transform: translateX(12rem);
   }
   .sections__tree__image {
-    height: 50%;
+    width: 41%;
   }
   .sections__road__image {
     display: none;
