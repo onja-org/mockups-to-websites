@@ -20,14 +20,48 @@
 }
 
 .menu__container {
-  transform: translateX(-140px);
+  transform: translateX(-160px);
   position: absolute;
 }
 
 .menu__container-list {
   list-style: none;
+  background-size: 1rem;
+  padding-inline-start: 40px;
 }
 
 .menu-header {
   color: red;
+  padding-inline-start: 40px;
+}
+
+.home {
+  background-image: url('../docs/home.svg');
+  background-repeat: no-repeat;
+  background-position: 0 50%;
+}
+
+.discover {
+  background-image: url('../docs/discover.svg');
+  background-repeat: no-repeat;
+  background-position: 0 50%;
+}
+
+.photos {
+  background-image: url('../docs/photo.svg');
+  background-repeat: no-repeat;
+  background-position: 0 50%;
+}
+
+.contact {
+  background-image: url('../docs/contact.svg');
+  background-repeat: no-repeat;
+  background-position: 0 50%;
+  background-size: 4rem;
+}
+
+.profile {
+  background-image: url('../docs/profile.svg');
+  background-repeat: no-repeat;
+  background-position: 0 50%;
 }
