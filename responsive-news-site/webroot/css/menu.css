@@ -116,6 +116,7 @@ body > [type="checkbox"]:checked ~ header label {
     box-shadow: none;
     background-color: transparent;
     width: auto;
+    margin-inline-end: 35rem;
   }
   body > .navigation > .navigation__container {
    flex-direction: row;

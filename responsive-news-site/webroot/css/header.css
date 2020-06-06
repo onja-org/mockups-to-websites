@@ -41,6 +41,7 @@ body > header {
     padding-inline-start: 0rem;
     margin-inline-start: 0rem;
     padding-block-end: 1rem;
+    margin-inline-end: 0;
   }
 
   .header__logo {

@@ -18,3 +18,10 @@ footer > form {
   font-size: 11px;
   color: lavender;
 }
+
+@media (min-width: 768px) {
+  footer > form {
+    margin-inline-start: 5rem;
+    margin-block-start: -7rem;
+  }
+}

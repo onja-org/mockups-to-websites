@@ -36,3 +36,11 @@
   background-image: url(../images/web.svg);
   margin-inline-start: -0.5rem;
 }
+
+@media (min-width: 768px) {
+  .social__container {
+  margin-inline-start: 30rem;
+  margin-inline-end: 5rem;
+  margin-block-start: 5rem;
+  }
+}
