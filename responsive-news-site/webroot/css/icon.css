@@ -1,0 +1,46 @@
+.footer_icon {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  list-style: none;
+  margin-block-start: 3rem;
+}
+.icon_instagram {
+  background-image: url("../images/instagram.svg");
+  display: block;
+  height: 15px;
+  width: 15px;
+  background-repeat: no-repeat;
+  padding-inline-end: 1rem;
+  margin-block-end: 2rem;
+}
+.icon_twitter {
+  background-image: url("../images/twitter.svg");
+  display: block;
+  height: 15px;
+  width: 15px;
+  background-repeat: no-repeat;
+  padding-inline-end: 1rem;
+  margin-block-end: 2rem;
+}
+.icon_facebook {
+  background-image: url("../images/facebook.svg");
+  display: block;
+  height: 15px;
+  width: 15px;
+  background-repeat: no-repeat;
+  padding-inline-end: 1rem;
+  margin-block-end: 2rem;
+}
+.icon_browser {
+  background-image: url("../images/browser.svg");
+  display: block;
+  height: 15px;
+  width: 15px;
+  background-repeat: no-repeat;
+  margin-block-end: 2rem;
+}
+.icon_link {
+  visibility: hidden;
+
+}

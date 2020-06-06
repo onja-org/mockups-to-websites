@@ -1,11 +1,19 @@
 .happening_now {
   position: relative;
-  top: 21rem;
 }
 .happening_now__list {
   list-style: none;
 }
-.happening_now img {
+.happening_now__list1 img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 50%;
+  left: 50%;
+  object-fit: cover;
+  transform: translate(-50%, -50%);
+}
+.happening_now__list2 img {
   position: absolute;
   width: 100%;
   height: 100%;

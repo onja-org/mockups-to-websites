@@ -1,0 +1,25 @@
+footer {
+  background-color: gainsboro;
+  display: block;
+}
+.list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  row-gap: 1rem;
+}
+
+.footer_navigation {
+padding-block-start: 1rem;
+}
+.list li {
+  list-style: none;
+}
+.list > li a {
+  text-decoration: none;
+  color: whitesmoke;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 11px;
+
+}
+
