@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="./css/index.css">
   </head>
   <body>
-    <input type="checkbox" id="menu-checkbox">
+    <input class="menu-checkbox" type="checkbox" id="menu-checkbox">
     <header class="responsive-mobile">
       <label class="responsive-mobile__information responsive-mobile__icon-menu responsive-mobile__heading__link--homepage" for="menu-checkbox"></label>
       <h1 class="responsive-mobile__information responsive-mobile__heading"><a class="responsive-mobile__heading__link-logo" href="/">Logo</a></h1>
@@ -20,12 +20,13 @@
     </header>
 
     <nav class="navigation_menu-responsive">
-      <ul class="menu-responsive">
-        <li class="menu-responsive__list-item"><a class="menu-responsive__list-item__link menu-responsive__list-item--link" href="/">Home</a></li>
-        <li class="menu-responsive__list-item"><a class="menu-responsive__list-item__link menu-responsive__list-item--link" href="/discovery">Discovery</a></li>
-        <li class="menu-responsive__list-item"><a class="menu-responsive__list-item__link menu-responsive__list-item--link" href="/photos">Photos</a></li>
-        <li class="menu-responsive__list-item"><a class="menu-responsive__list-item__link menu-responsive__list-item--link" href="/contact">contact</a></li>
-        <li class="menu-responsive__list-item"><a class="menu-responsive__list-item__link" href="/profile">
+      <h2 class="navigation_menu-responsive__homepage navigation_menu-responsive__heading"><a class="navigation_menu-responsive__heading--link" href="/">Logo</a></h2>
+      <ul class="navigation_menu-responsive__homepage menu-responsive">
+        <li class="menu-responsive__list-item"><a class="menu-responsive__list-item__link menu-responsive__list-item--link__home" href="/">Home</a></li>
+        <li class="menu-responsive__list-item"><a class="menu-responsive__list-item__link menu-responsive__list-item--link__discovery" href="/discovery">Discovery</a></li>
+        <li class="menu-responsive__list-item"><a class="menu-responsive__list-item__link menu-responsive__list-item--link__photo" href="/photos">Photos</a></li>
+        <li class="menu-responsive__list-item"><a class="menu-responsive__list-item__link menu-responsive__list-item--link__contact" href="/contact">contact</a></li>
+        <li class="menu-responsive__list-item"><a class="menu-responsive__list-item__link menu-responsive__list-item--link__profile" href="/profile">
           <img class="menu-responsive__list-item--profile responsive-mobile__heading--image-profile" src="./images/profile.jpeg" alt="Profile">
           <span class="profile_span">Profile</span>
           </a>
