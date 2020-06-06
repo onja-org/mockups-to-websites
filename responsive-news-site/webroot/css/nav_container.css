@@ -9,6 +9,9 @@
   color: #a6adb4;
   font-size: 11px;
 }
+.navigation_home_description {
+  color: #000;
+}
 .nav_container {
   position: absolute;
   top: 0;
