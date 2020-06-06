@@ -3,6 +3,7 @@
   background-color: rgb(246, 248, 249);
   display: flex;
   justify-content: space-between;
+  margin-block-start: -2rem;
 }
 
 .menu__label {
