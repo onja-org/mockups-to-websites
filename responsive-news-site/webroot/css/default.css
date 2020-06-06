@@ -24,17 +24,7 @@ html {
                        90% 00%;
 }
 
-.more-news {
-  padding: 0;
-  margin: 0;
-}
-
-.more-news__list {
-  list-style: none;
-
-}
-
-.more-news__list__heading {
+.more-news__heading {
   margin: 0;
   color: rgba(255, 34, 0, .5);
   text-transform: uppercase;
@@ -42,11 +32,11 @@ html {
   margin-block-end: 2rem;
 }
 
-.more-news__list__subheading {
+.more-news__subheading {
   margin: 0;
 }
 
-.more-news__list__paragraph {
+.more-news__paragraph {
   color: #c2c2cc;
 }
 
@@ -54,6 +44,22 @@ html {
   text-transform: uppercase;
 }
 
-.curent-news__list {
-  list-style: none;
+/* Tablet */
+
+@media (min-width: 768px) {
+  html {
+    max-width: 780px;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+
+  }
+
+  .more-news {
+    padding: 0;
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(2, calc(768px / 2));
+    grid-column-gap: 5px;
+    column-gap: 10px;
+  }
 }
