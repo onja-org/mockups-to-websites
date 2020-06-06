@@ -8,3 +8,10 @@
   margin-inline-start: 2.3rem;
 
 }
+
+@media (min-width: 614px) {
+ #more-news ul {
+    display: flex;
+    flex-direction: row;
+  }
+}

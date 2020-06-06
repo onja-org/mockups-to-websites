@@ -28,7 +28,7 @@
 }
 .sharing-news__amazing-city {
   position: absolute;
-  width: 83%;
+  width: 90%;
   height: 100%;
   top: -1rem;
   left: 2.3rem;
@@ -61,7 +61,7 @@
   top: 0;
   left: 2.3rem;
   bottom: 0;
-  width: 83%;
+  width: 90%;
   height: 90%;
 }
 
@@ -74,4 +74,34 @@
 .city .sharing-news__titles__sub-title1--uppercase {
   padding-block-start: 2rem;
  }
+
+ /* For the small lists sections*/
+
+ #posts {
+  margin-block-start: -1rem;
+  background-color: #f6f8f9;
+}
+
+#posts .sharing-news__description--period {
+  padding-block-end: 1.5rem;
+}
+
+#posts .sharing-news-navigation__description-lists__list--niceforest {
+  padding-block-end: 1rem;
+}
+
+@media (min-width: 614px) {
+  #posts .sharing-news-navigation__description-lists {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+  }
+
+  #posts .sharing-news-navigation__description-lists__list--niceforest {
+    display: none;
+  }
+
+ .small-title-image.tall {
+   height: 64%;
+ }
+}
 

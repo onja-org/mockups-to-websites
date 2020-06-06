@@ -38,3 +38,10 @@ padding-inline-end: 2rem;
 padding-block-start: 1rem;
 padding-block-end: 1rem;
 }
+
+@media (min-width: 614px) {
+  #world-news .sharing-news__section {
+    padding-inline-start: 3rem;
+    padding-inline-end: 3rem;
+  }
+}

@@ -12,10 +12,28 @@
 
 .sharing-news-navigation__trending-image {
   width: 100%;
-}
 
+}
+.sharing-news-navigation__trending-image--height {
+  width: 100%;
+
+}
 #trending .sharing-news__explanation,
 #trending .sharing-news__explanation--period,
 #trending .sharing-news__titles__sub-title1 {
   margin-inline-start: 2rem;
+}
+
+@media (min-width: 614px) {
+  #trending .sharing-news-navigation__description-lists {
+    display: flex;
+    flex-direction: row;
+  }
+
+  #trending .sharing-news-navigation__description-lists__list {
+    width: 50%;
+  }
+  .sharing-news-navigation__trending-image {
+    height: 53%;
+  }
 }
