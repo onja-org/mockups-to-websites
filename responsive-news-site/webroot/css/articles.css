@@ -29,3 +29,7 @@
   height: 100%;
   border-radius: 5px;
 }
+
+.small__list {
+  margin-block-end: 0;
+}
