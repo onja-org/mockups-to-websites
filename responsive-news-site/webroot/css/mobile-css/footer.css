@@ -9,7 +9,7 @@ footer {
 footer nav {
   display: block;
 }
-footer ul {
+footer > nav ul {
   list-style: none;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -19,7 +19,7 @@ footer ul {
 }
 
 
-footer a {
+footer > nav > ul > li a {
   padding: 1rem 2rem;
   text-align: center;
   text-decoration: none;
@@ -28,3 +28,60 @@ footer a {
   text-transform: uppercase;
   font-weight: 700;
  }
+
+ footer div {
+  display: block;
+}
+footer > div ul {
+  display: flex;
+  justify-content: flex-start;
+  list-style: none;
+}
+footer > div > ul li {
+  margin-inline-start: 2rem;
+}
+.camera {
+  background-image: url("../camera.svg");
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  padding-left: 1rem;
+  width: 16px;
+  height: 16px;
+  position: relative;
+  right: 23px;
+  margin-block-end: 2rem;
+  margin-block-start: 3rem;
+}
+.facebook {
+  background-image: url("../fb.svg");
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  padding-left: 1rem;
+  width: 16px;
+  height: 16px;
+  position: relative;
+  right: 70px;
+  margin-block-start: 3rem;
+}
+.twitter {
+  background-image: url("../twitter.svg");
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  padding-left: 1rem;
+  width: 16px;
+  height: 16px;
+  position: relative;
+  right: 48px;
+  margin-block-start: 3rem;
+}
+.gb {
+  background-image: url("../glob.svg");
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  padding-left: 1rem;
+  width: 16px;
+  height: 16px;
+  position: relative;
+  right: 90px;
+  margin-block-start: 3rem;
+}
