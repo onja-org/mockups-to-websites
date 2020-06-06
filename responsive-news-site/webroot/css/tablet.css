@@ -121,7 +121,36 @@
     padding-block-start: 12rem;
   }
 
-  .happening__list--image_now {
+  .last_article {
+    columns: 2;
+    padding-inline-end: 0;
+    margin-inline-start: auto;
+    margin-block-end: auto;
+    padding-block-end: 5rem;
+  }
 
+  .small__list--first_image{
+    padding-inline-start: 1rem;
+  }
+
+  .small__list--second_image{
+    padding-block-start: 1.2rem;
+  }
+
+  .small__list--last_image {
+    display: none;
+  }
+
+  .small__list--image_small {
+    width: 284px;
+    height: 180px;
+  }
+
+  .small__list--image1 {
+    margin: 0;
+  }
+
+  .small__list--image2 {
+    margin: 0;
   }
 }
