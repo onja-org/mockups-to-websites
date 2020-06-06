@@ -31,3 +31,14 @@
 .article-environment__list__list-item__care {
   display: none;
 }
+
+@media (min-width: 768px) {
+  .article-environment__list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .article-environment__list__list-item__images {
+    width: 500px;
+    height: 180px;
+  }
+}
