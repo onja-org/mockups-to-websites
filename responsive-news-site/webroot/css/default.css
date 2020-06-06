@@ -32,3 +32,9 @@ body {
   background-size: 0.5rem;
   background-position: 82% 53%, 100% 51% ;
 }
+
+@media (min-width: 768px) {
+  html {
+    max-width: 768px;
+  }
+}

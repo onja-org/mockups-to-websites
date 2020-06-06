@@ -37,6 +37,9 @@ body > header {
   }
   body > header {
     padding: 1.25rem;
+  }
+
+  .header__logo {
     color: #fa6980;
   }
 }
