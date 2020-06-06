@@ -4,7 +4,13 @@ footer {
   opacity: 0.23;
 }
 
-footer .links {
+footer p,
+footer .general-pages,
+footer input {
+  display: none;
+}
+
+footer .specific-pages {
   display: grid;
   grid-template-columns: repeat(2,1fr);
   padding-block-start: 2rem;
