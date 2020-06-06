@@ -14,7 +14,7 @@ footer {
   padding-top: 16px;
   padding-bottom: 16px;
 }
-.more_info--navigation {
+.more_info {
   color: rgba(230, 225, 225, 0.452);
   font-family: Arial, Helvetica, sans-serif;
   text-decoration: none;
@@ -27,20 +27,28 @@ footer {
 .navigation_container {
   display: flex;
   flex-direction: row;
+  margin: 0;
+  padding: 8px;
+}
+.navigation_container li {
+  list-style: none;
+  padding: 10px;
 }
 .navigation__info {
-  background-position: 50% 50%;
+  background-position: 50% 100%;
   background-repeat: no-repeat;
+  text-decoration: none;
+  color: transparent;
 }
 .navigation__instagram {
   background-image: url(../images/icon_instagram.svg);
 }
 .navigation__twiter {
-
+  background-image: url(../images/icon.twiter.svg);
 }
 .navigation__facebook {
-
+  background-image: url(../images/icon.facebook.svg);
 }
 .navigation__world {
-
+  background-image: url(../images/icon.logo.svg);
 }
