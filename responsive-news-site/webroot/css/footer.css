@@ -6,14 +6,16 @@ footer {
 
 footer p,
 footer .general-pages,
-footer input {
-  display: none;
+footer input,
+footer h1,
+footer form {
+display: none;
 }
 
 footer .specific-pages {
   display: grid;
   grid-template-columns: repeat(2,1fr);
-  padding-block-start: 2rem;
+  padding-block-start: 0;
 }
 
  footer li {
@@ -65,4 +67,37 @@ flex-direction: row;
 
 .icons li a {
   display: none;
+}
+
+@media(min-width: 614px) {
+  footer {
+    display: flex;
+    flex-direction: row;
+  }
+  footer a {
+    text-transform: lowercase;
+  }
+  footer .specific-pages li {
+    padding-block-start: 0;
+  }
+.footer-navigation {
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+}
+
+footer p,
+footer input,
+.general-pages,
+footer h1,
+footer form {
+display: block;
+color: #fff;
+}
+.navigation__menus__list-of-menus {
+  color: #fff;
+}
+
+footer li {
+  padding-block-start: 0;
+ }
 }
