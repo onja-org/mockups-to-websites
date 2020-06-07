@@ -3,9 +3,13 @@
   padding-block-start: 2rem;
   padding-inline-start: 1.5rem;
 }
+.more_news ul {
+  list-style: none;
+  padding: 0;
+}
 
 .more__news-information {
-  border-bottom: solid 1px;
+  border-bottom: solid 1px gainsboro;
 }
 
 .details {
@@ -25,4 +29,19 @@
 
 .more_explanation {
   color: #a6adb4;
+}
+
+@media (min-width: 768px) {
+.more__news-information {
+  padding-bottom: 2rem;
+}
+
+  .more_news ul {
+  display: flex;
+  flex-direction: row;
+}
+.more_news ul li {
+  padding-inline-end: 6rem;
+  padding-block-end: 5rem;
+}
 }

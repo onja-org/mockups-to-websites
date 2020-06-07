@@ -41,3 +41,7 @@ button a {
   text-transform: uppercase;
   color: #ffffff;
 }
+
+@media (min-width: 768px) {
+
+}

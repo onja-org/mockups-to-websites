@@ -40,4 +40,9 @@ body > [type="checkbox"]:checked ~ nav {
   body > header {
     padding: 1.25rem;
   }
+
+.title {
+  display: none;
+}
+
 }

@@ -4,3 +4,24 @@
 .trending {
   background-color: #f6f8f9;
 }
+.trending ul li {
+  list-style: none;
+}
+
+@media (min-width: 768px) {
+
+.trending ul {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 2rem;
+}
+
+.trending ul li {
+ padding-inline-start: 2rem;
+}
+
+.trending__dercorational_image {
+  max-width: 284px;
+  max-height: 180px;
+}
+}

@@ -23,12 +23,6 @@
 }
 
 
-body > nav .list__menu_dropdown li {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-
 nav ul li {
   list-style: none;
 }
@@ -104,9 +98,26 @@ nav > header > h1 {
   box-shadow: none;
   transform: none;
   transition: none;
+  line-height: 0;
 }
- body > nav > ul a /*.icon*/{
-padding: 1.25rem;
-background-image: none;
- }
+nav > header > h1 {
+  margin: 0;
+  padding: 0;
+}
+body > nav > ul {
+  display: flex;
+  flex-direction: row;
+  transform: translate(150%);
+}
+
+.contents_menu-home {
+  background-image: none;
+}
+.contents_menu {
+  background-image: none;
+}
+.dropdown_trigger {
+  display: none;
+  content: none;
+}
 }
