@@ -21,3 +21,27 @@ border-radius: 10px;
   font-weight: 600;
   font-family: serif;
 }
+
+@media (min-width: 768px) {
+  .photos {
+    overflow: hidden;
+  }
+
+  .photos ul {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .photos img {
+    max-width: 284px;
+    max-height: 180px;
+  }
+
+  .photos li {
+    margin: 1rem 2rem;
+  }
+
+  .photos li:last-of-type {
+    display: none;
+  }
+}

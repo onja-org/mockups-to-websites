@@ -7,8 +7,24 @@ background-color: #ffffff;
   margin: 2rem;
 }
 
+.more-news header {
+  background-image: url(../../docs/arrow-left.svg),
+                    url(../../docs/arrow-right.svg);
+  background-repeat: no-repeat,
+                     no-repeat;
+  background-position: 90%,
+                       99%;
+  background-size: 6px,
+                   6px;
+}
+
 .more-news h3 {
 text-transform: uppercase;
+margin: 0;
+}
+
+.more-news h4 {
+  margin: 0;
 }
 
 .more-news li {
@@ -22,4 +38,16 @@ text-transform: uppercase;
 
 .more-news p {
   color: #a6adb4;
+  margin: 0;
+}
+
+@media (min-width: 768px) {
+  .more-news ul {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .more-news li {
+    margin: 1rem;
+  }
 }

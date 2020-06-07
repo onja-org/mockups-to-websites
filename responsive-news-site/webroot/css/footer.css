@@ -9,6 +9,10 @@ footer {
   grid-template-columns: 1fr 1fr;
 }
 
+.mobile-none {
+  display: none;
+}
+
 footer li {
   list-style: none;
   margin: 1rem;
@@ -51,3 +55,58 @@ background-image: url(../../docs/twitter-icon.svg);
 .navig {
   background-image: url(../../docs/nav-icon.svg);
 }
+
+footer div:first-of-type {
+  display: none;
+}
+
+@media (min-width:768px) {
+  footer div {
+    margin: 2rem;
+  }
+
+  .mobile-none {
+    display: block;
+  }
+
+  .grid {
+    display: flex;
+    columns: 3;
+    padding-block-start: 0;
+  }
+
+.grid li {
+  margin: 0;
+}
+
+  footer {
+    display: flex;
+    flex-direction: row;
+  }
+
+footer h1 > a,
+footer p {
+  font-size: small;
+  color: rgba(255, 255, 255, 0.7);
+  text-shadow: 0 0 2px rgba(0, 0, 0, 0.1);
+}
+
+footer h1 {
+margin-block-end: 6rem;
+font-family: serif;
+}
+
+footer div:first-of-type {
+  display: block;
+}
+
+.input {
+  padding: 0 1rem;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  background-image: url(../../docs/input.svg);
+  background-repeat: no-repeat;
+  background-position: 90%;
+  background-size: 1rem;
+}
+}
+

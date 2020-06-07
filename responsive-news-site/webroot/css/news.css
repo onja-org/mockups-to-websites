@@ -17,6 +17,11 @@ height: 100%;
 transform: translate(-50%, -50%);
 }
 
+.news h3,
+.news p {
+  padding-inline-start: 1rem;
+}
+
 .news .learn-more {
   background-color: #fa6980;
   text-transform: uppercase;
@@ -32,6 +37,12 @@ transform: translate(-50%, -50%);
   font-weight: 700;
 }
 
+
 .news header {
   border-bottom: 2px solid #ffffff;
+
+}
+
+@media (min-width: 768px) {
+  .news {}
 }
