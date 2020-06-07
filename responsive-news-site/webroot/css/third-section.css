@@ -11,8 +11,10 @@
 }
 @media (min-width: 768px) {
   .lists__container {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    column-gap: 5%;
+    columns: 2;
+  }
+  .article_heading--trending {
+    margin-inline-start: 2rem;
+    margin-inline-end: 2rem;
   }
 }
