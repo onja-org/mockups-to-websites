@@ -31,8 +31,8 @@ h2 {
 .timing {
   color: #a6adb4;
   font-style: oblique;
-}
-.timing::before {
-  content: "";
-  clip-path: circle(10% at 10% 10%);
+  background-image: url(../image/duration.svg);
+  background-position: left;
+  background-repeat: no-repeat;
+  padding-inline-start: 2rem;
 }
