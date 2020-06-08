@@ -1,5 +1,14 @@
+a {
+  background-position: left;
+  width: 15px;
+  height: 15px;
+}
+
 .home{
+  position: relative;
   background-image: url('../images/icon-home.svg');
-  width: 2px;
-  height: 2px;
+  background-repeat: no-repeat;
+  background-position: 0 80%;
+  width: 20%;
+  height: 20%;
 }

@@ -74,7 +74,7 @@ body > header {
 }
 
 
-.profile_image{ 
+.profile_image{
   border-radius: 50%;
   height: 2rem;
   width: 2rem;
@@ -82,7 +82,14 @@ body > header {
 
 
 /*tablet*/
-@media(min_width: 768px) {
-  /hide menu icon and profile link*/
-  body 
+/*hide menu icon and profile link*/
+@media(min-width: 768px){
+  body > header{
+    .profile_image{
+      position: top, left;
+      width: 2rem;
+      height: 2rem;
+    }
+  }
 }
+
