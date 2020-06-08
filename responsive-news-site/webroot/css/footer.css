@@ -24,12 +24,15 @@ body > footer a {
 
 .links_site {
   columns: 2;
-  margin: 3.5rem 0;
-  padding: 0.5rem 0;
+  margin-block-start: 3.5rem;
+  margin-block-end: 3.5rem;
+  padding-block-start: 0.5rem;
+  padding-block-end: 0.5rem;
 }
 
 .links_site li {
-  margin: 0.5rem 0;
+  margin-block-start: 0.5rem;
+  margin-block-end: 0.5rem;
 }
 
 .links_site a {
@@ -57,4 +60,12 @@ body > footer a {
   flex-direction: row;
   justify-content: space-between;
   max-width: 8.5rem;
+}
+
+@media (min-width: 768px) {
+  body > footer > * {
+    max-width: 37.5rem;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+  }
 }

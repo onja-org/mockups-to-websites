@@ -1,3 +1,11 @@
 #section_trending article {
   background-color: #fff;
 }
+
+@media (min-width: 768px) {
+  #section_trending > * {
+    max-width: 37.5rem;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+  }
+}

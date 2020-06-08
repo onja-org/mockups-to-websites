@@ -25,3 +25,11 @@
 #section_more_news .category a {
   color: #FA6980;
 }
+
+@media (min-width: 768px) {
+  #section_more_news > * {
+    max-width: 37.5rem;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+  }
+}

@@ -1,5 +1,6 @@
 article {
   padding: 1.5rem;
+  box-sizing: border-box;
 }
 
 .article_header {

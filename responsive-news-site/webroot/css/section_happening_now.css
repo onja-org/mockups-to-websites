@@ -14,3 +14,11 @@
   border-block-start: 2px solid #EBEDED;
   padding-block-start: 2.5rem;
 }
+
+@media (min-width: 768px) {
+  #section_happening_now > * {
+    max-width: 37.5rem;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+  }
+}
