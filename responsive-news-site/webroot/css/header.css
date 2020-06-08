@@ -94,7 +94,6 @@ body > [type="checkbox"]:checked  ~ label {
   }
 
   .navigation {
-    position: normal;
   top: 0;
   bottom: 0;
   left: 0;
@@ -107,6 +106,7 @@ body > [type="checkbox"]:checked  ~ label {
     display: flex;
     flex-direction: row;
     align-items: stretch;
+    justify-content: right;
   }
   body > nav {
     padding: 0;
@@ -125,6 +125,9 @@ body > [type="checkbox"]:checked  ~ label {
     padding: 0;
   }
   input {
+    display: none;
+  }
+  .site_header__profile__text__span {
     display: none;
   }
 }

@@ -26,3 +26,17 @@ body > header > label {
 .site_header__profile__image--nav {
   border-radius: 1rem;
 }
+@media (min-width: 768px) {
+.navigation__link--contact {
+  background-image: none;
+}
+.navigation__link--discovery {
+  background-image: none;
+}
+.navigation__link--photos {
+  background-image: none;
+}
+.navigation__link--home {
+  background-image: none;
+}
+}
