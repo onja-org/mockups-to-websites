@@ -34,4 +34,8 @@
     margin-inline-start: auto;
     margin-inline-end: auto;
   }
+
+  #section_featured .article_header {
+    width: 100%;
+  }
 }

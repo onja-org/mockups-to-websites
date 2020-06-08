@@ -28,11 +28,20 @@
       "simple simple";
     grid-template-columns: 1fr 1fr;
     grid-column-gap: 2.5rem;
+    column-gap: 2.5rem;
+    grid-row-gap: 2.5rem;
+    row-gap: 2.5rem;
   }
 
   #section_happening_now > header {
     grid-column-start: 1;
     grid-column-end: 3;
+    margin-block-end: 0;
+  }
+
+  #section_happening_now article[class*="article"] {
+    margin-block-start: 0;
+    margin-block-end: 0;
   }
 
   #section_happening_now article:nth-of-type(1) {

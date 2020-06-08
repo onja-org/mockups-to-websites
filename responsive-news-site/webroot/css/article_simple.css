@@ -12,6 +12,10 @@
   order: 2;
 }
 
+.article_simple .article_title {
+  margin-block-end: 0;
+}
+
 .article_simple .article_image {
   order: 1;
   height: calc((100vw - 3rem) / 2);

@@ -44,3 +44,9 @@
 .article_card .publication_details time {
   background-image: url(../images/icons/icon_clock_white.svg);
 }
+
+@media (min-width: 768px) {
+  .article_card .article_title {
+    margin-block-start: 10rem;
+  }
+}
