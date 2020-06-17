@@ -1,6 +1,6 @@
 .footer__link {
   background-color: lightgrey;
-  padding-block-start: 2rem;
+  padding-block-start: -2rem;
   margin-block-start: -1rem;
   padding-block-end: 2rem;
 }
@@ -35,6 +35,10 @@
   opacity: 0.5;
 }
 
+.footer__header {
+  display: none;
+}
+
 @media (min-width: 768px) {
   .navigation__footer {
     display: flex;
@@ -42,6 +46,10 @@
     justify-content: space-evenly;
     align-items: flex-start;
     padding-block-start: 8rem;
+  }
+  .footer__header {
+    padding-block-start: 2rem;
+    display: block;
   }
   .footer__container {
     margin-block-start: -10rem;
