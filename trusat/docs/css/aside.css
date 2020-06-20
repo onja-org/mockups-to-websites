@@ -27,14 +27,14 @@ section:nth-of-type(3) td {
 
 section:nth-of-type(3) td:first-of-type {
   text-transform: uppercase;
-  width: 143px;
+  max-width: 143px;
   line-height: 125%;
   height: 30px;
   transform: translateY(4%);
 }
 
 section:nth-of-type(3) td:nth-of-type(2) {
-width: 143px;
+max-width: 143px;
 text-align: right;
 margin-inline-end: 4%;
 }
@@ -71,7 +71,7 @@ section:last-of-type td {
 
 .box:nth-of-type(2) {
   border-right: 2px solid #FFFFFF;
-  width: 90px;
+  max-width: 90px;
   border-block-start: 1px solid #848890;
   border-block-start: 1px solid #848890;
 }
@@ -145,7 +145,7 @@ table,
 #explanation,
 form,
 .stat {
-  width: 300px;
+  max-width: 300px;
 }
 
 .stat,
@@ -196,12 +196,12 @@ img[alt="satellite"] {
 
 img[alt="eye"] {
   top: 30%;
-  width: 43px;
+  max-width: 43px;
   height: 32px;
 }
 
 #white-border {
   border-top: #FFFFFF 1px solid;
   transform: rotate(90deg) translate(56px, -245px);
-  width: 111px;
+  max-width: 111px;
 }

@@ -59,12 +59,12 @@ th {
 
 .dd {
   border-bottom: #FFFFFF 2px solid;
-  width: 753px;
+  max-width: 753px;
 }
 
 article td {
   border-block-end: 1px solid #113051;
-  height: 105px;
+  max-height: 105px;
 }
 
 article tr:last-of-type td {
@@ -93,7 +93,7 @@ tr {
 }
 
 article, article table {
-  width: 753px;
+  max-width: 753px;
 }
 
 th {
@@ -101,12 +101,12 @@ th {
 }
 
 tr > th:nth-of-type(1) {
-  width: 892px;
+  max-width: 892px;
 }
 
 tr > th:nth-of-type(4),
 tr > th:nth-of-type(5){
-  width: 580px;
+  max-width: 580px;
 }
 
 .discovered {
