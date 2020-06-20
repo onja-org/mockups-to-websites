@@ -47,10 +47,11 @@
 }
 
 .pattern {
-  height: 200px;
+  height: calc(50vw - 0rem);
   width: 100%;
   border-radius: 5px 5px 0 0;
 }
+
 
 @media (min-width: 768px) {
   .trending__container {
@@ -61,5 +62,9 @@
   .trending {
     padding-inline-start: 5rem;
     padding-inline-end: 5rem;
+    padding-block-end: 4rem;
+  }
+  .pattern {
+    height: calc(50vw - 10rem);
   }
 }
