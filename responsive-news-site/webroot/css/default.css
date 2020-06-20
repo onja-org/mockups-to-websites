@@ -8,6 +8,10 @@ body {
   margin: 0;
 }
 
+img {
+  max-width: 100%;
+}
+
 .container {
   background-color: #f6f8f9;
 }
@@ -34,9 +38,7 @@ body {
 }
 
 @media (min-width: 768px) {
-  html {
-    max-width: 768px;
-  }
+
   .heading {
     background-position: 90% 20%, 100% 20%;
     margin-block-start: 0rem;
