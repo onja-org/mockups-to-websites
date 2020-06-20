@@ -50,7 +50,6 @@
   z-index: 1;
   background-color: #f6f8f9;
   padding-inline-start: 2rem;
-  width: 290px;
   padding-block-start: 1rem;
  }
 
@@ -115,8 +114,6 @@ body > [type="checkbox"]:checked ~ header label {
     transition: none;
     box-shadow: none;
     background-color: transparent;
-    width: auto;
-    margin-inline-end: 35rem;
   }
   body > .navigation > .navigation__container {
    flex-direction: row;
