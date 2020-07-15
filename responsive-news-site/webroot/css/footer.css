@@ -14,7 +14,7 @@ footer > nav {
   height: 55%;
 }
 
-.navigation__footer {
+.navigation__footer2 {
   display: grid;
   grid-template-columns: repeat(2, 125px);
   column-gap: 16px;
@@ -48,4 +48,10 @@ footer > nav {
 .social__media__images > a {
   text-decoration: none;
   visibility: hidden;
+}
+.order__list {
+  display: none;
+}
+.form {
+  display: none;
 }
