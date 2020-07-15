@@ -1,6 +1,7 @@
 :root {
   --heading-padding: 2rem;
 }
+
 .article_heading {
   text-transform: uppercase;
   padding-inline-start: var(--heading-padding);
@@ -9,7 +10,35 @@
   padding-block-end: var(--heading-padding);
   margin: 0;
 }
+
 .section {
   background-color: rgb(246, 247, 248);
 }
 
+article {
+  padding-block-start: 2rem;
+  padding-block-end: 2rem;
+  padding-inline-end: 2rem;
+  padding-inline-start: 2rem;
+}
+
+section:nth-of-type(3) {
+  padding-block-start: 2rem;
+  padding-block-end: 2rem;
+  padding-inline-end: 2rem;
+  padding-inline-start: 2rem;
+}
+
+section:nth-of-type(4) {
+  padding-block-start: 2rem;
+  padding-block-end: 2rem;
+  padding-inline-end: 2rem;
+  padding-inline-start: 2rem;
+}
+
+section:nth-of-type(5) {
+  padding-block-start: 2rem;
+  padding-block-end: 2rem;
+  padding-inline-end: 2rem;
+  padding-inline-start: 2rem;
+}
