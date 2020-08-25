@@ -16,3 +16,10 @@ This responsive web UI design is for a fictitious and unnamed PC Game
 See if you can build it within the `webroot` folder :)
 
 Good luck!
+
+## Additional artworks
+
+This mockup includes extra artwork from:
+
+- [Angelina Andreas](https://angelinaandreas.artstation.com/projects/N5RYK5)
+- [Raul Osorio](https://www.artstation.com/artwork/e03yeJ)
