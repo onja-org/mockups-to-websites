@@ -5,6 +5,7 @@ body > header {
   z-index: 3;
 }
 
+
 header > nav > ul > li a{
   text-decoration: none;
   margin-right: 65px;
@@ -13,14 +14,12 @@ header > nav > ul > li a{
   margin-left: 40px;
 }
 
-.link{
-  color: midnightblue;
-  box-sizing: border-box;
-  margin-left: 418px;
+
+.link {
+  display: block;
+  padding: 1.5rem;
   background-color: whitesmoke;
-  font-weight: bold;
-  border-radius: 3rem;
-  text-align: center;
-  line-height: 6;
-  text-decoration: none;
-}
+  border: none;
+  border-radius: 30px;
+  margin-left: 300px;
+  }

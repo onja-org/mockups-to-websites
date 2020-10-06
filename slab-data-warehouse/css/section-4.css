@@ -1,6 +1,7 @@
 #section_testimonials {
   background-color: rgba(156, 105, 226, 1);
-  border-radius: 10%;
+  border-radius: 5%;
+  max-width: 100%;
   height: 600px;
   margin: auto;
   margin-block-start: 139px;
@@ -17,12 +18,12 @@
 #section_testimonials ul{
   display: flex;
   flex-direction: row;
-  padding-left: 50px;   
+  padding-left: 50px;
 }
 
 #section_testimonials ul > li {
   list-style: none;
-} 
+}
 
 .user_1 {
   background-image: url(../images/user-1.png);
@@ -34,7 +35,7 @@
   padding-inline-start: 93px;
   padding-block-start: 50px;
   border-radius: 10%;
-  
+
 }
 
 .user_2{

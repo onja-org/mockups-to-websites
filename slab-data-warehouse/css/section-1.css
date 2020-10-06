@@ -1,3 +1,9 @@
+body {
+  font-size: 16px;
+  margin: 0;
+}
+
+
 body > main > header h1 {
   width: 645px;
   height: 184px;
@@ -18,30 +24,23 @@ body > main > header {
   background-image: url(../images/image-1-1.png);
   background-position: 70% 30%;
   background-repeat: no-repeat;
-  /*margin-top: 50px;
-  margin-left: 240px;
-  margin-right: 112px;
-  width: 1248px;*/
   margin: auto;
   height: 754px;
 }
 
-/*.section_1 {
-  margin-top: 336px;
-  margin-left: 603px;
-}*/
 
 .button-link {
-  background-color: rgb(197, 133, 197);
-  width: 15%;
-  height: 15%; 
-  display: inline-block;
-  text-decoration: none;
-  font-weight: bold;
-  border-radius: 2rem;
-  line-height: 4;
+    display: block;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-bottom: 1.5rem;
+    padding-top: 1.5rem;
+    background-color:  rgb(197, 133, 197);
+    border: none;
+    border-radius: 30px;
+}
+
+.button-link a {
   color: white;
-  text-align: center;
-  box-sizing: border-box;
-  /*margin-top: 50px;*/
+  text-decoration: none;
 }

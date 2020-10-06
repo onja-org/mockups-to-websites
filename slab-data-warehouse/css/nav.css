@@ -1,22 +1,18 @@
-header > nav {
-    line-height: 1rem;
-  }
-
-header > nav ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
+  nav ul {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: row;
   }
 
-header > nav a {
-    font-size: 1rem;
-    margin-top: 50px;
-    margin-left: 240px;
-    margin-right: 240px;
+
+  ul > li {
+    font-size: 16px;
+    list-style: none;
+    margin-top: 10px;
   }
 
-nav ul li {
-    margin-inline-end: 1rem;
+  ul > li > a {
+    color: blue;
   }
+
+
+
