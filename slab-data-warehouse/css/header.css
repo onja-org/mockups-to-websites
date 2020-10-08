@@ -1,8 +1,5 @@
-
-.header > nav {
+.slab_data__header {
   margin-inline-start: auto;
-  margin-block-start: 65px;
-  margin-block-start: 145px;
 }
 .header > nav > ul {
   list-style: none;
