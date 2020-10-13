@@ -1,0 +1,128 @@
+  #section-feature header > h3{
+    transform: translate(902px, 118px);
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 130%;
+    color: #212353;
+  }
+
+  #section-feature header > p {
+    transform: translate(749px, 115px);
+    width: 584px;
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 160%;
+    text-align: center;
+    color: #4B5D68;
+  }
+
+  .feature {
+    position: relative;
+    padding-block-start: 49px;
+    padding-block-end: 33px;
+    padding-inline-start: 172px;
+    padding-inline-end: 50px;
+    margin: 2rem;
+    margin-inline-start: 102px;
+    list-style: none;
+    border-radius: 50px;
+    font-size: 16px;
+    width: 264px;
+    height: 272px;
+  }
+
+  .feature > h4 {
+    font-size: 24px;
+    font-weight: 400px;
+    height: 50px;
+    color:#212353;
+    margin: 0;
+    margin-block-end: 20px;
+  }
+  .feature > p {
+    color:  #4B5D68;
+    font-size: 16px;
+    line-height: 1.6;
+  }
+  .feature.more-links {
+    margin-block-start: 20px;
+  }
+  .more-links a {
+    color: #212353;
+    font-weight: 700;
+    text-decoration: none;
+  }
+  .feature::before {
+    position: absolute;
+    left: -50px;
+    top: 50%;
+    display: block;
+    content: '';
+    width: 250px;
+    height: 290px;
+    transform: translate(-50%);
+  }
+
+#feature-search-data {
+  background-color: rgba(104, 201, 186, 0.1);
+  position: absolute;
+  left: 413.29px;
+  top: 1806px;
+}
+
+#feature-search-data::before {
+  content: '';
+  background-image: url(../css/search-dt.png);
+  background-repeat: no-repeat;
+}
+#feature-print-out{
+  position: absolute;
+  left: 407px;;
+  top: 2242px;
+  background: #F063B8;
+  opacity: 0.1;
+}
+#feature-print-out::before {
+  content: "";
+  background-image: url(../css/print.png);
+  background-repeat: no-repeat;
+}
+#feature-24-hours-access {
+  position: absolute;
+  left: 1130.29px;
+  top: 1795px;
+  border-radius: 50px;
+  background: #9C69E2;
+  opacity: 0.1;
+}
+#feature-24-hours-access::before {
+  content: "";
+  background-image: url(../css/access.png);
+  background-repeat: no-repeat;
+}
+#feature-security-code {
+  position: absolute;
+  left: 1139.28px;
+  top: 2232px;
+  background: #2D9CDB;
+  opacity: 0.1;
+  border-radius: 20px;
+}
+
+#feature-security-code::before {
+  background-image: url(../css/secure-code.png);
+  background-repeat: no-repeat;
+  content: '';
+}
+
+
+
+
+
+
+
+

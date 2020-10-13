@@ -1,0 +1,98 @@
+ #section-testimonial {
+    width: 1375px;
+    height: 709px;
+    background: #9C69E2;
+    border-radius: 50px;
+    transform: translate(326px, 1128px);
+    border-bottom: 1px grey solid;
+    margin: 2rem;
+}
+
+
+#section-testimonial header > h4 {
+  width: 405px;
+  height: 52px;
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 130%;
+  display: flex;
+  align-items: center;
+  color: #FFFFFF;
+  transform: translate(118px, 109px);
+}
+.testimonial {
+  transform: translate(93px, 144px);
+  padding-inline-start: 245px;
+  padding-block-start: 329;
+  width: 345px;
+  height: 300px;
+  background-color: white;
+  list-style: none;
+  display: inline-block;
+  border-radius: 1rem;
+}
+  .testimonial > h5 {
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 160%;
+    align-items: center;
+    letter-spacing: 0.005em;
+    color: #212353;
+  }
+  .testimonial > p {
+    width: 340px;
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 180%;
+    color: #4B5D68;
+  }
+  .testimonial > p > a {
+    text-decoration: none;
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 160%;
+    align-items: center;
+    letter-spacing: 0.01em;
+    color: #9C69E2;
+  }
+
+  ul {
+    display: flex;
+    justify-content: space-between;
+
+  }
+
+   #john-testimonial {
+    content: '';
+    background-image: url(../css/john.png);
+    background-repeat: no-repeat;
+    background-position: left 25% top 18%;
+}
+
+  #jeny-testimonial  {
+  content: '';
+  background-image: url(../css/jen.png);
+  background-repeat: no-repeat;
+  background-position: left 25% top 18%;
+  }
+
+  #william-testimonial  {
+    content: '';
+    background-image: url(../css/william.png);
+    background-repeat: no-repeat;
+    background-position: left 25% top 18%;
+    overflow: hidden;
+    }
+
+
+
+
+
